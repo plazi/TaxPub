@@ -200,8 +200,8 @@ Delivered as file "taxpubcustom-elements.ent"                       -->
 
 <!ELEMENT	tp:taxon-name-part		(#PCDATA  | tp:taxon-name-part | object-id)* >
 <!ATTLIST	tp:taxon-name-part	
-				taxon-name-part-type		CDATA		#REQUIRED 
-                                                       reg                            CDATA                       #IMPLIED >
+				taxon-name-part-type	%pensoft-name-part-types;
+             reg                            CDATA                       #IMPLIED >
 <!--
 ~tp:taxon-name-part~
 ~note: A component of taxonomic name. For example, specific epithet, genus name, etc... ~

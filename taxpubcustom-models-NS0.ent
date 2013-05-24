@@ -612,4 +612,22 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!ENTITY	% taxpub-namespace-att
 				"xmlns:tp 		CDATA                            #FIXED
                                      'http://www.plazi.org/taxpub'	"	>																									                                                                       
+
+<!--                    PENSOFT tp:name-part TYPES               -->
+<!--                    Type attribute values for the <tp:name-part> element     -->
+<!--                    Values taken from DarwinCore http://rs.tdwg.org/dwc/terms/Taxon   -->
+<!ENTITY % pensoft-name-part-types '(kingdom |
+                                         phylum                               | 
+                                         class | 
+                                         order | 
+                                         family | 
+                                         genus | 
+                                         subgenus | 
+                                         specificEpithet | 
+                                         infraspecificEpithet)		"specificEpithet"'                       >
+
+
+
+
+
 <!-- ================== End Publishing Content/ATT Override ======   -->
