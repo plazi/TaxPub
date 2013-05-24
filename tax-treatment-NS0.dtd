@@ -1,0 +1,469 @@
+<!-- $Id: tax-treatment-NS0.dtd 176 2011-06-06 19:44:41Z tcatapano $ -->
+<!-- ============================================================= -->
+<!-- ============================================================= 
+This DTD is a modification of the orignal TaxPub DTD extension to the 
+NLM Journal Publishing DTD version 3.0 created in September 2008.
+
+This is version 0.5 and should be considered a beta version. 
+
+This version was created on June 6, 2011. 
+
+Donat Agosti, Terry Catapano, Lyubomir Penev, Bob Morris, Scott Federhen,
+Laura Kelly, Jeff Beck.
+
+-->
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v0.5 20110606//EN"
+     Delivered as file "tax-treatment0.dtd"                     -->
+<!-- ============================================================= -->
+
+ 
+ 
+<!-- ============================================================= -->
+<!--                    MODULES OF MODULES INVOKED                 -->
+<!-- ============================================================= -->
+
+
+<!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
+<!--                    Names all DTD-specific external modules    -->
+<!ENTITY % taxpubcustom-modules.ent 
+                        PUBLIC  
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.5 20110606//EN"
+"taxpubcustom-modules-NS0.ent"                                      >
+%taxpubcustom-modules.ent;
+
+
+<!--                    MODULE TO NAME THE MODULES                 -->
+<!--                    Declares all the external modules that are  
+                        part of the modular Journal Archiving and 
+                        Interchange DTD Suite library. Thus it does
+                        NOT declare itself; the DTD-specific 
+                        module-of-modules; or the DTD-specific class,
+                        mix, or model over-ride modules. Those are
+                        declared in the DTD-specific module of modules.
+                           Since this module declares but does not
+                        invoke modules, this DTD invokes any modules
+                        it uses by referencing the external 
+                        Parameter Entities defined in the Module of
+                        Modules. To include a set of elements (such 
+                        as all the lists or the MathML elements) this 
+                        module defines the external Parameter Entity
+                        for the module(s) that contains the MathML
+                        declarations and the DTD references that 
+                        entity.                                    -->
+<!ENTITY % modules.ent  PUBLIC  
+"-//NLM//DTD Archiving and Interchange DTD Suite Module of Modules v3.0 20080202//EN"
+"modules3.ent"                                                       >
+%modules.ent;
+
+
+<!-- ============================================================= -->
+<!--                    CUSTOMIZATION MODULES INVOKED              -->
+<!--                    Note: These modules must be called after   -->
+<!--                    all Module of Modules but before any other -->
+<!--                    modules. Unlike any other grouping, order  -->
+<!--                    of these modules matters.                  -->
+<!-- ============================================================= -->
+
+
+<!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
+<!--                    Names the module that holds the DTD-specific
+                        class definitions for the Journal Publishing
+                        DTD that will over-ride classes in the Suite.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%taxpubcustom-classes.ent; 
+
+
+<!--                    DEFAULT ELEMENT CLASSES MODULE             -->
+<!--                    Names the module that holds the standard
+                        class definitions for the Journal Archiving
+                        and Interchange DTD Suite.                 -->
+%default-classes.ent; 
+
+
+<!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
+<!--                    Set up the Parameter Entities and element
+                        class definitions that will be used to
+                        over-ride some element mixes in this DTD.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%taxpubcustom-mixes.ent; 
+
+
+<!--                    DEFAULT MIX CUSTOMIZATIONS MODULE          -->
+<!--                    Names the module that holds the standard
+                        mix definitions for the Journal Archiving
+                        and Interchange DTD Suite.                 -->
+%default-mixes.ent; 
+
+
+<!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS 
+                        MODULE                                     -->
+<!--                    Names the module that holds the over-rides
+                        of content models, attribute lists, elements
+                        lists to be used in content models, and
+                        attribute values. These are DTD-specific.
+                        (Defined in %journalpubcustom-modules.ent;)-->
+%taxpubcustom-models.ent; 
+
+
+
+<!-- ============================================================= -->
+<!--                    COMMON (SHARED) ELEMENTS MODULE INVOKED    -->
+<!-- ============================================================= -->
+
+
+<!--                    COMMON (SHARED) DECLARATIONS               -->
+<!--                    Declarations for elements, attributes, 
+                        entities, and Notations that are shared by
+                        more than one class module. Note: Must be 
+                        called before any of the class modules.    -->
+
+%common.ent; 
+
+ 
+<!-- ============================================================= -->
+<!--                    JOURNAL ARTICLE CLASS ELEMENTS (alpha)     -->
+<!-- ============================================================= -->
+
+
+<!--                    TAXONOMIC TREATMENT ELEMENTS                  -->
+%taxpubcustom-elements.ent;
+
+
+
+<!--                    ARTICLE METADATA ELEMENTS                  -->
+%articlemeta.ent;
+
+
+<!--                    BACK MATTER ELEMENTS                       -->
+%backmatter.ent; 
+
+
+<!--                    DISPLAY (GRAPHICAL) ELEMENTS               -->
+%display.ent; 
+
+
+<!--                    FORMATTING ELEMENT CLASSES                 -->
+<!--                    Elements that change rendition/display.    -->
+%format.ent; 
+
+
+<!--                    FUNDING ELEMENTS                           -->
+<!--                    Elements that describe the sponsorship or
+                        open access                                -->
+%funding.ent; 
+
+
+<!--                    JOURNAL METADATA ELEMENTS                  -->
+%journalmeta.ent; 
+
+
+<!--                    LINK CLASS ELEMENTS                        -->
+%link.ent; 
+
+
+<!--                    LIST CLASS ELEMENTS                        -->
+%list.ent; 
+
+
+<!--                    MATH ELEMENTS                              -->
+%math.ent; 
+
+
+<!--                    NLM CITATION ELEMENT                       -->
+%nlmcitation.ent; 
+
+
+<!--                    PARAGRAPH-LEVEL ELEMENTS                   -->
+%para.ent; 
+
+
+<!--                    PHRASE-LEVEL ELEMENTS                      -->
+%phrase.ent; 
+
+
+<!--                    BIBLIOGRAPHIC REFERENCE (CITATION) 
+                        CLASS ELEMENTS                             -->
+%references.ent; 
+ 
+
+<!--                    RELATED OBJECT ELEMENT                     -->
+<!--                    Defines the <related-object> element to
+                        describe a related object such as a
+                        related book or a dataset.                 -->
+%related-object.ent; 
+
+
+<!--                    SECTION ELEMENTS                           -->
+%section.ent; 
+
+ 
+<!-- ============================================================= -->
+<!--                    THE REST OF THE EXTERNAL MODULES INVOKED   -->
+<!-- ============================================================= -->
+
+
+<!--                    MATHML SETUP MODULE                        -->
+<!--                    Invoke the MathML modules                  -->
+%mathmlsetup.ent;                                             
+
+
+
+<!--                    XHTML TABLE SETUP MODULE                   -->
+<!--                    Set up the necessary Parameter Entity values
+                        and then invoke XHTML (HTML 4.0) table 
+                        module                                     -->
+%XHTMLtablesetup.ent; 
+
+
+<!--                    SPECIAL CHARACTERS DECLARATIONS            -->
+<!--                    Standard XML special character entities 
+                        used in this DTD                           -->
+%xmlspecchars.ent;    
+
+
+<!--                    CUSTOM SPECIAL CHARACTERS DECLARATIONS     -->
+<!--                    Custom special character entities created 
+                        specifically for use in this DTD Suite     -->
+%chars.ent; 
+
+
+<!--                    NOTATION DECLARATIONS MODULE               -->
+%notat.ent; 
+
+
+<!-- ============================================================= -->
+<!--                    PARAMETER ENTITIES FOR ATTRIBUTE LISTS     -->
+<!-- ============================================================= -->
+
+
+<!--                    DTD VERSION                                -->
+<!--                    What version of this DTD was used to make
+                        the document instance under consideration.
+                        Note that this is a fixed value that should
+                        change every time the DTD changes versions or
+                        revisions.                                 -->
+<!ENTITY % dtd-version   
+            "dtd-version        
+                        CDATA                          #FIXED '3.0'" >
+
+
+
+<!--                    ARTICLE ATTRIBUTES                         -->
+<!--                    Attributes for the top-level element
+                        <article>                                  -->
+<!ENTITY % article-atts
+            "article-type   
+                        CDATA                              #IMPLIED
+             %dtd-version;                              
+             xml:lang   NMTOKEN                            'en'     
+             %XLINK.xmlns.attrib;
+             %MATHML.xmlns.attrib;
+             %Schema.xmlns.attrib;
+                         xmlns:tp 		CDATA                            #FIXED
+                                     'http://www.plazi.org/taxpub'	         "                                  >
+
+
+<!--                    SUB-ARTICLE ATTRIBUTES                     -->
+<!--                    Attributes for the <sub-article> element   -->
+<!ENTITY % sub-article-atts
+            "article-type   
+                        CDATA                              #IMPLIED
+             id         ID                                 #IMPLIED  
+             xml:lang   NMTOKEN                            'en'"     >
+
+
+<!--                    RESPONSE ATTRIBUTES                        -->
+<!--                    Attributes for the <response> element      -->
+<!ENTITY % response-atts
+            "response-type   
+                        CDATA                              #IMPLIED
+             id         ID                                 #IMPLIED  
+             xml:lang   NMTOKEN                            'en'"     >
+                                                               
+
+<!-- ============================================================= -->
+<!--                    JOURNAL ARTICLE ELEMENTS                   -->
+<!-- ============================================================= -->
+
+
+<!--                    ARTICLE MODEL (LIMITED)                    -->
+<!--                    Article-like model used for, for example,
+                        a short sub-article such as a news brief that
+                        is contained in side a journal article.
+                                                                   -->
+<!ENTITY % article-short-model    
+                        "((front | front-stub), body?, back?,
+                          floats-group?)"                            >
+
+
+<!--                    ARTICLE MODEL WITH SUBARTICLE OR RESPONSE  -->
+<!--                    Typical journal article model, which may
+                        contain extended components, such as
+                        sub-articles or responses, but which usually
+                        contains neither.  
+                                                                   -->
+<!ENTITY % article-full-model
+                        "(front, body?, back?, floats-group?,
+                         (sub-article* | response*) )"               >
+
+
+<!--                    ARTICLE                                    -->
+<!--                    The complete content of a journal article.
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=article
+                                                                   -->
+<!ELEMENT  article      %article-full-model;                         >
+<!ATTLIST  article
+             %article-atts;                                          >
+
+
+<!-- ============================================================= -->
+<!--                    FRONT MATTER ELEMENTS                      -->
+<!-- ============================================================= -->
+
+
+<!--                    FRONT MATTER MODEL                         -->
+<!--                    Model for the <front> matter (the header
+                        metadata) of a journal article)            -->
+<!ENTITY % front-model  "(journal-meta, article-meta, 
+                          (%front-back.class;)? )"                   >
+
+
+<!--                    FRONT MATTER                               -->
+<!--                    The metadata concerning an article, such as
+                        the name and issue of the journal in which it
+                        appears and the name and author(s) of the 
+                        article.
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=front
+                                                                   -->
+<!ELEMENT  front        %front-model;                                > 
+
+
+<!-- ============================================================= -->
+<!--                    BODY ELEMENTS                              -->
+<!-- ============================================================= -->
+
+
+<!--                    BODY MODEL                                 -->
+<!--                    Content model for the Body (main textual
+                        content) of a journal article.             -->
+<!ENTITY % body-model   "((%para-level;)*, (%sec-level;)*,
+                          sig-block?)"                               > 
+
+
+<!--                    BODY OF THE ARTICLE                        -->
+<!--                    The main textual portion of the article that
+                        conveys the content. 
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=body
+                                                                   -->
+<!ELEMENT  body         %body-model;                                 >
+
+
+<!-- ============================================================= -->
+<!--                    BACK MATTER ELEMENTS                       -->
+<!-- ============================================================= -->
+
+
+<!--                    BACK MATTER MODEL                          -->
+<!--                    Content model for the Back Matter (ancillary
+                        material such as appendices) of a journal
+                        article.                                   -->
+<!ENTITY % back-model   "(label?, title*, (%doc-back-matter-mix;)* )">
+
+
+<!--                    BACK MATTER                                -->
+<!--                    Ancillary or supporting material not included
+                        as part of the main textual content of a 
+                        journal article, for example appendices and
+                        acknowledgments. 
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=back
+                                                                   -->
+<!ELEMENT  back         %back-model;                                 >
+
+<!-- ============================================================= -->
+<!--                    SUBARTICLE                                 -->
+<!-- ============================================================= -->
+
+
+<!--                    SUBARTICLE MODEL                           -->
+<!--                    Content model for the <sub-article> element
+                                                                   -->
+<!ENTITY % sub-article-model   
+                        "((front | front-stub), body?, back?,
+                          floats-group?, 
+                          (sub-article* | response*) )"              >
+
+
+<!--                    SUBARTICLE                                 -->
+<!--                    An article that is completely contained 
+                        inside another article. Both the article and
+                        the sub-article have their own metadata.
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=sub-article
+                                                                   -->
+<!ELEMENT  sub-article  %sub-article-model;                          >
+<!ATTLIST  sub-article 
+             %sub-article-atts;                                      >
+
+  
+<!--                    FRONT MODEL STUB                           -->
+<!--                    Content model for the <front-stub> element,
+                        a reduced metadata set for use in 
+                        sub-articles and responses                 -->
+<!ENTITY % front-stub-model  
+                        "(article-id*, article-categories?, 
+                         title-group?, (contrib-group | aff)*, 
+                         author-notes?, pub-date*, 
+                         volume?, volume-id*, volume-series?, 
+                         issue?, issue-id*, issue-title*,
+                         issue-sponsor*, issue-part?, isbn*, 
+                         supplement?, 
+                         ((fpage, lpage?, page-range?) | 
+                           elocation-id)?, 
+                         (%address-link.class; | product | 
+                         supplementary-material)*, history?, 
+                         permissions?, self-uri*, related-article*, 
+                         abstract*, trans-abstract*, kwd-group*, 
+                         funding-group*, conference*, counts?,
+                         custom-meta-group?)"                        >
+
+
+<!--                    STUB FRONT METADATA                        -->
+<!--                    A reduced metadata set for use in 
+                        sub-articles and responses, which will 
+                        inherit metadata not defined in the stub
+                        from the enclosing article 
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=front-stub
+                                                                   -->
+<!ELEMENT  front-stub   %front-stub-model;                           >
+
+
+<!-- ============================================================= -->
+<!--                    RESPONSE ELEMENTS                          -->
+<!-- ============================================================= -->
+
+
+<!--                    RESPONSE                                   -->
+<!--                    Reply, response, or commentary concerning the
+                        journal article. In the typical case, the
+                        response is included in the same XML package 
+                        as the original article, and thus attached 
+                        at the end of the article proper.
+                        Details at: 
+                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=response
+                                                                   -->
+<!ELEMENT  response     %article-short-model;                        >
+<!ATTLIST  response
+             %response-atts;                                         >
+
+
+<!-- ================== End Journal Publishing DTD =============== -->

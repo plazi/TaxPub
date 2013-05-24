@@ -1,0 +1,67 @@
+<!-- $Id: taxpubcustom-mixes-NS0.ent 156 2010-10-08 19:26:24Z tcatapano $ -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//TaxPub//DTD Taxonomic Treatment Publishing Mixes Module v0.4 20101008//EN"
+Delivered as file "taxpubcustom-mixes3.ent"                    -->
+<!-- ============================================================= -->
+
+
+                        
+                                                
+<!-- ============================================================= -->
+<!--                    INLINE MIXES FOR USE IN CONTENT MODELS     -->
+<!--                    (MIXES ARE COMPOSED USING CLASSES)         -->
+<!-- ============================================================= -->
+
+
+<!--                    EMPHASIS MIX ELEMENTS                      -->
+<!--                    Elements that may be used inside most of the
+                        emphasis class elements                    -->
+<!ENTITY % emphasized-text  
+                        "| %address-link.class; | 
+                         %article-link.class; | %emphasis.class;  | 
+                         %inline-display.class; |
+                         %inline-math.class; |  %math.class; | 
+                         %phrase.class; | %simple-link.class; | 
+                         %subsup.class;"                             >
+                          
+
+<!--                    JUST RENDITION                             -->
+<!--                    Only the simplest of the typographic 
+                        emphasis elements, as well as subscript and
+                        superscript.  Usually used in a model that
+                        allows #PCDATA and this restricted mixture.
+                        This mix may be stripped down to only
+                        subscript and superscript by some, more
+                        restrictive DTDs.                         
+                        MAINTENANCE NOTE: This Parameter Entity
+                        and the related PE "rendition-plus" have
+                        been put in place to restrict the amount of
+                        variability that a person modifying the DTD
+                        through PE redefinition can achieve. Some
+                        elements have been set #PCDATA plus one PE
+                        and some have been set to #PCDATA plus the
+                        other in an effort to allow designers to
+                        modify entire groups of elements, but not
+                        to change similar models individually .    -->
+<!ENTITY % just-rendition
+                        ""                                           >
+
+
+<!--                    SECTION BACK MATTER ELEMENTS               -->
+<!--                    Back matter elements used inside smaller
+                        structures, such as sections and sidebars  -->
+<!ENTITY % sec-back-matter-mix
+                        "%sec-back.class;"                           >
+
+
+<!-- ================== End Publishing DTD Mixes Customization === -->
+
+
+<!-- TAX TREATMENT STUFF   -->
+

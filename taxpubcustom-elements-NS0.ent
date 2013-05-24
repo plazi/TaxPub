@@ -1,0 +1,291 @@
+<!-- $Id: taxpubcustom-elements-NS0.ent 172 2011-06-06 19:37:07Z tcatapano $ -->
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v0.5 20110606//EN"
+Delivered as file "taxpubcustom-elements.ent"                       -->
+<!-- =============================================================  -->
+
+
+<!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, tp:nomenclature , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
+<!ATTLIST 	tp:taxon-treatment
+					auth-code		CDATA			#IMPLIED 
+					%taxpub-namespace-att; >
+<!--
+~tp:taxon-treatment~
+~note: A publication or or section of a publication documenting the features or distribution
+            of a related group of organisms (called a "taxon", plural "taxa") in ways adhering to
+            highly formalized conventions. ~
+~~
+~~
+
+-->
+
+<!ELEMENT	tp:treatment-meta  		    %sec-meta-model;	>
+<!--
+~tp:treatment-meta~
+~note: Bibliographic metadata describing at taxonomic treatment ~
+~~
+~~
+
+-->
+
+<!ELEMENT	tp:nomenclature  			%nomenclature-model;	>
+<!--
+~tp:nomenclature~
+~note: The heading of a taxonomic treatment, containing the scientific name of the taxon
+            described by the treatment, and possibly the authority for the taxon, citations to
+            previous descriptions, designations of type-genus, and type-species, and other
+            information. ~
+~~
+~~
+
+-->
+
+
+<!--
+<!ELEMENT	tp:mixed-nomenclature  	    %mixed-nomenclature-model;	>
+-->
+
+
+<!ELEMENT	tp:treatment-sec  		    %taxon-sec-model;	>
+<!ATTLIST   tp:treatment-sec
+					%sec-atts; >
+<!--
+~tp:treatment-sec~
+~note: A section of a taxonomic treatment. For example, diagnosis, materials examined,
+            etymology, etc,,, ~
+~~
+~~
+
+-->
+
+<!ELEMENT	tp:taxon-authority			(#PCDATA | object-id | tp:taxon-authority-part)*  >
+<!ATTLIST	tp:taxon-authority
+					role			CDATA		#IMPLIED>
+<!--
+~tp:taxon-authority~
+~note: Elements that are linked to the name in the original treatment of a taxon as
+            designated by the authors of the respective original publication. ~
+~modelNote: This can be anything from a single author to a whole string including author,
+            year, publication page, etc.. Formica rufa L. or Formica rufa Linnaeus 1758:580 ~
+~~
+
+-->
+
+<!ELEMENT	tp:taxon-authority-part			(#PCDATA | object-id | tp:taxon-authority-part)* >
+<!ATTLIST	tp:taxon-authority-part
+					tp:taxon-authority-part-type			CDATA		#IMPLIED>
+<!--
+~tp:taxon-authority-part~
+~note: An element that is linked to the name in the original treatment of a taxon as
+            designated by the authors of the respective original publication. ~
+~modelNote: This is a single element in of the taxon-authority element. er.g. a single author
+            (Linnaeus), the year of publication (1758) >~
+~~
+
+-->
+
+<!ELEMENT	tp:taxon-status			(#PCDATA) >
+<!ATTLIST	tp:taxon-status
+				%might-link-atts;		>
+<!--
+~tp:taxon-status~
+~note: The nomenclatorial status of a particular taxon. ~
+~modelNote: This can designate an act that happened in an earlier, but cited citation, or
+            that happens within this treatment. Eg syn. vs. syn. nov.: The former refers to a
+            synonymy made, the latter to a synonym being proposed in the actual treatment. ~
+~~
+
+-->
+
+<!ELEMENT	tp:taxon-identifier			(#PCDATA) >
+<!ATTLIST	tp:taxon-identifier
+				%might-link-atts;		>
+<!--
+~tp:taxon-identifier~
+~note: A standard identifier associated with a particular taxon. ~
+~modelNote: The taxon-identifier could be a LSID or other GUID ~
+~~
+
+-->
+
+<!ELEMENT	tp:nomenclature-citation-list			(tp:nomenclature-citation+) >
+<!--
+~tp:nomenclature-citation-list~
+~note: A section in a treatment that includes the citation of one or several previous
+            treatments of the taxon. ~
+~~
+~~
+
+-->
+<!ELEMENT	tp:nomenclature-citation	(tp:taxon-name, tp:taxon-author*, (tp:type-genus | tp:type-species)?, (mixed-citation | xref)?, tp:material-citation*, tp:taxon-status?, comment?) >
+<!ATTLIST 	tp:nomenclature-citation
+						content-type		CDATA		#IMPLIED >
+<!--
+~tp:nomenclature-citation~
+~note: The citation of a nomenclatorial act or other citation of the taxon in the published
+            record. ~
+~~
+~~
+
+-->						
+
+<!ELEMENT	tp:type-genus				(tp:taxon-name, tp:material-location?) >
+<!--
+~tp:type-genus~
+~note: The species selected as the reference species at the moment of the description of a
+            new genus level taxon. ~
+~~
+~~
+
+-->
+
+<!ELEMENT	tp:type-species			(tp:taxon-name, tp:material-location?) >
+<!--
+~tp:type-species~
+~note: The specimen upon which the species or infraspecific level taxon is based and which is
+            explicitly designated as the holotype. ~
+~modelNote: The status is defined by the code, of which the designation as holotype is
+            requested to create an available name , lectotype the selection of a type from a series
+            of syntypes and neotype the designation of a new type. These designations are ruled by
+            the Code (see ICZN ). The designation of paratypes, androtypes is arbitrary. ~
+~~
+
+-->
+
+
+<!ELEMENT	tp:type-status		           (#PCDATA  | object-id)*  >
+<!ATTLIST	tp:type-status
+						designation    (y|n)		'n' >
+<!--
+~tp:type-status~
+~~
+~~
+~~
+
+-->
+<!ELEMENT	tp:taxon-type-location  	(#PCDATA  | object-id)* >
+<!--
+~tp:taxon-type-location~
+~note: The institution where a type specimen is housed. ~
+~modelNote: From a nomenclatorial point of view the name of depositary institution of the
+            holotype has to be explicitely mentioned in a treatment of a new species level taxon in
+            order to create an available name. Acronoyms of the institutions can be used. The
+            location of the institution has to be provided. Institutions can be private collections
+            to public natural history museums. ~
+~~
+
+-->
+
+<!-- RED ELEMENTS -->
+
+
+<!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
+<!ATTLIST 	tp:taxon-name
+					auth-code		CDATA			#IMPLIED 
+                                                       rank 		           CDATA			#IMPLIED
+                                                       reg                            CDATA                       #IMPLIED >
+ <!--
+~tp:taxon-name~
+~note: The name of a taxon. ~
+~modelNote: Generally this is a scientific name following the convention of the Codes ruling
+            nomenclature (eg International Code for Zoological Nomenclature (ICZN ), but if can also
+            be a vernacular name as used in field guides. ~
+~~
+
+-->                                                      
+
+
+<!ELEMENT	tp:taxon-name-part		(#PCDATA  | tp:taxon-name-part | object-id)* >
+<!ATTLIST	tp:taxon-name-part	
+				taxon-name-part-type		CDATA		#REQUIRED 
+                                                       reg                            CDATA                       #IMPLIED >
+<!--
+~tp:taxon-name-part~
+~note: A component of taxonomic name. For example, specific epithet, genus name, etc... ~
+~~
+~~
+
+-->
+<!ELEMENT	tp:descriptive-statement	(#PCDATA | tp:descriptive-statement-part | object-id)* >
+<!ATTLIST	tp:descriptive-statement
+					%might-link-atts; >
+<!--
+~tp:descriptive-statement~
+~note: The description of a morphological trait.~
+~~
+~~
+
+-->
+<!ELEMENT 	tp:descriptive-statement-part 	(#PCDATA | object-id)* >
+<!ATTLIST	tp:descriptive-statement-part
+					%might-link-atts; >
+<!--
+~tp:descriptive-statement-part~
+~note: An individual component of a description morphological trait. ~
+~modelNote: This can be the character (e.g. head) or the character state (round, ovoid,
+            red,..) ~
+~~
+
+-->																						
+<!ELEMENT	tp:material-citation		(#PCDATA | named-content | tp:collecting-event  | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref)*>
+<!--
+~tp:material-citation~
+~note: A reference to biological material (e.g., a specimen, an observation) including those
+            used as the basis of a taxonomic description. ~
+~modelNote: These can be very cursory to very detailed ("Costa Rica" to all the details
+            recorded during the collection). ~
+~~
+
+-->
+<!ELEMENT 	tp:material-location                (#PCDATA | object-id)* >
+<!--
+~tp:material-location~
+~note: The physical location of the material referenced in the material citation. ~
+~modelNote: The material-location can be a collection given by its acronym (e.g. AMNH for
+            American Museum of Natural History, New York) ~
+~~
+
+-->
+<!ELEMENT 	tp:collecting-event		(#PCDATA | tp:collecting-location | date | tp:taxon-name | object-id | named-content)* >
+<!--
+~tp:collecting-event~
+~note: The specific spatio-temporal event during which observations have been made or
+            specimens have been collected. ~
+~modelNote: This can refer to a specific collection or many collections made. For example, if
+            a Malaise trap is set and collected thousands of species, then the collecting-event
+            remains the same for all the specimens. ~
+~~
+
+-->
+
+<!ELEMENT	tp:collecting-location		(object-id*, tp:location*, comment? ) >
+<!--
+~tp:collecting-location~
+~note: The specific location or circumscription of the location of a collecting event. ~
+~~
+~~
+
+-->
+<!ELEMENT 	tp:location	(#PCDATA %country-elements;)*  >
+<!ATTLIST       tp:location                         
+                                       location-type             CDATA              #IMPLIED >
+<!--
+~tp:location~
+~note: A named spatial area. ~
+~~
+~~
+
+-->
+
+
+
+
+
+
+
+
+
+
