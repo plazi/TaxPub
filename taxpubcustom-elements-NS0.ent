@@ -200,15 +200,7 @@ Delivered as file "taxpubcustom-elements.ent"                       -->
 
 <!ELEMENT	tp:taxon-name-part		(#PCDATA  | tp:taxon-name-part | object-id)* >
 <!ATTLIST	tp:taxon-name-part	
-				taxon-name-part-type	(kingdom |
-                                         phylum                               | 
-                                         class | 
-                                         order | 
-                                         family | 
-                                         genus | 
-                                         subgenus | 
-                                         specificEpithet | 
-                                         infraspecificEpithet)		"specificEpithet" 
+				taxon-name-part-type	%pensoft-name-part-types;
              reg                            CDATA                       #IMPLIED >
 <!--
 ~tp:taxon-name-part~
