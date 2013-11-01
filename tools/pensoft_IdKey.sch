@@ -4,7 +4,7 @@
     <pattern name="IdentificationKey">
         <rule context="table[@content-type = 'key']//td">
             <assert
-                test="@content-type = 'lead' or @content-type = 'lead-to' or @content-type = 'thesis' or @content-type = 'antitheis'"
+                test="@content-type = 'lead' or @content-type = 'lead-to' or @content-type = 'thesis-desc' or @content-type = 'antitheis-desc'"
                 > A <emph>td</emph> child of <emph>table</emph> with <emph>content-t/ype="key"</emph>
                 must have a @content-type with one of the values "lead", "lead-to", "thesis", or
                 "antitheis" </assert>
