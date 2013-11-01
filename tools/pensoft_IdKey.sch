@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.ascc.net/xml/schematron">
     <ns prefix="tp" uri="http://www.plazi.org/taxpub"/>
+    <p>pensoft-IdKey.sh: Check that td descendants of table with @content-type of "key" have key attribute values "lead", "lead-to", "thesis-desc", "antithesis-desc".</p>
     <pattern name="IdentificationKey">
         <rule context="table[@content-type = 'key']//td">
             <assert
