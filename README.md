@@ -2,7 +2,7 @@ TaxPub
 ======
 
 
-TaxPub is an extension of the NLM/NCBI Journal Publishing DTD, v 3.0 for encoding of articles containing taxonomic treatments/
+TaxPub is an extension of the NLM/NCBI Journal Publishing DTD, v 3.0 for encoding of articles containing taxonomic treatments.
 
 See the wiki at this repository for more information
 
