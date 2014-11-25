@@ -4,7 +4,7 @@ TaxPub
 
 TaxPub is an extension of the NLM/NCBI Journal Publishing DTD, v 3.0 for encoding of articles containing taxonomic treatments.
 
-See the wiki at this repository for more information
+See [the wiki](https://github.com/tcatapano/TaxPub/wiki/TaxPub-Wiki) at this repository for more information
 
 
 Usage:
