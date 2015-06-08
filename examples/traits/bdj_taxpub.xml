@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/home/thc4/Github/TaxPub/examples/traits/Szero_taxpub.rnc" type="application/relax-ng-compact-syntax"?>
+<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
+    <tp:nomenclature>
+        <tp:taxon-name>Scytodes thoracica</tp:taxon-name>
+        <tp:taxon-status>n.sp.</tp:taxon-status>
+    </tp:nomenclature>
+    <tp:treatment-sec sec-type="Citations">
+        <p>
+            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+                    content-type="CharacterTitle"><object-id xlink:href="dwc:basisOfRecord"
+                    /></tp:descriptive-statement-part><tp:descriptive-statement-part
+                    content-type="characterValue"/>Holotype</tp:descriptive-statement>
+        </p>
+    </tp:treatment-sec>
+    <tp:treatment-sec sec-type="Diagnosis">
+        <title>Diagnosis</title>
+        <p>
+            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+                    content-type="CharacterTitle"
+                    >head</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    content-type="CharacterValue" measure="color"
+                    >black</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    content-type="Remarks">variation of black to
+                    grey</tp:descriptive-statement-part></tp:descriptive-statement>
+        </p>
+        <p>
+            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+                    content-type="CharacterTitle"
+                >body</tp:descriptive-statement-part></tp:descriptive-statement>
+        </p>
+    </tp:treatment-sec>
+    <tp:treatment-sec sec-type="Description">
+        <title>Morphology</title>
+        <p>
+            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+                content-type="CharacterTitle"
+                >size</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    content-type="CharacterValue" measure="mm">3</tp:descriptive-statement-part>
+            </tp:descriptive-statement>
+        </p>
+    </tp:treatment-sec>
+    <tp:treatment-sec sec-type="Description">
+        <title>Head</title>
+        <tp:treatment-sec sec-type="Description"></tp:treatment-sec>
+        <p>
+            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+                content-type="CharacterTitle"
+                >size</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    content-type="CharacterValue" measure="mm">3</tp:descriptive-statement-part>
+            </tp:descriptive-statement>
+        </p>
+    </tp:treatment-sec>
+
+</tp:taxon-treatment>
