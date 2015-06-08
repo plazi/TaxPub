@@ -1,0 +1,38 @@
+default namespace = "http://jats.org/jats"
+namespace tp = "http://www.plazi.org/taxpub"
+namespace xlink = "http://www.w3.org/1999/xlink"
+
+start =
+  element tp:taxon-treatment {
+    element tp:nomenclature {
+      taxon-name,
+      element tp:taxon-authority { text }
+    },
+    treatment-sec
+  }
+taxon-name = element tp:taxon-name { text }
+treatment-sec =
+  element tp:treatment-sec {
+    attribute sec-type { xsd:NCName },
+    attribute specific-use { xsd:NCName }?,
+    element title { (text | descriptive-statement)+ }?,
+    (treatment-sec*|
+    element p { (text | descriptive-statement | taxon-name)+ })*
+  }
+descriptive-statement =
+  element tp:descriptive-statement {
+    attribute content-type { xsd:NCName },
+    (text | descriptive-statement-part)+
+  }
+descriptive-statement-part =
+  element tp:descriptive-statement-part {
+    attribute content-type { xsd:NCName }?,
+    attribute specific-use { xsd:NCName }?,
+    attribute type { xsd:NCName }?,
+    attribute unit { xsd:NCName }?,
+    (text
+     | descriptive-statement-part
+     | element object-id {
+         attribute xlink:href { xsd:anyURI }
+       })+
+  }
