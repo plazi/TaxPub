@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:/home/thc4/Github/TaxPub/examples/traits/Szero_taxpub.rnc" type="application/relax-ng-compact-syntax"?>
-<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
+<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub" xmlns:xlink="http://xlink.org">
     <tp:nomenclature>
         <tp:taxon-name>Scytodes thoracica</tp:taxon-name>
         <tp:taxon-status>n.sp.</tp:taxon-status>

@@ -30,8 +30,8 @@ Laura Kelly, Jeff Beck.
 
 <!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
 <!--                    Names all DTD-specific external modules    -->
-<!ENTITY % taxpubcustom-modules.ent 
-                        PUBLIC  
+
+<!ENTITY % taxpubcustom-modules.ent  PUBLIC  
 "//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.5 20110606//EN"
 "taxpubcustom-modules-NS0.ent"                                      >
 %taxpubcustom-modules.ent;

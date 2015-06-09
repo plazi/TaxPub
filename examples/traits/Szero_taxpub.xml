@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Szero_taxpub.rnc" type="application/relax-ng-compact-syntax"?>
+<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub" xmlns="http://jats.org/jats" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <tp:nomenclature>
+        <tp:taxon-name>Savignia zero</tp:taxon-name>
+        <tp:taxon-authority>(Eskov, 1988)</tp:taxon-authority>
+    </tp:nomenclature>
+    <tp:treatment-sec sec-type="Description">
+        <tp:treatment-sec sec-type="Description" specific-use="Males">
+            <title>Desciption. <tp:descriptive-statement content-type="descriptionContext"
+                    >Males</tp:descriptive-statement>:</title>
+            <p>SMF, N=8, means in parenthesis: <tp:descriptive-statement
+                    content-type="categoricalTrait"><tp:descriptive-statement-part
+                        content-type="traitLabel"><object-id
+                            xlink:href="http://example.org/pseudo-trait-ontology/colors"
+                        /><object-id
+                            xlink:href="http://example.org/pseudo-trait-ontology2/coloration"
+                        />colors</tp:descriptive-statement-part>
+                    <tp:descriptive-statement-part content-type="traitValue"
+                            ><tp:descriptive-statement-part content-type="modifier"
+                            >slightly</tp:descriptive-statement-part>
+                        variable</tp:descriptive-statement-part></tp:descriptive-statement>.
+                    <tp:descriptive-statement content-type="quantativeTrait"
+                        ><tp:descriptive-statement-part content-type="traitLabel"><object-id
+                            xlink:href="http://example.org/pseudo-trait-ontology/total-length"
+                        />Total length</tp:descriptive-statement-part>:
+                        <tp:descriptive-statement-part content-type="traitValue"
+                            ><tp:descriptive-statement-part content-type="minValue" unit="mm"
+                            >1.49</tp:descriptive-statement-part>-<tp:descriptive-statement-part
+                            type="maxValue" unit="mm">1.66</tp:descriptive-statement-part>
+                            (<tp:descriptive-statement-part content-type="meanValue"
+                            specific-use="mm">1.58</tp:descriptive-statement-part>)
+                            <tp:descriptive-statement-part content-type="traitValueContext">with
+                            cephalic
+                        lobe</tp:descriptive-statement-part></tp:descriptive-statement-part>,
+                        <tp:descriptive-statement-part content-type="traitValue"
+                        specific-use="quantative"><tp:descriptive-statement-part
+                            content-type="minValue" unit="mm"
+                            >1.37</tp:descriptive-statement-part>-<tp:descriptive-statement-part
+                            content-type="maxValue" unit="mm">1.54</tp:descriptive-statement-part>
+                            (<tp:descriptive-statement-part content-type="mean" unit="mm"
+                            >1.46</tp:descriptive-statement-part>) <tp:descriptive-statement-part
+                            content-type="traitValueContext">with cephalic
+                            lobe</tp:descriptive-statement-part></tp:descriptive-statement-part></tp:descriptive-statement>
+                ...</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Biology-Ecology">
+            <title>Habitat</title>
+            <p><tp:taxon-name>S. zero</tp:taxon-name>
+                <tp:descriptive-statement content-type="trait">occurs in wetland and swampy sides,
+                    in plant debris and mosses among tussocks (Eskov 1988; Tanasevitch 2006, 2008),
+                    in floodplain forests (Marusik 2005) and spruce fir and mixed forests (Marusik
+                    et al. 2007)</tp:descriptive-statement>. </p>
+        </tp:treatment-sec>
+    </tp:treatment-sec>
+</tp:taxon-treatment>

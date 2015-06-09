@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE table SYSTEM "file:/home/thc4/Github/TaxPub/tax-treatment-NS0.dtd">
+<table>
+    <thead>
+        <tr>
+            <th>CharacterTitle</th>
+            <th>CharacterValuee</th>
+            <th>CharacterMeasure</th>
+            <th>Remarks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>head</td>
+            <td>black</td>
+            <td>color</td>
+            <td>Variation of black to grey</td>
+        </tr>
+    </tbody>
+
+</table>
