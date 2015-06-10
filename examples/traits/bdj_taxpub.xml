@@ -42,7 +42,6 @@
     </tp:treatment-sec>
     <tp:treatment-sec sec-type="Description">
         <title>Head</title>
-        <tp:treatment-sec sec-type="Description"></tp:treatment-sec>
         <p>
             <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
                 content-type="CharacterTitle"
