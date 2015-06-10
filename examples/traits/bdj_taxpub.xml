@@ -32,23 +32,16 @@
     </tp:treatment-sec>
     <tp:treatment-sec sec-type="Description">
         <title>Morphology</title>
-        <p>
-            <tp:trait content-type="Character"><tp:trait-part
+            <tp:treatment-sec sec-type="Description">
+                <title>Head</title>
+                <p>
+                    <tp:trait content-type="Character"><tp:trait-part
                 content-type="CharacterTitle"
                 >size</tp:trait-part><tp:trait-part
                     content-type="CharacterValue" measure="mm">3</tp:trait-part>
-            </tp:trait>
-        </p>
-    </tp:treatment-sec>
-    <tp:treatment-sec sec-type="Description">
-        <title>Head</title>
-        <p>
-            <tp:trait content-type="Character"><tp:trait-part
-                content-type="CharacterTitle"
-                >size</tp:trait-part><tp:trait-part
-                    content-type="CharacterValue" measure="mm">3</tp:trait-part>
-            </tp:trait>
-        </p>
+                    </tp:trait>
+                </p>
+        </tp:treatment-sec>
     </tp:treatment-sec>
 
 </tp:taxon-treatment>
