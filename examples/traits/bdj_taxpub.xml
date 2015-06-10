@@ -7,47 +7,47 @@
     </tp:nomenclature>
     <tp:treatment-sec sec-type="Citations">
         <p>
-            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+            <tp:trait content-type="Character"><tp:trait-part
                     content-type="CharacterTitle"><object-id xlink:href="dwc:basisOfRecord"
-                    /></tp:descriptive-statement-part><tp:descriptive-statement-part
-                    content-type="characterValue"/>Holotype</tp:descriptive-statement>
+                    /></tp:trait-part><tp:trait-part
+                    content-type="characterValue"/>Holotype</tp:trait>
         </p>
     </tp:treatment-sec>
     <tp:treatment-sec sec-type="Diagnosis">
         <title>Diagnosis</title>
         <p>
-            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+            <tp:trait content-type="Character"><tp:trait-part
                     content-type="CharacterTitle"
-                    >head</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    >head</tp:trait-part><tp:trait-part
                     content-type="CharacterValue" measure="color"
-                    >black</tp:descriptive-statement-part><tp:descriptive-statement-part
+                    >black</tp:trait-part><tp:trait-part
                     content-type="Remarks">variation of black to
-                    grey</tp:descriptive-statement-part></tp:descriptive-statement>
+                    grey</tp:trait-part></tp:trait>
         </p>
         <p>
-            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+            <tp:trait content-type="Character"><tp:trait-part
                     content-type="CharacterTitle"
-                >body</tp:descriptive-statement-part></tp:descriptive-statement>
+                >body</tp:trait-part></tp:trait>
         </p>
     </tp:treatment-sec>
     <tp:treatment-sec sec-type="Description">
         <title>Morphology</title>
         <p>
-            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+            <tp:trait content-type="Character"><tp:trait-part
                 content-type="CharacterTitle"
-                >size</tp:descriptive-statement-part><tp:descriptive-statement-part
-                    content-type="CharacterValue" measure="mm">3</tp:descriptive-statement-part>
-            </tp:descriptive-statement>
+                >size</tp:trait-part><tp:trait-part
+                    content-type="CharacterValue" measure="mm">3</tp:trait-part>
+            </tp:trait>
         </p>
     </tp:treatment-sec>
     <tp:treatment-sec sec-type="Description">
         <title>Head</title>
         <p>
-            <tp:descriptive-statement content-type="Character"><tp:descriptive-statement-part
+            <tp:trait content-type="Character"><tp:trait-part
                 content-type="CharacterTitle"
-                >size</tp:descriptive-statement-part><tp:descriptive-statement-part
-                    content-type="CharacterValue" measure="mm">3</tp:descriptive-statement-part>
-            </tp:descriptive-statement>
+                >size</tp:trait-part><tp:trait-part
+                    content-type="CharacterValue" measure="mm">3</tp:trait-part>
+            </tp:trait>
         </p>
     </tp:treatment-sec>
 
