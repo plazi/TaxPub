@@ -33,7 +33,7 @@
     <tp:treatment-sec sec-type="Description">
         <title>Morphology</title>
             <tp:treatment-sec sec-type="Description">
-                <title>Head</title>
+                <title><object-id href="http://example.org/some-anatomy-ontology/#Head"/>Head</title>
                 <p>
                     <tp:trait content-type="Character"><tp:trait-part
                 content-type="CharacterTitle"
