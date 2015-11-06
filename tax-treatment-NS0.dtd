@@ -1,12 +1,11 @@
-<!-- $Id: tax-treatment-NS0.dtd 176 2011-06-06 19:44:41Z tcatapano $ -->
 <!-- ============================================================= -->
 <!-- ============================================================= 
 This DTD is a modification of the orignal TaxPub DTD extension to the 
 NLM Journal Publishing DTD version 3.0 created in September 2008.
 
-This is version 0.5 and should be considered a beta version. 
+This is version 0.6 and should be considered a beta version. 
 
-This version was created on June 6, 2011. 
+This version was created on April 22, 2015. 
 
 Donat Agosti, Terry Catapano, Lyubomir Penev, Bob Morris, Scott Federhen,
 Laura Kelly, Jeff Beck.
@@ -17,8 +16,8 @@ Laura Kelly, Jeff Beck.
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v0.5 20110606//EN"
-     Delivered as file "tax-treatment0.dtd"                     -->
+"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v0.6 20150422//EN"
+     Delivered as file "tax-treatment.dtd"                     -->
 <!-- ============================================================= -->
 
  
@@ -32,7 +31,7 @@ Laura Kelly, Jeff Beck.
 <!--                    Names all DTD-specific external modules    -->
 <!ENTITY % taxpubcustom-modules.ent 
                         PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.5 20110606//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.6 20150422//EN"
 "taxpubcustom-modules-NS0.ent"                                      >
 %taxpubcustom-modules.ent;
 
@@ -56,9 +55,24 @@ Laura Kelly, Jeff Beck.
                         declarations and the DTD references that 
                         entity.                                    -->
 <!ENTITY % modules.ent  PUBLIC  
-"-//NLM//DTD Archiving and Interchange DTD Suite Module of Modules v3.0 20080202//EN"
-"modules3.ent"                                                       >
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.1d3 20150301//EN"
+"JATS-modules1.ent"                                                       >
 %modules.ent;
+
+
+<!-- ============================================================= -->
+<!--                    NISO ALI NAMESPACE SETUP                   -->
+<!-- ============================================================= -->
+
+
+<!--                    DEFINE ALI NAMESPACE ATTRIBUTE AND PREFIX  -->
+<!--                    Names the module defines the NISO Access and 
+                        Indicators Exchange Model namespace, prefix, 
+                        and pseudo-attribute @xmlns.               -->
+%JATS-ali-namespace.ent;  
+
+
+
 
 
 <!-- ============================================================= -->
@@ -235,6 +249,9 @@ Laura Kelly, Jeff Beck.
 <!--                    NOTATION DECLARATIONS MODULE               -->
 %notat.ent; 
 
+                                          
+
+
 
 <!-- ============================================================= -->
 <!--                    PARAMETER ENTITIES FOR ATTRIBUTE LISTS     -->
@@ -257,15 +274,19 @@ Laura Kelly, Jeff Beck.
 <!--                    Attributes for the top-level element
                         <article>                                  -->
 <!ENTITY % article-atts
-            "article-type   
-                        CDATA                              #IMPLIED
-             %dtd-version;                              
-             xml:lang   NMTOKEN                            'en'     
+            "%jats-common-atts;                                       
+             article-type
+                        CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           'en'
+             %dtd-version;
              %XLINK.xmlns.attrib;
              %MATHML.xmlns.attrib;
-             %Schema.xmlns.attrib;
-                         xmlns:tp 		CDATA                            #FIXED
-                                     'http://www.plazi.org/taxpub'	         "                                  >
+             %ali.xmlns.attrib;
+             %Schema.xmlns.attrib;                                 
+             xmlns:tp 		CDATA                            #FIXED
+                                     'http://www.plazi.org/taxpub'">
 
 
 <!--                    SUB-ARTICLE ATTRIBUTES                     -->
@@ -311,15 +332,15 @@ Laura Kelly, Jeff Beck.
                         "(front, body?, back?, floats-group?,
                          (sub-article* | response*) )"               >
 
-
 <!--                    ARTICLE                                    -->
 <!--                    The complete content of a journal article.
-                        Details at: 
-                        http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=article
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.1d3/index.html?elem=article
                                                                    -->
 <!ELEMENT  article      %article-full-model;                         >
 <!ATTLIST  article
              %article-atts;                                          >
+
 
 
 <!-- ============================================================= -->
@@ -462,8 +483,10 @@ Laura Kelly, Jeff Beck.
                         http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html?elem=response
                                                                    -->
 <!ELEMENT  response     %article-short-model;                        >
-<!ATTLIST  response
-             %response-atts;                                         >
+<!ATTLIST  response     %response-atts;                              >
 
 
 <!-- ================== End Journal Publishing DTD =============== -->
+
+
+

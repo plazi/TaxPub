@@ -1,9 +1,8 @@
-<!-- $Id: taxpubcustom-modules-NS0.ent 175 2011-06-06 19:42:55Z tcatapano $ -->
 <!-- ============================================================= -->
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.5 20110606//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.6 20150422//EN"
 Delivered as file "taxpubcustom-modules0.ent"                       -->
 <!-- ============================================================= -->
 
@@ -14,7 +13,7 @@ Delivered as file "taxpubcustom-modules0.ent"                       -->
 <!--                    DTD-SPECIFIC ELEMENTS MODULE   -->
 <!ENTITY % taxpubcustom-elements.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v0.5 20110606//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v0.6 20150422//EN"
 "taxpubcustom-elements-NS0.ent"                                      >
 
 
@@ -27,7 +26,7 @@ Delivered as file "taxpubcustom-modules0.ent"                       -->
                         DTD Suite.                                 -->
 <!ENTITY % taxpubcustom-classes.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Customize Classes Module v0.4 20101008//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Customize Classes Module v0.6 20150422//EN"
 "taxpubcustom-classes-NS0.ent"                                      >
 
 
@@ -38,7 +37,7 @@ Delivered as file "taxpubcustom-modules0.ent"                       -->
                         Suite.                                     -->
 <!ENTITY % taxpubcustom-mixes.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Mixes Module v0.4 20101008//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Mixes Module v0.6 20150422//EN"
 "taxpubcustom-mixes-NS0.ent"                                        >
 
 
@@ -52,7 +51,7 @@ Delivered as file "taxpubcustom-modules0.ent"                       -->
                         Journal Archiving and Interchange DTD.     -->
 <!ENTITY % taxpubcustom-models.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v0.5 20110606//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v0.6 20150422//EN"
 "taxpubcustom-models-NS0.ent"                                       >
 
 
@@ -65,6 +64,14 @@ Delivered as file "taxpubcustom-modules0.ent"                       -->
                         is expected to be generated.               -->
 <!ENTITY % nlmcitation.ent 
                         PUBLIC  
-"-//NLM//DTD NLM Citation v3.0 20080202//EN"
-"nlmcitation3.ent"                                                   >
+"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1d3 20150301//EN"
+"JATS-nlmcitation1.ent"                                                   >
 
+<!--                    NISO ACCESS AND INDICATORS (RP-22-1015)    -->
+<!--                    Set all Parameter Entities needed by the
+                        NISO ALI licensing elements.
+                        This module is invoked by each DTD.        -->
+<!ENTITY % JATS-ali-namespace.ent
+                        PUBLIC
+"-//NLM//DTD JATS ALI Namespace Module v1.1d3 20150301//EN"
+"JATS-ali-namespace1.ent"                                            >

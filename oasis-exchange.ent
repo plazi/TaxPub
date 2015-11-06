@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
-<!--  MODULE:    VERSION OF OASIS EXCHANGE TABLE MODEL             -->
-<!--  VERSION:   3.0                                               -->
-<!--  DATE:      Feb 2008                                          -->
+<!--  MODULE:    JATS Namespaced OASIS XML Table Module            -->
+<!--  VERSION:   NISO 1.1d3                                        -->
+<!--  DATE:      March 2015                                        -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -14,18 +14,14 @@
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!-- SYSTEM:     Archiving and Interchange DTD Suite               -->
+<!-- SYSTEM:     JATS DTD Suite                                    -->
 <!--                                                               -->
 <!-- PURPOSE:    Duplicates the OASIS Open exchange CALS table     -->
 <!--             model (XML version) with only one addition, the   -->
-<!--             elements have been assigned an namespace:         -->
-<!--               xmlns:oasis   CDATA   #FIXED                    --> 
+<!--             elements have been assigned an namespace,         -->
+<!--             typically:                                        -->
+<!--               xmlns:oasis   CDATA   #FIXED                    -->
 <!--         "http://docs.oasis-open.org/ns/oasis-exchange/table"  -->
-<!--                                                               -->
-<!-- CONTAINS:   1. Default values for attribute lists             -->
-<!--             2. Journal metadata content model                 -->
-<!--             3. Journal metadata elements in the order used in -->
-<!--                the journal metadata element                   -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -36,21 +32,91 @@
 <!--
 
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+     =============================================================
+     JATS Version 1.1d3             (DAL/BTU) v1.1d3  (2015-03-01)
+   
+     The changes in this release are in response to NISO 
+     License and Indicators Recommended Practice.
+
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the NISO membership to be changed. This
+     Committee Draft 1.1d3 will be sent to the NISO voting
+     membership, to become (if approved) NISO JATS 1.1.
+     
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee.
+  
+  7. ERROR IN COMMENT FIXED
+     The 'Typical Invocation' comment at the top of the document
+     has an in correct fpi:
+     "-//NLM//DTD JATS Namespaced OASIS XML Table Module v1.1d2 
+      20140930//EN"
+     comment was changed to the correct:
+     "-//OASIS//DTD XML Exchange Table Model 19990315//EN"
+ 
+  6. JATS became version "1.1d3" and "v1.1d3 20150301//EN"
+
+     =============================================================
+     JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
+   
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the NISO membership to be changed. This
+     Committee Draft 1.1d2 will be sent to the NISO voting
+     membership, to become (if approved) NISO JATS 1.1.
+     
+     This catalog represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee.
+
+  5. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+  
+     =============================================================
+     NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
+   
+     If approved by the voting members of NISO, this will become the
+     Version 1.0 NISO JATS Z39.96-2012 NISO Standard. 
+   
+  4. Updated the DTD-version attribute to "1.0" and the formal
+     public identifier to the date: "v1.0 20120330//EN".
+
+     =============================================================
+     Version 0.4                       (DAL/BTU) v0.4 (2011-01-31)
+   
+     This Tag Set is in the process of becoming a NISO standard.
+     The version numbers are starting over from 0.4", as a Trial
+     Use Draft, to be made into "Version 1.0" when the Tag Suite 
+     becomes a NISO standard. Thus, the version number that would
+     have been "NLM Version 3.1 Draft" has become NISO JATS
+     "Version 0.4".
+
+     Details on NISO Trial Use Draft Version 0.4 are available at
+           http://jats.nlm.nih.gov/JATS-0.4.
+   
+  3. Updated the DTD-version attribute to "0.4" 
+   
+  2. Updated the public identifier to "v0.4 20110131", 
+     modified the formal public identifier to include "JATS (Z39.96)",
+     and the filename as delivered to include "JATS" and the
+     new version number "0".
 
      =============================================================
      Version 3.0                       (DAL/BTU) v3.0 (2007-10-31)
-     
+
      Version 3.0 is the first non-backward-compatible release.
      In addition to the usual incremental changes, some
      elements and attributes have been renamed and/or remodeled
      to better meet user needs and to increase tag set consistency.
-     All module change histories are available through the Tag Suite 
-     web site at http://dtd.nlm.nih.gov. 
+     All module change histories are available through the Tag Suite
+     web site at http://dtd.nlm.nih.gov.
 
-     Details on version 3.0 are available at 
-           http://dtd.nlm.nih.gov/3.0.
-  
+     Details on version 3.0 are available at
+           http://jats.nlm.nih.gov./3.0.
+
   1. Updated public identifier to "v3.0 20080202//EN"              -->
+
 <!-- ============================================================= -->
 
 
@@ -88,18 +154,18 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      The following parameter entities have been removed-
 
        - tbl.table.excep, tbl.hdft.excep, tbl.row.excep, tbl.entry.excep
-         There are no exceptions in XML. The following normative 
-         statement is made in lieu of exceptions- the exchange table model 
-         explicitly forbids a table from occurring within another table. 
+         There are no exceptions in XML. The following normative
+         statement is made in lieu of exceptions- the exchange table model
+         explicitly forbids a table from occurring within another table.
          If the content model of an entry includes a table element, then this
          cannot be enforced by the DTD, but it is a deviation from the
          exchange table model to include a table within a table.
 
        - tbl.hdft.name, tbl.hdft.mdl, tbl.hdft.excep, tbl.hdft.att
          The motivation for these elements was to change the table
-         header/footer elements. Since XML does not allow element 
-         declarations to contain name groups, and the exchange table model 
-         does not allow a table to contain footers, the continued presence 
+         header/footer elements. Since XML does not allow element
+         declarations to contain name groups, and the exchange table model
+         does not allow a table to contain footers, the continued presence
          of these attributes seems unnecessary.
 
      The following parameter entity has been added-
@@ -121,10 +187,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 -->
 
 <!-- This entity includes a set of element and attribute declarations
-     that partially defines the Exchange table model.  However, the 
+     that partially defines the Exchange table model.  However, the
      model is not well-defined without the accompanying natural language
      description of the semantics (meanings) of these various elements,
-     attributes, and attribute values.  The semantic writeup, also 
+     attributes, and attribute values.  The semantic writeup, also
      available from SGML Open, should be used in conjunction with this entity.
 -->
 
@@ -156,9 +222,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                                               table element
 
      %tbl.table.mdl   In content model of-    The model group for the content
-                      table elements          model for table element, often 
+                      table elements          model for table element, often
                                               (and by default) defined
-                                              in terms of %tbl.table-titles.mdl 
+                                              in terms of %tbl.table-titles.mdl
                                               and tgroup
 
      %tbl.table.att   In ATTLIST of-          Additional attributes on the
@@ -206,12 +272,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!ENTITY % yesorno 'NMTOKEN'> <!-- no if zero(s), yes if any other value -->
 <!ENTITY % titles  'title?'>
-<!ENTITY % paracon '#PCDATA'> 
+<!ENTITY % paracon '#PCDATA'>
 <!-- default for use in entry content -->
 
 <!--
-The parameter entities as defined below change and simplify the CALS 
-table model as published (as part of the Example DTD) in MIL-HDBK-28001.  
+The parameter entities as defined below change and simplify the CALS
+table model as published (as part of the Example DTD) in MIL-HDBK-28001.
 The resulting simplified DTD has support from the SGML Open vendors and is
 therefore more interoperable among different systems.
 
@@ -221,9 +287,9 @@ the appropriate parameter entity declaration(s) prior to the reference
 to this Table Model declaration set entity) to fit the needs of the
 current application.
 
-Note, however, that changes may have significant effect on the ability 
+Note, however, that changes may have significant effect on the ability
 to interchange table information.  These changes may manifest themselves
-in usability, presentation, and possible structure information 
+in usability, presentation, and possible structure information
 degradation.
 -->
 
@@ -256,7 +322,7 @@ degradation.
  pgwide          %yesorno;       #IMPLIED "
 -->
 
-<!ELEMENT  %tbl.table.name; (%tbl.table.mdl;)>
+<!ELEMENT  %tbl.table.name; (%tbl.table.mdl;) >
 
 <!ATTLIST  %tbl.table.name;
         frame           (top|bottom|topbot|all|sides|none)      #IMPLIED
@@ -273,9 +339,9 @@ degradation.
      ENTITY % tbl.tgroup.att    ""
 -->
 
-<!ELEMENT  oasis:tgroup (%tbl.tgroup.mdl;) >
+<!ELEMENT  %otgroup.qname; (%tbl.tgroup.mdl;) >
 
-<!ATTLIST  oasis:tgroup
+<!ATTLIST  %otgroup.qname;
         cols            NMTOKEN          #REQUIRED
         colsep          %yesorno;        #IMPLIED
         rowsep          %yesorno;        #IMPLIED
@@ -289,9 +355,9 @@ degradation.
      ENTITY % tbl.colspec.att   ""
 -->
 
-<!ELEMENT  oasis:colspec EMPTY >
+<!ELEMENT  %ocolspec.qname; EMPTY >
 
-<!ATTLIST  oasis:colspec
+<!ATTLIST  %ocolspec.qname;
         colnum          NMTOKEN          #IMPLIED
         colname         NMTOKEN          #IMPLIED
         colwidth        CDATA            #IMPLIED
@@ -309,9 +375,9 @@ degradation.
      ENTITY % tbl.thead.att      ""
 -->
 
-<!ELEMENT  oasis:thead (oasis:row+)>
+<!ELEMENT  %othead.qname; ((%orow.qname;)+) >
 
-<!ATTLIST  oasis:thead
+<!ATTLIST  %othead.qname;
         valign          (top|middle|bottom)                     #IMPLIED
         %tbl.thead.att;
 >
@@ -322,9 +388,9 @@ degradation.
      ENTITY % tbl.tbody.att     ""
 -->
 
-<!ELEMENT  oasis:tbody (oasis:row+)>
+<!ELEMENT  %otbody.qname; ((%orow.qname;)+) >
 
-<!ATTLIST  oasis:tbody
+<!ATTLIST  %otbody.qname;
         valign          (top|middle|bottom)                     #IMPLIED
         %tbl.tbody.att;
 >
@@ -336,9 +402,9 @@ degradation.
      ENTITY % tbl.row.att       ""
 -->
 
-<!ELEMENT  oasis:row (%tbl.row.mdl;)>
+<!ELEMENT  %orow.qname; (%tbl.row.mdl;)>
 
-<!ATTLIST  oasis:row
+<!ATTLIST  %orow.qname;
         rowsep          %yesorno;        #IMPLIED
         valign          (top|middle|bottom)                     #IMPLIED
         %tbl.row.att;
@@ -353,9 +419,9 @@ degradation.
      ENTITY % tbl.entry.att     ""
 -->
 
-<!ELEMENT  oasis:entry %tbl.entry.mdl;>
+<!ELEMENT  %oentry.qname; %tbl.entry.mdl;>
 
-<!ATTLIST  oasis:entry
+<!ATTLIST  %oentry.qname;
         colname         NMTOKEN          #IMPLIED
         namest          NMTOKEN          #IMPLIED
         nameend         NMTOKEN          #IMPLIED

@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN"
+"../JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"
+article-type="research-article"  xmlns:ali="http://www.niso.org/schemas/ali/1.0"  dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BioOne</journal-id>
+<journal-id journal-id-type="journal-id">Elementa</journal-id>
+<journal-title-group>
+<journal-title>Elementa</journal-title>
+<journal-subtitle>Science of the Anthropocene</journal-subtitle>
+<abbrev-journal-title>Elem. Sci. Anth.</abbrev-journal-title>
+</journal-title-group>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Helmig</surname><given-names>Detlev</given-names></name>
+<xref ref-type="aff" rid="affa"/>
+<role>Editor-in-Chief: Atmospheric Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/detlev-helmig/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Blum</surname><given-names>Joel D.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Earth &amp; Environmental Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/joel-d-blum/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Zak</surname><given-names>Donald R.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Ecology</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/donald-r-zak/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Deming</surname><given-names>Jody W.</given-names></name>
+<xref ref-type="aff" rid="affc"/>
+<role>Editor-in-Chief: Ocean Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/jody-w-deming/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Chang</surname><given-names>Michael E.</given-names></name>
+<xref ref-type="aff" rid="affd"/>
+<role>Editor-in-Chief: Sustainable Engineering</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/michael-e-chang/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Kapuscinski</surname><given-names>Anne</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/anne-kapuscinski/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Peart</surname><given-names>David R.</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/david-r-peart/</uri>
+</contrib>
+</contrib-group>
+<aff id="affa">
+<institution>University of Colorado Boulder</institution>
+<country>United States</country>
+</aff>
+<aff id="affb">
+<institution>University of Michigan</institution>
+<country>United States</country>
+</aff>
+<aff id="affc">
+<institution>University of Washington</institution>
+<country>United States</country>
+</aff>
+<aff id="affd">
+<institution>Georgia Institute of Technology</institution>
+<country>United States</country>
+</aff>
+<aff id="affe">
+<institution>Dartmouth</institution>
+<country>United States</country>
+</aff>
+<issn pub-type="epub">2325-1026</issn>
+<publisher>
+<publisher-name>BioOne</publisher-name>
+<publisher-loc>21 Dupont Circle NW, Suite 800, Washington, DC 20036, United States<email>team@elementascience.org</email>
+<uri>http://bioone.org</uri><uri>http://elementascience.org</uri>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">ELEMENTA-D-13-00001</article-id>
+<article-id pub-id-type="doi">10.12952/journal.elementa.000017</article-id>
+<article-categories>
+<subj-group subj-group-type="article-type">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="domain">
+<subject>Atmospheric Science</subject>
+</subj-group>
+<subj-group subj-group-type="classification">
+<subject>Atmospheric Science</subject>
+<subj-group>
+<subject>Atmospheric Chemistry</subject>
+</subj-group>
+<subj-group>
+<subject>Ocean-Atmosphere Interactions</subject>
+</subj-group>
+<subj-group>
+<subject>Atmospheric Composition</subject>
+</subj-group>
+<subj-group>
+<subject>Atmospheric Modeling</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Dimethyl sulfide control of the clean summertime Arctic aerosol and cloud</article-title>
+<alt-title alt-title-type="short-title">DMS Control of the Arctic Aerosol and Cloud</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Leaitch</surname><given-names>W. Richard</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Sharma</surname><given-names>Sangeeta</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Huang</surname><given-names>Lin</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Toom-Sauntry</surname><given-names>Desiree</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Chivulescu</surname><given-names>Alina</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Macdonald</surname><given-names>Anne Marie</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>von Salzen</surname><given-names>Knut</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Pierce</surname><given-names>Jeffrey R.</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Bertram</surname><given-names>Allan K.</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Schroder</surname><given-names>Jason C.</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Shantz</surname><given-names>Nicole C.</given-names></name>
+<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Chang</surname><given-names>Rachel Y.-W.</given-names></name>
+<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Norman</surname><given-names>Ann-Lise</given-names></name>
+<xref ref-type="aff" rid="aff6"><sup>6</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label>
+<institution content-type="dept">Science and Technology Branch</institution>, <institution>Environment Canada</institution>, <addr-line content-type="city">Toronto</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+<aff id="aff2"><label>2</label>
+<institution content-type="dept">Department of Atmospheric Science</institution>, <institution>Colorado State University</institution>, <addr-line content-type="city">Fort Collins</addr-line>, <addr-line content-type="state">Colorado</addr-line>, <country>United States</country></aff>
+<aff id="aff3"><label>3</label>
+<institution content-type="dept">Department of Chemistry</institution>, <institution>University of British Columbia</institution>, <addr-line content-type="city">Vancouver</addr-line>, <addr-line content-type="state">British Columbia</addr-line>, <country>Canada</country></aff>
+<aff id="aff4"><label>4</label>
+<institution>Airzone One Ltd.</institution>, <addr-line content-type="city">Mississauga</addr-line>, <addr-line content-type="state">Ontario</addr-line>, <country>Canada</country></aff>
+<aff id="aff5"><label>5</label>
+<institution content-type="dept">Department of Earth and Planetary Sciences</institution>, <institution>Harvard University</institution>, <addr-line content-type="city">Cambridge</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>United States</country></aff>
+<aff id="aff6"><label>6</label>
+<institution content-type="dept">Physics and Astronomy</institution>, <institution>University of Calgary</institution>, <addr-line content-type="city">Calgary</addr-line>, <addr-line content-type="state">Alberta</addr-line>, <country>Canada</country></aff>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief" xlink:type="simple">
+<name name-style="western"><surname>Helmig</surname><given-names>Detlev</given-names></name>
+<role>Domain Editor-in-Chief</role>
+<xref ref-type="aff" rid="afff"/>
+</contrib>
+<contrib contrib-type="associate-editor" xlink:type="simple">
+<name name-style="western"><surname>Savarino</surname><given-names>Joël</given-names></name>
+<role>Associate Editor</role>
+<xref ref-type="aff" rid="affg"/>
+</contrib>
+</contrib-group>
+<aff id="afff">
+<institution content-type="dept">Institute of Alpine and Arctic Research</institution>
+<institution>University of Colorado Boulder</institution>
+<addr-line content-type="city">Boulder</addr-line>
+<addr-line content-type="state">Colorado</addr-line>
+<country>United States</country>
+</aff>
+<aff id="affg">
+<institution content-type="dept">Laboratoire de Glaciologie et Géophysique de l’Environnement</institution>
+<institution>CNRS/Grenoble University</institution>
+<addr-line content-type="city">Saint-Martin d’Hères</addr-line>
+<country>France</country>
+</aff>
+<author-notes>
+<corresp id="cor1"><label><sup>*</sup></label><email xlink:type="simple">Richard.Leaitch@ec.gc.ca</email></corresp>
+<fn fn-type="conflict"><p>There are no competing interests.</p></fn>
+<fn fn-type="con">
+<p>Contributed to conception and design: WRL, JRP</p>
+<p>Contributed to acquisition of data: WRL, SS, LH, DT-S, AC, JRP, NCS, A-LN</p>
+<p>Contributed to analysis and interpretation of data: WRL, AMM, KvS, JRP, AKB, JS, NCS, RY-WC, A-LN</p>
+<p>Drafted and/or revised the article: WRL</p>
+<p>Approved the submitted version for publication: All</p></fn>
+</author-notes>
+<pub-date pub-type="collection" iso-8601-date="2013-12-04">
+<day>04</day>
+<month>12</month>
+<year>2013</year>
+</pub-date>
+<pub-date pub-type="epub" iso-8601-date="2013-12-04">
+<day>04</day>
+<month>12</month>
+<year>2013</year>
+</pub-date>
+<volume content-type="volume">1</volume>
+<elocation-id>000017</elocation-id>
+<history>
+<date date-type="received" iso-8601-date="2013-05-21">
+<day>21</day>
+<month>05</month>
+<year>2013</year>
+</date>
+<date date-type="rev-recd" iso-8601-date="2013-10-16">
+<day>16</day>
+<month>10</month>
+<year>2013</year>
+</date>
+<date date-type="accepted" iso-8601-date="2013-10-25">
+<day>25</day>
+<month>10</month>
+<year>2013</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Leaitch et al.</copyright-holder>
+<ali:free_to_read/>
+<license license-type="open-access" xlink:type="simple">
+<license-p><open-access><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p>
+</open-access>
+</license-p>
+<ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0">
+http://www.Leaitch.org/licenses/open-access.html</ali:license_ref>
+</license>
+</permissions>
+<abstract><title>Abstract</title>
+<p>One year of aerosol particle observations from Alert, Nunavut shows that new particle formation (NPF) is common during clean periods of the summertime Arctic associated with attendant low condensation sinks and with the presence of methane sulfonic acid (MSA), a product of the atmospheric oxidation of dimethyl sulfide (DMS). The clean aerosol time periods, defined using the distribution of refractory black carbon number concentrations, increase in frequency from June through August as the anthropogenic influence dwindles. During the clean periods, the number concentrations of particles that can act as cloud condensation nuclei (CCN) increase from June through August suggesting that DMS, and possibly other oceanic organic precursors, exert significant control on the Arctic summertime submicron aerosol, a proposition supported by simulations from the GEOS-Chem-TOMAS global chemical transport model with particle microphysics. The CCN increase for the clean periods across the summer is estimated to be able to increase cloud droplet number concentrations (CDNC) by 23–44 cm<sup>-3</sup>, comparable to the mean CDNC increase needed to yield the current global cloud albedo forcing from industrial aerosols. These results suggest that DMS may contribute significantly to modification of the Arctic summer shortwave cloud albedo, and they offer a reference for future changes in the Arctic summer aerosol.</p>
+</abstract>
+<kwd-group>
+<kwd>Arctic summertime aerosol</kwd>
+<kwd>dimethyl sulfide</kwd>
+<kwd>cloud condensation nuclei</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="s1"><title>Introduction</title>
+<p>The Arctic is warming more rapidly than other regions of the world (<xref ref-type="bibr" rid="bibr001">ACIA, 2005</xref>), and a significant increase in anthropogenic activities in the Arctic is expected by mid-century if not before (<xref ref-type="bibr" rid="bibr073">Smith and Stephenson, 2013</xref>) that will further contribute to the changing Arctic climate. While much has been speculated about the role of anthropogenic black carbon in Arctic warming (<xref ref-type="bibr" rid="bibr079">UNEP, 2011</xref>), the shortwave cooling effect of the Arctic summertime aerosol and the potential response of its origins to warmer temperatures and reduced ice cover have only been scarcely studied (Curry, 1995; <xref ref-type="bibr" rid="bibr049">Mauritsen et al., 2011</xref>). Proposed some time ago as the background aerosol of the Northern Hemisphere (NH) (<xref ref-type="bibr" rid="bibr050">Megaw and Flyger, 1973</xref>), the summertime Arctic aerosol is well known to be influenced by products of the atmospheric oxidation of DMS (e.g. <xref ref-type="bibr" rid="bibr070">Sharma et al., 2012</xref>).</p>
+<p>Oceanic emissions of DMS constitute approximately 25% of the total global sulfur emissions that enter the atmosphere (<xref ref-type="bibr" rid="bibr038">Lana et al., 2011</xref>). Once in the atmosphere, DMS is oxidized primarily to methane sulfonic acid (MSA) and sulfur dioxide (SO<sub>2</sub>), and the SO<sub>2</sub> can be further oxidized to H<sub>2</sub>SO<sub>4</sub> that can form new particles. MSA has some possibility of contributing to new particle formation (NPF), but its ability to nucleate is much lower than that of H<sub>2</sub>SO<sub>4</sub> due to a higher saturation vapor pressure. Generally, MSA is considered to be relatively unimportant for NPF under atmospheric conditions (e.g. <xref ref-type="bibr" rid="bibr037">Kreidenweis and Seinfeld, 1988</xref>; <xref ref-type="bibr" rid="bibr084">Wyslouzil et al., 1991</xref>; <xref ref-type="bibr" rid="bibr081">Van Dingenen and Raes, 1993</xref>; <xref ref-type="bibr" rid="bibr006">Berresheim et al., 2002</xref>). As a condensable product of DMS oxidation, MSA is a tracer for linking particles with DMS. In addition to being oxidized in the gas phase, SO<sub>2</sub> can also be oxidized in cloud water (e.g. <xref ref-type="bibr" rid="bibr068">Seinfeld and Pandis, 1997</xref>). The addition of H<sub>2</sub>SO<sub>4</sub> to cloud-activated particles from the aqueous-phase oxidation of SO<sub>2</sub> will increase the size of the activated particles following cloud evaporation. That process can lead to the development of a mode in the particle size distribution following cloud evaporation (<xref ref-type="bibr" rid="bibr029">Hoppel, Fitzgerald, and Larson, 1985</xref>), for which there is also evidence in the summertime Arctic atmosphere (<xref ref-type="bibr" rid="bibr025">Heintzenberg and Leck, 1994</xref>; <xref ref-type="bibr" rid="bibr026">Heintzenberg and Leck, 2012</xref>).</p>
+<p>It was hypothesized many years ago that newly formed particles resulting from DMS oxidation can grow by the condensation of gases, aqueous processes in cloud, and through self coagulation to sizes where they may act as CCN and influence cloud albedo (<xref ref-type="bibr" rid="bibr010">Charlson et al., 1987</xref>). Evidence that DMS contributes to NPF in the free troposphere of the NH as hypothesized by <xref ref-type="bibr" rid="bibr061">Raes (1995)</xref> has been found by <xref ref-type="bibr" rid="bibr013">Clarke et al. (1998)</xref>. Additionally, CCN in the Southern Hemisphere marine boundary layer has been linked to MSA (<xref ref-type="bibr" rid="bibr004">Ayers and Gras, 1991</xref>). However, some summertime Arctic observations have been used to question the importance of DMS in defining the aerosol number concentration and ultimately the CCN number concentration (<xref ref-type="bibr" rid="bibr043">Leck and Bigg, 2007</xref>). Further a review of many years of investigation finds little evidence to support NPF from DMS oxidation in the atmospheric boundary layer of the NH and their growth to CCN sizes (<xref ref-type="bibr" rid="bibr060">Quinn and Bates, 2011</xref>); for many areas of the world and the low atmospheric concentrations of the distributed DMS, H<sub>2</sub>SO<sub>4</sub> derived from DMS oxidation will preferentially condense on existing particles before forming new particles (<xref ref-type="bibr" rid="bibr036">Kreidenweis et al., 1991</xref>; <xref ref-type="bibr" rid="bibr059">Pirjola et al., 2000</xref>).</p>
+<p>Atmospheric aerosol particles, such as sea salt particles or those derived from anthropogenic sources, act as sinks for condensable gases (e.g. H<sub>2</sub>SO<sub>4</sub>) and as sites for losses of newly formed particles by coagulation. NPF derived from pervasive but low-concentration precursors, such as DMS, and subsequent growth of new particles to CCN sizes is enhanced when the above sinks are small (<xref ref-type="bibr" rid="bibr036">Kreidenweis et al., 1991</xref>; <xref ref-type="bibr" rid="bibr059">Pirjola et al., 2000</xref>). The summertime Arctic is relatively free of condensation and coagulation sinks because of increased wet deposition of particles and the more northerly position of the Arctic front that separates the Arctic air mass from mid-latitudes and inhibits the replenishment of particles from major anthropogenic source regions (<xref ref-type="bibr" rid="bibr005">Barrie, 1986</xref>; <xref ref-type="bibr" rid="bibr021">Engvall et al., 2008</xref>; <xref ref-type="bibr" rid="bibr024">Garrett et al., 2011</xref>; <xref ref-type="bibr" rid="bibr077">Stohl, 2006</xref>). Arctic observations have shown that new particles will appear following cleansing of the air by precipitation (<xref ref-type="bibr" rid="bibr028">Hogan, Barnard, and Winters, 1982</xref>), and <xref ref-type="bibr" rid="bibr021">Engvall et al. (2008)</xref> identified a reduction in the condensation sink as a major component of the shift in the aerosol size distribution from larger to smaller particles as the Arctic air transitions to less influence of anthropogenic sources during April to June.</p>
+<p>Here, one year of observations of the submicron aerosol conducted from March, 2011 to March, 2012 at the Dr. Neil Trivett Global Atmosphere Watch (GAW) Observatory at Alert, Nunavut (82.5°N, 75°W; elevation 210 m-MSL) and simulations from the GEOS-Chem-TOMAS global chemical transport model provide evidence of a link between DMS and the particles that will serve as CCN during the Arctic summer.</p></sec>
+<sec id="s2"><title>Measurement methods</title>
+<p>The ambient aerosol is pulled into the Alert GAW laboratory through a 3 m long, 10 cm diameter vertical manifold at a flow rate of about 1000 L/min. Particles are sampled out of the manifold from near the center of the flowstream, about 30 cm up from the bottom of the manifold. From there the particles are delivered to the sampling devices via stainless steel tubing. The mean total residence time of a particle from outside to its measurement point is approximately 3 s, and at the point of sampling the aerosol is at approximately room temperature and the relative humidity (RH) is &lt;50%.</p>
+<p>Total number concentrations of particles &gt;4 nm are measured using a TSI 3772 Condensation Particle Counter (CPC), and particle size distributions from 20 nm to 500 nm diameter are measured with a TSI 3034 Scanning Mobility Particle System (SMPS), verified on site using monodisperse particles of polystyrene latex and of ammonium sulfate generated with a Brechtel Manufacturing Incorporated (BMI) Scanning Electrical Mobility Spectrometer (SEMS). Particle number concentrations approximately in the size range of 4 nm to 20 nm (N<sub>4–20</sub>) are derived from the difference of the CPC and the SMPS totals.</p>
+<p>Ten minute averaged refractory black carbon (rBC) number concentrations are measured with a Droplet Measurement Technologies Single Particle Soot Photometer (SP2) that simultaneously measures the scattering and incandescence of individual rBC particles from an intracavity Nd:YAG laser (λ=1064 nm) (<xref ref-type="bibr" rid="bibr076">Stephens, Turner, and Sandberg, 2003</xref>; <xref ref-type="bibr" rid="bibr067">Schwarz et al., 2006</xref>). The measured limit of particle size detection, based on calibration with size-selected particles of Aquadag, is a volume equivalent diameter of approximately 63 nm.</p>
+<p>Measurements of the half-hour averaged non-refractory chemical components (mostly sulphates, nitrates and total organics) of particles smaller than 700 nm vacuum aerodynamic diameter are made with an Aerodyne Research Inc. Aerosol Chemical Speciation Monitor (ACSM) (<xref ref-type="bibr" rid="bibr051">Ng et al., 2011</xref>). On-site calibrations of the ACSM are done with nearly monodisperse particles of ammonium nitrate selected using the BMI SEMS. ACSM measurements at Alert are available for March to May, 2011; data after May to the end of the sampling period discussed here are unavailable due to instrument problems.</p>
+<p>The real-time measurements were averaged to produce one hour data points. Those hourly averages were further discriminated for ambient RH &lt;90% to eliminate the direct influence of water fogs; ice crystals present at RH &lt;90% could still inhibit NPF, more so in the spring than the summer. Data with winds from 0° to 45° true north are excluded due to the potential for contamination from the Alert station approximately 10 km from the site. As discussed in the results and discussion section, the anthropogenic influence is further minimized by discrimination based on the rBC number concentrations.</p>
+<p>Samples of total suspended particles for analysis of major inorganic ions and MSA by ion chromatography (IC) are collected on weekly integrated high volume Whatman 41 filters sampled near the ground about 50 m from the GAW lab (<xref ref-type="bibr" rid="bibr070">Sharma et al., 2012</xref>). In addition, weekly Teflon and quartz fibre filters located inside the GAW lab sample the ambient aerosol via the above inlet with a 1 µm upper size limit. Details of the high volume sample handling, analytical methods and quality control are discussed elsewhere (<xref ref-type="bibr" rid="bibr046">Li and Barrie, 1993</xref>). The Teflon filters are analyzed by IC for inorganics and MSA, using the same method as for the high volume filters, and the quartz filters are analyzed for organic carbon and elemental carbon (OC/EC) by thermal volatilization (<xref ref-type="bibr" rid="bibr030">Huang et al., 2006</xref>; <xref ref-type="bibr" rid="bibr007">Chan et al., 2010</xref>). Sulfur isotopic analyses were conducted on portions of the high volume filters collected from 1993 to 2003 as described by <xref ref-type="bibr" rid="bibr052">Norman et al. (1999)</xref>.</p></sec>
+<sec id="s3"><title>Modeling methods</title>
+<p>Predictions of N<sub>4–20</sub> particles and particle size distributions are made with version 8.02.02 of the GEOS-Chem chemical transport model (<uri>http://www.geos-chem.org</uri>). The model was configured for 30 vertical layers and run globally with a horizontal grid resolution of 4°×5°. GEOS-Chem is extended to simulate particle microphysics by adding the TwO-Moment Aerosol Sectional (TOMAS) microphysics model (<xref ref-type="bibr" rid="bibr002">Adams and Seinfeld, 2002</xref>; <xref ref-type="bibr" rid="bibr078">Trivitayanurak et al., 2008</xref>; <xref ref-type="bibr" rid="bibr074">Snow-Kropla et al., 2011</xref>); recent updates of TOMAS are documented by <xref ref-type="bibr" rid="bibr057">Pierce and Adams (2009)</xref>. We use GEOS3 meteorology for the year 2001, and DMS emissions are calculated using monthly mean seawater DMS concentrations from <xref ref-type="bibr" rid="bibr034">Kettle et al. (1999)</xref> and the transfer velocity calculated using <xref ref-type="bibr" rid="bibr047">Liss and Merlivat (1986)</xref>. The <xref ref-type="bibr" rid="bibr034">Kettle et al. (1999)</xref> emissions scheme used in GEOSCHEM results in global simulations of DMS emissions and atmospheric burdens that are the lowest compared with two other approaches used in GEOSCHEM and fall near mid-range of published global DMS emissions (<xref ref-type="bibr" rid="bibr027">Hezel et al., 2011</xref>); the use of the <xref ref-type="bibr" rid="bibr047">Liss and Merlivat (1986)</xref> scheme is another factor contributing to reduced DMS emissions. The <xref ref-type="bibr" rid="bibr027">Hezel et al. (2011)</xref> study also shows GEOSCHEM-simulated global atmospheric burdens of MSA are at the higher end of the published range, the austral summer MSA is about three times higher than observed MSA, the global burden of non-sea-salt sulfate is at the lower end of the published range, the austral summer non-sea-salt sulfate is approximately 50% higher than observed, and the austral summer DMS concentrations are overestimated by a factor of two. Overestimation of DMS, MSA and sulfate (derived from DMS) may also apply to the Arctic region (<xref ref-type="bibr" rid="bibr035">Kettle and Andreas, 2000</xref>). Other emissions are described by <xref ref-type="bibr" rid="bibr080">van Donkelaar et al. (2008)</xref>, who also present comparisons with airborne observations that demonstrate the ability of GEOSCHEM to reasonably represent aerosol chemical mass transport across the North Pacific Ocean. This version of TOMAS, which extends the aerosol particle mass transport to number and size, has 40 size bins representing dry aerosol diameters from 1 nm to 10 µm. Aerosol chemical species incorporated into TOMAS include sulfate, sea-salt, organic carbon, black carbon and dust. The sulfur chemistry in GEOS-Chem is based on that of the GOCART model with reactions described in <xref ref-type="bibr" rid="bibr012">Chin et al. (2000)</xref>. For gas-phase sulfur oxidation, DMS is oxidized by OH to form SO<sub>2</sub> and MSA, DMS is oxidized by nitrate radicals (NO<sub>3</sub>) to form SO<sub>2</sub>, and SO<sub>2</sub> is oxidized by OH to form sulfate. Rate constants are from <xref ref-type="bibr" rid="bibr015">DeMore et al. (1997)</xref> with yields of SO<sub>2</sub> and MSA for DMS oxidation from <xref ref-type="bibr" rid="bibr011">Chatfield and Crutzen (1990)</xref>. For aqueous-phase sulfur oxidation, SO<sub>2</sub> is oxidized by O<sub>3</sub> and H<sub>2</sub>O<sub>2</sub> in clouds to form sulfate. The rate constants are from <xref ref-type="bibr" rid="bibr031">Jacob (1986)</xref>. Secondary Organic Aerosol (SOA) is formed from terrestrial biogenic sources only (10% of monoterpene emissions in GEOS-Chem are converted instantly to SOA giving an annual flux of 18 Tg yr<sup>-1</sup>); one evaluation of biogenic SOA simulated by GEOS-CHEM is given by <xref ref-type="bibr" rid="bibr082">Wainwright et al. (2012)</xref>. SOA is assumed to be non-volatile and is distributed across the aerosol size distribution proportionally to the Fuchs-corrected aerosol surface area (<xref ref-type="bibr" rid="bibr058">Pierce et al., 2011</xref>; <xref ref-type="bibr" rid="bibr064">Riipinen et al., 2011</xref>). Nucleation rates are predicted using the activation nucleation formulation of <xref ref-type="bibr" rid="bibr072">Sihto et al. (2006)</xref>:
+<disp-formula id="elementa.000017.e001"><label>(1)</label><alternatives>
+<graphic xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.e001" position="float"/>
+<mml:math overflow="scroll">
+<mml:mrow>
+<mml:mi style="font-style: normal;">J</mml:mi>
+<mml:mo style="font-style: normal;"> </mml:mo>
+<mml:mo>=</mml:mo>
+<mml:mo style="font-style: normal;"> </mml:mo>
+<mml:mi style="font-style: normal;">A</mml:mi>
+<mml:mrow>
+<mml:mo>[</mml:mo>
+<mml:msub>
+<mml:mi style="font-style: normal;">H</mml:mi>
+<mml:mn>2</mml:mn>
+</mml:msub>
+<mml:msub>
+<mml:mi>SO</mml:mi>
+<mml:mn>4</mml:mn>
+</mml:msub>
+<mml:mo> </mml:mo>
+<mml:mo>]</mml:mo>
+</mml:mrow>
+</mml:mrow>
+</mml:math>
+</alternatives></disp-formula>
+where J is the nucleation rate of 1 nm particles and A [s<sup>-1</sup>] is an empirical constant. Values of “A” of 1x10<sup>-7</sup> (<xref ref-type="bibr" rid="bibr009">Chang et al., 2011a</xref>) and 2 × 10<sup>-6</sup> s<sup>-1</sup> are used here based (<xref ref-type="bibr" rid="bibr072">Sihto et al., 2006</xref>; <xref ref-type="bibr" rid="bibr063">Riipinen et al., 2007</xref>; <xref ref-type="bibr" rid="bibr075">Spracklen et al., 2008</xref>). The simulation was spun up for 1 month followed by a 12-month simulation. The aerosol size distribution and size-resolved aerosol composition was output for Alert every 6 hours for the surface model layer. Recently, aerosol size distributions predicted from GEOSCHEM-TOMAS have been compared with observations from several locations in the northern hemisphere, including Alert, indicating that the model can reasonably simulate the aerosol particle microphysics (<xref ref-type="bibr" rid="bibr014">D’Andrea et al., 2013</xref>).</p>
+<p>An adiabatic aerosol-cloud parcel model (<xref ref-type="bibr" rid="bibr069">Shantz et al., 2010</xref>) is used to estimate CDNC from the observed aerosol number size distributions. The model has been shown to re-produce observed CDNC in near adiabatic situations and for low stratiform cloud (<xref ref-type="bibr" rid="bibr039">Leaitch et al., 2010</xref>) as found in the Arctic summer. The model incorporates the kappa parameterization (κ) to represent the particle hygroscopicity (<xref ref-type="bibr" rid="bibr055">Petters and Kreidenweis, 2007</xref>); κ can be calculated for some chemical components, but for many it is empirically determined. The values of kappa used here (0.2 and 0.5) represent a more organic dominated particle (κ=0.2) and a more sulfate dominated particle (κ=0.5) as observed in the summer Arctic (<xref ref-type="bibr" rid="bibr008">Chang et al., 2011b</xref>) as well as at Alert during May of 2011 with the ACSM (<xref ref-type="supplementary-material" rid="elementa.000017.s001">Supplemental Material S1</xref>). The parcel lifting to form the simulated cloud is based on an updraft speed of 0.4 m s<sup>-1</sup> as observed in clouds over north Alaska in April (<xref ref-type="bibr" rid="bibr020">Earle et al., 2011</xref>).</p></sec>
+<sec id="s4"><title>Results and discussion</title>
+<p>The annual pattern of the aerosol chemistry at Alert is shown in <xref ref-type="fig" rid="elementa.000017.f001">Figure 1a</xref> as the monthly averaged mass concentrations of sulfate, organic carbon (OC), elemental carbon (EC), sodium and MSA. The well-known Arctic Haze, aerosol transported from distant anthropogenic sources (e.g. <xref ref-type="bibr" rid="bibr005">Barrie, 1986</xref>), is evident in the higher concentrations of sulfate, OC and EC during the winter and early spring. April to May is a transition period when sulfate decreases and MSA from northern ocean sources becomes relatively important at Alert (e.g. <xref ref-type="bibr" rid="bibr070">Sharma et al., 2012</xref>). During July and August, the mean MSA to sulfate ratio is approximately 12% compared with a 10-year MSA to DMS-derived sulfate ratio of 39% (±21%) also for the months of July and August (<xref ref-type="bibr" rid="bibr052">Norman et al., 1999</xref>), indicating some fraction of the sulfate remains of anthropogenic origin. During July, August and September, the 10-year mean isotope-based ratio of biogenic sulfate to total sulfate is 30–40% (<xref ref-type="fig" rid="elementa.000017.f001">Figure 1b</xref>). Sodium, an indicator of sea salt, has a monthly variation similar to sulfate and decreases significantly during June, July, August and September (JJAS). Low levels of calcium in particles with diameters greater than 1 µm measured during JJAS range from 0.04–0.28 µg m<sup>-3</sup> and are attributed to local wind blown dust impacting the ground-level field sampler.</p>
+<fig id="elementa.000017.f001" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000017.f001</object-id>
+<label>Figure 1 </label><caption>
+<title>Monthly averaged time series of particle chemistry and number concentrations at Alert.</title>
+<p>a) Monthly averaged filter concentrations of sulphate (red triangles), MSA (blue diamonds), sodium (light blue squares), organic carbon (OC; green triangles), elemental carbon (EC; black dots) and temperature (brown crosses) at Alert. Except for EC and OC, all are March, 2011 to March, 2012; EC and OC are averaged for 2005–2010. The range bars represent two standard deviations of the individual measurements making up the monthly average. b) Monthly averaged number concentrations of particles from 4–20 nm (N<sub>4–20</sub>; blue squares); particles &gt;20nm (SMPS total; red dots); particles &gt;200 nm (N200; gray triangles); refractory black carbon particles (rBC; black triangles) larger than about 65 nm, and the monthly mean percentage of biogenic sulfate to total sulfate (BSO4/TSO4; pink diamonds). All number concentrations are for March, 2011 to March, 2012, and the range bars are two standard deviations of the individual measurements. The biogenic sulfate percentage is an average for 1993 to 2003.</p></caption><graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.f001"/>
+</fig>
+<p>The monthly mean particle number concentrations are shown in <xref ref-type="fig" rid="elementa.000017.f001">Figure 1b</xref>. During JJAS, the increase in the number concentrations of N<sub>4–20</sub> particles, a potential indicator of NPF, coincides with the decline in the number concentrations of rBC particles (monthly averaged rBC and filter EC correlate with R<sup>2</sup>=0.80 and p&lt;0.0002) and in the total particles between 200 nm and 500 nm diameter (N200; the N200 and the volume concentration of particles &lt;500 nm correlate with R<sup>2</sup>&gt;0.99, p&lt;0.0001). The monthly co-variance of rBC, N200 and sulfate, all of which decrease from the spring through the summer, implies a decreasing influence from anthropogenic sources. Although MSA increases in April, the N<sub>4–20</sub> particles do not increase until June, when the indicators of condensation sinks (sodium, N200 and possibly ice crystals) are reduced.</p>
+<p>The impact of reduced condensation sinks on the N<sub>4–20</sub> particles is evident in a plot of their number concentrations versus the total volume concentrations of particles &lt;500 nm (<xref ref-type="fig" rid="elementa.000017.f002">Figure 2a</xref>). For JJAS, the N<sub>4–20</sub> increase for volume concentrations approaching near zero. Below a volume concentration of 0.2 µm<sup>3</sup> cm<sup>-3</sup> the increase in N<sub>4–20</sub> is largely associated with rBC number concentrations less than the median JJAS rBC concentration of 0.71 cm<sup>-3</sup>. The numbers of hourly averaged observations of rBC number concentrations &lt;2 cm<sup>-3</sup>, shown in <xref ref-type="fig" rid="elementa.000017.f002">Figure 2b</xref>, indicate that the cleanest conditions are prevalent only during JJAS as represented by an increase in the number of rBC observations below the median JJAS rBC number concentration. The increase in the number of rBC observations below the JJAS median concentration represents aerosols that have undergone considerable scavenging and had no recent input from combustion sources. It is concluded that most of the N<sub>4–20</sub> particles during JJAS were not directly related to combustion. The few scattered pink points at higher volume concentrations in <xref ref-type="fig" rid="elementa.000017.f002">Figure 2a</xref> are possibly due to local emissions that escaped filtering by wind sector; their associated rBC concentrations range from 8–32 cm<sup>-3</sup>. The results for all other months give few indications of increases in N<sub>4–20</sub>, in part due to the absence of actinic radiation, as Alert experiences 24-hour darkness from October to March.</p>
+<fig id="elementa.000017.f002" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000017.f002</object-id>
+<label>Figure 2 </label><caption><title>(a) N<sub>4–20</sub> versus volume concentration of particles &lt;500 nm; (b) distribution of rBC number concentrations.</title>
+<p>a) One-hour averaged N<sub>4–20</sub> versus total volume concentration of particles &lt;500 nm: all data points with measured rBC for June-September (JJAS; 1402 pink dots); JJAS data points with rBC &lt;0.71 cm<sup>-3</sup> (709 green points; subset of the pink dots); data points from all other months (1534 blue dots). b) Distribution of hours with indicated equal interval rBC number concentrations up to 2 cm<sup>-3</sup>: black bars represent the complete year; green bars represent JJAS only. Median rBC number concentrations for JJAS and the entire year are 0.71 cm<sup>-3</sup> and 3.37 cm<sup>-3</sup> respectively; 33% and 60% of rBC number concentrations are &gt;2 cm<sup>-3</sup> for JJAS and the entire year respectively.</p>
+</caption><graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.f002"/></fig>
+<p>The associations of the N<sub>4–20</sub> with increased MSA and minimal anthropogenic influence, also observed at the Arctic site of Spitzbergen (<xref ref-type="bibr" rid="bibr025">Heintzenberg and Leck, 1994</xref>), implies that those particles are the result of NPF arising from the oxidation of DMS-derived SO<sub>2</sub>. Further, that pattern of increased NPF with decreasing existing particle concentrations has been predicted for particle formation from DMS (<xref ref-type="bibr" rid="bibr036">Kreidenweis et al., 1991</xref>). Spring and summer sources of DMS and DMS oxidation products to Alert arrive from open ocean regions, possibly enhanced near ice edges of the Arctic Ocean (e.g. see discussions by <xref ref-type="bibr" rid="bibr070">Sharma et al., 2012</xref> and <xref ref-type="bibr" rid="bibr040">Leck and Persson, 1996</xref>). Increased levels of DMS has also been observed at higher altitudes (<xref ref-type="bibr" rid="bibr048">Lundén et al., 2010</xref>), and katabatic flows or milder forms of subsidence may be another source of DMS or its products to Alert. Two-day back trajectory analyses from the online NOAA Hysplit model (<xref ref-type="bibr" rid="bibr016">Draxler and Hess, 1997</xref>; <xref ref-type="bibr" rid="bibr017">Draxler and Hess, 1998</xref>; <xref ref-type="bibr" rid="bibr019">Draxler, 1999</xref>; <xref ref-type="bibr" rid="bibr018">Draxler and Rolph, 2013</xref>; <xref ref-type="bibr" rid="bibr065">Rolph, 2013</xref>) for JJAS show a predominance of air arriving to Alert from north across the ocean ice pack, from the south over the Canadian Arctic Archipelago and up the Nares Strait between Ellesmere Island and Greenland (<xref ref-type="supplementary-material" rid="elementa.000017.s002">Supplemental Material Figure S2</xref>). In particular, a number of trajectories descend off Greenland, from which some of the cleanest aerosol at Alert arrives and where MSA concentrations during the summer range up to 0.025 µg m<sup>-3</sup> (<xref ref-type="bibr" rid="bibr032">Jaffrezo et al., 1994</xref>), comparable to values measured at Alert.</p>
+<p>It has been suggested that many of the particles (and CCN) smaller than 100 nm in the summertime Arctic originate from primary emissions of biological particles (microgels) from the ocean as opposed to NPF (<xref ref-type="bibr" rid="bibr041">Leck and Bigg, 1999</xref>; <xref ref-type="bibr" rid="bibr042">Leck and Bigg, 2005</xref>; <xref ref-type="bibr" rid="bibr044">Leck and Bigg, 2010</xref>; <xref ref-type="bibr" rid="bibr053">Orellana et al., 2011</xref>). The possibility that such a process may be important in some regions of the Arctic is not disputed. However, the primary emissions of microgels does not explain the Alert observations of an increase in the N<sub>4–20</sub> nm particles with decreasing particle volume (<xref ref-type="fig" rid="elementa.000017.f002">Figure 2a</xref>): such particles would need to be transported long distances with little modification (by growth, coagulation or deposition) and only during the cleanest periods to support the observations of <xref ref-type="fig" rid="elementa.000017.f002">Figure 2a</xref>, a possibility that is less likely than the NPF hypothesis. Consistent with prior Arctic observations (<xref ref-type="bibr" rid="bibr025">Heintzenberg and Leck, 1994</xref>), the N<sub>4–20</sub> at Alert during JJAS were observed in excess of 106 cm<sup>-3</sup> and 301 cm<sup>-3</sup> 50% and 25% of the time respectively, when the rBC concentrations were below their median value for JJAS of 0.71 cm<sup>-3</sup>. That frequency of N<sub>4–20</sub> particles at Alert argues for the more likely occurrence of NPF in the atmosphere near the observation site where their likelihood of survival to detection is higher, particularly since the viability of NPF associated with DMS and a reduced condensation sink has been both predicted and demonstrated for the Arctic summertime (e.g. <xref ref-type="bibr" rid="bibr028">Hogan et al., 1982</xref>; <xref ref-type="bibr" rid="bibr036">Kreidenweis et al., 1991</xref>; <xref ref-type="bibr" rid="bibr021">Engvall et al., 2008</xref>; <xref ref-type="bibr" rid="bibr009">Chang et al., 2011a</xref>; <xref ref-type="bibr" rid="bibr062">Rempillo et al., 2011</xref>) as well as elsewhere in ultra-clean environments (<xref ref-type="bibr" rid="bibr056">Petters et al., 2005</xref>; <xref ref-type="bibr" rid="bibr083">Wood et al., 2011</xref>). Thus, these results offer evidence for the common occurrence of NPF in the Arctic summertime boundary layer linked with DMS, previously considered to be an unlikely possibility for the NH (<xref ref-type="bibr" rid="bibr059">Pirjola et al., 2000</xref>).</p>
+<p>Simulations of NPF at Alert were conducted with GEOS-Chem-TOMAS for two values of the ‘A’ factor (<xref ref-type="disp-formula" rid="elementa.000017.e001">equation 1</xref>). Using the value of 1 × 10<sup>-7</sup> for ‘A’ (<xref ref-type="bibr" rid="bibr009">Chang et al., 2011a</xref>) yielded no significant NPF (not shown). With the value of 2 × 10<sup>-6</sup> for ‘A’ (<xref ref-type="bibr" rid="bibr072">Sihto et al., 2006</xref>), the modeled pattern of the N<sub>4–20</sub> particles versus volume for Alert (<xref ref-type="fig" rid="elementa.000017.f003">Figure 3a</xref>) is similar to that observed at Alert with the exception that the model does not clean the atmosphere around Alert as much as indicated by the observations. The model simulates few volume concentrations below 0.1 µm<sup>3</sup> cm<sup>-3</sup> and most of the simulated NPF occurs between volume concentrations of 0.1 µm<sup>3</sup> cm<sup>-3</sup> and 0.3 µm<sup>3</sup> cm<sup>-3</sup>, whereas the observations indicate nucleation occurs predominantly at volume concentrations below 0.1 µm<sup>3</sup> cm<sup>-3</sup>. The resulting higher simulated condensation sink will require a larger value of ‘A’ than might be interpreted from a box model initiated with local observations (e.g. <xref ref-type="bibr" rid="bibr033">Karl et al., 2012</xref>). As discussed by <xref ref-type="bibr" rid="bibr072">Sihto et al. (2006)</xref> and <xref ref-type="bibr" rid="bibr009">Chang et al. (2011a)</xref>, ‘A’ is potentially influenced by a large number of factors, (e.g. condensation sink, VOCs, NH<sub>3</sub>, OH and SO<sub>2</sub> branching from DMS oxidation), which makes its determination highly variable. For example, the <xref ref-type="bibr" rid="bibr072">Sihto et al. (2006)</xref> value is the mean of several ambient measurements at Hyytiälä (near 62°N) during mid-March to early April that vary from 4 × 10<sup>-7</sup> to 6 × 10<sup>-6</sup>, and <xref ref-type="bibr" rid="bibr063">Riipinen et al. (2007)</xref> found a mean value of 2.4 × 10-7 (range 3.3 × 10<sup>-8</sup> to 2 × 10<sup>-6</sup>) for ‘A’ at the same site for April to May. Further, chamber observations suggest that atmospheric nucleation rates may strongly depend on the availability of small concentrations of gas-phase amines (<xref ref-type="bibr" rid="bibr003">Almeida et al., 2013</xref>). It is concluded that the simulated results shown in <xref ref-type="fig" rid="elementa.000017.f003">Figure 3a</xref> support the concept that the reduced condensation sink under the clean summertime conditions at Alert promotes NPF. Further, the results shown in <xref ref-type="fig" rid="elementa.000017.f003">Figure 3b</xref> indicate viability of NPF from the oxidation of SO<sub>2</sub> that is derived from the oxidation of DMS.</p>
+<fig id="elementa.000017.f003" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000017.f003</object-id>
+<label>Figure 3 </label><caption><title>GEOS-Chem-TOMAS simulations for Alert.</title>
+<p>a) Six-hour averaged N<sub>4–20</sub> particle number concentrations versus volume concentration of particles &lt;500 nm from model simulations; pink triangles are means of the &lt;0.2 µm<sup>3</sup> cm<sup>-3</sup>, 0.2–0.4 mm<sup>3</sup> cm<sup>-3</sup> and &gt;0.4 µm<sup>3</sup> cm<sup>-3</sup> intervals. b) Monthly averaged mass concentrations of MSA and number concentrations of particles N<sub>4–20</sub> particles for simulations with no DMS emissions (no DMS) and with standard DMS emissions (DMS): MSA for no DMS as black dots; MSA with DMS as green dots; N<sub>4–20</sub> for no DMS as blue triangles; N<sub>4–20</sub> with DMS as pink triangles. These model simulations predict new particle formation at Alert in the summertime only for the existence of DMS emissions.</p>
+</caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.f003"/></fig>
+<p>NPF is important for climate only if some of the newly formed particles grow to sizes where they can significantly affect either atmospheric light extinction or the number concentrations of cloud droplets (<xref ref-type="bibr" rid="bibr022">Forster et al., 2007</xref>). As shown below, particles from 50–60 nm and larger may nucleate cloud droplets in the clean summertime Arctic. At Alert, the number concentrations of particles larger than 60 nm (N60) and larger than 100 nm (N100) increased from June through September relative to N200, and for the cases with rBC &lt;0.71 cm<sup>-3</sup> the absolute values of N60 and N100 increased from June through August by 3–4 times (<xref ref-type="fig" rid="elementa.000017.f004">Figure 4a</xref>). Kinetically, the growth of newly formed particles to 60 nm diameter for the conditions of the Arctic summertime may occur within about one day (<xref ref-type="bibr" rid="bibr009">Chang et al., 2011a</xref>). Also, a DMS source can explain the mass of the smaller particles at Alert. For rBC &lt;0.71 cm<sup>-3</sup>, the July and August means of the integrated volume concentrations are 0.014 µm<sup>3</sup> cm<sup>-3</sup> and 0.047 µm<sup>3</sup> cm<sup>-3</sup> for particles in the size ranges of 20–100 nm and 20–200 nm respectively. Those values convert to sulfate mass concentrations of approximately 0.025 µg m<sup>-3</sup> and 0.084 µg m<sup>-3</sup>, respectively, estimates that are consistent with the Arctic observations of <xref ref-type="bibr" rid="bibr008">Chang et al. (2011b)</xref>. Considering the observed mean MSA concentration of about 0.01 µg m<sup>-3</sup> (<xref ref-type="fig" rid="elementa.000017.f001">Figure 1</xref>) and the ratio of MSA to DMS-derived sulfate (0.39) (<xref ref-type="bibr" rid="bibr052">Norman et al., 1999</xref>), the estimated mean mass of MSA plus DMS-derived sulfate is about 0.026 µg m<sup>-3</sup> or 31% of the above value for 20–200 nm particles. Thus, it is possible that a significant fraction of the material that grew the 20–200 nm particles originated from DMS. DMS-related growth of the particles is also supported by the GEOS-Chem-TOMAS simulations that indicate an increase in N100 associated with DMS of between 15 cm<sup>-3</sup> and 25 cm<sup>-3</sup> during JJAS (<xref ref-type="fig" rid="elementa.000017.f004">Figure 4b</xref>). Those number concentrations compare with the N100 particles for the JJAS cleaner periods of 5 cm<sup>-3</sup> to 30 cm<sup>-3</sup> (<xref ref-type="fig" rid="elementa.000017.f004">Figure 4a</xref>). The growth of newly formed particles to CCN sizes is not necessarily restricted to sulfur components. The submicron concentrations of organic carbon mass (OC; <xref ref-type="fig" rid="elementa.000017.f001">Figure 1a</xref>) and total organic mass (OM; Supplemental Material <xref ref-type="supplementary-material" rid="elementa.000017.s001">Figure S1</xref>) here and elsewhere in the summer Arctic (<xref ref-type="bibr" rid="bibr008">Chang et al., 2011b</xref>) are comparable to those of sulfate during the summer indicating that other marine sources, including emissions of volatile organic compounds, likely contributed to the evolution of the particles (<xref ref-type="bibr" rid="bibr033">Karl et al., 2012</xref>; <xref ref-type="bibr" rid="bibr066">Russell et al., 2010</xref>; <xref ref-type="bibr" rid="bibr071">Shaw, Gantt, and Meskhidze, 2010</xref>; <xref ref-type="bibr" rid="bibr023">Fu et al., 2009</xref>; <xref ref-type="bibr" rid="bibr045">Leck et al., 2002</xref>; <xref ref-type="bibr" rid="bibr026">Heintzenberg and Leck, 2012</xref>).</p>
+<fig id="elementa.000017.f004" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000017.f004</object-id>
+<label>Figure 4 </label>
+<caption><title>(a) Observed monthly averaged particle number concentrations and (b) modeled monthly averaged number concentrations.</title>
+<p>a) Monthly averaged number concentrations of N<sub>4–20</sub> (red dots), N200 (gray dots), N100 (green dots), N60 (blue dots) and rBC particles (black dots). Also shown are mean JJAS values of N60 (brown squares) and N100 (light blue squares) for rBC concentrations less than the median value of 0.71 cm<sup>-3</sup>. b) GEOS-Chem-TOMAS simulations for Alert of monthly averaged mass concentrations of MSA and N100 for simulations with and without DMS emissions: MSA for no DMS as black dots; MSA with DMS as green dots; N100 for no DMS as blue triangles; N100 with DMS as pink triangles.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.f004"/></fig>
+<p>The MSA mass concentrations simulated by GEOSCHEM for Alert (<xref ref-type="fig" rid="elementa.000017.f003">Figure 3</xref>) are an order of magnitude higher than the observed concentrations (<xref ref-type="fig" rid="elementa.000017.f001">Figure 1</xref>). As discussed in Modeling Methods, DMS, MSA and sulfate (from DMS) may be over estimated in the POLAR regions (<xref ref-type="bibr" rid="bibr035">Kettle and Andreas, 2000</xref>; <xref ref-type="bibr" rid="bibr027">Hezel et al., 2011</xref>), suggesting that DMS-derived sulfate mass concentrations are also over predicted. Potentially higher model concentrations of DMS-derived SO<sub>2</sub> may contribute to the higher modeled N<sub>4–20</sub>; the monthly mean modeled N<sub>4–20</sub> for June and July are 1912 cm<sup>-3</sup> and 878 cm<sup>-3</sup>, respectively, whereas the monthly means of the observed N<sub>4–20</sub> are 339 cm<sup>-3</sup> and 200 cm<sup>-3</sup> for June and July respectively. The GEOSCHEM simulations under predict the organic mass in the Alert submicron aerosol relative to the observations (not shown), which may explain the relatively close agreement of the simulated and observed N100 concentrations despite an apparent over prediction of sulfur from DMS. Despite these limitations, the GEOSCHEM simulations support the conclusion that the growth of particles in the relatively clean air is consistent with marine sources.</p>
+<p>The monthly mean JJAS particle number distributions for lower rBC (&lt;0.71 cm<sup>-3</sup>) and higher rBC (&gt;0.71 cm<sup>-3</sup>) are shown in <xref ref-type="fig" rid="elementa.000017.f005">Figure 5</xref>. With the gradual cleansing of the anthropogenic aerosol over the summer period, the number of hours with lower rBC become an increasingly larger fraction of the total monthly hours. The lower September aerosol concentrations in both cases are a product of 1) increased wet deposition during August and September when cloud and precipitation were prevalent compared with July for which no precipitation was recorded, 2) reduced DMS fluxes in the Arctic (<xref ref-type="bibr" rid="bibr038">Lana et al., 2011</xref>) and 3) the minimal anthropogenic influence as represented by the lowest mean rBC concentrations (<xref ref-type="fig" rid="elementa.000017.f001">Figure 1</xref>). The 80–200 nm mode in the August lower-rBC distribution, seen elsewhere in the Arctic summer, suggests the addition of sulfate to the cloud activated particles via aqueous-phase oxidation of SO<sub>2</sub> (<xref ref-type="bibr" rid="bibr025">Heintzenberg and Leck, 1994</xref>; <xref ref-type="bibr" rid="bibr026">Heintzenberg and Leck, 2012</xref>; <xref ref-type="bibr" rid="bibr029">Hoppel, Fitzgerald, and Larson, 1985</xref>). The lower-rBC distributions of JJA were input to the aerosol-cloud parcel model to estimate credible CDNC. The ranges of the minimum predicted sizes at which particles activate to cloud droplets are shaded in <xref ref-type="fig" rid="elementa.000017.f005">Figure 5a</xref>. The predicted CDNC of 24–30 cm<sup>-3</sup>, 45–63 cm<sup>-3</sup> and 53–68 cm<sup>-3</sup>, for June, July and August respectively, fall in the lower end of the range of modelled global mean pre-industrial CDNC (30–140 cm<sup>-3</sup>) (<xref ref-type="bibr" rid="bibr054">Penner et al., 2006</xref>). Thus both predictions of CDNC from a natural source, one of which is founded on observational data, are consistent. The predicted CDNC are higher in August than in June by 23–44 cm<sup>-3</sup>, comparable to the &lt;50 cm<sup>-3</sup> increase in the global mean CDNC needed to give rise to a similar cloud albedo as the cloud albedo forcing from industrial aerosols (<xref ref-type="bibr" rid="bibr054">Penner et al., 2006</xref>). These results suggest that DMS may be a defining factor in much of the summertime Arctic low cloud microphysics and potentially has a significant influence on the shortwave albedo of low clouds during the Arctic summer.</p>
+<fig id="elementa.000017.f005" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000017.f005</object-id>
+<label>Figure 5 </label>
+<caption><title>Monthly averaged particle size distributions at Alert.</title>
+<p>Monthly averaged size distributions for a) hours with rBC &lt;0.71 cm<sup>-3</sup> and b) hours with rBC &gt;0.71 cm<sup>-3</sup>, where 0.71 cm<sup>-3</sup> is the median of the rBC measurements over JJAS. Green represents June, red is for July, black is for August and blue is for September. The number of hours and days in the averages are indicated in the legends. The shaded sections in a) indicate the range of the activation diameters for particles nucleating cloud droplets assuming a hygroscopicity parameter<sup>26</sup> range of 0.2–0.5 and an updraft speed of 0.4 m s<sup>-1</sup>. The updraft is based on spring observations of clouds over north Alaska<sup>27</sup>, and the hygroscopicity range reflects particle chemistry dominated either by organics or by sulphates, as observed in summer Arctic elsewhere<sup>28</sup> and at Alert during March-May of 2011 (<xref ref-type="supplementary-material" rid="elementa.000017.s001">Supplemental Material Figure S1</xref>).</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.f005"/></fig>
+</sec>
+<sec id="s5"><title>Conclusions</title>
+<p>Cleansing of the summertime Arctic atmosphere can trigger new particle formation. Modest growth of the new particles via gas- and aqueous-phase processing increases the number concentrations of those particles that will serve as nuclei for cloud droplets (CCN). An associated increase of methane sulfonic acid (MSA) and a decrease of refractory black carbon particles combined with simulations from the GEOS-Chem-TOMAS global model lead to the conclusion that dimethyl sulfide (DMS) may play a defining role in the size distribution of the clean summertime Arctic aerosol at Alert. For half of the days during July and August of 2011, DMS sources are estimated to have been the main origin of CCN at Alert, and provide one baseline estimate for the aerosol cloud albedo effect. Since the 2011 MSA concentrations were close to the 30-year mean (0.09 µg m<sup>-3</sup>) (<xref ref-type="bibr" rid="bibr070">Sharma et al., 2012</xref>), it is possible that DMS may in general have a significant impact on summertime Arctic clouds. The relative increase in the contribution from DMS to CCN from June through August is connected to a diminishing anthropogenic contribution over the same period. New sources of particles and CCN from expected increases in anthropogenic activities in the Arctic in coming years are likely to lessen the natural influence and weaken our ability to make such estimates.</p></sec>
+<sec id="s6"><title>Data accessibility statement</title>
+<p>The primary data are included in spreadsheets as part of the supplemental material.</p>
+</sec>
+<sec id="s7"><title>Supplemental material legends</title>
+<supplementary-material id="elementa.000017.s001" position="float" mimetype="application/msword" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.s001">
+<label>Figure S1. </label><caption><title>Time series of the particle chemistry from the ACSM compared with the SMPS volume concentration.</title>
+<p>Major non-refractory components of particles smaller 700 nm vacuum aerodynamic diameter at Alert for March to May, 2011: organic component (green dots); sulphate components (red dots); nitrate components (blue dots). The black line is the volume concentration of particles with mobility diameters smaller than 500 nm. (DOC)</p>
+<p specific-use="supplementary-material-metadata">
+<named-content content-type="file-type">DOC</named-content>
+<named-content content-type="file-size">0.106 MB</named-content></p></caption></supplementary-material>
+<supplementary-material id="elementa.000017.s002" position="float" mimetype="application/msexcel" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000017.s002">
+<label>Figure S2. </label><caption><title>Daily back trajectories air parcels arriving at Alert during June, July, August and September, 2011 from the NOAA Hysplit model. (XLS)</title>
+<p specific-use="supplementary-material-metadata">
+<named-content content-type="file-type">XLS</named-content>
+<named-content content-type="file-size">13.954 MB</named-content></p></caption></supplementary-material></sec>
+<sec id="s8" sec-type="copyright-statement"><title>Copyright</title>
+<p>© 2013 Leaitch et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p></sec>
+</body>
+<back>
+<ack><title>Acknowledgments</title>
+<p>We thank the Canadian Department of National Defence for logistical support at Alert, and Kevin Anderson, Andrew Platt, Sarah Hanna, and the Alert operators for help with the observations and analyses.</p></ack>
+<ref-list content-type="parsed"><title>References</title>
+<ref id="bibr001">
+<mixed-citation publication-type="book">
+<collab>ACIA</collab>, 
+<year>2005</year>. 
+<source>Arctic Climate Impact Assessment</source>. 
+<publisher-name>Cambridge University Press</publisher-name>, 
+<publisher-loc>Cambridge, UK</publisher-loc>. Available at 
+<uri>http://www.acia.uaf.edu</uri>.</mixed-citation>
+</ref>
+<ref id="bibr002">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Adams</surname><given-names>PJ</given-names></name>, 
+<name name-style="western"><surname>Seinfeld</surname><given-names>JH</given-names></name>. 
+<year>2002</year>. 
+<article-title>Predicting global aerosol size distributions in general circulation models</article-title>. 
+<source>J Geophys Res</source> 
+<volume>107</volume> (<issue>D19</issue>): 
+<fpage>AAC4-1</fpage>–<lpage>AAC4-23</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2001JD001010</pub-id></mixed-citation>
+</ref>
+<ref id="bibr003">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Almeida</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Schobesberger</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Kürten</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Ortega</surname><given-names>IK</given-names></name>, 
+<name name-style="western"><surname>Kupiainen-Määttä</surname><given-names>O</given-names></name>, <etal>et al.</etal> 
+<year>2013</year>. 
+<article-title>Molecular understanding of sulphuric acid-amine particle nucleation in the atmosphere</article-title>. 
+<source>Nature</source> 
+<volume>502</volume>: 
+<fpage>359</fpage>–<lpage>363</lpage>. doi:
+<pub-id pub-id-type="doi">10.1038/nature12663</pub-id></mixed-citation>
+</ref>
+<ref id="bibr004">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ayers</surname><given-names>GP</given-names></name>. 
+<name name-style="western"><surname>Gras</surname><given-names>JL</given-names></name>. 
+<year>1991</year>. 
+<article-title>Seasonal relationship between cloud condensation nuclei and aerosol methanesulphonate in marine air</article-title>. 
+<source>Nature</source> 
+<volume>353</volume>: 
+<fpage>834</fpage>–<lpage>835</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr005">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Barrie</surname><given-names>LA</given-names></name>. 
+<year>1986</year>. 
+<article-title>Arctic air pollution: An overview of current knowledge</article-title>. 
+<source>Atmos Environ</source> 
+<volume>20</volume>: 
+<fpage>643</fpage>–<lpage>663</lpage>. doi:
+<pub-id pub-id-type="doi">10.1016/0004-6981(86)90180-0</pub-id></mixed-citation>
+</ref>
+<ref id="bibr006">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Berresheim</surname><given-names>H</given-names></name>, 
+<name name-style="western"><surname>Elste</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Tremmel</surname><given-names>HG</given-names></name>, 
+<name name-style="western"><surname>Allen</surname><given-names>AG</given-names></name>, 
+<name name-style="western"><surname>Hansson</surname><given-names>H-C</given-names></name>, <etal>et al.</etal> 
+<year>2002</year>. 
+<article-title>Gas-aerosol relationships of H2SO4, MSA, and OH: Observations in the coastal marine boundary layer at Mace Head, Ireland</article-title>. 
+<source>J. Geophys. Res</source> 
+<volume>107</volume> (<issue>D19</issue>): 
+<fpage>8100</fpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2000JD000229</pub-id></mixed-citation>
+</ref>
+<ref id="bibr007">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chan</surname><given-names>TW</given-names></name>, 
+<name name-style="western"><surname>Huang</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>, 
+<name name-style="western"><surname>Sharma</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Brook</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Slowik</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Abbatt</surname><given-names>J</given-names></name>. 
+<year>2010</year>. 
+<article-title>Determination of OM/OC ratios and specific attenuation coefficients in ambient fine PM at a rural site in Central Ontario, Canada</article-title>. 
+<source>Atmos Chem Physics</source> 
+<volume>10</volume>: 
+<fpage>2393</fpage>–<lpage>2411</lpage>. 
+<uri>www.atmos-chem-phys.net/10/2393/2010/</uri></mixed-citation>
+</ref>
+<ref id="bibr008">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chang</surname><given-names>RY-W</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Graus</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Muller</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Paatero</surname><given-names>J</given-names></name>, <etal>et al.</etal> 
+<year>2011b</year>. 
+<article-title>Aerosol composition and sources in the Central Arctic Ocean during ASCOS</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>11</volume>: 
+<fpage>10619</fpage>–<lpage>10636</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-10619-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr009">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chang</surname><given-names>RY-W</given-names></name>, 
+<name name-style="western"><surname>Sjostedt</surname><given-names>SJ</given-names></name>, 
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Papakyriakou</surname><given-names>TN</given-names></name>, 
+<name name-style="western"><surname>Scarratt</surname><given-names>MG</given-names></name>, <etal>et al.</etal> 
+<year>2011a</year>. 
+<article-title>Relating Atmospheric and Oceanic DMS Levels to Particle Nucleation Events during the Canadian Arctic Summer</article-title>. 
+<source>J Geophys Res</source> 
+<volume>116</volume> (<issue>D17</issue>): doi:
+<pub-id pub-id-type="doi">10.1029/2011JD015926</pub-id></mixed-citation>
+</ref>
+<ref id="bibr010">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Charlson</surname><given-names>RJ</given-names></name>, 
+<name name-style="western"><surname>Lovelock</surname><given-names>JE</given-names></name>, 
+<name name-style="western"><surname>Andreae</surname><given-names>MO</given-names></name>, 
+<name name-style="western"><surname>Warren</surname><given-names>SG</given-names></name>. 
+<year>1987</year>. 
+<article-title>Oceanic phytoplankton, atmospheric sulphur, cloud albedo, and climate</article-title>. 
+<source>Nature</source> 
+<volume>326</volume>: 
+<fpage>655</fpage>–<lpage>661</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr011">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chatfield</surname><given-names>RB</given-names></name>, 
+<name name-style="western"><surname>Crutzen</surname><given-names>PJ</given-names></name>. 
+<year>1990</year>. 
+<article-title>Are there interactions of iodine and sulfur species in marine air photochemistry?</article-title> 
+<source>J. Geophys Res</source> 
+<volume>95</volume>: 
+<fpage>22,319</fpage>–<lpage>22,341</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr012">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chin</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Rood</surname><given-names>RB</given-names></name>, 
+<name name-style="western"><surname>Lin</surname><given-names>S-J</given-names></name>, 
+<name name-style="western"><surname>Bandy</surname><given-names>J-FM</given-names></name>, 
+<name name-style="western"><surname>Thornton</surname><given-names>DC</given-names></name>, 
+<name name-style="western"><surname>Bates</surname><given-names>TS</given-names></name>, 
+<name name-style="western"><surname>Quinn</surname><given-names>PK</given-names></name>, 
+<name name-style="western"><surname>Saltzman</surname><given-names>ES</given-names></name>, 
+<name name-style="western"><surname>DeBruyn</surname><given-names>WJ</given-names></name>. 
+<year>2000</year>. 
+<article-title>Atmospheric sulfur cycle in the global model GOCART: Model description and global properties</article-title>. 
+<source>J. Geophys Res</source> 
+<volume>105</volume>: 
+<fpage>24,689</fpage>–<lpage>24,712</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr013">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Clarke</surname><given-names>AD</given-names></name>, 
+<name name-style="western"><surname>Varner</surname><given-names>JL</given-names></name>, 
+<name name-style="western"><surname>Eisele</surname><given-names>F</given-names></name>, 
+<name name-style="western"><surname>Mauldin</surname><given-names>RL</given-names></name>, 
+<name name-style="western"><surname>Tanner</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Litchy</surname><given-names>M</given-names></name>. 
+<year>1998</year>. 
+<article-title>Particle production in the remote marine atmosphere: cloud outflow and subsidence during ACE-1</article-title>. 
+<source>J. Geophys Res</source> 
+<volume>103</volume> (<issue>D13</issue>): 
+<fpage>16,397</fpage>–<lpage>16,409</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1029/97JD02987</pub-id></mixed-citation>
+</ref>
+<ref id="bibr014">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>D’Andrea</surname><given-names>SD</given-names></name>, 
+<name name-style="western"><surname>Häkkinen</surname><given-names>SAK</given-names></name>, 
+<name name-style="western"><surname>Westervelt</surname><given-names>DM</given-names></name>, 
+<name name-style="western"><surname>Kuang</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Levin</surname><given-names>EJT</given-names></name>, 
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>, 
+<name name-style="western"><surname>Spracklen</surname><given-names>DV</given-names></name>, 
+<name name-style="western"><surname>Riipinen</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>. 
+<year>2013</year>. 
+<article-title>Understanding and constraining global secondary organic aerosol amount and size-resolved condensational behavior</article-title>. 
+<source>Atmos Chem Phys Discuss</source> 
+<volume>13</volume>: 
+<fpage>18969</fpage>–<lpage>19007</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acpd-13-18969-2013</pub-id></mixed-citation>
+</ref>
+<ref id="bibr015">
+<mixed-citation id="journal">
+<name name-style="western"><surname>DeMore</surname><given-names>WB</given-names></name>, 
+<name name-style="western"><surname>Sander</surname><given-names>SP</given-names></name>, 
+<name name-style="western"><surname>Golden</surname><given-names>DM</given-names></name>, 
+<name name-style="western"><surname>Hampson</surname><given-names>RF</given-names></name>, 
+<name name-style="western"><surname>Kurylo</surname><given-names>MJ</given-names></name>, 
+<name name-style="western"><surname>Howard</surname><given-names>CJ</given-names></name>, 
+<name name-style="western"><surname>Ravishankara</surname><given-names>AR</given-names></name>, 
+<name name-style="western"><surname>Kolb</surname><given-names>CE</given-names></name>, 
+<name name-style="western"><surname>Molina</surname><given-names>MJ</given-names></name>. 
+<year>1997</year>. 
+<article-title>Chemical kinetics and photochemical data for use in stratospheric modeling</article-title>. 
+<source>Jet Propulsion Laboratory Publication</source> 
+<volume>97–4</volume>: 
+<fpage>1</fpage>–<lpage>278</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr016">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Draxler</surname><given-names>RR</given-names></name>, 
+<name name-style="western"><surname>Hess</surname><given-names>GD</given-names></name>. 
+<year>1997</year>. 
+<source>Description of the HYSPLIT_4 modeling system</source>. 
+<publisher-loc>Silver Spring, MD</publisher-loc>: 
+<publisher-name>NOAA Air Resources Laboratory: ERL ARL-224</publisher-name>: p 
+<fpage>24</fpage>.</mixed-citation>
+</ref>
+<ref id="bibr017">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Draxler</surname><given-names>RR</given-names></name>, 
+<name name-style="western"><surname>Hess</surname><given-names>GD</given-names></name>. 
+<year>1998</year>. 
+<article-title>An overview of the HYSPLIT_4 modeling system of trajectories, dispersion, and deposition</article-title>. 
+<source>Aust Meteor Mag</source> 
+<volume>47</volume>: 
+<fpage>295</fpage>–<lpage>308</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr018">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Draxler</surname><given-names>RR</given-names></name>, 
+<name name-style="western"><surname>Rolph</surname><given-names>GD</given-names></name>. 
+<year>2013</year>. 
+<source>HYSPLIT (HYbrid Single-Particle Lagrangian Integrated Trajectory) Model</source>. 
+<publisher-loc>Silver Spring, MD</publisher-loc>: 
+<publisher-name>NOAA Air Resources Laboratory</publisher-name>. 
+Access via NOAA ARL READY Website (<uri>http://ready.arl.noaa.gov/HYSPLIT.php</uri>)</mixed-citation>
+</ref>
+<ref id="bibr019">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Draxler</surname><given-names>RR</given-names></name>. 
+<year>1999</year>. 
+<source>HYSPLIT4 user’s guide</source>. 
+<publisher-loc>Silver Spring, MD</publisher-loc>: 
+<publisher-name>NOAA Air Resources Laboratory: ERL ARL-230</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr020">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Earle</surname><given-names>ME</given-names></name>, 
+<name name-style="western"><surname>Liu</surname><given-names>PSK</given-names></name>, 
+<name name-style="western"><surname>Strapp</surname><given-names>JW</given-names></name>, 
+<name name-style="western"><surname>Zelenyuk</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Imre</surname><given-names>D</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>Factors influencing the microphysics and radiative properties of liquid-dominated Arctic clouds: Insight from observations of aerosol and clouds during ISDAC</article-title>. 
+<source>J Geophys Res</source> 
+<volume>116</volume> (<issue>D1</issue>): doi:
+<pub-id pub-id-type="doi">10.1029/2011JD015887</pub-id></mixed-citation>
+</ref>
+<ref id="bibr021">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Engvall</surname><given-names>A-C</given-names></name>, 
+<name name-style="western"><surname>Krejci</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Strom</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Treffeisen</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Scheele</surname><given-names>R</given-names></name>. 
+<year>2008</year>. 
+<article-title>Changes in aerosol properties during spring-summer period in the Arctic troposphere</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>8</volume>: 
+<fpage>445</fpage>–<lpage>462</lpage>. 
+<uri>www.atmos-chem-phys.net/8/445/2008/</uri></mixed-citation>
+</ref>
+<ref id="bibr022">
+<mixed-citation publication-type="inbook">
+<name name-style="western"><surname>Forster</surname><given-names>P</given-names></name>, 
+<name name-style="western"><surname>Ramaswamy</surname><given-names>V</given-names></name>, 
+<name name-style="western"><surname>Artaxo</surname><given-names>P</given-names></name>, 
+<name name-style="western"><surname>Berntsen</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Betts</surname><given-names>R</given-names></name>, <etal>et al.</etal> 
+<year>2007</year>. 
+<chapter-title>Radiative Forcing of Climate Change</chapter-title>, in: 
+<source>Climate Change 2007: The Physical Science Basis. Contribution of Working Group I to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change</source>, edited by: 
+<string-name name-style="western"><surname>Solomon</surname><given-names>S</given-names></string-name>, 
+<string-name name-style="western"><surname>Qin</surname><given-names>D</given-names></string-name>, 
+<string-name name-style="western"><surname>Manning</surname><given-names>M</given-names></string-name>, 
+<string-name name-style="western"><surname>Chen</surname><given-names>Z</given-names></string-name>, 
+<string-name name-style="western"><surname>Marquis</surname><given-names>M</given-names></string-name>, 
+<string-name name-style="western"><surname>Avery</surname><given-names>KB</given-names></string-name>, 
+<string-name name-style="western"><surname>Tignor</surname><given-names>M</given-names></string-name>, and 
+<string-name name-style="western"><surname>Miller</surname><given-names>H</given-names></string-name>. 
+<publisher-name>Cambridge Univ Press</publisher-name>: 
+<publisher-loc>New York</publisher-loc>. p 
+<fpage>129</fpage>–<lpage>234</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr023">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Fu</surname><given-names>P</given-names></name>, 
+<name name-style="western"><surname>Kawamura</surname><given-names>K</given-names></name>, 
+<name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Barrie</surname><given-names>LA</given-names></name>. 
+<year>2009</year>. 
+<article-title>Isoprene, monoterpene, and sesquiterpene oxidation products in the high Arctic aerosols during late winter to early summer</article-title>. 
+<source>Environ Sci Technol</source> 
+<volume>43</volume> (<issue>11</issue>): 
+<fpage>4022</fpage>–<lpage>4028</lpage>. doi:
+<pub-id pub-id-type="doi">10.1021/es803669a</pub-id></mixed-citation>
+</ref>
+<ref id="bibr024">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Garrett</surname><given-names>TJ</given-names></name>, 
+<name name-style="western"><surname>Brattström</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Sharma</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Worthy</surname><given-names>DEJ</given-names></name>, 
+<name name-style="western"><surname>Novelli</surname><given-names>P</given-names></name>. 
+<year>2011</year>. 
+<article-title>The role of scavenging in the seasonal transport of black carbon and sulfate to the Arctic</article-title>. 
+<source>Geophys Res Lett</source> 
+<volume>38</volume> 
+(<elocation-id>L16805</elocation-id>). doi:
+<pub-id pub-id-type="doi">10.1029/2011GL048221</pub-id></mixed-citation>
+</ref>
+<ref id="bibr025">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Heintzenberg</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>. 
+<year>1994</year>. 
+<article-title>Seasonal variations of the atmospheric aerosol near the top of the marine boundary layer over Spitsbergen related to the Arctic sulfur cycle</article-title>. 
+<source>Tellus</source> 
+<volume>46B</volume>: 
+<fpage>52</fpage>–<lpage>67</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr026">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Heintzenberg</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>. 
+<year>2012</year>. 
+<article-title>The summer aerosol in the Central Arctic 1991–2008: did it change or not?</article-title> 
+<source>Atmos Chem Phys</source> 
+<volume>12</volume>: 
+<fpage>3969</fpage>–<lpage>3983</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-12-3969-2012</pub-id></mixed-citation>
+</ref>
+<ref id="bibr027">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Hezel</surname><given-names>PJ</given-names></name>, 
+<name name-style="western"><surname>Alexander</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Bitz</surname><given-names>CM</given-names></name>, 
+<name name-style="western"><surname>Steig</surname><given-names>EJ</given-names></name>, 
+<name name-style="western"><surname>Holmes</surname><given-names>CD</given-names></name>, 
+<name name-style="western"><surname>Yang</surname><given-names>X</given-names></name>, 
+<name name-style="western"><surname>Sciare</surname><given-names>J</given-names></name>. 
+<year>2011</year>. 
+<article-title>Modeled methanesulfonic acid (MSA) deposition in Antarctica and its relationship to sea ice</article-title>, 
+<source>J Geophys Res</source> 
+<volume>116</volume> 
+(<elocation-id>D23214</elocation-id>). doi:
+<pub-id pub-id-type="doi">10.1029/2011JD016383</pub-id></mixed-citation>
+</ref>
+<ref id="bibr028">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Hogan</surname><given-names>AW</given-names></name>, 
+<name name-style="western"><surname>Barnard</surname><given-names>SC</given-names></name>, 
+<name name-style="western"><surname>Winters</surname><given-names>W</given-names></name>. 
+<year>1982</year>. 
+<article-title>Aerosol Minima</article-title>. 
+<source>Geophys Res Lett</source> 
+<volume>9</volume> (<issue>11</issue>): 
+<fpage>1251</fpage>–<lpage>1254</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr029">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Hoppel</surname><given-names>WA</given-names></name>, 
+<name name-style="western"><surname>Fitzgerald</surname><given-names>JW</given-names></name>, 
+<name name-style="western"><surname>Larson</surname><given-names>RE</given-names></name>. 
+<year>1985</year>. 
+<article-title>Aerosol size distributions in air masses advecting off the east coast of the United States</article-title>. 
+<source>J Geophys Res</source> 
+<volume>90</volume> (<issue>D1</issue>): 
+<fpage>2365</fpage>–<lpage>2379</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1029/JD090iD01p02365</pub-id></mixed-citation>
+</ref>
+<ref id="bibr030">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Huang</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>Brook</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Zhang</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Li</surname><given-names>S-M</given-names></name>, 
+<name name-style="western"><surname>Graham</surname><given-names>L</given-names></name>, <etal>et al.</etal> 
+<year>2006</year>. 
+<article-title>Stable isotope measurements of carbon fractions (OC/EC) in airborne particulate: A new dimension for source characterization and apportionment</article-title>. 
+<source>Atmos Environ</source> 
+<volume>40</volume> (<issue>15</issue>): 
+<fpage>2690</fpage>–<lpage>2705</lpage>. 
+<uri>http://dx.doi.org/10.1016/j.atmosenv.2005.11.062</uri></mixed-citation>
+</ref>
+<ref id="bibr031">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Jacob</surname><given-names>DJ</given-names></name>. 
+<year>1986</year>. 
+<article-title>Chemistry of OH in remote clouds and its role in the production of formic acid and peroxymonosulfate</article-title>. 
+<source>J. Geophys Res</source> 
+<volume>91</volume>: 
+<fpage>9807</fpage>–<lpage>9826</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr032">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Jaffrezo</surname><given-names>J-L</given-names></name>, 
+<name name-style="western"><surname>Davidson</surname><given-names>CI</given-names></name>, 
+<name name-style="western"><surname>Legrand</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Dibb</surname><given-names>JM</given-names></name>. 
+<year>1994</year>. 
+<article-title>Sulfate and MSA in the air and snow on the Greenland Ice Sheet</article-title>. 
+<source>J Geophys Res</source> 
+<volume>99</volume>: 
+<fpage>1241</fpage>–<lpage>1253</lpage>. doi:<pub-id pub-id-type="doi">10.1029/93JD02913</pub-id></mixed-citation>
+</ref>
+<ref id="bibr033">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Karl</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Gross</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Pirjola</surname><given-names>L</given-names></name>. 
+<year>2012</year>. 
+<article-title>A Study of New Particle Formation in the Marine Boundary Layer Over the Central Arctic Ocean using a Flexible Multicomponent Aerosol Dynamic Model</article-title>. 
+<source>Tellus</source> 
+<volume>64B</volume>: 
+<fpage>17158</fpage>, doi:
+<pub-id pub-id-type="doi">17110.13402/tel- lusb.v17164i17150.17158</pub-id></mixed-citation>
+</ref>
+<ref id="bibr034">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kettle</surname><given-names>AJ</given-names></name>, 
+<name name-style="western"><surname>Andreae</surname><given-names>MO</given-names></name>, 
+<name name-style="western"><surname>Amouroux</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Andreae</surname><given-names>TW</given-names></name>, 
+<name name-style="western"><surname>Bates</surname><given-names>TS</given-names></name>, <etal>et al.</etal> 
+<year>1999</year>. 
+<article-title>A global database of sea surface dimethylsulfide (DMS) measurements and a procedure to predict sea surface DMS as a function of latitude, longitude, and month</article-title>. 
+<source>Global Biogeochem Cycles</source> 
+<volume>13</volume> (<issue>2</issue>): 
+<fpage>399</fpage>–<lpage>444</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/1999GB900004</pub-id></mixed-citation>
+</ref>
+<ref id="bibr035">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kettle</surname><given-names>AJ</given-names></name>, 
+<name name-style="western"><surname>Andreae</surname><given-names>MO</given-names></name>. 
+<year>2000</year>. 
+<article-title>Flux of dimethylsulfide from the oceans: A comparison of updated data seas and flux models</article-title>, 
+<source>J Geophys Res</source> 
+<volume>105</volume> (<issue>D22</issue>): 
+<fpage>26,793</fpage>–<lpage>26,808</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr036">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kreidenweis</surname><given-names>SM</given-names></name>, 
+<name name-style="western"><surname>Penner</surname><given-names>JE</given-names></name>, 
+<name name-style="western"><surname>Yin</surname><given-names>F</given-names></name>, 
+<name name-style="western"><surname>Seinfeld</surname><given-names>JH</given-names></name>. 
+<year>1991</year>. 
+<article-title>The effects of dimethylsulfide upon marine aerosol concentrations</article-title>, 
+<source>Atmos Environ</source> 
+<volume>25A</volume> (<issue>11</issue>): 
+<fpage>2501</fpage>–<lpage>2511</lpage>.</mixed-citation>
+</ref> 
+<ref id="bibr037">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kreidenweis</surname><given-names>SM</given-names></name>, 
+<name name-style="western"><surname>Seinfeld</surname><given-names>JH</given-names></name>. 
+<year>1988</year>. 
+<article-title>Nucleation of sulfuric acid-water and methanesulfonic acid-water solution particles: implications for the atmospheric chemistry of organosulfur species</article-title>, 
+<source>Atmos Environ</source> 
+<volume>22</volume> (<issue>2</issue>): 
+<fpage>283</fpage>–<lpage>296</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr038">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Lana</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Bell</surname><given-names>TG</given-names></name>, 
+<name name-style="western"><surname>Simó</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Vallina</surname><given-names>SM</given-names></name>, 
+<name name-style="western"><surname>Ballabrera-Pov</surname><given-names>J</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>An updated climatology of surface dimethylsulfide concentrations and emission fluxes in the global ocean</article-title>. 
+<source>Global Biogeochem Cycles</source> 
+<volume>25</volume>: 
+<fpage>GB1004</fpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2010GB003850</pub-id></mixed-citation>
+</ref>
+<ref id="bibr039">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>, 
+<name name-style="western"><surname>Lohmann</surname><given-names>U</given-names></name>, 
+<name name-style="western"><surname>Russell</surname><given-names>LM</given-names></name>, 
+<name name-style="western"><surname>Garrett</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Shantz</surname><given-names>NC</given-names></name>, 
+<name name-style="western"><surname>Toom-Sauntry</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Strapp</surname><given-names>JW</given-names></name>, 
+<name name-style="western"><surname>Hayden</surname><given-names>KL</given-names></name>, 
+<name name-style="western"><surname>Marshall</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Wolde</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Worsnop</surname><given-names>DR</given-names></name>, 
+<name name-style="western"><surname>Jayne</surname><given-names>JT</given-names></name>. 
+<year>2010</year>. 
+<article-title>Cloud albedo increase from carbonaceous aerosol</article-title>, 
+<source>Atmos Chem Phys</source> 
+<volume>10</volume>: 
+<fpage>7669</fpage>–<lpage>7684</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr040">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name> and 
+<name name-style="western"><surname>Persson</surname><given-names>C</given-names></name>. 
+<year>1996</year>. 
+<article-title>The central Arctic Ocean as a source of dimethyl sulfide: seasonal variability in relation to biological activity</article-title>. 
+<source>Tellus B</source> 
+<volume>48</volume>: 
+<fpage>156</fpage>–<lpage>177</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr041">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Bigg</surname><given-names>EK</given-names></name>. 
+<year>1999</year>. 
+<article-title>Aerosol production over remote marine areas - A new route</article-title>, 
+<source>Geophys Res Lett</source> 
+<volume>26</volume>: 
+<fpage>3577</fpage>–<lpage>3580</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr042">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Bigg</surname><given-names>EK</given-names></name>. 
+<year>2005</year>. 
+<article-title>Evolution of the marine aerosol—a new perspective</article-title>. 
+<source>Geophys Res Lett</source> 
+<volume>32</volume> 
+(<elocation-id>L19803</elocation-id>). doi:
+<pub-id pub-id-type="doi">10.1029/2005GL023651</pub-id></mixed-citation>
+</ref>
+<ref id="bibr043">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Bigg</surname><given-names>EK</given-names></name>. 
+<year>2007</year>. 
+<article-title>A modified aerosol–cloud–climate feedback hypothesis</article-title>, 
+<source>Environ Chem</source> 
+<volume>4</volume>: 
+<fpage>400</fpage>–<lpage>403</lpage>. doi:
+<pub-id pub-id-type="doi">10.1071/EN07061</pub-id></mixed-citation>
+</ref>
+<ref id="bibr044">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Bigg</surname><given-names>EK</given-names></name>. 
+<year>2010</year>. 
+<article-title>New particle formation of marine biological origin</article-title>. 
+<source>Aerosol Sci Technol</source> 
+<volume>44</volume>: 
+<fpage>570</fpage>–<lpage>577</lpage>. doi:
+<pub-id pub-id-type="doi">10.1080/02786826.2010.481222</pub-id></mixed-citation>
+</ref>
+<ref id="bibr045">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Norman</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Bigg</surname><given-names>EK</given-names></name>, 
+<name name-style="western"><surname>Hillamo</surname><given-names>R</given-names></name>. 
+<year>2002</year>. 
+<article-title>Chemical composition and sources of the high Arctic aerosol relevant for fog and cloud formation</article-title>. 
+<source>J Geophys Res</source> 
+<volume>107</volume> (<issue>12</issue>): 
+<fpage>AAC1-1</fpage>–<lpage>AAC 1-17</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2001JD001463</pub-id></mixed-citation>
+</ref>
+<ref id="bibr046">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Li</surname><given-names>S-M</given-names></name>, 
+<name name-style="western"><surname>Barrie</surname><given-names>LA</given-names></name>. 
+<year>1993</year>. 
+<article-title>Biogenic sulfur aerosol in the Arctic troposphere: 1. Contributions to total sulfate</article-title>, 
+<source>J Geophys Res</source> 
+<volume>98</volume> (<issue>D11</issue>): 
+<fpage>20,613</fpage>–<lpage>20,622</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/93JD02234</pub-id></mixed-citation>
+</ref>
+<ref id="bibr047">
+<mixed-citation publication-type="inbook">
+<name name-style="western"><surname>Liss</surname><given-names>PS</given-names></name>, 
+<name name-style="western"><surname>Merlivat</surname><given-names>L</given-names></name>. 
+<year>1986</year>. 
+<chapter-title>Air-sea gas exchange rates: Introduction and synthesis</chapter-title>, in 
+<source>The Role of Air-Sea Exchange in Geochemical Cycling</source>, edited by 
+<string-name name-style="western"><surname>Buat-Ménard</surname><given-names>P</given-names></string-name>. 
+<publisher-loc>Norwell, Mass</publisher-loc>: 
+<publisher-name>D. Reidel</publisher-name>: p. 
+<fpage>113</fpage>–<lpage>127</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr048">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Lundén</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Svensson</surname><given-names>G</given-names></name>, 
+<name name-style="western"><surname>Wisthaler</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Tjernström</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Hansel</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>. 
+<year>2010</year>. 
+<article-title>The vertical distribution of atmospheric DMS in the high Arctic summer</article-title>. 
+<source>Tellus</source> 
+<volume>62B</volume>: 
+<fpage>160</fpage>–<lpage>171</lpage>. doi:
+<pub-id pub-id-type="doi">10.1111/j.1600-0889.2010.00458.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr049">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Mauritsen</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Sedlar</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Tjernström</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C.</given-names></name>, 
+<name name-style="western"><surname>Martin</surname><given-names>M</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>An Arctic CCN-limited cloud-aerosol regime</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>11</volume>: 
+<fpage>165</fpage>–<lpage>173</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-165-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr050">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Megaw</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Flyger</surname><given-names>H</given-names></name>. 
+<year>1973</year>. 
+<article-title>Measurement of the Background Atmospheric Aerosol</article-title>, 
+<source>J. Aerosol Sci</source>. 
+<volume>4</volume> (<issue>2</issue>): 
+<fpage>179</fpage>–<lpage>181</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr051">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ng</surname><given-names>NL</given-names></name>, 
+<name name-style="western"><surname>Herndon</surname><given-names>SC</given-names></name>, 
+<name name-style="western"><surname>Trimborn</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Canagaratna</surname><given-names>MR</given-names></name>, 
+<name name-style="western"><surname>Croteau</surname><given-names>PL</given-names></name> <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>An Aerosol Chemical Speciation Monitor (ACSM) for routine monitoring of the composition and mass concentrations of ambient aerosol</article-title>. 
+<source>Aerosol Sci Technol</source> 
+<volume>45</volume> (<issue>7</issue>): 
+<fpage>780</fpage>–<lpage>794</lpage>. 
+<uri>http://dx.doi.org/10.1080/02786826.2011.560211</uri></mixed-citation>
+</ref>
+<ref id="bibr052">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Norman</surname><given-names>AL</given-names></name>, 
+<name name-style="western"><surname>Barrie</surname><given-names>LA</given-names></name>, 
+<name name-style="western"><surname>Toom-Sauntry</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Sirois</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Krouse</surname><given-names>HR</given-names></name>, 
+<name name-style="western"><surname>Li</surname><given-names>S-M</given-names></name>, 
+<name name-style="western"><surname>Sharma</surname><given-names>S</given-names></name>. 
+<year>1999</year>. 
+<article-title>Sources of aerosol sulphate at Alert: Apportionment using stable isotopes</article-title>. 
+<source>J Geophys Res</source> 
+<volume>104</volume> (<issue>D9</issue>): 
+<fpage>11,619</fpage>–<lpage>11631</lpage>. doi:<pub-id pub-id-type="doi">10.1029/1999JD900078</pub-id></mixed-citation>
+</ref>
+<ref id="bibr053">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Orellana</surname><given-names>MV</given-names></name>, 
+<name name-style="western"><surname>Matrai</surname><given-names>PA</given-names></name>, 
+<name name-style="western"><surname>Leck</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Rauschenberg</surname><given-names>CD</given-names></name>, 
+<name name-style="western"><surname>Lee</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Coz</surname><given-names>E</given-names></name>. 
+<year>2011</year>. 
+<article-title>Marine microgels as a source of cloud condensation nuclei in the high Arctic</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>108</volume> (<issue>33</issue>): 
+<fpage>13612</fpage>–<lpage>13617</lpage>. 
+<uri>www.pnas.org/cgi/doi/10.1073/pnas.1102457108</uri></mixed-citation>
+</ref>
+<ref id="bibr054">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Penner</surname><given-names>JE</given-names></name>, 
+<name name-style="western"><surname>Quaas</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Storelvmo</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Takemura</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Boucher</surname><given-names>O</given-names></name>, <etal>et al.</etal> 
+<year>2006</year>. 
+<article-title>Model intercomparison of indirect aerosol effects</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>6</volume>: 
+<fpage>3391</fpage>–<lpage>3405</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-6-3391-2006</pub-id></mixed-citation>
+</ref>
+<ref id="bibr055">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Petters</surname><given-names>MD</given-names></name>, 
+<name name-style="western"><surname>Kreidenweis</surname><given-names>SM</given-names></name>. 
+<year>2007</year>. 
+<article-title>A single parameter representation of hygroscopic growth and cloud condensation nucleus activity</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>7</volume>: 
+<fpage>1961</fpage>–<lpage>1971</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-7-1961-2007</pub-id></mixed-citation>
+</ref>
+<ref id="bibr056">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Petters</surname><given-names>MD</given-names></name>, 
+<name name-style="western"><surname>Snider</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Stevens</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Vali</surname><given-names>G</given-names></name>, 
+<name name-style="western"><surname>Faloona</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Russell</surname><given-names>LM</given-names></name>. 
+<year>2005</year>. 
+<article-title>Accumulation mode aerosol, pockets of open cells, and particle nucleation in the remote subtropical Pacific marine boundary layer</article-title>. 
+<source>J Geophys Res</source> 
+<volume>111</volume> (<issue>D2</issue>): doi:
+<pub-id pub-id-type="doi">10.1029/2004JD005694</pub-id></mixed-citation>
+</ref>
+<ref id="bibr057">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Adams</surname><given-names>PJ</given-names></name>. 
+<year>2009</year>. 
+<article-title>Uncertainty in global CCN concentrations from uncertain aerosol nucleation and primary emission rates</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>9</volume>: 
+<fpage>1339</fpage>–<lpage>1356</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-9-1339-2009</pub-id></mixed-citation>
+</ref>
+<ref id="bibr058">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Riipinen</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Kulmala</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Ehn</surname><given-names>PT</given-names></name>, 
+<name name-style="western"><surname>Junninen</surname><given-names>H</given-names></name>, 
+<name name-style="western"><surname>Worsnop</surname><given-names>DR</given-names></name>, 
+<name name-style="western"><surname>Donahue</surname><given-names>NM</given-names></name>. 
+<year>2011</year>. 
+<article-title>Quantification of the volatility of secondary organic compounds in ultrafine particles during nucleation events</article-title>. 
+<source>Atmos Chem Physics</source> 
+<volume>11</volume>: 
+<fpage>9019</fpage>–<lpage>9036</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-9019-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr059">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Pirjola</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>O’Dowd</surname><given-names>CD</given-names></name>, 
+<name name-style="western"><surname>Brooks</surname><given-names>IM</given-names></name>, 
+<name name-style="western"><surname>Kulmala</surname><given-names>M</given-names></name>. 
+<year>2000</year>. 
+<article-title>Can new particle formation occur in the clean marine boundary layer?</article-title> 
+<source>J Geophys Res</source> 
+<volume>105</volume> (<issue>D21</issue>): 
+<fpage>26,531</fpage>–<lpage>26,546</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2000JD900310</pub-id></mixed-citation>
+</ref>
+<ref id="bibr060">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Quinn</surname><given-names>PK</given-names></name>, 
+<name name-style="western"><surname>Bates</surname><given-names>TS</given-names></name>. 
+<year>2011</year>. 
+<article-title>The case against climate regulation via oceanic phytoplankton sulphur emissions</article-title>. 
+<source>Nature</source> 
+<volume>480</volume>: 
+<fpage>51</fpage>–<lpage>56</lpage>. doi:
+<pub-id pub-id-type="doi">10.1038/nature10580</pub-id></mixed-citation>
+</ref>
+<ref id="bibr061">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Raes</surname><given-names>F</given-names></name>. 
+<year>1995</year>. 
+<article-title>Entrainment of free-tropospheric aerosol as a regulating mechanism for cloud condensation nuclei in the remote marine boundary layer</article-title>. 
+<source>J Geophys Res</source> 
+<volume>100</volume> (<issue>D2</issue>): 
+<fpage>2893</fpage>–<lpage>2903</lpage>. doi:
+<pub-id pub-id-type="doi">10.1029/94JD02832</pub-id></mixed-citation>
+</ref>
+<ref id="bibr062">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Rempillo</surname><given-names>O</given-names></name>, 
+<name name-style="western"><surname>Seguin</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Norman</surname><given-names>AL</given-names></name>, 
+<name name-style="western"><surname>Scarratt</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Michaud</surname><given-names>S</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>Dimethyl sulfide air-sea fluxes and biogenic sulfur as a source of new aerosols in the Arctic fall</article-title>. 
+<source>J Geophys Res</source> 
+<volume>116</volume> (<issue>D17</issue>): doi:
+<pub-id pub-id-type="doi">10.1029/2011JD016336</pub-id></mixed-citation>
+</ref>
+<ref id="bibr063">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Riipinen</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Sihto</surname><given-names>S-L</given-names></name>, 
+<name name-style="western"><surname>Kulmala</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Arnold</surname><given-names>F</given-names></name>, 
+<name name-style="western"><surname>Dal Maso</surname><given-names>M</given-names></name>, <etal>et al.</etal> 
+<year>2007</year>. 
+<article-title>Connections between atmospheric sulphuric acid and new particle formation during QUEST III–IV campaigns in Heidelberg and Hyytiälä</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>7</volume>: 
+<fpage>1899</fpage>–<lpage>1914</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-7-1899-2007</pub-id></mixed-citation>
+</ref>
+<ref id="bibr064">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Riipinen</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Yli-Juuti</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Nieminen</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Hakkinen</surname><given-names>S</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>Organic condensation: a vital link connecting aerosol formation to cloud condensation nuclei (CCN) concentrations</article-title>. 
+<source>Atmos Chem Physics</source> 
+<volume>11</volume>: 
+<fpage>3865</fpage>–<lpage>3878</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-3865-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr065">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Rolph</surname><given-names>GD</given-names></name>. 
+<year>2013</year>. 
+<source>Real-time Environmental Applications and Display sYstem (READY)</source>. 
+<publisher-loc>Silver Spring, MD</publisher-loc>: 
+<publisher-name>NOAA Air Resources Laboratory</publisher-name>. Website (
+<uri>http://ready.arl.noaa.gov</uri>)</mixed-citation>
+</ref>
+<ref id="bibr066">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Russell</surname><given-names>LM</given-names></name>, 
+<name name-style="western"><surname>Hawkins</surname><given-names>LN</given-names></name>, 
+<name name-style="western"><surname>Frossard</surname><given-names>AA</given-names></name>, 
+<name name-style="western"><surname>Quinn</surname><given-names>PK</given-names></name>, 
+<name name-style="western"><surname>Bates</surname><given-names>TS</given-names></name>. 
+<year>2010</year>. 
+<article-title>Carbohydrate-like composition of submicron atmospheric particles and their production from ocean bubble bursting</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>107</volume> (<issue>15</issue>): 
+<fpage>6652</fpage>–<lpage>6657</lpage>. doi/
+<pub-id pub-id-type="doi">10.1073/pnas.0908905107</pub-id></mixed-citation>
+</ref>
+<ref id="bibr067">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Schwarz</surname><given-names>JP</given-names></name>, 
+<name name-style="western"><surname>Gao</surname><given-names>RS</given-names></name>, 
+<name name-style="western"><surname>Fahey</surname><given-names>DW</given-names></name>, 
+<name name-style="western"><surname>Thomson</surname><given-names>DS</given-names></name>, 
+<name name-style="western"><surname>Watts</surname><given-names>L</given-names></name>. <etal>et al.</etal> 
+<year>2006</year>. 
+<article-title>Single-particle measurements of midlatitude black carbon and light-scattering aerosols from the boundary layer to the lower stratosphere</article-title>. 
+<source>J Geophys Res</source> 
+<volume>111</volume> (<issue>D16</issue>). doi:
+<pub-id pub-id-type="doi">10.1029/2006JD007076</pub-id></mixed-citation>
+</ref>
+<ref id="bibr068">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Seinfeld</surname><given-names>JH</given-names></name>, 
+<name name-style="western"><surname>Pandis</surname><given-names>SN</given-names></name>. 
+<year>1997</year>. 
+<source>Atmospheric Chemistry and Physics: from air pollution to climate change</source>. 
+<edition>1<sup>st</sup> ed</edition>. 
+<publisher-loc>New York, NY, USA</publisher-loc>: 
+<publisher-name>Wiley-Interscience</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr069">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Shantz</surname><given-names>NC</given-names></name>, 
+<name name-style="western"><surname>Chang</surname><given-names>RY-W</given-names></name>, 
+<name name-style="western"><surname>Slowik</surname><given-names>JG</given-names></name>, 
+<name name-style="western"><surname>Vlasenko</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Abbatt</surname><given-names>JPD</given-names></name>, 
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>. 
+<year>2010</year>. 
+<article-title>Slower CCN growth kinetics of anthropogenic aerosol compared to biogenic aerosol observed at a rural site</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>10</volume>: 
+<fpage>299</fpage>–<lpage>312</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-10-299-2010</pub-id></mixed-citation>
+</ref>
+<ref id="bibr070">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Sharma</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Chan</surname><given-names>E</given-names></name>, 
+<name name-style="western"><surname>Ishizawa</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Toom-Sauntry</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Gong</surname><given-names>SL</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>Influence of Transport and Ocean Ice Extent on Biogenic Aerosol Sulfur in the Arctic Atmosphere</article-title>. 
+<source>J. Geophys. Res</source> 
+<volume>117</volume>, 
+<fpage>D12209</fpage>. doi:
+<pub-id pub-id-type="doi">10.1029/2011JD017074</pub-id></mixed-citation>
+</ref>
+<ref id="bibr071">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Shaw</surname><given-names>SL</given-names></name>, 
+<name name-style="western"><surname>Gantt</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Meskhidze</surname><given-names>N</given-names></name>, 
+<year>2010</year>. 
+<article-title>Production and Emissions of Marine Isoprene and Monoterpenes: A Review</article-title>. 
+<source>Adv Meteorol</source>. doi:
+<pub-id pub-id-type="doi">10.1155/2010/408696</pub-id></mixed-citation>
+</ref>
+<ref id="bibr072">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Sihto</surname><given-names>S-L</given-names></name>, 
+<name name-style="western"><surname>Kulmala</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Kerminen</surname><given-names>V-M</given-names></name>, 
+<name name-style="western"><surname>Dal</surname><given-names>Maso M</given-names></name>, 
+<name name-style="western"><surname>Petäjä</surname><given-names>T</given-names></name>, <etal>et al.</etal> 
+<year>2006</year>. 
+<article-title>Atmospheric sulphuric acid and aerosol formation: implications from atmospheric measurements for nucleation and early growth mechanisms</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>6</volume>: 
+<fpage>4079</fpage>–<lpage>4091</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-6-4079-2006</pub-id></mixed-citation>
+</ref>
+<ref id="bibr073">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Smith</surname><given-names>LC</given-names></name>, 
+<name name-style="western"><surname>Stephenson</surname><given-names>SR</given-names></name>. 
+<year>2013</year>. 
+<article-title>New Trans-Arctic shipping routes navigable by mid-century</article-title>. 
+<source>Proc. Natl. Acad. Sci</source> 
+<volume>110</volume> (<issue>13</issue>): 
+<fpage>E11911</fpage>–<lpage>1195</lpage>. doi:
+<pub-id pub-id-type="doi">10.1073/pnas.1214212110</pub-id></mixed-citation>
+</ref>
+<ref id="bibr074">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Snow-Kropla</surname><given-names>EJ</given-names></name>, 
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Westervelt</surname><given-names>DM</given-names></name>, 
+<name name-style="western"><surname>Trivitayanurak</surname><given-names>W</given-names></name>. 
+<year>2011</year>. 
+<article-title>Cosmic rays, aerosol formation and cloud-condensation nuclei: sensitivities to model uncertainties</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>11</volume>: 
+<fpage>4001</fpage>–<lpage>4013</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-4001-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr075">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Spracklen</surname><given-names>DV</given-names></name>, 
+<name name-style="western"><surname>Carslaw</surname><given-names>KS</given-names></name>, 
+<name name-style="western"><surname>Kulmala</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Kerminen</surname><given-names>V-M</given-names></name>, 
+<name name-style="western"><surname>Sihto</surname><given-names>S-L</given-names></name>, <etal>et al.</etal> 
+<year>2008</year>. 
+<article-title>Contribution of particle formation to global cloud condensation nuclei concentrations</article-title>. 
+<source>Geophys Res Lett</source> 
+<volume>35</volume>. doi:
+<pub-id pub-id-type="doi">10.1029/2007GL033038</pub-id></mixed-citation>
+</ref>
+<ref id="bibr076">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Stephens</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Turner</surname><given-names>N</given-names></name>, 
+<name name-style="western"><surname>Sandberg</surname><given-names>J</given-names></name>. 
+<year>2003</year>. 
+<article-title>Particle identification by laser-induced incandescence in a solid-state laser cavity</article-title>. 
+<source>Applied Optics</source> 
+<volume>42</volume> (<issue>19</issue>): 
+<fpage>3726</fpage>–<lpage>3736</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr077">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Stohl</surname><given-names>A</given-names></name>. 
+<year>2006</year>. 
+<article-title>Characteristics of atmospheric transport into the Arctic troposphere</article-title>, 
+<source>J Geophys Res</source> 
+<volume>111</volume> 
+(<elocation-id>D11306</elocation-id>): doi:
+<pub-id pub-id-type="doi">10.1029/2005JD006888</pub-id></mixed-citation>
+</ref>
+<ref id="bibr078">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Trivitayanurak</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Adams</surname><given-names>PJ</given-names></name>, 
+<name name-style="western"><surname>Spracklen</surname><given-names>DV</given-names></name>, 
+<name name-style="western"><surname>Carslaw</surname><given-names>KS</given-names></name>. 
+<year>2008</year>. 
+<article-title>Tropospheric aerosol microphysics simulation with assimilated meteorology: model description and intermodel comparison</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>8</volume>: 
+<fpage>3149</fpage>–<lpage>3168</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-8- 3149-2008</pub-id></mixed-citation>
+</ref>
+<ref id="bibr079">
+<mixed-citation publication-type="book">
+<collab>UNEP</collab>, 
+<year>2011</year>. 
+<source>Near-term Climate Protection and Clean Air Benefits: Actions for Controlling Short-Lived Climate Forcers</source>, 
+<publisher-name>United Nations Environment Programme (UNEP)</publisher-name>, 
+<publisher-loc>Nairobi, Kenya</publisher-loc>. Available at <uri>http://www.unep.org/publications/ebooks/SLCF/</uri></mixed-citation>
+</ref>
+<ref id="bibr080">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>van Donkelaar</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Martin</surname><given-names>RV</given-names></name>, 
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>, 
+<name name-style="western"><surname>Macdonald</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Walker</surname><given-names>TW</given-names></name>, <etal>et al.</etal> 
+<year>2008</year>. 
+<article-title>Analysis of aircraft and satellite measurements from the Intercontinental Chemical Transport Experiment (INTEX-B) to quantify long-range transport of East Asian sulfur to Canada</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>8</volume>: 
+<fpage>2999</fpage>–<lpage>3014</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-8-2999-2008</pub-id></mixed-citation>
+</ref>
+<ref id="bibr081">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Van Dingenen</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Raes</surname><given-names>F</given-names></name>. 
+<year>1993</year>. 
+<article-title>Ternary nucleation of methane sulphonic acid, sulphuric acid and water vapour</article-title>, 
+<source>J Aerosol Sci</source> 
+<volume>24</volume>: 
+<fpage>1</fpage>–<lpage>17</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr082">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Wainwright</surname><given-names>CD</given-names></name>, 
+<name name-style="western"><surname>Pierce</surname><given-names>JR</given-names></name>, 
+<name name-style="western"><surname>Liggio</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Strawbridge</surname><given-names>KB</given-names></name>, 
+<name name-style="western"><surname>Macdonald</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Leaitch</surname><given-names>WR</given-names></name>. 
+<year>2012</year>. 
+<article-title>The effect of model spatial resolution on Secondary Organic Aerosol predictions: A case study at Whistler, BC, Canada</article-title>, 
+<source>Atmos Chem Phys</source> 
+<volume>12</volume>: 
+<fpage>10911</fpage>–<lpage>10923</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr083">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Wood</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Mechoso</surname><given-names>CR</given-names></name>, 
+<name name-style="western"><surname>Bretherton</surname><given-names>CS</given-names></name>, 
+<name name-style="western"><surname>Weller</surname><given-names>RA</given-names></name>, 
+<name name-style="western"><surname>Huebert</surname><given-names>B</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>The VAMOS Ocean-Cloud-Atmosphere-Land Study Regional Experiment (VOCALS-REx): goals, platforms, and field operations</article-title>. 
+<source>Atmos Chem Phys</source> 
+<volume>11</volume>: 
+<fpage>627</fpage>–<lpage>654</lpage>. doi:
+<pub-id pub-id-type="doi">10.5194/acp-11-627-2011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr084">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Wyslouzil</surname><given-names>BE</given-names></name>, 
+<name name-style="western"><surname>Seinfeld</surname><given-names>JH</given-names></name>, 
+<name name-style="western"><surname>Flagan</surname><given-names>RC</given-names></name>, 
+<name name-style="western"><surname>Okuyama</surname><given-names>K</given-names></name>. 
+<year>1991</year>. 
+<article-title>Binary nucleation in acid-water systems. I1. Sulfuric acid-water and a comparison with methanesulfonic acid-water</article-title>, 
+<source>J Chem Phys</source> 
+<volume>94</volume> (<issue>10</issue>): 
+<fpage>6842</fpage>–<lpage>6850</lpage>.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

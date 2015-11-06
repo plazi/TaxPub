@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN"
+"../JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"
+article-type="commentary"  xmlns:ali="http://www.niso.org/schemas/ali/1.0"  dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BioOne</journal-id>
+<journal-id journal-id-type="journal-id">Elementa</journal-id>
+<journal-title-group>
+<journal-title>Elementa</journal-title>
+<journal-subtitle>Science of the Anthropocene</journal-subtitle>
+<abbrev-journal-title>Elem. Sci. Anth.</abbrev-journal-title>
+</journal-title-group>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Helmig</surname><given-names>Detlev</given-names></name>
+<xref ref-type="aff" rid="affa"/>
+<role>Editor-in-Chief: Atmospheric Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/detlev-helmig/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Blum</surname><given-names>Joel D.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Earth &amp; Environmental Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/joel-d-blum/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Zak</surname><given-names>Donald R.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Ecology</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/donald-r-zak/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Deming</surname><given-names>Jody W.</given-names></name>
+<xref ref-type="aff" rid="affc"/>
+<role>Editor-in-Chief: Ocean Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/jody-w-deming/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Chang</surname><given-names>Michael E.</given-names></name>
+<xref ref-type="aff" rid="affd"/>
+<role>Editor-in-Chief: Sustainable Engineering</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/michael-e-chang/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Kapuscinski</surname><given-names>Anne</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/anne-kapuscinski/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Peart</surname><given-names>David R.</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/david-r-peart/</uri>
+</contrib>
+</contrib-group>
+<aff id="affa">
+<institution>University of Colorado Boulder</institution>
+<country>United States</country>
+</aff>
+<aff id="affb">
+<institution>University of Michigan</institution>
+<country>United States</country>
+</aff>
+<aff id="affc">
+<institution>University of Washington</institution>
+<country>United States</country>
+</aff>
+<aff id="affd">
+<institution>Georgia Institute of Technology</institution>
+<country>United States</country>
+</aff>
+<aff id="affe">
+<institution>Dartmouth</institution>
+<country>United States</country>
+</aff>
+<issn pub-type="epub">2325-1026</issn>
+<publisher>
+<publisher-name>BioOne</publisher-name>
+<publisher-loc>21 Dupont Circle NW, Suite 800, Washington, DC 20036, United States<email>team@elementascience.org</email>
+<uri>http://bioone.org</uri><uri>http://elementascience.org</uri>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">ELEMENTA-D-13-00006</article-id>
+<article-id pub-id-type="doi">10.12952/journal.elementa.000011</article-id>
+<article-categories>
+<subj-group subj-group-type="article-type">
+<subject>Commentary</subject>
+</subj-group>
+<subj-group subj-group-type="domain">
+<subject>Ecology</subject>
+</subj-group>
+<subj-group subj-group-type="classification">
+<subject>Ecology</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Pacific islands in the Anthropocene</article-title>
+</title-group>
+<contrib-group><contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Vitousek</surname><given-names>Peter</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Chadwick</surname><given-names>Oliver</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label>
+<institution content-type="dept">Department of Biology</institution>, <institution>Stanford University</institution>, <addr-line content-type="city">Stanford</addr-line>, <addr-line content-type="state">California</addr-line>, <country>United States</country></aff>
+<aff id="aff2"><label>2</label>
+<institution content-type="dept">Department of Geography</institution>, <institution>University of California</institution>, <addr-line content-type="city">Santa Barbara</addr-line>, <addr-line content-type="state">California</addr-line>, <country>United States</country></aff>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief" xlink:type="simple">
+<name name-style="western"><surname>Zak</surname><given-names>Donald R.</given-names></name>
+<role>Domain Editor-in-Chief</role>
+<xref ref-type="aff" rid="afff"/>
+</contrib>
+</contrib-group>
+<aff id="afff">
+<institution content-type="dept">School of Natural Resources &amp; Environment</institution>
+<institution>University of Michigan</institution>
+<addr-line content-type="city">Ann Arbor</addr-line>
+<addr-line content-type="state">Michigan</addr-line>
+<country>United States</country>
+</aff>
+<author-notes>
+<corresp id="cor1"><label><sup>*</sup></label><email xlink:type="simple">vitousek@stanford.edu</email></corresp></author-notes>
+<pub-date pub-type="epub" iso-8601-date="2013-12-4">
+<day>4</day>
+<month>12</month>
+<year>2013</year>
+</pub-date>
+<volume content-type="volume">1</volume>
+<elocation-id>000011</elocation-id>
+<history>
+<date date-type="received" iso-8601-date="2013-07-01">
+<day>01</day>
+<month>07</month>
+<year>2013</year>
+</date>
+<date date-type="accepted" iso-8601-date="2013-10-10">
+<day>10</day>
+<month>10</month>
+<year>2013</year>
+</date>
+</history>
+<permissions><copyright-year>2013</copyright-year>
+<copyright-holder>Vitousek and Chadwick</copyright-holder>
+<license license-type="open-access" xlink:type="simple">
+<license-p><open-access><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p>
+</open-access>
+</license-p>
+</license>
+</permissions>
+</article-meta>
+</front>
+<body><sec id="s1"><title/>
+<p>Although the islands of remote Oceania were among the last places reached by humanity, many islands entered the Anthropocene early. Extinctions — some caused by the first people to discover islands — have been far more frequent on islands than continents, and the intensity and consequences of human-caused biological invasion, deforestation, and landscape alteration have been substantially greater as well (<xref ref-type="bibr" rid="bibr018">Vitousek et al., 1997</xref>; <xref ref-type="bibr" rid="bibr015">Steadman, Pregill and Butley, 2002</xref>; <xref ref-type="bibr" rid="bibr014">Rolett and Diamond, 2004</xref>). At the same time, islands provide a useful model for understanding how coupled human and natural systems experience the Anthropocene, and perhaps for how they can manage its impacts.</p>
+<p>The Pacific islands of Polynesia are particularly interesting in this regard. As (<xref ref-type="bibr" rid="bibr007">Kirch, 2000</xref>, <xref ref-type="bibr" rid="bibr008">2007a</xref>) pointed out, Polynesia consists of hundreds of islands — ranging from tropical atolls like the Tuamotus and Tuvalu; to volcanic high islands like Hawaii, Samoa, and Tahiti; to the subcontinental mass of New Zealand. All were discovered and colonized by people of the well-defined and highly dynamic Polynesian culture — who then developed a wide range of productive systems and social organizations based upon their cultural inheritance, the plants and animals they brought with them, and their interactions with their diverse islands. The cultural “adaptive radiation” they displayed is an unmatched model system for human-land interaction, in that one founding culture developed very different social organizations as well as resource acquisition practices in the very different islands they inhabited (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref>). Moreover, Polynesian societies largely developed within the resources of their islands. Also, Polynesians had no access to stored energy from the past (fossil fuels), and their institutions, culture and values did not recognize borrowing from the future (discounting). Utilizing only the resources of their time and place, many islands developed remarkably populous, socially and culturally complex societies; for example, Hawaii probably supported a larger population on each of its larger islands (other than Oahu, where the city of Honolulu is located) at the time of European contact than it does now.</p>
+<p>We focus here on Polynesian agricultural systems, because agriculture generally represents the most important nexus between ecosystems and societies. Properties of the land shape how humans can farm, even as farming activities transform land. The Hawaiian Islands are particularly useful for understanding agricultural development — and human-land interactions more generally — for several reasons. First, the environmental matrix of the Hawaiian Archipelago can be used as a model for understanding soils and ecosystems independent of human action, as well as for understanding human societies; many of the fundamental controls of soils and ecosystems (e.g., parent material, topography, and biota) can be kept nearly constant across much of the Archipelago, while other fundamental controls (notably climate and substrate age) vary widely but in well-understood ways. These properties (and others) have been used to evaluate how nutrient supply and cycling are regulated as a function of rainfall (<xref ref-type="bibr" rid="bibr001">Chadwick et al., 2003</xref>), substrate age (<xref ref-type="bibr" rid="bibr016">Vitousek, 2004</xref>), and their interactions (<xref ref-type="bibr" rid="bibr017">Vitousek and Chadwick, 2013</xref>). Second, the agricultural systems of Hawaii (prior to European contact) were remarkable even within Polynesia for their scope, intensity, and originality. Third, while there is good evidence for two-way voyaging between Hawaii and elsewhere in Polynesia shortly after the islands were discovered, that voyaging appears to have ended several hundred years before European contact. As a result, both social and environmental dynamics internal to Hawaii were paramount; human-land interactions played out in isolation to a much greater extent than occurs in any continental situation. Finally, Hawaiian culture itself is vibrant and makes unique contributions to understanding the interaction of land and society.</p>
+<p>Prior to European contact in the late 18<sup>th</sup> Century, Hawaiians developed a wide diversity of agricultural practices that with some arbitrariness can be classified into intensive versus resource-concentrating cropping systems. Resource-concentrating systems include shifting cultivation, in which nutrients are accumulated over time in vegetation during a fallow phase; they also include systems that concentrate resources in space by gathering soil and/or mulch across a wide area and bringing it into (typically) pits or depressions where crops are grown (<xref ref-type="bibr" rid="bibr002">Handy, Handy and Pukui, 1972</xref>). We are particularly interested in intensive cropping systems, in which large areas of land were cultivated permanently (or with relatively short fallow periods) through the use of labor, irrigation water and its dissolved nutrients, knowledge, and other inputs. Intensive agriculture develops synergistically with socially and culturally complex human societies; social organization is essential to the development and integration of such systems, and intensive agriculture provides the surplus yields (over and above the requirements of cultivators) that allow people to play multiple roles in complex societies (<xref ref-type="bibr" rid="bibr005">Kirch, 1994</xref>).</p>
+<p>Hawaii supported two major systems of intensive agriculture (with many variants) — irrigated pondfields in which taro was the staple crop, and rainfed upland systems based on sweet potato, dryland taro, yams, and other crops. Irrigated pondfield systems are widespread in Polynesia (and Asia), and they are known to be relatively sustainable in comparison to rainfed agriculture. To explain the development of intensive rainfed systems, we evaluated soils and nutrient availability within and outside several systems, seeking to understand why they developed primarily on younger islands in the archipelago (and only parts of those islands), and how their production was sustained. We found that intensive rainfed systems in Hawaii occupied a soil process domain (sensu <xref ref-type="bibr" rid="bibr017">Vitousek and Chadwick, 2013</xref>) within which parent material weathering and biological uplift of nutrients (<xref ref-type="bibr" rid="bibr004">Jobbagy and Jackson, 2001</xref>) are dominant processes; in older or wetter sites, parent material has weathered to the point that it no longer buffers atmospheric and biological acidity and no longer supplies meaningful quantities of essential plant nutrients, while in drier sites rainfall was not sufficiently reliable to develop intensive agriculture. Preliminary measurements suggest that similar dynamics operated in the rainfed “rock garden” agricultural systems of Easter Island (Rapa Nui) (<xref ref-type="bibr" rid="bibr012">Ladefoged et al., 2010</xref>), though both the spatial scale of intensive agriculture and the degree of enrichment in agricultural soils there were much smaller there than in rainfed Hawaiian field systems (<xref ref-type="bibr" rid="bibr020">Vitousek et al., submitted</xref>).</p>
+<p>Natural systems are conservative in their use and retention of nutrients, allowing even tropical wet forests on ancient soils to be sustained through atmospheric inputs of nutrients (<xref ref-type="bibr" rid="bibr016">Vitousek, 2004</xref>). By contrast, agriculture inherently involves the removal of nutrients from ecosystems — and the more intensive the agriculture, the larger the quantity of nutrients that must be replaced if agriculture is to be sustained. Our analyses demonstrate that indigenous rainfed agricultural systems in Hawaii depended on fertile soils whose fertility in turn depended on element inputs via rock weathering. Irrigated pondfields also depended on parent material weathering as a source of nutrients; here rock-derived nutrients transported in irrigation water and (in the case of deeper valleys) weathered from alluvial and colluvial soils provided the nutrient inputs that sustained their yields (<xref ref-type="bibr" rid="bibr013">Palmer et al., 2009</xref>). While cultivators in rainfed systems brought their crops to areas where weathering supplied nutrients, flowing water in pondfield systems brought the products of weathering to crops.</p>
+<p>Biogeochemistry thus provides a useful framework for evaluating the potential for traditional intensive agriculture — and biogeochemical analyses show that the potential to develop sustained systems of intensive production (and so the potential to develop socially and culturally complex human societies) differed substantially among the Hawaiian Islands (<xref ref-type="bibr" rid="bibr019">Vitousek et al., 2004</xref>; <xref ref-type="bibr" rid="bibr011">Ladefoged et al., 2009</xref>) and between Hawaii and Rapa Nui (<xref ref-type="bibr" rid="bibr012">Ladefoged et al., 2010</xref>; Vitousek et al., submitted). Reaching a bit beyond our data, we speculate that such differences are widespread among the many islands of Polynesia — and we speculate that Polynesian islands (and their societies) therefore could provide a framework for understanding pathways of human-land interactions that support or inhibit a transition to sustainability. We know that some Polynesian societies dealt with a sustainability challenge prior to European contact; in at least one case (the western Polynesian island of Tikopia), the society made an explicit and innovative commitment to sustainability in both agricultural production and population (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref>, <xref ref-type="bibr" rid="bibr009">2007b</xref>). There are more islands where such a transition did not succeed (if indeed it was attempted), and both production systems and social coherence declined prior to European contact (notably Mangaia in the Cook Islands) (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref>).</p>
+<p>The Hawaiian Archipelago is much larger and more diverse than either Tikopia or Mangaia, or indeed than most Polynesian islands — and Hawaiians developed several complex, state-level political systems supported by intensive agriculture (<xref ref-type="bibr" rid="bibr010">Kirch, 2010</xref>). We believe that precontact Hawaiian society did not face the challenge of sustainability — that it innovated new production systems (rainfed agricultural systems, intensive reef-flat aquaculture, upland irrigation systems that at the time of contact were beginning to bring water and nutrients to infertile upland soils) as the existing ones reached their limits. Both the capacity of the land and the creativity of the society made this innovation-based approach possible — until an extrinsic factor, the arrival of Europeans and with them the world’s diseases, devastated the Hawaiian population and society. While it can be argued that until human population and resource use are constrained (as they were in Tikopia), there is no good end to this innovation-based path, it should be recognized that in its essentials the Hawaiians’ path was not dissimilar from that of global society in the 21<sup>st</sup> Century.</p>
+<p>Are there insights we can glean through understanding where island societies ultimately faced a transition to sustainability and how they succeeded or failed, when they brought the Anthropocene to their island worlds? We recognize that any such analysis must now be underdetermined, in that there are more plausible controlling factors (and interactions of those factors) than there are islands for which we know enough about both land and society to draw reasonable conclusions. Nevertheless, the diversity of islands (particularly in size, climate, and soil fertility), the diversity of societies (all arising from relatively recent common origins), and the range of trajectories experienced by their coupled human-environment systems provide fertile ground for suggesting hypotheses to test using appropriate data from additional islands.</p>
+<p>Among the features of islands themselves, there is evidence suggesting that geological age (because of its relationship with soil fertility) contributes to the ability of societies to make a transition to sustainability (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref>; <xref ref-type="bibr" rid="bibr009">2007b</xref>). Geological age/soil fertility are important because they allow the possibility for societies to recover from unsustainable practices. Early in its human history agricultural practices on Tikopia degraded the productive capacity of the land and reef, and so presumably threatened the maintenance of society (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref>). However, because Tikopia is a young island with rapid rates of nutrient supply via rock weathering, the soil was not degraded irreversibly; when people there developed their innovative orchard-based system, the productive capacity of both land and reef regenerated and was sustained. In contrast, geologically older islands (<xref ref-type="bibr" rid="bibr006">Kirch, 1997</xref> evaluates Mangaia) lacked the capacity to regenerate soil fertility, once it was lost.</p>
+<p>Island size is another feature that could contribute to sustainability, through its influence on island societies. <xref ref-type="bibr" rid="bibr006">Kirch (1997)</xref> suggested that Tikopia supported only one political unit, while larger islands (e.g., Mangaia, which is also old and infertile relative to Tikopia) could support several such units. Sustainable systems may be more vulnerable to disruption by enemies — certainly that is true of the orchard-based system on Tikopia — and so conflict between multiple groups on an island could make a transition to sustainability more challenging. The relationship between size and sustainable practices may not be monotonic — Hawaii is far larger than Tikopia (or Mangaia), but its scale (and the presence of relatively large areas with high underlying soil fertility) made possible the development (perhaps uniquely in Polynesia) of large scale hierarchical societies organized around agricultural production and its redistribution, and capable of suppressing endemic local conflict (<xref ref-type="bibr" rid="bibr009">Kirch, 2007b</xref>; <xref ref-type="bibr" rid="bibr010">2010</xref>).</p>
+<p>Features of societies that support a transition to sustainability are more difficult to isolate — in part because the ways island societies develop is influenced by properties of the island (and vice versa). Nevertheless, one social feature that we suggest is necessary for sustainability (or at least for avoiding degradation of land and society) is innovation. Tikopia society developed a unique orchard-based productive system accompanied by explicit regulation of population — and then sustained that system for many centuries. Hawaiian society originated multiple surplus-producing agricultural systems, and continued to do so up to European contact. Without a society open to innovation, there can be no transition to sustainability. However, while innovation is necessary, it is not sufficient. For example, the Rapa Nui rock garden system is highly innovative; it makes use of (and may enhance) sites where nutrient supply via weathering is rejuvenated in portions of a nutrient-depleted landscape (<xref ref-type="bibr" rid="bibr012">Ladefoged et al., 2010</xref>; Vitousek et al., submitted). We suspect that this innovation did not suffice to put the society on a path to sustainability because the scale of such gardens is small (individually and cumulatively) compared to potential demand, and compared to the scale and quality of weathering-supported Hawaiian rainfed agriculture.</p>
+<p>The importance of size, geological age (soil fertility), and innovation cannot simply be extrapolated from Polynesian islands to a modern global context; for example, society now has ways of carrying out intensive agriculture that offset most of the climatic or nutrient barriers that constrained Polynesian societies (though the technologies of groundwater-derived irrigation and fertilization have their own costs as well as benefits). Nevertheless, we suggest that one important barrier to sustainability on islands has been vulnerability to conflict between social groups (mediated in part by island size), and vulnerability to conflict could represent a similar barrier in modern societies (<xref ref-type="bibr" rid="bibr003">Hsiang, Burke and Miguel, 2013</xref>).</p></sec>
+<sec id="s2" sec-type="copyright-statement"><title>Copyright</title>
+<p>© 2013 Vitousek and Chadwick. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p>
+</sec>
+</body>
+<back><ref-list content-type="parsed"><title>References</title>
+<ref id="bibr001">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Chadwick</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Gavenda</surname><given-names>RT</given-names></name>, 
+<name name-style="western"><surname>Kelly</surname><given-names>EF</given-names></name>, 
+<name name-style="western"><surname>Ziegler</surname><given-names>K</given-names></name>, 
+<name name-style="western"><surname>Olson</surname><given-names>CG</given-names></name>, <etal>et al.</etal> 
+<year>2003</year>. 
+<article-title>The impact of climate on the biogeochemical functioning of volcanic soils</article-title>. 
+<source>Chemical Geology</source> 
+<volume>202</volume>: 
+<fpage>193</fpage>–<lpage>221</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr002">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Handy</surname><given-names>ES</given-names></name>, 
+<name name-style="western"><surname>Handy</surname><given-names>EG</given-names></name>, 
+<name name-style="western"><surname>Pukui</surname><given-names>MK</given-names></name>. 
+<year>1972</year>. 
+<source>Native Planters in Old Hawaii: Their Life, Lore, and Environment</source>. 
+<publisher-loc>Honolulu</publisher-loc>: 
+<publisher-name>Bishop Museum Press</publisher-name>. 
+<fpage>641</fpage> p.</mixed-citation>
+</ref>
+<ref id="bibr003">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Hsiang</surname><given-names>SM</given-names></name>, 
+<name name-style="western"><surname>Burke</surname><given-names>M</given-names></name>, and 
+<name name-style="western"><surname>Miguel</surname><given-names>E</given-names></name>. 
+<year>2013</year>. 
+<article-title>Quantifying the influence of climate on human conflict</article-title>. 
+<source>Science</source> 
+<volume>341</volume>(<issue>6151</issue>). doi: 
+<pub-id pub-id-type="doi">10.1126/science.1235367</pub-id></mixed-citation>
+</ref>
+<ref id="bibr004">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Jobbagy</surname><given-names>EG</given-names></name>, 
+<name name-style="western"><surname>Jackson</surname><given-names>RB</given-names></name>. 
+<year>2001</year>. 
+<article-title>The distribution of soil nutrients with depth: global patterns and the imprint of plants</article-title>. 
+<source>Biogeochemistry</source> 
+<volume>53</volume>: 
+<fpage>51</fpage>–<lpage>77</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr005">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>1994</year>. 
+<source>The Wet and the Dry: Irrigation and Agricultural Intensification in Polynesia</source>. 
+<publisher-loc>Chicago</publisher-loc>: 
+<publisher-name>University of Chicago Press</publisher-name>: 
+<fpage>408</fpage> p.</mixed-citation>
+</ref>
+<ref id="bibr006">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>1997</year>. 
+<article-title>Microcosmic histories: island perspectives on ‘global’ change</article-title>. 
+<source>American Anthropologist</source> 
+<volume>99</volume>: 
+<fpage>30</fpage>–<lpage>42</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr007">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>2000</year>. 
+<source>On the Road of the Winds: An Archaeological History of the Pacific Islands Before European Contact</source>. 
+<publisher-loc>Berkeley</publisher-loc>: 
+<publisher-name>University of California Press</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr008">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>2007a</year>. 
+<article-title>Hawaii as a model system for human ecodynamics</article-title>. 
+<source>American Anthropology</source> 
+<volume>109</volume>(<issue>1</issue>): 
+<fpage>8</fpage>–<lpage>26</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr009">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>2007b</year>. 
+<article-title>Three islands and an archipelago: Reciprocal interactions between humans and island ecosystems in Polynesia</article-title>. 
+<source>Earth and Environmental Science Transactions of the Royal Society of Edinburgh</source> 
+<volume>98</volume>:
+<fpage>1</fpage>–<lpage>15</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr010">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>. 
+<year>2010</year>. 
+<source>How Chiefs Became Kings: Divine kingship and the rise of archaic states in ancient Hawai‘i</source>. 
+<publisher-loc>Berkeley</publisher-loc>: 
+<publisher-name>University of California Press</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr011">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ladefoged</surname><given-names>TN</given-names></name>, 
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>, 
+<name name-style="western"><surname>Gon</surname><given-names>SO</given-names><suffix>III</suffix></name>, 
+<name name-style="western"><surname>Chadwick</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Hartshorn</surname><given-names>AS</given-names></name>, and 
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>. 
+<year>2009</year>. 
+<article-title>Opportunities and constraints for intensive agriculture in the Hawaiian archipelago prior to European contact</article-title>. 
+<source>Journal of Archaeological Science</source> 
+<volume>36</volume>: 
+<fpage>2374</fpage>–<lpage>2383</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr012">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ladefoged</surname><given-names>TL</given-names></name>, 
+<name name-style="western"><surname>Stevenson</surname><given-names>CM</given-names></name>, 
+<name name-style="western"><surname>Haoa</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Mulrooney</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Puleston</surname><given-names>C</given-names></name>, <etal>et al.</etal> 
+<year>2010</year>. 
+<article-title>The ecodynamics of terrestrial resources on Rapa Nui</article-title>. 
+<source>Archaeology of Oceania</source> 
+<volume>45</volume>: 
+<fpage>80</fpage>–<lpage>85</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr013">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Palmer</surname><given-names>MA</given-names></name>, 
+<name name-style="western"><surname>Graves</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Ladefoged</surname><given-names>TN</given-names></name>, 
+<name name-style="western"><surname>Chadwick</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Duarte</surname><given-names>TK</given-names></name>, <etal>et al.</etal> 
+<year>2009</year>. 
+<article-title>Sources of nutrients to windward agricultural systems in pre-contact Hawai‘i</article-title>. 
+<source>Ecological Applications</source> 
+<volume>19</volume>: 
+<fpage>1444</fpage>–<lpage>1453</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr014">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Rolett</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Diamond</surname><given-names>J</given-names></name>. 
+<year>2004</year>. 
+<article-title>Environmental predictors of pre-European deforestation on Pacific Islands</article-title>. 
+<source>Nature</source> 
+<volume>431</volume>: 
+<fpage>443</fpage>–<lpage>446</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr015">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Steadman</surname><given-names>DW</given-names></name>, 
+<name name-style="western"><surname>Pregill</surname><given-names>GK</given-names></name>, 
+<name name-style="western"><surname>Burley</surname><given-names>DV</given-names></name>. 
+<year>2002</year>. 
+<article-title>Rapid prehistoric extinction of iguanas and birds in Polynesia</article-title>. 
+<source>PNAS</source> 
+<volume>99</volume>: 
+<fpage>3673</fpage>–<lpage>3677</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr016">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>. 
+<year>2004</year>. 
+<source>Nutrient Cycling and Limitation: Hawai‘i as a Model System</source>. 
+<publisher-loc>Princeton, NJ</publisher-loc>: 
+<publisher-name>Princeton University Press</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr017">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>, 
+<name name-style="western"><surname>Chadwick</surname><given-names>OA</given-names></name>. 
+<year>2013</year>. 
+<article-title>Pedogenic thresholds and soil process domains in basalt-derived soils</article-title>. 
+<source>Ecosystems</source>. doi: 
+<pub-id pub-id-type="doi">10.1007/s10021-013-9690-z</pub-id></mixed-citation>
+</ref>
+<ref id="bibr018">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>, 
+<name name-style="western"><surname>D’Antonio</surname><given-names>CM</given-names></name>, 
+<name name-style="western"><surname>Loope</surname><given-names>LL</given-names></name>, 
+<name name-style="western"><surname>Rejmanek</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Westbrooks</surname><given-names>R</given-names></name>. 
+<year>1997</year>. 
+<article-title>Introduced species: a significant component of human-caused global change</article-title>. 
+<source>New Zealand Journal of Ecology</source> 
+<volume>21</volume>: 
+<fpage>1</fpage>–<lpage>16</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr019">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>, 
+<name name-style="western"><surname>Ladefoged</surname><given-names>TL</given-names></name>, 
+<name name-style="western"><surname>Kirch</surname><given-names>PV</given-names></name>, 
+<name name-style="western"><surname>Hartshorn</surname><given-names>AS</given-names></name>, 
+<name name-style="western"><surname>Graves</surname><given-names>MW</given-names></name>, <etal>et al.</etal> 
+<year>2004</year>. 
+<article-title>Agriculture, soils, and society in precontact Hawai’i</article-title>. 
+<source>Science</source> 
+<volume>304</volume>: 
+<fpage>1665</fpage>–<lpage>1669</lpage>.</mixed-citation>
+</ref>
+<ref id="bibr020">
+<mixed-citation publication-type="other">
+<name name-style="western"><surname>Vitousek</surname><given-names>PM</given-names></name>, 
+<name name-style="western"><surname>Chadwick</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Hotchkiss</surname><given-names>SC</given-names></name>, 
+<name name-style="western"><surname>Ladefoged</surname><given-names>TN</given-names></name>, 
+<name name-style="western"><surname>Stevenson</surname><given-names>C</given-names></name>. 
+<article-title>Farming the rock: A biogeochemical perspective on intensive agriculture in Polynesia</article-title>. 
+<source>Journal of Polynesian Archaeology</source>, submitted for publication.</mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>

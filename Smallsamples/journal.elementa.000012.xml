@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN"
+"../JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"
+article-type="research-article"  xmlns:ali="http://www.niso.org/schemas/ali/1.0"  dtd-version="1.1d3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">BioOne</journal-id>
+<journal-id journal-id-type="journal-id">Elementa</journal-id>
+<journal-title-group>
+<journal-title>Elementa</journal-title>
+<journal-subtitle>Science of the Anthropocene</journal-subtitle>
+<abbrev-journal-title>Elem. Sci. Anth.</abbrev-journal-title>
+</journal-title-group>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Helmig</surname><given-names>Detlev</given-names></name>
+<xref ref-type="aff" rid="affa"/>
+<role>Editor-in-Chief: Atmospheric Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/detlev-helmig/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Blum</surname><given-names>Joel D.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Earth &amp; Environmental Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/joel-d-blum/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Zak</surname><given-names>Donald R.</given-names></name>
+<xref ref-type="aff" rid="affb"/>
+<role>Editor-in-Chief: Ecology</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/donald-r-zak/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Deming</surname><given-names>Jody W.</given-names></name>
+<xref ref-type="aff" rid="affc"/>
+<role>Editor-in-Chief: Ocean Science</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/jody-w-deming/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Chang</surname><given-names>Michael E.</given-names></name>
+<xref ref-type="aff" rid="affd"/>
+<role>Editor-in-Chief: Sustainable Engineering</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/michael-e-chang/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Kapuscinski</surname><given-names>Anne</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/anne-kapuscinski/</uri>
+</contrib>
+<contrib contrib-type="domain-editor-in-chief">
+<name name-style="western"><surname>Peart</surname><given-names>David R.</given-names></name>
+<xref ref-type="aff" rid="affe"/>
+<role>Editor-in-Chief: Sustainability Transitions</role>
+<uri>http://elementascience.org/about/expertise-and-collaboration/david-r-peart/</uri>
+</contrib>
+</contrib-group>
+<aff id="affa">
+<institution>University of Colorado Boulder</institution>
+<country>United States</country>
+</aff>
+<aff id="affb">
+<institution>University of Michigan</institution>
+<country>United States</country>
+</aff>
+<aff id="affc">
+<institution>University of Washington</institution>
+<country>United States</country>
+</aff>
+<aff id="affd">
+<institution>Georgia Institute of Technology</institution>
+<country>United States</country>
+</aff>
+<aff id="affe">
+<institution>Dartmouth</institution>
+<country>United States</country>
+</aff>
+<issn pub-type="epub">2325-1026</issn>
+<publisher>
+<publisher-name>BioOne</publisher-name>
+<publisher-loc>21 Dupont Circle NW, Suite 800, Washington, DC 20036, United States<email>team@elementascience.org</email>
+<uri>http://bioone.org</uri><uri>http://elementascience.org</uri>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">ELEMENTA-D-13-00003</article-id>
+<article-id pub-id-type="doi">10.12952/journal.elementa.000012</article-id>
+<article-categories>
+<subj-group subj-group-type="article-type">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="domain">
+<subject>Ocean Science</subject>
+</subj-group>
+<subj-group subj-group-type="classification">
+<subject>Ecology</subject>
+<subj-group>
+<subject>Animals</subject>
+</subj-group>
+</subj-group>
+<subj-group subj-group-type="classification">
+<subject>Ocean Science</subject>
+<subj-group>
+<subject>Biological Oceanography</subject>
+</subj-group>
+<subj-group>
+<subject>Interdisciplinary Themes</subject>
+<subj-group>
+<subject>Marine Pollution and Bioremediation</subject>
+</subj-group>
+</subj-group>
+<subj-group>
+<subject>Regions</subject>
+<subj-group>
+<subject>Gulf of Mexico</subject>
+<subject>Deep Sea</subject>
+</subj-group>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Evidence of lasting impact of the Deepwater Horizon oil spill on a deep Gulf of Mexico coral community</article-title>
+<alt-title alt-title-type="short-title">Oil spill impact on deep coral community</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Hsing</surname><given-names>Pen-Yuan</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Fu</surname><given-names>Bo</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Larcom</surname><given-names>Elizabeth A.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Berlet</surname><given-names>Samantha P.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Shank</surname><given-names>Timothy M.</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Govindarajan</surname><given-names>Annette F.</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Lukasiewicz</surname><given-names>Alexandra J.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Dixon</surname><given-names>Philip M.</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western"><surname>Fisher</surname><given-names>Charles R.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><institution content-type="dept">Department of Biology</institution>, <institution>The Pennsylvania State University</institution>, <addr-line content-type="city">University Park</addr-line>, <addr-line content-type="state">Pennsylvania</addr-line>, <country>United States</country></aff>
+<aff id="aff2"><label>2</label><institution content-type="dept">Biology Department</institution>, <institution>Woods Hole Oceanographic Institution</institution>, <addr-line content-type="city">Woods Hole</addr-line>, <addr-line content-type="state">Massachusetts</addr-line>, <country>United States</country></aff>
+<aff id="aff3"><label>3</label><institution content-type="dept">Department of Statistics</institution>, <institution>Iowa State University</institution>, <addr-line content-type="city">Ames</addr-line>, <addr-line content-type="state">Iowa</addr-line>, <country>United States</country></aff>
+<contrib-group>
+<contrib contrib-type="domain-editor-in-chief" xlink:type="simple">
+<name name-style="western"><surname>Deming</surname><given-names>Jody W.</given-names></name>
+<role>Domain Editor-in-Chief</role>
+<xref ref-type="aff" rid="afff"/>
+</contrib>
+<contrib contrib-type="associate-editor" xlink:type="simple">
+<name name-style="western"><surname>Thomsen</surname><given-names>Laurenz</given-names></name>
+<role>Associate Editor</role>
+<xref ref-type="aff" rid="affg"/>
+</contrib>
+</contrib-group>
+<aff id="afff">
+<institution content-type="dept">Department of Biological Oceanography</institution>
+<institution>University of Washington</institution>
+<addr-line content-type="city">Seattle</addr-line>
+<addr-line content-type="state">Washington</addr-line>
+<country>United States</country>
+</aff>
+<aff id="affg">
+<institution content-type="dept">Department of Earth and Space Sciences</institution>
+<institution>Jacobs University Bremen, Germany</institution>
+<addr-line content-type="city">Bremen</addr-line>
+<country>Germany</country>
+</aff>
+<author-notes>
+<corresp id="cor1"><label><sup>*</sup></label><email xlink:type="simple">cfisher@psu.edu</email></corresp>
+<fn fn-type="conflict"><p>The authors have the following interests. Two of the cruises and some of the analyses were funded by NOAA and BP as part of the Deepwater Horizon oil spill Natural Resource Damage Assessment (NRDA). Neither the DWH NRDA Trustees nor BP had a role in sample processing, data analysis, decision to publish, or preparation of the manuscript. Pre-approval to submit the manuscript for publication was provided by representatives of the NRDA Trustees and independently by BOEM. The views expressed herein are those of the authors and do not necessarily reflect the views of NOAA or BOEM or any of their personnel.</p></fn>
+<fn fn-type="con"><p>Contributed to conception and design: P-YH, BF, CRF</p>
+<p>Contributed to acquisition of data: P-YH, BF, EAL, SPB, TMS, AFG, AJL, CRF</p>
+<p>Contributed to analysis and interpretation of data: P-YH, BF, TMS, AFG, PMD, CRF</p>
+<p>Drafted and/or revised the article: P-YH, TMS, AFG, PMD, CRF</p>
+<p>Approved the submitted version for submission: P-YH, BF, EAL, SPB, TMS, AFG, AJL, PMD, CRF</p></fn>
+</author-notes>
+<pub-date pub-type="epub" iso-8601-date="2013-12-04">
+<day>04</day>
+<month>12</month>
+<year>2013</year>
+</pub-date>
+<volume content-type="volume">1</volume>
+<elocation-id>000012</elocation-id>
+<history>
+<date date-type="received" iso-8601-date="2013-06-28">
+<day>28</day>
+<month>06</month>
+<year>2013</year>
+</date>
+<date date-type="rev-recd" iso-8601-date="2013-10-04">
+<day>04</day>
+<month>10</month>
+<year>2013</year>
+</date>
+<date date-type="accepted" iso-8601-date="2013-10-16">
+<day>16</day>
+<month>10</month>
+<year>2013</year>
+</date>
+</history>
+<permissions><copyright-year>2013</copyright-year>
+<copyright-holder>Hsing et al.</copyright-holder>
+<license license-type="open-access" xlink:type="simple">
+<license-p><open-access><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p>
+</open-access>
+</license-p>
+</license>
+</permissions>
+<abstract>
+<title>Abstract</title>
+<p>A coral community 11 km southwest of the site of the Deepwater Horizon blowout at 1,370 m water depth was discovered 3.5 months after the well was capped on 3 November 2010. Gorgonian corals at the site were partially covered by a brown flocculent material (floc) that contained hydrocarbons fingerprinted to the oil spill. Here we quantify the visible changes to the corals at this site during five visits over 17 months by digitizing images of individual branches of each colony and categorizing their condition. Most of the floc visible in November 2010 was absent from the corals by the third visit in March 2011, and there was a decrease in the median proportions of the colonies showing obvious signs of impact after the first visit. During our second visit in 2010, about six weeks after the first, we documented the onset of hydroid colonization (a sign of coral deterioration) on impacted coral branches that increased over the remainder of the study. Hydroid colonization of impacted portions of coral colonies by the last visit in March 2012 correlated positively with the proportion of the colony covered by floc during the first two visits in late 2010. Similarly, apparent recovery of impacted portions of the coral by March 2012 correlated negatively with the proportion of the coral covered with floc in late 2010. A notable feature of the impact was its patchy nature, both within and among colonies, suggesting that the impacting agent was not homogeneously dispersed during initial contact with the corals. While the median level of obvious visible impact decreased over time, the onset of hydroid colonization and the probability of impacts that were not visually obvious suggest that future visits may reveal additional deterioration in the condition of these normally long-lived corals.</p>
+</abstract>
+<kwd-group>
+<kwd>deep-water corals</kwd>
+<kwd>oil spill impact</kwd>
+<kwd>Deepwater Horizon</kwd>
+</kwd-group>
+<funding-group><award-group>
+<funding-source country="US">Bureau of Ocean Energy Management contract</funding-source> <award-id>M08PC20038</award-id></award-group>
+<funding-statement>This work was supported by Bureau of Ocean Energy Management contract M08PC20038,</funding-statement>
+</funding-group>
+<funding-group><award-group>
+<funding-source country="US">the Office of Ocean Exploration and Research and the Assessment and Restoration Division of the National Oceanic and Atmospheric Administration, </funding-source>
+</award-group></funding-group>
+<funding-group><award-group>
+<funding-source country="US">National Science Foundation RAPID grants</funding-source> <award-id>OCE-1045083 and OCE-1064041</award-id></award-group><funding-statement>(to CRF) and </funding-statement>
+</funding-group>
+<funding-group><award-group>
+<award-id>OCE-1045329</award-id></award-group>
+<funding-statement>(to TMS), and </funding-statement>
+</funding-group>
+<funding-group><award-group>
+<funding-source country="US">Gulf of Mexico Research Initiative</funding-source></award-group>
+<funding-statement>funding to support the Ecosystem Impacts of Oil and Gas Inputs to the Gulf (ECOGIG) consortium administered by the University of Mississippi.</funding-statement>
+</funding-group>
+<funding-group>
+<award-group><funding-source country="US">NOAA and BP</funding-source></award-group>
+<funding-statement>Image collection using ROVs from the HOS Sweetwater and Holiday Chouest and some analyses were funded by NOAA and BP as part of the Deepwater Horizon oil spill Natural Resource Damage Assessment (NRDA).</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+<body><sec id="s1"><title>Introduction</title>
+<p>Considered by many as the final frontier on the Earth, the deep sea has become increasingly affected by human activities. Accumulation of garbage in the deep sea is well documented (<xref ref-type="bibr" rid="bibr046">Spengler and Costa, 2008</xref>; <xref ref-type="bibr" rid="bibr051">Watters et al., 2010</xref>; <xref ref-type="bibr" rid="bibr040">Ramirez-Llodra et al., 2011</xref>), and there is growing international appreciation for the long-lasting detrimental effects of trawling on deep-water communities on continental shelves and seamounts (<xref ref-type="bibr" rid="bibr020">Hall–Spencer et al., 2002</xref>; <xref ref-type="bibr" rid="bibr010">Clark et al., 2010</xref>). Recently, there has been renewed interest in the extraction and recovery of deep-sea resources. The International Seabed Authority (ISA) has granted exploration permits in international waters for polymetallic nodules at over 4 km depth in the Clarion Clipperton fracture zone and for massive polymetallic sulfide deposits on mid-ocean ridges in the Indian and Atlantic oceans (<uri>http://www.isa.org.jm/</uri>). In addition, numerous permits have been granted for exploration and assessment of mineral resources in the territorial waters of developing countries in the western Pacific. Papua New Guinea granted a mining license to Nautilus Minerals for an active hydrothermal field in their territorial waters (<xref ref-type="bibr" rid="bibr049">van Dover, 2011</xref>) (though this license is currently in dispute). At the same time, energy companies and international fisheries are moving their activities into increasingly deeper waters (<xref ref-type="bibr" rid="bibr012">Davies et al., 2007</xref>; <xref ref-type="bibr" rid="bibr050">Waller et al., 2007</xref>; <xref ref-type="bibr" rid="bibr034">Nixon et al., 2009</xref>). In the Gulf of Mexico alone there are over 2,862 active oil and gas platforms with an additional 1,787 approved applications to drill in waters deeper than 1,000 m (<xref ref-type="bibr" rid="bibr006">Bureau of Safety and Environmental Enforcement (BSEE), 2012</xref>). In addition to the direct impacts that permitted extraction activities will have on the deep benthos, there are ever-present possibilities of accidents and disasters that may have far-reaching impacts on deep-sea ecosystems.</p>
+<p>During the three months between the Deepwater Horizon blowout and when the Macondo Well was capped on 15 July 2010, approximately 4.1 million barrels (∼650,000 m<sup>3</sup>) of crude oil were released into the Gulf of Mexico at 1,520 m depth (<xref ref-type="bibr" rid="bibr027">McNutt et al., 2011</xref>). A variety of impacts to shallow and coastal marine ecosystems have been reported (<xref ref-type="bibr" rid="bibr015">Fodrie and Heck, 2011</xref>; <xref ref-type="bibr" rid="bibr026">McCrea-Strub et al., 2011</xref>; <xref ref-type="bibr" rid="bibr043">Safina, 2011</xref>; <xref ref-type="bibr" rid="bibr016">Garcia et al., 2012</xref>; <xref ref-type="bibr" rid="bibr028">Mendelssohn et al., 2012</xref>; <xref ref-type="bibr" rid="bibr054">Whitehead et al., 2012</xref>) and a massive deep-water plume of oil and gas from the leaking well was documented in late June 2010 (<xref ref-type="bibr" rid="bibr007">Camilli et al., 2010</xref>).</p>
+<p>In the deep Gulf of Mexico most of the seafloor consists of fine-grained sediment. However, as an indirect result of both historical and modern natural hydrocarbon seepage in the Gulf, there are numerous exposed carbonate hardgrounds that are often colonized by megafauna, including colonial cold-water corals (<xref ref-type="bibr" rid="bibr014">Fisher et al., 2007</xref>). Gorgonian corals are often abundant on these hardgrounds below the photic zone, and five putative species of gorgonians in the genus <italic>Paramuricea</italic> were recently identified by <xref ref-type="bibr" rid="bibr013">Doughty et al. (2013)</xref> in the Gulf of Mexico below 250 m depth. The <italic>Paramuricea</italic> spp. show some segregation by depth, with <italic>Paramuricea biscaya</italic> and a sister taxon dominating many of the known coral communities below 800 m in the Gulf of Mexico (<xref ref-type="bibr" rid="bibr013">Doughty et al., 2013</xref>; <xref ref-type="bibr" rid="bibr038">Quattrini et al., 2013</xref>). These corals increase habitat heterogeneity and provide shelter for a variety of other organisms, including commercial fish species (e.g. <xref ref-type="bibr" rid="bibr003">Baillon et al., 2012</xref>) and associated invertebrates (<xref ref-type="bibr" rid="bibr005">Buhl-Mortensen and Mortensen, 2005</xref>). Most cold-water corals, including deep-water <italic>Paramuricea</italic> sp., are slow-growing; individual gorgonian colonies can live for hundreds to thousands of years (<xref ref-type="bibr" rid="bibr041">Roark et al., 2009</xref>; <xref ref-type="bibr" rid="bibr045">Sherwood and Edinger, 2009</xref>). Thus, these corals and the communities that form on and in association with them are unlikely to recover quickly from events lethal to significant portions of the corals.</p>
+<p>In late 2010 we surveyed 11 coral communities in the deep Gulf of Mexico. Coral communities observed at all sites more than 20 km from the Macondo Well were healthy (<xref ref-type="bibr" rid="bibr052">White et al., 2012a</xref>). However, a coral community 11 km southwest of the Macondo Well at 1,370 m water depth was discovered that had been recently impacted. Analysis of hydrocarbons in the flocculent material (floc) on the corals implicated the Deepwater Horizon spill as the cause of the observed impacts (<xref ref-type="bibr" rid="bibr052">White et al., 2012a</xref>; <xref ref-type="bibr" rid="bibr053">White et al. ,2012b</xref>). Over half of the more than 50 coral colonies in the central 10 x 12 m portion of the site were at least partially covered by the floc. The tissue underneath the floc of several corals sampled was already dead. There were also corals present free of floc with extended polyps and abundant living tissue. Abnormal behavior and coloration were noted in the ophiuroid brittle stars living on many of the corals (<xref ref-type="bibr" rid="bibr052">White et al., 2012a</xref>). Here we report on the temporal progression of visible impacts to the corals and their associates at this site, using images obtained during five visits from late 2010 through March 2012.</p></sec>
+<sec id="s2"><title>Materials and methods</title>
+<sec id="s2a"><title>Study site and image acquisition</title>
+<p>The study site in Gulf of Mexico lease block Mississippi Canyon (MC) 294 is located 11 km southwest of the Macondo Well at 28.6722°N, 88.4765°W and a depth of 1,370 m (<xref ref-type="bibr" rid="bibr052">White et al., 2012a</xref>). Corals at this site were distributed over an area of approximately 20 x 40 m. The focus of this study was the central area which was limited to corals on two large carbonate slabs and immediately adjacent carbonate outcrops in an area of about 10 x 12 m (<xref ref-type="fig" rid="elementa.000012.f001">Figure 1</xref>).</p>
+<fig id="elementa.000012.f001" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f001</object-id>
+<label>Figure 1 </label><caption><title>Down-looking mosaic of coral community studied at MC 294.</title> 
+<p>Updated from <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref>. Fifty-seven individual coral colonies belonging to five species and three gorgonian stubs were identified through five visits from late 2010 to March 2012. Colored dots represent the total obvious visible impact (I) of corals in November 2010, including imputed values.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f001"/></fig>
+<p>Imagery for this study was collected during five expeditions to the site with five different ships and underwater vehicles. On 2 November 2010, 3.5 months after the well was capped, the site was discovered on dive J2-541 of the remote operated vehicle (ROV) <italic>Jason II</italic> operated by the Woods Hole Oceanographic Institution (WHOI) from the National Oceanic and Atmospheric Administration (NOAA) research vessel Ronald H. Brown. Metadata and frame captures from this dive can be accessed through the Jason Virtual Control Van (<uri>http://4dgeo.whoi.edu/jason/</uri>). During this first visit, images were collected as frame captures from a video camera mounted on a pan and tilt. The Adimec 2000 high definition video camera was developed by the National Deep Submergence Facility Advanced Imaging and Visualization Lab at WHOI. Thirteen colonies of <italic>Paramuricea biscaya</italic> were imaged at sufficient resolution for complete digitization during this first visit.</p>
+<p>The second visit, almost five months after the well was capped, occurred between 8 and 14 December 2010, during four dives (A4660, A4661, A4662, and A4664) by the deep submergence vehicle <italic>Alvin</italic> from the research vessel Atlantis, both operated by WHOI. Metadata and frame captures from these dives can be accessed through the Alvin Frame-Grabber System (<uri>http://4dgeo.whoi.edu/alvin/</uri>). During this visit, images were collected with an Insite 3 CCD 800 line video camera with a 10x zoom. The camera was mounted on the submersible during the first three dives and held in the manipulator arm during the last dive. Sixteen colonies of <italic>P. biscaya</italic> were imaged at sufficient resolution for complete digitization during this visit.</p>
+<p>The third visit, almost 8 months after the well was capped, occurred between 11 and 13 March 2011 during two dives of a Triton XLS ROV operated by Mako Technologies from the Hornbeck Offshore Services ship Sweetwater. Images were acquired with an Imenco SDS 1210 digital still camera held by the ROV manipulator arm. Seventeen colonies of <italic>P. biscaya</italic> were imaged at sufficient resolution for complete digitization during this visit.</p>
+<p>The fourth visit almost 15 months after the well was capped occurred between 3 and 13 October 2011 during three dives (HC3-1, HC3-4, and HC3-12) by a Schilling ultra-heavy-duty ROV operated by C-Innovation from the Edison Chouest Offshore ship Holiday Chouest. Images were acquired with an AquaPix AquaSLR digital still camera held by the ROV manipulator arm. Forty colonies of <italic>P. biscaya</italic> were imaged at sufficient resolution for complete digitization during this visit.</p>
+<p>The fifth and final visit occurred 20.5 months after the well was capped on 31 March 2012. The Little Hercules ROV (dive EX1202L2_DIVE11_20120331) was deployed from the ship Okeanos Explorer operated by NOAA for this visit. Metadata and video collected during this dive can be obtained through the NOAA Office of Exploration and Research (OER) (<uri>http://explore.noaa.gov/home.aspx</uri>). Coral images were acquired as frame captures from a custom-built high-definition video camera mounted to a tilt mechanism on the ROV. Thirty-seven colonies of <italic>P. biscaya</italic> were imaged at sufficient resolution for complete digitization during this visit.</p>
+<p>The deep submergence vehicles used during each visit imposed different limitations resulting from the size and mobility of the vehicle and the characteristics of the different imaging systems on each vehicle. These combined factors result in differences among the data sets obtained during different visits: different numbers of colonies were imaged during each visit, the same colonies were not imaged on all visits, and the quality of imagery varied among visits. On each visit, attempts were made to re-image previously imaged colonies from similar perspectives. Newly-identified or previously un-imaged corals and all associated epifauna were imaged when possible. In 22 cases, multiple images of a coral were taken and then stitched into a mosaic image using a mosaicking algorithm (<xref ref-type="bibr" rid="bibr037">Pizarro and Singh 2003</xref>) implemented as a script in MATLAB 2010B (<xref ref-type="bibr" rid="bibr025">MathWorks 2010</xref>). This effort resulted in the generation of a mosaic image that included the entire colony at a higher resolution than would otherwise have been possible had only a single image of the entire coral been taken. <xref ref-type="fig" rid="elementa.000012.f002">Figure 2</xref> shows images of the same <italic>Paramuricea biscaya</italic> from every visit. Although this coral could not be approached as closely as some of the other colonies, these images are representative of the general quality of images collected during each visit as well as the typical changes observed in impacted corals over time.</p>
+<fig id="elementa.000012.f002" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f002</object-id>
+<label>Figure 2 </label><caption><title>Changes in coral A10 over five visits.</title>
+<p>Transitions typical of corals at the site can be seen, such as loss of floc from late 2010 to March 2011, the proliferation of hydroids after March 2011, and movement of the commensal ophiuroid.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f002"/></fig>
+<p>Fifty-seven live or recently living coral colonies were identified in the area over the course of all five visits (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>, <xref ref-type="fig" rid="elementa.000012.f001">Figure 1</xref>). These included 52 <italic>Paramuricea biscaya</italic>, one <italic>Paragorgia regalis </italic>(Nutting 1912), two <italic>Swiftia pallida</italic> (Madsen 1970), one <italic>Clavularia rudis</italic> (Verrill 1922), and one <italic>Acanthogorgia aspera</italic> (Pourtalès 1867). Three completely dead gorgonian stubs were identified in early visits and excluded from all analyses because their condition was not consistent with recent damage from the Deepwater Horizon blowout.</p></sec>
+<sec id="s2b"><title>Quantifying visible impact</title>
+<p>The dominant colonial coral at this site was <italic>Paramuricea biscaya</italic> (Grasshoff 1977), a gorgonian with planar arborescence morphology that is well suited to digitization from appropriate images. Over the course of all visits, we digitized images of 46 live or recently living <italic>P. biscaya</italic> colonies, although only a subset of these colonies was imaged with sufficient resolution for digitization during a particular visit. All portions of branches not obscured by commensal ophiuroids or anemones were digitized into one of three categories with the software Fiji 1.4 (<xref ref-type="bibr" rid="bibr044">Schindelin et al. 2012</xref>) or Inkscape 0.48.2 (<xref ref-type="bibr" rid="bibr047">The Inkscape Team 2011</xref>): 1) branches with obvious and significant visible impact in the form of coverage by floc (<xref ref-type="bibr" rid="bibr052">White et al., 2012a</xref>), excess mucous production, obvious tissue damage, or bare skeleton (<xref ref-type="fig" rid="elementa.000012.f003">Figure 3a</xref> and <xref ref-type="fig" rid="elementa.000012.f003">3b</xref>); 2) branches clearly colonized by hydroids (<xref ref-type="fig" rid="elementa.000012.f003">Figure 3c</xref> and <xref ref-type="fig" rid="elementa.000012.f003">3d</xref>); and 3) branches without these forms of obvious visible impact (<xref ref-type="fig" rid="elementa.000012.f003">Figure 3e</xref> and <xref ref-type="fig" rid="elementa.000012.f003">3f</xref>). Each coral was digitized and coded independently by three observers, each of whom was instructed to code the branches conservatively (if impact was not clearly evident on a branch, then the observer was instructed to code the branch as not impacted. If it was not clear that a branch was colonized by hydroids, the observer was instructed to code the branch as impacted and not hydroids). As a result, the “no obvious impact” category included branches with abnormal coloration or no extended polyps as well as some lower resolution portions of branches. For purposes of following the total proportion of impact to the corals across the time period before and after hydroid colonization, we defined the total obvious visible impact as the sum of the visibly impacted and hydroid-colonized categories. We evaluated differences between the three observers using Analysis of Variance (ANOVA) and treated each observed coral (a combination of coral ID and visit) as a block. Because the differences between the three observers were small and consistent across the five visits, simple arithmetic means of their digitized values were used for all analyses (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Visible impact to the corals belonging to four other species was considered separately.</p>
+<fig id="elementa.000012.f003" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f003</object-id>
+<label>Figure 3 </label><caption><title>Categorization of obvious visible impact on <italic>Paramuricea biscaya</italic>.</title>
+<p>(a) Obvious visible impact on coral A10 in November 2010; (b) Obvious visible impact on coral D1 in March 2011; (c) Hydroids on coral F5; (d) Hydroids on coral F6 in October 2011; (e) Branches in the no obvious visible impact category on coral D1 in March 2011; (f) Branches in the no obvious visible impact category on coral A10 in November 2010.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f003"/></fig>
+<p>Identifying and counting the commensal ophiuroids and anemones did not require the same level of image resolution necessary to digitize the coral branches; it was often accomplished through review of video records. As a result, the dataset for commensal presence or absence during each visit generally includes more corals.</p></sec>
+<sec id="s2c"><title>Impact at other sites removed from the vicinity of the Macondo Well</title>
+<p>One of the purposes of the October–November 2010 cruise during which the impacted site was first discovered was to look for signs of impact at known deep-water coral sites in the Gulf of Mexico. This objective was not met by attempting to image every coral at each site, but rather by surveying the sites with the ROV and searching for visibly impacted corals. During the fourth cruise in October 2011, we visited a recently discovered site 183 km WSW from the Macondo Well at 1,050 m depth. This site is now the largest deep-water coral site known at depths below 800 m in the north Gulf of Mexico. It was dominated by an undescribed species of <italic>Paramuricea</italic> (<italic>Paramuricea</italic> sp. B; <xref ref-type="bibr" rid="bibr013">Doughty et al., 2013</xref>) and also harbored abundant <italic>Madropora</italic> sp. At this site the ROV again surveyed the site, searching for corals showing visible signs of impact. Only one coral with a damaged bottom branch was noted at this distant site during the video survey. It was imaged with a digital still camera along with 52 other colonies (or groups of colonies) chosen opportunistically for imaging at various locations around the site. All of these were digitized and coded for impact as described above.</p></sec>
+<sec id="s2d"><title>Tracking progression of visible impact at the community level</title>
+<p>We used three complementary approaches to track progression of visible impact to individual corals and to the coral community. Due to targeted physical sampling of impacted corals and the opportunistic nature of image acquisition by the different underwater vehicles, the imaging of corals for digitization was not random. Therefore, we used Bayesian multiple imputation (<xref ref-type="bibr" rid="bibr042">Rubin 1987</xref>) to reconstruct the distribution of impact for the population of 46 <italic>Paramuricea biscaya</italic> measured on one or more visits (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Graphical inspection suggested that a reasonable model for impact over time was best modeled using log(impact/(1-impact)) as the response variable. The logit(impact) was modeled with linear change from November 2010 to March 2011 (three visits), constant through October 2011, followed by a change to March 2012. The three parameters of this curve (early change, mean logit(impact) in 2011, and late change) were allowed to differ for each coral, following a multivariate normal distribution. The variability of an observation around the coral-specific trend line was given a normal distribution. All parameters were given diffuse priors (normal with large variance for the population means of the trend line parameters and inverse uniforms for the variance parameters). The model was fit using OpenBugs (<xref ref-type="bibr" rid="bibr024">Lunn et al., 2009</xref>), the BRugs (<xref ref-type="bibr" rid="bibr048">Thomas et al., 2006</xref>) package in R (<xref ref-type="bibr" rid="bibr039">R Core Team, 2013</xref>) and three parallel chains. Burn-in was set at 5,000 iterations of the Markov chain Monte Carlo (MCMC) sampler. The subsequent 10,000 iterations were thinned to 333 samples from each chain inspection of trace plots. The Gelman-Rubin statistic indicated that the MCMC sample had converged to its distribution, but there was mild autocorrelation that was handled by thinning. The imputation of the amount of impact on an unmeasured coral was estimated by the posterior predictive distribution for that coral on the appropriate date. The 25%, 50%, and 75% quantiles were estimated for the population of 46 corals using each of 999 realizations of the posterior distribution for each coral. The uncertainty in each quantile is summarized by a 90% credible interval. We then combined this imputed dataset with all observed values from each visit for 46 <italic>P. biscaya</italic>. This approach allowed us to perform a Friedman test with post hoc pairwise Wilcoxon signed rank tests to identify significant changes in median total impact to the entire community between visits. These non-parametric tests were used because the distribution of <italic>total impact</italic> in each visit was not normal and no single transformation could be applied to all visits to enable a parametric test. In all tests, the variance of the test statistic was adjusted for multiple imputation using Rubin’s formula; a Bonferroni correction was made for multiple comparisons.</p>
+<p>Our second approach was to identify significant changes between all pairs of visits using only data from corals digitized during both visits. The Wilcoxon signed rank test for paired data was used to test the null hypothesis of no change in impact between visits for the subsets of corals imaged in both visits; a Bonferroni correction was applied for multiple comparisons. Our third approach was designed to follow and quantify the changes from one category to another on individual branches. For this analysis, we limited the dataset to the 14 corals that were imaged in high enough resolution for this analysis during one of the two 2010 visits and the final March 2012 visit, and then re-coded the digitization of each image from a late 2010 visit with data from the 2012 visit using the software Fiji 1.4 and Inkscape 0.48.2 (<xref ref-type="fig" rid="elementa.000012.f004">Figure 4</xref>). This approach also identified branches that disappeared between visits.</p>
+<fig id="elementa.000012.f004" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f004</object-id>
+<label>Figure 4 </label><caption><title>Recoding coral image digitization to track fate of branches.</title>
+<p>(a) Digitized image of coral A10 from November 2010 with impact categories in color (red: visible impact; green: no visible impact); (b) Same image recoded based on state of the coral in March 2012, with transitions between categories in color (cyan: visible impact to no visible impact; white: visible impact to colonized by hydroids; pink: no visible impact to colonized by hydroids; red and green means no change from 2010).</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f004"/></fig>
+</sec>
+<sec id="s2e"><title>Identification of associates</title>
+<p>A total of eleven ophiuroids, three anemones and five branches with attached hydroids were collected along with branches of corals (the corals collected from this site are shown below the first horizontal line in <xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Based on morphology, all ophiuroids imaged were identified as <italic>Asteroschema clavigerum</italic> previously identified using molecular markers by <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref>. Repeated PCR attempts to amplify anemone DNA were unsuccessful using a variety of anemone-specific and universal primer sets. Therefore, the assignment of all anemone associates to the family Hormathidae was based on morphological features, in particular, a thick-walled column, a strong mesogleal marginal sphincter, and relatively short tentacles, consistent with observations from known Gulf of Mexico anemone taxa (<xref ref-type="bibr" rid="bibr002">Ammons and Daly, 2008</xref>). Preserved hydroids were examined under a dissecting microscope to confirm family-level identification. A small amount (a few millimeters) of clean tissue was removed and finely macerated with a razor blade for DNA extraction using the DNEasy kit (Qiagen) following the manufacturer’s protocol. A portion of the hydrozoan barcoding gene, mitochondrial 16S rDNA (<xref ref-type="bibr" rid="bibr018">Govindarajan et al., 2005</xref>; <xref ref-type="bibr" rid="bibr032">Moura et al., 2008</xref>; <xref ref-type="bibr" rid="bibr031">Moura et al., 2011</xref>), was amplified using primers from <xref ref-type="bibr" rid="bibr011">Cunningham and Buss (1993)</xref> and standard PCR conditions (<xref ref-type="bibr" rid="bibr018">Govindarajan et al., 2005</xref>; <xref ref-type="bibr" rid="bibr019">Govindarajan et al., 2006</xref>). PCR products were visualized on a ∼1.5% agarose gel with Gel Red and purified with PCR purification kits (Qiagen) following the manufacturer’s protocol. Purified DNA was quantified using a Nanodrop (ND-1000) spectrophotometer, sequenced, edited and aligned following the methods in <xref ref-type="bibr" rid="bibr009">Cho and Shank (2010)</xref>. Blast search comparisons with final sequences were conducted in Genbank.</p></sec></sec>
+<sec id="s3"><title>Results</title>
+<p>As reported in <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref>, there was no evidence of impact to corals at any of the other sites surveyed more than 20 km from the Macondo Well in November/December 2010. During an ROV video survey of a newly discovered deep-water site 187 km from the Macondo Well in October 2011, only one coral with obvious visible impact was noted among many hundreds imaged. A single low-hanging branch that accounted for 8% of the colony appeared dead (<xref ref-type="fig" rid="elementa.000012.f005">Figure 5a</xref>). Subsequent digitization of still camera images of 52 other opportunistically chosen colonies revealed one colony with portions that appeared unhealthy and were categorized as impacted (<xref ref-type="fig" rid="elementa.000012.f005">Figure 5b</xref>). These portions accounted for less than 1% of the branches represented by that group of colonies imaged together.</p>
+<fig id="elementa.000012.f005" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f005</object-id>
+<label>Figure 5 </label><caption><title><italic>Paramuricea</italic> spp. at distant site.</title>
+<p>Imaged at Atwater (AT) 357, 187 km from the Macondo Well. (a) Coral M17-9 with unhealthy lower branch; (b) Coral M12-1 with unhealthy portions. Unhealthy portions are circled in red.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f005"/></fig>
+<p>During the initial two visits to the MC 294 site in November and December 2010, branches covered by floc constituted the main category of visible impact to the corals. A total of 43 <italic>Paramuricea biscaya</italic> corals were imaged by still camera or video in sufficient detail during one of the visits in 2010 to broadly categorize the proportion of the colony covered in floc, as reported in <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref>. During the first visit, 13 colonies of <italic>P. biscaya</italic> were imaged at sufficient resolution for complete digitization. Of the 16 colonies imaged with sufficient resolution during the second visit, eight were also imaged during the first visit. The initial signs of hydroid colonization were first detected on two corals imaged during the second visit in December 2010, but this colonization was limited to less than 0.5% of their digitized branches (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>).</p>
+<p>During the two ROV dives of the third visit on 11 and 13 March 2011, there was a visible reduction of floc on most corals. Obvious hydroid growth was observed on six <italic>P. biscaya</italic> (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Of the 17 <italic>P. biscaya</italic> digitized from images acquired during this visit, eight were repeated from the December 2010 visit.</p>
+<p>Hydroid colonization on many <italic>P. biscaya</italic> had increased by the fourth visit in October 2011. Image quality (using a digital camera held in the manipulator of the ROV) was the best of any visit.  Forty colonies were digitized from images acquired during this visit, including all 17 <italic>P. biscaya</italic> colonies digitized from images acquired during the third visit in March 2011 (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). During the fifth and last visit in March 2012, an increase in hydroid colonization was noted on some corals (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Of the 37 <italic>P. biscaya</italic> digitized from images acquired during this visit, 35 were repeated from those digitized from images acquired during the October 2011 visit.</p>
+<p>There were significant decreases in the median level of impact to the community over time (Friedman’s test, adjusted χ<sup>2</sup> = 19.03, p &lt; 0.001). Changes were detected between all visits except the November 2010 and December 2010 (first and second) visits and the March and October 2011 (third and fourth) visits (<xref ref-type="supplementary-material" rid="elementa.000012.s002">Table S2</xref>, <xref ref-type="fig" rid="elementa.000012.f006">Figure 6a</xref>). The results from pairwise analysis using only corals imaged during two adjacent visits were qualitatively similar (<xref ref-type="fig" rid="elementa.000012.f006">Figure 6b</xref>); however, the only significant difference at p &lt; 0.05 after Bonferroni corrections was between the last two visits, when the number of corals imaged during both visits was high (<xref ref-type="supplementary-material" rid="elementa.000012.s002">Table S2</xref>).</p>
+<fig id="elementa.000012.f006" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f006</object-id>
+<label>Figure 6 </label><caption><title>Change in total obvious visible impact for <italic>Paramuricea biscaya</italic> at the community level.</title>
+<p>Box plots represent the median, and the first and third quartiles. The whiskers extend from the ends of the box to the outermost data point that falls within the interquartile range times 1.5. (a) Plot of directly observed and digitized total obvious visible impact only; (b) Plot of observed and imputed total obvious visible impact.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f006"/></fig>
+<p>Analysis of the 14 corals imaged in high resolution in late 2010 and during March 2012 indicated an inverse correlation between the initial visible impact of a coral in late 2010 and the percentage of its visibly impacted portions that had transitioned to the category of no obvious visible impact by March 2012 (p &lt; 0.0001; <xref ref-type="fig" rid="elementa.000012.f007">Figure 7a</xref>). A second clear result from this analysis was that colonization by hydroids on impacted branches of a coral correlated positively with the initial level of visible impact of the coral (p &lt; 0.001; <xref ref-type="fig" rid="elementa.000012.f007">Figure 7b</xref>). However, subsequent transitions from being colonized by hydroids to other categories were rare and only occurred on small portions of branches (<xref ref-type="fig" rid="elementa.000012.f008">Figure 8</xref>).</p>
+<fig id="elementa.000012.f007" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f007</object-id>
+<label>Figure 7 </label>
+<caption><title>Change in visible impact and hydroid colonization related to initial total obvious visible impact.</title>
+<p>(a) Proportions of visibly impacted portions of coral (<italic>vi</italic>) that transitioned to no obvious impact (<italic>nv</italic>) between late 2010 and March 2012 (n = 14, linear fit intercept 1.12, slope –1.21, R<sup>2</sup> adj. = 0.840041, p &lt; 0.0001, 95% confidence intervals shaded); (b) Proportions of visibly impacted portions of coral (<italic>vi</italic>) that transitioned to being colonized by hydroids (<italic>hy</italic>) between late 2010 and March 2012 (n = 14, linear fit intercept –0.058792, slope 0.5776467, R<sup>2</sup> adj. = 0.611327, p &lt; 0.001, 95% confidence intervals shaded).</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f007"/></fig>
+<fig id="elementa.000012.f008" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f008</object-id>
+<label>Figure 8 </label>
+<caption><title>Transitions between October 2011 and March 2012 showing responses to hydroid colonization.</title>
+<p>(a) to (b): Transition to visibly impacted on coral F6; (c) to (d): Fragmentation of apical portions on coral F6; (e) to (f): Transition to no visible impact on coral A10.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f008"/></fig>
+<p>One large <italic>Paragorgia regalis</italic> was present at the site (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9a</xref>). Seven relatively small apical branches of this strikingly red coral were noticeably bleached white during the first visit in November 2010, one of which was also lightly covered with floc. One bleached branch was broken off during the collection of nearby branches for genetic analysis during the first visit. By March 2011, two branches had recovered their red color, but the other four of the initially bleached branches were no longer present. All polyps were extended and no visible impact was noted on the remaining parts of this <italic>P. regalis</italic> in late 2011 or March 2012. Two <italic>Swiftia pallida</italic> were also present (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9b</xref>). Because of their location and morphology, digitization of these colonies was generally not possible, though both had obvious floc coverage when first imaged in 2010. One was partially sampled during the first visit and showed signs of recovery during the remaining visits, while the other had at least partially recovered by the fourth visit in October 2011. It was not present during subsequent visits and the cause of its disappearance could not be determined. One <italic>Acanthogorgia aspera</italic> was present at the site (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9c</xref>). Morphology and location of this coral made digitization problematic, though it displayed obvious visible signs of impact. This coral had extended polyps but was partially visibly impacted in all visits when imaged. Significant hydroid colonization was first documented in October 2011 on this coral and had increased by March 2012. One area hosted <italic>Clavularia rudis</italic>, an encrusting octocoral (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9d</xref>), which did not exhibit visible signs of impact during any of the four visits when it was imaged.</p>
+<fig id="elementa.000012.f009" position="float">
+<object-id pub-id-type="doi">10.12952/journal.elementa.000012.f009</object-id>
+<label>Figure 9 </label>
+<caption><title>Other coral species at study site.</title>
+<p>(a) <italic>Paragorgia regalis</italic>, coral A9 image from November 2010; (b) <italic>Swiftia Pallida</italic>, coral B3 image from March 2012 (coral B11 not shown); (c) <italic>Acanthogorgia aspera</italic>, coral E1 image from October 2011; (d) <italic>Clavularia rudis</italic>, coral C6 image from October 2011.</p></caption>
+<graphic position="float" mimetype="image" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.f009"/></fig>
+<p>A total of 17 commensal hormathiid anemones were documented on 13 <italic>P. biscaya</italic> and one <italic>S. palida</italic>. No loss or gain of commensal hormathiid anemones from any of the corals was documented over the course of this study (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). Forty-one of the <italic>P. biscaya</italic> had at least one <italic>Asteroschema clavigerum</italic> ophiuroid attached during at least one visit. There were 14 documented incidents of ophiuroid loss between visits, with one followed by a gain of one ophiuroid on the subsequent visit (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). There were 11 documented incidents of ophiuroid gain between visits, two of which were followed by a loss on the subsequent visit (<xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). There was no correlation between the degree of initial impact to a host coral during the 2010 visits and the gain or loss of ophiuroids.</p>
+<p>Analysis of the 16S barcoding gene from the five samples of hydroid-colonized branches yielded two putative species. One had close affinities to the campanulinid <italic>Campanulina panicula</italic> (Sars 1874; 94.9–96.8% sequence similarity; GenBank accession number KC914569), and the other had close affinities to the tiarranid <italic>Stegopoma plicatile</italic> (Sars 1863; 96.2% sequence similarity; GenBank accession number KC914568). The 16S data indicated that only one of the two taxa was present in each single collection (a branch from a colony). The putative campanulinid was present on 4 of the 5 branches. Although different colony growth patterns were apparent in the <italic>in situ</italic> images of the branches, these differences did not correlate with the taxa identified by analysis of the 16S gene.</p></sec>
+<sec id="s4"><title>Discussion</title>
+<p>As reported in <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref>, none of the other previously known coral sites located more than 20 km from the Macondo Well exhibited any changes that could be attributed to impact from the spill. During the same cruise on which we conducted our fourth visit to MC 294, a new coral site 187 km west of the Macondo Well with related <italic>Paramuricea</italic> corals was surveyed and its colonies analyzed by the same techniques used for the MC 294 corals. This effort provided control information on the background frequency of branch death in deep-sea <italic>Paramuricia</italic> spp. corals. Data from the control site confirmed that the patterns seen among the corals at MC 294 are not normally present. Only a single coral with an impacted down-hanging branch was detected during hours of ROV survey of many hundreds of colonies at the control site. Later digitization of the over 53 colonies imaged in detail with a digital still camera revealed unhealthy branches on one other colony. These accounted for &lt; 1% of the branches in this image. We interpreted the relatively rare small dying branches found near the sediment-water interface as most likely due to natural causes, such as repeated sediment exposure due to very localized hydrodynamic effects or perhaps localized biological activity.</p>
+<p>There was large variation in the level of obvious visible impact among the 57 coral colonies present in the aggregation of corals at MC 294. During the initial visit, colonies without any adherent floc were found adjacent to others with floc adhering to the majority of the colony. During subsequent visits there was similar variation in patterns of branch death as well as hydroid colonization. There was no spatial pattern to the impact within the community or on the colonies: corals with and without obvious visible signs of impact were present on all edges of the carbonate slabs and in the middle areas of the aggregation (<xref ref-type="fig" rid="elementa.000012.f001">Figure 1</xref>), and impact occurred patchily over different parts of different colonies. Some large and small colonies were heavily impacted, while some colonies of all sizes were lightly or not visibly impacted. It is possible that a high level of variation in sensitivity to oil or dispersant exists among individual corals. This variation could reflect inherent genetic variability within the population or factors such as reproductive state or growth stage of different individuals. It is also possible that the variation reflects differences in coral orientation and/or very localized flow regimes. However, because the observed impact was patchy within many colonies (<xref ref-type="fig" rid="elementa.000012.f002">Figure 2</xref>), we consider it more likely that this variability reflected an uneven dispersion of the impacting agent in the water. If oil, dispersant, or a combination of the two were present as droplets (<xref ref-type="bibr" rid="bibr001">Adcroft et al., 2010</xref>; <xref ref-type="bibr" rid="bibr035">Paris et al., 2012</xref>) rather than dissolved when an underwater plume from the Macondo Well reached this aggregation of corals, the impact could have been patchy. Similarly, if the impact was in the form of toxic material adherent to particulate organic material or “marine snow” raining down from above (<xref ref-type="bibr" rid="bibr033">National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling 2011</xref>; <xref ref-type="bibr" rid="bibr036">Passow et al., 2012</xref>), then this form of delivery could also account for the patchy pattern of impact observed.</p>
+<p>The median level of impact to the corals decreased dramatically after the 2010 visits (<xref ref-type="fig" rid="elementa.000012.f006">Figure 6</xref>). This decrease coincided with the loss of most of the floc from the corals and the resultant exposure of branches that were either still obviously impacted or not visibly impacted. The statistical power for comparisons among visits using only the observed data was limited by the small number of well-imaged corals during some visits, the level of variation among individuals, and the non-normal distribution of impact. Nonetheless, analysis of only the observed values indicated clear trends in this dataset (<xref ref-type="fig" rid="elementa.000012.f006">Figure 6b</xref>, <xref ref-type="supplementary-material" rid="elementa.000012.s002">Table S2</xref>). Another complication was that some corals were collected during the first three visits for other analyses and thus were not randomly chosen but rather were most often corals with moderate to heavy levels of visible impact (grouped near the bottom of <xref ref-type="supplementary-material" rid="elementa.000012.s001">Table S1</xref>). The removal of heavily impacted individuals from the population and the opportunistic nature of imaging with different deep submergence assets necessitated the use of multiple imputation to generate a more reliable index of community level impact over time. This approach clearly indicated a steady decrease in the median level of obvious visible impact to the corals over time (<xref ref-type="fig" rid="elementa.000012.f006">Figure 6</xref>, <xref ref-type="supplementary-material" rid="elementa.000012.s002">Table S2</xref>).</p>
+<p>The decrease in total visible impact over time indicates some resiliency in the impacted corals. However, we were very conservative with respect to classifying a branch as visibly impacted, so that our conclusions concerning impact represent minimal estimates. Because numerous factors can influence the apparent color of a coral branch or degree of polyp extension by corals, we did not classify a coral as visibly impacted based on either of these criteria alone. We also note that ROVs produce significant levels of noise and vibration, and polyp retraction was often observed during imaging. Nonetheless, many branches in the category of no visible impact, including most that changed from the visibly impacted category, did not have the same appearance as branches on corals with no visible signs of impact to any part of the colony. They were often not colored the same and many did not show extended polyps during any visits (<xref ref-type="fig" rid="elementa.000012.f003">Figure 3f</xref>). The health of these branches and corals is still suspect (<xref ref-type="bibr" rid="bibr017">Garrabou et al. 2009</xref>), and the final outcome for the colonies cannot be predicted.</p>
+<p>Another consideration with respect to the ultimate fate of these corals is that the hydroids that have colonized the portions of the skeleton with no remaining gorgonian soft tissue may have a secondary deleterious impact on the remainder of the colony. Colonization of dead coral skeleton by hydroids has been reported many times for both littoral and deep-sea environments (<xref ref-type="bibr" rid="bibr021">Henry et al., 2008</xref>). Similarly, hydroid colonization of non-living glass sponge stalks in the deep sea has been previously reported (<xref ref-type="bibr" rid="bibr004">Beaulieu 2001</xref>). Hydroid colonization was still expanding on some <italic>Paramuricea biscaya</italic> during the visits between October 2011 and March 2012, though the final outcome of this process is also not known. Because cold-water corals are slow-growing with low metabolic rates (<xref ref-type="bibr" rid="bibr041">Roark et al., 2009</xref>), it is likely to be many years before any not-yet-obvious and sub-acute effects of exposure to effluent from the Deepwater Horizon blowout are fully manifested.</p>
+<p>To better understand the progression of visible impact on coral branches from one category to another and how the level of initial impact affects the prognosis for survival of the corals, we developed a technique to track the fates of individual branches on the subset of 14 individual corals imaged in acceptable resolution in November or December 2010 and in March 2012 (<xref ref-type="fig" rid="elementa.000012.f004">Figure 4</xref>). The initial level of impact determined during one of the 2010 visits, within 5 months of when the well was capped, correlated highly with both the probability of recovery by the impacted portions and the probability that those portions would subsequently be colonized by hydroids (<xref ref-type="fig" rid="elementa.000012.f007">Figure 7b</xref>). The corals most lightly impacted with adherent floc initially were more likely to recover from the impact, suggesting a cumulative effect of floc on the colony that impacts the survival of individual polyps and branches. This suggestion is consistent with past work that found a similar correlation between degree of impact (“lesion perimeter”) and recovery capacity in gorgonians, which the authors attributed to regeneration of damaged coral tissue facilitated by nearby healthy polyps (<xref ref-type="bibr" rid="bibr008">Cerrano et al., 2005</xref>). Similarly, the more lightly a coral was impacted initially, the lower the probability of extensive subsequent hydroid colonization to the impacted portions, again suggesting a cumulative effect on the ability of the corals to fight off hydroid colonization rather than polyp-by-polyp die-off. The corals that had initial impact visible on 20% or less of the colony recovered completely from the impact and showed no evidence of subsequent hydroid colonization, suggesting that this level of impact is recoverable for at least these gorgonian corals.</p>
+<p>This finer-scale analysis also detected a variety of rare transitions from one state to another. Transitions from hydroid colonization to other categories only occurred on small portions of a few branches. In six cases the transition was to damaged tissue or exposed skeleton (<xref ref-type="fig" rid="elementa.000012.f008">Figure 8a</xref> to <xref ref-type="fig" rid="elementa.000012.f008">8b</xref>), in two cases the apical portion of a branch colonized by hydroids apparently died and fell off (<xref ref-type="fig" rid="elementa.000012.f008">Figure 8c</xref> to <xref ref-type="fig" rid="elementa.000012.f008">8d</xref>), and in three cases an apparent transition of a few centimeters of a branch from hydroid colonization to no visible impact (but not expanded polyps) was recorded (<xref ref-type="fig" rid="elementa.000012.f008">Figure 8e</xref> to <xref ref-type="fig" rid="elementa.000012.f008">8f</xref>). Taken together, these data suggest that recovery from hydroid colonization is unlikely, as has been reported for <italic>Paramuricea clavata</italic> (<xref ref-type="bibr" rid="bibr008">Cerrano et al., 2005</xref>; <xref ref-type="bibr" rid="bibr022">Linares et al., 2005</xref>). Although branch loss was rare in these 14 corals through March 2012, the more general analyses of median percent impact to the site reported above did not account for branch loss, which is likely to become more significant over time. The techniques developed allow tracking of individual branches of gorgonians and therefore direct measurement of the changes in states of portions of the coral from their previous conditions. These techniques can detect loss of relatively small portions of the corals, as well as small increments of growth for future studies. If used as a component of baseline/monitoring studies, they will allow early detection of impacts at levels that would not be apparent with the transect style of monitoring.</p>
+<p>Only five colonies of colonial corals other than <italic>P. biscaya</italic> were present at this study site, so little can be concluded concerning the tolerance of these species to the conditions that impacted <italic>P. biscaya</italic>. Some observations are nonetheless notable. The single individual of <italic>Acanthogorgia aspera</italic> present at the site (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9c</xref>) experienced a high level of initial impact (71% of colony in late 2010), with subsequent tissue loss and hydroid colonization over the course of the study. The white apical branches on the single large <italic>Paragorgia regalis</italic> (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9a</xref>) was one of the first observed indications of impact to this site when the ROV first approached the site in November 2010. Immediately adjacent to this coral were <italic>P. biscaya</italic> that were heavily impacted on the first visit, making it likely that this large colony experienced significant exposure to the conditions that caused the responses seen in <italic>P. biscaya</italic>. Although four small terminal branches apparently died and fell off, two others seemed to have recovered and the vast majority of the colony itself appeared to be in good health during every visit (&gt; 97%). This species may be better able to cope with exposure to hydrocarbons or dispersant than <italic>P. biscaya</italic>. On the other hand, the disappearance between October 2011 and March 2012 of an entire colony of what appeared to be only lightly impacted <italic>Swiftia pallida</italic> (<xref ref-type="fig" rid="elementa.000012.f009">Figure 9b</xref>) suggests that recognizing impact to this species may be more difficult.</p>
+<p>At least 70 ophiuroids were present in the area with corals that was followed for this study. Although there was no clear pattern to the movement of ophiuroids off or onto coral hosts at this site, these associates clearly moved over the course of this study. Some may have departed the site over the course of this study, but this possibility cannot be determined from our dataset. Previous studies with related species of gorgonians have suggested that there is a high degree of fidelity and life-long partnerships between commensal ophiuroids and their specific host coral colony (<xref ref-type="bibr" rid="bibr030">Mosher and Watling 2009</xref>; <xref ref-type="bibr" rid="bibr009">Cho and Shank 2010</xref>); such relationships were not evident here after the impact of the Deepwater Horizon oil release. On the other hand, there was no obvious response from the hormathoid anemones present on the corals at this site through March of 2012, including several that remained attached to portions of colonies that had died and become colonized by hydroids.</p>
+<p><xref ref-type="bibr" rid="bibr029">Montagna et al. (2013)</xref> recently used the abundance and diversity of meiofauna and macrofauna in sediment samples collected after the oil spill to document the footprint of impact to sediment communities in the deep Gulf of Mexico. Their study indicates that the impact to the sediment infauna is a result of deposition of hydrocarbons on the seafloor, with the greatest impact detected within 3 km of the Macondo Well. A zone of “moderate effects” was detected up to 17 km to the SW and 8.5 km to the NE of the well. The impacted coral site analyzed here and in <xref ref-type="bibr" rid="bibr052">White et al. (2012a)</xref> is on the edge of the zone of moderate impact mapped through interpolation of point samples. There are no known coral communities within 3 km of the Macondo wellhead; the control site reported in this study is well outside of these zones. When considering the potential footprint of effects to deep-sea corals, it is important to recognize that the <xref ref-type="bibr" rid="bibr029">Montagna et al. (2013)</xref> study provides an estimated footprint of effects from depositional events associated with the spill, while deep-sea corals are bathed by benthic water and may be affected by neutrally buoyant or dissolved toxic materials that are not deposited directly on the seafloor. Further, corals will favor sites with currents that can supply food, while deposition of hydrocarbons on the seafloor may be favored in areas with very different local hydrodynamic regimes. Thus, the footprints of impact on these two different types of communities are unlikely to be the same.</p>
+<p>In summary, the median total visible impact to <italic>P. biscaya</italic> decreased steadily over the two years of this study. This improvement in condition correlated with loss of floc from many branches that were not obviously dead or colonized by hydroids by the end of this study. Hydroids, however, began to colonize small portions of colonies that had previously been covered with floc in December 2010 and were clearly evident on many corals by March of 2011. The extent of hydroid colonization increased in subsequent visits. Hydroid colonization correlated significantly and positively to the proportion of the coral initially showing signs of visible impact, while apparent recovery of impacted branches by March 2012 was inversely proportional to the level of initial impact to the colony.</p>
+<p>This study documented the acute response of a coral community exposed to effluent from the Deepwater Horizon oil spill over the course of almost two years post-blowout. Our approach to categorizing impact was conservative and based only on obvious visible impact and not apparent changes in coloration or polyp condition; it did not allow us to address sub-acute responses such as longer-term effects on population viability or reproduction (<xref ref-type="bibr" rid="bibr008">Cerrano et al., 2005</xref>; <xref ref-type="bibr" rid="bibr023">Linares et al., 2008</xref>). The very low metabolic and growth rates of cold water corals and the continuing changes in levels of hydroid colonization to impacted colonies, however, suggest that the full extent of even the acute effects of the oil spill on this community may not be realized for many years.</p></sec>
+<sec id="s5"><title>Data accessibility statement</title>
+<p>The following datasets were generated:</p>
+<list list-type="bullet">
+<list-item><p>DNA sequences: GenBank accession numbers KC914569 (<italic>Campanulina panicula</italic>) and KC914568 (<italic>Stegopoma plicatile</italic>)</p></list-item>
+<list-item><p>Coral image dataset: Dryad Digital Repository <related-object content-type="dryad" document-type="dataset"><uri>http://doi.org/10.5061/dryad.73tj5</uri></related-object></p></list-item>
+<list-item><p>Gulf of Mexico Research Initiative GRIIDC #R1.x132.136:0008</p></list-item></list>
+</sec>
+<sec id="s6"><title>Supplemental material legends</title>
+<supplementary-material id="elementa.000012.s001" position="float" mimetype="application/pdf" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.s001">
+<label>Table S1. </label>
+<caption><title>Mean digitized values, imputed values, and associate counts for corals imaged at MC 294 (PDF)</title>
+<p>OPH: ophiuroid; ACN: anemone; vi: obvious visible impact; hy: hydroids; nv: without obvious visible impact or hydroids; I: total obvious visible impact (vi + hy); ndi: no image of sufficient quality for digitization. I without vi, hy, and nv are imputed values.</p>
+<p>The corals below the first horizontal line were collected in whole or part after the image providing the data in bold text and grey fill was obtained.</p>
+<p>Corals other than <italic>P. biscaya</italic> are listed below the second horizontal line.</p>
+<p specific-use="supplementary-material-metadata">
+<named-content content-type="file-type">PDF</named-content>
+<named-content content-type="file-size">0.072 MB</named-content></p></caption>
+</supplementary-material>
+<supplementary-material id="elementa.000012.s002" position="float" mimetype="application/pdf" xlink:type="simple" xlink:href="info:doi/10.12952/journal.elementa.000012.s002">
+<label>Table S2. </label>
+<caption><title>Pairwise Wilcoxon signed rank comparisons of total obvious visible impact between all visits (PDF)</title>
+<p>Raw p-values are shown with df in parentheses. Values above diagonal line are based on directly observed and digitized total obvious visible impact, those below are based on observed and imputed values.</p>
+<p specific-use="supplementary-material-metadata">
+<named-content content-type="file-type">PDF</named-content>
+<named-content content-type="file-size">0.037 MB</named-content></p></caption></supplementary-material></sec>
+<sec id="s7" sec-type="copyright-statement"><title>Copyright</title>
+<p>© 2013 Hsing et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p></sec>
+</body>
+<back>
+<ack><title>Acknowledgments </title>
+<p>We thank W. Cho, C. Munro, T. Heyl, D. Cowart, and A. Sen for assistance with data collection; M. Saunders for mapping assistance; I. Baums, K. Shea, Y. Li, R. Dannenberg, K. Hovey, and E. Becker for valuable input into the manuscript. We also thank I. MacDonald, for providing the digital still camera for the October 2011 visit, and the crews of the ships and deep submergence vehicles used for this study.</p></ack>
+<ref-list content-type="parsed"><title>References</title>
+<ref id="bibr001">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Adcroft</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Hallberg</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Dunne</surname><given-names>JP</given-names></name>, 
+<name name-style="western"><surname>Samuels</surname><given-names>BL</given-names></name>, 
+<name name-style="western"><surname>Galt</surname><given-names>JA</given-names></name>, <etal>et al.</etal> 
+<year>2010</year>. 
+<article-title>Simulations of underwater plumes of dissolved oil in the Gulf of Mexico</article-title>. 
+<source>Geophys Res Lett</source> 
+<volume>37</volume>:<fpage>L18605</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1029/2010GL044689</pub-id></mixed-citation>
+</ref>
+<ref id="bibr002">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ammons</surname><given-names>AW</given-names></name>, 
+<name name-style="western"><surname>Daly</surname><given-names>M</given-names></name>. 
+<year>2008</year>. 
+<article-title>Distribution, habitat use and ecology of deepwater anemones (Actiniaria) in the Gulf of Mexico</article-title>. 
+<source>Deep Sea Res Part II: Top Stud Ocean</source> 
+<volume>55</volume>:
+<fpage>2657</fpage>–<lpage>2666</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.dsr2.2008.07.015</pub-id></mixed-citation>
+</ref>
+<ref id="bibr003">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Baillon</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Hamel</surname><given-names>J-F</given-names></name>, 
+<name name-style="western"><surname>Wareham</surname><given-names>VE</given-names></name>, 
+<name name-style="western"><surname>Mercier</surname><given-names>A</given-names></name>. 
+<year>2012</year>. 
+<article-title>Deep cold-water corals as nurseries for fish larvae</article-title>. 
+<source>Front Ecol Environ</source> 
+<volume>10</volume>:
+<fpage>351</fpage>–<lpage>356</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1890/120022</pub-id></mixed-citation>
+</ref>
+<ref id="bibr004">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Beaulieu</surname><given-names>SE</given-names></name>. 
+<year>2001</year>. 
+<article-title>Life on glass houses: Sponge stalk communities in the deep sea</article-title>. 
+<source>Mar Biol</source> 
+<volume>138</volume>:
+<fpage>803</fpage>–<lpage>817</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1007/s002270000500</pub-id></mixed-citation>
+</ref>
+<ref id="bibr005">
+<mixed-citation publication-type="inbook">
+<name name-style="western"><surname>Buhl-Mortensen</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>Mortensen</surname><given-names>PB</given-names></name>. 
+<year>2005</year>. 
+<article-title>Distribution and diversity of species associated with deep-sea gorgonian corals off Atlantic Canada</article-title>. In: 
+<name name-style="western"><surname>Freiwald</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Roberts</surname><given-names>JM</given-names></name>, editors. 
+<source>Cold-Water Corals and Ecosystems</source>. 
+<edition>1<sup>st</sup> ed</edition>. 
+<publisher-loc>Germany</publisher-loc>: 
+<publisher-name>Springer Berlin Heidelberg</publisher-name>. p. 
+<fpage>849</fpage>–<lpage>879</lpage>. (<series>Erlangen Earth Conference Series</series>).</mixed-citation>
+</ref>
+<ref id="bibr006">
+<mixed-citation publication-type="other">
+<collab>Bureau of Safety and Environmental Enforcement (BSEE)</collab>. 
+<year>2012</year>. 
+<article-title>Offshore statistics by water depth</article-title>. 
+<source>BSEE Data Cent</source>. [Internet]. Available from: 
+<uri>http://www.data.bsee.gov/homepg/data_center/leasing/WaterDepth/WaterDepth.asp</uri></mixed-citation>
+</ref>
+<ref id="bibr007">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Camilli</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Reddy</surname><given-names>CM</given-names></name>, 
+<name name-style="western"><surname>Yoerger</surname><given-names>DR</given-names></name>, 
+<name name-style="western"><surname>Mooy</surname><given-names>BASV</given-names></name>, 
+<name name-style="western"><surname>Jakuba</surname><given-names>MV</given-names></name>, <etal>et al.</etal> 
+<year>2010</year>. 
+<article-title>Tracking hydrocarbon plume transport and biodegradation at Deepwater Horizon</article-title>. 
+<source>Science</source> 
+<volume>330</volume>:
+<fpage>201</fpage>–<lpage>204</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1126/science.1195223</pub-id></mixed-citation>
+</ref>
+<ref id="bibr008">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Cerrano</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Arillo</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Azzini</surname><given-names>F</given-names></name>, 
+<name name-style="western"><surname>Calcinai</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Castellano</surname><given-names>L</given-names></name>, <etal>et al.</etal> 
+<year>2005</year>. 
+<article-title>Gorgonian population recovery after a mass mortality event</article-title>. 
+<source>Aquat Conserv Mar Freshw Ecosyst</source> 
+<volume>15</volume>:
+<fpage>147</fpage>–<lpage>157</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1002/aqc.661</pub-id></mixed-citation>
+</ref>
+<ref id="bibr009">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Cho</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Shank</surname><given-names>TM</given-names></name>. 
+<year>2010</year>. 
+<article-title>Incongruent patterns of genetic connectivity among four ophiuroid species with differing coral host specificity on North Atlantic seamounts</article-title>. 
+<source>Mar Ecol</source> 
+<volume>31</volume>:
+<fpage>121</fpage>–<lpage>143</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1111/j.1439-0485.2010.00395.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr010">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Clark</surname><given-names>MR</given-names></name>, 
+<name name-style="western"><surname>Rowden</surname><given-names>AA</given-names></name>, 
+<name name-style="western"><surname>Schlacher</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Williams</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Consalvey</surname><given-names>M</given-names></name>, <etal>et al.</etal> 
+<year>2010</year>. 
+<article-title>The ecology of seamounts: Structure, function, and human impacts</article-title>. 
+<source>Annu Rev Mar Sci</source> 
+<volume>2</volume>:
+<fpage>253</fpage>–<lpage>278</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1146/annurev-marine-120308-081109</pub-id></mixed-citation>
+</ref>
+<ref id="bibr011">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Cunningham</surname><given-names>CW</given-names></name>, 
+<name name-style="western"><surname>Buss</surname><given-names>LW</given-names></name>. 
+<year>1993</year>. 
+<article-title>Molecular evidence for multiple episodes of paedomorphosis in the family Hydractiniidae</article-title>. 
+<source>Biochem Syst Ecol</source> 
+<volume>21</volume>:
+<fpage>57</fpage>–<lpage>69</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/0305-1978(93)90009-G</pub-id></mixed-citation>
+</ref>
+<ref id="bibr012">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Davies</surname><given-names>AJ</given-names></name>, 
+<name name-style="western"><surname>Roberts</surname><given-names>JM</given-names></name>, 
+<name name-style="western"><surname>Hall-Spencer</surname><given-names>J</given-names></name>. 
+<year>2007</year>. 
+<article-title>Preserving deep-sea natural heritage: Emerging issues in offshore conservation and management</article-title>. 
+<source>Biol Conserv</source> 
+<volume>138</volume>:
+<fpage>299</fpage>–<lpage>312</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.biocon.2007.05.011</pub-id></mixed-citation>
+</ref>
+<ref id="bibr013">
+<mixed-citation publication-type="other">
+<name name-style="western"><surname>Doughty</surname><given-names>CL</given-names></name>, 
+<name name-style="western"><surname>Quattrini</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Cordes</surname><given-names>EE</given-names></name>. 
+<year>2013</year>. 
+<article-title>Insights into the population dynamics of the deep-sea coral genus Paramuricea in the Gulf of Mexico</article-title>. 
+<source>Deep Sea Res Part II: Top Stud Ocean</source> In press. Available from: <uri>http://www.sciencedirect.com/science/article/pii/S0967064513002142</uri> doi: 
+<pub-id pub-id-type="doi">10.1016/j.dsr2.2013.05.023</pub-id></mixed-citation>
+</ref>
+<ref id="bibr014">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Fisher</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Roberts</surname><given-names>H</given-names></name>, 
+<name name-style="western"><surname>Cordes</surname><given-names>E</given-names></name>, 
+<name name-style="western"><surname>Bernard</surname><given-names>B</given-names></name>. 
+<year>2007</year>. 
+<article-title>Cold seeps and associated communities of the Gulf of Mexico</article-title>. 
+<source>Oceanography</source> 
+<volume>20</volume>:
+<fpage>118</fpage>–<lpage>129</lpage>. doi: 
+<pub-id pub-id-type="doi">10.5670/oceanog.2007.12</pub-id></mixed-citation>
+</ref>
+<ref id="bibr015">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Fodrie</surname><given-names>FJ</given-names></name>, 
+<name name-style="western"><surname>Heck</surname><given-names>KL</given-names></name>. 
+<year>2011</year>. 
+<article-title>Response of coastal fishes to the Gulf of Mexico oil disaster</article-title>. 
+<source>PLOS ONE</source> 
+<volume>6</volume>:<fpage>e21609</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1371/journal.pone.0021609</pub-id></mixed-citation>
+</ref>
+<ref id="bibr016">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Garcia</surname><given-names>T</given-names></name>, 
+<name name-style="western"><surname>Shen</surname><given-names>Y</given-names></name>, 
+<name name-style="western"><surname>Crawford</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Oleksiak</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Whitehead</surname><given-names>A</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>RNA-Seq reveals complex genetic response to Deepwater Horizon oil release in <italic>Fundulus grandis</italic></article-title>. 
+<source>BMC Genomics</source> 
+<volume>13</volume>:
+<fpage>474</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1186/1471-2164-13-474</pub-id></mixed-citation>
+</ref>
+<ref id="bibr017">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Garrabou</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Coma</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Bensoussan</surname><given-names>N</given-names></name>, 
+<name name-style="western"><surname>Bally</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Chevaldonné</surname><given-names>P</given-names></name>, <etal>et al.</etal> 
+<year>2009</year>. 
+<article-title>Mass mortality in Northwestern Mediterranean rocky benthic communities: effects of the 2003 heat wave</article-title>. 
+<source>Glob Change Biol</source> 
+<volume>15</volume>:
+<fpage>1090</fpage>–<lpage>1103</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1111/j.1365-2486.2008.01823.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr018">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Govindarajan</surname><given-names>AF</given-names></name>, 
+<name name-style="western"><surname>Piraino</surname><given-names>S</given-names></name>, 
+<name name-style="western"><surname>Gravili</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Kubota</surname><given-names>S</given-names></name>. 
+<year>2005</year>. 
+<article-title>Species identification of bivalve-inhabiting marine hydrozoans of the genus <italic>Eugymnanthea</italic></article-title>. 
+<source>Invertebr Biol</source> 
+<volume>124</volume>:
+<fpage>1</fpage>–<lpage>10</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1111/j.1744-7410.2005.1241-01.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr019">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Govindarajan</surname><given-names>AF</given-names></name>, 
+<name name-style="western"><surname>Boero</surname><given-names>F</given-names></name>, 
+<name name-style="western"><surname>Halanych</surname><given-names>KM</given-names></name>. 
+<year>2006</year>. 
+<article-title>Phylogenetic analysis with multiple markers indicates repeated loss of the adult medusa stage in Campanulariidae (Hydrozoa, Cnidaria)</article-title>. 
+<source>Mol Phylogenet Evol</source> 
+<volume>38</volume>:
+<fpage>820</fpage>–<lpage>834</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.ympev.2005.11.012</pub-id></mixed-citation>
+</ref>
+<ref id="bibr020">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Hall–Spencer</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Allain</surname><given-names>V</given-names></name>, 
+<name name-style="western"><surname>Fosså</surname><given-names>JH</given-names></name>. 
+<year>2002</year>. 
+<article-title>Trawling damage to Northeast Atlantic ancient coral reefs</article-title>. 
+<source>Proc R Soc Lond B Biol Sci</source> 
+<volume>269</volume>:
+<fpage>507</fpage>–<lpage>511</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1098/rspb.2001.1910</pub-id></mixed-citation>
+</ref>
+<ref id="bibr021">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Henry</surname><given-names>L-A</given-names></name>, 
+<name name-style="western"><surname>Nizinski</surname><given-names>MS</given-names></name>, 
+<name name-style="western"><surname>Ross</surname><given-names>SW</given-names></name>. 
+<year>2008</year>. 
+<article-title>Occurrence and biogeography of hydroids (Cnidaria: Hydrozoa) from deep-water coral habitats off the southeastern United States</article-title>. 
+<source>Deep Sea Res Part I: Ocean Res Pap</source> 
+<volume>55</volume>:
+<fpage>788</fpage>–<lpage>800</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.dsr.2008.03.002</pub-id></mixed-citation>
+</ref>
+<ref id="bibr022">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Linares</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Coma</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Diaz</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Zabala</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Hereu</surname><given-names>B</given-names></name>, <etal>et al.</etal> 
+<year>2005</year>. 
+<article-title>Immediate and delayed effects of a mass mortality event on gorgonian population dynamics and benthic community structure in the NW Mediterranean Sea</article-title>. 
+<source>Mar Ecol Prog Ser</source> 
+<volume>305</volume>:
+<fpage>127</fpage>–<lpage>137</lpage>. doi: 
+<pub-id pub-id-type="doi">10.3354/meps305127</pub-id></mixed-citation>
+</ref>
+<ref id="bibr023">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Linares</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Coma</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Zabala</surname><given-names>M</given-names></name>. 
+<year>2008</year>. 
+<article-title>Effects of a mass mortality event on gorgonian reproduction</article-title>. 
+<source>Coral Reefs</source> 
+<volume>27</volume>:
+<fpage>27</fpage>–<lpage>34</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1007/s00338-007-0285-z</pub-id></mixed-citation>
+</ref>
+<ref id="bibr024">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Lunn</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Spiegelhalter</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Thomas</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Best</surname><given-names>N</given-names></name>. 
+<year>2009</year>. 
+<article-title>The BUGS project: Evolution, critique and future directions</article-title>. 
+<source>Stat Med</source> 
+<volume>28</volume>:
+<fpage>3049</fpage>–<lpage>3067</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1002/sim.3680</pub-id></mixed-citation>
+</ref>
+<ref id="bibr025">
+<mixed-citation publication-type="book">
+<collab>MathWorks</collab>. 
+<year>2010</year>. 
+<source>MATLAB 2010B</source>. 
+<publisher-loc>Natick, Massachusetts, United States</publisher-loc>: 
+<publisher-name>MathWorks</publisher-name>. 
+Available from: <uri>https://www.mathworks.com/products/matlab/</uri></mixed-citation>
+</ref>
+<ref id="bibr026">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>McCrea-Strub</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Kleisner</surname><given-names>K</given-names></name>, 
+<name name-style="western"><surname>Sumaila</surname><given-names>UR</given-names></name>, 
+<name name-style="western"><surname>Swartz</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Watson</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Zeller</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Pauly</surname><given-names>D</given-names></name>. 
+<year>2011</year>. 
+<article-title>Potential impact of the Deepwater Horizon oil spill on commercial fisheries in the Gulf of Mexico</article-title>. 
+<source>Fisheries</source> 
+<volume>36</volume>:
+<fpage>332</fpage>–<lpage>336</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1080/03632415.2011.589334</pub-id></mixed-citation>
+</ref>
+<ref id="bibr027">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>McNutt</surname><given-names>M</given-names></name>, 
+<name name-style="western"><surname>Camilli</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Guthrie</surname><given-names>G</given-names></name>, 
+<name name-style="western"><surname>Hsieh</surname><given-names>P</given-names></name>, 
+<name name-style="western"><surname>Labson</surname><given-names>V</given-names></name>, 
+<name name-style="western"><surname>Lehr</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Maclay</surname><given-names>D</given-names></name>, 
+<name name-style="western"><surname>Ratzel</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Sogge</surname><given-names>M</given-names></name>. 
+<year>2011</year>. 
+<source>Assessment of flow rate estimates for the Deepwater Horizon/Macondo Well oil spill</source>. 
+<publisher-loc>Washington, D.C., United States</publisher-loc>: 
+<publisher-name>U.S. Department of the Interior</publisher-name>. 
+Available from: <uri>http://www.doi.gov/deepwaterhorizon/loader.cfm?csModule=security/getfile&amp;PageID=237763</uri></mixed-citation>
+</ref>
+<ref id="bibr028">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Mendelssohn</surname><given-names>IA</given-names></name>, 
+<name name-style="western"><surname>Andersen</surname><given-names>GL</given-names></name>, 
+<name name-style="western"><surname>Baltz</surname><given-names>DM</given-names></name>, 
+<name name-style="western"><surname>Caffey</surname><given-names>RH</given-names></name>, 
+<name name-style="western"><surname>Carman</surname><given-names>KR</given-names></name>, 
+<name name-style="western"><surname>Fleeger</surname><given-names>JW</given-names></name>, 
+<name name-style="western"><surname>Joye</surname><given-names>SB</given-names></name>, 
+<name name-style="western"><surname>Lin</surname><given-names>Q</given-names></name>, 
+<name name-style="western"><surname>Maltby</surname><given-names>E</given-names></name>, 
+<name name-style="western"><surname>Overton</surname><given-names>EB</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>Oil impacts on coastal wetlands: Implications for the Mississippi River delta ecosystem after the Deepwater Horizon oil spill</article-title>. 
+<source>BioScience</source> 
+<volume>62</volume>:
+<fpage>562</fpage>–<lpage>574</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1525/bio.2012.62.6.7</pub-id></mixed-citation>
+</ref>
+<ref id="bibr029">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Montagna</surname><given-names>PA</given-names></name>, 
+<name name-style="western"><surname>Baguley</surname><given-names>JG</given-names></name>, 
+<name name-style="western"><surname>Cooksey</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Hartwell</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Hyde</surname><given-names>LJ</given-names></name>, <etal>et al.</etal> 
+<year>2013</year>. 
+<article-title>Deep-sea benthic footprint of the Deepwater Horizon blowout</article-title>. 
+<source>PLOS ONE</source> 
+<volume>8</volume>:<fpage>e70540</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1371/journal.pone.0070540</pub-id></mixed-citation>
+</ref>
+<ref id="bibr030">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Mosher</surname><given-names>CV</given-names></name>, 
+<name name-style="western"><surname>Watling</surname><given-names>L</given-names></name>. 
+<year>2009</year>. 
+<article-title>Partners for life: A brittle star and its octocoral host</article-title>. 
+<source>Mar Ecol Prog Ser</source> 
+<volume>397</volume>:
+<fpage>81</fpage>–<lpage>88</lpage>. doi: 
+<pub-id pub-id-type="doi">10.3354/meps08113</pub-id></mixed-citation>
+</ref>
+<ref id="bibr031">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Moura</surname><given-names>CJ</given-names></name>, 
+<name name-style="western"><surname>Cunha</surname><given-names>MR</given-names></name>, 
+<name name-style="western"><surname>Porteiro</surname><given-names>FM</given-names></name>, 
+<name name-style="western"><surname>Rogers</surname><given-names>AD</given-names></name>. 
+<year>2011</year>. 
+<article-title>The use of the DNA barcode gene 16S mRNA for the clarification of taxonomic problems within the family Sertulariidae (Cnidaria, Hydrozoa)</article-title>. 
+<source>Zool Scr</source> 
+<volume>40</volume>:
+<fpage>520</fpage>–<lpage>537</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1111/j.1463-6409.2011.00489.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr032">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Moura</surname><given-names>CJ</given-names></name>, 
+<name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, 
+<name name-style="western"><surname>Cunha</surname><given-names>MR</given-names></name>, 
+<name name-style="western"><surname>Rogers</surname><given-names>AD</given-names></name>. 
+<year>2008</year>. 
+<article-title>DNA barcoding reveals cryptic diversity in marine hydroids (Cnidaria, Hydrozoa) from coastal and deep-sea environments</article-title>. 
+<source>Zool Scr</source> 
+<volume>37</volume>:
+<fpage>93</fpage>–<lpage>108</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1111/j.1463-6409.2007.00312.x</pub-id></mixed-citation>
+</ref>
+<ref id="bibr033">
+<mixed-citation publication-type="other">
+<collab>National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling</collab>. 
+<year>2011</year>. 
+<article-title>Deep water - The Gulf oil disaster and the future of offshore drilling</article-title>. Available from: <uri>http://www.oilspillcommission.gov/final-report/</uri></mixed-citation>
+</ref>
+<ref id="bibr034">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Nixon</surname><given-names>LD</given-names></name>, 
+<name name-style="western"><surname>Shepard</surname><given-names>NK</given-names></name>, 
+<name name-style="western"><surname>Bohannon</surname><given-names>CM</given-names></name>, 
+<name name-style="western"><surname>Montgomery</surname><given-names>TM</given-names></name>, 
+<name name-style="western"><surname>Kazanis</surname><given-names>EG</given-names></name>, <etal>et al.</etal> 
+<year>2009</year>. 
+<source>Deepwater Gulf of Mexico 2009: Interim report of 2008 highlights</source>. 
+<publisher-loc>New Orleans, Louisiana, United States</publisher-loc>: 
+<publisher-name>U.S. Department of the Interior Minerals Management Service</publisher-name>. Available from: <uri>http://www.rpsea.org/attachments/contentmanagers/328/Deepwater%20Gulf%20of%20Mexico%202009%20Interim%20Report%20of%202008%20Highlights.pdf</uri></mixed-citation>
+</ref>
+<ref id="bibr035">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Paris</surname><given-names>CB</given-names></name>, 
+<name name-style="western"><surname>Hénaff</surname><given-names>ML</given-names></name>, 
+<name name-style="western"><surname>Aman</surname><given-names>ZM</given-names></name>, 
+<name name-style="western"><surname>Subramaniam</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Helgers</surname><given-names>J</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>Evolution of the Macondo Well blowout: Simulating the effects of the circulation and synthetic dispersants on the subsea oil transport</article-title>. 
+<source>Environ Sci Technol</source> 
+<volume>46</volume>:
+<fpage>13293</fpage>–<lpage>13302</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1021/es303197h</pub-id></mixed-citation>
+</ref>
+<ref id="bibr036">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Passow</surname><given-names>U</given-names></name>, 
+<name name-style="western"><surname>Ziervogel</surname><given-names>K</given-names></name>, 
+<name name-style="western"><surname>Asper</surname><given-names>V</given-names></name>, 
+<name name-style="western"><surname>Diercks</surname><given-names>A</given-names></name>. 
+<year>2012</year>. 
+<article-title>Marine snow formation in the aftermath of the Deepwater Horizon oil spill in the Gulf of Mexico</article-title>. 
+<source>Environ Res Lett</source> 
+<volume>7</volume>:<fpage>035301</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1088/1748-9326/7/3/035301</pub-id></mixed-citation>
+</ref>
+<ref id="bibr037">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Pizarro</surname><given-names>O</given-names></name>, 
+<name name-style="western"><surname>Singh</surname><given-names>H</given-names></name>. 
+<year>2003</year>. 
+<article-title>Toward large-area mosaicing for underwater scientific applications</article-title>. 
+<source>IEEE J Ocean Eng</source> 
+<volume>28</volume>:
+<fpage>651</fpage>–<lpage>672</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1109/JOE.2003.819154</pub-id></mixed-citation>
+</ref>
+<ref id="bibr038">
+<mixed-citation publication-type="other">
+<name name-style="western"><surname>Quattrini</surname><given-names>AM</given-names></name>, 
+<name name-style="western"><surname>Etnoyer</surname><given-names>PJ</given-names></name>, 
+<name name-style="western"><surname>Doughty</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>English</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>Falco</surname><given-names>R</given-names></name>, <etal>et al.</etal> 
+<year>2013</year>. 
+<article-title>A phylogenetic approach to octocoral community structure in the deep Gulf of Mexico</article-title>. 
+<source>Deep Sea Res Part II: Top Stud Ocean</source> In press. 
+Available from: <uri>http://linkinghub.elsevier.com/retrieve/pii/S096706451300218X</uri> doi: 
+<pub-id pub-id-type="doi">10.1016/j.dsr2.2013.05.027</pub-id></mixed-citation>
+</ref>
+<ref id="bibr039">
+<mixed-citation publication-type="other">
+<article-title>The R Project for Statistical Computing</article-title>
+<collab>R Core Team</collab>. 
+<year>2013</year>. 
+<publisher-loc>R. Vienna, Austria</publisher-loc>: 
+<publisher-name>R Foundation for Statistical Computing</publisher-name>. Available from: <uri>http://www.R-project.org/</uri></mixed-citation>
+</ref>
+<ref id="bibr040">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Ramirez-Llodra</surname><given-names>E</given-names></name>, 
+<name name-style="western"><surname>Tyler</surname><given-names>PA</given-names></name>, 
+<name name-style="western"><surname>Baker</surname><given-names>MC</given-names></name>, 
+<name name-style="western"><surname>Bergstad</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Clark</surname><given-names>MR</given-names></name>, <etal>et al.</etal> 
+<year>2011</year>. 
+<article-title>Man and the last great wilderness: Human impact on the deep sea</article-title>. 
+<source>PLOS ONE</source> 
+<volume>6</volume>:<fpage>e22588</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1371/journal.pone.0022588</pub-id></mixed-citation>
+</ref>
+<ref id="bibr041">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Roark</surname><given-names>EB</given-names></name>, 
+<name name-style="western"><surname>Guilderson</surname><given-names>TP</given-names></name>, 
+<name name-style="western"><surname>Dunbar</surname><given-names>RB</given-names></name>, 
+<name name-style="western"><surname>Fallon</surname><given-names>SJ</given-names></name>, 
+<name name-style="western"><surname>Mucciarone</surname><given-names>DA</given-names></name>. 
+<year>2009</year>. 
+<article-title>Extreme longevity in proteinaceous deep-sea corals</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>106</volume>:
+<fpage>5204</fpage>–<lpage>5208</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1073/pnas.0810875106</pub-id></mixed-citation>
+</ref>
+<ref id="bibr042">
+<mixed-citation publication-type="book">
+<name name-style="western"><surname>Rubin</surname><given-names>DB</given-names></name>. 
+<year>1987</year>. 
+<source>Multiple Imputation for Nonresponse in Surveys</source>. 
+<publisher-loc>New York, New York, United States</publisher-loc>: 
+<publisher-name>Wiley</publisher-name>.</mixed-citation>
+</ref>
+<ref id="bibr043">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Safina</surname><given-names>C</given-names></name>. 
+<year>2011</year>. 
+<article-title>The 2010 Gulf of Mexico oil well blowout: A little hindsight</article-title>. 
+<source>PLOS Biol</source> 
+<volume>9</volume>:<fpage>e1001049</fpage>. doi: 
+<pub-id pub-id-type="doi">10.1371/journal.pbio.1001049</pub-id></mixed-citation>
+</ref>
+<ref id="bibr044">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Schindelin</surname><given-names>J</given-names></name>, 
+<name name-style="western"><surname>Arganda-Carreras</surname><given-names>I</given-names></name>, 
+<name name-style="western"><surname>Frise</surname><given-names>E</given-names></name>, 
+<name name-style="western"><surname>Kaynig</surname><given-names>V</given-names></name>, 
+<name name-style="western"><surname>Longair</surname><given-names>M</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>Fiji: An open-source platform for biological-image analysis</article-title>. 
+<source>Nat Methods</source> 
+<volume>9</volume>:
+<fpage>676</fpage>–<lpage>682</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1038/nmeth.2019</pub-id></mixed-citation>
+</ref>
+<ref id="bibr045">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Sherwood</surname><given-names>OA</given-names></name>, 
+<name name-style="western"><surname>Edinger</surname><given-names>EN</given-names></name>. 
+<year>2009</year>. 
+<article-title>Ages and growth rates of some deep-sea gorgonian and antipatharian corals of Newfoundland and Labrador</article-title>. 
+<source>Can J Fish Aquat Sci</source> 
+<volume>66</volume>:
+<fpage>142</fpage>–<lpage>152</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1139/F08-195</pub-id></mixed-citation>
+</ref>
+<ref id="bibr046">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Spengler</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Costa</surname><given-names>MF</given-names></name>. 
+<year>2008</year>. 
+<article-title>Methods applied in studies of benthic marine debris</article-title>. 
+<source>Mar Pollut Bull</source> 
+<volume>56</volume>:
+<fpage>226</fpage>–<lpage>230</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.marpolbul.2007.09.040</pub-id></mixed-citation>
+</ref>
+<ref id="bibr047">
+<mixed-citation publication-type="other">
+<article-title>Inkscape open source vector graphics editor</article-title>. 
+<collab>The Inkscape Team</collab>. 
+<year>2011</year>. Inkscape 0.48.2. Available from: 
+<uri>http://www.inkscape.org/</uri></mixed-citation>
+</ref>
+<ref id="bibr048">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Thomas</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>O’Hara</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Ligges</surname><given-names>U</given-names></name>, 
+<name name-style="western"><surname>Sturtz</surname><given-names>S</given-names></name>. 
+<year>2006</year>. 
+<article-title>Making BUGS open</article-title>. 
+<source>R News</source> 
+<volume>6</volume>:
+<fpage>12</fpage>–<lpage>17</lpage>. 
+Available from: <uri>http://cran.r-project.org/doc/Rnews/Rnews_2006-1.pdf</uri></mixed-citation>
+</ref>
+<ref id="bibr049">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>van Dover</surname><given-names>CL</given-names></name>. 
+<year>2011</year>. 
+<article-title>Tighten regulations on deep-sea mining</article-title>. 
+<source>Nature</source> 
+<volume>470</volume>:
+<fpage>31</fpage>–<lpage>33</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1038/470031a</pub-id></mixed-citation>
+</ref>
+<ref id="bibr050">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Waller</surname><given-names>R</given-names></name>, 
+<name name-style="western"><surname>Watling</surname><given-names>L</given-names></name>, 
+<name name-style="western"><surname>Auster</surname><given-names>P</given-names></name>, 
+<name name-style="western"><surname>Shank</surname><given-names>T</given-names></name>. 
+<year>2007</year>. 
+<article-title>Anthropogenic impacts on the Corner Rise seamounts, north-west Atlantic Ocean</article-title>. 
+<source>J Mar Biol Assoc UK</source> 
+<volume>87</volume>:
+<fpage>1075</fpage>–<lpage>1076</lpage>. doi: 
+<pub-id>10.1017/S0025315407057785</pub-id></mixed-citation>
+</ref>
+<ref id="bibr051">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Watters</surname><given-names>DL</given-names></name>, 
+<name name-style="western"><surname>Yoklavich</surname><given-names>MM</given-names></name>, 
+<name name-style="western"><surname>Love</surname><given-names>MS</given-names></name>, 
+<name name-style="western"><surname>Schroeder</surname><given-names>DM</given-names></name>. 
+<year>2010</year>. 
+<article-title>Assessing marine debris in deep seafloor habitats off California</article-title>. 
+<source>Mar Pollut Bull</source> 
+<volume>60</volume>:
+<fpage>131</fpage>–<lpage>138</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1016/j.marpolbul.2009.08.019</pub-id></mixed-citation>
+</ref>
+<ref id="bibr052">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>White</surname><given-names>HK</given-names></name>, 
+<name name-style="western"><surname>Hsing</surname><given-names>P-Y</given-names></name>, 
+<name name-style="western"><surname>Cho</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Shank</surname><given-names>TM</given-names></name>, 
+<name name-style="western"><surname>Cordes</surname><given-names>EE</given-names></name>, <etal>et al.</etal> 
+<year>2012a</year>. 
+<article-title>Impact of the Deepwater Horizon oil spill on a deep-water coral community in the Gulf of Mexico</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>109</volume>:
+<fpage>20303</fpage>–<lpage>20308</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1073/pnas.1118029109</pub-id></mixed-citation>
+</ref>
+<ref id="bibr053">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>White</surname><given-names>HK</given-names></name>, 
+<name name-style="western"><surname>Hsing</surname><given-names>P-Y</given-names></name>, 
+<name name-style="western"><surname>Cho</surname><given-names>W</given-names></name>, 
+<name name-style="western"><surname>Shank</surname><given-names>TM</given-names></name>, 
+<name name-style="western"><surname>Cordes</surname><given-names>EE</given-names></name>, <etal>et al.</etal> 
+<year>2012b</year>. 
+<article-title>Reply to Boehm and Carragher: Multiple lines of evidence link deep-water coral damage to Deepwater Horizon oil spill</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>109</volume>:
+<fpage>E2648</fpage>–<lpage>E2648</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1073/pnas.1210413109</pub-id></mixed-citation>
+</ref>
+<ref id="bibr054">
+<mixed-citation publication-type="journal">
+<name name-style="western"><surname>Whitehead</surname><given-names>A</given-names></name>, 
+<name name-style="western"><surname>Dubansky</surname><given-names>B</given-names></name>, 
+<name name-style="western"><surname>Bodinier</surname><given-names>C</given-names></name>, 
+<name name-style="western"><surname>Garcia</surname><given-names>TI</given-names></name>, 
+<name name-style="western"><surname>Miles</surname><given-names>S</given-names></name>, <etal>et al.</etal> 
+<year>2012</year>. 
+<article-title>Genomic and physiological footprint of the Deepwater Horizon oil spill on resident marsh fishes</article-title>. 
+<source>Proc Natl Acad Sci</source> 
+<volume>109</volume>:
+<fpage>20298</fpage>–<lpage>20302</lpage>. doi: 
+<pub-id pub-id-type="doi">10.1073/pnas.1109545108</pub-id></mixed-citation>
+</ref>
+</ref-list>
+</back>
+</article>
