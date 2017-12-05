@@ -1,2 +1,2 @@
-# TaxPub
-TaxPub Extension of the NLM/NCBI Journal Publishing DTD, v 3.0
+# TaxPub-JATS
+TaxPub Extension of the JATS Publishing DTD, v 1.0
