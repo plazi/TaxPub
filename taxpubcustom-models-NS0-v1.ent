@@ -630,6 +630,65 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
              sec-type   CDATA                              #IMPLIED
              specific-use
                         CDATA                              #IMPLIED" >
+                        
+                        <!-- TAX TREATMENT STUFF BELOW    -->
+
+                                                                                
+<!--                    CONTENT MODEL FOR A SECTION METADATA       -->
+<!--                    In some works, each section has a different
+                        author or some sections are authored by 
+                        different contributors from the enclosing
+                        article. This wrapper element for 
+                        section-level metadata is used to capture
+                        information such as those contributors.
+                                                                   -->
+<!ENTITY % sec-meta-model
+                        "((contrib-group*, kwd-group*, 
+                          permissions?), mixed-citation?)"           >
+																							
+																											
+																											
+<!--                    CONTENT MODEL FOR TREATMENT SEC     -->
+<!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
+                          (%para-level;)*, 
+                          (tp:treatment-sec)*, 
+                          (%sec-back-matter-mix;)* )"                >
+
+<!--                    CONTENT MODEL FOR MATERIALS EXAMINED SEC     -->
+<!--
+<!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
+                          		(%para-level;)*, 
+                          		sec*, 
+                          		(%sec-back-matter-mix;)* )"                >
+-->
+
+<!--                    CONTENT MODEL FOR MIXED-NOMENCLATURE SEC      -->
+<!--
+<!ENTITY % mixed-nomenclature-model     "(sec-meta?, label?, tp:taxon-name, (tp:taxon-authority? | tp:taxon-status? | xref | tp:nomenclature-citation-list* | 
+                                                    (tp:type-genus | tp:type-species)? | tp:taxon-type-location? | x)*)" >
+-->				
+<!--                    CONTENT MODEL FOR NOMENCLATURE SEC      -->
+<!ENTITY % nomenclature-model           "(sec-meta?, label?, tp:taxon-name, x?, tp:taxon-authority?, x?, tp:taxon-status?, x?, tp:taxon-identifier*, xref* , x?, tp:nomenclature-citation-list*, x?,
+                                                        (tp:type-genus | tp:type-species)?, x?, tp:taxon-type-location?, x?)" >
+
+
+<!--                    OBJECT IDENTIFIER ATTRIBUTES               -->
+<!--                    Attributes for the <object-id> element     -->
+<!ENTITY % object-id-atts
+            "object-id-type
+                        CDATA                              #IMPLIED
+             content-type
+                        CDATA                              #IMPLIED 
+								
+				%might-link-atts; "												>
+
+																											
+<!-- TAXPUB NAMESPACE DECLARATION      -->
+<!ENTITY	% taxpub-namespace-att
+				"xmlns:tp 		CDATA                            #FIXED
+                                     'http://www.plazi.org/taxpub'	"	>																									                                                                       
+<!-- ================== End Publishing Content/ATT Override ======   -->
+
 
 
 <!-- ================== End Publishing Content/ATT Override ====== -->

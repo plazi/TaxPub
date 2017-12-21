@@ -104,6 +104,8 @@ Delivered as file "taxpubcustom-classes-NS0-v1.ent"                    -->
 <!ENTITY % rest-of-para.class
                         "disp-quote | speech | statement |
                          verse-group"                                >
+                         
+                         
 
 
 <!-- ================== End Publishing Classes Customization ===== -->
