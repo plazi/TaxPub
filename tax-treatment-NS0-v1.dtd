@@ -39,7 +39,7 @@ Laura Kelly, Jeff Beck.
 
 <!ENTITY % taxpubcustom-modules.ent 
                         PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.6 20150422//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20180101//EN"
 "taxpubcustom-modules-NS0.ent"                                      >
 %taxpubcustom-modules.ent;
 
