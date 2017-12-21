@@ -23,10 +23,10 @@ Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
                         class definitions that will be used to
                         over-ride some element classes in the
                         DTD Suite.                                 -->
-<!ENTITY % journalpubcustom-classes.ent
-                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Classes Module v1.1 20151215//EN"
-"JATS-journalpubcustom-classes1.ent"                                 >
+<!ENTITY % taxpubcustom-classes.ent 
+                        PUBLIC  
+"-//TaxPub//DTD Taxonomic Treatment Publishing Customize Classes Module v1.1 20180101//EN"
+"taxpubcustom-classes-NS0-v1.ent"                                      >
 
 
 <!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
