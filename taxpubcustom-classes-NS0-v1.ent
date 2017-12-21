@@ -105,7 +105,43 @@ Delivered as file "taxpubcustom-classes-NS0-v1.ent"                    -->
                         "disp-quote | speech | statement |
                          verse-group"                                >
                          
-                         
+
+<!-- TAX TREATMENT STUFF -->
+
+<!--                    PHRASE CONTENT CLASS ELEMENTS              -->
+<!--                    Small inline elements, that surround a word
+                        or phrase in the text because the subject
+                        (content) should be identified as something
+                        special or different. This class in is 
+                        intended to be a subset of the  Phrase Class,
+                        for use in restricted situations, such as
+                        within metadata paragraphs, to record
+                        publisher-identified semantic or usage
+                        material.                                  -->
+<!ENTITY % phrase-content.class 
+                        "named-content | styled-content | tp:taxon-name |
+								 tp:descriptive-statement | tp:material-citation"             >
+
+
+<!--                    PHRASE CLASS ELEMENTS                      -->
+<!--                    Small inline elements, that surround a word
+                        or phrase in the text because the subject
+                        (content) should be identified as something
+                        special or different                       -->
+<!ENTITY % phrase.class "abbrev | milestone-end | milestone-start |
+                         named-content | styled-content | tp:taxon-name |
+								 tp:descriptive-statement | tp:material-citation"             >
+
+
+<!--                    SECTION CLASS ELEMENTS                     -->
+<!--                    Information for the reader that is at the
+                        same structural level as a Section, which is
+                        a headed structure full of smaller elements
+                        such as paragraphs.                        -->
+<!ENTITY % sec.class    "sec | tp:taxon-treatment"                                        >
+
+
+                        
 
 
 <!-- ================== End Publishing Classes Customization ===== -->
