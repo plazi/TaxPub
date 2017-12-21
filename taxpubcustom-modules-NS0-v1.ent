@@ -1,0 +1,64 @@
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20180101//EN"
+Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
+<!-- ============================================================= -->
+
+
+<!-- ============================================================= -->
+<!--                    CUSTOMIZATION MODULES DECLARED             -->
+<!-- ============================================================= -->
+
+
+<!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
+<!--                    Set up the Parameter Entities and element
+                        class definitions that will be used to
+                        over-ride some element classes in the
+                        DTD Suite.                                 -->
+<!ENTITY % journalpubcustom-classes.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Classes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-classes1.ent"                                 >
+
+
+<!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
+<!--                    Set up the Parameter Entities and element
+                        mix definitions that will be used to
+                        over-ride some element mixes in the DTD
+                        Suite.                                     -->
+<!ENTITY % journalpubcustom-mixes.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Mixes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-mixes1.ent"                                   >
+
+
+<!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS
+                        MODULE                                     -->
+<!--                    Set up the Parameter Entities for element-
+                        specific element groups, complete content
+                        models, and attribute list and value over-
+                        rides. These PEs will over-ride selected
+                        content models and attribute lists for the
+                        Journal Archiving and Interchange DTD.     -->
+<!ENTITY % journalpubcustom-models.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Content and Attributes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-models1.ent"                                  >
+
+
+<!--                    NLM CITATION MODULE                        -->
+<!--                    The only new element created for the
+                        Publishing DTD, the highly structured NLM
+                        citation, to enforce a slightly loose version
+                        of an NLM-structured bibliographic reference.
+                        Sequence is enforced and interior punctuation
+                        is expected to be generated.               -->
+<!ENTITY % nlmcitation.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1 20151215//EN"
+"JATS-nlmcitation1.ent"                                              >
+
+
+<!-- =================== End Publishing DTD Module of Modules ==== -->
