@@ -1,8 +1,8 @@
 <!-- ============================================================= -->
 <!--  MODULE:    ALI Namespace Module (NISO RP-22-2015)            -->
 <!--             NISO Access License and Indicators (ALI)          -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.0 (Z39.96-2012)          -->
-<!--  DATE:      March 2015                                        -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
+<!--  DATE:      December 2015                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -10,7 +10,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS ALI Namespace Module v1.1d3 20150301//EN"
+"-//NLM//DTD JATS ALI Namespace Module v1.1 20151215//EN"
      Delivered as file "JATS-ali-namespace1.ent"                   -->
 <!-- ============================================================= -->
 
@@ -89,14 +89,23 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
-  
+    =============================================================
+     JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     JATS 1.1 was approved in late 2015, so the formal public 
+     identifiers were changed in the modules and the catalogs.
+     No model or attribute changes were made at this time. 
+ 
+  1. JATS became version "1.1" and "v1.1 20151215"
+
      =============================================================
 
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
+     Details concerning ANSI/NISO Z39.96-2015 JATS-based DTDs, XSDs, 
      RNGs and supporting documentation are available at
-           http://jats.nlm.nih.gov/1.1d3/
+           http://jats.nlm.nih.gov/1.1/
                                                                    -->
-
 <!-- ============================================================= -->
 <!--                    ALI NAMESPACE SETUP                        -->
 <!-- ============================================================= -->
@@ -106,7 +115,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Set the ALI namespace URI,as named in
                         NISO RP-22-2015                            -->
 <!ENTITY % ali.xmlns   
-      "http://www.niso.org/schemas/ali/1.0"                          >
+      "http://www.niso.org/schemas/ali/1.0/"                         >
 
 
 <!--                    NAME ALI NAMESPACE PREFIX                  -->

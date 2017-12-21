@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    NLM Citation                                      -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.0 (Z39.96-2012)          -->
-<!--  DATE:      March 2015                                        -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
+<!--  DATE:      December 2015                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1d3 20150301//EN"
+"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1 20151215//EN"
 Delivered as file "JATS-nlmcitation1.ent"                          -->
 <!-- ============================================================= -->
 
@@ -95,7 +95,18 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
 <!-- ============================================================= -->
 <!--
  Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
-     =============================================================
+      =============================================================
+     JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     JATS 1.1 was approved in late 2015, so the formal public 
+     identifiers were changed in the modules and the catalogs.
+     No model or attribute changes were made at this time. 
+ 
+  9. JATS became version "1.1" and "v1.1 20151215"
+
+    =============================================================
      JATS Version 1.1d3             (DAL/BTU) v1.1d3  (2015-03-01)
    
      The changes in this release are in response to NISO 
@@ -111,7 +122,7 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
      the decisions that have been made by the JATS Standing
      Committee.
 
-  8. JATS became version "1.1d3" and "v1.1d3 20150301//EN"
+  8. JATS became version "1.1d3" and "v1.1d3 20150301"
  
      =============================================================
      JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
@@ -132,13 +143,14 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
      =============================================================
      NISO JATS Version 1.1d1           (DAL/BTU) v1.1 (2013-11-15)
    
-     ANSI/NISO Z39.96-2012 (pre-release for V1.0 BITS; Version 1.1) 
+     ANSI/NISO Z39.96-2012 (pre-release for V1.0 BITS; Version 1.1d1) 
 
      NISO JATS Standing Committee met and answered the requests and
      suggestions from the NISO request forms.
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
-     RNGs and supporting documentation are available at
-           http://jats.nlm.nih.gov/1.1/
+
+     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
+     XSDs, RNGs and supporting documentation are available at
+           http://jats.nlm.nih.gov/1.0/
 
   6. GLOBAL ATTRIBUTES - Added the new parameter entity 
          %jats-common-atts;
@@ -155,10 +167,10 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
    
      ANSI/NISO Z39.96-2012 (Version 1.0) 
 
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
-     RNGs and supporting documentation are available at
+     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
+     XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.0/
-   
+  
   5. Updated the DTD-version attribute to "1.0" and the formal
      public identifier to the date: "v1.0 20120330//EN".
 
@@ -204,6 +216,11 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
 
   1. Updated public identifier to "v3.0 20080202//EN"              -->
 
+<!-- ============================================================= -->
+<!-- Details concerning 
+     ANSI/NISO Z39.96-2015 JATS-based DTDs, XSDs, 
+     RNGs and supporting documentation are available at
+           http://jats.nlm.nih.gov/1.1/                            -->
 
 <!-- ============================================================= -->
 <!--                    NEW ELEMENT DECLARATIONS                   -->
@@ -245,9 +262,9 @@ Delivered as file "JATS-nlmcitation1.ent"                          -->
                         on display or on export.
                         (Deprecated after Version 3.0)
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1d3/index.html?elem=nlm-citation
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1d3/index.html?elem=nlm-citation
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1d3/index.html?elem=nlm-citation
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=nlm-citation
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=nlm-citation
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=nlm-citation
                                                                    -->
 <!ELEMENT  nlm-citation
                         ((person-group | collab)*,

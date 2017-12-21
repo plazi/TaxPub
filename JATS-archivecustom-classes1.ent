@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
-<!--  MODULE:    Journal Publishing DTD-Specific Modules           -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.0 (Z39.96-2012)          -->
-<!--  DATE:      March 2015                                        -->
+<!--  MODULE:    Journal Archiving DTD Customize Classes Module    -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
+<!--  DATE:      December 2015                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,23 +9,23 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD-Specific Modules v1.1d3 20150301//EN"
-     Delivered as file "JATS-journalpubcustom-modules1.ent"        -->
+"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD Customize Classes Module v1.1 20151215//EN"
+Delivered as file "JATS-archivecustom-classes1.ent"                -->
 <!-- ============================================================= -->
 
+
 <!-- ============================================================= -->
-<!-- SYSTEM:     Journal Publishing DTD of the                     -->
+<!-- SYSTEM:     Journal Archiving and Interchange DTD of the      --> 
 <!--             JATS DTD Suite                                    -->         
 <!--                                                               -->
-<!-- PURPOSE:    To name any modules created explicitly for this   -->
-<!--             Publishing DTD, that is, not present in the       -->
-<!--             JATS DTD Suite                                    -->
+<!-- PURPOSE:    To declare the Parameter Entities (PEs) used to   -->
+<!--             over-ride the JATS DTD Suite default named        -->
+<!--             element classes.                                  -->
 <!--                                                               -->
-<!-- CONTAINS:   Full external Parameter Entity declarations       -->
-<!--             for all Journal Publishing DTD-Specific modules   -->
-<!--             used by this DTD. (Note: the modules are DECLARED -->
-<!--             in this module, but referenced [invoked] in the   -->
-<!--             Journal Publishing DTD module.)                   -->
+<!--             Note: Since PEs must be declared before they      -->
+<!--             are used, this module must be called before the   -->
+<!--             content modules that declare elements, and before -->
+<!--             the default classes module.                       -->
 <!--                                                               -->
 <!-- TAG SET SPONSOR                                               -->
 <!--             National Center for Biotechnology                 -->
@@ -73,7 +73,7 @@
 <!--                    Tag Suite (JATS)."                         -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
-<!--             September 2004                                    -->
+<!--             August 2004                                       -->
 <!--                                                               -->
 <!-- CREATED BY: Mulberry Technologies, Inc. for the NISO Z39.96   -->
 <!--             Working Group. Mulberry Technologies was          -->
@@ -81,8 +81,23 @@
 <!--             Information (NCBI), a center of the US National   -->
 <!--             Library of Medicine (NLM).                        -->
 <!--                                                               -->
-<!--             The Journal Publishing DTD is built from the      -->
-<!--             Archiving and Interchange DTD Suite.              -->
+<!--             The Journal Archiving and Interchange DTD is      -->
+<!--             built from the JATS DTD Suite.                    -->
+<!--                                                               -->
+<!--             This DTD and the Suite are a continuation of      -->
+<!--             the work done by NCBI, Mulberry Technologies,     -->
+<!--             and Inera Inc. on the NLM Journal Archiving       -->
+<!--             and Interchange DTD Suite, which was originally   -->
+<!--             released in December, 2002.                       -->
+<!--                                                               -->
+<!--             NLM thanks the Harvard University Libraries, both -->
+<!--             for proposing that a draft archiving NLM DTD for  -->
+<!--             life sciences journals be extended to accommodate -->
+<!--             journals in all disciplines and for sponsoring    -->
+<!--             Inera Inc.'s collaboration with other DTD         -->
+<!--             authors in completing NLM Version 1.0. The        -->
+<!--             Andrew W. Mellon Foundation provided support for  -->
+<!--             these important contributions.                    -->
 <!--                                                               -->
 <!--             Suggestions for refinements and enhancements to   -->
 <!--             this DTD should be sent in email to:              -->
@@ -94,7 +109,19 @@
 <!--                    DTD VERSION/CHANGE HISTORY                 -->
 <!-- ============================================================= -->
 <!--
+
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    =============================================================
+     JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     JATS 1.1 was approved in late 2015, so the formal public 
+     identifiers were changed in the modules and the catalogs.
+     No model or attribute changes were made at this time. 
+ 
+  8. JATS became version "1.1" and "v1.1 20151215"
+
      =============================================================
      JATS Version 1.1d3             (DAL/BTU) v1.1d3  (2015-03-01)
    
@@ -111,8 +138,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-  7. JATS became version "1.1d3" and "v1.1d3 20150301//EN"
- 
+  7. JATS became version "1.1d3" and "v1.1 20150301//EN"
+
      =============================================================
      JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
    
@@ -126,32 +153,23 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-   6. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
-
+  6. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+   
      =============================================================
      NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
    
      ANSI/NISO Z39.96-2012 (Version 1.0) 
 
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
-     RNGs and supporting documentation are available at
+     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
+     XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.0/
-   
-  5. OASIS TABLE NAMESPACE MODIFICATIONS - Added a new module
-     that sets up the namespace URI and namespace prefix for
-     the OASIS tables models.
 
-     =============================================================
-     NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
-   
-     ANSI/NISO Z39.96-2012 (Version 1.0) 
-
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
-     RNGs and supporting documentation are available at
-           http://jats.nlm.nih.gov/1.0/
-   
-  4. Updated the DTD-version attribute to "1.0" and the formal
-     public identifier to the date: "v1.0 20120330//EN".
+  5. CITATION ALTERNATIVES - Added a new element 
+     <citation-alternatives> to the citation.class. The element
+     will hold, for example, a single citation in multiple
+     languages or a single citation tagged as a <mixed-citation>
+     complete with punctuation and spacing and also as an
+     <element-citation> with all punctuation and spacing removed.
 
      =============================================================
      Version 0.4                       (DAL/BTU) v0.4 (2011-01-31)
@@ -166,12 +184,18 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on NISO Trial Use Draft Version 0.4 are available at
            http://jats.nlm.nih.gov/JATS-0.4.
    
-  3. Updated the DTD-version attribute to "0.4" 
+  4. Updated the DTD-version attribute to "0.4" 
    
-  2. Updated the public identifier to "v0.4 20110131", 
+  3. Updated the public identifier to "v0.4 20110131", 
      modified the formal public identifier to include "JATS (Z39.96)",
      and the filename as delivered to include "JATS" and the
      new version number "0".
+           http://jats.nlm.nih.gov/0.4.
+
+  2. AFFILIATION ALTERNATIVES - Added the element <aff-alternatives>
+     to contrib-info.class to hold multiple <aff>s that are
+     representations of a single affiliation, for example, the name
+     of an institution in two languages or two scripts.
 
      =============================================================
      Version 3.0                       (DAL/BTU) v3.0 (2007-10-31)
@@ -189,57 +213,79 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
   1. Updated public identifier to "v3.0 20080202//EN"              -->
 
 <!-- ============================================================= -->
-<!--                    CUSTOMIZATION MODULES DECLARED             -->
+<!-- Details concerning 
+     ANSI/NISO Z39.96-2015 JATS-based DTDs, XSDs, 
+     RNGs and supporting documentation are available at
+           http://jats.nlm.nih.gov/1.1/                            -->
+
+<!-- ============================================================= -->
+<!--                    METADATA CLASSES (articlemeta.ent)         -->
 <!-- ============================================================= -->
 
 
-<!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
-<!--                    Set up the Parameter Entities and element
-                        class definitions that will be used to
-                        over-ride some element classes in the
-                        DTD Suite.                                 -->
-<!ENTITY % journalpubcustom-classes.ent
-                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Classes Module v1.1d3 20150301//EN"
-"JATS-journalpubcustom-classes1.ent"                                 >
+<!--                    CONTRIBUTOR INFORMATION CLASS              -->
+<!--                    Metadata about a contributor
+                        Added <fn>                                 -->
+<!ENTITY % contrib-info.class
+                        "address | aff | aff-alternatives |
+                         author-comment | bio | email |  etal |
+                         ext-link | fn | on-behalf-of | role |
+                         uri | xref"                                 >
 
 
-<!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
-<!--                    Set up the Parameter Entities and element
-                        mix definitions that will be used to
-                        over-ride some element mixes in the DTD
-                        Suite.                                     -->
-<!ENTITY % journalpubcustom-mixes.ent
-                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Mixes Module v1.1d3 20150301//EN"
-"JATS-journalpubcustom-mixes1.ent"                                   >
+<!-- ============================================================= -->
+<!--                    CITATION CLASSES (references.ent)          -->
+<!-- ============================================================= -->
 
 
-<!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS
-                        MODULE                                     -->
-<!--                    Set up the Parameter Entities for element-
-                        specific element groups, complete content
-                        models, and attribute list and value over-
-                        rides. These PEs will over-ride selected
-                        content models and attribute lists for the
-                        Journal Archiving and Interchange DTD.     -->
-<!ENTITY % journalpubcustom-models.ent
-                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Content and Attributes Module v1.1d3 20150301//EN"
-"JATS-journalpubcustom-models1.ent"                                  >
+<!--                    CITATION CLASS ELEMENTS                    -->
+<!--                    Reference to an external document, as used
+                        within, for example, the text of a
+                        paragraph                                  -->
+<!ENTITY % citation.class
+                        "citation-alternatives | element-citation | 
+                         mixed-citation | nlm-citation"              >
 
 
-<!--                    NLM CITATION MODULE                        -->
-<!--                    The only new element created for the
-                        Publishing DTD, the highly structured NLM
-                        citation, to enforce a slightly loose version
-                        of an NLM-structured bibliographic reference.
-                        Sequence is enforced and interior punctuation
-                        is expected to be generated.               -->
-<!ENTITY % nlmcitation.ent
-                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1d3 20150301//EN"
-"JATS-nlmcitation1.ent"                                              >
+<!--                    CITATION MINUS ALTERNATIVES CLASS ELEMENTS -->
+<!--                    All the citation elements except the
+                        <citation-alternatives> element.           -->
+<!ENTITY % citation-minus-alt.class
+                        "element-citation | mixed-citation | 
+                         nlm-citation"                               >
 
 
-<!-- =================== End Publishing DTD Module of Modules ==== -->
+<!--                    CITATION ADDITIONS CLASS ELEMENTS          -->
+<!--                    Elements that are not part of the broader
+                        -references.class, but that need to be part
+                        of the model for citations.                -->
+<!ENTITY % citation-additions.class
+                        "string-date"                                >
+
+
+<!-- ============================================================= -->
+<!--                    PRESENTATION INFO CLASSES                  -->
+<!-- ============================================================= -->
+
+
+<!--                    X-GENERATED PUNCTUATION CLASS              -->
+<!--                    Class containing a single element that will
+                        hold generated punctuation or other
+                        generatable text, for example, the commas or
+                        semicolons between keywords.               -->
+<!ENTITY % x.class      "x"                                          >
+
+
+<!-- ============================================================= -->
+<!--                    STRUCTURAL ELEMENT CLASSES                 -->
+<!-- ============================================================= -->
+
+
+<!--                    REST OF PARAGRAPH CLASS                    -->
+<!--                    Information for the reader that is at the
+                        same structural level as a Paragraph.      -->
+<!ENTITY % rest-of-para.class
+                        "ack | disp-quote | speech | statement |
+                         verse-group"                                >
+
+<!-- ================== End Archiving Classes Customization ====== -->
