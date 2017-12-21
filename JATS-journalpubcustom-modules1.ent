@@ -1,5 +1,5 @@
 <!-- ============================================================= -->
-<!--  MODULE:    Journal Archiving DTD-Specific Modules            -->
+<!--  MODULE:    Journal Publishing DTD-Specific Modules           -->
 <!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
 <!--  DATE:      December 2015                                     -->
 <!--                                                               -->
@@ -9,22 +9,23 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD-Specific Modules v1.1 20151215//EN"
-     Delivered as file "JATS-archivecustom-modules1.ent"           -->
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD-Specific Modules v1.1 20151215//EN"
+     Delivered as file "JATS-journalpubcustom-modules1.ent"        -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!-- SYSTEM:     Article Authoring and Interchange DTD of the      --> 
+<!-- SYSTEM:     Journal Publishing DTD of the                     -->
 <!--             JATS DTD Suite                                    -->         
 <!--                                                               -->
 <!-- PURPOSE:    To name any modules created explicitly for this   -->
-<!--             DTD, that is, not present in the JATS DTD Suite   -->
+<!--             Publishing DTD, that is, not present in the       -->
+<!--             JATS DTD Suite                                    -->
 <!--                                                               -->
 <!-- CONTAINS:   Full external Parameter Entity declarations       -->
-<!--             for all Journal Archiving DTD-Specific modules    -->
+<!--             for all Journal Publishing DTD-Specific modules   -->
 <!--             used by this DTD. (Note: the modules are DECLARED -->
 <!--             in this module, but referenced [invoked] in the   -->
-<!--             Journal Archiving and Interchange DTD module.)    -->
+<!--             Journal Publishing DTD module.)                   -->
 <!--                                                               -->
 <!-- TAG SET SPONSOR                                               -->
 <!--             National Center for Biotechnology                 -->
@@ -72,7 +73,7 @@
 <!--                    Tag Suite (JATS)."                         -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
-<!--             August 2004                                       -->
+<!--             September 2004                                    -->
 <!--                                                               -->
 <!-- CREATED BY: Mulberry Technologies, Inc. for the NISO Z39.96   -->
 <!--             Working Group. Mulberry Technologies was          -->
@@ -80,35 +81,18 @@
 <!--             Information (NCBI), a center of the US National   -->
 <!--             Library of Medicine (NLM).                        -->
 <!--                                                               -->
-<!--             The Journal Archiving and Interchange DTD is      -->
-<!--             built from the JATS DTD Suite.                    -->
-<!--                                                               -->
-<!--             This DTD and the Suite are a continuation of      -->
-<!--             the work done by NCBI, Mulberry Technologies,     -->
-<!--             and Inera Inc. on the NLM Journal Archiving       -->
-<!--             and Interchange DTD Suite, which was originally   -->
-<!--             released in December, 2002.                       -->
-<!--                                                               -->
-<!--             NLM thanks the Harvard University Libraries, both -->
-<!--             for proposing that a draft archiving NLM DTD for  -->
-<!--             life sciences journals be extended to accommodate -->
-<!--             journals in all disciplines and for sponsoring    -->
-<!--             Inera Inc.'s collaboration with other DTD         -->
-<!--             authors in completing NLM Version 1.0. The        -->
-<!--             Andrew W. Mellon Foundation provided support for  -->
-<!--             these important contributions.                    -->
+<!--             The Journal Publishing DTD is built from the      -->
+<!--             Archiving and Interchange DTD Suite.              -->
 <!--                                                               -->
 <!--             Suggestions for refinements and enhancements to   -->
 <!--             this DTD should be sent in email to:              -->
 <!--                 jats@ncbi.nlm.nih.gov                         -->
 <!-- ============================================================= -->
 
-
 <!-- ============================================================= -->
 <!--                    DTD VERSION/CHANGE HISTORY                 -->
 <!-- ============================================================= -->
 <!--
-
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
     =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
@@ -119,7 +103,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      identifiers were changed in the modules and the catalogs.
      No model or attribute changes were made at this time. 
  
-  7. JATS became version "1.1" and "v1.1 20151215"
+  8. JATS became version "1.1" and "v1.1 20151215"
 
      =============================================================
      JATS Version 1.1d3             (DAL/BTU) v1.1d3  (2015-03-01)
@@ -137,8 +121,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-  6. JATS became version "1.1d3" and "v1.1d3 20150301"
-    =============================================================
+  7. JATS became version "1.1d3" and "v1.1d3 20150301"
+ 
+     =============================================================
      JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
    
      NISO JATS is a continuing maintenance NISO Standard, which 
@@ -151,8 +136,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-  5. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
-  
+   6. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+
      =============================================================
      NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
    
@@ -162,10 +147,21 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.0/
    
-  4. Updated the public identifier to "v1.0 20120330//EN", 
-     modified the formal public identifier to include "JATS (Z39.96)",
-     and the filename as delivered to include "JATS" and the
-     new version number "1".
+  5. OASIS TABLE NAMESPACE MODIFICATIONS - Added a new module
+     that sets up the namespace URI and namespace prefix for
+     the OASIS tables models.
+
+     =============================================================
+     NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
+   
+     ANSI/NISO Z39.96-2012 (Version 1.0) 
+
+     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
+     XSDs, RNGs and supporting documentation are available at
+           http://jats.nlm.nih.gov/1.0/
+  
+  4. Updated the DTD-version attribute to "1.0" and the formal
+     public identifier to the date: "v1.0 20120330//EN".
 
      =============================================================
      Version 0.4                       (DAL/BTU) v0.4 (2011-01-31)
@@ -186,7 +182,6 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      modified the formal public identifier to include "JATS (Z39.96)",
      and the filename as delivered to include "JATS" and the
      new version number "0".
-           http://jats.nlm.nih.gov/0.4.
 
      =============================================================
      Version 3.0                       (DAL/BTU) v3.0 (2007-10-31)
@@ -219,10 +214,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         class definitions that will be used to
                         over-ride some element classes in the
                         DTD Suite.                                 -->
-<!ENTITY % archivecustom-classes.ent
+<!ENTITY % journalpubcustom-classes.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD Customize Classes Module v1.1 20151215//EN"
-"JATS-archivecustom-classes1.ent"                                    >
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Classes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-classes1.ent"                                 >
 
 
 <!--                    DTD-SPECIFIC MIX CUSTOMIZATIONS MODULE     -->
@@ -230,10 +225,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         mix definitions that will be used to
                         over-ride some element mixes in the DTD
                         Suite.                                     -->
-<!ENTITY % archivecustom-mixes.ent
+<!ENTITY % journalpubcustom-mixes.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD Customize Mixes Module v1.1 20151215//EN"
-"JATS-archivecustom-mixes1.ent"                                      >
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Mixes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-mixes1.ent"                                   >
 
 
 <!--                    DTD-SPECIFIC MODELS/ATTRIBUTES CUSTOMIZATIONS
@@ -243,11 +238,11 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         models, and attribute list and value over-
                         rides. These PEs will over-ride selected
                         content models and attribute lists for the
-                        Journal JATS DTD Suite-->
-<!ENTITY % archivecustom-models.ent
+                        Journal Archiving and Interchange DTD.     -->
+<!ENTITY % journalpubcustom-models.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD Customize Content and Attributes Module v1.1 20151215//EN"
-"JATS-archivecustom-models1.ent"                                     >
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Content and Attributes Module v1.1 20151215//EN"
+"JATS-journalpubcustom-models1.ent"                                  >
 
 
 <!--                    NLM CITATION MODULE                        -->
@@ -263,4 +258,4 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 "JATS-nlmcitation1.ent"                                              >
 
 
-<!-- =================== End Archive DTD Module of Modules ======= -->
+<!-- =================== End Publishing DTD Module of Modules ==== -->

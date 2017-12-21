@@ -1,5 +1,5 @@
 <!-- ============================================================= -->
-<!--  MODULE:    Journal Archiving DTD Customize Mixes Module      -->
+<!--  MODULE:    Journal Publishing DTD Customize Mixes Module     -->
 <!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
 <!--  DATE:      December 2015                                     -->
 <!--                                                               -->
@@ -9,18 +9,19 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) Journal Archiving DTD Customize Mixes Module v1.1 20151215//EN"
-Delivered as file "JATS-archivecustom-mixes1.ent"                  -->
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD Customize Mixes Module v1.1 20151215//EN"
+Delivered as file "JATS-journalpubcustom-mixes1.ent"               -->
 <!-- ============================================================= -->
 
+
 <!-- ============================================================= -->
-<!-- SYSTEM:     Journal Archiving and Interchange DTD of the      --> 
+<!-- SYSTEM:     Journal Publishing DTD of the                     -->
 <!--             JATS DTD Suite                                    -->         
 <!--                                                               -->
 <!-- PURPOSE:    To declare the Parameter Entities (PEs) used to   -->
 <!--             over-ride the JATS DTD Suite default named,       -->
 <!--             general purpose mixes. (Mixes for particular      -->
-<!--             elements are declared in the Archive Custom       -->
+<!--             elements are declared in the Publishing Custom    -->
 <!--             Models module.)                                   -->
 <!--                                                               -->
 <!--             Note: Since PEs must be declared before they      -->
@@ -73,7 +74,7 @@ Delivered as file "JATS-archivecustom-mixes1.ent"                  -->
 <!--                    Tag Suite (JATS)."                         -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
-<!--             August 2004                                       -->
+<!--             September 2004                                    -->
 <!--                                                               -->
 <!-- CREATED BY: Mulberry Technologies, Inc. for the NISO Z39.96   -->
 <!--             Working Group. Mulberry Technologies was          -->
@@ -81,23 +82,8 @@ Delivered as file "JATS-archivecustom-mixes1.ent"                  -->
 <!--             Information (NCBI), a center of the US National   -->
 <!--             Library of Medicine (NLM).                        -->
 <!--                                                               -->
-<!--             The Journal Archiving and Interchange DTD is      -->
-<!--             built from the JATS DTD Suite.                    -->
-<!--                                                               -->
-<!--             This DTD and the Suite are a continuation of      -->
-<!--             the work done by NCBI, Mulberry Technologies,     -->
-<!--             and Inera Inc. on the NLM Journal Archiving       -->
-<!--             and Interchange DTD Suite, which was originally   -->
-<!--             released in December, 2002.                       -->
-<!--                                                               -->
-<!--             NLM thanks the Harvard University Libraries, both -->
-<!--             for proposing that a draft archiving NLM DTD for  -->
-<!--             life sciences journals be extended to accommodate -->
-<!--             journals in all disciplines and for sponsoring    -->
-<!--             Inera Inc.'s collaboration with other DTD         -->
-<!--             authors in completing NLM Version 1.0. The        -->
-<!--             Andrew W. Mellon Foundation provided support for  -->
-<!--             these important contributions.                    -->
+<!--             The Journal Publishing DTD is built from the      -->
+<!--             Archiving and Interchange DTD Suite.              -->
 <!--                                                               -->
 <!--             Suggestions for refinements and enhancements to   -->
 <!--             this DTD should be sent in email to:              -->
@@ -109,8 +95,9 @@ Delivered as file "JATS-archivecustom-mixes1.ent"                  -->
 <!--                    DTD VERSION/CHANGE HISTORY                 -->
 <!-- ============================================================= -->
 <!--
+
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
-    =============================================================
+     =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
      JATS is a continuing maintenance NISO Standard, which
@@ -119,7 +106,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      identifiers were changed in the modules and the catalogs.
      No model or attribute changes were made at this time. 
  
-  9. JATS became version "1.1" and "v1.1 20151215"
+  8. JATS became version "1.1" and "v1.1 20151215"
 
      =============================================================
      JATS Version 1.1d3             (DAL/BTU) v1.1d3  (2015-03-01)
@@ -137,7 +124,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-  8. JATS became version "1.1d3" and "v1.1d3 20150301"
+  7. JATS became version "1.1d3" and "v1.1d3 20150301"
 
      =============================================================
      JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
@@ -152,24 +139,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
-  7. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+  6. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+
    
-     =============================================================
-     NISO JATS Version 1.1d1           (DAL/BTU) v1.1 (2013-11-15)
-   
-     ANSI/NISO Z39.96-2012 (pre-release for V1.0 BITS; Version 1.1d1) 
-
-     NISO JATS Standing Committee met and answered the requests and
-     suggestions from the NISO request forms.
-
-     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
-     XSDs, RNGs and supporting documentation are available at
-           http://jats.nlm.nih.gov/1.0/
-
-  6. PARAGRAPH IN TABLE CELL - Added <p> to the contents of
-     table cells, through %inside-cell; (using
-     %nothing-but-para.class;).
-  
      =============================================================
      NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
    
@@ -179,20 +151,21 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.0/
    
-  5. RELATED OBJECT - Added <related-object> everywhere
-     <related-article> was used.
+  5. OASIS TABLE NAMESPACE MODIFICATIONS - Added a new module
+     that sets up the namespace URI and namespace prefix for
+     the OASIS tables models.
+
+     =============================================================
+     NISO JATS Version 1.0             (DAL/BTU) v1.0 (2012-xx-xx)
    
-  4. PARA-LEVEL PARAMETER ENTITY CONFLICT - Changed the parameter
-     entity %para-level; to use the PE %nothing-but-para.class;,
-     removing the similar PE "just-para.class;". It is possible to 
-     add element(s) to %just-para.class;, so that the added element(s)
-     may be used everywhere <p> is used. Such elements would also be
-     named in %block-display.class;. This would lead to a conflict
-     in %para-level; if both %just-para.class; and
-     %block-display.class; named <p>. So %just-para.class; is replaced
-     here in %para-level;. This is backward compatible for all XML
-     documents. If a JATS customization has modified %just-para.class;
-     they may need to change their customization to accommodate.
+     ANSI/NISO Z39.96-2012 (Version 1.0) 
+
+     Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
+     XSDs, RNGs and supporting documentation are available at
+           http://jats.nlm.nih.gov/1.0/
+   
+  4. Updated the DTD-version attribute to "1.0" and the formal
+     public identifier to the date: "v1.0 20120330//EN".
 
      =============================================================
      Version 0.4                       (DAL/BTU) v0.4 (2011-01-31)
@@ -213,7 +186,6 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      modified the formal public identifier to include "JATS (Z39.96)",
      and the filename as delivered to include "JATS" and the
      new version number "0".
-           http://jats.nlm.nih.gov/0.4.
 
      =============================================================
      Version 3.0                       (DAL/BTU) v3.0 (2007-10-31)
@@ -237,109 +209,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
            http://jats.nlm.nih.gov/1.1/                            -->
 
 <!-- ============================================================= -->
-<!--                    ELEMENT MIXES FOR USE IN CONTENT MODELS    -->
+<!--                    INLINE MIXES FOR USE IN CONTENT MODELS     -->
 <!--                    (MIXES ARE COMPOSED USING CLASSES)         -->
-<!-- ============================================================= -->
-
-
-<!-- ============================================================= -->
-<!--                    EXCEPTION: A MIX USED IN OTHER MIXES       -->
-<!-- ============================================================= -->
-
-
-<!--                    ALL PHRASE-LEVEL ELEMENTS                  -->
-<!--                    This Parameter Entity contains all of the
-                        phrase-level elements in the entire
-                        Archival Tag Set EXCEPT THE <break> element.
-                        MAINTENANCE NOTE:
-                        Since this is used inside other mixes
-                        (like a class and unlike all other mixes)
-                        all-phrase must
-                          - be declared first in this module.
-                          - does not start with an OR bar, as all
-                            other inline mixes do                  -->
-<!ENTITY % all-phrase   "%address-link.class; | %article-link.class; |
-                         %appearance.class; | %emphasis.class;  |
-                         %inline-display.class; |
-                         %inline-math.class; | %math.class; |
-                         %phrase.class; | %simple-link.class; |
-                         %subsup.class; | %x.class;"                 >
-
-
-<!-- ============================================================= -->
-<!--                    TABLE ELEMENT MIXES                        -->
-<!-- ============================================================= -->
-
-
-<!--                    INSIDE TABLE CELL ELEMENTS                 -->
-<!--                    Mixed with #PCDATA inside a table cell, such
-                        as a <td> or <th> element in the XHTML table
-                        model, the <entry> element in the OASIS CALS
-                        table model, etc.  This PE will be used as the
-                        value of %Flow.mix;, %paracon;, etc.
-                        MAINTENANCE NOTE: Inside cell is an exception,
-                        an inline mix that does not start with an OR
-                        bar. This is because is used within the
-                        PE -%Flow.mix;, which is an inline mix
-                        defined in the course of the XHTML Table DTD,
-                        a DTD not under control of this DTD Suite. -->
-<!ENTITY % inside-cell  "%all-phrase; | %block-math.class; |
-                         %break.class; | %chem-struct-wrap.class; |
-                         %citation.class; |
-                         %list.class; | %nothing-but-para.class; |
-                         %simple-display-noalt.class;"               >
-
-
-<!-- ============================================================= -->
-<!--                    BACK MATTER ELEMENT MIXES(%backmatter.ent;)-->
-<!-- ============================================================= -->
-
-
-<!--                    DOCUMENT BACK MATTER ELEMENTS              -->
-<!--                    Back Matter Elements used by a full document
-                        such as a journal article. This is an element
-                        grouping rather than a class. These
-                        elements may also appear in the content models
-                        of structural elements, such as back matter.
-                                                                   -->
-<!ENTITY % doc-back-matter-mix
-                        "%back.class; | %front-back.class; |
-                         %sec.class;"                                >
-
-
-<!-- ============================================================= -->
-<!--                    PARAGRAPH-LEVEL ELEMENT MIXES              -->
-<!-- ============================================================= -->
-
-
-<!--                    PARAGRAPH-LEVEL ELEMENTS                   -->
-<!--                    Elements that may be used at the same
-                        structural level as a paragraph, for
-                        example inside a Section
-                        Note: There a major overlap between this
-                        parameter entity and that for the elements
-                        that are at the same level as a paragraph.
-                        Inline elements appear only inside a
-                        paragraph, but block elements such as quotes
-                        and lists may appear either within a
-                        paragraph or at the same level as a
-                        paragraph. This serves a requirement in a
-                        repository DTD, since some incoming material
-                        will have restricted such elements to only
-                        inside a paragraph,  some incoming material
-                        will have restricted them to only outside a
-                        paragraph and some may allow them in both
-                        places. Thus the DTD must allow for them to
-                        be in either or both.                      -->
-<!ENTITY % para-level   "%block-display.class; | %block-math.class; |
-                         %list.class; | %math.class; | 
-                         %nothing-but-para.class; |
-                         %related-article.class; |
-                         %rest-of-para.class; | %x.class;"           >
-
-
-<!-- ============================================================= -->
-<!--                    INLINE ELEMENT MIXES                       -->
 <!-- ============================================================= -->
 
 
@@ -347,7 +218,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Elements that may be used inside most of the
                         emphasis class elements                    -->
 <!ENTITY % emphasized-text
-                        "| %all-phrase; | %break.class;"             >
+                        "| %address-link.class; |
+                         %article-link.class; | %emphasis.class;  |
+                         %inline-display.class; |
+                         %inline-math.class; |  %math.class; |
+                         %phrase.class; | %simple-link.class; |
+                         %subsup.class;"                             >
 
 
 <!--                    JUST RENDITION                             -->
@@ -358,7 +234,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         This mix may be stripped down to only
                         subscript and superscript by some, more
                         restrictive DTDs.
-                        MAINTENANCE NOTE:  This Parameter Entity
+                        MAINTENANCE NOTE: This Parameter Entity
                         and the related PE "rendition-plus" have
                         been put in place to restrict the amount of
                         variability that a person modifying the DTD
@@ -369,52 +245,14 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         modify entire groups of elements, but not
                         to change similar models individually .    -->
 <!ENTITY % just-rendition
-                        "| %all-phrase;"                             >
+                        ""                                           >
 
 
-<!--                    RENDITION MARKUP PLUS                      -->
-<!--                    Only the simplest of the typographic
-                        emphasis elements, as well as subscript and
-                        superscript.  Usually used in a model that
-                        allows #PCDATA and this restricted mixture.
-                        This mix may be enhanced slightly in some
-                        more permissive DTDs, and should always
-                        contain at least typographic emphasis,
-                        subscript, and superscript.
-                        MAINTENANCE NOTE: This Parameter Entity
-                        and the related PE "just-rendition" have
-                        been put in place to restrict the amount of
-                        variability that a person modifying the DTD
-                        through PE redefinition can achieve. Some
-                        elements have been set #PCDATA plus one PE
-                        and some have been set to #PCDATA plus the
-                        other in an effort to allow designers to
-                        modify entire groups of elements, but not
-                        to individually change similar models.
-                        modify entire groups of elements, but not
-                        to change similar models individually .    -->
-<!ENTITY % rendition-plus
-                        "| %all-phrase;"                             >
+<!--                    SECTION BACK MATTER ELEMENTS               -->
+<!--                    Back matter elements used inside smaller
+                        structures, such as sections and sidebars  -->
+<!ENTITY % sec-back-matter-mix
+                        "%sec-back.class;"                           >
 
 
-<!--                    SIMPLE PHRASE-LEVEL TEXTUAL ELEMENTS       -->
-<!--                    Elements that may be used almost anywhere
-                        text is used, for example, inside a title.
-                        Simple text plus inline display and math
-                        elements.                                  -->
-<!ENTITY % simple-phrase
-                        "| %all-phrase;"                             >
-
-
-<!--                    SIMPLE TEXTUAL CONTENT                     -->
-<!--                    Elements that may be used inside elements
-                        that are really expected to be #PCDATA and
-                        not to contain any of these things.
-                        Note that in the original, this contained
-                        no math and no links, thus is was even
-                        simpler than %simple-phrase; (As of v2 2004)
-                        the two are the same.                      -->
-<!ENTITY % simple-text  "| %all-phrase;"                             >
-
-
-<!-- ================== End Archiving DTD Mixes Customization ==== -->
+<!-- ================== End Publishing DTD Mixes Customization === -->
