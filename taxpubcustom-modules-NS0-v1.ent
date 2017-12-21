@@ -11,6 +11,12 @@ Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
 <!--                    CUSTOMIZATION MODULES DECLARED             -->
 <!-- ============================================================= -->
 
+<!--                    DTD-SPECIFIC ELEMENTS MODULE   -->
+<!ENTITY % taxpubcustom-elements.ent 
+                        PUBLIC  
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20180101//EN"
+"taxpubcustom-elements-NS0-v1.ent"                                      >
+
 
 <!--                    DTD-SPECIFIC CLASS CUSTOMIZATIONS MODULE   -->
 <!--                    Set up the Parameter Entities and element
