@@ -350,19 +350,11 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
 <!--                    Names all DTD-specific external modules    -->
-<!--
 <!ENTITY % journalpubcustom-modules.ent
                         PUBLIC
 "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD-Specific Modules v1.1 20151215//EN"
 "JATS-journalpubcustom-modules1.ent"                                 >
 %journalpubcustom-modules.ent;
--->
-
-<!ENTITY % taxpubcustom-modules.ent 
-                        PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v0.6 20150422//EN"
-"taxpubcustom-modules-NS0.ent"                                      >
-%taxpubcustom-modules.ent;
 
 
 <!--                    MODULE TO NAME THE MATHML 3.0 MODULES      -->
@@ -436,8 +428,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         class definitions for the Journal Publishing
                         DTD that will over-ride classes in the Suite.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!-- %journalpubcustom-classes.ent; -->
-%taxpubcustom-classes.ent; 
+%journalpubcustom-classes.ent;
 
 
 <!--                    DEFAULT ELEMENT CLASSES MODULE             -->
@@ -451,8 +442,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         class definitions that will be used to
                         over-ride some element mixes in this DTD.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!-- %journalpubcustom-mixes.ent; -->
-%taxpubcustom-mixes.ent;
+%journalpubcustom-mixes.ent;
 
 
 <!--                    DEFAULT MIX CUSTOMIZATIONS MODULE          -->
@@ -468,8 +458,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         lists to be used in content models, and
                         attribute values. These are DTD-specific.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!--  %journalpubcustom-models.ent; -->
-%taxpubcustom-models.ent;
+%journalpubcustom-models.ent;
 
 
 
@@ -491,8 +480,6 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    JOURNAL ARTICLE CLASS ELEMENTS (alpha)     -->
 <!-- ============================================================= -->
 
-<!--                    TAXONOMIC TREATMENT ELEMENTS                  -->
-%taxpubcustom-elements.ent;
 
 <!--                    ARTICLE METADATA ELEMENTS                  -->
 %articlemeta.ent;
