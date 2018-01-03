@@ -305,7 +305,8 @@ Laura Kelly, Jeff Beck.
              %XLINK.xmlns.attrib;
              %MATHML.xmlns.attrib;
              %ali.xmlns.attrib;
-             %Schema.xmlns.attrib;"                                  >
+             %Schema.xmlns.attrib;                                  
+             %taxpub-namespace-att;" >
 
 
 <!--                    BACK ATTRIBUTES                            -->
