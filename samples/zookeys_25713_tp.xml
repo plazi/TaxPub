@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.781.25713</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Coccidae</subject>
+          <subject>Coccoidea</subject>
+          <subject>Hemiptera</subject>
+          <subject>Sternorrhyncha</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Systematics</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geological_era">
+          <subject>Cenozoic</subject>
+          <subject>Neogene</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Asia</subject>
+          <subject>China</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> Kanda from China, with a key to species (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Coccomorpha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>He</surname>
+            <given-names>Xiaoying</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Han</surname>
+            <given-names>Yangyang</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Wu</surname>
+            <given-names>Sanan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">sananwu@bjfu.edu.cn</email>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Key Laboratory for Silviculture and Conservation of Ministry of Education, Beijing Forestry University, Beijing 100083, China</addr-line>
+        <institution>Beijing Forestry University</institution>
+        <addr-line content-type="city">Beijing</addr-line>
+        <country>China</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Shanghai Forestry Station, Shanghai 200072, China</addr-line>
+        <institution>Shanghai Forestry Station</institution>
+        <addr-line content-type="city">Shanghai</addr-line>
+        <country>China</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Sanan Wu (<email xlink:type="simple">sananwu@bjfu.edu.cn</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: R. Blackman</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>781</issue>
+      <fpage>59</fpage>
+      <lpage>66</lpage>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>4</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>6</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Xiaoying He, Yangyang Han, Sanan Wu</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/48CB967F-8829-4E02-BFE0-CB56F28D7DAC</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>A new species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold> is described and illustrated based on adult females collected on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sapindus">Sapindus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="saponaria">saponaria</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sapindaceae</tp:taxon-name-part></tp:taxon-name>) from Shanghai and Jiangsu. This is the first report of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> species in China. A key to the species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> Kanda is provided.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>China</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="tribe">Pulvinariini</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>soft scale insect</kwd>
+        <kwd>taxonomy</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EFG">
+        <title>Citation</title>
+        <p>He X, Han Y, Wu S (2018) A new species of <italic>Leptopulvinaria</italic> Kanda from China, with a key to species (Hemiptera, Coccomorpha, Coccidae). ZooKeys 781: 59–66. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.781.25713">https://doi.org/10.3897/zookeys.781.25713</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EGH">
+      <title>Introduction</title>
+      <p>The family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Sternorrhyncha</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Coccomorpha</tp:taxon-name-part></tp:taxon-name>) is the third largest family of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Coccomorpha</tp:taxon-name-part></tp:taxon-name> after the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Diaspididae</tp:taxon-name-part></tp:taxon-name> (armored scales) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pseudococcidae</tp:taxon-name-part></tp:taxon-name> (mealybugs), consisting of 1185 described species, distributed in 169 genera all over the world (García Morales et al. 2018, <xref ref-type="bibr" rid="B15">Williams and Hodgson 2014</xref>). Species belonging to this family are widespread throughout the world and many of them are important pests on agricultural, horticultural, and ornamental plants (<xref ref-type="bibr" rid="B4">Henderson and Hodgson 2005</xref>). These include <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pulvinaria">Pulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="salicicola">salicicola</tp:taxon-name-part></tp:taxon-name></italic> (Borchsenius), which caused much damage to growth of roadside afforested willows in Lindian County, Heilongjiang Province of China with an injury rate as high as 90% (<xref ref-type="bibr" rid="B16">Zhang et al. 1993</xref>), and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceroplastes">Ceroplastes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japonicus">japonicus</tp:taxon-name-part></tp:taxon-name></italic> (Green), which can cause deformation or death of poplars and the percentage of damaged trees is more than 65% in some areas of Lianyungang city, Jiangsu Province (<xref ref-type="bibr" rid="B14">Wang et al. 2008</xref>).</p>
+      <p>The genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> was established by <xref ref-type="bibr" rid="B7">Kanda (1960)</xref>, based on its type species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> Kanda, 1960, and it was diagnosed by absence of tarsal and claw digitules. <xref ref-type="bibr" rid="B13">Tang (1991)</xref> placed this genus in the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Pulvinariini</tp:taxon-name-part></tp:taxon-name>. <xref ref-type="bibr" rid="B5">Hodgson (1994)</xref> redescribed the type species based on the type specimen and found that it did in fact have tarsal digitules and claw digitules. He did not affirm the exact taxonomic positon of the species, since it is difficult to ascertain the exact distribution of the dorsal and ventral tubular ducts owing to poor condition of type specimens. Recently, <xref ref-type="bibr" rid="B11">Tanaka and Amano (2008)</xref> redescribed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> based on newly collected material and described the second species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> Tanaka &amp; Amano from Japan. They also observed the production of ovisacs of both these species at their oviposition periods and clearly and definitely placed this genus in the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Pulvinariini</tp:taxon-name-part></tp:taxon-name>. <xref ref-type="bibr" rid="B1">Choi and Lee (2017)</xref> reported <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> from South Korea. Currently, species of this genus are therefore known only from Japan and South Korea and the genus includes only two species, namely <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> Kanda and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> Tanaka &amp; Amano.</p>
+      <p>In the course of our taxonomic study of soft scales (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>) in China, we found an undescribed species which clearly belongs to this genus. Here, we describe and illustrate adult female specimens of this new species. This report is the first formal record of the occurrence of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> species in China, and it may be useful for further taxonomic and biogeographic study of the genus and its species. A key to all three species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> is provided.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EUFAC">
+      <title>Materials and methods</title>
+      <p>Slide mounting methods for the specimens in this study followed <xref ref-type="bibr" rid="B6">Hodgson and Henderson (2000)</xref>. Terminology of the morphological features used in the description mainly followed <xref ref-type="bibr" rid="B9">Kondo and Hodgson (2013)</xref> and <xref ref-type="bibr" rid="B12">Tanaka and Kondo (2015)</xref>, who avoided using the term “pregenital disc-pores” or “perivulvar pores”, because in several species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>, these pores are not restricted to the pregenital or perivulvar area, and can be present throughout the medial area of the venter; so that using the term “pregenital” or “perivulvar” may be misleading. The species described in this study also have the pores not only in the pregenital area but also on the medial area of the venter. The term “multilocular pore” is therefore used herein for the pores with multiple loculi, with the exception of spiracular pores. The mounted specimens were examined under a compound light microscope (Leica DME) fitted with an ocular micrometer. All measurements were given (minimum-maximum range) in micrometers (µm), except for body length and width which are given in millimeters (mm).</p>
+      <p>All specimens are deposited in the Insect Collection, the Department of Forestry Protection, <named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/beijing-forestry-university">Beijing Forestry University</named-content>, Beijing, China (<bold><named-content content-type="dwc:institutional_code">BFUC</named-content></bold>).</p>
+    </sec>
+    <sec sec-type="Taxonomy" id="SECID0ESGAC">
+      <title>Taxonomy</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Hemiptera</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Coccidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <label>Genus</label>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part>
+          </tp:taxon-name>
+          <tp:taxon-authority>Kanda, 1960</tp:taxon-authority>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="type species" id="SECID0EWHAC">
+          <title>Type species.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> Kanda, 1960, by monotypy and original designation.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Generic diagnosis" id="SECID0EHIAC">
+          <title>Generic diagnosis.</title>
+          <p><bold>Adult female.</bold> Body elongate oval, broadest at thorax or anterior abdomen. <italic>Dorsum</italic>. Derm membranous. Tubular ducts and microducts frequent. Tubercles convex, occasionally absent. <italic>Margin</italic>. Setae spinose, each with a simple pointed apex. Stigmatic clefts not deep but distinct; each with one to four (usually three) stigmatic spines. <italic>Venter</italic>. Antennae with eight or nine (usually eight) segments. Legs each with a well-developed tibio-tarsal articulation and an articulatory sclerosis. Multilocular pores each with nine to eleven loculi, present mainly across most abdominal segments. Spiracular pores each with four to six (usually five) loculi. Two types of tubular ducts present. With one or two pairs of long setae medially on all abdominal and thoracic segments (occasionally lacking on thoracic segments). For further diagnostic characteristics, see <xref ref-type="bibr" rid="B11">Tanaka and Amano (2008)</xref>.</p>
+          <sec sec-type="Key to Leptopulvinaria species based on slide-mounted adult females’ morphology" id="SECID0EZIAC">
+            <title>Key to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> species based on slide-mounted adult females’ morphology</title>
+            <table-wrap content-type="key" position="anchor" orientation="portrait">
+              <table id="TID0EAEAC" rules="all">
+                <tbody>
+                  <tr>
+                    <td rowspan="1" colspan="1">1</td>
+                    <td rowspan="1" colspan="1">Ventral tubular ducts absent medially on head and thoracic segments, though rarely a few may be present</td>
+                    <td rowspan="1" colspan="1">
+                      <bold>2</bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1" colspan="1">–</td>
+                    <td rowspan="1" colspan="1">Ventral tubular ducts present medially on head and thoracic segments</td>
+                    <td rowspan="1" colspan="1">
+                      <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> Tanaka &amp; Amano, 2008</bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1" colspan="1">2</td>
+                    <td rowspan="1" colspan="1">Dorsal tubular ducts, microducts and setae arranged in a reticulate pattern, multilocular pores absent on head and thorax, though occasionally a few present on metathorax, preopercular pores restricted to anterior anal plates</td>
+                    <td rowspan="1" colspan="1">
+                      <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> Kanda, 1960</bold>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1" colspan="1">–</td>
+                    <td rowspan="1" colspan="1">Dorsal tubular ducts, microducts and setae not arranged in a reticulate pattern, multilocular pores numerous on head and thorax, preopercular pores extend from anterior anal plates to prothorax</td>
+                    <td rowspan="1" colspan="1">
+                      <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic> sp. n.</bold>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </sec>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Hemiptera</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Coccidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/46EDC4B0-9BFD-45DC-82FF-6E3134DC0274</object-id>
+          </tp:taxon-name>
+          <tp:taxon-status>sp. n.</tp:taxon-status>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="material" id="SECID0EMNAC">
+          <title>Material examined.</title>
+          <p><bold>Holotype</bold>: Adult female. CHINA, Shanghai City, Qingpu District, 7.vi.2017, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sapindus">Sapindus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="saponaria">saponaria</tp:taxon-name-part></tp:taxon-name></italic> L. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sapindaceae</tp:taxon-name-part></tp:taxon-name>), coll. Yangyang Han, 1♀(<named-content content-type="dwc:institutional_code">BFUC</named-content>). <bold>Paratypes</bold>: Same data as holotype, 18♀(<named-content content-type="dwc:institutional_code">BFUC</named-content>); CHINA, Jiangsu Province, Kunshan City, 11.X.2016, on same host as holotype, coll. Lei Gao, 11♀♀(<named-content content-type="dwc:institutional_code">BFUC</named-content>).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0ESOAC">
+          <title>Description.</title>
+          <p><bold>Adult female. Unmounted material</bold>: (Figure <xref ref-type="fig" rid="F1">1A–C</xref>). Adult female more or less pointed anteriorly, usually somewhat asymmetrical, the young one whitish or light yellowish (Figure <xref ref-type="fig" rid="F1">1A</xref>), changing to with dark brown reticulations on dorsum except midline, the mature one black, with a longitudinal yellowish stripe along middle line of dorsum (Figure <xref ref-type="fig" rid="F1">1C</xref>). After oviposition (Figure <xref ref-type="fig" rid="F1">1B</xref>), the dorsum with wax filaments mainly on the marginal and submarginal area; wax secreted forming a short white ovisac.</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic> sp. n., <bold>A</bold> young adult female <bold>B</bold> adult female after oviposition <bold>C</bold> adult females from young to mature stages <bold>D</bold> ovisacs on trunk of host tree.</p>
+            </caption>
+            <graphic xlink:href="zookeys-781-059-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_222661.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0ELAAE">
+          <title>Mounted material</title>
+          <p>(Figure <xref ref-type="fig" rid="F2">2A–R</xref>). Body (Figure <xref ref-type="fig" rid="F2">2A</xref>) elongate oval, 2.2–5.3 mm long, 1.2–3.0 mm wide. Margin with a slight indentation at each stigmatic cleft and sometimes also near each eyespot. Anal cleft 400–770 μm, approximately 1/6–1/7 body length.</p>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p>Adult female of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic> sp. n., <bold>A</bold> body derm <bold>B</bold> antennae <bold>C</bold> stigmatic spine <bold>D</bold> spiracular pore <bold>E</bold> submarginal seta <bold>F</bold> spiracle <bold>G</bold> ventral microduct <bold>H</bold> leg <bold>I<sub>1</sub></bold>, <bold>I<sub>2</sub></bold> ventral tubular duct <bold>J</bold> multilocular pore <bold>K<sub>1</sub></bold> anal plate <bold>K<sub>2</sub></bold> ano-genital fold <bold>L</bold> preopercular pore <bold>M</bold> dorsal tubercle <bold>N</bold> dorsal microduct <bold>O</bold> marginal setae <bold>P</bold> dorsal tubular duct <bold>Q</bold> dorsal seta <bold>R</bold> dermal areolation. Scale bars: 200 μm (<bold>B, F, H, K, R</bold>); 20 μm (<bold>C, O</bold>); 10 μm (<bold>D, E, G, I, J, L, N, P, Q</bold> except <bold>A</bold>).</p>
+            </caption>
+            <graphic xlink:href="zookeys-781-059-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_222662.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Dorsum" id="SECID0EJDAE">
+          <title>Dorsum.</title>
+          <p>Derm membranous. Dermal areolations (Figure <xref ref-type="fig" rid="F2">2R</xref>) well developed. Dorsal tubercles (Figure <xref ref-type="fig" rid="F2">2M</xref>) convex, each 11–13 μm in diameter, present on submarginal area, 12–14 between anterior spiracular clefts, 3–5 between each anterior and posterior spiracular clefts, and 10–15 between each posterior spiracular clefts and anal cleft. Preopercular pores (Figure <xref ref-type="fig" rid="F2">2L</xref>) circular, obvious, each with a diameter of 6–8 µm, present in a small group of 36 to 56 in front of anal plates, extending to prothorax. Tubular ducts (Figure <xref ref-type="fig" rid="F2">2P</xref>) of one type, outer ductule 8–10 μm long, 2–3 μm wide, inner ductule 12–17 μm long, 1 μm wide, arranged in a reticulate pattern with microducts (Figure <xref ref-type="fig" rid="F2">2N</xref>). Dorsal setae (Figure <xref ref-type="fig" rid="F2">2Q</xref>) 6–7 μm long, spiniform, arranged like tubular ducts and microducts. Anal plates (Figure <xref ref-type="fig" rid="F2">2K</xref><sub>1</sub>) each triangular, 150–158 μm long, 63–75 μm wide, anterolateral margin slightly concave, 78–100 μm long; posterolateral margin slightly convex, 115–138 μm long. Each plate with four apical setae. Ano-genital fold (Figure <xref ref-type="fig" rid="F2">2K</xref><sub>2</sub>) with two pair of setae along anterior margin and two pairs laterally. Anal ring subcircular, with one or two rows of translucent pores and six or eight anal ring setae. Eyespots present near margin.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Margin" id="SECID0EREAE">
+          <title>Margin.</title>
+          <p>Marginal setae (Figure <xref ref-type="fig" rid="F2">2O</xref>) 14–29 μm long, straight, or slightly curved, rather bluntly pointed; distributed as follow: 60–69 between anterior stigmatic cleft, 21–27 between each anterior and posterior stigmatic cleft, and 52–64 between each posterior stigmatic cleft and anal cleft. Stigmatic clefts (Figure <xref ref-type="fig" rid="F2">2C</xref>) not deep but distinct; with three (except one with four) stigmatic spines in each cleft; median spine 32–56 μm long, 1.5–2.3 times as long as lateral spines, slightly curved, bluntly pointed; lateral spines slightly curved, bluntly pointed, 14–34 μm long. Eyespots present on margin.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Venter" id="SECID0E6EAE">
+          <title>Venter.</title>
+          <p>Derm membranous. Ventral setae: one or two pairs of long setae, 125–238 μm long, present medially on all abdominal and thoracic segments, and also near each coxa (a few pairs of setae occasionally absent on thoracic segments); three pairs of long setae present between antennae, 225–258 μm long; short setae (Figure <xref ref-type="fig" rid="F2">2E</xref>) 11–14 μm long, slender, acute, mostly straight, and distributed evenly. Antennae (Figure <xref ref-type="fig" rid="F2">2B</xref>) well developed, 8–segmented, 493–678 μm long, third segment longest; length of segments I to VIII (μm): 60–75, 75–113, 90–150, 78–125, 65–93, 48–83, 38–68, 43–53, respectively; segment VI; VII; VIII each with 1, 1, 4 fleshy setae. Clypeolabral shield 128–168 μm long, 125–168 μm wide. Labium 68–80 μm long, 80–113 μm wide. Legs (Figure <xref ref-type="fig" rid="F2">2H</xref>) well developed, with a tibio-tarsal articulation and an articulatory sclerosis; claw without denticle; tarsal digitules slender, knobbed; claw digitules broad, and expanded at apex; hind trochanter + femur 275–370 μm long, hind tibia + tarsus 385–558 μm long; claw 35–45 μm long. Ratio of lengths of hind tibia + tarsus to hind trochanter + femur 1.4–1.8. Ratio of lengths of hind tarsus to tibia 1.9–2.3. Anterior spiracles each 68–88 μm long, 45–60 μm wide; posterior spiracles (Figure <xref ref-type="fig" rid="F2">2F</xref>) each 75–100 μm long, 55–75 μm wide. Spiracular pores (Figure <xref ref-type="fig" rid="F2">2D</xref>) present in narrow bands one to three pores wide between margin and each spiracle; each mainly with five loculi, 5 μm in diameter, 22–43 in anterior spiracular pore band, 33–56 in posterior spiracular pore band. Multilocular pores (Figure <xref ref-type="fig" rid="F2">2J</xref>) 7–8 μm in diameter, mainly ten loculi, frequent around anal area, in transverse bands on abdomen, and also scattered in head and thorax. Ventral microducts (Figure <xref ref-type="fig" rid="F2">2G</xref>) scattered. Ventral tubular ducts (Figure <xref ref-type="fig" rid="F2">2I</xref>) of two types present: I) a duct (Figure <xref ref-type="fig" rid="F2">2I</xref><sub>1</sub>) with a narrow inner ductule and a well-developed terminal gland; outer ductule 10–15 μm long, 3–4 μm wide, inner ductule 16–20 μm long, 1–2 μm wide, 5 μm wide for terminal gland; present submarginally on posterior segments, where they are mixed with type II ducts, a few ducts also present medially on abdominal segments (occasionally present on submarginal head and thorax). II) a duct (Figure <xref ref-type="fig" rid="F2">2I</xref><sub>2</sub>) with a slender inner filament; outer ductule 14–16 μm long, 2–3 μm wide, inner ductule 13–18 μm long, 1 μm wide; numerous in submarginal area and mixed with ducts of type I, but becoming sparse on thorax and head, a few present medially on abdominal segments.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0EPGAE">
+          <title>Distribution.</title>
+          <p>China (Jiangsu and Shanghai)</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="host" id="SECID0EUGAE">
+          <title>Host plant.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sapindus">Sapindus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="saponaria">saponaria</tp:taxon-name-part></tp:taxon-name></italic> L. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sapindaceae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EKHAE">
+          <title>Etymology.</title>
+          <p>The specific epithet is taken from the genus name of host plant.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="remarks" id="SECID0EPHAE">
+          <title>Remarks.</title>
+          <p>The new species is easily distinguished from the two other <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> species by having dorsal tubular ducts, microducts, and setae arranged in a reticulate pattern, and numerous multilocular pores on head and thorax. Moreover, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic> sp. n. has a group of preopercular pores extending from anterior anal plates to prothorax, and has 10–15 dorsal tubercles between each posterior stigmatic cleft and the anal cleft, whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="elaeocarpi">elaeocarpi</tp:taxon-name-part></tp:taxon-name></italic> has a small group of preopercular pores restricted to anterior anal plates, and 1–4 dorsal tubercles between each posterior stigmatic cleft and the anal cleft. In <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic>, preopercular pores are absent (or if there are any, then they are difficult to see) and there are only 0–7 dorsal tubercles between each posterior stigmatic cleft and the anal cleft.</p>
+          <p>During the pre-oviposition period, the adult females of this new species suck plant juices mainly along the main and lateral veins of leaves (Figure <xref ref-type="fig" rid="F1">1C</xref>). When ovipositing, they usually climb to the trunk and branches (although occasionally they stay on the leaves) to lay eggs (Figure <xref ref-type="fig" rid="F1">1B</xref>, <xref ref-type="fig" rid="F1">1D</xref>). Similar behavior, namely changing infesting place on the host trees before ovipositon is also reported in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B8">Kawai 1980</xref>). This fact may indicate that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sapinda">sapinda</tp:taxon-name-part></tp:taxon-name></italic> sp. n. is probably close to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptopulvinaria">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="kawaii">kawaii</tp:taxon-name-part></tp:taxon-name></italic> and supports the placement of the new species in this genus.</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are grateful to Dr. Hirotaka Tanaka (Ehime University, Faculty of Horticulture, Japan) for providing related papers and giving constructive comments on the manuscript. The manuscript also benefited greatly from the comments provided by Dr. Jinyeong Choi (Seoul National University, Department of Agricultural Biotechnology, South Korea) and Dr. Roger Blackman. This study is supported by the National Natural Science Foundation of China (Grant No. 31772488).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Choi</surname><given-names>J</given-names></name><name name-style="western"><surname>Lee</surname><given-names>S</given-names></name></person-group> (<year>2017</year>) <article-title>Taxonomic review of the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Pulvinariini</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>) in Korea.</article-title><source>Journal of Asia-Pacific Entomology</source><volume>20</volume>(<issue>1</issue>): <fpage>89</fpage>–<lpage>100</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1016/j.aspen.2016.11.013">https://doi.org/10.1016/j.aspen.2016.11.013</ext-link></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Deng</surname><given-names>J</given-names></name><name name-style="western"><surname>Li</surname><given-names>HB</given-names></name><name name-style="western"><surname>Wang</surname><given-names>XB</given-names></name><name name-style="western"><surname>WU</surname><given-names>SA</given-names></name></person-group> (<year>2014</year>) <article-title>Introduction to a new invasive pest, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ceroplastes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">stellifer</tp:taxon-name-part></tp:taxon-name></italic> (Westwood) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Chinese Journal of Applied Entomology</source><volume>51</volume>(<issue>1</issue>): <fpage>278</fpage>–<lpage>282</lpage></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>García Morales</surname><given-names>M</given-names></name><name name-style="western"><surname>Denno</surname><given-names>BD</given-names></name><name name-style="western"><surname>Miller</surname><given-names>DR</given-names></name><name name-style="western"><surname>Miller</surname><given-names>GL</given-names></name><name name-style="western"><surname>Ben-Dov</surname><given-names>Y</given-names></name><name name-style="western"><surname>Hardy</surname><given-names>NB</given-names></name></person-group> (<year>2016</year>) ScaleNet: A literature-based model of scale insect biology and systematics. Database. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1093/database/bav118">https://doi.org/10.1093/database/bav118</ext-link> [accessed 22 June 2018]</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Henderson</surname><given-names>RC</given-names></name><name name-style="western"><surname>Hodgson</surname><given-names>CJ</given-names></name></person-group> (<year>2005</year>) <article-title>Two new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Umbonichiton</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Sternorrhyncha</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>) from New Zealand.</article-title><source>Zootaxa</source><volume>854</volume>: <fpage>1</fpage>–<lpage>11</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/zootaxa.854.1.1">https://doi.org/10.11646/zootaxa.854.1.1</ext-link></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hodgson</surname><given-names>CJ</given-names></name></person-group> (<year>1994</year>) <source>The Scale Insect Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>: An Identification Manual to Genera.</source><publisher-name>CAB International</publisher-name>, <publisher-loc>Wallingford, Oxon</publisher-loc>, <size units="page">639 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hodgson</surname><given-names>CJ</given-names></name><name name-style="western"><surname>Henderson</surname><given-names>RC</given-names></name></person-group> (<year>2000</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Fauna of New Zealand</source><volume>41</volume>: <fpage>1</fpage>–<lpage>264</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kanda</surname><given-names>S</given-names></name></person-group> (<year>1960</year>) <article-title>Descriptions of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name> from Japan (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Homoptera</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Kontyû</source><volume>28</volume>: <fpage>116</fpage>–<lpage>123</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kawai</surname><given-names>S</given-names></name></person-group> (<year>1980</year>) <source>Scale Insects of Japan in Colors.</source><publisher-name>Zenkoku Nôson Kyoiku Kyokai</publisher-name>, <publisher-loc>Tokyo</publisher-loc>, <size units="page">455 pp</size>. [In Japanese]</mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kondo</surname><given-names>T</given-names></name><name name-style="western"><surname>Hodgson</surname><given-names>C</given-names></name></person-group> (<year>2013</year>) <article-title>A Third Species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hemilecanium</tp:taxon-name-part></tp:taxon-name></italic> Newstead (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>) from the New World, with Keys to Species in the Genus.</article-title><source>Neotropical Entomology</source><volume>42</volume>(<issue>5</issue>): <fpage>508</fpage>–<lpage>520</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/s13744-013-0151-3">https://doi.org/10.1007/s13744-013-0151-3</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kosztarab</surname><given-names>M</given-names></name><name name-style="western"><surname>Kozár</surname><given-names>F</given-names></name></person-group> (<year>1988</year>) <source>Scale Insects of Central Europe.</source><publisher-name>Akadémiai Kiadó</publisher-name>, <publisher-loc>Budapest</publisher-loc>, <size units="page">456 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Tanaka</surname><given-names>H</given-names></name><name name-style="western"><surname>Amano</surname><given-names>H</given-names></name></person-group> (<year>2008</year>) <article-title>Taxonomic study of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Leptopulvinaria</tp:taxon-name-part></tp:taxon-name></italic> Kanda (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>), with description of a new species.</article-title><source>Entomological Science</source><volume>11</volume>: <fpage>221</fpage>–<lpage>229</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/j.1479-8298.2008.00259.x">https://doi.org/10.1111/j.1479-8298.2008.00259.x</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Tanaka</surname><given-names>H</given-names></name><name name-style="western"><surname>Kondo</surname><given-names>T</given-names></name></person-group> (<year>2015</year>) <article-title>Description of a new soft scale insect of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pulvinaria</tp:taxon-name-part></tp:taxon-name></italic> Targioni Tozzetti (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name>) from Bogota, Colombia.</article-title><source>ZooKeys</source><volume>484</volume>: <fpage>111</fpage>–<lpage>120</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.484.9280">https://doi.org/10.3897/zookeys.484.9280</ext-link></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Tang</surname><given-names>FT</given-names></name></person-group> (<year>1991</year>) <source>The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Coccidae</tp:taxon-name-part></tp:taxon-name> of China.</source><publisher-name>Shanxi United Universities Press</publisher-name>, <publisher-loc>Taiyuan</publisher-loc>, <size units="page">377 pp</size>. [In Chinese]</mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Wang</surname><given-names>YX</given-names></name><name name-style="western"><surname>Xue</surname><given-names>CH</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>H</given-names></name><name name-style="western"><surname>Fan</surname><given-names>JZ</given-names></name><name name-style="western"><surname>Li</surname><given-names>L</given-names></name><name name-style="western"><surname>Wang</surname><given-names>D</given-names></name></person-group> (<year>2008</year>) Occurrence regularity and damage of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ceroplastes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> in poplars. Forest Pest and Disease (04): 12–14.</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Williams</surname><given-names>DJ</given-names></name><name name-style="western"><surname>Hodgson</surname><given-names>CJ</given-names></name></person-group> (<year>2014</year>) <article-title>The case for using the infraorder <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Coccomorpha</tp:taxon-name-part></tp:taxon-name> above the superfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Coccoidea</tp:taxon-name-part></tp:taxon-name> for the scale insects (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Sternorrhyncha</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Zootaxa</source><volume>3869</volume>(<issue>3</issue>): <fpage>348</fpage>–<lpage>350</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/zootaxa.3869.3.9">https://doi.org/10.11646/zootaxa.3869.3.9</ext-link></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Zhang</surname><given-names>XK</given-names></name><name name-style="western"><surname>Li</surname><given-names>CD</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>H</given-names></name><name name-style="western"><surname>Ma</surname><given-names>SX</given-names></name><name name-style="western"><surname>Yuan</surname><given-names>XC</given-names></name></person-group> (<year>1993</year>) <article-title>A preliminary study on the bionomics of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pulvinaria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">salicicola</tp:taxon-name-part></tp:taxon-name></italic> Borchs in Heilongjiang Province.</article-title><source>Journal of Northeast Forestry University</source><volume>22</volume>(<issue>03</issue>): <fpage>10</fpage>–<lpage>15</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
