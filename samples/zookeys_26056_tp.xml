@@ -177,6 +177,10 @@
               <named-content content-type="family" xlink:type="simple">Panorpidae</named-content>
             </kwd>
           </kwd-group>
+          <mixed-citation><object-id content-type="zoobank">
+            http://zoobank.org/E14D124D-1789-4326-9C08-7B896BE3CA95
+          </object-id>
+          </mixed-citation>
         </tp:treatment-meta>
         <tp:nomenclature>
           <tp:taxon-name>
