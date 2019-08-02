@@ -4,8 +4,9 @@
    <ul class="attributes">
       <li><a href="#p=attr-content-type">@content-type</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( tp:taxon-name, tp:taxon-author*, ( tp:type-genus | tp:type-species )?, ( mixed-citation | xref )?, tp:material-citation*, tp:taxon-status?, comment? )</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | tp:taxon-name | tp:taxon-author | tp:type-genus | tp:type-species | mixed-citation | xref | tp:material-citation | tp:taxon-status | comment )*</pre><p>May Contain:</p>
    <ul class="children">
+      <li>PCDATA</li>
       <li><a href="#p=elem-comment">&lt;comment&gt;</a></li>
       <li><a href="#p=elem-mixed-citation">&lt;mixed-citation&gt;</a></li>
       <li><a href="#p=elem-tp-material-citation">&lt;tp:material-citation&gt;</a></li>
