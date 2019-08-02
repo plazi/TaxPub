@@ -119,7 +119,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 ~~
 
 -->
-<!ELEMENT	tp:nomenclature-citation	(tp:taxon-name, tp:taxon-author*, (tp:type-genus | tp:type-species)?, (mixed-citation | xref)?, tp:material-citation*, tp:taxon-status?, comment?) >
+<!ELEMENT	tp:nomenclature-citation	(#PCDATA | tp:taxon-name | tp:taxon-author | tp:type-genus | tp:type-species | mixed-citation | xref |  tp:material-citation | tp:taxon-status | comment )* >
 <!ATTLIST 	tp:nomenclature-citation
 						content-type		CDATA		#IMPLIED >
 <!--
