@@ -184,8 +184,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
 <!ATTLIST 	tp:taxon-name
 					auth-code		CDATA			#IMPLIED 
-                                                       rank 		           CDATA			#IMPLIED
-                                                       reg                            CDATA                       #IMPLIED >
+                    rank 		    CDATA			#IMPLIED
+                    reg             CDATA           #IMPLIED >
  <!--
 ~tp:taxon-name~
 ~note: The name of a taxon. ~
@@ -200,7 +200,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!ELEMENT	tp:taxon-name-part		(#PCDATA  | tp:taxon-name-part | object-id)* >
 <!ATTLIST	tp:taxon-name-part	
 				taxon-name-part-type		CDATA		#REQUIRED 
-                                                       reg                            CDATA                       #IMPLIED >
+                reg                         CDATA       #IMPLIED >
 <!--
 ~tp:taxon-name-part~
 ~note: A component of taxonomic name. For example, specific epithet, genus name, etc... ~
@@ -278,13 +278,3 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 ~~
 
 -->
-
-
-
-
-
-
-
-
-
-
