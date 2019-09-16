@@ -650,7 +650,7 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
 <!--                    CONTENT MODEL FOR TREATMENT SEC     -->
 <!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
                           (%para-level;)*, 
-                          (tp:treatment-sec)*, (tp:nomenclature-citation-group)*,
+                          (tp:treatment-sec)*, (tp:nomenclature-citation-list)*,
                           (%sec-back-matter-mix;)* )"                >
 
 <!--                    CONTENT MODEL FOR MATERIALS EXAMINED SEC     -->
