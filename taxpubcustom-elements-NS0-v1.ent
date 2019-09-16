@@ -111,6 +111,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:nomenclature-citation-list			(tp:taxon-name?, tp:nomenclature-citation+) >
+<!ATTLIST 	tp:nomenclature-citation-list
+						content-type		CDATA		#IMPLIED >
 <!--
 ~tp:nomenclature-citation-list~
 ~note: A section in a treatment that includes the citation of one or several previous
