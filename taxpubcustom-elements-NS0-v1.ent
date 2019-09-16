@@ -9,6 +9,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, tp:nomenclature , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
 <!ATTLIST 	tp:taxon-treatment
+					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
 					%taxpub-namespace-att; >
 <!--
@@ -22,6 +23,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:treatment-meta  		    %sec-meta-model;	>
+<!ATTLIST 	tp:treatment-meta
+					%jats-common-atts; >
 <!--
 ~tp:treatment-meta~
 ~note: Bibliographic metadata describing at taxonomic treatment ~
@@ -31,6 +34,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:nomenclature  			%nomenclature-model;	>
+<!ATTLIST 	tp:nomenclature
+					%jats-common-atts; >
 <!--
 ~tp:nomenclature~
 ~note: The heading of a taxonomic treatment, containing the scientific name of the taxon
@@ -42,7 +47,6 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-
 <!--
 <!ELEMENT	tp:mixed-nomenclature  	    %mixed-nomenclature-model;	>
 -->
@@ -50,6 +54,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:treatment-sec  		    %taxon-sec-model;	>
 <!ATTLIST   tp:treatment-sec
+					%jats-common-atts;
 					%sec-atts; >
 <!--
 ~tp:treatment-sec~
@@ -62,6 +67,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-authority			(#PCDATA | object-id | tp:taxon-authority-part)*  >
 <!ATTLIST	tp:taxon-authority
+					%jats-common-atts;
 					role			CDATA		#IMPLIED>
 <!--
 ~tp:taxon-authority~
@@ -75,6 +81,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-authority-part			(#PCDATA | object-id | tp:taxon-authority-part)* >
 <!ATTLIST	tp:taxon-authority-part
+					%jats-common-atts;
 					tp:taxon-authority-part-type			CDATA		#IMPLIED>
 <!--
 ~tp:taxon-authority-part~
@@ -88,6 +95,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-status			(#PCDATA) >
 <!ATTLIST	tp:taxon-status
+				%jats-common-atts;
 				%might-link-atts;		>
 <!--
 ~tp:taxon-status~
@@ -101,6 +109,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-identifier			(#PCDATA) >
 <!ATTLIST	tp:taxon-identifier
+				%jats-common-atts;
 				%might-link-atts;		>
 <!--
 ~tp:taxon-identifier~
@@ -112,7 +121,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:nomenclature-citation-list			(tp:taxon-name?, tp:nomenclature-citation+) >
 <!ATTLIST 	tp:nomenclature-citation-list
-						content-type		CDATA		#IMPLIED >
+					%jats-common-atts;
+					content-type		CDATA		#IMPLIED >
 <!--
 ~tp:nomenclature-citation-list~
 ~note: A section in a treatment that includes the citation of one or several previous
@@ -123,7 +133,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 <!ELEMENT	tp:nomenclature-citation	(#PCDATA | tp:taxon-name | tp:taxon-author | tp:type-genus | tp:type-species | mixed-citation | xref |  tp:material-citation | tp:taxon-status | comment )* >
 <!ATTLIST 	tp:nomenclature-citation
-						content-type		CDATA		#IMPLIED >
+					%jats-common-atts;
+					content-type		CDATA		#IMPLIED >
 <!--
 ~tp:nomenclature-citation~
 ~note: The citation of a nomenclatorial act or other citation of the taxon in the published
@@ -134,6 +145,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->						
 
 <!ELEMENT	tp:type-genus				(tp:taxon-name, tp:material-location?) >
+<!ATTLIST 	tp:type-genus
+					%jats-common-atts;     >
 <!--
 ~tp:type-genus~
 ~note: The species selected as the reference species at the moment of the description of a
@@ -144,6 +157,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:type-species			(tp:taxon-name, tp:material-location?) >
+<!ATTLIST 	tp:type-genus
+					%jats-common-atts;     >
 <!--
 ~tp:type-species~
 ~note: The specimen upon which the species or infraspecific level taxon is based and which is
@@ -159,6 +174,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:type-status		           (#PCDATA  | object-id)*  >
 <!ATTLIST	tp:type-status
+						%jats-common-atts;
 						designation    (y|n)		'n' >
 <!--
 ~tp:type-status~
@@ -168,6 +184,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT	tp:taxon-type-location  	(#PCDATA  | object-id)* >
+<!ATTLIST	tp:taxon-type-location
+						%jats-common-atts;        >
 <!--
 ~tp:taxon-type-location~
 ~note: The institution where a type specimen is housed. ~
@@ -185,6 +203,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 <!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
 <!ATTLIST 	tp:taxon-name
+					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
                     rank 		    CDATA			#IMPLIED
                     reg             CDATA           #IMPLIED >
@@ -200,7 +219,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 
 <!ELEMENT	tp:taxon-name-part		(#PCDATA  | tp:taxon-name-part | object-id)* >
-<!ATTLIST	tp:taxon-name-part	
+<!ATTLIST	tp:taxon-name-part
+				%jats-common-atts;
 				taxon-name-part-type		CDATA		#REQUIRED 
                 reg                         CDATA       #IMPLIED >
 <!--
@@ -212,7 +232,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 <!ELEMENT	tp:descriptive-statement	(#PCDATA | tp:descriptive-statement-part | object-id)* >
 <!ATTLIST	tp:descriptive-statement
-					%might-link-atts; >
+					%jats-common-atts;
+					%might-link-atts;      >
 <!--
 ~tp:descriptive-statement~
 ~note: The description of a morphological trait.~
@@ -222,7 +243,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 <!ELEMENT 	tp:descriptive-statement-part 	(#PCDATA | object-id)* >
 <!ATTLIST	tp:descriptive-statement-part
-					%might-link-atts; >
+					%jats-common-atts;
+					%might-link-atts;      >
 <!--
 ~tp:descriptive-statement-part~
 ~note: An individual component of a description morphological trait. ~
@@ -232,6 +254,9 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->																						
 <!ELEMENT	tp:material-citation		(#PCDATA | named-content | tp:collecting-event  | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref)*>
+<!ATTLIST	tp:descriptive-statement
+					%jats-common-atts;
+					%might-link-atts;      >
 <!--
 ~tp:material-citation~
 ~note: A reference to biological material (e.g., a specimen, an observation) including those
@@ -242,6 +267,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:material-location                (#PCDATA | object-id)* >
+<!ATTLIST	tp:descriptive-statement
+					%jats-common-atts;     >
 <!--
 ~tp:material-location~
 ~note: The physical location of the material referenced in the material citation. ~
@@ -251,6 +278,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:collecting-event		(#PCDATA | tp:collecting-location | date | tp:taxon-name | object-id | named-content)* >
+<!ATTLIST	tp:descriptive-statement
+					%jats-common-atts;     >
 <!--
 ~tp:collecting-event~
 ~note: The specific spatio-temporal event during which observations have been made or
@@ -263,6 +292,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:collecting-location		(object-id*, tp:location*, comment? ) >
+<!ATTLIST	tp:descriptive-statement
+					%jats-common-atts;     >
 <!--
 ~tp:collecting-location~
 ~note: The specific location or circumscription of the location of a collecting event. ~
@@ -272,7 +303,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 <!ELEMENT 	tp:location	(#PCDATA %country-elements;)*  >
 <!ATTLIST       tp:location                         
-                                       location-type             CDATA              #IMPLIED >
+                                        %jats-common-atts;
+                                        location-type             CDATA              #IMPLIED >
 <!--
 ~tp:location~
 ~note: A named spatial area. ~
