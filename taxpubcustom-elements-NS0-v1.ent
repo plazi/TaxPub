@@ -22,7 +22,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!ELEMENT	tp:treatment-meta  		    %sec-meta-model;	>
+<!ELEMENT	tp:treatment-meta      %sec-meta-model;	>
 <!ATTLIST 	tp:treatment-meta
 					%jats-common-atts; >
 <!--
@@ -52,7 +52,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 
-<!ELEMENT	tp:treatment-sec  		    %taxon-sec-model;	>
+<!ELEMENT	tp:treatment-sec        %taxon-sec-model;	>
 <!ATTLIST   tp:treatment-sec
 					%jats-common-atts;
 					%sec-atts; >

@@ -645,13 +645,12 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
 <!ENTITY % sec-meta-model
                         "((contrib-group*, kwd-group*, 
                           permissions?), mixed-citation?)"           >
-																							
-																											
-																											
+
+
 <!--                    CONTENT MODEL FOR TREATMENT SEC     -->
 <!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
                           (%para-level;)*, 
-                          (tp:treatment-sec)*, (tp:nomenclature-citation-group)*
+                          (tp:treatment-sec)*, (tp:nomenclature-citation-group)*,
                           (%sec-back-matter-mix;)* )"                >
 
 <!--                    CONTENT MODEL FOR MATERIALS EXAMINED SEC     -->
