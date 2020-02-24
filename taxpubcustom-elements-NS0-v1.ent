@@ -119,7 +119,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!ELEMENT	tp:nomenclature-citation-list			(tp:taxon-name | #PCDATA | tp:nomenclature-citation)+ >
+<!ELEMENT	tp:nomenclature-citation-list			(#PCDATA | tp:taxon-name | tp:nomenclature-citation)+ >
 <!ATTLIST 	tp:nomenclature-citation-list
 					%jats-common-atts;
 					content-type		CDATA		#IMPLIED >
