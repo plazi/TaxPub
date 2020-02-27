@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">PhytoKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">PhytoKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">PhytoKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2011</issn>
+      <issn pub-type="epub">1314-2003</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/phytokeys.109.24609</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Caryophyllaceae</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Central Asia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> Koç &amp; Budak (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Caryophyllaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Central Anatolia, Turkey</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Koç</surname>
+            <given-names>Murat</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">bozokmuratkoc@yahoo.com</email>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Budak</surname>
+            <given-names>Ümit</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Boğazlıyan Vocational School, Bozok University, 66900, Yozgat, Turkey</addr-line>
+        <institution>Bozok University</institution>
+        <addr-line content-type="city">Yozgat</addr-line>
+        <country>Turkey</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Department of Biology, Faculty of Science and Arts, Bozok University, 66200, Yozgat, Turkey</addr-line>
+        <institution>Bozok University</institution>
+        <addr-line content-type="city">Yozgat</addr-line>
+        <country>Turkey</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Murat Koç (<email xlink:type="simple">bozokmuratkoc@yahoo.com</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: G.G. del Galdo</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>109</issue>
+      <fpage>27</fpage>
+      <lpage>32</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>2</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>5</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Murat Koç, Ümit Budak</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>A new species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> was discovered in Hekimhan (Turkey, Malatya province) where it grows on hillsides. The <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> were compared with each other in terms of their general morphology and seed micromorphology. Description, distribution, illustration and conservation status of the new species are given. Seed lateral and surface, cells, anticlinal cell walls, periclinal cell walls structures were examined by scanning electron microscopy. The images were captured with the 500×, 100×, and 40× objective lens for the details.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>Malatya</kwd>
+        <kwd>taxonomy</kwd>
+        <kwd>new species</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EMF">
+        <title>Citation</title>
+        <p>Koç M, Budak Ü (2018) <italic>Phryna hamzaoglui</italic> Koç &amp; Budak (Caryophyllaceae), a new species from Central Anatolia, Turkey. PhytoKeys 109: 27–32. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.109.24609">https://doi.org/10.3897/phytokeys.109.24609</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EHG">
+      <title>Introduction</title>
+      <p>The family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Caryophyllaceae</tp:taxon-name-part></tp:taxon-name> Juss. includes approximately 88 genera and 3000 species that are almost entirely distributed throughout the northern hemisphere and occasionally throughout the southern hemisphere. The main distribution area of this family is the mediterranean phytogeographical region (<xref ref-type="bibr" rid="B5">Lawrence 1951</xref>, <xref ref-type="bibr" rid="B6">Rabeler and Hartman 2005</xref>). This family is split into three subfamilies, namely <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Alsinoideae</tp:taxon-name-part></tp:taxon-name> (DC.) Fenzl, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Caryophylloideae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Paronychioideae</tp:taxon-name-part></tp:taxon-name> (A.L.Juss.) Meisn (<xref ref-type="bibr" rid="B2">Bittrich 1993</xref>). The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Caryophylloideae</tp:taxon-name-part></tp:taxon-name> subfamily is divided into the tribes <italic>Caryophylleae, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Drypideae</tp:taxon-name-part></tp:taxon-name></italic> Fenzl and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sileneae">Sileneae</tp:taxon-name-part></tp:taxon-name></italic> DC. (<xref ref-type="bibr" rid="B2">Bittrich 1993</xref>).</p>
+      <p>The genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name></italic> (Boiss.) Pax &amp; K.Hoffm. belongs to the tribe Caryophylleae that exist in subfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Caryophylloideae</tp:taxon-name-part></tp:taxon-name> of the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Caryophyllaceae</tp:taxon-name-part></tp:taxon-name>. A specimen of this genus collected from Turkey was last revised by Huber-Morath in his work entitled “Flora of Turkey and the Aegean Islands” which was published on 1967. In this revision, the existence of a species belonging to this genus was reported (<xref ref-type="bibr" rid="B3">Huber-Morath 1967</xref>), the genus being similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ankyropetalum">Ankyropetalum</tp:taxon-name-part></tp:taxon-name></italic> Fenzl, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acanthopyllum">Acanthopyllum</tp:taxon-name-part></tp:taxon-name></italic> C.A.Mey., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Allochrusa">Allochrusa</tp:taxon-name-part></tp:taxon-name></italic> Bunge, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gypsophila">Gypsophila</tp:taxon-name-part></tp:taxon-name></italic> L. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bolanthus">Bolanthus</tp:taxon-name-part></tp:taxon-name></italic> (Ser.) Rchb. (<xref ref-type="bibr" rid="B3">Huber-Morath 1967</xref>, <xref ref-type="bibr" rid="B1">Barkoudah 1962</xref>).</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EDCAC">
+      <title>Materials and methods</title>
+      <p>Some interesting specimens belonging to the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name></italic>, in which their main distribution area is the Irano–Turanian phytogeographical region, were collected from Malatya province. As a result of examining the literature (<xref ref-type="bibr" rid="B1">Barkoudah 1962</xref>, <xref ref-type="bibr" rid="B3">Huber-Morath 1967</xref>) and herbarium specimens, it was found that the collected specimens resemble <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> but differ from this species in terms of calyx length, calyx teeth length, petal colour, petal calyx ratio and capsule calyx ratio. Flower, petal and capsule pictures were taken with an OLYMPUS SZX-16 Stereomicroscope, DP 72 digital camera and seed surface images were taken by a Quanta Feg 450 scanning electron microscope (<abbrev xlink:title="scanning electron microscope" id="ABBRID0EDDAC">SEM</abbrev>) at Bozok University Research and Application Centre. The vegetative parts were measured with a ruler with 0.5 mm accuracy and the floral characteristics were studied using an ocular micrometer.</p>
+    </sec>
+    <sec sec-type="Taxonomic treatment" id="SECID0EHDAC">
+      <title>Taxonomic treatment</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Plantae</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Caryophyllales</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Caryophyllaceae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part>
+            <object-id content-type="ipni" xlink:type="simple">urn:lsid:ipni.org:names:60477028-2</object-id>
+          </tp:taxon-name>
+          <tp:taxon-authority>Koç &amp; Budak</tp:taxon-authority>
+          <tp:taxon-status>sp. nov.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figs 1</xref>
+          <xref ref-type="fig" rid="F2">, 2</xref>
+          <xref ref-type="fig" rid="F3">, 3</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0EAFAC">
+          <title>Diagnosis.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> is related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic>. It differs from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> mainly because it has a calyx 4–5.5 mm long, teeth 2–2.5 mm long (not 3–4 mm long, teeth 1–2 mm long); petals completely white not purple veins, as long as calyx (not white with purple veins, 1.5–2 times calyx); capsule including calyx (not longer than calyx); seeds ventral and dorsal cells margine S-undulate (not V-Undulate) (Table <xref ref-type="table" rid="T1">1</xref>).</p>
+          <table-wrap id="T1" position="float" orientation="portrait">
+            <label>Table 1.</label>
+            <caption>
+              <p>Diagnostic characters between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+            </caption>
+            <table id="TID0E3CAC" rules="all">
+              <tbody>
+                <tr>
+                  <th rowspan="1" colspan="1"/>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Calyx</td>
+                  <td rowspan="1" colspan="1">4–5.5 mm long, teeth 2–2.5 mm long</td>
+                  <td rowspan="1" colspan="1">3–4 mm long, teeth 1–2 mm long</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Petal</td>
+                  <td rowspan="1" colspan="1">Completely white not purple veins, as long as calyx</td>
+                  <td rowspan="1" colspan="1">White with purple veins, 1.5–2 times calyx</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Capsule</td>
+                  <td rowspan="1" colspan="1">Including calyx</td>
+                  <td rowspan="1" colspan="1">Longer than calyx</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Seeds</td>
+                  <td rowspan="1" colspan="1">Ventral and dorsal cells margine S-undulate</td>
+                  <td rowspan="1" colspan="1">Ventral and dorsal cells margine V-undulate</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EYJAC">
+          <title>Type.</title>
+          <p>TURKEY. B6 Malatya: Between Hekimhan and Hasançelebi town, 3 km from Hekimhan, 1100 m a.s.l., hillside, 10 October 2015, Koç 2353, Hamzaoğlu &amp; Budak (holotype ANK; isotypes ANK, GAZI, Bozok Univ. Biology Dept. Herbarium).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0E4JAC">
+          <title>Description.</title>
+          <p>Perennial herb. Stems woody caudex, dichotomously forked stems, 30–35 cm, base 1–1.2 mm diam., entirely mixed eglandular and with glandular hairs; internodes 13–20 mm, with glandular hairy. Leaves linear, 6–15 × 0.9–1.1 mm, with glandular hairs, 3–nerved, greenish, solid; acute at apex; sheath membranous, 0.2–0.3 mm long, having glandular hairy. Inflorescence mostly solitary, forming lax terminal racemes. Flowers sessile or subsessile. Bracts lanceolate, 3–4 × 0.8–1 mm; acute at apex. Bracteoles 2–3 pairs; acute at apex. Calyx narrowly campanulate, having densely glandular hairy, 4–5.5 × 1–1.2 mm, with 5 projecting ribs; teeth lanceolate, 2–2.5 mm long; acuminate at apex. Petals oblanceolate, 4–6 × 0.7–0.9 mm, as long as calyx, entirely white not purple veins; rounded at apex; base cuneate. Stamens 4; filaments 3–4 mm long. Styles 2, 3–4 mm long. Capsule oblong, 3.5–5 × 1–1.2 mm, 2–seeded, including calyx.</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic>. <bold>A</bold> habit <bold>B</bold> flower <bold>C</bold> petal <bold>D</bold> capsule.</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-027-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229477.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Seed micromorphology" id="SECID0ECLAC">
+          <title>Seed micromorphology.</title>
+          <p>Seeds of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> are comma-shaped with prominent radicle, 1–1.4 × 0.8–1 mm; blackish; lateral and dorsal surfaces tuberculate; cells subrectangle, regular; anticlinal cell walls certainly S-undulate; periclinal cell walls convex, wrinkled, upper smooth (Figure <xref ref-type="fig" rid="F2">2</xref>).</p>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p><abbrev xlink:title="scanning electron microscope" id="ABBRID0E6LAC">SEM</abbrev> photographs of the seed coat. <bold>A</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic><bold>B</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic>. Scale bars: 500 μm (<bold>A1, B1</bold>); 100 μm (<bold>A2, B2</bold>); 40 μm (<bold>A3, B3</bold>).</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-027-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229478.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EINAC">
+          <title>Etymology.</title>
+          <p>The species is named in honour of the eminent Turkish botanist Prof. Dr. Ergin Hamzaoğlu (Gazi University, Ankara).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0ENNAC">
+          <title>Distribution and habitat.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> is an endemic species known only from the type gathering in Central Anatolia (Hekimhan, Malatya) and is an Irano–Turanian element. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> prefers hillsides at an altitude of 1100 m in Malatya province.</p>
+          <fig id="F3" position="float" orientation="portrait">
+            <label>Figure 3.</label>
+            <caption>
+              <p>Distribution map of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> (▲) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> (●) in Turkey.</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-027-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229479.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="phenology" id="SECID0EMPAC">
+          <title>Phenology.</title>
+          <p>Flowering from August to September; fruiting from October.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="conservation status" id="SECID0ERPAC">
+          <title>Conservation status.</title>
+          <p>According to current data, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> grows in an area of approximately 1000 km<sup>2</sup> covering the Hekimhan districts of Malatya province. The species, which has a discontinuous distribution, has been reported in only one locality in Malatya. Due to overgrazing, the habitat of this species is under threat and destruction of the species is leading to the reduction in the number of plants. For this reason, it is proposed that the species should be classified as Endangered [EN (B1a)] according to the International Union for Conservation of Nature (<xref ref-type="bibr" rid="B4">IUCN 2014</xref>).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EJAAE">
+          <title>Other specimens examined.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides.</tp:taxon-name-part></tp:taxon-name></italic> TURKEY. Kayseri: Kıranadardı waterfall, 1710 m, 20 July 2013, Hamzaoğlu 6889 &amp; Koç (Bozok Univ. Biology Dept. Herbarium); Kayseri: Sarız, Büyüksöbeçimen town, 15 July 2008, Hamzaoğlu 5229 (Bozok Univ. Biology Dept. Herbarium); Adıyaman: Nemrut mountain, 2000–2200 m, 18 June 1997, Vural &amp; Adıgüzel (GAZI, No: 8222); Elazığ: Keban Altınayva town, 1300 m, 11 August 1995, Ali.A.Dönmez 4899 &amp; Aslantaş (GAZI); Kahramanmaraş: Elbistan, Şardağı, 1600 m, 21 August 1989, Aytaç (GAZI, No: 3012); Kayseri: Erciyes mountain, 2250–2350 m, 21 September 1993, Vural 7028, Duman, Adıgüzel &amp; Erik (GAZI); Nevşehir: Zelve, Akdağ, 1250 m, 08 August 1989, Vural &amp; Eyüboğlu (GAZI, No: 5487); Kırşehir: Kaman, 1200 m, 05 September 1995, Aytaç 7329 &amp; Adıgüzel (GAZI); Kahramanmaraş: Göksu, Çardak, Binboğa mountain, Tülüce hill, 1450–1850 m, 08 August 1988, Aytaç (GAZI, No: 2537).</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    </sec>
+    <sec sec-type="Results" id="SECID0E1AAE">
+      <title>Results</title>
+      <p>The <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name></italic> is an endemic genus for Turkey. This genus is similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Petrorhagia">Petrorhagia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ankyropetalum">Ankyropetalum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acanthopyllum">Acanthopyllum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Allochrusa">Allochrusa</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gypsophila">Gypsophila</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bolanthus">Bolanthus</tp:taxon-name-part></tp:taxon-name></italic>. All of these genera have calyx with membranous hyaline intervals between the nerves (<xref ref-type="bibr" rid="B1">Barkoudah 1962</xref>, <xref ref-type="bibr" rid="B3">Huber-Morath 1967</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Petrorhagia">Petrorhagia</tp:taxon-name-part></tp:taxon-name></italic> can separate from the above genera by seeds with the presence of peltate with facial hilum. While <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ankyropetalum">Ankyropetalum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acanthopyllum">Acanthopyllum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Allochrusa">Allochrusa</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gypsophila">Gypsophila</tp:taxon-name-part></tp:taxon-name></italic> have reniform seeds, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bolanthus">Bolanthus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name></italic> genera have comma seeds. In addition to these characters, the genus <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name> is distinguished from all the above-mentioned genera by having 1-4 pairs of bracteoles on the base of calyx (<xref ref-type="bibr" rid="B1">Barkoudah 1962</xref>).</p>
+      <p>While <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> species has a wide distribution in Turkey, the distribution of P. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna"/><tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part></tp:taxon-name></italic> is known only around Hekimhan (Malatya). The specimens of Hekimhan (Malatya) show similarity to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part></tp:taxon-name></italic> due to their having stems covered with glandular-puberulent hairy, woody caudex and flowers sessile, axillary and terminal, mostly solitary, seeds comma-shaped with prominent radicle, blackish; lateral and dorsal surfaces tuberculate; cells subrectangle, regular; periclinal cell walls convex, wrinkled, upper smooth. However, they differ from this taxon in terms of having calyx length of 4–5.5 mm, petals entirely white not purple veins and as long as calyx, capsule including calyx, seeds ventral and dorsal cells margine S-undulate (Table <xref ref-type="table" rid="T1">1</xref>). As a result, all the obtained morphological and micromorphological data showed that the species distributed in Malatya province are new to science. The genus is still endemic for Turkey and but will be regarded as a polytipic genus.</p>
+      <sec sec-type="Key to the species of Genus Phryna in Turkey" id="SECID0E1FAE">
+        <title>Key to the species of Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">Phryna</tp:taxon-name-part></tp:taxon-name></italic> in Turkey</title>
+        <table-wrap content-type="key" position="anchor" orientation="portrait">
+          <table id="TID0EYMAC" rules="all">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">1</td>
+                <td rowspan="1" colspan="1">Calyx 4–5.5 mm long, teeth 2–2.5 mm long; petals completely white not purple veins, as long as calyx; capsule including calyx</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="hamzaoglui">hamzaoglui</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Calyx 3–4 mm long, teeth 1–2 mm long; petals white with purple veins, 1.5–2 times calyx; capsule longer than calyx</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Phryna">P.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="ortegioides">ortegioides</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Barkoudah</surname><given-names>YI</given-names></name></person-group> (<year>1962</year>) A revision of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Gypsophila</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Bolanthus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ankyropetalum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Phryna</tp:taxon-name-part></tp:taxon-name></italic>. Botanical Museum and Herbarium, Utrecht, 157–187.</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bittrich</surname><given-names>V</given-names></name></person-group> (<year>1993</year>) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Caryophyllaceae</tp:taxon-name-part></tp:taxon-name>. In: Kubitzki K, Rohwer J, Bittrich V (Eds) The Families and Genera of Vascular Plants, Magnoliid, Hamamelid and Caryophyllid Families, Vol. 2. Springer, Berlin, 206−236. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/978-3-662-02899-5_21">https://doi.org/10.1007/978-3-662-02899-5_21</ext-link></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Huber-Morath</surname><given-names>A</given-names></name></person-group> (<year>1967</year>) <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Phryna</tp:taxon-name-part></tp:taxon-name></italic> (Boiss.) Pax &amp; K.Hoffm. In: Davis PH (Ed.) Flora of Turkey and the East Aegean Islands, vol. 2. Edinburgh University Press, Edinburgh, 148.</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><institution xlink:type="simple">IUCN</institution> (<year>2014</year>) Guidelines for Using the IUCN Red List Categories and Criteria. Version 11, February 2014. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://jr.iucnredlist.org/documents/RedListGuidelines.pdf">http://jr.iucnredlist.org/documents/RedListGuidelines.pdf</ext-link> [Accessed 20 December 2017]</mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lawrence</surname><given-names>GHM</given-names></name></person-group> (<year>1951</year>) Taxonomy of Vascular Plants. Macmillan Company, New York, 486−489.</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Rabeler</surname><given-names>RK</given-names></name><name name-style="western"><surname>Hartman</surname><given-names>RL</given-names></name></person-group> (<year>2005</year>) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Caryophyllaceae</tp:taxon-name-part></tp:taxon-name> in Flora of North America North of Mexico, vol. 5. Oxford University Press, New York, 3–8.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

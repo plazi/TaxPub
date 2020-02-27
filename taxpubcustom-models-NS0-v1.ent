@@ -1,0 +1,693 @@
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                        TYPICAL INVOCATION                     -->
+<!--
+"-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v1.0 20180101//EN"
+Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+<!--                    INLINE MIXES TO OVER-RIDE CONTENT MODELS   -->
+<!--                    (ELEMENTS TO BE ADDED TO #PCDATA IN MODELS)-->
+<!-- ============================================================= -->
+
+
+<!--                    ABBREVIATED JOURNAL TITLE ELEMENTS         -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <abbrev-journal-title>
+                        Removed the face markup, %just-rendition;  -->
+<!ENTITY % abbrev-journal-title-elements
+                        ""                                           >
+
+
+<!--                    CITATION ELEMENTS                          -->
+<!--                    Content for both types of citation. These
+                        elements may be mixed with #PCDATA in the
+                        <mixed-citation> element (in which all
+                        punctuation and spacing are left intact), and
+                        they also constitute the choices that can be
+                        used to form the all-element-content of the
+                        <element-citation> element (in which
+                        punctuation and spacing are removed).
+                        Design Note: All inline mixes begin with an
+                        OR bar.                                    -->
+<!ENTITY % citation-elements
+                        "%citation-additions.class; |
+                         %emphasis.class; | %inline-display.class; |
+                         %inline-math.class; | %label.class; |
+                         %phrase.class; | %references.class; |
+                         %subsup.class;"                             >
+
+
+<!--                    CONFERENCE ACRONYM ELEMENTS                -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        the conference acronym.
+                        Removed %simple-text;                      -->
+<!ENTITY % conf-acronym-elements
+                        ""                                           >
+
+
+<!--                    CONFERENCE LOCATION ELEMENTS               -->
+<!--                    Elements for use in the <conf-loc> element
+                        Removed %simple-text;                      -->
+<!ENTITY % conf-loc-elements
+                        "| %address.class;"                          >
+
+
+<!--                    CONFERENCE NAME ELEMENTS                   -->
+<!--                    Elements for use in the <conf-name> element.
+                        Removed %simple-text;                      -->
+<!ENTITY % conf-name-elements
+                        ""                                           >
+
+
+<!--                    CONFERENCE NUMBER ELEMENTS                 -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        the conference number.
+                        Removed %simple-text;                      -->
+<!ENTITY % conf-num-elements
+                        ""                                           >
+
+
+<!--                    CONFERENCE SPONSOR  ELEMENTS               -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        the conference sponsor.
+                        Removed %simple-text;                      -->
+<!ENTITY % conf-sponsor-elements
+                        "| %institution-wrap.class;"                 >
+
+
+<!--                    DEGREE(S) ELEMENTS                         -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        <degrees>
+                        Removed %just-rendition;                   -->
+<!ENTITY % degrees-elements
+                        ""                                           >
+
+
+<!--                    EDITION ELEMENTS                           -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        Removed %just-rendition;                   -->
+<!ENTITY % edition-elements
+                        "| %subsup.class;"                           >
+
+
+<!--                    FAX NUMBER ELEMENTS                        -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <fax>
+                        Removed %just-rendition;                   -->
+<!ENTITY % fax-elements
+                        ""                                           >
+
+
+<!--                    GIVEN (FIRST) NAMES ELEMENTS               -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <given-names>
+                        Removed %just-rendition;                   -->
+<!ENTITY % given-names-elements
+                        ""                                           >
+
+
+<!--                    INSTITUTION NAME ELEMENTS                  -->
+<!--                    Elements for use in the <institution>
+                        element
+                        Removed %break.class; and %emphasis.class; -->
+<!ENTITY % institution-elements
+                        "| %subsup.class;"                           >
+
+
+<!--                    ISSUE TITLE ELEMENTS                       -->
+<!--                    Elements for use with data characters inside
+                        the model for the <issue> element
+                        Removed %just-rendition;                   -->
+<!ENTITY % issue-elements
+                        ""                                           >
+
+
+<!--                    JOURNAL TITLE ELEMENTS                     -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <journal-title>
+                        Removed %just-rendition;                   -->
+<!ENTITY % journal-title-elements
+                        ""                                           >
+
+
+<!--                    KEYWORD CONTENT ELEMENTS                   -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a keyword <kwd>.                           -->
+<!ENTITY % kwd-elements
+                        "| %emphasis.class; | %phrase-content.class; |
+                         %subsup.class;"                             >
+
+
+<!--                    PATENT NUMBER ELEMENTS                     -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        <patent>
+                        Removed %just-rendition;                   -->
+<!ENTITY % patent-elements
+                        ""                                           >
+
+
+<!--                    PERSON GROUP MODEL                         -->
+<!--                    Content model for the <person-group> element
+                                                                   -->
+<!ENTITY % person-group-elements
+                        "| %name.class; | %person-group-info.class; |
+                          %string-name.class;"                       >
+
+
+<!--                    PHONE NUMBER ELEMENTS                      -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <phone number>
+                        Removed %just-rendition;                   -->
+<!ENTITY % phone-elements
+                        ""                                           >
+
+
+<!--                    PREFIX ELEMENTS                            -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <prefix>
+                        Removed %just-rendition;                   -->
+<!ENTITY % prefix-elements
+                        ""                                           >
+
+
+<!--                    PREFORMATTED TEXT ELEMENTS                 -->
+<!--                    Elements that may be used, along with data
+                        characters, inside the content model for the
+                        <preformat> element, in which whitespace,
+                        such as tabs, line feeds, and spaces will
+                        be preserved                               -->
+<!ENTITY % preformat-elements
+                        "| %access.class; | %address-link.class; |
+                         %display-back-matter.class; |
+                         %emphasis.class; | %phrase.class; |
+                         %subsup.class;"                             >
+
+
+<!--                    PUBLISHER'S LOCATION ELEMENTS              -->
+<!--                    Elements for use in the Publisher Location
+                        <publisher-loc> element
+                        Removed emphasis.class;, and %subsup.class;-->
+<!ENTITY % publisher-loc-elements
+                        "| %address.class; | %address-link.class;"   >
+
+
+<!--                    PUBLISHER'S NAME ELEMENTS                  -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <publisher-name>
+                        Removed %just-rendition;                   -->
+<!ENTITY % publisher-name-elements
+                        "| %institution-wrap.class;"                 >
+
+
+<!--                    STANDARDS ORGANIZATION ELEMENTS            -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        <std-organization>.
+                        Removed emphasis.class.                    -->
+<!ENTITY % std-organization-elements
+                        "| %institution-wrap.class; | %subsup.class;">
+
+
+<!--                    SUFFIX ELEMENTS                            -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <suffix>
+                        Removed %just-rendition;                   -->
+<!ENTITY % suffix-elements
+                        ""                                           >
+
+
+<!--                    SURNAME ELEMENTS                           -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <surname>
+                        Removed %just-rendition;                   -->
+<!ENTITY % surname-elements
+                        ""                                           >
+
+
+<!--                    URI ELEMENTS                               -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <uri>
+                        Removed %just-rendition;                   -->
+<!ENTITY % uri-elements
+                        ""                                           >
+
+
+<!--                    VERSION ELEMENTS                           -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        <version>                                  -->
+<!ENTITY % version-elements
+                        "| %subsup.class;"                           >
+
+
+<!--                    VOLUME NUMBER ELEMENTS                     -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        a <volume>
+                        Removed %just-rendition;                   -->
+<!ENTITY % volume-elements
+                        ""                                           >
+
+
+<!-- ============================================================= -->
+<!--                    OVER-RIDES OF CONTENT MODELS (FULL MODELS) -->
+<!-- ============================================================= -->
+
+
+<!--                    ABSTRACT MODEL                             -->
+<!--                    Abstracts may contain one or more paragraphs
+                        (as a typical abstract does) or titled
+                        sections, as is done in many physics
+                        articles.
+                        Unlike the default model in the base DTD
+                        Suite, this <abstract> requires that all
+                        sections in the abstract start with titles.-->
+<!ENTITY % abstract-model
+                        "(label?, title?, (%just-para.class;)*, 
+                          (%sec.class;)*)"                           >
+
+
+<!--                    ACKNOWLEDGMENTS MODEL                      -->
+<!--                    Content model for the <ack> element        -->
+<!ENTITY % ack-model    "(label?, title?,
+                          (%abstract.class;)*, (%kwd-group.class;)*,
+                          (%just-para.class;)*, 
+                          (%sec.class;)*, (%ref-list.class;)* )"     >
+
+
+<!--                    ANONYMOUS MODEL                            -->
+<!--                    Unlike in Green, <anonymous> is empty. When
+                        present, it is used to generate the text
+                        "anonymous" or "anon.", etc.               -->
+<!ENTITY % anonymous-model
+                        "EMPTY"                                      >
+
+
+<!--                    ARRAY CONTENT MODEL                        -->
+<!--                    The element used to contain material in
+                        rows and columns that is just a block insert
+                        into the text flow, not numbered or called a
+                        table, and not titled or captioned         -->
+<!ENTITY % array-model  "((%access.class; | %address-link.class;)*,
+                          ( (%just-base-display.class;)* |
+                            %tbody.class; ),
+                          (%display-back-matter.class;)* )"          >
+
+
+<!--                    ARTICLE METADATA MODEL                     -->
+<!--                    Full content model for the metadata that is
+                        specific to the article.
+                        Unlike in Archive DTD, some of the metadata
+                        is required here.                          -->
+<!ENTITY % article-meta-model
+                       "(article-id*, article-categories?,
+                         title-group,
+                         ( %contrib-group.class; |
+                           %aff-alternatives.class;)*,
+                         author-notes?, pub-date+,
+                         volume*, volume-id*, volume-series?,
+                         issue*, issue-id*, issue-title*,
+                         issue-sponsor*, issue-part?, 
+                         volume-issue-group*, isbn*,
+                         supplement?,
+                         ( (fpage, lpage?, page-range?) |
+                            elocation-id)?,
+                         (%address-link.class; | product |
+                          supplementary-material)*, 
+                         history?, permissions?, self-uri*, 
+                         (%related-article.class;)*, 
+                         (%abstract.class;)*, trans-abstract*, 
+                         (%kwd-group.class;)*,
+                         funding-group*, conference*, counts?,
+                         custom-meta-group?)"                        >
+
+
+<!--                    CONFERENCE MODEL                           -->
+<!--                    The content model of the <conference>
+                        element                                    -->
+<!ENTITY % conference-model
+                        "(conf-date, (conf-name | conf-acronym )+,
+                         conf-num?, conf-loc?, conf-sponsor*,
+                         conf-theme?)"                               >
+
+
+<!--                    CONTRIBUTOR MODEL                          -->
+<!--                    Content model for the <contrib> element    -->
+<!ENTITY % contrib-model
+                        "((%contrib-id.class;)*, (%name.class;)*, 
+                          (%degree.class;)*,
+                          (%contrib-info.class;)* )"                 >
+
+
+<!--                    DATE ELEMENTS MODEL                        -->
+<!--                    The content models for elements that describe
+                        dates, such as Publication Date <pub-date> and
+                        History Dates <date>.  The <string-date>
+                        element holds dates for which months and
+                        years are not given, for example "first
+                        quarter", "spring", etc.
+                        Unlike the base DTD Suite, this <date>
+                        requires a <year> and may not take a string
+                        date as an alternative.                    -->
+<!ENTITY % date-model   "(((day?, month?) | season)?, year, era?)"   >
+
+
+<!--                    DEFINITION LIST: DEFINITION ITEM ELEMENTS  -->
+<!--                    The content model of a <def-item>.         -->
+<!ENTITY % def-item-model
+                        "(term, def*)"                               >
+
+
+<!--                    FIGURE-LIKE CONTENT MODEL                  -->
+<!--                    Content model for the Figure element and any
+                        similarly structured elements
+                        Made <label> and <caption> non-repeatable. -->
+<!ENTITY % fig-model    "((%id.class;)*, label?, (%caption.class;)?,
+                          (%abstract.class;)*, (%kwd-group.class;)*,
+                          (%access.class; | %address-link.class;)*,
+                          (%block-math.class; |
+                           %chem-struct-wrap.class; |
+                           %intable-para.class; |
+                           %just-table.class; | %just-para.class; |
+                           %list.class; | %simple-display.class;)*,
+                          (%display-back-matter.class;)* )"          >
+
+
+<!--                    FIGURE GROUP MODEL                         -->
+<!--                    Content model for a <fig-group>            -->
+<!ENTITY % fig-group-model
+                        "(label?, (%caption.class;)?,
+                          (%abstract.class;)*, (%kwd-group.class;)*,
+                          (%access.class; | %address-link.class;)*,
+                          (%fig-display.class; |
+                           %just-base-display.class;)* )"            >
+
+
+<!--                    JOURNAL METADATA MODEL                     -->
+<!--                    Content model for the journal metadata
+                        element <journal-meta>                     -->
+<!ENTITY % journal-meta-model
+                        "(journal-id+, journal-title-group*,
+                          (%contrib-group.class; |
+                          %aff-alternatives.class;)*,
+                          issn+, issn-l?, isbn*, publisher?, notes*,
+                          self-uri*)"                                >
+
+
+<!--                    LIST MODEL                                 -->
+<!--                    Content model for the <list> element       -->
+<!ENTITY % list-model   "(label?, title?, (%list-item.class;)+)"     >
+
+
+<!--                    ON BEHALF OF CONTENT ELEMENTS              -->
+<!--                    The elements that can be included along with
+                        data characters inside the content model of
+                        <on-behalf-of>
+                        Design Note: -%rendition-plus; begins with
+                        an OR bar, so this inline mix beguines with
+                        an OR bar.                                 -->
+<!ENTITY % on-behalf-of-elements
+                        "%rendition-plus; | %institution-wrap.class; |
+                         %simple-link.class;"                        >
+
+
+<!--                    REFERENCE ITEM MODEL                       -->
+<!--                    Content model for the <ref> element        -->
+<!ENTITY % ref-model    "(label?,
+                         (%citation.class; | %note.class;)+ )"       >
+
+
+<!--                    CONTENT MODEL FOR A STRUCTURAL SECTION     -->
+<!--                    The model for a section that requires that a
+                        either <title> or a <label> (which in some
+                        journals takes the place of a title) must be
+                        present. One or the other must be present
+                        for autogeneration of a Table of Contents or
+                        other navigation.                          -->
+<!ENTITY % sec-model    "(sec-meta?, ( (label, title?) | title ),
+                          (%para-level;)*,
+                          (%sec-level;)*,
+                          (%sec-back-matter-mix;)* )"                >
+
+
+<!--                    TRANSLATED ABSTRACT MODEL                  -->
+<!--                    Content model for an <trans-abstract>
+                        element                                    -->
+<!ENTITY % trans-abstract-model
+                        "(label?, title?, (%just-para.class;)*, 
+                          (%sec.class;)*)"                           >
+
+
+<!-- ============================================================= -->
+<!--                    DUPLICATE ATTRIBUTE DECLARATIONS           -->
+<!--                    (These are unchanged from the base Suite,  -->
+<!--                    but are used in attribute over-rides below)-->
+<!-- ============================================================= -->
+
+
+<!--                    COMMON ATTRIBUTES                          -->
+<!--                    These lists of attributes will be added to 
+                        nearly every element, in both the document 
+                        metadata and the document body, of the entire 
+                        Tag Set:
+                          - including table elements for both the 
+                              XHTML-inspired and OASIS-inspired
+                              table model elements
+                          - excluding only <mml:math> and 
+                              <xi:include> (whose namespaces JATS
+                              does not control).
+                           Great care should be taken to use these
+                        attributes judiciously, not as a shortcut to
+                        thinking through where an attribute should be
+                        used. Potential use cases include adding
+                        @xml:lang or some RDFa attribute to every 
+                        elements.                                  -->
+
+
+<!--                    JATS BASE ATTRIBUTES                       -->
+<!--                    Holds all the common attributes except @id.
+                        Used to keep the two common attribute lists 
+                        in sync. To add a global attribute, modify
+                        this list.                                 -->
+<!ENTITY % jats-base-atts
+            "xml:base   CDATA                             #IMPLIED"  >
+
+
+<!--                    JATS COMMON ATTRIBUTES                     -->
+<!--                    Holds all the common attributes, as defined in
+                        the base attribute parameter entity, plus an
+                        optional @id.                              -->
+<!ENTITY % jats-common-atts
+            "id         ID                                #IMPLIED 
+             %jats-base-atts;"                                       >
+
+
+<!--                    JATS COMMON ATTRIBUTES (ID REQUIRED)       -->
+<!--                    Holds all the common attributes, as defined in
+                        the base attribute parameter entity, plus a 
+                        required @id.                              -->
+<!ENTITY % jats-common-atts-id-required
+            "id         ID                                #REQUIRED
+             %jats-base-atts;"                                       >
+
+
+<!--                    DISPLAY ATTRIBUTES                         -->
+<!--                    Attributes used for several of the block
+                        display elements                           -->
+<!ENTITY % display-atts
+            "position   (anchor | background | float | margin)
+                                                          'float'
+             orientation
+                        (portrait | landscape)            'portrait'
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    XLINK LINK ATTRIBUTES                      -->
+<!--                    Attributes for any element that must be a
+                        link                                       -->
+<!ENTITY % link-atts
+            "xmlns:xlink CDATA                            #IMPLIED
+             xlink:type  (simple)                         #IMPLIED
+             xlink:href  CDATA                            #REQUIRED
+             xlink:role  CDATA                            #IMPLIED
+             xlink:title CDATA                            #IMPLIED
+             xlink:show  (embed | new | none | other | replace)
+                                                          #IMPLIED
+             xlink:actuate
+                         (none | onLoad | onRequest | other)
+                                                          #IMPLIED"  >
+
+
+<!--                    MIGHT LINK XLINK ATTRIBUTES                -->
+<!--                    Attributes for any element that may be a link
+                        but need not be one                        -->
+<!ENTITY % might-link-atts
+            "xmlns:xlink CDATA                            #IMPLIED
+             xlink:type  (simple)                         #IMPLIED
+             xlink:href  CDATA                            #IMPLIED
+             xlink:role  CDATA                            #IMPLIED
+             xlink:title CDATA                            #IMPLIED
+             xlink:show  (embed | new | none | other | replace)
+                                                          #IMPLIED
+             xlink:actuate
+                         (none | onLoad | onRequest | other)
+                                                          #IMPLIED"  >
+
+
+<!-- ============================================================= -->
+<!--                    OVER-RIDES OF ATTRIBUTE LISTS              -->
+<!-- ============================================================= -->
+
+
+<!--                    FOOTNOTE TYPE VALUES                       -->
+<!--                    Used to mark the semantics of the footnote,
+                        what information does this footnote convey.
+                                                                   -->
+<!ENTITY % fn-types     "abbr | com | con | conflict |
+                         corresp | current-aff | deceased |
+                         edited-by | equal |
+                         financial-disclosure | on-leave |
+                         participating-researchers |
+                         presented-at | presented-by |
+                         present-address | previously-at |
+                         study-group-members |
+                         supplementary-material |
+                         supported-by | other"                       >
+
+
+<!--                    FOOTNOTE ATTRIBUTES                        -->
+<!--                    Attribute list for Footnote element
+                        Unlike base, "fn-type" values have been made
+                        explicit and removed the symbol attribute  -->
+<!ENTITY % fn-atts
+            "%jats-common-atts;                                       
+             fn-type    (%fn-types;)                      #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             symbol     CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    INLINE GRAPHIC ATTRIBUTES                  -->
+<!--                    Attributes for Inline Graphic
+                        <inline-graphic>                           -->
+<!ENTITY % inline-graphic-atts
+            "%jats-common-atts;                                       
+             content-type
+                       CDATA                              #IMPLIED
+             baseline-shift
+                       CDATA                              #IMPLIED
+             mimetype  CDATA                              #IMPLIED
+             mime-subtype
+                       CDATA                              #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED
+             %link-atts;"                                            >
+
+
+<!--                    PERSON GROUP ATTRIBUTES                    -->
+<!--                    Attributes for the <person-group> element  -->
+<!ENTITY % person-group-atts
+            "%jats-common-atts;                                       
+             person-group-type
+                        (allauthors | assignee | author | compiler |
+                         curator | director | editor | guest-editor |
+                         inventor | translator | transed) #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED" >
+
+
+<!--                    SECTION ATTRIBUTES                         -->
+<!--                    Attribute list for Section element         -->
+<!ENTITY % sec-atts
+            "%jats-common-atts;                                       
+             xml:lang   NMTOKEN                            #IMPLIED
+             sec-type   CDATA                              #IMPLIED
+             specific-use
+                        CDATA                              #IMPLIED" >
+                        
+                        <!-- TAX TREATMENT STUFF BELOW    -->
+
+                                                                                
+<!--                    CONTENT MODEL FOR A SECTION METADATA       -->
+<!--                    In some works, each section has a different
+                        author or some sections are authored by 
+                        different contributors from the enclosing
+                        article. This wrapper element for 
+                        section-level metadata is used to capture
+                        information such as those contributors.
+                                                                   -->
+<!ENTITY % sec-meta-model
+                        "((contrib-group*, kwd-group*, 
+                          permissions?), mixed-citation?)"           >
+
+
+<!--                    CONTENT MODEL FOR TREATMENT SEC     -->
+<!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
+                          (%para-level;)*, 
+                          (tp:treatment-sec)*, (tp:nomenclature-citation-list)*,
+                          (%sec-back-matter-mix;)* )"                >
+
+<!--                    CONTENT MODEL FOR MATERIALS EXAMINED SEC     -->
+<!--
+<!ENTITY % taxon-sec-model    "(sec-meta?, label?, title?,
+                          		(%para-level;)*, 
+                          		sec*, 
+                          		(%sec-back-matter-mix;)* )"                >
+-->
+
+<!--                    CONTENT MODEL FOR MIXED-NOMENCLATURE SEC      -->
+<!--
+<!ENTITY % mixed-nomenclature-model     "(sec-meta?, label?, tp:taxon-name, (tp:taxon-authority? | tp:taxon-status? | xref | tp:nomenclature-citation-list* | 
+                                                    (tp:type-genus | tp:type-species)? | tp:taxon-type-location? | x)*)" >
+-->				
+<!--                    CONTENT MODEL FOR NOMENCLATURE SEC      -->
+<!ENTITY % nomenclature-model           "(sec-meta?, label?, tp:taxon-name, x?, tp:taxon-authority?, x?, tp:taxon-status?, x?, tp:taxon-identifier*, xref* , x?, tp:nomenclature-citation-list*, x?,
+                                                        (tp:type-genus | tp:type-species)?, x?, tp:taxon-type-location?, x?)" >
+
+
+<!--                    OBJECT IDENTIFIER ATTRIBUTES               -->
+<!--                    Attributes for the <object-id> element     -->
+<!ENTITY % object-id-atts
+            "object-id-type
+                        CDATA                              #IMPLIED
+             content-type
+                        CDATA                              #IMPLIED 
+								
+				%might-link-atts; "												>
+
+																											
+<!-- TAXPUB NAMESPACE DECLARATION      -->
+<!ENTITY	% taxpub-namespace-att
+				"xmlns:tp 		CDATA                            #FIXED
+                                     'http://www.plazi.org/taxpub'	"	>																									                                                                       
+<!-- ================== End Publishing Content/ATT Override ======   -->
+
+
+
+<!-- ================== End Publishing Content/ATT Override ====== -->

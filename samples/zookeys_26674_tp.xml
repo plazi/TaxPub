@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.785.26674</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Animalia</subject>
+          <subject>Coleoptera</subject>
+          <subject>Curculionidae</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Systematics</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Americas</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>, a new genus and species of cleonine weevil from western Texas and eastern New Mexico (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Curculionidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Lixinae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Anderson</surname>
+            <given-names>Robert S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">randerson@mus-nature.ca</email>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Beaty Centre for Species Discovery, Canadian Museum of Nature, PO Box 3443, Station D, Ottawa, ON. K1P 6P4, Canada</addr-line>
+        <institution>Canadian Museum of Nature</institution>
+        <addr-line content-type="city">Ottawa</addr-line>
+        <country>Canada</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Robert S. Anderson (<email xlink:type="simple">randerson@mus-nature.ca</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: M. Alonso-Zarazaga</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>785</issue>
+      <fpage>1</fpage>
+      <lpage>10</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>5</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>31</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Robert S. Anderson</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/9BF5E4E3-5A3C-4A9F-9060-19FEAECB90EE</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>The new genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> Anderson (type species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic><bold>gen n. et sp. n.</bold>, type locality: McKenzie Lake, Gaines County, Texas) is described to accommodate a new species of cleonine weevil from western Texas and eastern New Mexico. Habitus images and images of taxonomically significant structures are presented. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> appears to be unique within <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> in the distinctly tumescent and asperate base of elytral interval 3, and widely separated procoxae, two characters apparently not shared with any other world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>. The species cannot be placed in either <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> due to a combination of characters in part shared by each genus and the lack of characters used to define the monophyly of each genus. Coding of the character states and addition to the analysis presented in a recent comprehensive analysis of world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> did not provide any significant information on phylogenetic affinities. No information on plant associations is available; most specimens have been collected walking on the ground in winter months in arid habitats.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Biodiversity</kwd>
+        <kwd>endemism</kwd>
+        <kwd>new species</kwd>
+        <kwd>species discovery</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0E2F">
+        <title>Citation</title>
+        <p>Anderson RS (2018) <italic>Purealus beckelorum</italic>, a new genus and species of cleonine weevil from western Texas and eastern New Mexico (Coleoptera, Curculionidae, Lixinae, Cleonini). ZooKeys 785: 1–10. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.785.26674">https://doi.org/10.3897/zookeys.785.26674</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EFH">
+      <title>Introduction</title>
+      <p>During a visit to the weevil collection of retired colleague Charles W. O’Brien in Green Valley, Arizona in May of 2016 I found 5 specimens of an odd cleonine weevil collected in western Texas in October of 2004 that I was unable to identify. Further examination and comparison with other described species of North American <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> verified that the species was new and furthermore, questioned the generic placement of the new species which was not accommodated in any of the present North American genera <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stephanocleonus">Stephanocleonus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic>. This discovery led to a short trip to western Texas in October of 2016 during which time two additional specimens were acquired, one collected in the field at McKenzie Lake, the second collected in March of 2016 by Darren and George Pollock in Quay County, New Mexico. Since then, three additional specimens have turned up based on the collecting efforts of Darren and George Pollock, and Boris Kondratieff.</p>
+      <p>The present paper describes this new genus and species and discusses the placement of the genus with respect to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> and considering the recent overview and phylogenetic analysis of world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B3">Arzanov and Grebennikov 2017</xref>).</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0E6AAC">
+      <title>Materials and methods</title>
+      <p>Generic and species description follows <xref ref-type="bibr" rid="B1">Anderson (1988)</xref>. Specimens are deposited in the following collections:</p>
+      <p><bold><named-content content-type="dwc:institutional_code">CMNC</named-content></bold><named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/canadian-museum-nature-3">Canadian Museum of Nature</named-content>, Ottawa, Ontario, Canada; F. Génier;</p>
+      <p><bold><abbrev content-type="institution" xlink:title="Charles W. O’Brien collection, Green Valley, Arizona; C. W. O’Brien" id="ABBRID0EWBAC">CWOB</abbrev></bold> Charles W. O’Brien collection, Green Valley, Arizona; C. W. O’Brien;</p>
+      <p><bold><named-content content-type="dwc:institutional_code">ENMU</named-content></bold><named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/eastern-new-mexico-university-natural-history-museum">Eastern New Mexico University</named-content>, Portales, New Mexico; D. A. Pollock.</p>
+    </sec>
+    <sec sec-type="Taxonomic treatment" id="SECID0EJCAC">
+      <title>Taxonomic treatment</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Coleoptera</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Curculionidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/8512E7F9-5537-4D53-942E-7A7BE835DBB8</object-id>
+          </tp:taxon-name>
+          <tp:taxon-status>gen. n.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figures 1–3</xref>
+          <xref ref-type="fig" rid="F2">, 4–7</xref>
+          <xref ref-type="fig" rid="F3">, 8</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="type species" id="SECID0E4DAC">
+          <title>Type species.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic> sp. n. by present designation.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0EOEAC">
+          <title>Diagnosis.</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> with body form moderately robust, rostrum medially longitudinally tumescent with dorsal contour in lateral view evenly rounded, procoxae widely separated, base of elytral interval 3 distinctly tumescent and asperate.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EZEAC">
+          <title>Description.</title>
+          <p><italic>Size.</italic> Moderately large, body length 7.8–9.4 mm (exclusive of head and rostrum), moderately robust in body form. <italic>Mouthparts.</italic> Prementum rugose, concave medially, carinate laterally, with 2–3 large and 2–3 smaller setae on each side, a pair of long setae towards middle at apical margin. Maxillary and labial palpi not externally visible. <italic>Rostrum.</italic> Robust, longitudinally medially tumescent, dorsal contour in lateral view distinctly arched, rounded. Median tumescence low, not evident as distinct carina. Epistoma slightly swollen, produced anteriorly, with apical margin very slightly, very broadly, apically emarginate. Antenna with funiculus with article I subequal in length to, to slightly longer than, article II; club of four articles, apical three articles of club with placoid sensillae. <italic>Head.</italic> Eye elongate teardrop shaped, slightly prominent, not convex dorsally. Area behind eye with shallow irregular punctures. Upper margin of eye rounded, frons convex especially at base of median rostral tumescence. <italic>Vestiture.</italic> Dorsum with suberect or erect vestiture short and sparse; with simple very elongate-narrow recumbent white hair-like scales of variable size and density. <italic>Prothorax.</italic> Dorsal surface of pronotum coarsely punctate. Pronotum with median basal area deeply impressed towards basal margin; anterolateral margin, behind eyes, with moderately developed rounded postocular lobe; postocular vibrissae short, of equal length; disk with elongate white larger moderately dense scales present in lateral sinuate stripe, variously larger and denser along lateral margins; median area largely black in color, underlying black cuticle not obscured by any scales, subglabrous. Prosternum with very slight impression anterolaterad of each procoxal cavity; without any swelling immediately anterior to each prosternal impression; procoxae widely separated by about one-half width of coxa by globular posterior process of prosternum. <italic>Legs.</italic> Foretarsus moderately broad, articles II and III more or less subequal in length, at most only slightly longer than broad; article I longer than articles II or III; article III deeply bilobed. Meso- and metatarsus very slightly more elongate-narrow, article II slightly to distinctly longer than article III; article I distinctly longer than articles II or III; article III deeply bilobed. Ventral tarsal pilosity reduced to some extent (not covering entire ventral surface of a tarsal article) to almost lacking entirely from at least more basal tarsal articles (especially of metatarsus). Claws connate from near base to through basal one-third, slightly to markedly divergent. Foretibia with inner margin lacking denticles; near apex with second spur not developed. Tibia with corbel ridge rounded. <italic>Hind wings.</italic> Absent. <italic>Elytra.</italic> Intervals, except humerus and bases of intervals 3, 5, 7, and 9 flat, bases of intervals 3, 5, 7, and 9 slightly to markedly swollen, asperate (especially that of interval 3 which is tumescent). Striae confused, punctate. Humeri rounded. Scales variously condensed in patches of larger, denser white scales. <italic>Abdomen.</italic> Ventral surface almost uniformly covered with fine dense white hair-like scales. Abdominal sternum VII in males with apical margin at middle simple, without small dorsally directed median tooth. <italic>Genitalia.</italic> Female. Abdominal sternum VIII lacking basal arm (spiculum gastrale). Gonocoxite II elongate triangular in form, apex not prolonged into lobe; stylus present, moderately large in size; apical. Spermathecal gland oval. Symbiont pouches elongate-oval lying adjacent to vagina, composed of 10–12 rings, joined to vagina near apex. Male. Abdominal sternum VIII with interior angle of each sclerite lacking basal projection. Aedeagus moderately robust, in lateral view more or less evenly arcuate throughout length; apex not spatulate, somewhat acuminate. Internal sac not everted. Apical sclerite complex not evident.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Derivation of generic name" id="SECID0EVFAC">
+          <title>Derivation of generic name.</title>
+          <p>The generic name <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> is derived as an anagram of <italic>Apleurus</italic>. Gender masculine.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="natural history" id="SECID0EEGAC">
+          <title>Natural history.</title>
+          <p>Five specimens of this species were collected in October 2004 at McKenzie Lake, Gaines County, Texas by tiger beetle enthusiast Dave Brzoska while hunting tiger beetles. The exact circumstances of capture are not known but the specimens were likely walking around on the ground in areas inhabited by tiger beetles. One specimen was collected dead by me in fine debris and other insects washed up along the northern shore of McKenzie Lake in October 2016. Another three specimens were collected in Lea and Quay Counties, New Mexico, walking on the ground. During my trip to McKenzie Lake numerous species of shrubs and herbs were searched for this species without success. Searches of tiger beetle habitats such as open sandy flats, open alkaline areas around the lake, and dirt roadways also yielded no specimens.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="comments" id="SECID0EJGAC">
+          <title>Comments.</title>
+          <p>The robust form, robust, medially longitudinally tumescent rostrum with dorsal contour in lateral view evenly rounded (Fig. <xref ref-type="fig" rid="F1">2</xref>), but especially the widely separated procoxae (Fig. <xref ref-type="fig" rid="F1">3</xref>) and the distinctly tumescent and asperate base of elytral interval 3 (Figs <xref ref-type="fig" rid="F1">1–2</xref>), will readily distinguish this genus among all <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>. Such widely separated procoxae are apparently not known in any other world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>, all of which have the procoxae contiguous. The genus combines characters of the North American genera <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> Chevrolat and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> Motschulsky with the rounded tibial flange and rounded postocular lobes of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> but the robust rostrum, reduced ventral tarsal vestiture and more robust form of an <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic>. Characters used to recognize the monophyly of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> (shiny glabrous median tubercle at base of abdominal sternum VII in female) and various groups of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> (blunt tooth at apical margin of abdominal sternum VII in male, swellings anterior to front coxae, apically rounded epistoma) are not present in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figures 1–3.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>. <bold>1</bold> Dorsal habitus <bold>2</bold> Lateral habitus <bold>3</bold> Ventral habitus.</p>
+            </caption>
+            <graphic xlink:href="zookeys-785-001-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228812.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Coleoptera</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Curculionidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/04568E7E-09BB-4EB4-9115-61B760974C93</object-id>
+          </tp:taxon-name>
+          <tp:taxon-status>sp. n.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figures 1–3</xref>
+          <xref ref-type="fig" rid="F2">, 4–7</xref>
+          <xref ref-type="fig" rid="F3">, 8</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0EILAC">
+          <title>Diagnosis.</title>
+          <p>Rostrum dorsally medially longitudinally tumescent, not distinctly carinate; elytra with humerus rounded, bases of intervals 3, 5, 7, and 9 elevated and variously convex, especially base of interval 3 which is markedly tumescent and distinctly asperate.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0ENLAC">
+          <title>Description.</title>
+          <p><italic>Size.</italic> Length, male, 7.8–9.4 mm; female, 8.5–9.0 mm. Width, male, 3.5–4.2 mm; female, 3.5–4.2 mm. <italic>Head</italic>. Eye very slightly prominent and very slightly convex in dorsal view. Frons and vertex with moderately dense, moderately large, deep punctures. Frons also with sparse, short suberect golden or white hair-like scales densest immediately above eyes. Area immediately behind posterior margin of eye with small shallow indistinct punctures. Area above eyes not elevated above rest of frons (eyes not browed in anterior view). Width of frons subequal to width at apex of rostrum. Rostrum robust (width at apex 0.76–0.82 times length). Median longitudinal tumescence present, broad, low, not carinate. Dorsal and lateral punctation moderately dense, moderately deep. Dorsally, excluding epistoma, with moderately dense, short to long, recumbent elongate white hair-like scales. In lateral view with apical portion flat to very slightly declivous from point of antennal insertion to apex. Epistoma with apical margin very slightly, very broadly emarginate at middle. <italic>Pronotum</italic>. In dorsal view with lateral margins subparallel to slightly convergent from base to apical one-quarter; constricted at oblique angle anterior to apical one-quarter; apical one-quarter and base subequal in width; without distinct lateral tubercles. Dorsal and lateral punctation large, moderately dense, deep; punctures less distinct, sparser and smaller on flanks. Scales white, elongate-narrow, appressed, lacking medially from disk and dorsally from flanks, dense laterally in sinuate line and at lateral margins. Median carina slightly developed in anterior one-half or lacking. Dorsally with dense very short fine suberect white hair-like scales each situated within large puncture. Anterolateral margin with postocular rounded lobe distinct. <italic>Elytra</italic>. Very robust in general form (width at midlength 0.65–0.69 times length. In dorsal view with lateral margins arcuate throughout length. Humerus rounded, indistinct. Dorsally with bases of intervals 3, 5, 7, and 9 elevated and variously convex, especially base of interval 3 which is markedly tumescent and distinctly asperate, otherwise remainder of all intervals flat. Scales white, various in density and size; elongate-narrow, hair-like, pattern various but with larger and denser scales condensed in variously arranged patches. Wings absent. Legs. Ventral pilose vestiture of foretarsus present as fine elongate lines on apical one-half of articles I and II, and as oval pads covering apical one-half of article III; of mesotarsus present as minute apical tufts on article I, as apical small fine line on article II, and as very small oval apical pads on article III; of metatarsus present as minute apical tufts on articles I and II, and as very small oval apical tuft on article III. <italic>Abdomen</italic>. Ventral surface with uniformly moderately dense, elongate-fine recumbent white hair-like scales. <italic>Genitalia. Female</italic>. Abdominal sternum VIII with lateral arms narrow, divergent basally, markedly inwardly arcuate at about midlength then strongly convergent to apex. Gonocoxite II with stylus moderately large, apical in position. <italic>Male</italic>. Abdominal sternum VIII with paired sclerite with inner apices lacking ventral projections. Aedeagus elongate-narrow, in lateral view thickest near base; in ventral view with lateral margins slightly convergent to near apex, then strongly convergent subapically to acuminate tip. Internal sac not everted.</p>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figures 4–7.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>. <bold>4</bold> Head, dorsal view <bold>5</bold> Female genitalia, dorsal view <bold>6</bold> Aedeagus, lateral view <bold>7</bold> Aedeagus, dorsal view. Abbreviations: bc, bursa copulatrix; g ii, gonocoxite ii; s viii, sternite viii; sp, spermatheca; ss, symbiont sac; st, stylus; v, vagina.</p>
+            </caption>
+            <graphic xlink:href="zookeys-785-001-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228813.jpg"/>
+          </fig>
+          <fig id="F3" position="float" orientation="portrait">
+            <label>Figure 8.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>, distribution.</p>
+            </caption>
+            <graphic xlink:href="zookeys-785-001-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228814.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EZNAC">
+          <title>Specimens examined.</title>
+          <p>Holotype male, labelled Texas: Gaines County, McKenzie Lake, N.E. shore, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-102.320030,32.725360]}" id="NCID0ECOAC">32.72536 -102.32003</named-content></named-content>, 929m, 19.x.2016, R.S. Anderson, beach washup, 2016-205 (<named-content content-type="dwc:institutional_code">CMNC</named-content>). Paratypes, Texas: Gaines County, Highway 380, McKenzie Draw (Lake), 920m, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-102.306667,32.691667]}" id="NCID0EPOAC">32 41.5’N 102 18.4’W</named-content></named-content>, 19.x.2004, D. Brzoska (1 male, 4 females, <named-content content-type="dwc:institutional_code">CMNC</named-content>, <abbrev content-type="institution" xlink:title="Charles W. O’Brien collection, Green Valley, Arizona; C. W. O’Brien" id="ABBRID0EZOAC">CWOB</abbrev>). Pecos County, Coyanosa Draw, [31.2882 -103.1216], Rte. 285, 11.iii.1990, B. Kondratieff &amp; F. Welch (1 male, <named-content content-type="dwc:institutional_code">CMNC</named-content>). New Mexico: Lea County, County Road 164 (Ranger Lake Road), 1.3 mi. E. Highway 206, 4007’, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-103.295226,33.358278]}" id="NCID0EGPAC">33.358278 -103.295226</named-content></named-content>, 25.xi.2016, D. &amp; G. Pollock (1 female, <named-content content-type="dwc:institutional_code">CMNC</named-content>). Quay County, Highway 278, ca. 13.8 mi. S.W. San Jon, Apache Canyon, 4600’, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-103.460314,34.934684]}" id="NCID0ETPAC">34.934684 -103.460314</named-content></named-content>, 27.iii.2016, D. &amp; G. Pollock (1 female, <named-content content-type="dwc:institutional_code">ENMU</named-content>); same except 11.xii.2016 (1 female, <named-content content-type="dwc:institutional_code">CMNC</named-content>).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Derivation of species name" id="SECID0EDAAE">
+          <title>Derivation of species name.</title>
+          <p>The species is named after the Beckel family of Vancouver, Canada. William Edwin and Dorothy (née Brown) Beckel, parents of Canadian Museum of Nature President, Margaret Beckel, graciously funded the field work in October of 2016 in an attempt to collect additional specimens of the species and to discover aspects of its biology and host plants. William Beckel was president of Carleton University (Ottawa, Ontario) for the years 1979–1989 and before that President of the University of Lethbridge (Lethbridge, Alberta). Previously William Beckel was the Head of the Entomology Lab and Dorothy Beckel was the Head of the Botany Lab at the Northern Defense Research Laboratory at Fort Churchill, Manitoba in the early 1950s.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="natural history" id="SECID0EIAAE">
+          <title>Natural history.</title>
+          <p>Specimens were collected in the months of October, November, December, and March. It is possible that the species is winter active and as such has not been discovered previously. One specimen was collected dead in beach wash-up and three other specimens were collected walking on the ground. There are no plant associations known.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="comments" id="SECID0ENAAE">
+          <title>Comments.</title>
+          <p>This species bears a superficial resemblance to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="canescens">canescens</tp:taxon-name-part></tp:taxon-name></italic> (LeConte), a species found in the same general area. The large, asperate swellings at the base of elytral interval 3 and widely separated procoxae are distinctive and apparently not known in other world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>. Despite examination of thousands of specimens from almost all major museums, no specimens of this species were seen by <xref ref-type="bibr" rid="B1">Anderson (1988)</xref>.</p>
+          <p>This addition prior to couplet 1 in the key to North American <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Lixinae</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B2">Anderson 2002</xref>) or North American <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B1">Anderson 1988</xref>) will accommodate <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> (references are to figures in this paper):</p>
+          <table-wrap content-type="key" position="anchor" orientation="portrait">
+            <table id="TID0EDLAC" rules="all">
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">1'</td>
+                  <td rowspan="1" colspan="1">Procoxae widely separated by about one-half width of procoxa by globular posterior prosternal process (fig. 3). Elytra with base of interval 3 tumescent and asperate (figs 1–2), humeri absent (rounded) (fig. 1)</td>
+                  <td rowspan="1" colspan="1">
+                    <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> Anderson</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">–</td>
+                  <td rowspan="1" colspan="1">Procoxae contiguous. Elytra with base of interval 3 variously swollen or not, not asperate, humeri absent or present</td>
+                  <td rowspan="1" colspan="1">
+                    <bold>1</bold>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    </sec>
+    <sec sec-type="Phylogenetic considerations" id="SECID0EMDAE">
+      <title>Phylogenetic considerations</title>
+      <p>As noted, this genus is characterized by the distinctly tumescent and asperate base of elytral interval 3 and the widely separated procoxae, two characters apparently not shared with any other world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>. These are both significant characters, particularly the widely separated procoxae, a character used in many beetle groups as of higher taxonomic significance. With regard to the North American fauna, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic> cannot be accommodated in the genera <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> due to a combination of characters in part shared by each genus and by the lack of characters used to define the monophyly of each genus (or major part thereof). For <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic>, this is the presence of a shiny glabrous median tubercle at the base of abdominal sternum VII in the female, and for various groups of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic>, the presence of a blunt tooth at the apical margin of abdominal sternum VII in the male, prosternal swellings anterior to the front coxae, and an apically rounded epistoma. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> has reduced ventral tarsal vestiture on the middle and hind legs, and rounded humeri, character states each shared with some <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic>, and has distinct postocular lobes and an apical stylus on gonocoxite II of the female, character states shared with all or most <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scaphomorphus">Scaphomorphus</tp:taxon-name-part></tp:taxon-name></italic> but not <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apleurus">Apleurus</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      <p>The possible phylogenetic relationship of the genus with respect to the world fauna was investigated following the character analysis of world <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> presented by <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov (2017)</xref>. They scored adult morphological characters for 79 of a total of 96 extant genus-group <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> taxa considered valid to date. Their resulting matrix contained 121 parsimoniously informative characters scored for 145 ingroup (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name>) and 29 outgroup terminals. Neither the extent of procoxal separation or the condition of the base of elytral interval 3 are coded as distinct characters likely because states of these two characters in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> appear to be unique. Here, I code the 121 characters listed in <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov (2017)</xref> (not relisted here) for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>. The string of 121 character scores is as follows:</p>
+      <p>11101100100010001011000000??????100001100010100110101000000000000001010110101011110</p>
+      <p>?????????????????001000000000010000000.</p>
+      <p>No attempt was made to inflate the lobes of the internal sac of the aedeagus as done by <xref ref-type="bibr" rid="B1">Anderson (1988)</xref> and <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov (2017)</xref> and mouthparts were not dissected (hence the “?” in the string above).</p>
+      <p>The results of the new analysis places <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic> as sister to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Glebius">Glebius</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="confluens">confluens</tp:taxon-name-part></tp:taxon-name></italic> (Fahraeus) with negligibly small statistical support of 8% (see <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov [2017]</xref>, figs. 8–9 for placement of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Glebius">Glebius</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="confluens">confluens</tp:taxon-name-part></tp:taxon-name></italic>). However, as discussed by <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov (2017)</xref> their results showed that relationships within the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> remain largely unresolved with either 47 (Bayesian inference) or 37 (maximum parsimony) branches radiating from the tribe’s most recent common ancestor so this putative sister-group relationship of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part></tp:taxon-name></italic> is almost meaningless. Specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Glebius">Glebius</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="confluens">confluens</tp:taxon-name-part></tp:taxon-name></italic> (<named-content content-type="dwc:institutional_code">CMNC</named-content>) were examined but show no shared significant character states with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic>. Phylogenetic relationships of the new genus are thus best considered unknown and the genus another member of the unresolved basal comb of <xref ref-type="bibr" rid="B3">Arzanov and Grebennikov (2017)</xref>.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>François Génier (Canadian Museum of Nature, Ottawa) took the excellent images and arranged the plates. Vasily Grebennikov (Canadian Food Inspection Agency, Ottawa) assisted with phylogenetic analysis of the placement of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Purealus">Purealus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="beckelorum">beckelorum</tp:taxon-name-part></tp:taxon-name></italic> and advised with interpretation of results. Dave Brzonska (Naples, Florida), who collected the original series, provided information about the possible circumstances of capture and about the McKenzie Lake location. Darren Pollock (Eastern New Mexico University, Portales, New Mexico) generously donated New Mexico specimens and provided information about, and arranged for a trip to, Apache Canyon. Darren and George Pollock are thanked for companionship in the field. Funding for field work in 2016 was provided by the William Beckel family.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Anderson</surname><given-names>RS</given-names></name></person-group> (<year>1988</year>) <article-title>Systematics, phylogeny and biogeography of New World weevils of the tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Curculionidae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Quaestiones Entomologicae</source><volume>23</volume>: <fpage>431</fpage>–<lpage>709</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Anderson</surname><given-names>RS</given-names></name></person-group> (<year>2002</year>) <article-title>Chapter 131. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Curculionidae</tp:taxon-name-part></tp:taxon-name>.</article-title> In: <person-group><name name-style="western"><surname>Arnett</surname><given-names>Jr RH</given-names></name><name name-style="western"><surname>Thomas</surname><given-names>MC</given-names></name><name name-style="western"><surname>Skelley</surname><given-names>P</given-names></name></person-group> (<role>Eds</role>) <issue-title>American Beetles Volume 2.</issue-title><source>CRC Press, Gainesville</source>, <fpage>722</fpage>–<lpage>815</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Arzanov</surname><given-names>YG</given-names></name><name name-style="western"><surname>Grebennikov</surname><given-names>VV</given-names></name></person-group> (<year>2017</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cleonini</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Curculionidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Lixinae</tp:taxon-name-part></tp:taxon-name>) are monophyletic and flightless: tribe overview, rampant adult homoplasy and illustrated global diversity.</article-title><source>Zootaxa</source><volume>4329</volume>: <fpage>1</fpage>–<lpage>63</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/zootaxa.4329.1.1">https://doi.org/10.11646/zootaxa.4329.1.1</ext-link></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

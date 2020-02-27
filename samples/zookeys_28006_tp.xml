@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.785.28006</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Aphididae</subject>
+          <subject>Aphidoidea</subject>
+          <subject>Arthropoda</subject>
+          <subject>Hemiptera</subject>
+          <subject>Hexapoda</subject>
+          <subject>Insecta</subject>
+          <subject>Invertebrata</subject>
+          <subject>Sternorrhyncha</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Systematics</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geological_era">
+          <subject>Cenozoic</subject>
+          <subject>Neogene</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Americas</subject>
+          <subject>California</subject>
+          <subject>North America</subject>
+          <subject>USA and Canada</subject>
+          <subject>Western USA and Western Canada</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic>, a new, unusual aphid species from the USA (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Barjadze</surname>
+            <given-names>Shalva</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Jensen</surname>
+            <given-names>Andrew S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Kanturski</surname>
+            <given-names>Mariusz</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <email xlink:type="simple">kanturski.m@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-1674-1028</uri>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute of Zoology, Ilia State University, Giorgi Tsereteli 3, 0162, Tbilisi 0159, Georgia</addr-line>
+        <institution>Ilia State University</institution>
+        <addr-line content-type="city">Tbilisi</addr-line>
+        <country>Georgia</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Department of Entomology, Washington State University, Pullman, Washington, USA</addr-line>
+        <institution>Washington State University</institution>
+        <addr-line content-type="city">Pullman</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Department of Zoology, Faculty of Biology and Environmental Protection, University of Silesia in Katowice, Bankowa 9, 40–007 Katowice, Poland</addr-line>
+        <institution>University of Silesia in Katowice</institution>
+        <addr-line content-type="city">Katowice</addr-line>
+        <country>Poland</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Mariusz Kanturski (<email xlink:type="simple">mariusz.kanturski@us.edu.pl</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Roger Blackman</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>785</issue>
+      <fpage>133</fpage>
+      <lpage>143</lpage>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>6</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>8</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Shalva Barjadze, Andrew S. Jensen, Mariusz Kanturski</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/6024C277-4E57-464D-A870-5C6811015A4E</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold> living on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rosaceae</tp:taxon-name-part></tp:taxon-name>) in California is described based on apterous and alate viviparous females. The new species differs from all other species of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> Börner, 1939 in several important morphological characters including very long and rigid dorsal setae and distinctly swollen siphunculi with clearly visible polygonal reticulation.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>description</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="tribe">Macrosiphini</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>new species</kwd>
+        <kwd>taxonomy</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EOG">
+        <title>Citation</title>
+        <p>Barjadze S, Jensen AS, Kanturski M (2018) <italic>Ericaphis voegtlini</italic>, a new, unusual aphid species from the USA (Hemiptera, Aphididae). ZooKeys 785: 133–143. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.785.28006">https://doi.org/10.3897/zookeys.785.28006</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EOH">
+      <title>Introduction</title>
+      <p>The genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> was established by <xref ref-type="bibr" rid="B4">Börner (1939)</xref> for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ericae">ericae</tp:taxon-name-part></tp:taxon-name></italic> (Börner, 1933), previously described in the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Myzaphis">Myzaphis</tp:taxon-name-part></tp:taxon-name></italic> van der Goot, 1913 (<xref ref-type="bibr" rid="B11">Remaudière and Remaudière 1997</xref>). The genus comprises 12 species and most are Nearctic (<xref ref-type="bibr" rid="B3">Blackman and Eastop 2018</xref>, Favret 2018, <xref ref-type="bibr" rid="B9">Kanturski et al. 2018</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> members are characterised by well–developed median and lateral frontal tubercles, somewhat spinulous or scabrous antennae that are shorter than the body, antennal segment III usually without secondary rhinaria, first tarsal segments with 3–3–3 or 5–5–5 setae and the siphunculi <!--PageBreak-->characteristically S–curved, the cauda tongue or finger–shaped with few setae. Secondary rhinaria in alate viviparous females often have cilia–like fimbriation or striation (<xref ref-type="bibr" rid="B7">Heie 1992</xref>, <xref ref-type="bibr" rid="B6">Foottit and Richards 1993</xref>, <xref ref-type="bibr" rid="B2">Blackman 2010</xref>). The species currently placed in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> are a diverse group, and some species currently placed in other genera, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aulacorthum">Aulacorthum</tp:taxon-name-part></tp:taxon-name></italic> Mordvilko, 1914 and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Wahlgreniella">Wahlgreniella</tp:taxon-name-part></tp:taxon-name></italic> Hille Ris Lambers, 1949 are probably closely related to some of them.</p>
+      <p>The plant genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part></tp:taxon-name></italic> Benth. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rosaceae</tp:taxon-name-part></tp:taxon-name>) is a local endemic of California, USA with two shrub species: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="australis">australis</tp:taxon-name-part></tp:taxon-name></italic> (Brandegee) Abrams and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic> Benth. (<xref ref-type="bibr" rid="B10">Munz 1973</xref>; <xref ref-type="bibr" rid="B12">The Plant List 2013</xref>). Two aphid species are recorded on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">C.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic> – <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Macrosiphum">Macrosiphum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="euphorbiae">euphorbiae</tp:taxon-name-part></tp:taxon-name></italic> and “?<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> sp.” (<xref ref-type="bibr" rid="B3">Blackman and Eastop 2018</xref>). The latter species was mentioned as “<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="uncertainty-rank">sp. near</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="wakibae">wakibae</tp:taxon-name-part></tp:taxon-name> (California; <abbrev content-type="institution" xlink:title="Natural History Museum, London (United Kingdom)" id="ABBRID0ECFAC">BMNH</abbrev> colln, leg. D Hille Ris Lambers)” in the identification key to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part></tp:taxon-name></italic>–feeding aphids in <xref ref-type="bibr" rid="B1">Blackman and Eastop (2006</xref>, p. 251).</p>
+      <p>During work in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name> collection of the Natural History Museum in London (United Kingdom) specimens of the above-mentioned <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic>–like undescribed species collected by David Voegtlin on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">C.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliosa">foliosa</tp:taxon-name-part></tp:taxon-name></italic> in California, USA were found by M. Kanturski. In addition, specimens of the same species were collected by A. Jensen on the same plant and in the same area of California in 2014.</p>
+      <p>The new species, living on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic> from California, USA, is here described based on apterous and alate viviparous females sampled by David Voegtlin, D. Hille Ris Lambers, and Andrew Jensen.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EYGAC">
+      <title>Materials and methods</title>
+      <p>The specimens were examined using light microscope Nikon Eclipse E600 with differential interference contrast (DIC) and photographed by Nikon DS–Fi camera. The measurements were done according to <xref ref-type="bibr" rid="B8">Ilharco and van Harten (1987)</xref> and <xref ref-type="bibr" rid="B1">Blackman and Eastop (2006)</xref>. Measurements are given in millimetres. The following abbreviations are used:</p>
+      <p><bold><abbrev xlink:title="antennae or their lengths" id="ABBRID0EKHAC">ANT</abbrev></bold> antennae or their lengths;</p>
+      <p><bold><abbrev xlink:title="antennae or their lengths" id="ABBRID0ESHAC">ANT</abbrev> I–VI</bold> antennal segments I, II, III, IV, V, VI or their lengths (ratios between antennal segments are simply given as e.g. ‘VI: III’);</p>
+      <p><bold><abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0E2HAC">BASE</abbrev></bold> basal part of last antennal segment or its length;</p>
+      <p><bold><abbrev xlink:title="basal articular diameter of ANT III" id="ABBRID0EEIAC">BD III</abbrev></bold> basal articular diameter of <abbrev xlink:title="antennae or their lengths" id="ABBRID0EJIAC">ANT</abbrev> III;</p>
+      <p><bold><abbrev xlink:title="body length" id="ABBRID0ERIAC">BL</abbrev></bold> body length (from anterior border of the head to the end of cauda);</p>
+      <p><bold><abbrev xlink:title="hind femora length" id="ABBRID0EZIAC">FEMORA III</abbrev></bold> hind femora length;</p>
+      <p><bold><abbrev xlink:title="greatest head width across compound eyes" id="ABBRID0EAJAC">HW</abbrev></bold> greatest head width across compound eyes;</p>
+      <p><bold><abbrev xlink:title="first segment of hind tarsus" id="ABBRID0EHJAC">HT I</abbrev></bold> first segment of hind tarsus;</p>
+      <p><bold><abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EPJAC">HT II</abbrev></bold> second segment of hind tarsus or its length;</p>
+      <p><bold><abbrev xlink:title="length of longest setae of ANT III" id="ABBRID0EYJAC">LS ANT III</abbrev></bold> length of longest setae of <abbrev xlink:title="antennae or their lengths" id="ABBRID0E4JAC">ANT</abbrev> III;</p>
+      <p><bold><abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EFKAC">PT</abbrev></bold> processus terminalis of last antennal segment or its length;</p>
+      <p><bold><abbrev xlink:title="siphunculi length" id="ABBRID0EOKAC">SIPH L</abbrev></bold> siphunculi length,</p>
+      <p><bold><abbrev xlink:title="maximum width of swollen part of siphunculus" id="ABBRID0EWKAC">SIPH W</abbrev></bold> maximum width of swollen part of siphunculus;</p>
+      <p><bold><abbrev xlink:title="hind tibiae length" id="ABBRID0E6KAC">TIBIAE III</abbrev></bold> hind tibiae length;</p>
+      <p><bold><abbrev xlink:title="ultimate segments of rostrum (IV + V) or their length" id="ABBRID0EILAC">URS</abbrev></bold> ultimate segments of rostrum (IV + V) or their length.</p>
+      <p>Depositories of type material:</p>
+      <p><bold><abbrev xlink:title="Andrew S. Jensen Aphididae Collection (USA)" id="ABBRID0ESLAC">AJ</abbrev></bold> Andrew S. Jensen <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name> Collection (USA);</p>
+      <p><bold><named-content content-type="dwc:institutional_code">BMNH</named-content></bold><named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/natural-history-museum-london">Natural History Museum, London (United Kingdom)</named-content>;</p>
+      <p><bold><named-content content-type="dwc:institutional_code">DZUS</named-content></bold><named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/university-silesia">Hemiptera Collection of the Department of Zoology, University of Silesia in Katowice (Poland)</named-content>;</p>
+      <p><bold><abbrev content-type="institution" xlink:title="Institute of Zoology at Ilia State University (Georgia)" id="ABBRID0EXMAC">ISU</abbrev></bold> Institute of Zoology at Ilia State University (Georgia);</p>
+      <p><bold><named-content content-type="dwc:institutional_code">USNM</named-content></bold><named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/smithsonian-institution-national-museum-natural-history-0">National Collection of Aphidomorpha, Beltsville, MD. (USA)</named-content>.</p>
+    </sec>
+    <sec sec-type="Taxonomy" id="SECID0EMNAC">
+      <title>Taxonomy</title>
+      <sec sec-type="Aphididae Latreille, 1802" id="SECID0EQNAC">
+        <title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name> Latreille, 1802</title>
+        <sec sec-type="Ericaphis Börner, 1939" id="SECID0EMFGT">
+          <title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> Börner, 1939</title>
+          <tp:taxon-treatment>
+            <tp:treatment-meta>
+              <kwd-group>
+                <label>Taxon classification</label>
+                <kwd>
+                  <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+                </kwd>
+                <kwd>
+                  <named-content content-type="order" xlink:type="simple">Hemiptera</named-content>
+                </kwd>
+                <kwd>
+                  <named-content content-type="family" xlink:type="simple">Aphididae</named-content>
+                </kwd>
+              </kwd-group>
+            </tp:treatment-meta>
+            <tp:nomenclature>
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part>
+                <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/BBB29D9E-6287-416E-B2CD-246231AB4B57</object-id>
+              </tp:taxon-name>
+              <tp:taxon-status>sp. n.</tp:taxon-status>
+              <xref ref-type="fig" rid="F1">Figures 1</xref>
+              <xref ref-type="fig" rid="F2">, 2</xref>
+              <xref ref-type="fig" rid="F3">, 3</xref>
+              <xref ref-type="fig" rid="F4">, 4</xref>
+              <xref ref-type="table" rid="T1">; Table 1</xref>
+            </tp:nomenclature>
+            <tp:treatment-sec sec-type="diagnosis" id="SECID0EAAAE">
+              <title>Diagnosis.</title>
+              <p>Apterous viviparous females differ from other <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> by having a well–developed quadrangular median frontal tubercle, and long and rigid dorsal setae on head, thorax, and abdominal dorsum. The siphunculus is also unusually swollen and has 4–7 rows of polygonal cells in its subapical zone. The new species shares with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="avariolosa">avariolosa</tp:taxon-name-part></tp:taxon-name></italic> (David, Rajasingh &amp; Narayanan, 1971), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="leclanti">leclanti</tp:taxon-name-part></tp:taxon-name></italic> Remaudière, 1971, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="wakibae">wakibae</tp:taxon-name-part></tp:taxon-name></italic> (Hottes, 1934) some features of the siphunculus (e.g. slightly swollen with row(s) of polygonal cells in the subapical zone) but differs in the other above-mentioned characters.</p>
+              <table-wrap id="T1" position="float" orientation="portrait">
+                <label>Table 1.</label>
+                <caption>
+                  <p>Measurements of apterous and alate viviparous females of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> sp. n.</p>
+                </caption>
+                <table id="TID0EBIAC" rules="all">
+                  <tbody>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <bold>Character</bold>
+                      </td>
+                      <td rowspan="1" colspan="1"><bold>Apterous viviparous females (n=34</bold>)</td>
+                      <td rowspan="1" colspan="1">
+                        <bold>Alate viviparous females (n=22)</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="body length" id="ABBRID0E5CAE">BL</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">1.299–1.90</td>
+                      <td rowspan="1" colspan="1">1.67–2.00</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">BW</td>
+                      <td rowspan="1" colspan="1">0.540–0.900</td>
+                      <td rowspan="1" colspan="1">0.70–0.78</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="greatest head width across compound eyes" id="ABBRID0EXDAE">HW</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.32–0.39</td>
+                      <td rowspan="1" colspan="1">0.37–0.394</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="antennae or their lengths" id="ABBRID0EGEAE">ANT</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.97–1.65</td>
+                      <td rowspan="1" colspan="1">1.80–2.026</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="antennae or their lengths" id="ABBRID0EVEAE">ANT</abbrev> III</td>
+                      <td rowspan="1" colspan="1">0.20–0.38</td>
+                      <td rowspan="1" colspan="1">0.39–0.44</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="antennae or their lengths" id="ABBRID0EEFAE">ANT</abbrev> IV</td>
+                      <td rowspan="1" colspan="1">0.14–0.30</td>
+                      <td rowspan="1" colspan="1">0.35–0.4423</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="antennae or their lengths" id="ABBRID0ETFAE">ANT</abbrev> V</td>
+                      <td rowspan="1" colspan="1">0.15–0.30</td>
+                      <td rowspan="1" colspan="1">0.31–0.359</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="antennae or their lengths" id="ABBRID0ECGAE">ANT</abbrev> VI</td>
+                      <td rowspan="1" colspan="1">0.34–0.50</td>
+                      <td rowspan="1" colspan="1">0.57–0.69</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0ERGAE">BASE</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.085–0.110</td>
+                      <td rowspan="1" colspan="1">0.12–0.146</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EAHAE">PT</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.25–0.39</td>
+                      <td rowspan="1" colspan="1">0.45–0.57</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">III FEMORA</td>
+                      <td rowspan="1" colspan="1">0.34–0.64</td>
+                      <td rowspan="1" colspan="1">0.60–0.664</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">III TIBIAE</td>
+                      <td rowspan="1" colspan="1">0.5–1.12</td>
+                      <td rowspan="1" colspan="1">1.19–1.274</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EDIAE">HT II</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.07–0.08</td>
+                      <td rowspan="1" colspan="1">0.080–0.085</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Rostrum</td>
+                      <td rowspan="1" colspan="1">0.35–0.49</td>
+                      <td rowspan="1" colspan="1">0.44–0.492</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="ultimate segments of rostrum (IV + V) or their length" id="ABBRID0E3IAE">URS</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.12–0.14</td>
+                      <td rowspan="1" colspan="1">0.135–0.154</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">
+                        <abbrev xlink:title="siphunculi length" id="ABBRID0ELJAE">SIPH L</abbrev>
+                      </td>
+                      <td rowspan="1" colspan="1">0.26–0.53</td>
+                      <td rowspan="1" colspan="1">0.46–0.472</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="maximum width of swollen part of siphunculus" id="ABBRID0E1JAE">SIPH W</abbrev> (most wide part)</td>
+                      <td rowspan="1" colspan="1">0.04–0.07</td>
+                      <td rowspan="1" colspan="1">0.05–0.06</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1"><abbrev xlink:title="maximum width of swollen part of siphunculus" id="ABBRID0EJKAE">SIPH W</abbrev> (most narrow part)</td>
+                      <td rowspan="1" colspan="1">0.034–0.06</td>
+                      <td rowspan="1" colspan="1">0.035–0.05</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Cauda L</td>
+                      <td rowspan="1" colspan="1">0.125–0.22</td>
+                      <td rowspan="1" colspan="1">0.15–0.175</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="1" colspan="1">Cauda W (at base)</td>
+                      <td rowspan="1" colspan="1">0.09–0.14</td>
+                      <td rowspan="1" colspan="1">0.10–0.12</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="type material" id="SECID0EHLAE">
+              <title>Type material.</title>
+              <p><bold><italic>Holotype</italic></bold>: UNITED STATES OF AMERICA, California: Calaveras Co., Board’s Crossing, Stanislaus N. F. (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.248333,38.303611]}" id="NCID0EVLAE">38°18'13"N; 120°14'54"W</named-content></named-content>, 1180 m a.s.l.), 15 April 2014, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, A. Jensen leg., 1 apterous viviparous female marked as holotype (“H”) and circle on the slide, AJ7029, <named-content content-type="dwc:institutional_code">USNM</named-content>. <bold><italic>Paratypes</italic></bold>: the same data as the holotype, 2 apterous viviparous females, AJ7029, <abbrev xlink:title="Andrew S. Jensen Aphididae Collection (USA)" id="ABBRID0ENMAE">AJ</abbrev>; 3 apterous viviparous females, AJ7032, <abbrev xlink:title="Andrew S. Jensen Aphididae Collection (USA)" id="ABBRID0ERMAE">AJ</abbrev>; 4 apterous viviparous females, AJ7030, <abbrev xlink:title="Andrew S. Jensen Aphididae Collection (USA)" id="ABBRID0EVMAE">AJ</abbrev>; Sheep Ranch Rd. near Avery (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.397778,38.200556]}" id="NCID0E3MAE">38°12'02"N; 120°23'52"W</named-content></named-content>, 1086 m a.s.l.), 15 April 2014, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, A. Jensen leg., 2 apterous viviparous females, AJ7019; Placer Co., 3 mi. S.W. Dutch Flat HWY 80 (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.846389,39.187222]}" id="NCID0EPNAE">39°11'14"N; 120°50'47"W</named-content></named-content>, 972 m a.s.l.), 22 April 1978, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, D. Hille Ris Lambers no 33 leg., 1 apterous viviparous female, BM 1984–340, <named-content content-type="dwc:institutional_code">BMNH</named-content>; near Dutch Flat (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.846389,39.187222]}" id="NCID0EHOAE">39°11'14"N; 120°50'47"W</named-content></named-content>, 972 m a.s.l.), 22 April 1978, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, <!--PageBreak-->D. Hille Ris Lambers no 31 leg., 3 apterous viviparous females, BM 1984–340 (1 – present marking), <named-content content-type="dwc:institutional_code">DZUS</named-content>; 3 mi. S.W. Dutch Flat HWY 80 (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.846389,39.187222]}" id="NCID0EBPAE">39°11'14"N; 120°50'47"W</named-content></named-content>, 972 m a.s.l.), 23 May 1978, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, D. Hille Ris Lambers (culture) leg., 2, 1, 2, 2, 2, 2, 2, 2, 2, 2 alate viviparous females (11 slides with the same data and number), BM 1984–340, <named-content content-type="dwc:institutional_code">BMNH</named-content>; 3 alate viviparous females BM 1984-340, <named-content content-type="dwc:institutional_code">DZUS</named-content>; El Dorado Co., Sand Mtn. Blodgett (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.658333,38.906111]}" id="NCID0E5PAE">38°54'22"N; 120°39'30"W</named-content></named-content>, 1349 m a.s.l.), 21 August 1974, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, D. Voegtlin leg., 2, 2, 2, 2, 2, 2, 2, 2, 2 apterous viviparous females (9 slides with the same data and number), BM 1984–340, <named-content content-type="dwc:institutional_code">BMNH</named-content>; 2 apterous viviparous females, BM 1984–340, <abbrev content-type="institution" xlink:title="Institute of Zoology at Ilia State University (Georgia)" id="ABBRID0ETQAE">ISU</abbrev>; Sand Mtn. Blodgett (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.658333,38.906111]}" id="NCID0E2QAE">38°54'22"N; 120°39'30"W</named-content></named-content>, 1349 m a.s.l.), 21 August 1974, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, D. Voegtlin leg., 2 alate viviparous females, BM 1984–340, <abbrev content-type="institution" xlink:title="Institute of Zoology at Ilia State University (Georgia)" id="ABBRID0ELRAE">ISU</abbrev>; Sand Mtn. Blodgett (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-120.658333,38.906111]}" id="NCID0ETRAE">38°54'22"N; 120°39'30"W</named-content></named-content>, 1349 m a.s.l.), 21 August 1974, on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Ch.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic>, D. Voegtlin leg.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="description" id="SECID0EFSAE">
+              <title>Description.</title>
+              <p><italic>Apterous viviparous female</italic> (n = 34). Colour in life: dark green. On slide: body in general sclerotised, pale yellow to yellow. <abbrev xlink:title="antennae or their lengths" id="ABBRID0ENSAE">ANT</abbrev> yellow with brown distal part of <abbrev xlink:title="antennae or their lengths" id="ABBRID0ERSAE">ANT</abbrev> IV and whole <abbrev xlink:title="antennae or their lengths" id="ABBRID0EVSAE">ANT</abbrev> V–VI. Tibiae yellow with brown to dark brown distal parts (but the very apex of tibiae lighter). Tarsi light brown to brown. SIPH pale to yellow basally and brown to dark brown distally (Figure <xref ref-type="fig" rid="F1">1a</xref>).</p>
+              <p>Slide–mounted specimens: <abbrev xlink:title="greatest head width across compound eyes" id="ABBRID0E6SAE">HW</abbrev> 0.23–0.36 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0EDTAE">ANT</abbrev>. Head chaetotaxy: head with three dorsal pairs of setae; median tubercle with 4–5, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EHTAE">ANT</abbrev> tubercles each with 3–5 long, rigid, thick setae with blunt or narrow capitate apices, 0.017–0.052 mm long. Frontal setae 0.037–0.050 mm long (Figure <xref ref-type="fig" rid="F2">2a</xref>). <abbrev xlink:title="antennae or their lengths" id="ABBRID0EPTAE">ANT</abbrev> 0.70–1.04 × <abbrev xlink:title="body length" id="ABBRID0ETTAE">BL</abbrev>. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EXTAE">ANT</abbrev> III without secondary rhinaria, <abbrev xlink:title="antennae or their lengths" id="ABBRID0E2TAE">ANT</abbrev> IV slightly shorter or slightly longer than <abbrev xlink:title="antennae or their lengths" id="ABBRID0E6TAE">ANT</abbrev> V. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EDUAE">ANT</abbrev> V with ciliated primary rhinarium at the distal part. <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EHUAE">PT</abbrev> 3.00–3.54 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0ELUAE">BASE</abbrev>. Other antennal ratios: VI:III 1.31–1.87, V:III 0.67–0.78, IV:III 0.66–0.81, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EPUAE">PT</abbrev>:III 1.02–1.45, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0ETUAE">PT</abbrev>:IV 1.30–1.93, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EXUAE">PT</abbrev>:V 1.30–1.93. <abbrev xlink:title="antennae or their lengths" id="ABBRID0E2UAE">ANT</abbrev> chaetotaxy: <abbrev xlink:title="antennae or their lengths" id="ABBRID0E6UAE">ANT</abbrev> bearing very short and rigid setae with blunt apices. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EDVAE">ANT</abbrev> III setae shorter than the width of the segment, 0.007–0.020 mm long, LS III 0.41–0.90 × <abbrev xlink:title="basal articular diameter of ANT III" id="ABBRID0EHVAE">BD III</abbrev>. <abbrev xlink:title="antennae or their lengths" id="ABBRID0ELVAE">ANT</abbrev> I with 7–10, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EPVAE">ANT</abbrev> II with 4–5, <abbrev xlink:title="antennae or their lengths" id="ABBRID0ETVAE">ANT</abbrev> III with 11–17, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EXVAE">ANT</abbrev> IV with 7–16, <abbrev xlink:title="antennae or their lengths" id="ABBRID0E2VAE">ANT</abbrev> V with 7–12 setae. <abbrev xlink:title="antennae or their lengths" id="ABBRID0E6VAE">ANT</abbrev> VI with 3–5 basal, 3 apical and 5–6 setae on the <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EDWAE">PT</abbrev>. Rostrum reaching from metasternum to ABD I. <abbrev xlink:title="ultimate segments of rostrum (IV + V) or their length" id="ABBRID0EHWAE">URS</abbrev> 0.36–0.60 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0ELWAE">ANT</abbrev> III, 0.35–0.47 × <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EPWAE">PT</abbrev>, 1.20–1.50 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0ETWAE">BASE</abbrev> and 1.66–1.87 × <abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EXWAE">HT II</abbrev> with 11–19 fine and pointed accessory setae (Figure <xref ref-type="fig" rid="F2">2b</xref>). Mesosternal furca fused, wide, Y–shaped. III FEMORA bearing short, thick, rigid setae with ragged or pointed apices, 0.010–0.035 mm long. III TIBIAE bearing thick, rigid setae with ragged or flat apices, shorter than the width of tibiae, 0.007–0.041 mm long (Figure <xref ref-type="fig" rid="F2">2c</xref>). <abbrev xlink:title="first segment of hind tarsus" id="ABBRID0EDXAE">HT I</abbrev> with 3–3–3 ventral setae, <abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EHXAE">HT II</abbrev> 0.21–0.35 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0ELXAE">ANT</abbrev> III, 0.20–0.27 × <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EPXAE">PT</abbrev> and 0.70–0.82 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0ETXAE">BASE</abbrev>. SIPH tubular, slightly curved, swollen from about mid–length with distinct zone of subapical reticulation formed from 4–7 rows (Figure <xref ref-type="fig" rid="F2">2d</xref>). The reticulated zone 0.07–0.16 × SIPH. SIPH 2.08–2.76 × cauda, 0.18–0.32 × <abbrev xlink:title="body length" id="ABBRID0E2XAE">BL</abbrev>, and 1.24–1.60 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0E6XAE">ANT</abbrev> III. Abdomen sclerotised with long and thick setae in spinal, pleural and marginal positions. Dorsal setae with capitate apices, 0.015–0.047 mm long on ABD I–V and 0.040–0.065 mm long on ABD VI–VIII (Figure <xref ref-type="fig" rid="F2">2e</xref>). ABD VII with 0–2 and ABD VIII with 1–2 spinal tubercles (Figures <xref ref-type="fig" rid="F3">3a–d</xref>). Marginal tubercles on ABD II–VII, sometimes poorly–visible (Figure <xref ref-type="fig" rid="F3">3e</xref>). ABD VIII usually with 4–5 setae. Genital plate with two anterior setae which are longer than the others, 6–12 setae in the middle and 9–12 posterior setae. Cauda 1.30–2.00 × its width at base and 0.09–0.12 × <abbrev xlink:title="body length" id="ABBRID0EPYAE">BL</abbrev>, with 5–7 long and fine setae (Figure <xref ref-type="fig" rid="F2">2f</xref>).</p>
+              <fig id="F1" position="float" orientation="portrait">
+                <label>Figure 1.</label>
+                <caption>
+                  <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> sp. n. General view. <bold>a</bold> Apterous viviparous female <bold>b</bold> Alate viviparous female.</p>
+                </caption>
+                <graphic xlink:href="zookeys-785-133-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229777.jpg"/>
+              </fig>
+              <fig id="F2" position="float" orientation="portrait">
+                <label>Figure 2.</label>
+                <caption>
+                  <p>Apterous viviparous female of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> sp. n. Characters. <bold>a</bold> Head with long frontal and antennal tubercle setae <bold>b</bold> Ultimate rostral segments <bold>c</bold> Hind tibia <bold>d</bold> Siphunculus <bold>e</bold> Dorsal chaetotaxy on ABD II–IV <bold>f</bold> Cauda.</p>
+                </caption>
+                <graphic xlink:href="zookeys-785-133-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229778.jpg"/>
+              </fig>
+              <p><italic>Alate viviparous female</italic> (n=22). Colour in life: unknown. On slide: head and <abbrev xlink:title="antennae or their lengths" id="ABBRID0E21AE">ANT</abbrev> light brown to brown with basal part of Ant III and <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0E61AE">PT</abbrev> lighter. Pronotum light brown, rest of thorax brown. Wings hyaline with light brown veins (cubital veins slightly darker). Femora brown with pale proximal part and dark distal part. Tibiae yellow to light brown with brown to dark distal part. Abdomen with brown sclerotisation, SIPH brown with lighter apical part, cauda brown (Figure <xref ref-type="fig" rid="F1">1b</xref>).</p>
+              <p>Slide–mounted specimens: <abbrev xlink:title="greatest head width across compound eyes" id="ABBRID0EJ2AE">HW</abbrev> 0.18–0.21 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0EN2AE">ANT</abbrev>. Head chaetotaxy: head with four dorsal pairs of long, rigid, thick setae with capitate apices, 0.022–0.050 mm long. Frons with four setae, <abbrev xlink:title="antennae or their lengths" id="ABBRID0ER2AE">ANT</abbrev> tubercles with 2–4 setae (Figure <xref ref-type="fig" rid="F4">4a</xref>). <abbrev xlink:title="antennae or their lengths" id="ABBRID0EZ2AE">ANT</abbrev> 1.01–1.12 × <!--PageBreak--><abbrev xlink:title="body length" id="ABBRID0E52AE">BL</abbrev>. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EC3AE">ANT</abbrev> III with 6–9 secondary rhinaria (Figures <xref ref-type="fig" rid="F4">4b, c</xref>), <abbrev xlink:title="antennae or their lengths" id="ABBRID0EK3AE">ANT</abbrev> IV longer than <abbrev xlink:title="antennae or their lengths" id="ABBRID0EO3AE">ANT</abbrev> V without secondary rhinaria. <abbrev xlink:title="antennae or their lengths" id="ABBRID0ES3AE">ANT</abbrev> V with primary rhinarium with ciliated rim. <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EW3AE">PT</abbrev> 3.60–4.66 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0E13AE">BASE</abbrev>. Other antennal ratios: VI:III 1.43–1.74, V:III 0.72–0.87, IV:III 0.81–1.02, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0E53AE">PT</abbrev>:III 1.12–1.43, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EC4AE">PT</abbrev>:IV 1.25–1.53, <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EG4AE">PT</abbrev>:V 1.27–1.75. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EK4AE">ANT</abbrev> chaetotaxy: <abbrev xlink:title="antennae or their lengths" id="ABBRID0EO4AE">ANT</abbrev> with short and rigid setae with blunt apices. <abbrev xlink:title="antennae or their lengths" id="ABBRID0ES4AE">ANT</abbrev> III setae shorter than the <!--PageBreak-->width of the segment, 0.015–0.017 mm. LS III 0.68–0.87 × <abbrev xlink:title="basal articular diameter of ANT III" id="ABBRID0EY4AE">BD III</abbrev>. <abbrev xlink:title="antennae or their lengths" id="ABBRID0E34AE">ANT</abbrev> I with 7–11, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EA5AE">ANT</abbrev> II with 4–5, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EE5AE">ANT</abbrev> III with 14–20, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EI5AE">ANT</abbrev> IV with 12–16, <abbrev xlink:title="antennae or their lengths" id="ABBRID0EM5AE">ANT</abbrev> V with 9–12 setae. <abbrev xlink:title="antennae or their lengths" id="ABBRID0EQ5AE">ANT</abbrev> VI with 3–4 basal, 3–4 apical and 5–8 additional setae on the <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EU5AE">PT</abbrev>. Rostrum reaching mesosternum. <abbrev xlink:title="ultimate segments of rostrum (IV + V) or their length" id="ABBRID0EY5AE">URS</abbrev> 0.31–0.38 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0E35AE">ANT</abbrev> III, 0.25–0.30 × <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EA6AE">PT</abbrev>, 1.03–1.16 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0EE6AE">BASE</abbrev> and 1.58–1.88 × <abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EI6AE">HT II</abbrev> with 15–18 fine and pointed accessory setae. III FEMORA bearing thick, rigid setae with pointed or blunt apices, 0.015–0.027 mm long. III TIBIAE bearing long, slightly rigid, pointed or blunt setae, shorter or longer than the width of tibiae, 0.012–0.045 mm long. <abbrev xlink:title="second segment of hind tarsus or its length" id="ABBRID0EM6AE">HT II</abbrev> (Figure <xref ref-type="fig" rid="F4">4d</xref>) 0.18–0.21 × <abbrev xlink:title="antennae or their lengths" id="ABBRID0EU6AE">ANT</abbrev> III, 0.14–0.18 × <abbrev xlink:title="processus terminalis of last antennal segment or its length" id="ABBRID0EY6AE">PT</abbrev> and 0.56–0.70 × <abbrev xlink:title="basal part of last antennal segment or its length" id="ABBRID0E36AE">BASE</abbrev>. SIPH 2.67–3.06 × cauda and 0.23–0.27 × <abbrev xlink:title="body length" id="ABBRID0EBAAG">BL</abbrev>. Abdomen with two crossbars on ABD I and II and a large spino–pleural sclerotic patch on ABD III–VIII and pleuro–marginal sclerites on ABD V–VII (Figure <xref ref-type="fig" rid="F4">4e</xref>). Dorsal setae long, thick, and rigid with pointed or slightly blunt apices, 0.017–0.049 mm long on ABD I–VI and 0.037–0.067 mm long on ABD VII–VIII. ABD VII and <!--PageBreak-->VIII with spinal tubercles (Figure <xref ref-type="fig" rid="F4">4f</xref>). ABD VIII with 4–5 setae. Subgenital plate with 19–23 setae. Cauda length 1.41–1.51 × width at base, with 5–6 setae.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="etymology" id="SECID0EPAAG">
+              <title>Etymology.</title>
+              <p>The authors have the pleasure in naming the new species to honour Dr. David Voegtlin, an aphid specialist from the Illinois Natural History Survey (University of Illinois, Urbana–Champaign, USA), who was also the first collector.</p>
+            </tp:treatment-sec>
+            <tp:treatment-sec sec-type="biology" id="SECID0EUAAG">
+              <title>Biology and distribution.</title>
+              <p>The new aphid species is associated with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaebatia">Chamaebatia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="foliolosa">foliolosa</tp:taxon-name-part></tp:taxon-name></italic> Benth. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rosaceae</tp:taxon-name-part></tp:taxon-name>). Its sexual morphs and life history are unknown, but probably it is monoecious holocyclic. The aphid species is presumably endemic to California, as is its host plant.</p>
+              <fig id="F3" position="float" orientation="portrait">
+                <label>Figure 3.</label>
+                <caption>
+                  <p>Spinal and marginal tubercles in apterous viviparous females of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> sp. n. <bold>a</bold> Two pairs on ABD VII and ABD VIII <bold>b</bold> Only one tubercle on ABD VII and ABD VIII <bold>c</bold> One tubercle on ABD VII and two tubercles on ABD VIII <bold>d</bold> Only two tubercles on ABD VIII (The location of the marginal tubercles indicated by arrows) <bold>e</bold> Marginal tubercles on ABD II–VII (Tubercles on ABD I and ABD VIII indicated by arrows).</p>
+                </caption>
+                <graphic xlink:href="zookeys-785-133-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229779.jpg"/>
+              </fig>
+              <fig id="F4" position="float" orientation="portrait">
+                <label>Figure 4.</label>
+                <caption>
+                  <p>Alate viviparous female of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> sp. n. Characters. <bold>a</bold> Head <bold>b</bold><abbrev xlink:title="antennae or their lengths" id="ABBRID0EDDAG">ANT</abbrev> III with secondary rhinaria <bold>c</bold> Structure of the sensoria with visible fibriation (arrow) <bold>d</bold> Hind tarsus <bold>e</bold> Abdominal sclerotisation <bold>f</bold> Marginal tubercles on ABD VII and ABD VIII.</p>
+                </caption>
+                <graphic xlink:href="zookeys-785-133-g004.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229780.jpg"/>
+              </fig>
+            </tp:treatment-sec>
+          </tp:taxon-treatment>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Discussion" id="SECID0EUDAG">
+      <title>Discussion</title>
+      <p>Appropriate generic placement of this species was challenging due to its unusual features, including its prominent median frontal tubercle, robust dorsal setae, and swollen reticulated siphunculi. It was tempting to consider this aphid the first of a new genus. In the end we opted for placement in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> for a few reasons. First, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> shares important features with most <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic>, including the presence of a median frontal tubercle (albeit more extreme), typically two pairs of lateral setae on the cauda <!--PageBreak-->(plus one dorso–apical seta), dorsal pigmented abdominal patch in the alate vivipara, no secondary rhinaria on antennal segment III in the apterous vivipara, and relatively few and large secondary rhinaria on antennal segment III in the alate vivipara. Second, there are western North American species scattered among at least three genera (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aulacorthum">Aulacorthum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Wahlgreniella">Wahlgreniella</tp:taxon-name-part></tp:taxon-name></italic>) that share many features and that may be closely related. Ideally, the generic classification of these aphids should be done as a more comprehensive study, using all the similar and related species currently placed in these, and possibly other, genera. Third, the aphids of western North America are still in need of basic discovery work in the field. The second author spends hundreds of hours each year collecting aphids and making field observations, and has discovered, and continues to discover, many new species and host plant relationships (see <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://aphidtrek.org/">http://aphidtrek.org/</ext-link>), including isolated samples and observations of aphids related to the above–mentioned genera. Comprehensive analysis of the relevant generic classification, therefore, is best delayed until more of the currently undescribed and undiscovered aphid species are documented and described. In the meantime, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="voegtlini">voegtlini</tp:taxon-name-part></tp:taxon-name></italic> is a distinctive, easily recognised species that feeds on an unusual plant with a very limited distribution, and interim placement of it in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> is a practical choice. We hope that by publishing its description we will draw attention to the possible undiscovered diversity of this aphid group in North America.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are sincerely grateful to Paul A. Brown and David Ouvrard (Natural History Museum, London, UK), for their kind help and support during visits to the collection as well as for the loan of the many <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericaphis">Ericaphis</tp:taxon-name-part></tp:taxon-name></italic> slides. We would like to thank the reviewers Juan Manuel Nieto Nafría and Andrey V. Stekolshchikov as well as to Roger Blackman for all comments and suggestions that improved the first version of the manuscript.</p>
+      <p>Mariusz Kanturski gratefully acknowledges the Scholarship for Outstanding Young Scientists from the Ministry of Science and Higher Education of Poland (1165/E–340/STYP/12/17).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Blackman</surname><given-names>RL</given-names></name><name name-style="western"><surname>Eastop</surname><given-names>VF</given-names></name></person-group> (<year>2006</year>) <source>Aphids on the World’s Herbaceous Plants and Shrubs.</source><publisher-name>John Wiley &amp; Sons</publisher-name>, <publisher-loc>Ltd., West Sussex</publisher-loc>, <size units="page">1439 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Blackman</surname><given-names>RL</given-names></name></person-group> (<year>2010</year>) <source>Aphids – <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphidinae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Macrosiphini</tp:taxon-name-part></tp:taxon-name>). Handbook for identification of British insects. Vol. 2, Part 7.</source><publisher-name>Royal Entomological Society</publisher-name>, <publisher-loc>London</publisher-loc>, <size units="page">413 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Blackman</surname><given-names>RL</given-names></name><name name-style="western"><surname>Eastop</surname><given-names>VF</given-names></name></person-group> (<year>2018</year>) Aphids on the World’s Plants. An online identification and information guide. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.aphidsonworldsplants.info">http://www.aphidsonworldsplants.info</ext-link> [accessed June 2018]</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Börner</surname><given-names>C</given-names></name></person-group> (<year>1939</year>) <article-title>Neue Gatungen und Arten der mitteleuropäischen Aphidenfauna.</article-title><source>Arbeiten über physiologische und angewandte Entomologie aus Berlin-Dahlem</source><volume>6</volume>: <fpage>75</fpage>–<lpage>83</lpage>.</mixed-citation>
+      </ref>
+      <!--PageBreak-->
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Favret</surname><given-names>C</given-names></name></person-group> (<year>2017</year>) Aphid Species File. Version 5.0/5.0. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://Aphid.SpeciesFile.org">http://Aphid.SpeciesFile.org</ext-link> [accessed June 2018]</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Foottit</surname><given-names>RG</given-names></name><name name-style="western"><surname>Richards</surname><given-names>WR</given-names></name></person-group> (<year>1993</year>) <article-title>The genera of the aphids of Canada. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Homoptera</tp:taxon-name-part></tp:taxon-name>: aphidoidea and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Phylloxeroidea</tp:taxon-name-part></tp:taxon-name>.</article-title><source>The Insects and Arachnids of Canada</source><volume>22</volume>: <fpage>1</fpage>–<lpage>766</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Heie</surname><given-names>OE</given-names></name></person-group> (<year>1992</year>) <article-title>Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name>: Part 1 of tribe <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Macrosiphini</tp:taxon-name-part></tp:taxon-name> of subfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphidinae</tp:taxon-name-part></tp:taxon-name>. Vol. IV.</article-title><source>Fauna Entomologica Scandinavica</source><volume>25</volume>: <fpage>1</fpage>–<lpage>189</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Ilharco</surname><given-names>FA</given-names></name><name name-style="western"><surname>van Harten</surname><given-names>A</given-names></name></person-group> (<year>1987</year>) <article-title>Systematics.</article-title> In: <person-group><name name-style="western"><surname>Minks</surname><given-names>AK</given-names></name><name name-style="western"><surname>Harrewijn</surname><given-names>P</given-names></name></person-group> (<role>Eds</role>) <issue-title>Aphids: their biology, natural enemies and control.</issue-title><source>Elsevier Science Publishers, Amsterdam</source>, <fpage>51</fpage>–<lpage>77</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kanturski</surname><given-names>M</given-names></name><name name-style="western"><surname>Barjadze</surname><given-names>S</given-names></name><name name-style="western"><surname>Jensen</surname><given-names>AS</given-names></name><name name-style="western"><surname>Wieczorek</surname><given-names>K</given-names></name></person-group> (<year>2018</year>) A comparative morphological revision of the aphid genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Myzaphis</tp:taxon-name-part></tp:taxon-name></italic> van der Goot, 1913 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name>) revealed a new genus and three new species. PLoS ONE 13(3): e0193775. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1371/journal.pone.0193775">https://doi.org/10.1371/journal.pone.0193775</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Munz</surname><given-names>PA</given-names></name></person-group> (<year>1973</year>) <source>A California Flora and Supplement.</source><publisher-name>University of California Press</publisher-name>, <publisher-loc>Berkeley and Los Angeles</publisher-loc>, <size units="page">1905 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Remaudière</surname><given-names>G</given-names></name><name name-style="western"><surname>Remaudière</surname><given-names>M</given-names></name></person-group> (<year>1997</year>) <source>Catalogue des <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name> du Monde. Catalogue of the World’s <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphididae</tp:taxon-name-part></tp:taxon-name>.</source><publisher-name>INRA</publisher-name>, <publisher-loc>Paris</publisher-loc>, <size units="page">473 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><institution xlink:type="simple">The Plant List</institution> (<year>2013</year>) The Plant List, Version 1.1. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.theplantlist.org/">http://www.theplantlist.org/</ext-link> [accessed August 2018]</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+<head/></article>

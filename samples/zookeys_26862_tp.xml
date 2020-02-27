@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.783.26862</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Anthozoa</subject>
+          <subject>Hydrozoa</subject>
+          <subject>Leptothecata</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Biogeography</subject>
+          <subject>Faunistics &amp; Distribution</subject>
+          <subject>Species Inventories</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Australia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Two new species of Hydromedusae from Queensland, Australia (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Leptothecata</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Uribe-Palomino</surname>
+            <given-names>Julian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">julian.uribepalomino@csiro.au</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6867-2108</uri>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Pausina</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Gershwin</surname>
+            <given-names>Lisa-ann</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">CSIRO Oceans &amp; Atmosphere, Queensland Bioscience Precinct (80), 306 Carmody Road, St Lucia, Brisbane, Queensland, Australia 4067</addr-line>
+        <institution>CSIRO Oceans &amp; Atmosphere</institution>
+        <addr-line content-type="city">Brisbane</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">School of Biological Sciences, University of Queensland, St Lucia, Queensland, Australia 4072</addr-line>
+        <institution>University of Queensland</institution>
+        <addr-line content-type="city">St. Lucia</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">CSIRO Oceans &amp; Atmosphere, Castray Esplanade, Hobart, Tasmania, Australia 7000</addr-line>
+        <institution>CSIRO Oceans &amp; Atmosphere</institution>
+        <addr-line content-type="city">Hobart</addr-line>
+        <country>Australia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Julian Uribe-Palomino (<email xlink:type="simple">julian.uribepalomino@csiro.au</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: J. Reimer</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>3</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>783</issue>
+      <fpage>17</fpage>
+      <lpage>36</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>5</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Julian Uribe-Palomino, Sarah Pausina, Lisa-ann Gershwin</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/B5F2AF47-7FA8-4F22-98AF-DAB94EB777CB</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>Two new species of small hydromedusae were found during routine monitoring in coastal waters of eastern Australia and are here described. The first, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> Uribe-Palomino &amp; Gershwin, <bold>sp. n.</bold>, from Moreton Bay, Queensland, is placed in its genus because of its possession of both cordyli and eight-fold symmetry. It differs from its congeners in two conspicuous features: firstly, having small, oval split gonads located adjacent to the base of the stomach, and secondly, in its extremely small size at maturity (2 mm bell diameter, compared to the next smallest species at 7 mm). Moreover, it possesses a unique combination of other characters. This species appears to be endemic to Moreton Bay. The second new species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> Gershwin &amp; Uribe-Palomino, <bold>sp. n.</bold>, from the Great Barrier Reef, Queensland, is placed in its genus because of its two opposite normal tentacles and two opposite marginal clusters of cirri. It differs from its congeners primarily in a more rounded body than the others; the shape, length, and position of its short spindle-shaped, distal gonads; possession of subumbrellar nematocyst clusters; and possession of statocysts. These discoveries bring the total number of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> species to eight and the total number of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic> species to three. The discovery of these two micromedusae underscores the need for further examination of the often-ignored minute and/or gelatinous fauna.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>coastal ecology</kwd>
+        <kwd>endemic</kwd>
+        <kwd>gelatinous zooplankton</kwd>
+        <kwd>Great Barrier Reef</kwd>
+        <kwd>IMOS</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Laodiceidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Lovenellidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="subphylum">Medusozoa</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>systematics</kwd>
+        <kwd>taxonomy</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0ETG">
+        <title>Citation</title>
+        <p>Uribe-Palomino J, Pausina S, Gershwin L-a (2018) Two new species of Hydromedusae from Queensland, Australia (Hydrozoa, Leptothecata). ZooKeys 783: 17–36. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.783.26862">https://doi.org/10.3897/zookeys.783.26862</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EIH">
+      <title>Introduction</title>
+      <p>Increasing global scientific attention on jellyfish has focused mostly on large and conspicuous species; however, approximately 90% of jellyfish species are small and rarely noticed (<xref ref-type="bibr" rid="B8">Gershwin 2013</xref>). Only one longitudinal study on small medusae has been published, finding a five-fold increase in biomass and a complete shift in species dominance over a 20 year period in Jiaozhou Bay, China (<xref ref-type="bibr" rid="B22">Sun et al. 2012</xref>), suggesting that they might be more important ecologically than previously appreciated. Elsewhere, however, these smaller species have been virtually ignored.</p>
+      <p>Around Australia, gelatinous zooplankton are now routinely monitored along with other plankton, under the umbrella of the Australian Plankton Survey, a collaboration between the Integrated Marine Observing System (<abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0EYH">IMOS</abbrev>) and the Commonwealth Scientific Industrial Research Organisation (<abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0E4H">CSIRO</abbrev>). Four recent sampling programs under this umbrella have collected numerous specimens comprising two species of hydromedusae new to science.</p>
+      <p>Seven species of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> have been described since it was proposed by Haeckel in 1879. Five of those species have been found in tropical and subtropical waters of the northern hemisphere. The remaining two species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> Kramp (1961) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="rosea">rosea</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B3">Bouillon (1984)</xref>, were both found in the tropics of the southern hemisphere, in coastal waters of the Great Barrier Reef (<abbrev xlink:title="Great Barrier Reef" id="ABBRID0EGBAC">GBR</abbrev>) and Papua New Guinea (<abbrev xlink:title="Papua New Guinea" id="ABBRID0EKBAC">PNG</abbrev>) respectively. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic> is another genus of micromedusa with only two species recorded in the Western Pacific, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic> Xu &amp; Huang (2004), from the waters of the Taiwan Strait and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B3">Bouillon (1984)</xref>, from <abbrev xlink:title="Papua New Guinea" id="ABBRID0EPCAC">PNG</abbrev> (Figure <xref ref-type="fig" rid="F1">1</xref>).</p>
+      <p>Here, we describe two new species from Queensland coastal waters, the first, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n., is based on a few specimens collected in Moreton Bay, and the second, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n., is based on a single specimen from tropical waters of the <abbrev xlink:title="Great Barrier Reef" id="ABBRID0EPDAC">GBR</abbrev>. Both new species constitute the most southerly record for their respective genus. Neither of these species has been found in any other area of Australia or the world, suggesting endemism to eastern Australian waters. The purpose of this paper is to describe these two new species, thus adding to our baseline knowledge of Australia’s marine biodiversity.</p>
+      <fig id="F1" position="float" orientation="portrait">
+        <label>Figure 1.</label>
+        <caption>
+          <p><bold>A</bold> Distribution of type localities of species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic><bold>B</bold> Locations in Moreton Bay, Queensland, Australia, where <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. was collected.</p>
+        </caption>
+        <graphic xlink:href="zookeys-783-017-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226186.jpg"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0E4EAC">
+      <title>Materials and methods</title>
+      <sec sec-type="Specimen collection" id="SECID0EBFAC">
+        <title>Specimen collection</title>
+        <p>Specimens were collected as part of four separate studies in Queensland, Australia, three in the subtropics and one in the tropics. The locations where the specimens were found and the distribution of their congeners is shown in Figure <xref ref-type="fig" rid="F1">1A, B</xref>.</p>
+        <p>Study 1: University of Queensland PhD project (Sarah Pausina), four specimens December 2010 to April 2011. Specimens were collected as part of a study on the zooplankton community dynamics within Moreton Bay, a shallow subtropical embayment. Stations along a salinity and nutrient gradient were sampled from the eutrophic Brisbane River mouth to the oligotrophic, oceanic-influenced Rous Channel. A 0.2 m mouth diameter, 100 µm mesh net fitted with a non-filtering cod-end (0.75 L) was towed horizontally within 1 m of the surface at approximately 1 m s<sup>-1</sup> for 3-5 minutes during daylight hours.</p>
+        <p>Study 2: <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0EVFAC">CSIRO</abbrev>, 3 specimens, March to December 2011. Specimens were collected as part of a project to evaluate the impact of the January 2011 Brisbane floods on the Moreton Bay area. Samples were collected every three months for one year from 13 sites around Moreton Bay, using a conical net with a 0.5 m diameter mouth and 100 μm mesh. The net was towed for 2 minutes at 1.5–2 knots following a linear transect collecting samples from the surface to 2 m deep.</p>
+        <p>Study 3: <abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0E3FAC">IMOS</abbrev> and <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0EBGAC">CSIRO</abbrev>, 3 specimens, May 2013 and April 2014. Qualitative samples were collected as a supplement to the Moreton Bay plankton monitoring project. These samples were collected from Rous Channel in eastern Moreton Bay using a conical net of 0.5 m mouth diameter and 140 μm mesh. The net was towed at 1.5–2 knots following a linear transect collecting samples from the surface to 2 m deep.</p>
+        <p>Study 4: <abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0EIGAC">IMOS</abbrev> and <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0ENGAC">CSIRO</abbrev>, 1 specimen, September 2016. The specimen was collected during routine monitoring of zooplankton at the <abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0ESGAC">IMOS</abbrev> National Reference Station near the <italic>SS Yongala</italic> shipwreck site, south-east of Townsville, Queensland, Australia. The sample was collected during a vertical tow descending from the surface to 28 m depth, using a conical net with a mouth diameter of 0.6 m and 100 μm mesh.</p>
+        <p>Samples collected from the different projects were fixed and preserved in 10% formalin.</p>
+      </sec>
+      <sec sec-type="Microscopic study" id="SECID0E1GAC">
+        <title>Microscopic study</title>
+        <p>All specimens were examined in a preserved state. Bulk samples were sorted under a Leica M165C stereo microscope. Specimens were photographed with a Canon EOS-5D camera adapted to the microscope by a 2.5x Leica optical tube. High quality images of the specimens were produced by stacking multiple pictures from different depth planes with Helicon focus 6.7.1 software.</p>
+        <p>Nematocyst slides from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. were prepared as described in <xref ref-type="bibr" rid="B7">Gershwin (2006)</xref> using Glycergel mounting medium, examined under a compound microscope with a 63x objective, and photographed with an iPhone 6s Plus held to the lens.</p>
+      </sec>
+      <sec sec-type="methods" id="SECID0EQHAC">
+        <title>Additional methods</title>
+        <p>Distribution maps were produced using the packages ‘map’ and ‘mapdata’ for the statistical computing and graphics software R 3.3.3 (R-Project) and the application RStudio 1.1.136 (RStudio).</p>
+        <p>Non-English descriptions were converted to text with OnlineOCR (<ext-link xlink:type="simple" ext-link-type="uri" xlink:href="https://www.onlineocr.net/">https://www.onlineocr.net/</ext-link>) and translated online with Google Translate (<ext-link xlink:type="simple" ext-link-type="uri" xlink:href="https://translate.google.com.au/">https://translate.google.com.au/</ext-link>). Abbreviations used in the text: Bell diameter (BD) and stomach diameter (SD).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Systematics" id="SECID0ECIAC">
+      <title>Systematics</title>
+      <sec sec-type="Order LEPTOTHECATA Cornelius, 1992" id="SECID0EGIAC">
+        <title>Order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">LEPTOTHECATA</tp:taxon-name-part></tp:taxon-name> Cornelius, 1992</title>
+        <sec sec-type="Family LAODICEIDAE Agassiz, 1862" id="SECID0EQIAC">
+          <title>Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LAODICEIDAE</tp:taxon-name-part></tp:taxon-name> Agassiz, 1862</title>
+          <sec sec-type="Genus Melicertissa Haeckel, 1879" id="SECID0E1IAC">
+            <title>Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> Haeckel, 1879</title>
+            <tp:taxon-treatment>
+              <tp:treatment-meta>
+                <kwd-group>
+                  <label>Taxon classification</label>
+                  <kwd>
+                    <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+                  </kwd>
+                  <kwd>
+                    <named-content content-type="order" xlink:type="simple">Leptothecata</named-content>
+                  </kwd>
+                  <kwd>
+                    <named-content content-type="family" xlink:type="simple">Laodiceidae</named-content>
+                  </kwd>
+                </kwd-group>
+              </tp:treatment-meta>
+              <tp:nomenclature>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part>
+                  <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/0DAF2DB1-E865-441B-885E-7A2031F320EA</object-id>
+                </tp:taxon-name>
+                <tp:taxon-authority>Uribe-Palomino &amp; Gershwin</tp:taxon-authority>
+                <tp:taxon-status>sp. n.</tp:taxon-status>
+                <xref ref-type="fig" rid="F2">Figures 2</xref>
+                <xref ref-type="fig" rid="F3">, 3</xref>
+                <xref ref-type="fig" rid="F4">, 4</xref>
+              </tp:nomenclature>
+              <tp:treatment-sec sec-type="Synonymy" id="SECID0E2KAC">
+                <title>Synonymy.</title>
+                <p>?<italic>Melicertiasa</italic> Haeckel, 1879 [incorrect spelling of Haeckel’s genus]: <xref ref-type="bibr" rid="B15">Munro 1940</xref>: 74. No figures or tables related to this specimen.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="type material" id="SECID0EMLAC">
+                <title>Type material.</title>
+                <p><bold><italic>Holotype</italic></bold>: QM G335899, Male, BD ca. 2 mm, tentacles six well developed and two rudimentary (Figures <xref ref-type="fig" rid="F2">2A, B, C</xref>; <xref ref-type="fig" rid="F4">4B, C</xref>); Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.390000,-27.380000]}" id="NCID0ECMAC">27.38°S, 153.39°E</named-content></named-content>, 1 m, (Study 1), coll. S. Pausina, 15 Feb 2011.</p>
+                <p><bold><italic>Paratypes</italic></bold>: QM G335904, Lot of two specimens, both male, BD ca. 2 mm, SD ca. 1 mm, hemi-gonad: 0.8 mm × 0.3 mm, tentacular bulbs seven, one clearly missing, base ca. 0.6 mm diameter (Figure <xref ref-type="fig" rid="F3">3B</xref>), Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.170000,-27.350000]}" id="NCID0EVMAC">27.35°S, 153.17°E</named-content></named-content>, 1 m, (Study 1), coll. S. Pausina, 3 Dec 2010.</p>
+                <p>QM G335903, very poor condition, BD ca. 2 mm (Not figured), Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.390000,-27.380000]}" id="NCID0E6MAC">27.38°S, 153.39°E</named-content></named-content>, 1 m, (Study 1), coll. S. Pausina, 19 Apr 2011.</p>
+                <p>QM G335902, Male, BD ca. 2.4 mm, hemi-gonad: 0.8-0.9 mm x 0.3 mm, tentacle bulbs seven (five well developed, plus two small ones), base ca. 0.6 mm (Figure <xref ref-type="fig" rid="F4">4D</xref>), Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.220000,-27.160000]}" id="NCID0ENNAC">27.16°S, 153.22°E</named-content></named-content> (Study 2, (<abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0ESNAC">CSIRO</abbrev> MB55)), 1-2 m, coll. <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0EXNAC">CSIRO</abbrev>, 27 May 2011.</p>
+                <p>QM G335900, Male, flattened specimen, BD ca. 2 mm. (Not figured); Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.080000,-27.280000]}" id="NCID0EBOAC">27.28°S, 153.08°E</named-content></named-content>, (Study 2), (<abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0EGOAC">CSIRO</abbrev> MB74), 1-2 m, coll. <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0ELOAC">CSIRO</abbrev>, 19 Dec 2011.</p>
+                <p>QM G335901, Female, flattened specimen, eigth tentacles, BD ca. 2 mm (Figure <xref ref-type="fig" rid="F3">3A</xref>), Rous Channel, Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.340000,-27.290000]}" id="NCID0EZOAC">27.29°S, 153.34°E</named-content></named-content>, 1-2 m, (Study 3); coll. <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0E5OAC">CSIRO</abbrev> 8 Apr 2014.</p>
+                <fig id="F2" position="float" orientation="portrait">
+                  <label>Figure 2.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. Holotype QM G335899. <bold>A</bold> Habitus, ventral view <bold>B</bold> Detail of tentacle and cordylis <bold>C</bold> Lateral view. Scale bars: 1 mm (<bold>A, C</bold>); 200 µm (<bold>B</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226187.jpg"/>
+                </fig>
+                <fig id="F3" position="float" orientation="portrait">
+                  <label>Figure 3.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. <bold>A</bold> Paratype QM G335901, female specimen; note ova on gonads (arrows) <bold>B</bold> Paratype lot of two, QM G335904. Scale bar: 1 mm (<bold>A, B</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226188.jpg"/>
+                </fig>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="material" id="SECID0EEBAE">
+                <title>Other material.</title>
+                <p>QM G335905, QM G335906, microscope slide nematocyst preparations, Moreton Bay, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[153.000000,-27.000000]}" id="NCID0ENBAE">27°S, 153°E</named-content></named-content>, coll. <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0ESBAE">CSIRO</abbrev>, 19/3/2011-20/5/2013 (Figure <xref ref-type="fig" rid="F4">4E, F</xref>).</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="diagnosis" id="SECID0E2BAE">
+                <title>Diagnosis.</title>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> with pairs of small oval hemi-gonads near the base of each radial canal; with eight tentacles and approximately two cordyli and one statocyst between successive tentacles; with an extremely small body size at maturity (ca. 2 mm).</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="description" id="SECID0EICAE">
+                <title>Description of holotype.</title>
+                <p>Umbrella isosceles trapezoid-shaped in lateral view, aborally flattened, with the margin curving inwards at the edges, possibly due to preservation (Figure <xref ref-type="fig" rid="F2">2A, C</xref>). Velum well developed, encircling the inner side of the umbrellar margin, ca. 1/3 radius (Figure <xref ref-type="fig" rid="F2">2A</xref>).</p>
+                <p>Tentacles eight, six fully developed and two incompletely developed; hollow; coiled; more or less evenly located around the bell margin (Figure <xref ref-type="fig" rid="F2">2A–C</xref>). Tentacle bulbs voluminous, heart-shaped, short; approximately 0.3 mm across the base. Two ventral rows of nematocysts run parallel along the length of the tentacles (Figure <xref ref-type="fig" rid="F2">2B</xref>).</p>
+                <p>Cordyli club-shaped with a swollen end and slender stalk, almost half as long as the tentacle bulbs (Figure <xref ref-type="fig" rid="F2">2B</xref>), typically two between adjacent tentacles, ca. 200 μm long; with a nematocyst cap (Figure <xref ref-type="fig" rid="F4">4B, C</xref>).</p>
+                <!--PageBreak-->
+                <p>Between adjacent cordyli typically lies another structure different in form, here interpreted as a statocyst. Compared to the tapered stalk of the cordylus, this structure is more evenly columnar or thimble-shaped with straight sides and a rounded distal end (Figure <xref ref-type="fig" rid="F2">2A, C</xref>). No cirri were observed associated with the tentacles or the umbrella margin.</p>
+                <p>Stomach amorphously round-ish, broad, nearly 1/2 BD in width (Figure <xref ref-type="fig" rid="F2">2A</xref>). Manubrium sculpted into eight vertical ridges, similar in appearance to a Greek column. Mouth shaped into eight smoothly rounded lobes with a simple margin (Figure <xref ref-type="fig" rid="F2">2A</xref>). In lateral view, the stomach occupies almost half the bell cavity, and the mouth nearly reaches the bell margin (Figure <xref ref-type="fig" rid="F2">2C</xref>).</p>
+                <p>Radial canals eight, relatively broad, straight-sided throughout length, clearly visible from the stomach to the ring canal (best illustrated in Figure <xref ref-type="fig" rid="F4">4D</xref> in paratype QM G335902).</p>
+                <p>Gonads in eight pairs of oval hemi-gonads straddling each radial canal adjacent to the stomach, occupying the proximal third of each radial canal (Figure <xref ref-type="fig" rid="F2">2A</xref>). Each hemi-gonad is voluminous with a smooth surface, interpreted to be male; approximately 230 μm long and half as wide.</p>
+                <p>Colour not noted in living specimen, but preserved specimen has a transparent bell with brown gonads, tentacle bulbs and stomach.</p>
+                <fig id="F4" position="float" orientation="portrait">
+                  <label>Figure 4.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. <bold>A</bold> Non-type specimen lost during study, inverted, note dark pigmenting of tentacle bulbs and ocelli (arrow) <bold>B</bold> Holotype QM G335899, cordylus, note cap-like position of nematocysts <bold>C</bold> Holotype QM G335899, cordylus, detail of nematocysts <bold>D</bold> Paratype QM G335902, note conspicuous radial canals (e.g., arrow) <bold>E</bold> tentacular nematocysts <bold>F</bold> nematocyst from whole body squash (QM G335905 and QM G335906 collectively). Scale bars: 1 mm (<bold>A, D</bold>); 50 µm (<bold>B, C</bold>); 20 µm (<bold>E, F</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g004.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226189.jpg"/>
+                </fig>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="type locality" id="SECID0EWFAE">
+                <title>Type locality.</title>
+                <p>Moreton Bay, Queensland, Australia.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="variation" id="SECID0E2FAE">
+                <title>Variation from holotype.</title>
+                <p>One specimen (QM G335901) has lumpy gonads with obvious ova (Figure <xref ref-type="fig" rid="F3">3A</xref>), and is interpreted as a mature female. All other paratypes, which are nearly the same size, have smooth gonads and are interpreted as male.</p>
+                <p>Three of the specimens (two in lot QM G335904, and one in QM G335902) are each missing one tentacle bulb; these are not variants in merosity, but rather, they are octamerous with one bulb simply absent (Figure <xref ref-type="fig" rid="F3">3B</xref>). The holotype also has two tentacles in various stages of development, as one might expect following an injury (Figure <xref ref-type="fig" rid="F2">2A</xref>).</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Colour" id="SECID0EPGAE">
+                <title>Colour.</title>
+                <p>Paratypes have a transparent and colourless bell and cordyli, pale yellowish gonads, and darkly pigmented tentacle bulbs. A black ocellus is found at the base of each tentacle and cordylus (Figure <xref ref-type="fig" rid="F4">4A</xref>).</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Nematocysts" id="SECID0EZGAE">
+                <title>Nematocysts.</title>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. has a cnidome of two size classes of oval cnidae on the tentacles (Figure <xref ref-type="fig" rid="F4">4E</xref>). There is only one size class of oval cnidae on the body (Figure <xref ref-type="fig" rid="F4">4F</xref>) and cordyli (Figure <xref ref-type="fig" rid="F4">4B, C</xref>).</p>
+                <p>On the tentacles, the larger size class is nearly 19 μm long by 10 μm wide, and bears a conspicuous barb on the free (= aboral) end of the undischarged shaft; we interpret this type as a stenotele. The smaller size class is approximately half the size of the larger, and bears a conspicuous v-shaped notch on the free (= aboral) end; we interpret this type as a microbasic <italic>p</italic>-mastigophore.</p>
+                <p>On the cordyli, nematocysts are scattered throughout the tip in a distal cap. The cordyli nematocysts are similar in shape but smaller in size (8 μm) than the small size class on the tentacles. However, we were unable to observe internal structures and were unable study them directly (Figure <xref ref-type="fig" rid="F4">4B, C</xref>).</p>
+                <!--PageBreak-->
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="etymology" id="SECID0EBIAE">
+                <title>Etymology.</title>
+                <p>The specific epithet, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa"/><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic>, is given to honour Professor Anthony J. Richardson of <abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0ERIAE">CSIRO</abbrev> and the University of Queensland. Anthony has encouraged and supported the research of plankton from Moreton Bay and around Australia through the Australian Plankton Survey.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Environmental notes" id="SECID0EWIAE">
+                <title>Environmental notes.</title>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> has been found throughout the warmer months of the year from December to May, in salinities from 26–34 PSU and water temperatures from 18.84–26.5°C.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Systematic remarks" id="SECID0EHJAE">
+                <title>Systematic remarks.</title>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> is the eighth species in the genus (Table <xref ref-type="table" rid="T1">1</xref>). Its gonads make it entirely unique within the genus, as these organs in other species are linear and either tapering, sinuous, or foliaceous, whereas in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> they are small and oval in tight pairs. Another distinguishing feature is that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> is much smaller than its congeners, being less than 30% the size of the other smaller species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="mayeri">mayeri</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B10">Kramp (1959)</xref> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="platygastra">platygastra</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B16">Nair (1951)</xref>.</p>
+                <table-wrap id="T1" position="float" orientation="portrait">
+                  <label>Table 1.</label>
+                  <caption>
+                    <p>Summary of main features from each one of the known species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic>. Data from original species descriptions along with <xref ref-type="bibr" rid="B14">Mayer (1910)</xref> and <xref ref-type="bibr" rid="B11">Kramp (1961a)</xref>. Abbreviations: bell diameter (BD), radial canals (RC).</p>
+                  </caption>
+                  <table id="TID0EHAAE" rules="all">
+                    <tbody>
+                      <tr>
+                        <th rowspan="1" colspan="1">Species</th>
+                        <th rowspan="1" colspan="1">BD</th>
+                        <th rowspan="1" colspan="1">Bell shape</th>
+                        <th rowspan="1" colspan="1">Stomach</th>
+                        <th rowspan="1" colspan="1">Mouth</th>
+                        <th rowspan="1" colspan="1">Gonads</th>
+                        <th rowspan="1" colspan="1">Tentacles</th>
+                        <th rowspan="1" colspan="1">Cordyli</th>
+                        <th rowspan="1" colspan="1">Ocelli</th>
+                        <th rowspan="1" colspan="1">Cirri</th>
+                        <th rowspan="1" colspan="1">Locality</th>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> Neppi, 1915</td>
+                        <td rowspan="1" colspan="1">46 mm</td>
+                        <td rowspan="1" colspan="1">Flatter than hemisphere, with thick jelly</td>
+                        <td rowspan="1" colspan="1">Short</td>
+                        <td rowspan="1" colspan="1">8 short crenulated lips</td>
+                        <td rowspan="1" colspan="1">Linear along length of RC</td>
+                        <td rowspan="1" colspan="1">24</td>
+                        <td rowspan="1" colspan="1">3–5 between adjacent tentacles</td>
+                        <td rowspan="1" colspan="1">On each cordylus</td>
+                        <td rowspan="1" colspan="1">More # than cordyli</td>
+                        <td rowspan="1" colspan="1">Adriatic sea</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="clavigera">clavigera</tp:taxon-name-part></tp:taxon-name></italic> Haeckel, 1879</td>
+                        <td rowspan="1" colspan="1">10 mm</td>
+                        <td rowspan="1" colspan="1">Flat to hemispherical; jelly thin</td>
+                        <td rowspan="1" colspan="1">Flat, or in a long narrow manubrium</td>
+                        <td rowspan="1" colspan="1">Quadratic, drawn into 4 or 8 short lips</td>
+                        <td rowspan="1" colspan="1">Foliaceous along most of RC, thicker in middle half</td>
+                        <td rowspan="1" colspan="1">8, with thick conical base</td>
+                        <td rowspan="1" colspan="1">3 between adjacent tentacles</td>
+                        <td rowspan="1" colspan="1">On tentacles and cordyli</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">Canary Islands</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="malayica">malayica</tp:taxon-name-part></tp:taxon-name></italic> (Maas, 1905)</td>
+                        <td rowspan="1" colspan="1">32 mm</td>
+                        <td rowspan="1" colspan="1">Flat</td>
+                        <td rowspan="1" colspan="1">Very flat</td>
+                        <td rowspan="1" colspan="1">8-lobed</td>
+                        <td rowspan="1" colspan="1">Linear on proximal 1/3 of RC, slender, tapering</td>
+                        <td rowspan="1" colspan="1">&gt;160, with slight bulbous swelling</td>
+                        <td rowspan="1" colspan="1">At irregular intervals between tentacles</td>
+                        <td rowspan="1" colspan="1">~ 5–6 per octant at base of some tentacles</td>
+                        <td rowspan="1" colspan="1">Sparser than cordyli</td>
+                        <td rowspan="1" colspan="1">Malay Archipelago</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="mayeri">mayeri</tp:taxon-name-part></tp:taxon-name></italic> Kramp, 1959</td>
+                        <td rowspan="1" colspan="1">7 mm</td>
+                        <td rowspan="1" colspan="1">Flatter than hemisphere; with moderately thin walls</td>
+                        <td rowspan="1" colspan="1">Flat</td>
+                        <td rowspan="1" colspan="1">8 short, simple lips</td>
+                        <td rowspan="1" colspan="1">Somewhat sinuous, upon the middle half of RC</td>
+                        <td rowspan="1" colspan="1">16, with long, hollow, tapered bulbs</td>
+                        <td rowspan="1" colspan="1">16</td>
+                        <td rowspan="1" colspan="1">32</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">Tortugas, Florida</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> Kramp, 1961b</td>
+                        <td rowspan="1" colspan="1">11 mm</td>
+                        <td rowspan="1" colspan="1">Flatter than hemisphere; fairly thick jelly</td>
+                        <td rowspan="1" colspan="1">Flat and broad</td>
+                        <td rowspan="1" colspan="1">8 faintly indicated lips with a smooth margin</td>
+                        <td rowspan="1" colspan="1">Wavy, lateral bands with about 5 extensions, on distal 2/5 of RC</td>
+                        <td rowspan="1" colspan="1">17, with heart-shaped bulb</td>
+                        <td rowspan="1" colspan="1">1–3, mostly 2, between adjacent tentacles</td>
+                        <td rowspan="1" colspan="1">Black, on base of tentacles and cordyli</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">Green Island, Great Barrier Reef</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="platygastra">platygastra</tp:taxon-name-part></tp:taxon-name></italic> Nair, 1951</td>
+                        <td rowspan="1" colspan="1">7 mm</td>
+                        <td rowspan="1" colspan="1">Watch-glass shaped, very thick in centre</td>
+                        <td rowspan="1" colspan="1">Flat, half as wide as BD</td>
+                        <td rowspan="1" colspan="1">8 lanceolate lips with thick wavy margins</td>
+                        <td rowspan="1" colspan="1">Linear on outer half of RC in 3 continuous lumps</td>
+                        <td rowspan="1" colspan="1">8, short stumpy, with large conical bulbs</td>
+                        <td rowspan="1" colspan="1">4–6 in each octant</td>
+                        <td rowspan="1" colspan="1">12–14 dark ocelli per octant</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">Trivandrum coast, India</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="rosea">rosea</tp:taxon-name-part></tp:taxon-name></italic> Bouillon, 1984</td>
+                        <td rowspan="1" colspan="1">10 mm</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">1/3 BD</td>
+                        <td rowspan="1" colspan="1">Formed into 8 folds</td>
+                        <td rowspan="1" colspan="1">Foliaceous, almost as long as RC</td>
+                        <td rowspan="1" colspan="1">40</td>
+                        <td rowspan="1" colspan="1">40</td>
+                        <td rowspan="1" colspan="1">At base of tentacles and cordyli</td>
+                        <td rowspan="1" colspan="1">(Not indicated)</td>
+                        <td rowspan="1" colspan="1">Papua New Guinea</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. Uribe-Palomino &amp; Gershwin</td>
+                        <td rowspan="1" colspan="1">2 mm</td>
+                        <td rowspan="1" colspan="1">Isosceles trapezoid</td>
+                        <td rowspan="1" colspan="1">Flat and broad, about half BD</td>
+                        <td rowspan="1" colspan="1">8-lobed, with smoothly-rounded lips</td>
+                        <td rowspan="1" colspan="1">8 pairs of oval hemi-gonads close to stomach</td>
+                        <td rowspan="1" colspan="1">8, with heart-shaped bulbs</td>
+                        <td rowspan="1" colspan="1">~ 2 between tentacles, plus a statocyst between</td>
+                        <td rowspan="1" colspan="1">Black, at base of tentacles and cordyli</td>
+                        <td rowspan="1" colspan="1">Not observed</td>
+                        <td rowspan="1" colspan="1">Moreton Bay, Queensland</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>Compared to the other species with eight tentacles, namely <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="clavigera">clavigera</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B9">Haeckel (1879)</xref> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="platygastra">platygastra</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B16">Nair (1951)</xref>, there are ample differences to separate <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic>. Firstly, the tentacle bulbs of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="clavigera">clavigera</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="platygastra">platygastra</tp:taxon-name-part></tp:taxon-name></italic> are both thick and conical, whereas those of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> are so bulbous as to be heart-shaped. Secondly, the lips in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="platygastra">platygastra</tp:taxon-name-part></tp:taxon-name></italic> are lanceolate while those of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="clavigera">clavigera</tp:taxon-name-part></tp:taxon-name></italic> are said to be quadratic, whereas these structures in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> sp. n. are more smoothly rounded as one might expect an eight leafed clover to look.</p>
+                <p>Finally, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> would be unlikely to be confused with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="malayica">malayica</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B13">Maas (1905)</xref>, the only other species with gonads adjacent to the stomach: in the latter the gonads are slender and tapered, there are more than 160 tentacles, and the cordyli are irregular, whereas in the former the gonads are oval, there are eight tentacles, and the cordyli are quite regular.</p>
+                <p>One may wonder about the relationship between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B12">Kramp (1961b)</xref> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic>, with both being apparently endemic to Queensland. Both species have heart-shaped tentacle bulbs and nematocyst-studded cordyli however, they are remarkably dissimilar in their tentacles, gonads, and distribution. For example, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> from tropical waters of the Great Barrier Reef has seventeen tentacles and the gonads are in wavy bands along the distal 2/5 of the radial canals, whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> from coastal, shallow, sub-tropical waters of southeast Queensland has only half as many tentacles and the gonads are in paired ovals adjacent to the stomach.</p>
+                <p>With the specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic> at only two millimetres in diameter, it is logical to ask whether they might be juveniles. However, this is unlikely as the female specimen (QM G335901) appears to have mature ova and is near the same size as the other specimens. Specimens have been found on numerous occasions throughout the summertime over a period of five years.</p>
+                <p>Curiously, <xref ref-type="bibr" rid="B15">Munro (1940)</xref> mentioned finding specimens of ‘<italic>Melicertiasa</italic>’ at an area of Moreton Bay locally known as Waterloo Bay, at a sampling station located halfway between Manly and Green Island (not to be confused with Manly in New South Wales or Green Island in the Great Barrier Reef). He gave no other indication as to the identity of his specimens, but we wonder whether these might be the same species as ours. Currently the only species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> known from Australia are <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="antrichardsoni">antrichardsoni</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+                <p>We recognise <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B17">Neppi (1915)</xref> with some caution. <xref ref-type="bibr" rid="B11">Kramp (1961a)</xref> considered <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> to be in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Laodiceidae</tp:taxon-name-part></tp:taxon-name> (p. 143) but noted in the addendum (p. 444) that Picard referred this species to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="mediterranea">mediterranea</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B24">Zoja (1896)</xref> in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mitrocomidae</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B11">Kramp 1961a</xref>, p. 157). In a subsequent publication, <xref ref-type="bibr" rid="B12">Kramp (1961b)</xref> elaborated, noting: “Dr. J. Picard (Marseilles) has informed me in a letter that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> Neppi is identical with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="mediterranea">mediterranea</tp:taxon-name-part></tp:taxon-name></italic> Zoja.” However, Zoja’s original illustration of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">O.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="mediterranea">mediterranea</tp:taxon-name-part></tp:taxon-name></italic> gives no indication of cordyli, which appear to have been clearly described in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> by Neppi, who <!--PageBreak-->differentiated them from both tentacles and cirri: “Zwischen je zwei Tentakeln drei bis fünf Randkolben mit einem schwarzen Ocellus und noch zahlreichere Cirren.” <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part></tp:taxon-name></italic> has since been moved to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tiaropsidae</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B2">Boero et al. 1987</xref>) on the basis of having compound statocysts. <xref ref-type="bibr" rid="B5">Bouillon and Boero (2000)</xref> and <xref ref-type="bibr" rid="B4">Bouillon et al. (2004)</xref> upheld <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> as a laodiceid (with three types of marginal appendages, namely tentacles, cordyli, and cirri), whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part></tp:taxon-name></italic> has two types of tentacles and neither cordyli or cirri. Schuchert (2016), however, considered <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> to be a junior synonym of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part></tp:taxon-name></italic>. Here, we consider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">M.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="adriatica">adriatica</tp:taxon-name-part></tp:taxon-name></italic> to be a laodiceid based on its possession of three types of marginal appendages, whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octogonade">Octogonade</tp:taxon-name-part></tp:taxon-name></italic> has only two.</p>
+              </tp:treatment-sec>
+            </tp:taxon-treatment>
+          </sec>
+        </sec>
+        <sec sec-type="Family LOVENELLIDAE Russell, 1953" id="SECID0EOGAG">
+          <title>Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOVENELLIDAE</tp:taxon-name-part></tp:taxon-name> Russell, 1953</title>
+          <sec sec-type="Genus Paralovenia Bouillon, 1984" id="SECID0EYGAG">
+            <title>Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic> Bouillon, 1984</title>
+            <tp:taxon-treatment>
+              <tp:treatment-meta>
+                <kwd-group>
+                  <label>Taxon classification</label>
+                  <kwd>
+                    <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+                  </kwd>
+                  <kwd>
+                    <named-content content-type="order" xlink:type="simple">Leptothecata</named-content>
+                  </kwd>
+                  <kwd>
+                    <named-content content-type="family" xlink:type="simple">Laodiceidae</named-content>
+                  </kwd>
+                </kwd-group>
+              </tp:treatment-meta>
+              <tp:nomenclature>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part>
+                  <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/583DB2A1-6F80-4871-BEB2-DD2F3896295C</object-id>
+                </tp:taxon-name>
+                <tp:taxon-authority>Gershwin &amp; Uribe-Palomino</tp:taxon-authority>
+                <tp:taxon-status>sp. n.</tp:taxon-status>
+                <xref ref-type="fig" rid="F5">Figures 5</xref>
+                <xref ref-type="fig" rid="F6">, 6</xref>
+                <xref ref-type="fig" rid="F7">, 7</xref>
+                <xref ref-type="fig" rid="F8">, 8</xref>
+                <!--PageBreak-->
+              </tp:nomenclature>
+              <tp:treatment-sec sec-type="type material" id="SECID0E5IAG">
+                <title>Type material.</title>
+                <p><bold><italic>Holotype</italic></bold>: QM G335907. Female, BD ca. 1.47 mm, tentacular bulbs two and two non-tentacular clusters of cirri (Figures <xref ref-type="fig" rid="F5">5A, C</xref>); near <italic>SS Yongala</italic> shipwreck, Queensland, Australia, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[147.620000,-19.310000]}" id="NCID0ESJAG">19.31°S, 147.62°E</named-content></named-content>, 0–28 m, drop net; coll. <abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0EXJAG">IMOS</abbrev>-<abbrev content-type="institution" xlink:title="Commonwealth Scientific Industrial Research Organisation" id="ABBRID0E3JAG">CSIRO</abbrev>, 27 Sep 2016.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="diagnosis" id="SECID0EBKAG">
+                <title>Diagnosis.</title>
+                <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic> with a relatively short, bell-shaped body with a truncated apex; with well-developed spindle-shaped gonads in the distal half of radial canals, not reaching the margin; with two opposite perradial triangular bulbs bearing tentacles, and two similar opposite perradial bulbs each bearing approximately 10–12 cirri; with open statocysts on a broad conical base; nematocysts arranged in flat roundish clusters on the subumbrellar surface.</p>
+                <fig id="F5" position="float" orientation="portrait">
+                  <label>Figure 5.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n., Holotype QM G335907. <bold>A</bold> habitus; note conical statocyst-like structure (indicated by red arrow) <bold>B</bold> Aboral view of stomach (cruciform structure closest to the viewer) and mouth (quadratic structure away from the viewer) <bold>C</bold> Oral view of margin (note that the gonads are the darkest brown structures, and the mouth is the quadratic structure near the upper left). Black arrows in <bold>A</bold> and <bold>C</bold>: tentacular bulbs indicated by solid arrows and bulbs bearing cirri indicated by dashed arrows. Scale bars: 0.5 mm (<bold>A</bold>); 250 µm (<bold>B, C</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g005.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226190.jpg"/>
+                </fig>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="description" id="SECID0EULAG">
+                <title>Description of holotype.</title>
+                <p>Umbrella bell- to barrel-shaped, broadest about 2/3 of the way down, truncate to slightly indented aborally (Figure <xref ref-type="fig" rid="F5">5A</xref>); sparsely scattered with minute nematocyst clusters (Figure <xref ref-type="fig" rid="F6">6</xref>). Oral margin curving slightly inwards possibly due to preservation. Velum narrow.</p>
+                <p>Tentacles two, opposite, on voluminous, triangular perradial basal bulbs, approximately 250 μm across the base (Figures <xref ref-type="fig" rid="F5">5A, C</xref>). The tentacles are tightly contracted. The other two perradial bulbs are considerably smaller, and each bears 10–12 solid, straight, thick cirri approximately 300 μm long and decorated with a continuous spiral pattern or a series of fine rings along the whole length (Figures <xref ref-type="fig" rid="F5">5A</xref>, <xref ref-type="fig" rid="F7">7A</xref>). One of the cirri in the preserved specimen is coiled and ends in two large, long bean-shaped nematocysts (Figure <xref ref-type="fig" rid="F7">7A</xref>); the extent to which this coiling is normal in life is unknown.</p>
+                <p>Other marginal structures: opposite the radial canal associated with one of the tentacle bulbs bearing cirri, there exists a small gelatinous “thorn” projecting outward (Figures <xref ref-type="fig" rid="F5">5A</xref>, <xref ref-type="fig" rid="F7">7A</xref>). Under high magnification, this conical structure appears to <!--PageBreak-->have a central canal and ends in what appears to be an open statocyst (Figure <xref ref-type="fig" rid="F7">7A</xref>). Whether this structure exists on the other perradii could not be determined. No ocelli observed.</p>
+                <!--PageBreak-->
+                <p>Stomach small, cruciform at base (Figure <xref ref-type="fig" rid="F5">5B</xref>), approximately 300 μm in diagonal width, with a short broad tapering manubrium, square in cross section (136 μm long), lacking a gastric peduncle (Figure <xref ref-type="fig" rid="F5">5A</xref>). Mouth simple without lips, perfectly quadrangular (Figure <xref ref-type="fig" rid="F5">5B</xref>).</p>
+                <p>Radial canals four, straight sided throughout length clearly visible from the stomach to the ring canal, approximately 30 μm in diameter and expanded proximally to create mesentery-like connections with the stomach (Figure <xref ref-type="fig" rid="F5">5A</xref>). Ring canal also straight-sided and of a similar width (Figure <xref ref-type="fig" rid="F5">5C</xref>).</p>
+                <p>Gonads four, spindle-shaped, starting approximately half way from the stomach toward the margin, covering 2/5 of the entire length of the radial canal, absent on the distal fifth of the radial canal (Figure <xref ref-type="fig" rid="F5">5A</xref>). Eggs, in clusters on lumpy follicles 80–90 μm in diameter; easily identified in each of the gonads (Figures <xref ref-type="fig" rid="F5">5A</xref>, <xref ref-type="fig" rid="F6">6</xref>).</p>
+                <fig id="F6" position="float" orientation="portrait">
+                  <label>Figure 6.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n., Holotype QM G335907. <bold>A</bold> Gonad with egg follicles (upper left; 2<sup>nd</sup> right gonad in habitus photo in Figure <xref ref-type="fig" rid="F5">5A</xref>), a subumbrellar nematocyst cluster can be seen near the centre, and is detailed in the box to the right <bold>B</bold> Another gonad with egg follicles (far right gonad in habitus photo in Figure <xref ref-type="fig" rid="F5">5A</xref>), and a subumbrellar nematocyst cluster to the lower left. Scale bars: 90 µm (<bold>A</bold>); 40 µm (<bold>B</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g006.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226191.jpg"/>
+                </fig>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="type locality" id="SECID0EVPAG">
+                <title>Type locality.</title>
+                <p>Near the shipwreck <italic>SS Yongala</italic>, south-east of Townsville, Queensland, Australia.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Nematocysts" id="SECID0E4PAG">
+                <title>Nematocysts.</title>
+                <p>No nematocyst preparation was made because the only available specimen is the holotype and it is too small to take sections from without destroying it. Therefore, the following description of nematocysts is based on in situ observation only. Bell nematocysts are mostly in roughly circular clusters up to 30 μm in diameter on the subumbrellar surface. Each cluster consists of 4–20 nematocysts. The nematocysts are oval in shape and approximately 12 μm long and half as wide (Figure <xref ref-type="fig" rid="F6">6</xref>). Tentacular bulbs: containing bean-shaped nematocysts approximately 15 μm long (Figure <xref ref-type="fig" rid="F8">8B</xref>). Tentacles: nematocysts are oval shape and they are approximately 7.5 µm long (Figure <xref ref-type="fig" rid="F8">8A</xref>). Cirri bulbs: the same type of nematocysts were found in the cirri bulbs as those found in the tentacular bulbs (Figure <xref ref-type="fig" rid="F7">7B</xref>). Cirri: nematocysts were not observed in the majority of the cirri. However, in the coiled cirrus (explained above), the coiled region contained numerous very small nematocysts (ca. 3 µm long) and the terminal end contained two bean-shaped nematocysts approximately four times the size of the other type found more proximally (Figure <xref ref-type="fig" rid="F7">7</xref>).</p>
+                <fig id="F7" position="float" orientation="portrait">
+                  <label>Figure 7.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n., Holotype QM G335907. <bold>A</bold> Magnified view of cirri cluster; note statocyst-like structure (red circle) and two sizes of nematocysts on coiled cirrus (arrows) <bold>B</bold> Detail of nematocysts in bulb (upper left arrow) and cirrus (lower right arrow). Scale bars: 100 µm (<bold>A</bold>); 50 µm (<bold>B</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g007.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226192.jpg"/>
+                </fig>
+                <fig id="F8" position="float" orientation="portrait">
+                  <label>Figure 8.</label>
+                  <caption>
+                    <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n., Holotype QM G335907. <bold>A</bold> Detail of nematocysts of the tentacle (arrow) <bold>B</bold> Detail of nematocysts of the tentacular bulb (white arrow) and of a subumbrellar nematocyst cluster (black arrow). Scale bars: 50 µm (<bold>A, B</bold>).</p>
+                  </caption>
+                  <graphic xlink:href="zookeys-783-017-g008.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_226193.jpg"/>
+                </fig>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="etymology" id="SECID0EVSAG">
+                <title>Etymology.</title>
+                <p>The specific name <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia"/><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> is given honouring the area where people lost their lives on board the <italic>SS Yongala</italic> that sank not far away from Cape Bowling Green, Queensland, in 1911. This area is a popular scuba diving site and it is also the location of one of the <abbrev content-type="institution" xlink:title="Integrated Marine Observing System" id="ABBRID0EHTAG">IMOS</abbrev> National Reference Stations. This is not to be confused with the town from South Australia of the same name.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Environmental notes" id="SECID0EMTAG">
+                <title>Environmental notes.</title>
+                <p>The specimen was collected in a vertical drop net from the surface to 28 m in an area of maximum 30 m depth; we therefore do not know its exact location in the water column. The sea surface temperature at the time was 27.5 °C.</p>
+              </tp:treatment-sec>
+              <tp:treatment-sec sec-type="Systematic remarks" id="SECID0ERTAG">
+                <title>Systematic remarks.</title>
+                <p>Like its congeners, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> has two opposite tentacles and two opposite clusters of short cirri. However, the gonad shape and position immediately distinguish it from the others (Table <xref ref-type="table" rid="T2">2</xref>).</p>
+                <p>Whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic><xref ref-type="bibr" rid="B3">Bouillon (1984)</xref> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic> Xu &amp; Huang (2004) both have a deep pyriform bell and long cylindrical gonads, they are distinguished primarily on the number of cirri on each marginal cluster, about six in the former and twelve in the latter, and on the size of the stomach, short in the former and huge in the latter.</p>
+                <table-wrap id="T2" position="float" orientation="portrait">
+                  <label>Table 2.</label>
+                  <caption>
+                    <p>Summary of main features from each of the known species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic>. Data from original species descriptions. Abbreviations: bell height (BH), radial canals (RC).</p>
+                  </caption>
+                  <table id="TID0EH2AE" rules="all">
+                    <tbody>
+                      <tr>
+                        <th rowspan="1" colspan="1">Species</th>
+                        <th rowspan="1" colspan="1">BH</th>
+                        <th rowspan="1" colspan="1">Body shape</th>
+                        <th rowspan="1" colspan="1">Stomach</th>
+                        <th rowspan="1" colspan="1">Mouth</th>
+                        <th rowspan="1" colspan="1">Gonads</th>
+                        <th rowspan="1" colspan="1">Tentacles</th>
+                        <th rowspan="1" colspan="1">Cirri</th>
+                        <th rowspan="1" colspan="1">Sense organs</th>
+                        <th rowspan="1" colspan="1">Locality</th>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">
+                          <italic>
+                            <tp:taxon-name>
+                              <tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part>
+                              <tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part>
+                            </tp:taxon-name>
+                          </italic>
+                          <xref ref-type="bibr" rid="B3">Bouillon (1984)</xref>
+                        </td>
+                        <td rowspan="1" colspan="1">1.4 mm</td>
+                        <td rowspan="1" colspan="1">Deep bell, piriform</td>
+                        <td rowspan="1" colspan="1">Short</td>
+                        <td rowspan="1" colspan="1">4 lips, with a quadrangular manubrium</td>
+                        <td rowspan="1" colspan="1">Voluminous, cylindrical, occupying central ¾ of RC</td>
+                        <td rowspan="1" colspan="1">2 opposing, on large, conical, bulbous bases</td>
+                        <td rowspan="1" colspan="1">2 opposing clusters of 6, on bulbs smaller than those bearing tentacles</td>
+                        <td rowspan="1" colspan="1">Statocysts and ocelli absent</td>
+                        <td rowspan="1" colspan="1">Papua New Guinea</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic> Xu &amp; Huang (2004)</td>
+                        <td rowspan="1" colspan="1">~ 2 mm</td>
+                        <td rowspan="1" colspan="1">Deep bell, piriform</td>
+                        <td rowspan="1" colspan="1">Large, broad</td>
+                        <td rowspan="1" colspan="1">Not described</td>
+                        <td rowspan="1" colspan="1">Voluminous, cylindrical, extending along each RC from the stomach nearly to the margin</td>
+                        <td rowspan="1" colspan="1">2 opposing, on large, conical, bulbous bases</td>
+                        <td rowspan="1" colspan="1">2 opposing clusters of up to 12</td>
+                        <td rowspan="1" colspan="1">Statocysts absent; ocelli not specified</td>
+                        <td rowspan="1" colspan="1">Taiwan Strait, China</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> sp. n. Gershwin &amp; Uribe-Palomino</td>
+                        <td rowspan="1" colspan="1">1.4 mm</td>
+                        <td rowspan="1" colspan="1">Short bell, truncated apex; with subumbrellar nematocyst clusters</td>
+                        <td rowspan="1" colspan="1">Short, cruciform</td>
+                        <td rowspan="1" colspan="1">Mouth perfectly quadrangular, with a short quadrangular manubrium</td>
+                        <td rowspan="1" colspan="1">Voluminous, spindle-shaped, in distal half of RC, well separated from the margin</td>
+                        <td rowspan="1" colspan="1">2 opposing, with large broad bulbs</td>
+                        <td rowspan="1" colspan="1">2 opposing clusters of 10–12 solid straight cirri</td>
+                        <td rowspan="1" colspan="1">Ocelli absent; statocysts open, on broad conical base</td>
+                        <td rowspan="1" colspan="1">Great Barrier Reef, Australia</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>The cirri of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> are more similar in number to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic>, while the stomach is small, like that of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic>; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> differs from both in having a relatively shorter, rounder body, and shorter, more spindle-shaped gonads, tapered at both ends. Moreover, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> is approximately the same size as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+                <p>The cirri are worthy of discussion. <xref ref-type="bibr" rid="B3">Bouillon (1984)</xref> described and illustrated the cirri in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic> as spiralled in form, while <xref ref-type="bibr" rid="B23">Xu and Huang (2004)</xref> do not describe in detail the cirri of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic>. In <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic>, the cirri are straight, solid, relatively thick, with a rounded end, with a series of external rings or a continuous ornamentation spiralling along their length. However, one of the cirri was tightly coiled, so we are unsure whether this coiling is the normal state in life for all the cirri, or for just one in each cluster, or if it was an artefact of preservation.</p>
+                <p>Interestingly, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> has a few flat round clusters of nematocysts on the subumbrellar surface. Neither <xref ref-type="bibr" rid="B3">Bouillon (1984)</xref> nor <xref ref-type="bibr" rid="B23">Xu and Huang (2004)</xref> mentioned finding this characteristic in the other two species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+                <p>Similarly, the conical statocyst-like structure in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="yongalensis">yongalensis</tp:taxon-name-part></tp:taxon-name></italic> is very interesting to us. <xref ref-type="bibr" rid="B3">Bouillon (1984)</xref> stated for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bitentaculata">bitentaculata</tp:taxon-name-part></tp:taxon-name></italic>, “Nous n’avons pas observé d’organes des sens”; we interpret this to mean that he found neither statocysts nor ocelli. However, <!--PageBreak--><!--PageBreak--><xref ref-type="bibr" rid="B23">Xu and Huang (2004)</xref> specifically stated that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="latigaster">latigaster</tp:taxon-name-part></tp:taxon-name></italic> was “without statocysts”. The structure that we have observed is extremely small and could be overlooked, but we doubt that all three researchers would have done so. Perhaps more intriguing to us is the fact that open statocysts are typically more “finger-shaped” (e.g., <xref ref-type="bibr" rid="B20">Russell 1953</xref>: 13, text fig. 7C), so besides being apparently unique in the genus, this also is a form of statocyst that we have not previously seen.</p>
+                <p>We recognise the value of providing DNA sequences as molecular evidence to support the description of new species when it is practical. In the present case, all the specimens were preserved in formalin, making successful extraction of DNA unlikely. Moreover, with so few specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melicertissa">Melicertissa</tp:taxon-name-part></tp:taxon-name></italic> and only one specimen of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paralovenia">Paralovenia</tp:taxon-name-part></tp:taxon-name></italic>, we consider the morphological approach to be the less-destructive method to characterise these two new species.</p>
+                <p>Finally, while we believe that the fully-developed gonads for both species suggest that they are mature specimens, this hypothesis may be tested using DNA sequencing in future research.</p>
+              </tp:treatment-sec>
+            </tp:taxon-treatment>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We are grateful to the following people for helping in sample collection: Study 1: We thank DSITI Aquatic Ecosystem Health for assistance with sample collection. Water quality data was provided by the Ecosystem Health Monitoring Program and Healthy Waterways Ltd. This study was funded by the Australian Research Council Linkage Grant LPO883663.</p>
+      <p>Study2: (in alphabetical order) Geoff Carlin, Nagur Cherukuru, Phillip Ford, Jim Franklin, Gary Fry, Andrew Lowe, Sean Maberly, Kadija Oubelkheir, Peter Ralph and Andy Steven.</p>
+      <p>Study 3: (in alphabetical order) Frank Coman, Claire Davies, Felipe Gusmao and Mark Tonks.</p>
+      <p>Thank you Frank Coman and Claire Davies for checking the manuscript and we are also grateful to the two reviewers for their constructive comments, Merrick Ekins and James Reimer.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Agassiz</surname><given-names>L</given-names></name></person-group> (<year>1862</year>) <source>Contributions to the Natural History of the United States of America. vol. IV. pt. III. Discophorae. pt. IV. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hydroidae</tp:taxon-name-part></tp:taxon-name>. pt. V. Homologies of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subkingdom">Radiata</tp:taxon-name-part></tp:taxon-name>.</source><publisher-name>Little</publisher-name>, <publisher-loc>Brown and Company, Boston</publisher-loc>, <size units="page">380 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Boero</surname><given-names>F</given-names></name><name name-style="western"><surname>Bouillon</surname><given-names>J</given-names></name><name name-style="western"><surname>Danovaro</surname><given-names>R</given-names></name></person-group> (<year>1987</year>) <article-title>The life cycle of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Tiaropsidium</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">roseum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tiaropsidae</tp:taxon-name-part></tp:taxon-name> fam. nov., <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Leptomedusae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Indo-Malayan Zoology</source><volume>4</volume>(<issue>2</issue>): <fpage>293</fpage>–<lpage>302</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bouillon</surname><given-names>J</given-names></name></person-group> (<year>1984</year>) <article-title>Hydroméduses de la Mer de Bismarck (Papouasie Nouvelle-Guinée. Partie IV. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Leptomedusae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Indo-Malayan Zoology</source><volume>1</volume>(<issue>1</issue>): <fpage>25</fpage>–<lpage>112</lpage>.</mixed-citation>
+      </ref>
+      <!--PageBreak-->
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bouillon</surname><given-names>J</given-names></name><name name-style="western"><surname>Medel</surname><given-names>MD</given-names></name><name name-style="western"><surname>Pagès</surname><given-names>F</given-names></name><name name-style="western"><surname>Gili</surname><given-names>JM</given-names></name><name name-style="western"><surname>Boero</surname><given-names>F</given-names></name><name name-style="western"><surname>Gravili</surname><given-names>C</given-names></name></person-group> (<year>2004</year>) Fauna of the Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name>. Scientia Marina 68 (Suppl. 2): 5–438. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3989/scimar.2004.68s25">https://doi.org/10.3989/scimar.2004.68s25</ext-link></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bouillon</surname><given-names>J</given-names></name><name name-style="western"><surname>Boero</surname><given-names>F</given-names></name></person-group> (<year>2000</year>) <article-title>Synopsis of the families and genera of the Hydromedusae of the world, with a list of the worldwide species.</article-title><source>Thalassia Salentina</source><volume>24</volume>: <fpage>47</fpage>–<lpage>296</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Cornelius</surname><given-names>PFS</given-names></name></person-group> (<year>1992</year>) <article-title>Medusa loss in leptolid <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>), hydroid rafting, and abbreviated life-cycles among their remote-island faunae: an interim review.</article-title><source>Scientia Marina</source><volume>56</volume>(<issue>2</issue>): <fpage>245</fpage>–<lpage>261</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gershwin</surname><given-names>L</given-names></name></person-group> (<year>2006</year>) <article-title>Nematocysts of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Cubozoa</tp:taxon-name-part></tp:taxon-name>.</article-title><source>Zootaxa</source><volume>1232</volume>: <fpage>1</fpage>–<lpage>57</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gershwin</surname><given-names>LA</given-names></name></person-group> (<year>2013</year>) <source>Stung!: On Jellyfish Blooms and the Future of the Ocean.</source><publisher-name>University of Chicago Press</publisher-name>, <publisher-loc>Chicago</publisher-loc>, <size units="page">424 pp</size>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.7208/chicago/9780226020242.001.0001">https://doi.org/10.7208/chicago/9780226020242.001.0001</ext-link></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Haeckel</surname><given-names>E</given-names></name></person-group> (<year>1879</year>) <source>Das System der Medusen: Erster Theil einer Monographie der Medusen. G.</source><publisher-name>Fischer</publisher-name>, <publisher-loc>Jena</publisher-loc>, <size units="page">80 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kramp</surname><given-names>PL</given-names></name></person-group> (<year>1959</year>) <source>The hydromedusae of the Atlantic Ocean and adjacent waters. Dana Reports 46.</source><publisher-name>Carlsberg Foundation</publisher-name>, <publisher-loc>Copenhagen</publisher-loc>, <size units="page">283 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kramp</surname><given-names>PL</given-names></name></person-group> (<year>1961a</year>) <article-title>Synopsis of the medusae of the world.</article-title><source>Journal of the Marine Biological Association of the United Kingdom</source><volume>40</volume>: <fpage>7</fpage>–<lpage>382</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1017/S0025315400007347">https://doi.org/10.1017/S0025315400007347</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kramp</surname><given-names>PL</given-names></name></person-group> (<year>1961b</year>) <article-title>Some medusae from northern Australia.</article-title><source>Transactions of the Royal Society of South Australia</source><volume>85</volume>: <fpage>197</fpage>–<lpage>205</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Maas</surname><given-names>O</given-names></name></person-group> (<year>1905</year>) <source>Die craspedoten medusen der Siboga-Expedition. Siboga-Expeditie Monograph 10.</source><publisher-name>EJ Brill</publisher-name>, <publisher-loc>Leiden</publisher-loc>, <size units="page">85 pp</size>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.5962/bhl.title.11301">https://doi.org/10.5962/bhl.title.11301</ext-link></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Mayer</surname><given-names>AG</given-names></name></person-group> (<year>1910</year>) Medusae of the World: The Hydromedusae. Vol. 1. Carnegie Institution of Washington. Washington DC, 230 pp.</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Munro</surname><given-names>ISR</given-names></name></person-group> (<year>1940</year>) <source>Studies of the Marine Invertebrate Fauna of Moreton Bay, Queensland. Honours thesis.</source><publisher-name>Brisbane</publisher-name>, <publisher-loc>Australia: The University of Queensland</publisher-loc>, <size units="page">98 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Nair</surname><given-names>KK</given-names></name></person-group> (<year>1951</year>) <article-title>Medusae of the Trivandrum coast. Part 1 systematics. Bulletin of Central Research Institute, University of Travancore.</article-title><source>Series C, Natural Sciences</source><volume>2</volume>: <fpage>47</fpage>–<lpage>75</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Neppi</surname><given-names>V</given-names></name></person-group> (<year>1915</year>) <article-title>Vorläufige mitteilung über die während der terminfahrten auf SM Schiff “Najade” gesammelten Adraitischen medusen.</article-title><source>Anzeiger der Akademie der Wissenschaften Mathematische-Naturwissenschaftliche Klasse Wien</source><volume>52</volume>: <fpage>2</fpage>–<lpage>5</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation xlink:type="simple"><institution>R-Project</institution> (<year>2018</year>) A language and environment for statistical computing. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.R-project.org/">http://www.R-project.org/</ext-link></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation xlink:type="simple"><institution>RStudio</institution> (<year>2018</year>) Integrated Development for R. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.rstudio.com/">http://www.rstudio.com/</ext-link></mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Russell</surname><given-names>FS</given-names></name></person-group> (<year>1953</year>) <source>The medusae of the British Isles: anthomedusae, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">leptomedusae</tp:taxon-name-part></tp:taxon-name>, limnomedusae, trachymedusae and narcomedusae.</source><publisher-name>University Press</publisher-name>, <publisher-loc>Cambridge</publisher-loc>, <size units="page">529 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schuchert</surname><given-names>P</given-names></name></person-group> (<year>2017</year>) <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Melicertissa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">adriatica</tp:taxon-name-part></tp:taxon-name></italic> World <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name> database, World Register of Marine Species. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.marinespecies.org/aphia.php?p=taxdetails%26id=117726">http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=117726</ext-link> [accessed 12.V.2017]</mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Sun</surname><given-names>S</given-names></name><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sun</surname><given-names>X</given-names></name></person-group> (<year>2012</year>) <article-title>Changes in the small-jellyfish community in recent decades in Jiaozhou Bay, China.</article-title><source>Chinese Journal of Oceanology and Limnology</source><volume>30</volume>(<issue>4</issue>): <fpage>507</fpage>–<lpage>518</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/s00343-012-1179-7">https://doi.org/10.1007/s00343-012-1179-7</ext-link></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Xu</surname><given-names>ZZ</given-names></name><name name-style="western"><surname>Huang</surname><given-names>JQ</given-names></name></person-group> (<year>2004</year>) <article-title>On new species and record of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Laingiomedusae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Leptomedusae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name>, Hydroidomedusae) in the Taiwan Strait.</article-title><source>Journal of Xiamen University Natural Science</source><volume>43</volume>(<issue>1</issue>): <fpage>107</fpage>–<lpage>114</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Zoja</surname><given-names>R</given-names></name></person-group> (<year>1896</year>) <article-title>Una nuova medusa (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Octogonade</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">mediterranea</tp:taxon-name-part></tp:taxon-name></italic> n. g. n. sp.).</article-title><source>Bollettino scientifico Milano</source><volume>17</volume>: <fpage>101</fpage>–<lpage>106</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

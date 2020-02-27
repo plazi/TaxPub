@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="review-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.777.26056</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Mecoptera</subject>
+          <subject>Panorpidae</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Far East</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An enigmatic new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linneaus from the Bashan Mountains (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Hua</surname>
+            <given-names>Yuan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Tao</surname>
+            <given-names>Shi-Heng</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">shihengt@nwafu.edu.cn</email>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Hua</surname>
+            <given-names>Bao-Zhen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <email xlink:type="simple">huabzh@nwsuaf.edu.cn</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9833-7247</uri>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">College of Life Sciences, Northwest A&amp;F University, Yangling, Shaanxi 712100, China</addr-line>
+        <institution>Northwest A&amp;F University</institution>
+        <addr-line content-type="city">Yangling</addr-line>
+        <country>China</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Key Laboratory of Plant Protection Resources and Pest Management, Ministry of Education, Entomololgical Museum, Northwest A&amp;F University, Yangling, Shaanxi 712100, China</addr-line>
+        <institution>Northwest A&amp;F University</institution>
+        <addr-line content-type="city">Yangling</addr-line>
+        <country>China</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Bao-Zhen Hua (<email xlink:type="simple">huabzh@nwafu.edu.cn</email>); Shi-Heng Tao (<email xlink:type="simple">shihengt@nwafu.edu.cn</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: B. Price</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>7</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>777</issue>
+      <fpage>109</fpage>
+      <lpage>118</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>4</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>3</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Yuan Hua, Shi-Heng Tao, Bao-Zhen Hua</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/7EF656C0-C673-4333-8957-F2EC1ADA8DAC</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>A new species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold>, is described and illustrated from the Bashan Mountains in central China. The new species is characterized by the following characters: vertex black, with two pale longitudinal stripes and four pale rounded spots; vein 1A ending before the origin of Rs; meso- and metanotum pale, and the pale color extending to tergum III in V-shape; male epandrium emarginate distally in deep U-shape; hypovalves without basal stalk, completely represented by a pair of short hypovalves, extending to distal third of gonocoxite, with five black stout setae in distal portion; paramere simple, S-shaped; a bundle of long hairs between dorsal and ventral valves of aedeagus; dorsal valves of aedeagus much longer than ventral valves and curved ventrally, with distal portion foot-shaped; female medigynium twice as long as wide, with stout axis extending over one-third its length beyond main plate.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>China</kwd>
+        <kwd>Hubei</kwd>
+        <kwd>Oriental Region</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Shaanxi</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EBG">
+        <title>Citation</title>
+        <p>Hua Y, Tao S-H, Hua B-Z (2018) An enigmatic new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linneaus from the Bashan Mountains (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>). ZooKeys 777: 109–118. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.777.26056">https://doi.org/10.3897/zookeys.777.26056</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0E4G">
+      <title>Introduction</title>
+      <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> is the largest family of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>, with more than 420 described extant species, which are assigned to seven genera (<xref ref-type="bibr" rid="B7">Gao et al. 2016</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758 is the most species-rich genus in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>, and is widely distributed in Asia, Europe and North America (<xref ref-type="bibr" rid="B6">Esben-Petersen 1921</xref>; <xref ref-type="bibr" rid="B4">Cheng 1957</xref>), with approximately 270 species in the world (<xref ref-type="bibr" rid="B12">Penny and Byers 1979</xref>) and 229 species in China (<xref ref-type="bibr" rid="B14">Wang and Hua 2017</xref>, <xref ref-type="bibr" rid="B15">2018</xref>).</p>
+      <p>The current generic taxonomy of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> strongly relies on the status of vein 1A to a large extent as well as the presence or absence of anal horn(s) on the posterior margin of tergum VI in males, apart from the male and female genitalia (<xref ref-type="bibr" rid="B2">Carpenter 1938</xref>). Vein 1A ends at the anal margin of wings far beyond the origin of Rs in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linneaus, 1758 (Fig. <xref ref-type="fig" rid="F1">1A</xref>), but before the origin of Rs in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> van der Weele, 1909 (Fig. <xref ref-type="fig" rid="F1">1B</xref>) (<xref ref-type="bibr" rid="B6">Esben-Petersen 1921</xref>; <xref ref-type="bibr" rid="B4">Cheng 1957</xref>; <xref ref-type="bibr" rid="B13">Rust and Byers 1976</xref>; <xref ref-type="bibr" rid="B3">Chau and Byers 1978</xref>). The number of cross veins between veins 1A and 2A of forewings are also used as a generic character: two in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic>, but one in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B6">Esben-Petersen 1921</xref>; <xref ref-type="bibr" rid="B3">Chau and Byers 1978</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> is also separated from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> by a series of morphological characters (<xref ref-type="bibr" rid="B11">Ma et al. 2012</xref>) and anatomical characters, such as salivary glands (<xref ref-type="bibr" rid="B10">Ma et al. 2011</xref>), female genital plate (<xref ref-type="bibr" rid="B11">Ma et al. 2012</xref>), and female reproductive system (<xref ref-type="bibr" rid="B8">Hou and Hua 2008</xref>). Eggshell (<xref ref-type="bibr" rid="B9">Ma et al. 2009</xref>) and larvae (<xref ref-type="bibr" rid="B16">Yie 1951</xref>) can also provide useful characters.</p>
+      <p>However, some Chinese <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="fulvastra">fulvastra</tp:taxon-name-part></tp:taxon-name></italic> Chou and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="chengi">chengi</tp:taxon-name-part></tp:taxon-name></italic> Chou (<xref ref-type="bibr" rid="B5">Chou et al. 1981</xref>), have vein 1A ending just at the level of the origin of Rs (<xref ref-type="bibr" rid="B1">Cai et al. 2008</xref>), making vein 1A not so credible as a diagnosis to differentiate <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      <p>Further complicating the issue is an enigmatic undescribed species from the Bashan Mountains in central China. Its wing venation belongs to the pattern of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> with 1A ending before the origin of Rs and one cross-vein between veins 1A and 2A (Fig. <xref ref-type="fig" rid="F1">1C</xref>), while other characters, especially the male and female genitalia, correspond to the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic>. In this paper, we describe the new species in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linneaus, 1758 mainly based on the characters of genitalia, and briefly discuss the current criteria of the generic diagnoses of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0E2GAC">
+      <title>Materials and methods</title>
+      <p>The specimens were collected from the Bashan Mountains in central China, and are preserved in 70% alcohol at the Entomological Museum, <named-content xlink:type="simple" content-type="institution" xlink:href="http://grbio.org/institution/north-west-agricultural-university">Northwest A&amp;F University, China</named-content> (<bold><named-content content-type="dwc:institutional_code">NWAU</named-content></bold>). Observations were made under a Nikon SMZ1500 stereoscopic zoom microscope. Photographs were taken with a Nikon CoolPix5000 digital camera attached to the microscope.</p>
+      <p>For scanning electron microscopy, samples were cleaned in an ultrasonic cleaner for 30 s and dehydrated in a graded ethanol series. The materials were then dried in a CO<sub>2</sub> critical-point drier, gold-coated in a sputter coater and examined in a Hitachi S-3400N scanning electron microscope (Hitachi, Tokyo, Japan) at 15 kV.</p>
+    </sec>
+    <sec sec-type="Taxonomy" id="SECID0ELHAC">
+      <title>Taxonomy</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Mecoptera</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Panorpidae</named-content>
+            </kwd>
+          </kwd-group>
+          <mixed-citation><object-id content-type="zoobank">
+            http://zoobank.org/E14D124D-1789-4326-9C08-7B896BE3CA95
+          </object-id>
+          </mixed-citation>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/95659BA8-69DE-4EFA-A507-565E3D14FDD4</object-id>
+          </tp:taxon-name>
+          <tp:taxon-status>sp. n.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figs 1</xref>
+          <xref ref-type="fig" rid="F2">, 2</xref>
+          <xref ref-type="fig" rid="F3">, 3</xref>
+          <xref ref-type="fig" rid="F4">, 4</xref>
+          <xref ref-type="fig" rid="F5">, 5</xref>
+          <xref ref-type="fig" rid="F6">, 6</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="type material" id="SECID0EPJAC">
+          <title>Type material.</title>
+          <p><bold>Holotype</bold>: ♂, CHINA: Shaanxi: Nangongshan (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[109.066667,32.233333]}" id="NCID0E1JAC">32°14'N, 109°04'E</named-content></named-content>), 1200–2025 m, Langao County, 24–25 June 2007, BZ Hua and JL Tan. <bold>Paratypes</bold>: 26♂22♀, same data as holotype; 12♂23♀, Nangongshan, 17–18 Aug. 2010, BZ Hua, J Huang, J Chen, JX Zhang; 40♂62♀, Nangongshan, 17–19 July 2011, BZ Hua, QH Gao, M Wang, B Xu; 24♂63♀, Nangongshan, 17–18 June 2012, BZ Hua, N Ma, B Xu, QH Gao, YY Feng; 2♂, Hubei, Hongping (<named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[110.366667,31.333333]}" id="NCID0EEKAC">31°20'N, 110°22'E</named-content></named-content>), Shennongjia, 28 June 2007, BZ Hua and JL Tan.</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p>Forewings of male <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>. <bold>A</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="communis">communis</tp:taxon-name-part></tp:taxon-name></italic><bold>B</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pulchra">pulchra</tp:taxon-name-part></tp:taxon-name></italic><bold>C</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n.</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220054.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0ECMAC">
+          <title>Diagnosis.</title>
+          <p>The new species can be readily distinguished from its congeners by the following characters: vertex black, with two pale longitudinal stripes and four pale rounded spots; vein 1A ending before the origin of Rs; one cross-vein between veins 1A and 2A; meso- and metanotum pale, and the pale color extending to tergum III in a V-shape; male epandrium emarginate distally in a deep U-shape; hypovalves extending to the distal third of gonocoxite, with five stout black setae on the distal portion; paramere simple, S-shaped; a bundle of long hairs between the dorsal and ventral valves of aedeagus; dorsal valves of aedeagus much longer than ventral valves and curved ventrally, with distal portion foot-shaped; female medigynium twice as long as wide, with stout axis extending over one-third its length beyond main plate.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EHMAC">
+          <title>Description of male</title>
+          <p>(Fig. <xref ref-type="fig" rid="F2">2A</xref>). Vertex black, with two pale submedian stripes and two eye-shaped speckles on lateral regions. Two suborbicular spots beyond the protuberant area laterally (Fig. <xref ref-type="fig" rid="F3">3A</xref>). Ocellar triangle black. Compound eyes dark grey. Rostrum uniformly yellowish, mandible dark brown; labial and maxillary palps yellow with distal segments dark brown. Antennae long, filiform, with 39–40 flagellomeres.</p>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n., adults in dorsal view. <bold>A</bold> Male <bold>B</bold> Female.</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220055.jpg"/>
+          </fig>
+          <fig id="F3" position="float" orientation="portrait">
+            <label>Figure 3.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n., male. <bold>A</bold> Head in dorsal view <bold>B</bold> Abdomen in lateral view <bold>C, D</bold> Genital bulb in ventral and dorsal views <bold>E</bold> Distal part of left hypovalves in dorsal view <bold>F</bold> Left paramere in ventral view. Scale bars: 0.5 mm (<bold>A</bold>); 0.2 mm (<bold>E, F</bold>).</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220056.jpg"/>
+          </fig>
+          <p><italic>Thorax</italic>. Pronotum light brown, with 12 black setae along anterior margin; meso- and metanotum pale with both sides grayish yellow. Pleura light grayish yellow. Legs pale yellow, tibia with a pair of apical spurs; tarsi light yellowish brown.</p>
+          <p><italic>Wings</italic>. Forewing length 13.0–13.2 mm, width 2.9–3.1 mm. Wing membrane hyaline, almost without markings. Apical band greatly reduced, only indicated by a narrow dark gray trace at apical region; pterostigma prominent. Vein R<sub>2</sub> bifurcate; vein 1A ending before the origin of Rs; one cross-vein between veins 1A and 2A (Fig. <xref ref-type="fig" rid="F1">1C</xref>). Hindwings similar to forewings (Fig. <xref ref-type="fig" rid="F2">2A</xref>).</p>
+          <p><italic>Abdomen</italic>. Terga I–V brownish black except for a narrowing pale V-shaped median stripe on terga I–III. Notal organ of tergum III very short, not prominent. Tergum VI without anal horns on posterior margin. Segments VII and VIII elongate and uniformly yellowish brown, with basal half slightly constricted and slightly wider toward apices (Fig. <xref ref-type="fig" rid="F3">3B</xref>).</p>
+          <p><italic>Male genitalia</italic>. Genital bulb globular, yellowish brown (Fig. <xref ref-type="fig" rid="F3">3C, D</xref>). Epandrium (tergum IX) broad at base, slightly narrower toward apex, with a deep broad U-shaped emargination distally; epandrial lobes with dense setae. Cercus elongate and expanded apically (Fig. <xref ref-type="fig" rid="F4">4A</xref>), with five campaniform sensilla on dorsal surface (Fig. <xref ref-type="fig" rid="F4">4B</xref>). Hypandrium (sternum IX) without basal stalk, completely represented by a pair of parallel hypovalves, reaching two-thirds of gonocoxite (Fig. <xref ref-type="fig" rid="F3">3C</xref>). Hypovalve with five stout black setae on distal portion and three yellow setae on dorsal side (Fig. <xref ref-type="fig" rid="F3">3E</xref>). Gonocoxite bearing a cluster of black bristles on inner apex (Fig. <xref ref-type="fig" rid="F3">3C</xref>). Gonostylus broad in basal half and slender in distal half, with a large median concave area; a cluster of stout black setae basal to the concave region (Fig. <xref ref-type="fig" rid="F3">3C</xref>). Parameres distinctly twisted in S-shape and bearing short setae along inner margin on distal part (Fig. <xref ref-type="fig" rid="F3">3F</xref>). Aedeagus weakly sclerotized; dorsal valves slender and curved ventrally, with distal part foot-shaped; ventral valves greatly shortened; a bundle of long hairs between ventral and dorsal valves (Fig. <xref ref-type="fig" rid="F4">4C, D</xref>). A short broad lateral process from basal part of dorsal valves (Fig. <xref ref-type="fig" rid="F4">4C, E</xref>).</p>
+          <fig id="F4" position="float" orientation="portrait">
+            <label>Figure 4.</label>
+            <caption>
+              <p>SEM micrographs of the male genitalia of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n. <bold>A</bold> Distal part of epandrium in dorsal view <bold>B</bold> Magnification of distal part of cercus <bold>C–E</bold> Aedeagus in ventral, lateral and dorsal views. Abbreviations: <bold>cer</bold> cercus; <bold>dv</bold> dorsal valve of aedeagus; <bold>lp</bold> lateral process; <bold>vv</bold> ventral valve of aedeagus. Scale bars: 1 mm (<bold>A, B</bold>); 100 μm (<bold>C–E</bold>).</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g004.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220057.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EICAE">
+          <title>Description of female.</title>
+          <p>Head, thorax and abdominal segments I–V similar to those of male (Fig. <xref ref-type="fig" rid="F2">2B</xref>). Abdominal segments VII and VIII pale yellow, segment IX yellowish brown (Fig. <xref ref-type="fig" rid="F5">5A</xref>). Cerci black, two-segmented, arising from distal end of abdomen. Wing pattern similar to that of male (Fig. <xref ref-type="fig" rid="F2">2B</xref>).</p>
+          <fig id="F5" position="float" orientation="portrait">
+            <label>Figure 5.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n., female. <bold>A</bold> Distal part of abdomen in ventral view <bold>B–D</bold> Medigynium in ventral, lateral and dorsal views. Scale bars: 0.1 mm.</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g005.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220059.jpg"/>
+          </fig>
+          <p><italic>Female genitalia</italic>. Subgenital plate broad subbasally and narrowing toward apex, with long setae on lateral distal part (Fig. <xref ref-type="fig" rid="F5">5A</xref>). Medigynium with main plate twice as long as wide and infolded medially. Paired posterior arms forming a broad U-shape emargination. Median axis stout, extending anteriorly over one-third its length beyond main plate (Fig. <xref ref-type="fig" rid="F5">5B–D</xref>), with anterior end broadly furcate. Posterior end of axis with sculptured region, with orifice of spermathecal duct at terminal end (Fig. <xref ref-type="fig" rid="F6">6A–C</xref>).</p>
+          <fig id="F6" position="float" orientation="portrait">
+            <label>Figure 6.</label>
+            <caption>
+              <p>SEM micrographs of the female medigynium of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic> sp. n. <bold>A, B</bold> Medigynium in ventral and latero-ventral views <bold>C</bold> Magnification of the sculpturing part of the main plate (asterisk), showing the orifice of spermathecal duct. Abbreviations: <bold>ax</bold> axis; <bold>mp</bold> main plate; <bold>spo</bold> orifice of spermathecal duct. Scale bars: 100 μm (<bold>A, B</bold>); 25 μm (<bold>C</bold>).</p>
+            </caption>
+            <graphic xlink:href="zookeys-777-109-g006.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220060.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EMFAE">
+          <title>Etymology.</title>
+          <p>The specific epithet, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa"/><tp:taxon-name-part taxon-name-part-type="species" reg="bashanicola">bashanicola</tp:taxon-name-part></tp:taxon-name></italic>, refers to its type locality, Bashan Mountains.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0E3FAE">
+          <title>Distribution.</title>
+          <p>China (Shaanxi and Hubei).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="remarks" id="SECID0EBGAE">
+          <title>Remarks.</title>
+          <p>The new species resembles <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">P.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="chengi">chengi</tp:taxon-name-part></tp:taxon-name></italic> Chou, 1981 from the Qinling Mountains, Shaanxi Province in pale nota and brownish body coloration as well as broad hypovalves. It can be readily recognized from the latter by the following characters: 1) vein 1A ending before the origin of Rs; 2) abdominal terga I–III brownish black except for a V-shaped pale median stripe; 3) parameres bearing dense setae along inner margin of distal portion; and 4) dorsal valves of aedeagus slender and foot-shaped in distal portion.</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    </sec>
+    <sec sec-type="Discussion" id="SECID0ESGAE">
+      <title>Discussion</title>
+      <p>We assigned the new species to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linneaus based on the following characters: notal organ on tergum III in male not prominent; hypandrium of male genitalia without basal stalk; female medigynium with long axis extending anteriorly beyond main plate by one third length.</p>
+      <p>However, vein 1A terminates at the hind margin of wings before the origin of Rs in the new species. Strictly speaking, this character is not in accord with the generic definition of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panorpa">Panorpa</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, but conforms to the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> van der Weele (<xref ref-type="bibr" rid="B6">Esben-Petersen 1921</xref>; <xref ref-type="bibr" rid="B3">Chau and Byers 1978</xref>; <xref ref-type="bibr" rid="B4">Cheng 1957</xref>). Because vein 1A varies considerably among the species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>, taxonomists should be cautious to assign a species to the suitable genus based mainly on the character of vein 1A. Instead, it is more reliable for them to consult more characters, especially the male and female genital characters (<xref ref-type="bibr" rid="B2">Carpenter 1938</xref>). In other words, the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neopanorpa">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> needs to be redefined accordingly.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Jun-Xia Zhang for scanning electron microscopy, and Li-Jun Cai and Ji-Shen Wang for taking the photographs. This research was supported by the National Natural Science Foundation of China (grant nos. 31672341 and 31172125).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Cai</surname><given-names>LJ</given-names></name><name name-style="western"><surname>Huang</surname><given-names>PY</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2008</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Sinopanorpa</tp:taxon-name-part></tp:taxon-name></italic>, a new genus of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>) from the Oriental China with descriptions of two new species.</article-title><source>Zootaxa</source><volume>1941</volume>: <fpage>43</fpage>–<lpage>54</lpage>. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.mapress.com/j/zt/article/view/5453">http://www.mapress.com/j/zt/article/view/5453</ext-link></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Carpenter</surname><given-names>FM</given-names></name></person-group> (<year>1938</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name> from China, with descriptions of new species.</article-title><source>Proceedings of the Entomological Society of Washington</source><volume>40</volume>: <fpage>267</fpage>–<lpage>281</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Chau</surname><given-names>HCS</given-names></name><name name-style="western"><surname>Byers</surname><given-names>GW</given-names></name></person-group> (<year>1978</year>) <article-title/><source>The University of Kansas Science Bulletin</source><volume>51</volume>: <fpage>341</fpage>–<lpage>405</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Cheng</surname><given-names>FY</given-names></name></person-group> (<year>1957</year>) <article-title>Revision of the Chinese <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>.</article-title><source>Bulletin of the Museum of Comparative Zoology</source><volume>116</volume>: <fpage>1</fpage>–<lpage>118</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Chou</surname><given-names>I</given-names></name><name name-style="western"><surname>Ran</surname><given-names>RB</given-names></name><name name-style="western"><surname>Wang</surname><given-names>SM</given-names></name></person-group> (<year>1981</year>) <article-title>Study on the classification of the Chinese <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>.</article-title><source>Entomotaxonomia</source><volume>3</volume>: <fpage>1</fpage>–<lpage>22</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Esben-Petersen</surname><given-names>P</given-names></name></person-group> (<year>1921</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>: Monographic Revision. Collections Zoologiques du Baron Edm. de Selys Longchamps.</article-title><source>Catalogue Systematique et Descriptif</source><volume>5</volume>: <fpage>1</fpage>–<lpage>172</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gao</surname><given-names>C</given-names></name><name name-style="western"><surname>Ma</surname><given-names>N</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2016</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cerapanorpa</tp:taxon-name-part></tp:taxon-name></italic>, a new genus of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>) with descriptions of three new species.</article-title><source>Zootaxa</source><volume>4158</volume>: <fpage>93</fpage>–<lpage>104</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/zootaxa.4158.1.5">https://doi.org/10.11646/zootaxa.4158.1.5</ext-link></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hou</surname><given-names>XY</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2008</year>) <article-title>Structures of the female reproductive systems in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>) with remarks on their taxonomic significance.</article-title><source>Acta Zootaxonomica Sinica</source><volume>33</volume>: <fpage>427</fpage>–<lpage>434</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Ma</surname><given-names>N</given-names></name><name name-style="western"><surname>Cai</surname><given-names>LJ</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2009</year>) <article-title>Comparative morphology of the eggs in some <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>) and their systematic implication.</article-title><source>Systematics and Biodiversity</source><volume>7</volume>: <fpage>403</fpage>–<lpage>417</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1017/s1477200009990107">https://doi.org/10.1017/s1477200009990107</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Ma</surname><given-names>N</given-names></name><name name-style="western"><surname>Liu</surname><given-names>SY</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2011</year>) <article-title>Morphological diversity of male salivary glands in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>).</article-title><source>European Journal of Entomology</source><volume>108</volume>: <fpage>493</fpage>–<lpage>499</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.14411/eje.2011.064">https://doi.org/10.14411/eje.2011.064</ext-link></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Ma</surname><given-names>N</given-names></name><name name-style="western"><surname>Zhong</surname><given-names>W</given-names></name><name name-style="western"><surname>Gao</surname><given-names>QH</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2012</year>) <article-title>Female genital plate diversity and phylogenetic analyses of East Asian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Systematics and Biodiversity</source><volume>10</volume>: <fpage>159</fpage>–<lpage>178</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1080/14772000.2012.683459">https://doi.org/10.1080/14772000.2012.683459</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Penny</surname><given-names>ND</given-names></name><name name-style="western"><surname>Byers</surname><given-names>GW</given-names></name></person-group> (<year>1979</year>) <article-title>A check-list of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name> of the world.</article-title><source>Acta Amazonica</source><volume>9</volume>: <fpage>365</fpage>–<lpage>388</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1590/1809-43921979092365">https://doi.org/10.1590/1809-43921979092365</ext-link></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Rust</surname><given-names>MK</given-names></name><name name-style="western"><surname>Byers</surname><given-names>GW</given-names></name></person-group> (<year>1976</year>) <article-title>The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name> of India and adjacent regions.</article-title><source>The University of Kansas Science Bulletin</source><volume>51</volume>: <fpage>19</fpage>–<lpage>90</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Wang</surname><given-names>JS</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2017</year>) <article-title>An annotated checklist of the Chinese <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name> with description of male <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Panorpa</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">guttata</tp:taxon-name-part></tp:taxon-name></italic> Navás, 1908.</article-title><source>Entomotaxonomia</source><volume>39</volume>: <fpage>24</fpage>–<lpage>42</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11680/entomotax.2017003">https://doi.org/10.11680/entomotax.2017003</ext-link></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Wang</surname><given-names>M</given-names></name><name name-style="western"><surname>Hua</surname><given-names>BZ</given-names></name></person-group> (<year>2018</year>) <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Neopanorpa</tp:taxon-name-part></tp:taxon-name></italic> with an extremely long notal organ from Sichuan, China (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mecoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>ZooKeys</source><volume>750</volume>: <fpage>131</fpage>–<lpage>140</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.750.23486">https://doi.org/10.3897/zookeys.750.23486</ext-link></mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Yie</surname><given-names>ST</given-names></name></person-group> (<year>1951</year>) <article-title>The biology of Formosan <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Panorpidae</tp:taxon-name-part></tp:taxon-name> and morphology of eleven species of their immature stages.</article-title><source>Memoirs of the College of Agriculture, National Taiwan University</source><volume>2</volume>: <fpage>1</fpage>–<lpage>111</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

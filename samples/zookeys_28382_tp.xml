@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="rapid-communication" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.785.28382</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Short Communication</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Gastrotricha</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Identification key</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Americas</subject>
+          <subject>North America</subject>
+          <subject>USA and Canada</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Redescription of the dasydytid gastrotrich <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950) based on type material</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Minowa</surname>
+            <given-names>Axell K.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Garraffoni</surname>
+            <given-names>André R. S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">arsg@unicamp.br</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6303-7244</uri>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Laboratório de Evolução de Organismos Meiofaunais, Departamento de Biologia Animal, Instituto de Biologia, Universidade Estadual de Campinas, 13083-970, Campinas, São Paulo, Brazil</addr-line>
+        <institution>Universidade Estadual de Campinas</institution>
+        <addr-line content-type="city">Campinas</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: André R. S. Garraffoni (<email xlink:type="simple">arsg@unicamp.br</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: M.A. Todaro</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>785</issue>
+      <fpage>41</fpage>
+      <lpage>48</lpage>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>8</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Axell K. Minowa, André R. S. Garraffoni</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/3EF4B9BD-F7F1-4AAA-9CD6-130C2D1CBE8A</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>The semi-pelagic gastrotrich species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950) is redescribed based on original type material deposited at the Smithsonian National Museum of Natural History. Herein we present a new diagnosis and figures of the species, detailing the insertion position of the lateral spines, misinterpreted in the original description. Furthermore, we reassess the taxonomic key for the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> Remane, 1936 based on our new findings.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Chaetonotida</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>USA</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EKF">
+        <title>Citation</title>
+        <p>Minowa AK, Garraffoni ARS (2018) Redescription of the dasydytid gastrotrich <italic>Haltidytes ooëides</italic> (Brunson, 1950) based on type material. ZooKeys 785: 41–48. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.785.28382">https://doi.org/10.3897/zookeys.785.28382</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0E4F">
+      <title>Introduction</title>
+      <p>While most gastrotrichs are epibenthic, periphytic, or interstitial, some species belonging to the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name> Daday, 1905 present a semi-pelagic lifestyle (<xref ref-type="bibr" rid="B9">Kieneke et al. 2008</xref>, <xref ref-type="bibr" rid="B1">Balsamo et al. 2014</xref>, <xref ref-type="bibr" rid="B8">Kånneby and Todaro 2015</xref>). Seven genera are currently assigned to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name>, including the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> Remane, 1936 recently found as monophyletic (<xref ref-type="bibr" rid="B12">Minowa and Garraffoni 2017</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> was originally established as a subgenus of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dasydytes">Dasydytes</tp:taxon-name-part></tp:taxon-name></italic> Gosse, 1851 by <xref ref-type="bibr" rid="B15">Remane (1936)</xref>, who then elevated it to a genus rank (Remane, 1967). Currently, the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> contains six valid species (<xref ref-type="bibr" rid="B12">Minowa and Garraffoni 2017</xref>): <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="festinans">festinans</tp:taxon-name-part></tp:taxon-name></italic> (Voigt, 1909) (type species), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="crassus">crassus</tp:taxon-name-part></tp:taxon-name></italic> (Greuter, 1917), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="saltitans">saltitans</tp:taxon-name-part></tp:taxon-name></italic> (Stokes, 1887), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="squamosus">squamosus</tp:taxon-name-part></tp:taxon-name></italic> Kisielewski, 1991, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pseudosquamosus">pseudosquamosus</tp:taxon-name-part></tp:taxon-name></italic> Minowa &amp; Garraffoni, 2017.</p>
+      <!--PageBreak-->
+      <p>While preparing a forthcoming study incorporating phylogenetic analyses of all valid <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name> species based on morphology (Minowa and Garraffoni, in preparation), we came across the possible type specimen of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950), originally described as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dasydytes">Dasydytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (USNM W 26869S). Although <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> had not designated any type specimen, the locality and sampling date (Michigan State, Washtenaw County, Half-Moon Lake; May, 30, 1944) registered in the Smithsonian Data Base are the same as those reported in the Brunson’s study. It came as a surprise to us that after more than 75 years the specimen is still preserved. Due to small size and fragile bodies, fixed specimens of gastrotrichs usually have their diagnostic morphological characters deteriorated after fixation (e.g. <xref ref-type="bibr" rid="B1">Balsamo et al. 2014</xref>, <xref ref-type="bibr" rid="B7">Kånneby 2016</xref>, <xref ref-type="bibr" rid="B4">Garraffoni and Freitas 2017</xref>). It is interesting to highlight that we also found the possible type specimen of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stylochaeta">Stylochaeta</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scirtetica">scirtetica</tp:taxon-name-part></tp:taxon-name></italic> Brunson, 1950 (USNM W 26870), but in this case, the material is in a poor condition and could not be used for a reanalysis.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EODAC">
+      <title>Materials and methods</title>
+      <p>Herein we redescribe <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> based upon a single type material deposited at the Smithsonian National Museum of Natural History. External morphology was observed using an Olympus BX63F compound fluorescence microscope with a digital DP80 camera and cellSens software (Olympus, Philadelphia, USA). Videos were prepared using the open-source platform Fiji (<xref ref-type="bibr" rid="B17">Schindelin et al. 2012</xref>). The necessity for a re-examination was caused by the shallow description by <xref ref-type="bibr" rid="B2">Brunson (1950)</xref>, who only briefly reported and illustrated a few morphological features of the new species. This need was further noted by <xref ref-type="bibr" rid="B1">Balsamo et al. (2014)</xref>, suggesting a misinterpretation of the insertion positions of the lateral spines. In the redescription of the species, the groups of spines are coded according to <xref ref-type="bibr" rid="B10">Kisielewski (1991)</xref>.</p>
+    </sec>
+    <sec sec-type="Taxonomic account" id="SECID0EMEAC">
+      <title>Taxonomic account</title>
+      <sec sec-type="Phylum Gastrotricha Metschnikoff, 1865" id="SECID0EQEAC">
+        <title>Phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name> Metschnikoff, 1865</title>
+        <sec sec-type="Order Chaetonotida Remane, 1925 [Rao &amp; Clausen, 1970]" id="SECID0E1EAC">
+          <title>Order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Chaetonotida</tp:taxon-name-part></tp:taxon-name> Remane, 1925 [Rao &amp; Clausen, 1970]</title>
+          <sec sec-type="Family Dasydytidae Daday, 1905" id="SECID0EEFAC">
+            <title>Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name> Daday, 1905</title>
+            <sec sec-type="Genus Haltidytes Remane, 1936" id="SECID0EOFAC">
+              <title>Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> Remane, 1936</title>
+              <tp:taxon-treatment>
+                <tp:treatment-meta>
+                  <kwd-group>
+                    <label>Taxon classification</label>
+                    <kwd>
+                      <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+                    </kwd>
+                    <kwd>
+                      <named-content content-type="order" xlink:type="simple">Chaetonotida</named-content>
+                    </kwd>
+                    <kwd>
+                      <named-content content-type="family" xlink:type="simple">Dasydytidae</named-content>
+                    </kwd>
+                  </kwd-group>
+                </tp:treatment-meta>
+                <tp:nomenclature>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part>
+                  </tp:taxon-name>
+                  <tp:taxon-authority> (Brunson, 1950)</tp:taxon-authority>
+                  <xref ref-type="fig" rid="F1">Figs 1</xref>
+                  <xref ref-type="fig" rid="F2">, 2</xref>
+                </tp:nomenclature>
+                <tp:treatment-sec sec-type="redescription" id="SECID0ECHAC">
+                  <title>Redescription.</title>
+                  <p>The observed specimen has a compact, bowling pin-shaped body, measuring 88 μm in total body length, 184 μm with spines included. Conical head with convex sides (24 μm wide), pentalobate, dorsally with a middle furrow (Figure <xref ref-type="fig" rid="F1">1D</xref>). Cephalic ciliature consists of two lateral tufts, one adjacent to mouth and another slightly posterior, and a transverse band interrupted medially in the ventral and dorsal portion on middle head region (Figures <xref ref-type="fig" rid="F1">1E</xref>, <xref ref-type="fig" rid="F2">2C, D</xref>). Kephalion, trapezoidal in shape (9 μm length, 13 μm wide) (Figures <xref ref-type="fig" rid="F1">1D</xref>, <xref ref-type="fig" rid="F2">2C</xref>), hypostomion, triangular in shape (5 μm length, 8 μm wide) located around the ventral portion of the mouth ring (Figures <xref ref-type="fig" rid="F1">1F</xref>, <xref ref-type="fig" rid="F2">2D</xref>). Distinct neck constriction (17 μm wide), much narrower than the head and trunk. Trunk ovoidal in shape (42 μm in maximum width) with a rounded posterior end (Figure <xref ref-type="fig" rid="F1">1A</xref>).</p>
+                  <p>Cephalic spines or rear spines not observed. On the anterior half of the trunk four paired groups of 2-2-2-1 curved simple spines (ta1-2, tb1-2, tc1-2, td) respectively, inserted directly on the cuticle without scales (Figs <xref ref-type="fig" rid="F1">1B, C</xref>, <xref ref-type="fig" rid="F2">2A–D</xref>). The first group (ta1 at U32; ta2 at U35) inserted ventrolaterally at the neck base strongly bends dorsally at the neck level showing a slightly (almost straight) concave curvature extending all over the trunk (Figure <xref ref-type="fig" rid="F2">2B</xref>). The other three groups (tb, tc and td) are inserted ventrally at U32, U35, U38, U40, U46, U50, and U60, respectively (Figure <xref ref-type="fig" rid="F1">1 B–C</xref>, <xref ref-type="fig" rid="F2">2 B</xref>). Spines tb2 turn dorsally like spines ta. Spines tb1, tc1-2, and td show a slight convex curvature and extend ventrally along the trunk, (Figure <xref ref-type="fig" rid="F2">2B</xref>). Spines of ta to tc group measure 100, 90, 75, 90, 82, 80 μm respectively. Group td is composed of one pair of very long saltatorial spines, 140 μm in length.</p>
+                  <p>Trunk locomotory ciliation divided into 2-paired ventral tufts at 15U and 93U on the ventral side of at the neck and posterior trunk, respectively (Figure <xref ref-type="fig" rid="F2">2C, D</xref>). No dorsal sensory bristles were observed.</p>
+                  <p>Mouth ring is terminal (3 μm in diameter). Pharynx (33 μm in length) increases in width uniformly from 9 μm anteriorly to 11 μm at the posterior end) (Figure <xref ref-type="fig" rid="F1">1A, D, F</xref>).</p>
+                  <fig id="F1" position="float" orientation="portrait">
+                    <label>Figure 1.</label>
+                    <caption>
+                      <p>Light micrographs (<abbrev xlink:title="Light micrographs">DIC</abbrev>) of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950). <bold>A</bold> dorsal view, <bold>B–C</bold> ventral view showing the insertion of trunk spines <bold>D</bold> dorsal view of the head <bold>E–F</bold> ventral view of the head. Asterisks (*) indicate the body cuticle. Scales bars: <bold>A–C</bold> 50 µm, <bold>D–F</bold> 25 µm. Abbreviations: <bold><abbrev xlink:title="anterior lateral ciliary tuft">alt</abbrev></bold> anterior lateral ciliary tuft <bold><abbrev xlink:title="anterior locomotory ciliation tuft">att</abbrev></bold> anterior locomotory ciliation tuft <bold><abbrev xlink:title="cephalion">ce</abbrev></bold> cephalion, <bold><abbrev xlink:title="hypostomion">hy</abbrev></bold>: hypostomion <bold><abbrev xlink:title="middle furrow">mf</abbrev></bold> middle furrow <bold><abbrev xlink:title="mediolateral ciliary tuft">mlt</abbrev></bold> mediolateral ciliary tuft <bold><abbrev xlink:title="mouth">mo</abbrev></bold> mouth <bold><abbrev xlink:title="posterior lateral ciliary band">plb</abbrev></bold> posterior lateral ciliary band <bold><abbrev xlink:title="posterior locomotory ciliation tuft">ptt</abbrev></bold> posterior locomotory ciliation tuft <bold>tb1-2</bold> trunk spines <bold>tc1-2</bold> trunk spines <bold>td</bold> trunk spines.</p>
+                    </caption>
+                    <graphic xlink:href="zookeys-785-041-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229620.jpg"/>
+                  </fig>
+                </tp:treatment-sec>
+                <tp:treatment-sec sec-type="remarks" id="SECID0EKLAC">
+                  <title>Remarks.</title>
+                  <p>Usually, the trunk width is given as the maximum trunk widthwhich is at the midgut level. In this case, the type specimen <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> is 42 μm wide. However, <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> measured the trunk width posterior to the midgut level (close to the posterior end of the body) and found it to be 36 μm wide.</p>
+                  <p>Differences in spines length between the original description and the present one (Table <xref ref-type="table" rid="T1">1</xref>) are due to different measurement methods. We chose to measure each spine length outlining its curvature (100, 90, 75, 90, 82, 80 μm respectively) instead of measuring the distance between the spine base insertion and apex as a straight line, as <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> did (86, 86, 67, 82, 82 and 58 μm, respectively).</p>
+                  <p>Additionally, the original description mentions a pair of caudal bristles (Figure <xref ref-type="fig" rid="F2">2C</xref>) that originate 10 µm from the posterior end of the trunk. After reexamination of the type specimen (Figure <xref ref-type="fig" rid="F2">2A, B–D</xref>) we conclude that <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> may have misinterpreted these structures. In fact, our observations revealed that the caudal bristles described by <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> actually are the ta1 spines, due to their similar position relative to the posterior trunk, size and shape (Figure <xref ref-type="fig" rid="F2">2A, B</xref>).</p>
+                  <p>As previously mentioned, the description of some morphological characters of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> were misinterpreted by <xref ref-type="bibr" rid="B2">Brunson (1950)</xref> and incorrectly replicated by <xref ref-type="bibr" rid="B1">Balsamo et al. (2014)</xref> and <xref ref-type="bibr" rid="B12">Minowa and Garraffoni (2017)</xref>. We address this issue by correcting the taxonomic key <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> in order to correct previous misinterpretations.</p>
+                  <fig id="F2" position="float" orientation="portrait">
+                    <label>Figure 2.</label>
+                    <caption>
+                      <p>Light micrographs (<abbrev xlink:title="Light micrographs">DIC</abbrev>) and redrawing of the schematic drawing of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950). <bold>A</bold> whole animal view <bold>B</bold> redrawing of the schematic drawing of the original description <bold>C</bold> the same image of <bold>A</bold> in which the arrangement of the trunk spines is highlighted <bold>D</bold> schematic drawing of the dorsal view <bold>E</bold> schematic drawing of the ventral view. Scales bars: 50 µm. Abbreviations: <bold><abbrev xlink:title="anterior lateral ciliary tuft">alt</abbrev></bold> anterior lateral ciliary tuft <bold><abbrev xlink:title="anterior locomotory ciliation tuft">att</abbrev></bold> anterior locomotory ciliation tuft <bold>cd</bold> caudal bristle <bold><abbrev xlink:title="cephalion">ce</abbrev></bold> cephalion <bold><abbrev xlink:title="hypostomion">hy</abbrev></bold>: hypostomion <bold><abbrev xlink:title="mediolateral ciliary tuft">mlt</abbrev></bold> mediolateral ciliary tuft <bold><abbrev xlink:title="mouth">mo</abbrev></bold> mouth <bold>ph</bold> pharynx <bold><abbrev xlink:title="posterior lateral ciliary band">plb</abbrev></bold> posterior lateral ciliary band <bold><abbrev xlink:title="posterior locomotory ciliation tuft">ptt</abbrev></bold>: posterior locomotory ciliation tuft <bold>ta1-2</bold> trunk spines <bold>tb1-2</bold> trunk spines <bold>tc1-2</bold> trunk spines <bold>td</bold> trunk spines.</p>
+                    </caption>
+                    <graphic xlink:href="zookeys-785-041-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_229621.jpg"/>
+                  </fig>
+                  <table-wrap id="T1" position="float" orientation="portrait">
+                    <label>Table 1.</label>
+                    <caption>
+                      <p>Morphometric features of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">Haltidytes</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part></tp:taxon-name></italic> (Brunson, 1950): measures are expressed in µm; the relative positions of morphological structures along the body are expressed in percentage unities (U) in relation to the total body length.</p>
+                    </caption>
+                    <table id="TID0EDIAC" rules="all">
+                      <tbody>
+                        <tr>
+                          <th rowspan="1" colspan="1">Feature type</th>
+                          <th rowspan="1" colspan="1">Measure (μm)</th>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Total body length, spines excluded</td>
+                          <td rowspan="1" colspan="1">88</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Total body length, spines included</td>
+                          <td rowspan="1" colspan="1">184</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Maximum head width) (U17)</td>
+                          <td rowspan="1" colspan="1">24</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Minimum neck width (µm) (U30)</td>
+                          <td rowspan="1" colspan="1">17</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Maximum trunk width (µm) (U65)</td>
+                          <td rowspan="1" colspan="1">42</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Trunk length (µm)</td>
+                          <td rowspan="1" colspan="1">60</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Pharynx length (µm)</td>
+                          <td rowspan="1" colspan="1">33</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Anterior pharynx width (µm)</td>
+                          <td rowspan="1" colspan="1">9</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Posterior pharynx width (µm)</td>
+                          <td rowspan="1" colspan="1">11</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Diameter of mouth ring (µm)</td>
+                          <td rowspan="1" colspan="1">3</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Kephalion length (µm)</td>
+                          <td rowspan="1" colspan="1">9</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Kephalion width (µm)</td>
+                          <td rowspan="1" colspan="1">13</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Hypostomion length (µm)</td>
+                          <td rowspan="1" colspan="1">5</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Hypostomion width (µm)</td>
+                          <td rowspan="1" colspan="1">8</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Spine ta1-2 length (µm)</td>
+                          <td rowspan="1" colspan="1">100, 90</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Spine tb1-2 length (µm)</td>
+                          <td rowspan="1" colspan="1">75, 90</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Spine tc1-2 length (µm)</td>
+                          <td rowspan="1" colspan="1">82, 80</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Spine td length (µm)</td>
+                          <td rowspan="1" colspan="1">140</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Ventral spine ta1-2 insertion</td>
+                          <td rowspan="1" colspan="1">U32, U35</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Ventral spine tb1-2 insertion</td>
+                          <td rowspan="1" colspan="1">U38, U40</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Ventral spine tc1-2 insertion</td>
+                          <td rowspan="1" colspan="1">U46, U50</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Ventral spine td insertion (U)</td>
+                          <td rowspan="1" colspan="1">U60</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Cephalic ciliary tufts insertion (U)</td>
+                          <td rowspan="1" colspan="1">U1, U4, U8</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Ventral trunk ciliary tufts insertion (U)</td>
+                          <td rowspan="1" colspan="1">U15, U93</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                </tp:treatment-sec>
+              </tp:taxon-treatment>
+            </sec>
+          </sec>
+        </sec>
+      </sec>
+      <sec sec-type="Taxonomic key to genus Haltydytes" id="SECID0EPFAE">
+        <title>Taxonomic key to genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haltydytes">Haltydytes</tp:taxon-name-part></tp:taxon-name></italic></title>
+        <table-wrap content-type="key" position="anchor" orientation="portrait">
+          <table id="TID0E3BAE" rules="all">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">1</td>
+                <td rowspan="1" colspan="1">Seven pairs of spines with ventral insertion besides td (saltatorial spines)</td>
+                <td rowspan="1" colspan="1">
+                  <bold>2</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Six or fewer pairs of spines with ventral insertion besides td (saltatorial spines)</td>
+                <td rowspan="1" colspan="1">
+                  <bold>4</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">2</td>
+                <td rowspan="1" colspan="1">Dorsal trunk totally or partially covered with rhombic scales arranged sparsely or aggregate</td>
+                <td rowspan="1" colspan="1">
+                  <bold>3</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Dorsal trunk without scales</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="festinans">festinans</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">3</td>
+                <td rowspan="1" colspan="1">Dorsal scales arranged sparsely; dorsal trunk covered with rhombic scales with a short median keel or smooth; ventral trunk covered with small smooth scales</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="squamosus">squamosus</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Dorsal scales aggregate; median and rear dorsal trunk covered with smooth, rhombic scales; ventral trunk without scales</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pseudosquamosus">pseudosquamosus</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">4</td>
+                <td rowspan="1" colspan="1">Anterior spines (ta) cross each other above dorsal trunk</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="saltitans">saltitans</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Anterior spines (ta) do not cross each other above dorsal portion of the trunk</td>
+                <td rowspan="1" colspan="1">
+                  <bold>5</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">5</td>
+                <td rowspan="1" colspan="1">Ventral ciliature consisting of 2 tufts; 3 pairs of spines arrive to the dorsum while 3 other spines remain ventral besides td group</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="ooëides">ooëides</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Ventral ciliature consisting of 2 longitudinal bands; all 5 pairs of spines arrive to the dorsum; only td group remain on venter</td>
+                <td rowspan="1" colspan="1">
+                  <bold>
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Haltidytes">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="crassus">crassus</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </bold>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are grateful to Fundação Amparo à Pesquisa do Estado de São Paulo − FAPESP (grant numbers: 2014/23856-0; 2017/20312-8) for financial support; Freya Goetz (Smithsonian Institution, National Museum of Natural History, Department of Invertebrate Zoology) for assistance with micrographs and videos of the type specimen; to Brett Christopher Gonzalez for editing the English text; an anonymous referee for offering suggestions that greatly improved the paper.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Balsamo</surname><given-names>M</given-names></name><name name-style="western"><surname>Grilli</surname><given-names>P</given-names></name><name name-style="western"><surname>Guidi</surname><given-names>L</given-names></name><name name-style="western"><surname>d’Hondt</surname><given-names>JL</given-names></name></person-group> (<year>2014</year>) <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>: biology, ecology and systematics. Families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dichaeturidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Neogosseidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Proichthydiidae</tp:taxon-name-part></tp:taxon-name>.</source><publisher-name>Backhuys Publishers</publisher-name>, <publisher-loc>Margraf Publishers, Weikersheim</publisher-loc>, <size units="page">187 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Brunson</surname><given-names>RB</given-names></name></person-group> (<year>1950</year>) <article-title>An introduction to the taxonomy of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name> with a study of eighteen species from Michigan.</article-title><source>Transactions of the American Microscopical Society</source><volume>69</volume>: <fpage>325</fpage>–<lpage>352</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.2307/3223127">https://doi.org/10.2307/3223127</ext-link></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Daday</surname><given-names>E von</given-names></name></person-group> (<year>1905</year>) <article-title>Untersuchungen über die Süsswasser Mikrofauna Paraguays.</article-title><source>Zoologica</source><volume>44</volume>: <fpage>1</fpage>–<lpage>374</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Garraffoni</surname><given-names>ARS</given-names></name><name name-style="western"><surname>Freitas</surname><given-names>AVL</given-names></name></person-group> (<year>2017</year>) Photos belong in the taxonomic Code. Science 355: 805. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1126/science.aam7686">https://doi.org/10.1126/science.aam7686</ext-link></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gosse</surname><given-names>PH</given-names></name></person-group> (<year>1851</year>) <article-title>XVIII A catalogue of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rotifera</tp:taxon-name-part></tp:taxon-name> found in Britain; with descriptions of five new genera and thirty-two new species.</article-title><source>Journal of Natural History</source><volume>8</volume>: <fpage>197</fpage>–<lpage>203</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1080/03745486109496205">https://doi.org/10.1080/03745486109496205</ext-link></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Greuter</surname><given-names>A</given-names></name></person-group> (<year>1917</year>) <article-title>Beiträge zur Systematik der Gastrotrichen in der Schweiz.</article-title><source>Revue Suisse de Zoologie</source><volume>25</volume>: <fpage>35</fpage>–<lpage>76</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.5962/bhl.part.31929">https://doi.org/10.5962/bhl.part.31929</ext-link></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kånneby</surname><given-names>T</given-names></name></person-group> (<year>2016</year>) <article-title>Phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>.</article-title> In: <person-group><name name-style="western"><surname>Thorp</surname><given-names>JH</given-names></name><name name-style="western"><surname>Rogers</surname><given-names>DC</given-names></name></person-group> (<role>Eds</role>) <issue-title>Key to Nearctic Fauna: Thorp and Covich’s Freshwater Invertebrates.</issue-title><source>Elsevier, Amsterdam</source>, <fpage>115</fpage>–<lpage>130</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1016/B978-0-12-385028-7.00007-X">https://doi.org/10.1016/B978-0-12-385028-7.00007-X</ext-link></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kånneby</surname><given-names>T</given-names></name><name name-style="western"><surname>Todaro</surname><given-names>MA</given-names></name></person-group> (<year>2015</year>) <article-title>The phylogenetic position of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Neogosseidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Chaetonotida</tp:taxon-name-part></tp:taxon-name>) and the origin of planktonic <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>.</article-title><source>Organisms Diversity &amp; Evolution</source><volume>15</volume>: <fpage>459</fpage>–<lpage>469</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/s13127-015-0223-9">https://doi.org/10.1007/s13127-015-0223-9</ext-link></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kieneke</surname><given-names>A</given-names></name><name name-style="western"><surname>Riemann</surname><given-names>O</given-names></name><name name-style="western"><surname>Ahlrichs</surname><given-names>WH</given-names></name></person-group> (<year>2008</year>) <article-title>Novel implications for the basal internal relationships of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name> revealed by an analysis of morphological characters.</article-title><source>Zoologica Scripta</source><volume>37</volume>: <fpage>429</fpage>–<lpage>460</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/j.1463-6409.2008.00334.x">https://doi.org/10.1111/j.1463-6409.2008.00334.x</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kisielewski</surname><given-names>J</given-names></name></person-group> (<year>1991</year>) <article-title>Inland-water <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name> from Brazil.</article-title><source>Annales Zoologici</source><volume>43</volume>: <fpage>1</fpage>–<lpage>168</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Metschnikoff</surname><given-names>E</given-names></name></person-group> (<year>1865</year>) <article-title>Über einige wenig bekannte niedere Thierformen.</article-title><source>Zeitschrift für Wissenschaftliche Zoologie</source><volume>15</volume>: <fpage>450</fpage>–<lpage>463</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Minowa</surname><given-names>AK</given-names></name><name name-style="western"><surname>Garraffoni</surname><given-names>ARS</given-names></name></person-group> (<year>2017</year>) <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Haltidytes</tp:taxon-name-part></tp:taxon-name></italic> Remane, 1936 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Chaetonotida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dasydytidae</tp:taxon-name-part></tp:taxon-name>) from an urban lagoon in Brazil with a phylogenetic reconstruction of the genus based on morphological data.</article-title><source>Zoologischer Anzeiger</source><volume>269</volume>: <fpage>100</fpage>–<lpage>109</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1016/j.jcz.2017.08.003">https://doi.org/10.1016/j.jcz.2017.08.003</ext-link></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Rao</surname><given-names>GC</given-names></name><name name-style="western"><surname>Clausen</surname><given-names>C</given-names></name></person-group> (<year>1970</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Planodasys</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">marginalis</tp:taxon-name-part></tp:taxon-name></italic> gen. et sp. nov. and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Planodasyidae</tp:taxon-name-part></tp:taxon-name> fam. nov. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Macrodasyoidea</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Sarsia</source><volume>42</volume>: <fpage>73</fpage>–<lpage>82</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1080/00364827.1970.10411164">https://doi.org/10.1080/00364827.1970.10411164</ext-link></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Remane</surname><given-names>A</given-names></name></person-group> (<year>1925</year>) <article-title>Organisation und systematische Stellung der aberranten Gastrotrichen.</article-title><source>Verhandlungen der deutschen zoologischen Gesellschaft</source><volume>30</volume>: <fpage>121</fpage>–<lpage>128</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Remane</surname><given-names>A</given-names></name></person-group> (<year>1936</year>) <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>. In: Bronn HG (Ed.) Klassen Und Ordnungen Des Tierreichs. Liefr. IV, Abt. 2, Buch 1, Teil 2.</source><publisher-name>Akademische Verlagsgesellschaft</publisher-name>, <publisher-loc>Leipzig</publisher-loc>, <size units="page">142 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Remane</surname><given-names>A</given-names></name></person-group> (<year>1967</year>) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gastrotricha</tp:taxon-name-part></tp:taxon-name>. In: Illies J (Ed.) Limnofauna Europaea, Gustav Fischer Stuttgart, 69–72.</mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schindelin</surname><given-names>J</given-names></name><name name-style="western"><surname>Arganda-Carreras</surname><given-names>I</given-names></name><name name-style="western"><surname>Frise</surname><given-names>E</given-names></name><name name-style="western"><surname>Kaynig</surname><given-names>V</given-names></name><name name-style="western"><surname>Longair</surname><given-names>M</given-names></name><name name-style="western"><surname>Pietzsch</surname><given-names>T</given-names></name><name name-style="western"><surname>Preibisch</surname><given-names>S</given-names></name><name name-style="western"><surname>Rueden</surname><given-names>C</given-names></name><name name-style="western"><surname>Saalfeld</surname><given-names>S</given-names></name><name name-style="western"><surname>Schmid</surname><given-names>B</given-names></name><name name-style="western"><surname>Tinevez</surname><given-names>JY</given-names></name><name name-style="western"><surname>White</surname><given-names>D</given-names></name><name name-style="western"><surname>Hartenstein</surname><given-names>V</given-names></name><name name-style="western"><surname>Eliceiri</surname><given-names>K</given-names></name><name name-style="western"><surname>Tomancak</surname><given-names>P</given-names></name><name name-style="western"><surname>Cardona</surname><given-names>A</given-names></name></person-group> (<year>2012</year>) Fiji: an open-source platform for biological-image analysis. Nature Мethods 9: 676. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1038/nmeth.2019">https://doi.org/10.1038/nmeth.2019</ext-link></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Stokes</surname><given-names>AC</given-names></name></person-group> (<year>1887</year>) <article-title>Observations on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chaetonotus</tp:taxon-name-part></tp:taxon-name></italic>.</article-title><source>Microscope</source><volume>7</volume>: <fpage>33</fpage>–<lpage>43</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Voigt</surname><given-names>M</given-names></name></person-group> (<year>1909</year>) <article-title>Nachtrag zur gastrotrichen-fauna Plöns.</article-title><source>Zoologischer Anzeiger</source><volume>39</volume>: <fpage>717</fpage>–<lpage>722</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

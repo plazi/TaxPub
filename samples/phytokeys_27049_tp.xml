@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">MycoKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">MycoKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">MycoKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-4057</issn>
+      <issn pub-type="epub">1314-4049</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/phytokeys.109.27049</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Brassicaceae</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Asia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Chola Shan, Southwest China</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Hao</surname>
+            <given-names>Guoqian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Al-Shehbaz</surname>
+            <given-names>Ihsan A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Zhang</surname>
+            <given-names>Lei</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Guo</surname>
+            <given-names>Xinyi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Bi</surname>
+            <given-names>Hao</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Xu</surname>
+            <given-names>Songbai</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Liu</surname>
+            <given-names>Jianquan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <email xlink:type="simple">liujq@lzu.edu.cn</email>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line>Biodiversity Institute of Mount Emei, Mount Emei Scenic Area Management Committee, Leshan 614000, Sichuan, P. R. China</addr-line>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line>Key Laboratory for Bio-Resources and Eco-Environment of Ministry of Education, College of Life Science, Sichuan University, Chengdu 610065, Sichuan, P. R. China</addr-line>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line>Missouri Botanical Garden, P.O. Box 299, St. Louis, MO 63166-0299, USA</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Jianquan Liu (<email xlink:type="simple">liujq@nwipb.ac.cn</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: K. Marhold</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>9</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>109</issue>
+      <fpage>17</fpage>
+      <lpage>25</lpage>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>5</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>8</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Guoqian Hao, Ihsan A. Al-Shehbaz, Lei Zhang, Xinyi Guo, Hao Bi, Songbai Xu, Jianquan Liu</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, a new high-elevation (4500–4600 m) species from Chola Shan, Sichuan (Southwest China), is described and illustrated. It is similar morphologically to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> but is readily distinguished by having oblong to elliptic or obovate to spatulate (vs. suborbicular to broadly ovate) leaves, glabrous (vs. puberulent) sepals and ovate to oblong fruit 4–7 × 2–3 mm with flattened valves (vs. ovoid to subglobose fruit 2–3 × 1.8–2 mm with rounded valves). The genetic differences amongst <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> and other close relatives are further confirmed by phylogenetic analyses using ITS and cpDNA sequence variations. The new combination <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> is proposed.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Cruciferae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+              <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>molecular phylogeny</kwd>
+        <kwd>Sichuan</kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+              <tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EXAAC">
+        <title>Citation</title>
+        <p>Hao G, Al-Shehbaz IA, Zhang L, Guo X, Bi H, Xu S, Liu J (2018) <italic>Eutrema nanum</italic> (Brassicaceae), a new species from Chola Shan, Southwest China. PhytoKeys 109: 17–25. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.109.27049">https://doi.org/10.3897/phytokeys.109.27049</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0ESBAC">
+      <title>Introduction</title>
+      <p>The boundaries of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part></tp:taxon-name></italic> R.Br. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name> or <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cruciferae</tp:taxon-name-part></tp:taxon-name>) have recently been expanded to include 38 species, several of which were previously placed in the six genera <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Taphrospermum">Taphrospermum</tp:taxon-name-part></tp:taxon-name></italic> C.A.Mey., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Thellungiella">Thellungiella</tp:taxon-name-part></tp:taxon-name></italic> O.E.Schulz, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neomartinella">Neomartinella</tp:taxon-name-part></tp:taxon-name></italic> Pilg., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Platycraspedum">Platycraspedum</tp:taxon-name-part></tp:taxon-name></italic> O.E.Schulz, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chalcanthus">Chalcanthus</tp:taxon-name-part></tp:taxon-name></italic> Boiss. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pegaeophyton">Pegaeophyton</tp:taxon-name-part></tp:taxon-name></italic> Hayek &amp; Hand.-Mazz. (<xref ref-type="bibr" rid="B1">Al-Shehbaz and Warwick 2005</xref>; <xref ref-type="bibr" rid="B4">Hao et al. 2017a</xref>). The taxonomic knowledge of this genus is still incomplete because numerous collections from the high-elevation regions in Southwest China were often overlooked and many areas remain poorly explored. We reported two new species during recent field investigations and molecular analyses (<xref ref-type="bibr" rid="B3">Hao et al. 2016</xref>, <xref ref-type="bibr" rid="B5">2017b</xref>). Here we report the third one, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, found in Chola Shan at a high elevation of 4500–4600 m in Sichuan Province, Southwest China. This new species is morphlogically similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> (Al-Shehbaz, Kats Arai &amp; H.Ohba) Al-Shehbaz, G.Q.Hao &amp; J.Quan Liu but, as shown below, it is readily distinguished by several aspects of leaves and fruit. The phylogenetic studies on both species and their other relatives were also conducted herein and the results support the recognition of this novelty. In addition, one of six species which were used to determine the systematic position of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> was found to need a taxonomic combination and a new name <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> (Hemsl.) G.Q.Hao, J.Quan Liu &amp; Al-Shehbaz is therefore proposed herein.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EPFAC">
+      <title>Material and methods</title>
+      <p>We examined morphological traits of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and several relative species. We followed <xref ref-type="bibr" rid="B6">Hu et al. (2015)</xref> and <xref ref-type="bibr" rid="B4">Hao et al. (2017a)</xref> in examining the genetic differences between this novelty (two accessions) and the morphologically similar <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> (one accession). In order to determine the systematic position of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, we futher included six species (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part></tp:taxon-name></italic> (Hook.f. &amp; Thomson) Al-Shehbaz, G.Q.Hao &amp; J.Quan Liu, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> (Hemsl.) G.Q.Hao, J.Quan Liu &amp; Al-Shehbaz, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hookeri">hookeri</tp:taxon-name-part></tp:taxon-name></italic> Al-Shehbaz &amp; Warwick, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="fontanum">fontanum</tp:taxon-name-part></tp:taxon-name></italic> (Maxim.) Al-Shehbaz &amp; Warwick, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="verticillatum">verticillatum</tp:taxon-name-part></tp:taxon-name></italic> (Jeffrey &amp; W.W.Sm.) Al-Shehbaz &amp; Warwick and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="deltoideum">deltoideum</tp:taxon-name-part></tp:taxon-name></italic> (Hook.f. &amp; Thomson) O.E.Schulz) in our analyses. All six species were shown to be close relatives to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> in our previous study (<xref ref-type="bibr" rid="B4">Hao et al. 2017a</xref>) and two (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic>) were previously placed in the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pegaeophyton">Pegaeophyton</tp:taxon-name-part></tp:taxon-name></italic>. The related <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="integrifolium">integrifolium</tp:taxon-name-part></tp:taxon-name></italic> Bunge (see <xref ref-type="bibr" rid="B4">Hao et al. 2017a</xref>) was selected as the outgroup. The collection information of the sampled species is listed in Table <xref ref-type="table" rid="T1">1</xref> and Figure <xref ref-type="fig" rid="F3">3</xref> and the voucher specimens were deposited in the Sichuan University Herbarium (<abbrev xlink:title="Sichuan University Herbarium" id="ABBRID0EDLAC">SZ</abbrev>).</p>
+      <table-wrap id="T1" position="float" orientation="portrait">
+        <label>Table 1.</label>
+        <caption>
+          <p>The sources of materials used for molecular analyses of Himalayan <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part></tp:taxon-name></italic> (all vouchers at <abbrev xlink:title="Sichuan University Herbarium" id="ABBRID0EXLAC">SZ</abbrev>).</p>
+        </caption>
+        <table id="TID0E2EAC" rules="all">
+          <tbody>
+            <tr>
+              <th rowspan="1" colspan="1">Taxon</th>
+              <th rowspan="1" colspan="1">Voucher</th>
+              <th rowspan="1" colspan="1">Source</th>
+              <th rowspan="1" colspan="1">Coordinate</th>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu &amp; Hao 14091</td>
+              <td rowspan="1" colspan="1">Chola Shan, Sichuan, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.900000,31.916667]}" id="NCID0EJNAC">31°55'N, 98°54'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu 17124</td>
+              <td rowspan="1" colspan="1">Chola Shan, Sichuan, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.900000,31.916667]}" id="NCID0ELOAC">31°55'N, 98°54E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Long et al. 605</td>
+              <td rowspan="1" colspan="1">Sikkim, India</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[88.200000,27.600000]}" id="NCID0ENPAC">27°36'N, 88°12'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu 13114</td>
+              <td rowspan="1" colspan="1">Biluo Snow Mountain, Yunnan, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.783333,27.983333]}" id="NCID0EQAAE">27°59'N, 98°47'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu &amp; Hao 13074</td>
+              <td rowspan="1" colspan="1">Yarla Shampo Mountain, Tibet, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[91.983333,28.850000]}" id="NCID0ESBAE">28°51'N, 91°59E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="fontanum">fontanum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu &amp; Hao 13144</td>
+              <td rowspan="1" colspan="1">Zhuodala Mountain, Sichuan, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[99.933333,31.400000]}" id="NCID0EUCAE">31°24'N, 99°56'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="hookeri">hookeri</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu 17108a</td>
+              <td rowspan="1" colspan="1">Mila Mountain, Tibet, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[93.500000,29.816667]}" id="NCID0EWDAE">29°49'N, 92°90'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="verticillatum">verticillatum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu &amp; Hao 14094</td>
+              <td rowspan="1" colspan="1">Maila Mountain, Sichuan, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.966667,30.966667]}" id="NCID0EYEAE">30°58'N, 98°58'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="deltoideum">deltoideum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu 13024</td>
+              <td rowspan="1" colspan="1">Lasa, Tibet, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[91.150000,29.700000]}" id="NCID0E1FAE">29°42'N, 91°09'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="integrifolium">integrifolium</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">Liu &amp; Hao 13049</td>
+              <td rowspan="1" colspan="1">Tianshan Mountain, Xinjiang, China</td>
+              <td rowspan="1" colspan="1">
+                <named-content content-type="dwc:verbatimCoordinates">
+                  <named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[84.816667,43.200000]}" id="NCID0E3GAE">43°12'N, 84°49'E</named-content>
+                </named-content>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <p>We extracted the total DNA and amplified and sequenced four DNA markers, the nuclear internal transcribed spacer (ITS) and three chloroplast DNA (cpDNA) regions (<italic>psb</italic>A-<italic>trn</italic>H, <italic>rbc</italic>L, <italic>mat</italic>K), following <xref ref-type="bibr" rid="B6">Hu et al. (2015)</xref> and <xref ref-type="bibr" rid="B4">Hao et al. (2017a)</xref>. The sequences firstly reported here were placed in GenBank under the accession numbers (<ext-link ext-link-type="gen" xlink:href="MH702367" xlink:type="simple">MH702367</ext-link>, <ext-link ext-link-type="gen" xlink:href="MH793597" xlink:type="simple">MH793597</ext-link>, <ext-link ext-link-type="gen" xlink:href="MH793598" xlink:type="simple">MH793598</ext-link>, <ext-link ext-link-type="gen" xlink:href="MH793599" xlink:type="simple">MH793599</ext-link>). We aligned all sequences using Clustal X (<xref ref-type="bibr" rid="B11">Thompson et al. 1997</xref>) and refined them manually. We concatenated three cpDNA sequences into a single matrix for Maximum Parsimony (MP) and Maximum Likelihood (ML) analyses. We coded indels using the simple code method by GapCoder (<xref ref-type="bibr" rid="B12">Young and Healy 2003</xref>). We constructed phylogenetic relationships based on two datasets (ITS and cpDNAs) using MP analyses by PAUP* 4.10b (<xref ref-type="bibr" rid="B10">Swofford 2003</xref>) and ML analyses using RAxML 7.2.6 (<xref ref-type="bibr" rid="B9">Stamatakis 2006</xref>). MP analyses employed a heuristic search with 10,000 replicates and TBR branch swapping and bootstrap values (<xref ref-type="bibr" rid="B2">Felsenstein 1985</xref>) were estimated with 1000 replicates and 100 random-addition-sequence replicates per bootstrap replicate. ML analyses were performed with raxmlHPC -f a -s sequence. phy -n boot2 -m GTRGAMMA -x 1234 -# 1000 -n outname. The most suitable GTRGAMMA models were used and bootstrap analyses were estimated with 1000 replicates.</p>
+    </sec>
+    <sec sec-type="Taxonomy" id="SECID0EHIAE">
+      <title>Taxonomy</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Fungi</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Brassicales</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Brassicaceae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+            <object-id content-type="ipni" xlink:type="simple">urn:lsid:ipni.org:names:60477015-2</object-id>
+          </tp:taxon-name>
+          <tp:taxon-authority>G.Q.Hao, J.Quan Liu &amp; Al-Shehbaz</tp:taxon-authority>
+          <tp:taxon-status>sp. nov.</tp:taxon-status>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="material" id="SECID0EUJAE">
+          <title>Type.</title>
+          <p>China. Sichuan: Chola Shan, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.909722,31.925556]}" id="NCID0E4JAE">31°55'32"N, 98°54'35"E</named-content></named-content>, 4500 m elev., 16 August 2014, <italic>Liu &amp; Hao 14091</italic> (Holotype, <abbrev xlink:title="Sichuan University Herbarium" id="ABBRID0EEKAE">SZ</abbrev>). Figures <xref ref-type="fig" rid="F1">1</xref>, <xref ref-type="fig" rid="F2">2</xref>.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EQKAE">
+          <title>Description.</title>
+          <p>Herbs perennial, 3–6 cm tall, glabrous or puberulent; caudex slender, ca. 3–5 mm long. Leaves basal, rosulate, 20–25 per caudex; petiole 13–20 mm long, slender at base, glabrous or with few trichomes; blade oblong, elliptic, obovate, spatulate, 6–10 × 3–4 mm, fleshy, glabrous or abaxially pubescent with trichomes, 0.3–0.6 mm long, base subattenuate, to cuneate, margin entire, apex obtuse to subrounded. Pedicels slender, 18–23 mm long at anthesis, not elongated in fruit, not persistent. Flowers 5–8 per plant; sepals ovate to oblong, 1–1.5 mm long; petals white, broadly obovate to spatulate, blade 2–3 ×1–2 mm, persistent to fruit maturity, claw-like base 0.5–1 mm long. Ovules 2–4 per ovary. Fruit latiseptate, dehiscent, ovate to oblong, somewhat curved, 4–7 × 2–3 mm; valves nearly flat, extending along part of fruit length; gynophore 0.1–0.3 mm long; replum 0.3–0.4 mm wide; style 0.6–1 mm long. Seeds broadly ovate, brown, plump, 2–4 per fruit, 1.4–2 × 0.6–1 mm.</p>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is morpholgically most similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic>, from which it is readily distinguished by having oblong, elliptic, obovate to spatulate leaves, glabrous sepals and ovate to oblong larger fruit 4–7 × 2–3 mm with flattened, glabrous valves. In contrast, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> (<ext-link xlink:type="simple" ext-link-type="uri" xlink:href="https://www.gbif.org">https://www.gbif.org</ext-link>) has suborbicular to broadly ovate leaves, puberulent sepals and ovoid to subglobose smaller fruit 2–3 × 1.8–2 mm with rounded, puberulent valves. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> was only found with around 100 individuals along a stream in a valley about 2 kilometres from the Chola Shan peak, whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> occurs across Himalyas Mountains in Bhtan, China, Nepal and India.</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum.</tp:taxon-name-part></tp:taxon-name></italic> G.Q. Hao, J.Quan. Liu &amp; Al-Shehbaz. <bold>A</bold> Plant <bold>B</bold> Fruit <bold>C</bold> Leaf trichomes.</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-017-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228465.jpg"/>
+          </fig>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p>Holotype of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-017-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228466.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="phenology" id="SECID0EJOAE">
+          <title>Phenology.</title>
+          <p>Flowering: June–August. Fruiting: August–September.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0EOOAE">
+          <title>Distribution and habitat.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is currently known only from Chola Shan, part of Hengduan Mountains in West Sichuan, China (Fig. <xref ref-type="fig" rid="F3">3</xref>). It grows under rocks by streams close to glaciers, damp or gravelly scree, wet sand at a very high elevation of 4500–4600 m.</p>
+          <fig id="F3" position="float" orientation="portrait">
+            <label>Figure 3.</label>
+            <caption>
+              <p>Geographical distribution of the sampled populations of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and related species.</p>
+            </caption>
+            <graphic xlink:href="phytokeys-109-017-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228467.jpg"/>
+          </fig>
+          <p><bold>Paratype</bold>. China. Sichuan: Chola Shan, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[98.909722,31.925556]}" id="NCID0ECQAE">31°55'32"N, 98°54'35"E</named-content></named-content>, 4500 m elev., <italic>Liu 17124</italic> (<abbrev xlink:title="Sichuan University Herbarium" id="ABBRID0EJQAE">SZ</abbrev>).</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Fungi</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Brassicales</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Brassicaceae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part>
+            <object-id content-type="ipni" xlink:type="simple">urn:lsid:ipni.org:names:77190124-1</object-id>
+          </tp:taxon-name>
+          <tp:taxon-authority>(Hemsl.) G.Q.Hao, J.Quan Liu &amp; Al-Shehbaz, comb. nov. Based on Braya sinensis Hemsl., J. Linn. Soc., Bot. 30: 303. 1892.</tp:taxon-authority>
+          <tp:nomenclature-citation-list>
+            <tp:nomenclature-citation>
+              <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema"/><tp:taxon-name-part taxon-name-part-type="species" reg="sinense"/></tp:taxon-name><comment><bold>Syn.</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="robustum">robustum</tp:taxon-name-part></tp:taxon-name> (O.E.Schulz) Al-Shehbaz, G.Q.Hao &amp; J.Quan Liu, Bot. J. Linn. Soc. 184: 2019. 2017. Basionym: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pegaeophyton">Pegaeophyton</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="variety" reg="robustum">robustum</tp:taxon-name-part></tp:taxon-name> O.E.Schulz, Notizbl. Bot. Gart. Gerlin-Dahlem 9: 477. 1926. </comment>
+            </tp:nomenclature-citation>
+          </tp:nomenclature-citation-list>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EOETY">
+          <p>The earliest available epithet of this taxon at the species rank is “<italic>sinensis</italic>” and it should have been been transferred to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part></tp:taxon-name></italic> by <xref ref-type="bibr" rid="B4">Hao et al. (2017a)</xref> instead of using the varietal epithet “<italic>robustum</italic>.”</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    <sec sec-type="Genetic differences between Eutrema nanum, E. nepalense and other relatives" id="SECID0ELUAE">
+      <title>Genetic differences between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> and other relatives</title>
+      <p>Sequence data from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> reveals that one nucleotide substitution in ITS, two in <italic>rbc</italic>L, 18 in <italic>mat</italic>K and eight substitutions and three indels in <italic>psb</italic>A-<italic>trn</italic>H distinguish them very well (Table <xref ref-type="table" rid="T2">2</xref>).</p>
+      <table-wrap id="T2" position="float" orientation="portrait">
+        <label>Table 2.</label>
+        <caption>
+          <p>Diagnosing sites of the aligned ITS and three cpDNA sequences between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+        </caption>
+        <table id="TID0ECHAE" rules="all">
+          <tbody>
+            <tr>
+              <th rowspan="1" colspan="1">Species</th>
+              <th rowspan="1" colspan="1">ITS</th>
+              <th rowspan="1" colspan="2"><italic>rbc</italic>L</th>
+              <th rowspan="1" colspan="12"><italic>mat</italic>K</th>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="1">508</td>
+              <td rowspan="1" colspan="1">82</td>
+              <td rowspan="1" colspan="1">337</td>
+              <td rowspan="1" colspan="1">165</td>
+              <td rowspan="1" colspan="1">276</td>
+              <td rowspan="1" colspan="1">333</td>
+              <td rowspan="1" colspan="1">342</td>
+              <td rowspan="1" colspan="1">391</td>
+              <td rowspan="1" colspan="1">449</td>
+              <td rowspan="1" colspan="1">483</td>
+              <td rowspan="1" colspan="1">495</td>
+              <td rowspan="1" colspan="1">497</td>
+              <td rowspan="1" colspan="1">549</td>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="1"/>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="5">
+                <bold><italic>mat</italic>K</bold>
+              </td>
+              <td rowspan="1" colspan="10">
+                <bold><italic>psb</italic>A-<italic>trn</italic>H</bold>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1"/>
+              <td rowspan="1" colspan="1">601</td>
+              <td rowspan="1" colspan="1">603</td>
+              <td rowspan="1" colspan="1">633</td>
+              <td rowspan="1" colspan="1">638</td>
+              <td rowspan="1" colspan="1">657</td>
+              <td rowspan="1" colspan="1">28</td>
+              <td rowspan="1" colspan="1">40</td>
+              <td rowspan="1" colspan="1">48</td>
+              <td rowspan="1" colspan="1">92</td>
+              <td rowspan="1" colspan="1">114</td>
+              <td rowspan="1" colspan="1">115</td>
+              <td rowspan="1" colspan="1">138-</td>
+              <td rowspan="1" colspan="1">212</td>
+              <td rowspan="1" colspan="1">228</td>
+              <td rowspan="1" colspan="1">235</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">-</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">-</td>
+              <td rowspan="1" colspan="1">2 nt</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">C</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">C</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">G</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">6 nt</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">A</td>
+              <td rowspan="1" colspan="1">74 nt</td>
+              <td rowspan="1" colspan="1">-</td>
+              <td rowspan="1" colspan="1">T</td>
+              <td rowspan="1" colspan="1">A</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <p>nr=nucleotide.</p>
+        </table-wrap-foot>
+      </table-wrap>
+      <p>Based on sequence variations of ITS and cpDNAs (Table <xref ref-type="table" rid="T3">3</xref>), phylogenetic analyses suggested that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is mostly related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part></tp:taxon-name></italic>. However, phylogenetic relationships of these four species are incongurent between ITS and plastid DNA tree (Fig. <xref ref-type="fig" rid="F4">4</xref>). In the ML analyses of ITS sequence data, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> formed a single cluster sister to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> and together are sister to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part></tp:taxon-name></italic> with high support values (&gt;80%) (Fig. <xref ref-type="fig" rid="F4">4A</xref>). By contrast, in the ML analyses of cpDNAs sequences, the phylogenetic relationships were maintined between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and sister <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> and together as sister to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="scapiflorum">scapiflorum</tp:taxon-name-part></tp:taxon-name></italic>, but <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> fell outside that relationship and was separated from them by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="hookeri">hookeri</tp:taxon-name-part></tp:taxon-name></italic> with medium support (&gt;50%) (Fig. <xref ref-type="fig" rid="F4">4B</xref>). MP analyses produced almost the same tree topologies with similar bootstrap support values.</p>
+      <table-wrap id="T3" position="float" orientation="portrait">
+        <label>Table 3.</label>
+        <caption>
+          <p>Tree statistics for analyses of the datasets.</p>
+        </caption>
+        <table id="TID0ENXAE" rules="all">
+          <tbody>
+            <tr>
+              <th rowspan="1" colspan="1">Data set</th>
+              <th rowspan="1" colspan="1">ITS<sup>*</sup></th>
+              <th rowspan="1" colspan="1"><italic>psb</italic>A-<italic>trn</italic>H</th>
+              <th rowspan="1" colspan="1"><italic>rbc</italic>L</th>
+              <th rowspan="1" colspan="1"><italic>mat</italic>K</th>
+              <th rowspan="1" colspan="1">Combined cpDNA<sup>*</sup></th>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">No. of sequences</td>
+              <td rowspan="1" colspan="1">30</td>
+              <td rowspan="1" colspan="1">30</td>
+              <td rowspan="1" colspan="1">30</td>
+              <td rowspan="1" colspan="1">30</td>
+              <td rowspan="1" colspan="1">30</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">Aligned length used in analyses</td>
+              <td rowspan="1" colspan="1">698</td>
+              <td rowspan="1" colspan="1">455</td>
+              <td rowspan="1" colspan="1">506</td>
+              <td rowspan="1" colspan="1">779</td>
+              <td rowspan="1" colspan="1">1786</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">No. of variable characters</td>
+              <td rowspan="1" colspan="1">141</td>
+              <td rowspan="1" colspan="1">58</td>
+              <td rowspan="1" colspan="1">17</td>
+              <td rowspan="1" colspan="1">66</td>
+              <td rowspan="1" colspan="1">169</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">No. of parsimony-informative characters</td>
+              <td rowspan="1" colspan="1">56</td>
+              <td rowspan="1" colspan="1">15</td>
+              <td rowspan="1" colspan="1">7</td>
+              <td rowspan="1" colspan="1">22</td>
+              <td rowspan="1" colspan="1">47</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">Tree length (steps)</td>
+              <td rowspan="1" colspan="1">78</td>
+              <td rowspan="1" colspan="1">70</td>
+              <td rowspan="1" colspan="1">10</td>
+              <td rowspan="1" colspan="1">71</td>
+              <td rowspan="1" colspan="1">195</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">Consistency (CI)</td>
+              <td rowspan="1" colspan="1">0.833333</td>
+              <td rowspan="1" colspan="1">0.900000</td>
+              <td rowspan="1" colspan="1">1.000000</td>
+              <td rowspan="1" colspan="1">0.873239</td>
+              <td rowspan="1" colspan="1">0.892308</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">Retention index (RI)</td>
+              <td rowspan="1" colspan="1">0.803030</td>
+              <td rowspan="1" colspan="1">0.708333</td>
+              <td rowspan="1" colspan="1">1.000000</td>
+              <td rowspan="1" colspan="1">0.790698</td>
+              <td rowspan="1" colspan="1">0.764045</td>
+            </tr>
+            <tr>
+              <td rowspan="1" colspan="1">Rescaled consistency index (RC)</td>
+              <td rowspan="1" colspan="1">0.669192</td>
+              <td rowspan="1" colspan="1">0.637500</td>
+              <td rowspan="1" colspan="1">1.000000</td>
+              <td rowspan="1" colspan="1">0.690468</td>
+              <td rowspan="1" colspan="1">0.681763</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <p><sup>*</sup> gaps were coded and included.</p>
+        </table-wrap-foot>
+      </table-wrap>
+      <fig id="F4" position="float" orientation="portrait">
+        <label>Figure 4.</label>
+        <caption>
+          <p>The Maximum Likelihood tree based on analysis of ITS (<bold>A</bold>) and Three cpDNA regions (<bold>B</bold>). Numbers above branches are maximum likelihood bootstrap support values and maximum parsimony bootstrap support values. ‘-’ represents &lt;50%.</p>
+        </caption>
+        <graphic xlink:href="phytokeys-109-017-g004.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_228468.jpg"/>
+      </fig>
+    </sec>
+    </sec>
+    <sec sec-type="Discussion" id="SECID0EOPAG">
+      <title>Discussion</title>
+      <p>Both <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> are small plants similar in flower traits and seed size. However, as discussed above, they are quite different morphologically. In addtion, phylogenetic analyses of cpDNAs variations suggested these two species did not comprise a monophyletic clade. Furthermore, the Himalayan <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> is disjunctly separated by a distance of at least 1200 air kilometres from the Chola Shan (Sichuan, SW China), where <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is endemic (Fig. <xref ref-type="fig" rid="F3">3</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is also closely related to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> in the phylogenetic analyses of the cpDNA sequence variations, but both are easily distinguished from each other. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic> is a small and weak herb with entire leaves (0.5–1.5 cm long) and small flowers (petals 2–3 mm long), whereas <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> is obviously stout with entire or toothed leaves (1.5–8 cm long) and distinctly larger flowers (petals 8–15 mm long) and fruit (10–20 mm long).</p>
+      <p>Pylogenetic relationships amongst <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nanum">nanum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nepalense">nepalense</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eutrema">E.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sinense">sinense</tp:taxon-name-part></tp:taxon-name></italic> are incongruent between ITS and cpDNA trees. This incongruence may suggest possible hybridisations or incomplete lineage sorting during the rapid and recent species diversifications (<xref ref-type="bibr" rid="B7">Soltis and Soltis 2000</xref>, <xref ref-type="bibr" rid="B8">2009</xref>). However, it is not possible at present to determine which of these two factors had caused the incongruent phylogenies observed here. More analyses and molecular data, especially based on more individuals and genomic evidence, are needed to solve these phylogenetic inconsistences.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This research was supported by grants from the National Natural Science Foundation of China (31700164 and 31590821).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name><name name-style="western"><surname>Warwick</surname><given-names>SI</given-names></name></person-group> (<year>2005</year>) A synopsis of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Eutrema</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>). Harvard Papers in Botany 10(2): 129–135. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3100/1043-4534(2005)10[129:ASOEB]2.0.CO;2">https://doi.org/10.3100/1043-4534(2005)10[129:ASOEB]2.0.CO;2</ext-link></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Felsenstein</surname><given-names>J</given-names></name></person-group> (<year>1985</year>) <article-title>Confidence limits on phylogenies, an approach using the bootstrap.</article-title><source>Evolution; International Journal of Organic Evolution</source><volume>39</volume>(<issue>4</issue>): <fpage>783</fpage>–<lpage>791</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/j.1558-5646.1985.tb00420.x">https://doi.org/10.1111/j.1558-5646.1985.tb00420.x</ext-link></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hao</surname><given-names>GQ</given-names></name><name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name><name name-style="western"><surname>Liang</surname><given-names>QL</given-names></name><name name-style="western"><surname>Liu</surname><given-names>JQ</given-names></name></person-group> (<year>2016</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">tianshanense</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Tian Shan Mountains of central Asia.</article-title><source>Phytotaxa</source><volume>286</volume>(<issue>1</issue>): <fpage>23</fpage>–<lpage>31</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/phytotaxa.286.1.3">https://doi.org/10.11646/phytotaxa.286.1.3</ext-link></mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hao</surname><given-names>GQ</given-names></name><name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name><name name-style="western"><surname>Ahani</surname><given-names>H</given-names></name><name name-style="western"><surname>Liang</surname><given-names>QL</given-names></name><name name-style="western"><surname>Mao</surname><given-names>KS</given-names></name><name name-style="western"><surname>Wang</surname><given-names>Q</given-names></name><name name-style="western"><surname>Liu</surname><given-names>JQ</given-names></name></person-group> (<year>2017a</year>) <article-title>An integrative study of evolutionary diversification of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Eutrema</tp:taxon-name-part></tp:taxon-name></italic> (Eutremeae, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Botanical Journal of the Linnean Society</source><volume>184</volume>(<issue>2</issue>): <fpage>204</fpage>–<lpage>223</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1093/botlinnean/box024">https://doi.org/10.1093/botlinnean/box024</ext-link></mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hao</surname><given-names>GQ</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>CB</given-names></name><name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name><name name-style="western"><surname>Guo</surname><given-names>XY</given-names></name><name name-style="western"><surname>Bi</surname><given-names>H</given-names></name><name name-style="western"><surname>Wang</surname><given-names>JY</given-names></name><name name-style="western"><surname>Liu</surname><given-names>JQ</given-names></name></person-group> (<year>2017b</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Eutrema</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">giganteum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Sichuan, southwest China.</article-title><source>PhytoKeys</source><volume>82</volume>: <fpage>15</fpage>–<lpage>26</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.82.12329">https://doi.org/10.3897/phytokeys.82.12329</ext-link></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hu</surname><given-names>H</given-names></name><name name-style="western"><surname>Al-Shehbaz</surname><given-names>IA</given-names></name><name name-style="western"><surname>Sun</surname><given-names>YS</given-names></name><name name-style="western"><surname>Hao</surname><given-names>GQ</given-names></name><name name-style="western"><surname>Wang</surname><given-names>Q</given-names></name><name name-style="western"><surname>Liu</surname><given-names>JQ</given-names></name></person-group> (<year>2015</year>) <article-title>Species delimitation in Orychophragmus (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brassicaceae</tp:taxon-name-part></tp:taxon-name>) based on chloroplast and nuclear DNA barcodes.</article-title><source>Taxon</source><volume>64</volume>(<issue>4</issue>): <fpage>714</fpage>–<lpage>726</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.12705/644.4">https://doi.org/10.12705/644.4</ext-link></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Soltis</surname><given-names>PS</given-names></name><name name-style="western"><surname>Soltis</surname><given-names>DE</given-names></name></person-group> (<year>2000</year>) <article-title>The role of genetic and genomic attributes in the success of polyploids.</article-title><source>Proceedings of the National Academy of Sciences of the United States of America</source><volume>97</volume>(<issue>13</issue>): <fpage>7051</fpage>–<lpage>7057</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1073/pnas.97.13.7051">https://doi.org/10.1073/pnas.97.13.7051</ext-link></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Soltis</surname><given-names>PS</given-names></name><name name-style="western"><surname>Soltis</surname><given-names>DE</given-names></name></person-group> (<year>2009</year>) <article-title>The role of hybridization in plant speciation.</article-title><source>Annual Review of Plant Biology</source><volume>60</volume>(<issue>1</issue>): <fpage>561</fpage>–<lpage>588</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1146/annurev.arplant.043008.092039">https://doi.org/10.1146/annurev.arplant.043008.092039</ext-link></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Stamatakis</surname><given-names>A</given-names></name></person-group> (<year>2006</year>) <article-title>RAxML-VI-HPC, maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models.</article-title><source>Bioinformatics (Oxford, England)</source><volume>22</volume>(<issue>21</issue>): <fpage>2688</fpage>–<lpage>2690</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1093/bioinformatics/btl446">https://doi.org/10.1093/bioinformatics/btl446</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Swofford</surname><given-names>DL</given-names></name></person-group> (<year>2003</year>) PAUP*, phylogenetic analyses using parsimony (*and other methods), Version 4. Sunderland, MA, USA, Sinauer Associates.</mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Thompson</surname><given-names>JD</given-names></name><name name-style="western"><surname>Gibson</surname><given-names>TJ</given-names></name><name name-style="western"><surname>Plewniak</surname><given-names>F</given-names></name><name name-style="western"><surname>Jeanmougin</surname><given-names>F</given-names></name><name name-style="western"><surname>Higgins</surname><given-names>DG</given-names></name></person-group> (<year>1997</year>) <article-title>The CLUSTAL_X windows interface, flexible strategies for multiple sequence alignment aided by quality analysis tools.</article-title><source>Nucleic Acids Research</source><volume>25</volume>(<issue>24</issue>): <fpage>4876</fpage>–<lpage>4882</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1093/nar/25.24.4876">https://doi.org/10.1093/nar/25.24.4876</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Young</surname><given-names>ND</given-names></name><name name-style="western"><surname>Healy</surname><given-names>J</given-names></name></person-group> (<year>2003</year>) GapCoder automates the use of indel characters in phylogenetic analysis. BMC Bioinformatics 4(1): 6. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1186/1471-2105-4-6">https://doi.org/10.1186/1471-2105-4-6</ext-link></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

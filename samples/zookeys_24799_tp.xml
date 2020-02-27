@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ZooKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">ZooKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">ZooKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1313-2989</issn>
+      <issn pub-type="epub">1313-2970</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/zookeys.779.24799</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Actinopterygii</subject>
+          <subject>Pisces</subject>
+          <subject>Syngnathidae</subject>
+          <subject>Syngnathiformes</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geological_era">
+          <subject>Cenozoic</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Asia</subject>
+          <subject>Far East</subject>
+          <subject>Japan</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, a new species of pygmy seahorse from Japan, with a redescription of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Short</surname>
+            <given-names>Graham</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">gshort@calacademy.org</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4691-1913</uri>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Smith</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Motomura</surname>
+            <given-names>Hiroyuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Harasti</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Hamilton</surname>
+            <given-names>Healy</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">California Academy of Sciences, San Francisco, United States of America</addr-line>
+        <institution>California Academy of Sciences</institution>
+        <addr-line content-type="city">San Francisco</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">iSeahorse, IUCN Seahorse, Pipefish Stickleback Specialist Group, London U.K.</addr-line>
+        <institution>Pipefish Stickleback Specialist Group</institution>
+        <addr-line content-type="city">London</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Kagoshima University Museum, Japan</addr-line>
+        <institution>Kagoshima University Museum</institution>
+        <addr-line content-type="city">Kagoshima</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Port Stephens Fisheries Institute, NSW, Australia</addr-line>
+        <institution>Port Stephens Fisheries Institute</institution>
+        <addr-line content-type="city">Nelson Bay</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">NatureServe, Arlington, Virginia, United States of America</addr-line>
+        <institution>Kagoshima University Museum</institution>
+        <addr-line content-type="city">Kagoshima</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Graham Short (<email xlink:type="simple">gshort@calacademy.org</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: S. Kullander</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>2</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>779</issue>
+      <fpage>27</fpage>
+      <lpage>49</lpage>
+      <history>
+        <date date-type="received">
+          <day>3</day>
+          <month>4</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>8</day>
+          <month>6</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Graham Short, Richard Smith, Hiroyuki Motomura, David Harasti, Healy Hamilton</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="zoobank" xlink:type="simple">http://zoobank.org/XXXXXXXXXXXX</self-uri>
+      <abstract>
+        <label>Abstract</label>
+        <p>The pygmy seahorse <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold> is described based on three specimens, 13.9–16.3 mm <abbrev xlink:title="standard length" id="ABBRID0EFG">SL</abbrev>, collected from a mixed soft coral and algae reef at 11 m depth at Hachijo-jima Island, Izu Islands, Japan. The new taxon shares morphological synapomorphies with the previously described central Indo-Pacific pygmy seahorses, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>, including extremely small size, 12 trunk rings, strongly raised continuous cleithral ring, snout spine, large spine on the eighth lateral and fifth and 12 superior trunk ridges, respectively, and unusual wing-like-protrusions immediately posterior to the head. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold> can be distinguished from all congeners by the following combination of features in the anterodorsal area of the trunk: bilaterally paired wing-like protrusions formed by a single pair of large, truncate spines projecting dorsolaterad on the first superior trunk ridge, followed by a unique elevated dorsal ridge formed by triangular bony mounds dorsally on the second to fourth superior trunk ridges. In contrast, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> possesses a pair of large truncate spines projecting strongly laterad on both the first and second superior trunk ridges followed by flat surfaces dorsally on the third and fourth superior trunk rings. The new species can be further differentiated by genetic divergence from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (an uncorrected p-distance of 10.1% in the mitochondrial <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EYAAC">COI</abbrev> gene) and a striking reticulated white and brown lattice pattern on the head, trunk, and tail. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. n.</bold> represents the fifth species of pygmy seahorse recorded in Japan.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Acanthomorpha</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>computed tomography</kwd>
+        <kwd>reef fish</kwd>
+        <kwd>new species</kwd>
+        <kwd>systematics</kwd>
+        <kwd>taxonomy</kwd>
+        <kwd>systematics</kwd>
+        <kwd>computed tomography</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EYBAC">
+        <title>Citation</title>
+        <p>Short G, Smith R, Motomura H, Harasti D, Hamilton H (2018) <italic>Hippocampus japapigu</italic>, a new species of pygmy seahorse from Japan, with a redescription of <italic>H. pontohi</italic> (Teleostei, Syngnathidae). ZooKeys 779: 27–49. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.779.24799">https://doi.org/10.3897/zookeys.779.24799</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EDDAC">
+      <title>Introduction</title>
+      <p>The family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name> contains 57 valid genera and 300 described predominantly small-bodied and cryptic marine species (Dawson 1985; Froese and Pauly 2018), including the seahorses, pipefishes, pipehorses, and seadragons. The family occurs worldwide in shallow temperate to tropical waters in a range of habitats, including seagrass beds, estuaries, coral and rocky reefs, and mangroves (Foster and Vincent 2004; Kuiter 2009; Froese and Pauly 2018). Pygmy seahorses of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic> Rafinesque, 1810 are diminutive in size (13.6–26 mm <abbrev xlink:title="standard length" id="ABBRID0EVDAC">SL</abbrev>), live in close association with octocorals, colonial hydrozoans, bryozoans, seagrass and algae, and are morphologically distinct from the more numerous and larger species (24–350mm <abbrev xlink:title="standard length" id="ABBRID0EZDAC">SL</abbrev>) of seahorses in possessing a single rather than paired gill openings and trunk brooding of their young (<xref ref-type="bibr" rid="B31">Whitley 1970</xref>; <xref ref-type="bibr" rid="B12">Kuiter 2003</xref>; <xref ref-type="bibr" rid="B15">Lourie and Randall 2003</xref>; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>; <xref ref-type="bibr" rid="B17">Lourie et al. 2016</xref>).</p>
+      <p>Fundamental information on the taxonomy, systematics, and distribution of pygmy seahorses is still relatively sparse in comparison to the larger seahorse species. While one species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> Whitley, 1970, was described in 1970, all other species have been described since 2000. Most are known from very few specimens and only three species have been analyzed genetically (<xref ref-type="bibr" rid="B9">Hamilton et al. 2017</xref>). Six pygmy seahorse species are currently recognized and documented throughout the central Indo-Pacific, ranging from the Coral Triangle, West Pacific, Australia, to central Japan: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic> Lourie &amp; Randall, 2003, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> Kuiter, 2003, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> Lourie &amp; Kuiter, 2008, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic> Gomon &amp; Kuiter, 2009, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> Gomon &amp; Kuiter, 2009 (<xref ref-type="bibr" rid="B31">Whitley 1970</xref>; <xref ref-type="bibr" rid="B12">Kuiter 2003</xref>; <xref ref-type="bibr" rid="B15">Lourie and Randall 2003</xref>; <xref ref-type="bibr" rid="B27">Senou et al. 2006</xref>, <xref ref-type="bibr" rid="B29">2007</xref>, 2008; <xref ref-type="bibr" rid="B3">Baine and Harasti 2007</xref>; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>; <xref ref-type="bibr" rid="B19">Motomura et al. 2010</xref>; <xref ref-type="bibr" rid="B2">Allen and Erdmann 2012</xref>; <xref ref-type="bibr" rid="B24">Smith et al. 2012</xref>). <xref ref-type="bibr" rid="B17">Lourie et al.’s (2016)</xref> revision of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic> informally placed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> in synonymy with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>. However, we recognize the current taxonomic status of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> as valid based on differences in diagnostic morphological characters, including tail ring counts, coronet profile, and body ornamentation (Tables <xref ref-type="table" rid="T1">1</xref>, <xref ref-type="table" rid="T3">3</xref>), and host association and diurnal versus nocturnal behavior. Another described pygmy species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> (Lourie &amp; Kuiter, 2008), was distinguished from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> primarily by features of coloration in life, however the invalidity of this species was subsequently recognised as coloration is not a reliable morphological diagnostic character in seahorses (Lourie et al. 2004, 2008, <xref ref-type="bibr" rid="B17">2016</xref>). Here, as part of this study, we formally synonymize <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> under <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> based on mitochondrial <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EULAC">COI</abbrev> genetic data. All six pygmy species exhibit similar meristic and morphometric characters, and appear to form two natural groupings (<xref ref-type="bibr" rid="B12">Kuiter 2003</xref>; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananu">waleananu</tp:taxon-name-part></tp:taxon-name></italic>s are morphologically highly conserved, with subtle meristic and morphological differences among these species. These four taxa are united by synapomorphies, including 12 trunk rings, strongly raised continuous cleithral ring, snout spine, large spine on the eighth lateral and fifth and 12<sup>th</sup> superior trunk ridges, wing-like-protrusions immediately posterior to the head, and associations with a wide range of habitat types. In contrast, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic> are distinct in overall morphological appearance, including the absence of a distinct coronet and presence of large bulbous tubercles (in place of small spines exhibited by the other pygmy seahorse species), absence of a raised cleithral ring, and exclusive habitat association with gorgonian corals.</p>
+      <p>Japan is recognized as a global hotspot of marine biodiversity (<xref ref-type="bibr" rid="B23">Roberts et al. 2002</xref>; <xref ref-type="bibr" rid="B1">Allen 2008</xref>; <xref ref-type="bibr" rid="B30">Tittensor et al. 2010</xref>; <xref ref-type="bibr" rid="B18">Mittermeier et al. 2011</xref>), with 53 recorded species of syngnathids (Senou 2007; <xref ref-type="bibr" rid="B10">Han et al. 2017</xref>; <xref ref-type="bibr" rid="B32">Wibowo and Motomura 2017</xref>; Froese and Pauly 2018), including ten species of seahorses (<xref ref-type="bibr" rid="B17">Lourie et al. 2016</xref>; <xref ref-type="bibr" rid="B10">Han et al. 2017</xref>) of which four are true pygmy seahorses from the widely dispersed subtropical island groups Ryukyu, Ogasawara, and Izu: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, and a fourth species that appears to be <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B27">Senou et al. 2006</xref>, <xref ref-type="bibr" rid="B29">2007</xref>; <xref ref-type="bibr" rid="B19">Motomura et al. 2010</xref>; <xref ref-type="bibr" rid="B2">Allen and Erdmann 2012</xref>). Inshore surveys of the marine ichthyofauna conducted at Hachijo-jima Island, Izu Islands (<xref ref-type="bibr" rid="B26">Senou et al. 2002</xref>), approximately 287 km south of Tokyo, have recorded what appears to be an undescribed species of true pygmy seahorse inhabiting mixed soft coral and algae reefs at shallow depths of 5–22 m, which was first brought to our attention from marine life books (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic> sp. 7, Kuiter 2009: 57) and online photographs (<xref ref-type="bibr" rid="B25">Smith 2017</xref>) before specimens were acquired. This free-living species has been previously observed by local scuba divers from southern to central-eastern Japan at Kashiwa-jima Island, Sukumo Bay; Kushimoto, Kii Peninsula; Osezaki, Izu Peninsula; the Izu islands of Miyake and Hachijo; Sagami Bay; and Chichi-jima, Ogasawara Islands. The new taxon is meristically and morphologically most similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (Tables <xref ref-type="table" rid="T1">1</xref>, <xref ref-type="table" rid="T3">3</xref>); however, closer examination of a type specimen employing micro-computed tomography (<abbrev xlink:title="micro-computed tomography" id="ABBRID0EJCAE">μCT</abbrev>) reveals notable internal differences from a non-type specimen of its congener. Distinguishing characters include the anterodorsal area of the trunk, where bilaterally paired wing-like protrusions are formed by a single pair of large truncate spines projecting dorsolaterad, followed by an elevated dorsal ridge formed by unusual triangular bony mounds. The elevated dorsal ridge is unknown from any other species of seahorse and serves as a key diagnostic morphological character distinguishing <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> sp. n. from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>. We can therefore confirm the presence of a 7<sup>th</sup> species of pygmy seahorse that we hereby describe as the new species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, so far only found in subtropical southeast Japan.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EQDAE">
+      <title>Materials and methods</title>
+      <p>Three specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> were collected with hand nets while scuba diving in less than 15 m depth. Counts and measurements were performed on high-resolution digital images of specimens using ImageJ (Rasband et al. 1997) to the nearest 0.01 mm following <xref ref-type="bibr" rid="B15">Lourie and Randall (2003)</xref> and <xref ref-type="bibr" rid="B16">Lourie and Kuiter (2008)</xref>. External morphological characters were documented using a dissecting microscope. Live specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> photographed in situ were used to make morphological comparisons of external diagnostic characters only and were not collected as part of this study.</p>
+      <p>In order to document internal morphological characters, the axial skeleton was examined via non-destructive x-ray micro-computed tomography (<abbrev xlink:title="micro-computed tomography" id="ABBRID0EBFAE">μCT</abbrev>) scans at the Karel F. Liem Bioimaging Facility (Friday Harbor Laboratories, University of Washington) using a Bruker Skyscan 1173 scanner (Billerica, MA) with a 1 mm aluminum filter at 60 kV and 110 lA on a 2048 3 2048 pixel CCD at a resolution of 8.8 lm. The specimens were placed inside a 50 ml plastic Falcon tube (Corning, NY), supported by two thin foam pads to prevent movement during scanning and wrapped in ethanol (70%)-infused cheesecloth to prevent desiccation. The resulting CT data were visualized, segmented, and rendered in Horos software (<ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.horosproject.org">www.horosproject.org</ext-link>).</p>
+      <p>The holotype (UW 157506) and one paratype (UW 157507) were deposited in the fish collection of the Burke Museum at the University of Washington, the second paratype (<abbrev xlink:title="Kagoshima University Museum" id="ABBRID0ERFAE">KAUM</abbrev>-I. 111770) was deposited at the Kagoshima University Museum (<abbrev xlink:title="Kagoshima University Museum" id="ABBRID0EVFAE">KAUM</abbrev>), and comparative material (one non-type specimen of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, AMS I.47833-001, male) was obtained from the Australian Museum (AMS) fish collection. A segment of the mitochondrial cytochrome c oxidase subunit I (<abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EEGAE">COI</abbrev>) DNA was sequenced from the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> paratype (<abbrev xlink:title="Kagoshima University Museum" id="ABBRID0ETGAE">KAUM</abbrev>-I. 111770). DNA extraction, PCR amplification, alignment, and analysis of <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EXGAE">COI</abbrev> sequence was performed following protocols described in <xref ref-type="bibr" rid="B9">Hamilton et al. (2017)</xref>. Genetic distances (uncorrected <italic>p</italic>-distances) were calculated based on <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EBHAE">COI</abbrev> using MEGA v. 7.0.26 (Kumar et al. 2017).</p>
+    </sec>
+    <sec sec-type="Taxonomy" id="SECID0EFHAE">
+      <title>Taxonomy</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Syngnathiformes</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Syngnathidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/F3DC73D6-E040-458E-9648-680EBAC55D20</object-id>
+          </tp:taxon-name>
+          <tp:taxon-status>sp. n.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figures 1</xref>
+          <xref ref-type="fig" rid="F2">, 2</xref>
+          <xref ref-type="fig" rid="F3">, 3</xref>
+          <xref ref-type="fig" rid="F4">, 4</xref>
+          <xref ref-type="fig" rid="F5">, 5</xref>
+          <xref ref-type="fig" rid="F8">, 7</xref>
+          <xref ref-type="fig" rid="F9">, 8</xref>
+          <xref ref-type="fig" rid="F10">, 9</xref>
+          <xref ref-type="fig" rid="F6">, Video 1</xref>
+          <xref ref-type="table" rid="T1">, Tables 1</xref>
+          <xref ref-type="table" rid="T2">, 2</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="Holotype" id="SECID0EZJAE">
+          <title>Holotype.</title>
+          <p>UW 157506, Fig. <xref ref-type="fig" rid="F1">1</xref>, 16.27 mm <abbrev xlink:title="standard length" id="ABBRID0EHKAE">SL</abbrev>, off Imasaki, Okago, Hachijo-jima Island, Izu Islands, Japan, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[139.743611,33.146667]}" id="NCID0EOKAE">33°08'48"N, 139°44'37"E</named-content></named-content>, depth 10 m, 18 Aug. 2017, collected by Shoichi Kato using a hand net.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Paratypes" id="SECID0ETKAE">
+          <title>Paratypes.</title>
+          <p>UW 157507, Fig. <xref ref-type="fig" rid="F2">2A</xref>, 15.59 mm <abbrev xlink:title="standard length" id="ABBRID0EBLAE">SL</abbrev>, off Imasaki, Okago, Hachijo-jima island, Izu Islands, Japan, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[139.743611,33.146667]}" id="NCID0EILAE">33°08'48"N,139°44'37"E</named-content></named-content>, depth 13 m, 18 Aug. 2017, S. Kato; <abbrev xlink:title="Kagoshima University Museum" id="ABBRID0ENLAE">KAUM</abbrev> – I. 111770, Fig. <xref ref-type="fig" rid="F2">2B</xref>, 14.54 mm <abbrev xlink:title="standard length" id="ABBRID0EZLAE">SL</abbrev>, Yaene, Okago, Hachijo-jima Island, Izu Islands, Japan, <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[139.769444,33.096389]}" id="NCID0EAMAE">33°05'47"N, 139°46'10"E</named-content></named-content>, depth 18 m, 12 Jan. 2018, S. Kato.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EFMAE">
+          <title>Other material.</title>
+          <p>Hachijo-jima Island, Izu Islands, Japan, July 2013, 10 to 20 m depth, two photographs of two individuals, R Smith (Figs <xref ref-type="fig" rid="F4">4</xref>, <xref ref-type="fig" rid="F5">5</xref>).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0ETMAE">
+          <title>Comparative material.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> AMS I.47833-001, Fig. <xref ref-type="fig" rid="F7">6</xref>. Data from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> also from <xref ref-type="bibr" rid="B12">Kuiter (2003)</xref>, <xref ref-type="bibr" rid="B16">Lourie and Kuiter (2008)</xref>, and <xref ref-type="bibr" rid="B8">Gomon and Kuiter (2009)</xref>.</p>
+          <p><bold>Diagnosis.</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> sp. n. differs from its congeners by the following combination of characters: tail rings 28; dorsal fin rays 14; pectoral fin rays nine; subdorsal rings four; bilaterally paired wing-like protrusions formed by a pair of large truncate spines projecting laterad on first superior trunk ridge; elevated dorsal ridge formed by unique triangular bony mounds dorsally on second, third, and fourth trunk rings with the posterior mound less pronounced; large and prominent spine projecting laterad on eighth lateral trunk ridge.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0E1PAE">
+          <title>Description.</title>
+          <p>General body shape as in Figs <xref ref-type="fig" rid="F1">1</xref>–<xref ref-type="fig" rid="F5">5</xref>. Morphometric and meristic characters listed in Table <xref ref-type="table" rid="T1">1</xref>. Morphometric data ranges for the three type specimens: Head length 17.9–18.74% in <abbrev xlink:title="standard length" id="ABBRID0EMQAE">SL</abbrev>, head depth 69.9–72.0% in <abbrev xlink:title="head length" id="ABBRID0EQQAE">HL</abbrev>; snout length 27.64–28.7% in <abbrev xlink:title="head length" id="ABBRID0EUQAE">HL</abbrev>, bulbous tip absent, snout depth 74.0–85.6% in <abbrev xlink:title="snout length" id="ABBRID0EYQAE">SnL</abbrev>; post-orbital 55.3–49.9% in <abbrev xlink:title="head length" id="ABBRID0E3QAE">HL</abbrev>; distinct, angular coronet, coronet height 58.0–55.9% in <abbrev xlink:title="head length" id="ABBRID0EARAE">HL</abbrev>, unbranched dermal appendage attached to anterior part of coronet; single gill-opening on midline behind coronet supported by elevated cleithral ring; dorsal fin 14 rays; pectoral-fin rays nine; anal fin rays four; trunk rings 12, trunk length 32.49–32.64% in <abbrev xlink:title="standard length" id="ABBRID0EERAE">SL</abbrev>, trunk depth just anterior to dorsal fin base 18.4–20.32% in <abbrev xlink:title="standard length" id="ABBRID0EIRAE">SL</abbrev>; dorsal fin base strongly raised dorsally; subdorsal rings four, dorsal fin base starting immediately posterior to ninth trunk ring and ending immediately posterior to first tail ring; no external pouch visible; tail rings 28, tail length 48.73–49.42 % in <abbrev xlink:title="standard length" id="ABBRID0EMRAE">SL</abbrev>. Body ornamentation: prominent spine dorsal of eye, small spine ventroposterior to eye; lateral head spine ventral of coronet; two moderately large spines on cleithral ring, upper spine at level of last pectoral fin ray, lower spine at ventral extent of ring; snout spine on midline between eyes; nape spine absent; subdorsal spines four, superior trunk ridge ending with three rounded spines protruding laterally, the posterior spine greatly enlarged on 12<sup>th</sup> trunk ring; superior trunk ridge with large truncate spines, connected by a solid bony ridge, projecting dorsolaterad on first trunk ring, unique triangular bony mounds arched dorsally on second, third, and fourth trunk rings with the posterior mound less pronounced, trunk appearing denticulate in lateral view, very large bilaterally paired spines on fifth trunk ring, and small spines on sixth trunk ring; lateral trunk ridge with small spine on fifth trunk ring and very large spine on eighth trunk ring; inferior trunk ridge with spines of moderate size beginning on fifth trunk ring and ending on 12<sup>th</sup> trunk ring; superior tail ridge spines well developed anteriorly, becoming smaller posteriorly, with enlarged spines on fifth, ninth, 12<sup>th</sup>, and 16<sup>th</sup> tail rings; inferior tail ridge spines absent; caudal fin absent.</p>
+          <table-wrap id="T1" position="float" orientation="portrait">
+            <label>Table 1.</label>
+            <caption>
+              <p>Morphometric measurements and counts of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part></tp:taxon-name> pygmy seahorse species based on holotype specimens. Abbreviations: <abbrev xlink:title="snout depth" id="ABBRID0EHSAE">SnD</abbrev> (snout depth), <abbrev xlink:title="snout length" id="ABBRID0ELSAE">SnL</abbrev> (snout length), <abbrev xlink:title="coronet height" id="ABBRID0EPSAE">CH</abbrev> (coronet height), <abbrev xlink:title="head length" id="ABBRID0ETSAE">HL</abbrev> (head length), <abbrev xlink:title="head depth" id="ABBRID0EXSAE">HD</abbrev> (head depth), <abbrev xlink:title="post-orbital length" id="ABBRID0E2SAE">PO</abbrev> (post-orbital length), <abbrev xlink:title="trunk length" id="ABBRID0E6SAE">TrL</abbrev> (trunk length), <abbrev xlink:title="tail length" id="ABBRID0EDTAE">TaL</abbrev> (tail length), <abbrev xlink:title="standard length" id="ABBRID0EHTAE">SL</abbrev> (standard length). Numbers separated by a colon represent proportions. Lines present, from top to bottom, numbers for standard length (<abbrev xlink:title="standard length" id="ABBRID0ELTAE">SL</abbrev>), proportions, and counts for trunk rings, tail rings, dorsal and pectoral fins. The first column is the species holotype.</p>
+            </caption>
+            <table id="TID0E4JAC" rules="all">
+              <tbody>
+                <tr>
+                  <th rowspan="1" colspan="1"/>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Voucher number/data source</td>
+                  <td rowspan="1" colspan="1">UW 157506</td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B12">Kuiter 2003</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="standard length" id="ABBRID0E3YAE">SL</abbrev> (mm)</td>
+                  <td rowspan="1" colspan="1">16.3</td>
+                  <td rowspan="1" colspan="1">16.7</td>
+                  <td rowspan="1" colspan="1">26.9</td>
+                  <td rowspan="1" colspan="1">13.6</td>
+                  <td rowspan="1" colspan="1">17.8</td>
+                  <td rowspan="1" colspan="1">24.5</td>
+                  <td rowspan="1" colspan="1">15.7</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="snout depth" id="ABBRID0E1ZAE">SnD</abbrev>:<abbrev xlink:title="snout length" id="ABBRID0E5ZAE">SnL</abbrev></td>
+                  <td rowspan="1" colspan="1">74.06</td>
+                  <td rowspan="1" colspan="1">84.2</td>
+                  <td rowspan="1" colspan="1">70.5</td>
+                  <td rowspan="1" colspan="1">86</td>
+                  <td rowspan="1" colspan="1">95.2</td>
+                  <td rowspan="1" colspan="1">100.3</td>
+                  <td rowspan="1" colspan="1">73.6</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="coronet height" id="ABBRID0E21AE">CH</abbrev>:<abbrev xlink:title="head length" id="ABBRID0E61AE">HL</abbrev></td>
+                  <td rowspan="1" colspan="1">58.1</td>
+                  <td rowspan="1" colspan="1">47.4</td>
+                  <td rowspan="1" colspan="1">45.6</td>
+                  <td rowspan="1" colspan="1">40.2</td>
+                  <td rowspan="1" colspan="1">48.3</td>
+                  <td rowspan="1" colspan="1">57.3</td>
+                  <td rowspan="1" colspan="1">42.6</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="head depth" id="ABBRID0E32AE">HD</abbrev>:<abbrev xlink:title="head length" id="ABBRID0EA3AE">HL</abbrev></td>
+                  <td rowspan="1" colspan="1">69.9</td>
+                  <td rowspan="1" colspan="1">60.6</td>
+                  <td rowspan="1" colspan="1">62.6</td>
+                  <td rowspan="1" colspan="1">51.8</td>
+                  <td rowspan="1" colspan="1">67.9</td>
+                  <td rowspan="1" colspan="1">65.7</td>
+                  <td rowspan="1" colspan="1">48.1</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="snout length" id="ABBRID0E43AE">SnL</abbrev>:<abbrev xlink:title="head length" id="ABBRID0EB4AE">HL</abbrev></td>
+                  <td rowspan="1" colspan="1">28.7</td>
+                  <td rowspan="1" colspan="1">23.2</td>
+                  <td rowspan="1" colspan="1">27.7</td>
+                  <td rowspan="1" colspan="1">27</td>
+                  <td rowspan="1" colspan="1">26.8</td>
+                  <td rowspan="1" colspan="1">21.8</td>
+                  <td rowspan="1" colspan="1">32.8</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="post-orbital length" id="ABBRID0E54AE">PO</abbrev>:<abbrev xlink:title="head length" id="ABBRID0EC5AE">HL</abbrev></td>
+                  <td rowspan="1" colspan="1">55.3</td>
+                  <td rowspan="1" colspan="1">51.2</td>
+                  <td rowspan="1" colspan="1">52.1</td>
+                  <td rowspan="1" colspan="1">45</td>
+                  <td rowspan="1" colspan="1">51.5</td>
+                  <td rowspan="1" colspan="1">56.9</td>
+                  <td rowspan="1" colspan="1">42.0</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="head length" id="ABBRID0E65AE">HL</abbrev>:<abbrev xlink:title="standard length" id="ABBRID0ED6AE">SL</abbrev></td>
+                  <td rowspan="1" colspan="1">18.0</td>
+                  <td rowspan="1" colspan="1">21.7</td>
+                  <td rowspan="1" colspan="1">18.1</td>
+                  <td rowspan="1" colspan="1">22</td>
+                  <td rowspan="1" colspan="1">17.7</td>
+                  <td rowspan="1" colspan="1">16.7</td>
+                  <td rowspan="1" colspan="1">19.9</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="trunk length" id="ABBRID0EBAAG">TrL</abbrev>:<abbrev xlink:title="standard length" id="ABBRID0EFAAG">SL</abbrev></td>
+                  <td rowspan="1" colspan="1">32.6</td>
+                  <td rowspan="1" colspan="1">33.3</td>
+                  <td rowspan="1" colspan="1">32.0</td>
+                  <td rowspan="1" colspan="1">30</td>
+                  <td rowspan="1" colspan="1">31.3</td>
+                  <td rowspan="1" colspan="1">27.6</td>
+                  <td rowspan="1" colspan="1">27.7</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><abbrev xlink:title="tail length" id="ABBRID0ECBAG">TaL</abbrev>:<abbrev xlink:title="standard length" id="ABBRID0EGBAG">SL</abbrev></td>
+                  <td rowspan="1" colspan="1">49.4</td>
+                  <td rowspan="1" colspan="1">45</td>
+                  <td rowspan="1" colspan="1">50</td>
+                  <td rowspan="1" colspan="1">48</td>
+                  <td rowspan="1" colspan="1">63.4</td>
+                  <td rowspan="1" colspan="1">55.7</td>
+                  <td rowspan="1" colspan="1">52.5</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">TD9:<abbrev xlink:title="standard length" id="ABBRID0EDCAG">SL</abbrev></td>
+                  <td rowspan="1" colspan="1">18.9</td>
+                  <td rowspan="1" colspan="1">13.5</td>
+                  <td rowspan="1" colspan="1">19.2</td>
+                  <td rowspan="1" colspan="1">13</td>
+                  <td rowspan="1" colspan="1">15</td>
+                  <td rowspan="1" colspan="1">12.8</td>
+                  <td rowspan="1" colspan="1">9.3</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Trunk rings</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">12</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Tail rings</td>
+                  <td rowspan="1" colspan="1">28</td>
+                  <td rowspan="1" colspan="1">28–30</td>
+                  <td rowspan="1" colspan="1">26–28</td>
+                  <td rowspan="1" colspan="1">27–28</td>
+                  <td rowspan="1" colspan="1">32</td>
+                  <td rowspan="1" colspan="1">31–33</td>
+                  <td rowspan="1" colspan="1">27–28</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dorsal fin rays</td>
+                  <td rowspan="1" colspan="1">14</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">14</td>
+                  <td rowspan="1" colspan="1">13</td>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">14</td>
+                  <td rowspan="1" colspan="1">13–14</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Pectoral Fin rays</td>
+                  <td rowspan="1" colspan="1">9</td>
+                  <td rowspan="1" colspan="1">10</td>
+                  <td rowspan="1" colspan="1">9</td>
+                  <td rowspan="1" colspan="1">9</td>
+                  <td rowspan="1" colspan="1">9</td>
+                  <td rowspan="1" colspan="1">10–11</td>
+                  <td rowspan="1" colspan="1">10–11</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, UW 157506, female holotype directly after collection, 16.33 mm <abbrev xlink:title="standard length" id="ABBRID0ESGAG">SL</abbrev>, Hachijo-jima Island, Izu Islands, Japan (photograph Hiroyuki Motomura).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220691.jpg"/>
+          </fig>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, paratypes directly after collection (<bold>A</bold>) UW 157507, male, 15.59 mm <abbrev xlink:title="standard length" id="ABBRID0EQHAG">SL</abbrev> (<bold>B</bold>) <abbrev xlink:title="Kagoshima University Museum" id="ABBRID0EWHAG">KAUM</abbrev>-I. 111770, female, 14.54 mm <abbrev xlink:title="standard length" id="ABBRID0E1HAG">SL</abbrev>, Hachijo-jima Island, Izu Islands, Japan (photographs Hiroyuki Motomura).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220692.jpg"/>
+          </fig>
+          <fig id="F3" position="float" orientation="portrait">
+            <label>Figure 3.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, UW 157506, preserved female holotype, 16.33 mm <abbrev xlink:title="standard length" id="ABBRID0EWIAG">SL</abbrev> (left), and UW 157506, 15.59 mm <abbrev xlink:title="standard length" id="ABBRID0E1IAG">SL</abbrev>, male paratype (right), Hachijo-jima Island, Izu Islands, Japan (photograph Graham Short).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g003.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220694.jpg"/>
+          </fig>
+          <fig id="F4" position="float" orientation="portrait">
+            <label>Figure 4.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> in situ, Hachijo-jima Island, Izu Islands, Japan at 15 m depth (photograph Richard Smith).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g004.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220695.jpg"/>
+          </fig>
+          <fig id="F5" position="float" orientation="portrait">
+            <label>Figure 5.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> in situ, Hachijo-jima Island, Izu Islands, Japan from 10 m depth (photograph Richard Smith).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g005.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220696.jpg"/>
+          </fig>
+          <fig id="F6" position="float" orientation="portrait">
+            <label>Video 1.</label>
+            <caption>
+              <p>YouTube video of a pair of specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> on rocky reef wall (video by Akira Bingoeral 2007)</p>
+            </caption>
+            <media xlink:href="https://www.youtube.com/embed/9qE7czB7Yo0" position="float" orientation="portrait" xlink:type="simple"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Color in life" id="SECID0ELLAG">
+          <title>Color in life.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> (Figs <xref ref-type="fig" rid="F4">4</xref>, <xref ref-type="fig" rid="F5">5</xref>, and <xref ref-type="fig" rid="F8">7</xref>) exhibits cryptic coloration: head, trunk and tail, brown, with overlay of reticulate (net-like) irregular quadrilateral and pentagonal skin formations, brown or white, white outline, entire surface of head and body peppered with tiny black dots; elevated dorsal ridge on second to fourth superior trunk rings, engorged red, reticulate color pattern diffuse or absent; dorsal fin base, red, reticulate pattern absent; tail rings with one row of rounded quadrilaterals present, one quadrilateral per ring, brown with white outline; fifth superior ridge spine red; fifth and eighth lateral trunk ridge spines, white; eighth inferior trunk ridge spine, red; fifth, ninth, 12<sup>th</sup> superior tail ridge spines, red, every fourth ring thereafter with two dorsolateral color spots, red; dermal appendages on coronet anteriorly.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Color in alcohol" id="SECID0EKMAG">
+          <title>Color in alcohol.</title>
+          <p>Light brown in holotype, pale brown in paratype, with black dots scattered over head, trunk, and anterior to tail.</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Animalia</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Syngnathiformes</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Syngnathidae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+            <object-id content-type="zoobank" xlink:type="simple">http://zoobank.org/853548F1-CEF4-47CD-8A15-7F225B73BCFC</object-id>
+          </tp:taxon-name>
+          <tp:taxon-authority>Lourie &amp; Kuiter, 2008</tp:taxon-authority>
+          <xref ref-type="fig" rid="F7">Figures 6</xref>
+          <xref ref-type="fig" rid="F8">, 7</xref>
+          <xref ref-type="fig" rid="F9">, 8</xref>
+          <xref ref-type="fig" rid="F11">, 10</xref>
+          <xref ref-type="table" rid="T1">, Table 1</xref>
+          <xref ref-type="table" rid="T2">, 2 Pontoh’s Pygmy Seahorse</xref>
+          <tp:nomenclature-citation-list>
+            <tp:nomenclature-citation>
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+              </tp:taxon-name>
+              <comment>Lourie &amp; Kuiter, 2008: figs. 2B-4B (Bunaken, North Sulawesi, Indonesia); Reijnan et al. 2011: fig. 2B (Siladen I, SE Siladen).</comment>
+            </tp:nomenclature-citation>
+          </tp:nomenclature-citation-list>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="material" id="SECID0E4OAG">
+          <title>Material.</title>
+          <p>AMS I.47833-001. 13.9 mm <abbrev xlink:title="standard length" id="ABBRID0EDPAG">SL</abbrev>, GenBank accession number <ext-link ext-link-type="gen" xlink:href="KY066111" xlink:type="simple">KY066111</ext-link>, Cape Kri, Raja Ampat, Indonesia. <named-content content-type="dwc:verbatimCoordinates"><named-content content-type="geo-json" specific-use="{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[130.690278,-0.556528]}" id="NCID0EKPAG">0°33’23.5”S 130°41’25.0”E</named-content></named-content>, depth 6 m, collected by Otto Awom, Gerry Allen, and Mark Erdmann using hand net in small clump of algae and hydroids on vertical surface, 1 January 2007. Mitochondrial <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EPPAG">COI</abbrev> sequence data and corresponding Genbank accession numbers for additional vouchered specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (Table <xref ref-type="table" rid="T2">2</xref>).</p>
+          <table-wrap id="T2" position="float" orientation="portrait">
+            <label>Table 2.</label>
+            <caption>
+              <p>List of pygmy seahorse specimens, including species, collection locality, voucher number, and <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0ELQAG">COI</abbrev> GenBank accession numbers.</p>
+            </caption>
+            <table id="TID0EYTAE" rules="all">
+              <tbody>
+                <tr>
+                  <th rowspan="1" colspan="1"/>
+                  <th rowspan="1" colspan="1">Species</th>
+                  <th rowspan="1" colspan="1">Locality</th>
+                  <th rowspan="1" colspan="1">Voucher</th>
+                  <th rowspan="1" colspan="1"><abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EERAG">COI</abbrev> Genbank no.</th>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">1</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47833-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645117" xlink:type="simple">MH645117</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">2</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47831-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645118" xlink:type="simple">MH645118</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">3</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47831-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645119" xlink:type="simple">MH645119</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">4</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47831-003</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645120" xlink:type="simple">MH645120</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">5</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47831-004</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645121" xlink:type="simple">MH645121</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">6</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47960-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645122" xlink:type="simple">MH645122</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">7</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47960-002</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645123" xlink:type="simple">MH645123</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">8</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47832-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645124" xlink:type="simple">MH645124</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">9</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645125" xlink:type="simple">MH645125</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">10</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-002</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645126" xlink:type="simple">MH645126</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">11</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-003</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645127" xlink:type="simple">MH645127</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">12</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-004</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645128" xlink:type="simple">MH645128</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">13</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocamus">Hippocamus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">MZB 3597</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="KY066111" xlink:type="simple">KY066111</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">14</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47960-003</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645129" xlink:type="simple">MH645129</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">15</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47960-004</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645130" xlink:type="simple">MH645130</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">16</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47960-005</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645131" xlink:type="simple">MH645131</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">17</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47961-001</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645132" xlink:type="simple">MH645132</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">18</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47833-002</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645133" xlink:type="simple">MH645133</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">19</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-006</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645134" xlink:type="simple">MH645134</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">20</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47833-003</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645135" xlink:type="simple">MH645135</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">21</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </td>
+                  <td rowspan="1" colspan="1">Indonesia</td>
+                  <td rowspan="1" colspan="1">AM I.47834-005</td>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="gen" xlink:href="MH645136" xlink:type="simple">MH645136</ext-link>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0EUDBG">
+          <title>Diagnosis.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> differs from its congeners by the following combination of characters: subdorsal rings 4; two pairs of bilaterally wing-like protrusions formed by a pair of large truncate spines projecting laterad on both first and second superior trunk ridges; laterodorsal surface flat on the third and fourth trunk rings; tail rings 28; dorsal fin rays 12; pectoral fin rays ten.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EFEBG">
+          <title>Description.</title>
+          <p>General body shape as in Figure <xref ref-type="fig" rid="F7">6</xref>. Morphometric characters listed in Table <xref ref-type="table" rid="T1">1</xref>. Head length 21.6% in <abbrev xlink:title="standard length" id="ABBRID0ETEBG">SL</abbrev>, head depth 64.4% in <abbrev xlink:title="head length" id="ABBRID0EXEBG">HL</abbrev>; snout length 24.1% in <abbrev xlink:title="head length" id="ABBRID0E2EBG">HL</abbrev>, bulbous tip absent, snout depth 89.0% in <abbrev xlink:title="snout length" id="ABBRID0E6EBG">SnL</abbrev>; post-orbital 50.9% in <abbrev xlink:title="head length" id="ABBRID0EDFBG">HL</abbrev>; distinct, angular coronet, coronet height 46.2% in <abbrev xlink:title="head length" id="ABBRID0EHFBG">HL</abbrev>, unbranched dermal appendage attached to anterior part of coronet; single gill-opening on midline behind coronet supported by elevated cleithral ring; dorsal fin 14 rays; pectoral-fin rays nine; anal fin rays four; trunk rings 12, trunk length 33.0% in <abbrev xlink:title="standard length" id="ABBRID0ELFBG">SL</abbrev>, trunk depth just anterior to dorsal fin base 14.4% in <abbrev xlink:title="standard length" id="ABBRID0EPFBG">SL</abbrev>; dorsal fin base strongly raised posterodorsad; subdorsal rings four, dorsal fin base starting immediately posterior to ninth trunk ring and ending immediately posterior to first tail ring; no external pouch visible; tail rings 28, tail length 45.3% in <abbrev xlink:title="standard length" id="ABBRID0ETFBG">SL</abbrev>. Body ornamentation: prominent spine dorsal of eye, small spine ventroposterior to eye; lateral head spine ventral of coronet; two moderately large spines on cleithral ring, upper spine at level of last pectoral fin ray, lower spine at ventral extent of ring; snout spine on midline between eyes; nape spine absent; subdorsal spines four, superior trunk ridge ending with three rounded spines protruding laterad, the posterior spine greatly enlarged on 12<sup>th</sup> trunk ring; superior trunk ridge with large bilaterally paired truncate spines projecting laterad on first and second trunk rings, laterodorsal surface flat on second, third, and fourth trunk rings, large bilaterally paired spines on fifth trunk ring, and small pair of spines dorsally on sixth trunk ridge; lateral trunk ridge with small spine on fifth trunk ring and large spine on eighth trunk ring; inferior trunk ridge with spines of moderate size beginning on fifth trunk ring and and ending on 11<sup>th</sup> trunk ring; superior tail ridge spines well developed anteriorly, becoming smaller posteriorly, with enlarged spines on fifth and ninth tail rings; inferior tail ridge spines absent; caudal fin absent.</p>
+          <fig id="F7" position="float" orientation="portrait">
+            <label>Figure 6.</label>
+            <caption>
+              <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, AMS I.47833-001, preserved male non-type, 13.9 mm <abbrev xlink:title="standard length" id="ABBRID0EOGBG">SL</abbrev>, Cape Kri, Raja Ampat, Indonesia (photograph Graham Short).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g006.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220697.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="remarks" id="SECID0EXGBG">
+          <title>Remarks.</title>
+          <p>Although <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> was distinguished from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> primarily by features of coloration (<xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>), meristic, morphometric, and diagnostic morphological characters in the original description did not support the separation of these seahorses into two species. The invalidity of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> was subsequently recognised due to the unreliability of employing coloration as a useful diagnostic character in order to distinguish between species of seahorses (<xref ref-type="bibr" rid="B17">Lourie et al. 2016</xref>). Here we further support the synonymization of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> under <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> based on partial mitochondrial <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0E3IBG">COI</abbrev> genetic data collected from additional 21 vouchered specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> and those referred to as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> (Table <xref ref-type="table" rid="T2">2</xref>). Genetic distance analysis (uncorrected p distances) failed to discriminate <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic> from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (Suppl. material <xref ref-type="supplementary-material" rid="S1">1</xref>), which revealed an average intraspecific divergence of 0.2%. A neighbour joining tree of the <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EUKBG">COI</abbrev> sequence data, including <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EYKBG">COI</abbrev> data from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, is supplied here as Suppl. material <xref ref-type="supplementary-material" rid="S2">2</xref>.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Comparative remarks" id="SECID0EBMBG">
+          <title>Comparative remarks.</title>
+          <p>The combination of characters provided in the diagnosis that distinguishes <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> from all congeners are presented in Table <xref ref-type="table" rid="T3">3</xref> and summarized below. The new species is unique in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic> in possessing a distinct elevated dorsal ridge internally formed by triangular bony mounds in the anterodorsal area of the trunk directly posterior to the head, which we propose as an apomorphy for this species. All currently recognized seahorse species, including the pygmy seahorse congeners, differ in the absence of triangular bony mounds and the presence of typical flat surfaces dorsally on the second to fourth superior trunk rings. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> is most similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (Fig. <xref ref-type="fig" rid="F9">8</xref>, Table <xref ref-type="table" rid="T3">3</xref>) in meristics, overall body ornamentation, and the presence of a distinct coronet. They differ primarily on the basis of bilaterally paired wing-like protrusions directly posterior to the head, which are internally formed by a single connected pair of large, truncate spines projecting dorsolaterad on the first superior trunk ridge in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, as opposed to a double pair of large truncate spines projecting strongly laterad on both the first and second superior trunk ridges in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>. Additional distinctions include patterns of the anterodorsal trunk rings (elevated dorsal ridge formed by triangular bony mounds dorsad on the second to fourth trunk rings in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, laterodorsal surface flat on the third and fourth trunk rings in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>); eighth lateral trunk ridge spine (very large and prominent spine projecting laterad in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, small in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>); color pattern (brown with white reticulation, thin red line tracing the superior trunk ridge anterior to dorsal fin base in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, white, brown, or black color with elliptical markings, each outlined with thin red lines, tracing the entire superior trunk ridge and extending ventrally around the fifth superior and eighth lateral trunk ridge spines in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> can be further be distinguished by the number of tail rings (28 vs. 28–30), dorsal fin rays (14 vs. 12), and pectoral fin rays (9 vs. 10).</p>
+          <table-wrap id="T3" position="float" orientation="portrait">
+            <label>Table 3.</label>
+            <caption>
+              <p>Comparison of morphological characters in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+            </caption>
+            <table id="TID0E3JAG" rules="all">
+              <tbody>
+                <tr>
+                  <th rowspan="1" colspan="1"/>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                  <th rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name>
+                        <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part>
+                        <tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part>
+                      </tp:taxon-name>
+                    </italic>
+                  </th>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Voucher number/data source</td>
+                  <td rowspan="1" colspan="1">WA 41200</td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B12">Kuiter 2003</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>
+                  </td>
+                  <td rowspan="1" colspan="1">
+                    <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Single gill opening</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Strongly raised cleithral girdle</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Coronet</td>
+                  <td rowspan="1" colspan="1">distinct and angular</td>
+                  <td rowspan="1" colspan="1">distinct and angular</td>
+                  <td rowspan="1" colspan="1">low and rounded</td>
+                  <td rowspan="1" colspan="1">distinct and angular</td>
+                  <td rowspan="1" colspan="1">low double mound</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cleithral spines</td>
+                  <td rowspan="1" colspan="1">pectoral fin base, ventral</td>
+                  <td rowspan="1" colspan="1">pectoral fin base, ventral</td>
+                  <td rowspan="1" colspan="1">pectoral fin base, ventral</td>
+                  <td rowspan="1" colspan="1">pectoral fin base, ventral</td>
+                  <td rowspan="1" colspan="1">pectoral fin base</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Subdorsal rings (3+1)</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Lateral head spine</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Snout spine</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Eye spine dorsal</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present(double)</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Eye spine ventral</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">first superior trunk ridge spines</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">second superior trunk ridge spines</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">†present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Elevated ridge dorsal of trunk</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fifth superior trunk ridge spines</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fifth lateral trunk ridge spines</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eighth lateral trunk ridge spines (large)</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eighth inferior trunk ridge spines</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">12<sup>th</sup> superior trunk ridge subdorsal spine (large)</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                  <td rowspan="1" colspan="1">present</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Superior tail ridge spines</td>
+                  <td rowspan="1" colspan="1">5,9,12,16</td>
+                  <td rowspan="1" colspan="1">5,9,12</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">5,9,12</td>
+                  <td rowspan="1" colspan="1">4,8,12</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Inferior tail ridge spines</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">absent</td>
+                  <td rowspan="1" colspan="1">posterior 28 rings</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+          <fig id="F8" position="float" orientation="portrait">
+            <label>Figure 7.</label>
+            <caption>
+              <p>Comparison of live specimens of <bold>A</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> photographed off Hachijo-jima Island, Japan (Richard Smith), and its most similar congener <bold>B</bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> photographed off Tomia Island, southeast Sulawesi, Indonesia (Richard Smith). Note the differences in the anterodorsal area of the trunk in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> vs. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>: single vs. double pair of bilaterally paired wing-like protrusions behind the head, raised dorsal ridge vs. laterodorsal flat surface, and large and prominent vs. small eighth lateral trunk ridge spine. Abbreviations: SP-WP, single pair of bilaterally paired wing-like protrusions; DP-WP, double pair of bilaterally paired wing-like protrusions; DR, raised dorsal ridge; FS, flat dorsal surface; P-8LTR, prominent eighth lateral trunk ridge spine; S-8LTR, small eighth lateral trunk ridge spine.</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g007.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220698.jpg"/>
+          </fig>
+          <fig id="F9" position="float" orientation="portrait">
+            <label>Figure 8.</label>
+            <caption>
+              <p>Comparison of the lateral view of reconstructed <abbrev xlink:title="micro-computed tomography" id="ABBRID0EVEAI">μCT</abbrev> scans of skeletons of A <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, UW 157506, preserved male holotype, 16.33 mm <abbrev xlink:title="standard length" id="ABBRID0EEFAI">SL</abbrev>, Hachijo-jima Island, Japan, and its most similar congener B <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, AMS I.47833-001, preserved male non-type 13.9 mm <abbrev xlink:title="standard length" id="ABBRID0ETFAI">SL</abbrev>, Cape Kri, Raja Ampat, Indonesia (photographs Graham Short).</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g008.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220699.jpg"/>
+          </fig>
+          <p>Several other pygmy seahorse species are morphologically similar to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, including <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>. The following characters support the distinctions among these species: number of tail rings (28 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> vs. 26 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, 27–28 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, 32 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>); dorsal fin rays (14 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> vs. 13 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, 12 in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>); coronet (distinct in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> vs. low and rounded in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, low double mound in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name>)</italic>; cleithral ring spines (at pectoral fin base and ventral of head in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> vs. pectoral fin base in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name>)</italic>; eye spine dorsally (double spine in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>), eye spine ventrally (absent in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>); superior tail ridge spines (fifth, ninth, 12<sup>th</sup> vs. absent in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, fourth, eighth, 12<sup>th</sup> in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>); inferior tail ridge spines (absent vs. present on last 28 tail rings in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>).</p>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> shares with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> 12 trunk rings, strongly raised continuous cleithral ring, and presence of diagnostic body ornamentation (snout spine, eye spines, two cliethral spines, lateral head spine, large spine on fifth superior trunk ridge, large spine on eighth lateral trunk ridge, small spine on fifth lateral trunk ridge, Table <xref ref-type="table" rid="T2">2</xref>), including wing-like-protrusions immediately posterior to the head. Based on careful visual examinations of <italic>in situ</italic> underwater photographs, x-rays, and type material (<xref ref-type="bibr" rid="B12">Kuiter 2003</xref>; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>; <xref ref-type="bibr" rid="B25">Smith 2017</xref>), it appears <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> shares with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> a single pair of bilaterally paired wing-like protrusions (vs. double pair in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name>)</italic>. In the original description of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> (Kuiter, 2003), the number of trunk rings was diagnosed as 11, however in our comparative analysis of trunk ring counts, we detected the presence of 12 trunk rings in the x-ray of the holotype of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> (Gomon &amp; Kuiter, 2009, AMS I.41181-001, fig. 3B). Furthermore, we noted 4 subdorsal rings (three trunk and one tail rings) via <abbrev xlink:title="micro-computed tomography" id="ABBRID0E3RAI">μCT</abbrev> in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and the non-type <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, and similarly four subdorsal rings in our examination of the radiographs of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B12">Kuiter 2003</xref>, fig. 3B; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>, figs 2A,C; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>, fig. 3B). In contrast, three subdorsal trunk rings were noted in the original diagnoses of these pygmy seahorses. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> retain the ring and ridge structure of larger seahorses, and with <abbrev xlink:title="micro-computed tomography" id="ABBRID0EZUAI">μCT</abbrev> scans, we can detect well-developed ossification of the skeleton, including the strong ossification of the inferior and ventral trunk area (Figs <xref ref-type="fig" rid="F9">8</xref>–<xref ref-type="fig" rid="F11">10</xref>). Similarly, Gomon &amp; Kuiter (2009, fig. 3B) detected a well-formed skeleton in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> via x-ray. In contrast, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic> reveal incomplete ossification of the inferior and ventral trunk ridges anteriorly, the ridges reduced to star-shaped dermal ossifications (<xref ref-type="bibr" rid="B7">Gomon 1997</xref>; <xref ref-type="bibr" rid="B15">Lourie and Randall 2003</xref>; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>).</p>
+          <fig id="F10" position="float" orientation="portrait">
+            <label>Figure 9.</label>
+            <caption>
+              <p>Computed tomography scanned anterior trunk area of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, UW 157506, male holotype, 16.33 mm <abbrev xlink:title="standard length" id="ABBRID0EFXAI">SL</abbrev>, Hachijo-jima Island, Japan (photograph Graham Short). <bold>A</bold> Anterolateral view <bold>B</bold> Lateral view. Note the pair of spines projecting dorsolaterad on STrR1 and triangular bony mounds arched dorsad on STrR2, STrR3, and STrR4. Abbreviations: CL, cliethral ring; STrR1, first superior trunk ridge; STrR2, second superior trunk ridge; STrR3, third superior trunk ridge; STrR4, fourth superior trunk ridge; STrR5, fifth superior trunk ridge; STrR6, sixth superior trunk ridge.</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g009.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220700.jpg"/>
+          </fig>
+          <fig id="F11" position="float" orientation="portrait">
+            <label>Figure 10.</label>
+            <caption>
+              <p>Computed tomography scanned anterior trunk area of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, AMS I.47833-001, preserved male non-type, 16.33 mm <abbrev xlink:title="standard length" id="ABBRID0EFYAI">SL</abbrev>, Cape Kri, Raja Ampat, Indonesia (photograph Graham Short). <bold>A</bold> Anterolateral view <bold>B</bold> Dorsal view. Note the double pair of spines projecting dorsolaterad on STrR1 and STrR1, respectively, and laterodorsal surface flat on STrR3, and STrR4. Abbreviations: CO, coronet; CL, cliethral ring; STrR1, first superior trunk ridge; STrR2, second superior trunk ridge; STrR3, third superior trunk ridge; STrR4, fourth superior trunk ridge; STrR5, fifth superior trunk ridge; STrR6, sixth superior trunk ridge.</p>
+            </caption>
+            <graphic xlink:href="zookeys-779-027-g010.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_220701.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Genetic comparisons" id="SECID0ESYAI">
+          <title>Genetic comparisons.</title>
+          <p>Suppl. material <xref ref-type="supplementary-material" rid="S1">1</xref> shows genetic distance analysis at the <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0E3YAI">COI</abbrev> gene (uncorrected p distances) between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and previously sequenced non-type specimens of the pygmy seahorses <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B9">Hamilton et al. 2017</xref>), and additional vouchered specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> differs from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> by 10.1%, from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> by 13.0%, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="denise">denise</tp:taxon-name-part></tp:taxon-name></italic> by 10.1%. Reported mtDNA clock rates of approximately 1.2% per million years in marine teleosts (<xref ref-type="bibr" rid="B21">Reece et al. 2010</xref>) indicate divergence between <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> approximately 8.4 million years ago.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0EB4AI">
+          <title>Distribution and habitat.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> sp. n. is only known to occur in Japan, from scattered localities including Kashiwa-jima Island, Sukumo Bay; Kushimoto, Kii Peninsula; Osezaki, Izu Peninsula; the Izu Islands of Miyake and Hachijo; Sagami Bay; and Chichi-jima, Ogasawara Islands. The specimens described herein were found off the northwest coast of Hachijo-jima Island at a depth of 10–13 m, and have been anecdotally reported elsewhere at 5–22 m by local divers. Owing to its diminutive size and extraordinary crypsis, this species may have a wider distribution within Japan. The new taxon is not associated with a particular host, and has been observed in association with mixed soft coral, the coralline algae <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Halimeda">Halimeda</tp:taxon-name-part></tp:taxon-name></italic> sp., and hydroids on rocky reef walls and large boulders in both exposed and semi-sheltered locations. During 15 dives initially spent searching ad hoc for this species by the second author in July 2013, 13 individuals were observed in an approximately 100 m stretch of rocky reef. These ranged in depth from 10 to 20 m and water temperature fluctuated between 19–24°C over 6 days. When one individual was discovered, another was often found in close proximity and appeared to represent male-female pairs. Returning in June 2015 with a larger group of experienced dive guides, with 10 dives searching for the species, only a single individual was found, possibly suggesting fluctuations in the abundance of the species. Several pregnant males were observed in July 2013, but it is unknown whether reproduction occurs seasonally or year-round.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EZ4AI">
+          <title>Etymology.</title>
+          <p>The specific epithet is from the colloquial Japanese name of the new species, Japan Pig, Japapigu, or 日本のピグミータツノオトシゴ.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Common name" id="SECID0E54AI">
+          <title>Common name.</title>
+          <p>New common English and Japanese names, Japanese Pygmy Seahorse and Hachijo-tatsu, respectively, are proposed here for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+    </sec>
+    <sec sec-type="Discussion" id="SECID0EP5AI">
+      <title>Discussion</title>
+      <p>Here we consider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> as a valid species due to its morphological uniqueness; however, a more detailed phylogenetic and systematic study is necessary to understand its evolutionary relationship to other pygmy seahorses. Using <abbrev xlink:title="micro-computed tomography" id="ABBRID0EA6AI">μCT</abbrev>, we have identified key diagnostic characters in the anterodorsal area of the trunk that differentiate <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> from the morphologically similar <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>. Unequivocally, the most noticeable skeletal characters of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> are the unusual triangular bony mounds that serve as a structural basis for the elevated dorsal ridge along the trunk, and the presence of a single pair of large truncate and connected spines projecting dorsolaterally of the trunk that form the bilateral wing-like protrusions behind the head. In the previous diagnoses of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic>, these dorsolateral truncate spines were difficult to discern via traditional photography and radiographs (<xref ref-type="bibr" rid="B12">Kuiter 2003</xref>; <xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>; <xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>). In <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B12">Kuiter 2003</xref>) these spines were not noted; in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>, fig. 2A) these spines were described as dorsolateral expansions of the first and second superior trunk rings with no mention of the presence of spines; in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="satomiae">satomiae</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B16">Lourie and Kuiter 2008</xref>, fig. 2C) these spines were diagnosed as fused spines on the first and second superior trunk ridges, however, in the radiograph provided in the description they appear to be two pairs of spines, and separated; in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="waleananus">waleananus</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>, fig. 3A) these spines were described as wing-like protuberances on the second superior trunk ridge with no diagnosis of spines. In the latter, we detect a pair of large spines on the first superior trunk ridge (<xref ref-type="bibr" rid="B8">Gomon and Kuiter 2009</xref>, fig. 3A). Additional characters that were not detected via microscopy or high-resolution photography include a small pair of spines dorsally on the sixth superior trunk ridge in both <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> (Figs <xref ref-type="fig" rid="F9">8</xref>–<xref ref-type="fig" rid="F11">10</xref>). Therefore, <abbrev xlink:title="micro-computed tomography" id="ABBRID0E2EBI">μCT</abbrev> offers new avenues for enhancing taxonomic descriptions by documenting otherwise difficult or indiscernible diagnostic skeletal features in small specimens.</p>
+      <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> is known to occur throughout subtropical southeast Japan where investigations of inshore marine ichthyofauna (<xref ref-type="bibr" rid="B27">Senou et al. 2006</xref>) have recorded similar species compositions between southern Honshu and the Izu and Ogasawara Islands, suggesting a passive and long distance recruitment and dispersal due to the influence of the Kuroshio Current (<xref ref-type="bibr" rid="B11">Kuriiwa et al. 2014</xref>). This north-flowing ocean current, which originates east of the Philippine coast, flows alongside Taiwan to the south coast of the major islands of Japan, including Honshu, and extends northward and southward between the Izu and Ogasawara Islands, is likely to act as an important conduit to transport tropical fishes from the south to these islands. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic> has not been observed in the Ryukyu Islands to date despite these islands being located in the Kuroshio Current. Given time, scuba divers may observe the new species in the Ryukyu Islands, and even as far south as Taiwan where <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="bargibanti">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B14">Kwang-Tsao et al. 2008</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="colemani">colemani</tp:taxon-name-part></tp:taxon-name></italic>, and a species appearing to be <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> have been observed by local scuba divers.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are grateful to many research colleagues and fish enthusiasts who contributed in the field, lab, observations, and congenial discussions: Shoichi Kato for collecting specimens in the field; Adam Summers, Matt Kolmann, Mackenzie Gerringer, Jules Chabain, Tessa Peixoto, Cassandra Donatelli, Abby von Hagel, Darby Finnegan, and Jonathon Huie for micro-computed tomography (<abbrev xlink:title="micro-computed tomography" id="ABBRID0EFHBI">μCT</abbrev>) scans of seahorse specimens at Friday Harbor Laboratories, University of Washington; Katherine Maslenikov, University of Washington Fish Collection, for providing holotype and paratype numbers for two specimens; Amanda Hay and Mark McGrouther, Department of Ichthyology, Australian Museum, for curatorial assistance; Andrew King and Scott Gin, Australian Centre for Wildlife Genomics, Australian Museum for providing <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EJHBI">COI</abbrev> sequence data for a paratype; Akira Bingoeral for permission to use <italic>in situ</italic> YouTube video of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="japapigu">japapigu</tp:taxon-name-part></tp:taxon-name></italic>, and Nathalie Yonow, Swansea University, and Sven Kullander, Swedish Museum of Natural History, for editorial assistance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Allen</surname><given-names>GR</given-names></name></person-group> (<year>2008</year>) <article-title>Conservation hotspots of biodiversity and endemism for Indo‐Pacific coral reef fishes.</article-title><source>Aquatic Conservation: Marine and Freshwater Ecosystems</source><volume>18</volume>(<issue>5</issue>): <fpage>541</fpage>–<lpage>556</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1002/aqc.880">http://doi.org/10.1002/aqc.880</ext-link></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Allen</surname><given-names>GR</given-names></name><name name-style="western"><surname>Erdmann</surname><given-names>MV</given-names></name></person-group> (<year>2012</year>) <source>Reef Fishes of the East Indies (Vols. 1–3).</source><publisher-name>Tropical Reef Research</publisher-name>, <publisher-loc>Perth</publisher-loc>, <size units="page">1292 pp</size>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1643/OT-13-010">https://doi.org/10.1643/OT-13-010</ext-link></mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Baine</surname><given-names>M</given-names></name><name name-style="western"><surname>Harasti</surname><given-names>D</given-names></name></person-group> (<year>2007</year>) <source>The Marine Life of Bootless Bay, Papua New Guinea.</source><publisher-name>Motupore Island Research Centre</publisher-name>, <publisher-loc>School of Natural and Physical Science, University of Papua New Guinea</publisher-loc>, <size units="page">144 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Foster</surname><given-names>R</given-names></name><name name-style="western"><surname>Bridge</surname><given-names>TC</given-names></name><name name-style="western"><surname>Bongaert</surname><given-names>P</given-names></name></person-group> (<year>2012</year>) <article-title>The first record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">denise</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>) from Australia.</article-title><source>Aqua, International Journal of Ichthyology</source><volume>18</volume>: <fpage>55</fpage>–<lpage>57</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Fricke</surname><given-names>R</given-names></name></person-group> (<year>2004</year>) <article-title>Review of the pipefishes and seahorses (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>) of New Caledonia, with descriptions of five new species.</article-title><source>Stuttgarter Beiträge zur Naturkunde, Serie A Biologie</source><volume>668</volume>: <fpage>1</fpage>–<lpage>66</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Froese</surname><given-names>R</given-names></name><name name-style="western"><surname>Pauly</surname><given-names>D</given-names></name></person-group> (<year>2017</year>) Fishbase. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.fishbase.org">http://www.fishbase.org</ext-link></mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gomon</surname><given-names>MF</given-names></name></person-group> (<year>1997</year>) <article-title>A remarkable new pygmy seahorse (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic>) from Southeastern Australia, with a redescription of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">bargibanti</tp:taxon-name-part></tp:taxon-name></italic> Whitley from New Caledonia.</article-title><source>Memoirs of the Museum of Victoria</source><volume>56</volume>(<issue>1</issue>): <fpage>245</fpage>–<lpage>253</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.24199/j.mmv.1997.56.10">https://doi.org/10.24199/j.mmv.1997.56.10</ext-link></mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gomon</surname><given-names>MF</given-names></name><name name-style="western"><surname>Kuiter</surname><given-names>RH</given-names></name></person-group> (<year>2009</year>) <article-title>Two new pygmy seahorses (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic>) from the Indo-West Pacific.</article-title><source>Aqua</source><volume>15</volume>(<issue>1</issue>): <fpage>37</fpage>–<lpage>44</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Hamilton</surname><given-names>H</given-names></name><name name-style="western"><surname>Saarman</surname><given-names>N</given-names></name><name name-style="western"><surname>Short</surname><given-names>G</given-names></name><name name-style="western"><surname>Sellas</surname><given-names>AB</given-names></name><name name-style="western"><surname>Moore</surname><given-names>B</given-names></name><name name-style="western"><surname>Hoang</surname><given-names>T</given-names></name><name name-style="western"><surname>Grace</surname><given-names>CL</given-names></name><name name-style="western"><surname>Gomon</surname><given-names>M</given-names></name><name name-style="western"><surname>Crow</surname><given-names>K</given-names></name><name name-style="western"><surname>Simison</surname><given-names>WB</given-names></name></person-group> (<year>2017</year>) <article-title>Molecular phylogeny and patterns of diversification in Syngnathid fishes.</article-title><source>Molecular phylogenetics and Evolution</source><volume>107</volume>: <fpage>388</fpage>–<lpage>403</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1016/j.ympev.2016.10.003">https://doi.org/10.1016/j.ympev.2016.10.003</ext-link></mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Han</surname><given-names>SY</given-names></name><name name-style="western"><surname>Kim</surname><given-names>JK</given-names></name><name name-style="western"><surname>Kai</surname><given-names>Y</given-names></name><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name></person-group> (<year>2017</year>) Seahorses of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">coronatus</tp:taxon-name-part></tp:taxon-name></italic> complex: taxonomic revision, and description of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">haema</tp:taxon-name-part></tp:taxon-name></italic>, a new species from Korea and Japan (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>). ZooKeys 712: 113. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.712.14955">https://doi.org/10.3897/zookeys.712.14955</ext-link></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kuriiwa</surname><given-names>K</given-names></name><name name-style="western"><surname>Arihara</surname><given-names>H</given-names></name><name name-style="western"><surname>Chiba</surname><given-names>SN</given-names></name><name name-style="western"><surname>Kato</surname><given-names>S</given-names></name><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>K</given-names></name></person-group> (<year>2014</year>) <article-title>Checklist of marine fishes of the Zunan Islands, located between the Izu and Ogasawara (Bonin) Islands, Japan, with zoogeographical comments.</article-title><source>Check List</source><volume>10</volume>(<issue>6</issue>): <fpage>1479</fpage>–<lpage>1501</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.15560/10.6.1479">http://doi.org/10.15560/10.6.1479</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kuiter</surname><given-names>RH</given-names></name></person-group> (<year>2003</year>) <article-title>A new pygmy seahorse (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic>) from Lord Howe Island.</article-title><source>Records of the Australian Museum</source><volume>55</volume>: <fpage>113</fpage>–<lpage>116</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3853/j.0067-1975.55.2003.1382">http://doi.org/10.3853/j.0067-1975.55.2003.1382</ext-link></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kuiter</surname><given-names>RH</given-names></name></person-group> (<year>2013</year>) <source>Seahorses, Pipefishes and Their Relatives.</source><publisher-name>TMC Publishing</publisher-name>, <publisher-loc>Chorleywood</publisher-loc>, <size units="page">240 pp</size>.</mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kwang-Tsao</surname><given-names>S</given-names></name><name name-style="western"><surname>Ho</surname><given-names>HC</given-names></name><name name-style="western"><surname>Lin</surname><given-names>PL</given-names></name><name name-style="western"><surname>Lee</surname><given-names>PF</given-names></name><name name-style="western"><surname>Lee</surname><given-names>MY</given-names></name><name name-style="western"><surname>Tsai</surname><given-names>CY</given-names></name><name name-style="western"><surname>Lin</surname><given-names>YC</given-names></name><name name-style="western"><surname>Yun-Chih</surname><given-names>L</given-names></name><name name-style="western"><surname>Yung-Chanag</surname><given-names>L</given-names></name></person-group> (<year>2008</year>) <article-title>A checklist of the fishes of southern Taiwan, northern South China Sea.</article-title><source>The Raffles Bulletin of Zoology</source><volume>19</volume>: <fpage>233</fpage>–<lpage>271</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lourie</surname><given-names>SA</given-names></name><name name-style="western"><surname>Randall</surname><given-names>JE</given-names></name></person-group> (<year>2003</year>) <article-title>A new pygmy seahorse, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">denise</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>) from the Indo-Pacific.</article-title><source>Zoological Studies</source><volume>42</volume>: <fpage>284</fpage>–<lpage>291</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lourie</surname><given-names>SA</given-names></name><name name-style="western"><surname>Kuiter</surname><given-names>RH</given-names></name></person-group> (<year>2008</year>) <article-title>Three new pygmy seahorse species from Indonesia (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Teleostei</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic>).</article-title><source>Zootaxa</source><volume>1963</volume>: <fpage>54</fpage>–<lpage>68</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lourie</surname><given-names>SA</given-names></name><name name-style="western"><surname>Pollom</surname><given-names>RA</given-names></name><name name-style="western"><surname>Foster</surname><given-names>SJ</given-names></name></person-group> (<year>2016</year>) <article-title>A global revision of the Seahorses <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part></tp:taxon-name></italic> Rafinesque 1810 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Actinopterygii</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Syngnathiformes</tp:taxon-name-part></tp:taxon-name>): Taxonomy and biogeography with recommendations for further research.</article-title><source>Zootaxa</source><volume>4146</volume>(<issue>1</issue>): <fpage>1</fpage>–<lpage>66</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/zootaxa.4146.1.1">http://doi.org/10.11646/zootaxa.4146.1.1</ext-link></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Mittermeier</surname><given-names>RA</given-names></name><name name-style="western"><surname>Turner</surname><given-names>WR</given-names></name><name name-style="western"><surname>Larsen</surname><given-names>FW</given-names></name><name name-style="western"><surname>Brooks</surname><given-names>TM</given-names></name><name name-style="western"><surname>Gascon</surname><given-names>C</given-names></name></person-group> (<year>2011</year>) Global biodiversity conservation: the critical role of hotspots. Biodiversity Hotspots, Springer, Berlin, Heidelberg, 3–22. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/978-3-642-20992-5_1">https://doi.org/10.1007/978-3-642-20992-5_1</ext-link></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Motomura</surname><given-names>H</given-names></name><name name-style="western"><surname>Kuriiwa</surname><given-names>K</given-names></name><name name-style="western"><surname>Katayama</surname><given-names>E</given-names></name><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Ogihara</surname><given-names>G</given-names></name><name name-style="western"><surname>Meguro</surname><given-names>M</given-names></name><name name-style="western"><surname>Matsunuma</surname><given-names>M</given-names></name><name name-style="western"><surname>Takata</surname><given-names>Y</given-names></name><name name-style="western"><surname>Yoshida</surname><given-names>YT</given-names></name><name name-style="western"><surname>Yamashita</surname><given-names>M</given-names></name><name name-style="western"><surname>Kimura</surname><given-names>S</given-names></name><name name-style="western"><surname>Endo</surname><given-names>H</given-names></name><name name-style="western"><surname>Murase</surname><given-names>A</given-names></name><name name-style="western"><surname>Iwatsuki</surname><given-names>Y</given-names></name><name name-style="western"><surname>Sakurai</surname><given-names>Y</given-names></name><name name-style="western"><surname>Harazaki</surname><given-names>S</given-names></name><name name-style="western"><surname>Hidaka</surname><given-names>K</given-names></name><name name-style="western"><surname>Izumi</surname><given-names>H</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>K</given-names></name></person-group> (<year>2010</year>) Annotated checklist of marine and estuarine fishes of Yaku-shima Island, Kagoshima, southern Japan. Fishes of Yaku-shima Island – A World Heritage island in the Osumi Group, Kagoshima Prefecture, southern Japan. National Museum of Nature and Science, Tokyo, 65–247.</mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Nishikawa</surname><given-names>J</given-names></name><name name-style="western"><surname>Fitzpatrick</surname><given-names>R</given-names></name><name name-style="western"><surname>Reimer</surname><given-names>JD</given-names></name><name name-style="western"><surname>Beaman</surname><given-names>RJ</given-names></name><name name-style="western"><surname>Yamamoto</surname><given-names>H</given-names></name><name name-style="western"><surname>Lindsay</surname><given-names>DJ</given-names></name></person-group> (<year>2011</year>) <article-title>In situ observation of Denise’s pygmy seahorse <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hippocampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">denise</tp:taxon-name-part></tp:taxon-name></italic> associated with a gorgonian coral <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Annella</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">reticulata</tp:taxon-name-part></tp:taxon-name></italic> at Osprey Reef, Australia.</article-title><source>Galaxea, Journal of Coral Reef Studies</source><volume>13</volume>(<issue>1</issue>): <fpage>25</fpage>–<lpage>26</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3755/galaxea.13.25">https://doi.org/10.3755/galaxea.13.25</ext-link></mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Reece</surname><given-names>JS</given-names></name><name name-style="western"><surname>Bowen</surname><given-names>BW</given-names></name><name name-style="western"><surname>Smith</surname><given-names>DG</given-names></name><name name-style="western"><surname>Larson</surname><given-names>AF</given-names></name></person-group> (<year>2010</year>) <article-title>Molecular phylogenetics of moray eels (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Muraenidae</tp:taxon-name-part></tp:taxon-name>) demonstrates multiple origins of a shell-crushing jaw (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Gymnomuraena</tp:taxon-name-part></tp:taxon-name></italic>, Echidna) and multiple colonizations of the Atlantic Ocean.</article-title><source>Molecular Phylogenetics and Evolution</source><volume>57</volume>: <fpage>829</fpage>–<lpage>835</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1016/j.ympev.2010.07.013">https://doi.org/10.1016/j.ympev.2010.07.013</ext-link></mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Reijnen</surname><given-names>BT</given-names></name><name name-style="western"><surname>Van der Meiji</surname><given-names>SE</given-names></name><name name-style="western"><surname>Van Ofwege</surname><given-names>LP</given-names></name></person-group> (<year>2011</year>) <article-title>Fish, fans and hydroids: host species of pygmy seahorses.</article-title><source>ZooKeys</source><volume>103</volume>: <fpage>1</fpage>–<lpage>26</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.103.953">https://doi.org/10.3897/zookeys.103.953</ext-link></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Roberts</surname><given-names>CM</given-names></name><name name-style="western"><surname>McClean</surname><given-names>CJ</given-names></name><name name-style="western"><surname>Veron</surname><given-names>JE</given-names></name><name name-style="western"><surname>Hawkins</surname><given-names>JP</given-names></name><name name-style="western"><surname>Allen</surname><given-names>GR</given-names></name><name name-style="western"><surname>McAllister</surname><given-names>DE</given-names></name><name name-style="western"><surname>Mittermeier</surname><given-names>CG</given-names></name><name name-style="western"><surname>Schueler</surname><given-names>FW</given-names></name><name name-style="western"><surname>Spalding</surname><given-names>M</given-names></name><name name-style="western"><surname>Wells</surname><given-names>F</given-names></name><name name-style="western"><surname>Vynne</surname><given-names>C</given-names></name><name name-style="western"><surname>Werner</surname><given-names>TB</given-names></name></person-group> (<year>2002</year>) <article-title>Marine biodiversity hotspots and conservation priorities for tropical reefs.</article-title><source>Science</source><volume>295</volume>(<issue>5558</issue>): <fpage>1280</fpage>–<lpage>1284</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1126/science.1067728">https://doi.org/10.1126/science.1067728</ext-link></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Smith</surname><given-names>RE</given-names></name><name name-style="western"><surname>Grutter</surname><given-names>AS</given-names></name><name name-style="western"><surname>Tibbetts</surname><given-names>IR</given-names></name></person-group> (<year>2012</year>) <article-title>Extreme habitat specialisation and population structure of two gorgonian-associated pygmy seahorses.</article-title><source>Marine Ecology Progress Series</source><volume>444</volume>: <fpage>195</fpage>–<lpage>206</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3354/meps09471">http://dx.doi.org/10.3354/meps09471</ext-link></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Smith</surname><given-names>R</given-names></name></person-group> (<year>2017</year>) Pygmy Seahorse Species. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://oceanrealmimages.com/pygmy-seahorses/species/">http://oceanrealmimages.com/pygmy-seahorses/species/</ext-link></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Shinohara</surname><given-names>G</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>K</given-names></name><name name-style="western"><surname>Furuse</surname><given-names>K</given-names></name><name name-style="western"><surname>Kato</surname><given-names>S</given-names></name><name name-style="western"><surname>Kikuchi</surname><given-names>T</given-names></name></person-group> (<year>2002</year>) <article-title>Fishes of Hachijo-jima Island, Izu Islands Group, Tokyo, Japan.</article-title><source>Memoirs of the National Science Museum</source><volume>38</volume>: <fpage>195</fpage>–<lpage>237</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Matsuura</surname><given-names>K</given-names></name><name name-style="western"><surname>Shinohara</surname><given-names>G</given-names></name></person-group> (<year>2006</year>) <article-title>Checklist of fishes in the Sagami Sea with zoogeographical comments on shallow water fishes occurring along the coastlines under the influence of the Kuroshio Current.</article-title><source>Memoirs of the National Science Museum (Tokyo)</source><volume>41</volume>: <fpage>389</fpage>–<lpage>542</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Kodato</surname><given-names>H</given-names></name><name name-style="western"><surname>Nomura</surname><given-names>T</given-names></name><name name-style="western"><surname>Yunokawa</surname><given-names>K</given-names></name></person-group> (<year>2006</year>) <article-title>Coastal fishes of Ie-jima Island, the Ryukyu Islands, Okinawa, Japan.</article-title><source>Bulletin of the Kanagawa Prefectural Museum (Natural Science)</source><volume>35</volume>: <fpage>67</fpage>–<lpage>92</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Senou</surname><given-names>H</given-names></name><name name-style="western"><surname>Kobayashi</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kobayashi</surname><given-names>N</given-names></name></person-group> (<year>2007</year>) <article-title>Coastal fishes of the Miyako group, the Ryukyu islands, Japan.</article-title><source>Bulletin of the Kanagawa Prefectural Museum (Natural Science)</source><volume>36</volume>: <fpage>47</fpage>–<lpage>74</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Tittensor</surname><given-names>DP</given-names></name><name name-style="western"><surname>Mora</surname><given-names>C</given-names></name><name name-style="western"><surname>Jetz</surname><given-names>W</given-names></name><name name-style="western"><surname>Lotze</surname><given-names>HK</given-names></name><name name-style="western"><surname>Ricard</surname><given-names>D</given-names></name><name name-style="western"><surname>Berghe</surname><given-names>EV</given-names></name><name name-style="western"><surname>Worm</surname><given-names>B</given-names></name></person-group> (<year>2010</year>) Global patterns and predictors of marine biodiversity across taxa. Nature 466(7310): 1098. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1038/nature09329">https://doi.org/10.1038/nature09329</ext-link></mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Whitley</surname><given-names>GP</given-names></name></person-group> (<year>1970</year>) Abstracts of Proceedings. Proceedings of the Linnean Society of New South Wales 94(3) No. 421: 294.</mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Wibowo</surname><given-names>K</given-names></name><name name-style="western"><surname>Motomura</surname><given-names>H</given-names></name></person-group> (<year>2017</year>) <article-title>First confirmed record of the Samoan pipefish <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Halicampus</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">mataafae</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Perciformes</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Syngnathidae</tp:taxon-name-part></tp:taxon-name>) from Japan.</article-title><source>Species Diversity</source><volume>22</volume>(<issue>2</issue>): <fpage>219</fpage>–<lpage>223</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.12782/specdiv.22.219">https://doi.org/10.12782/specdiv.22.219</ext-link></mixed-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary materials</title>
+      <supplementary-material id="S1" position="float" orientation="portrait" xlink:type="simple">
+        <label>Supplementary material 1</label>
+        <caption>
+          <p>Genetic distance analysis (uncorrected p distances) of <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EGTCI">COI</abbrev> sequence data from 21 specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> and those referred to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic></p>
+        </caption>
+        <p>Data type: molecular data</p>
+        <media xlink:href="zookeys-779-027-s001.xls" mimetype="application" mime-subtype="vnd.ms-excel" position="float" orientation="portrait" xlink:type="simple" id="oo_220702.xls"/>
+        <permissions>
+          <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+            <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <attrib specific-use="authors">Graham Short, Richard Smith, Hiroyuki Motomura, David Harasti, Healy Hamilton</attrib>
+      </supplementary-material>
+      <supplementary-material id="S2" position="float" orientation="portrait" xlink:type="simple">
+        <label>Supplementary material 2</label>
+        <caption>
+          <p>NJ tree of <abbrev xlink:title="cytochrome c oxidase subunit I" id="ABBRID0EWUCI">COI</abbrev> sequences from 21 specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pontohi">pontohi</tp:taxon-name-part></tp:taxon-name></italic> and those referred to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippocampus">H.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="severnsi">severnsi</tp:taxon-name-part></tp:taxon-name></italic></p>
+        </caption>
+        <p>Data type: phylogenetic tree</p>
+        <media xlink:href="zookeys-779-027-s002.pdf" mimetype="application" mime-subtype="pdf" position="float" orientation="portrait" xlink:type="simple" id="oo_220703.pdf"/>
+        <permissions>
+          <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+            <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <attrib specific-use="authors">Graham Short, Richard Smith, Hiroyuki Motomura, David Harasti, Healy Hamilton</attrib>
+      </supplementary-material>
+    </sec>
+  </back>
+</article>

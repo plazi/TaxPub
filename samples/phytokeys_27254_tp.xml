@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">PhytoKeys</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">PhytoKeys</journal-title>
+        <abbrev-journal-title xml:lang="en">PhytoKeys</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2011</issn>
+      <issn pub-type="epub">1314-2003</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/phytokeys.108.27254</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="biological_taxon">
+          <subject>Solanaceae</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Brazil</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A new black nightshade (Morelloid clade, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) from the caatinga biome of north-eastern Brazil with a key to Brazilian morelloids</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple" corresp="yes">
+          <name name-style="western">
+            <surname>Knapp</surname>
+            <given-names>Sandra</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <email xlink:type="simple">s.knapp@nhm.ac.uk</email>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple" corresp="no">
+          <name name-style="western">
+            <surname>Särkinen</surname>
+            <given-names>Tiina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Life Sciences, Natural History Museum, Cromwell Road, London SW7 5BD, UK</addr-line>
+        <institution>The Natural History Museum</institution>
+        <addr-line content-type="city">London</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Royal Botanic Garden Edinburgh, 20A Inverleith Row, EH3 5LR Edinburgh, UK</addr-line>
+        <institution>Royal Botanic Garden</institution>
+        <addr-line content-type="city">Edinburgh</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Sandra Knapp (<email xlink:type="simple">s.knapp@nhm.ac.uk</email>)</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: L. Giacomin</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>13</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <issue>108</issue>
+      <fpage>1</fpage>
+      <lpage>12</lpage>
+      <history>
+        <date date-type="received">
+          <day>6</day>
+          <month>6</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Sandra Knapp, Tiina Särkinen</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic><bold>sp. nov.</bold> is described from the arid caatinga biome of north-eastern Brazil. It is known from only a few specimens, but these were found amongst the many sheets of the widespread circumtropical weed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> Mill.; it is possible that more will be found once its distinct nature has been recognised. It differs from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> and all other herbaceous black nightshades known in Brazil, in its combination of glandular pubescence and shiny black fruit with small spreading sepals. The description of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> brings the number of morelloid solanums in Brazil to seven and a key is provided for their identification.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Brazil</kwd>
+        <kwd>dry forests</kwd>
+        <kwd>endemism</kwd>
+        <kwd>identification key</kwd>
+        <kwd>new species</kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>weeds</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <sec sec-type="Citation" id="SECID0EBG">
+        <title>Citation</title>
+        <p>Knapp S, Särkinen T (2018) A new black nightshade (Morelloid clade, <italic>Solanum</italic>, Solanaceae) from the caatinga biome of north-eastern Brazil with a key to Brazilian morelloids. PhytoKeys 108: 1–12. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.108.27254">https://doi.org/10.3897/phytokeys.108.27254</ext-link></p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction" id="SECID0EYG">
+      <title>Introduction</title>
+      <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic> L. is one of the most species-rich vascular plant genera in South America (<xref ref-type="bibr" rid="B20">Jørgensen et al. 2011</xref>; <xref ref-type="bibr" rid="B43">Ulloa Ulloa et al. 2017</xref>) and, within the continent, the tropical Andes represent one of the main centres of species diversity for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic> for both spiny <!--PageBreak-->(<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leptostemonum">Leptostemonum</tp:taxon-name-part></tp:taxon-name> clade, see <xref ref-type="bibr" rid="B41">Stern et al. 2011</xref>) and non-spiny clades (<xref ref-type="bibr" rid="B44">Weese and Bohs 2007</xref>; <xref ref-type="bibr" rid="B32">Särkinen et al. 2013b</xref>). Significant diversity is also found in dry regions such as the Atacama desert (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Regmandra">Regmandra</tp:taxon-name-part></tp:taxon-name> clade, <xref ref-type="bibr" rid="B5">Bennett 2008</xref>) and seasonally dry tropical forests (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cyphomandropsis">Cyphomandropsis</tp:taxon-name-part></tp:taxon-name> clade, <xref ref-type="bibr" rid="B8">Bohs 2001</xref>; Dulcamaroid clade, <xref ref-type="bibr" rid="B24">Knapp 2013</xref>; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geminata">Geminata</tp:taxon-name-part></tp:taxon-name> clade, <xref ref-type="bibr" rid="B21">Knapp 2002a</xref>, <xref ref-type="bibr" rid="B23">2008</xref>; section <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gonatotrichum">Gonatotrichum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="authority">Stern et al., 2013;</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section" reg="Erythrotrichum">Erythrotrichum</tp:taxon-name-part></tp:taxon-name>, <xref ref-type="bibr" rid="B1">Agra 2008</xref>; Elaeagnifolium clade, <xref ref-type="bibr" rid="B26">Knapp et al. 2017</xref>). These dry habitats, however, are less species-rich, but also less well-explored (<xref ref-type="bibr" rid="B39">Sobral and Stehmann 2009</xref>; <xref ref-type="bibr" rid="B40">Sousa-Baena et al. 2014</xref>), than the more humid forests of the Andes and south-eastern Brazil, which have been considered the foci of diversity in the genus (<xref ref-type="bibr" rid="B22">Knapp 2002b</xref>).</p>
+      <p>Within <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic>, the Morelloid clade is a group of ca. 75 species most of which are endemic to the tropical Andes (<xref ref-type="bibr" rid="B9">Bohs 2005</xref>; <xref ref-type="bibr" rid="B35">Särkinen et al. 2015c</xref>). The clade includes five major groups traditionally recognised at the sectional level (sections <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Campanulisolanum">Campanulisolanum</tp:taxon-name-part></tp:taxon-name></italic> Bitter, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parasolanum">Parasolanum</tp:taxon-name-part></tp:taxon-name></italic> A.Child pro parte, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamasarachidium">Chamasarachidium</tp:taxon-name-part></tp:taxon-name></italic> Bitter and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Episarcophyllum">Episarcophyllum</tp:taxon-name-part></tp:taxon-name></italic> Bitter), which are in the process of re-circumscription based on molecular results (<xref ref-type="bibr" rid="B35">Särkinen et al. 2015c</xref>). The black nightshade group (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name> sensu <xref ref-type="bibr" rid="B11">D’Arcy 1972</xref>; see <xref ref-type="bibr" rid="B37">Särkinen et al. 2018</xref>) is the largest of these with ca. 52 species and ca. 580 published names and is the only group to occur outside of the Americas. Black nightshades are distinguished by their herbaceous to sub-shrubby habit, stems that sometimes bear spinescent processes (not true prickles, see <xref ref-type="bibr" rid="B12">Edmonds 1972</xref>; <xref ref-type="bibr" rid="B35">Särkinen et al. 2015c</xref>), inflorescences usually positioned along the internodes, small flowers and fruits and the usual possession of stone cells in the fruits (<xref ref-type="bibr" rid="B6">Bitter 1911</xref>), which appear as small, seed-like structures that are usually white and spherical rather than flattened and brown or yellowish-brown like the seeds. These stone cells are derived from accretions of sclerenchyma in the mesocarp (<xref ref-type="bibr" rid="B6">Bitter 1911</xref>, <xref ref-type="bibr" rid="B7">1914</xref>; <xref ref-type="bibr" rid="B10">Danert 1969</xref>). Although some studies have been undertaken to clarify the taxonomy of the Old World and North American species of the Morelloid group (<xref ref-type="bibr" rid="B13">Edmonds 1977</xref>, <xref ref-type="bibr" rid="B14">1978</xref>; <xref ref-type="bibr" rid="B38">Schilling 1981</xref>; <xref ref-type="bibr" rid="B37">Särkinen et al. 2018</xref>), a monographic study is needed to aid species identification and to clarify synonymy, especially in Andean South America where most of the species diversity is found (<xref ref-type="bibr" rid="B12">Edmonds 1972</xref>; <xref ref-type="bibr" rid="B4">Barboza et al. 2013</xref>) and where the Morelloid clade is amongst the most diverse groups of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic>. The weedy nature of many of the common species of the group means that distinct taxa are often identified as common species and collections are often not made because botanists consider these plants uninteresting weeds (see <xref ref-type="bibr" rid="B31">Särkinen et al. 2013a</xref> for a typical case).</p>
+      <p>Recent taxonomic work, focusing on delivering a global monographic treatment of the Morelloid clade, has resulted in the description of various new species from the tropical Andes (<xref ref-type="bibr" rid="B31">Särkinen et al. 2013a</xref>, <xref ref-type="bibr" rid="B33">2015a</xref>, <xref ref-type="bibr" rid="B34">2015b</xref>; <xref ref-type="bibr" rid="B36">Särkinen and Knapp 2016</xref>). Unlike for many groups of solanums (e.g. <xref ref-type="bibr" rid="B16">Giacomin and Stehmann 2014</xref>; <xref ref-type="bibr" rid="B25">Knapp et al. 2015</xref>; <xref ref-type="bibr" rid="B17">Gouvêa and Stehmann 2016</xref>), Brazil is not a centre of diversity for the Morelloid clade, but in work undertaken revising these species we have encountered specimens from the poorly explored caatingas of north-eastern Brazil that do not correspond to any of the currently recognised species from the region. We describe this taxon here and provide a key to all morelloid species occurring in Brazil and current documentation of our knowledge of specimens of these taxa in Brazil.</p>
+      <!--PageBreak-->
+    </sec>
+    <sec sec-type="materials|methods" id="SECID0EWHAC">
+      <title>Materials and methods</title>
+      <p>The description of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> is based on examination of herbarium specimens from CEPEC, HUEFS, RB and W (acronyms follow Index Herbariorum; <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://sweetgum.nybg.org/science/ih/">http://sweetgum.nybg.org/science/ih/</ext-link>). Specimens of this species may be found identified as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> in other herbaria, but in our extensive work on the morelloid solanums in European, American and Latin American herbaria (see <xref ref-type="bibr" rid="B37">Särkinen et al. 2018</xref>), we have failed to find collections other than those cited here. Specimens (1,241 in total) included in the Suppl. material <xref ref-type="supplementary-material" rid="S1">1</xref> are those morelloids occurring in Brazil for which we have examined material from 68 herbaria worldwide; many of these are not yet georeferenced but will be as we complete the monographic treatment of this group for South America (e.g. see <xref ref-type="bibr" rid="B37">Särkinen et al. 2018</xref>). The specimen data are included here to assist herbarium curators with species identification.</p>
+      <p>Specimens with coordinates were mapped directly and those lacking coordinates were located using Google Earth and gazetteers. The Extent of Occurrence (<abbrev xlink:title="Extent of Occurrence" id="ABBRID0EFJAC">EOO</abbrev>) and Area of Occupancy (<abbrev xlink:title="Area of Occupancy" id="ABBRID0EJJAC">AOO</abbrev>) were calculated using GeoCat (<ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.geocat.kew.org">www.geocat.kew.org</ext-link>) with a 2 km cell width for <abbrev xlink:title="Area of Occupancy" id="ABBRID0ESJAC">AOO</abbrev> calculation. The preliminary conservation status was assessed using the <xref ref-type="bibr" rid="B19">IUCN (2017)</xref> criteria based on the GeoCat analyses (<xref ref-type="bibr" rid="B3">Bachman et al. 2011</xref>) combined with field knowledge. All specimens are cited in the text and full data is provided in the supplemental file and on the NHM Data Portal (<ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.5519/0034287">https://doi.org/10.5519/0034287</ext-link>).</p>
+    </sec>
+    <sec sec-type="Taxonomic treatment" id="SECID0EDKAC">
+      <title>Taxonomic treatment</title>
+      <tp:taxon-treatment>
+        <tp:treatment-meta>
+          <kwd-group>
+            <label>Taxon classification</label>
+            <kwd>
+              <named-content content-type="kingdom" xlink:type="simple">Plantae</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="order" xlink:type="simple">Solanales</named-content>
+            </kwd>
+            <kwd>
+              <named-content content-type="family" xlink:type="simple">Solanaceae</named-content>
+            </kwd>
+          </kwd-group>
+        </tp:treatment-meta>
+        <tp:nomenclature>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part>
+            <object-id content-type="ipni" xlink:type="simple">urn:lsid:ipni.org:names:60476868-2</object-id>
+          </tp:taxon-name>
+          <tp:taxon-authority>S.Knapp &amp; Särkinen</tp:taxon-authority>
+          <tp:taxon-status>sp. nov.</tp:taxon-status>
+          <xref ref-type="fig" rid="F1">Figure 1</xref>
+        </tp:nomenclature>
+        <tp:treatment-sec sec-type="diagnosis" id="SECID0EULAC">
+          <title>Diagnosis.</title>
+          <p>Like <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> Mill., but differing in its glandular pubescence on all vegetative parts, larger flowers with longer anthers, glabrous adaxial calyx lobe surfaces and spreading to appressed calyx lobes in fruit.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EFMAC">
+          <title>Type.</title>
+          <p>Brazil. Bahia: Mun. Maracajú, Lagoa Itaparica 10 km W of São Inacio-Xique-Xique road at the turning 13.1 km N of São Inacio, 300–400 m alt., 26 Feb 1977, <italic>R.M. Harley [with S.J. Mayo, R.M. Storr &amp; T.S. Santos] 19125</italic> (holotype: RB [RB00464327, acc. # 271981]; isotype: CEPEC [acc. # 19367]).</p>
+          <fig id="F1" position="float" orientation="portrait">
+            <label>Figure 1.</label>
+            <caption>
+              <p>Photograph of the holotype of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> (<italic>Harley et al. 19125</italic>, RB). Image courtesy of the Jardim Botânico do Rio de Janeiro (JBRJ).</p>
+            </caption>
+            <graphic xlink:href="phytokeys-108-001-g001.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_223017.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="description" id="SECID0EHNAC">
+          <title>Description.</title>
+          <p>Perennial herb, 0.4–1 m tall, perhaps occasionally annual or only persisting for a few years. Stems terete or slightly angled, lacking spinescent processes; young stems densely to sparsely pubescent with spreading glandular, simple uniseriate trichomes 0.5–1 mm long, the trichomes 4–15 celled, drying translucent; new growth densely glandular pubescent; bark of older stems greenish-brown or pale tan. Sympodial units unifoliate or difoliate, the leaves not geminate. Leaves simple, shallowly toothed, 2.5–10 cm long, 1–4.5 cm wide, ovate to broadly elliptic, widest in the lower half, membranous; adaxial and abaxial surfaces evenly glandular-pubescent with simple uniseriate trichomes to 2 mm long, these denser abaxially and along the veins, densely pubescent with minute glandular papillae on both leaf surfaces especially in young leaves; principal veins 4–6 <!--PageBreak--><!--PageBreak-->pairs, drying paler than the lamina; base truncate and then abruptly attenuate on to the distal part of the petiole; margins shallowly and irregularly toothed, the teeth ca. 0.5 mm long, rounded at the tips and broadly deltate to semi-circular in outline; apex acuminate, the tip blunt; petiole (0.5) 1–2 cm, only winged from the attenuate leaf base in the distal half to third. Inflorescences internodal, 2–3.5 cm long, subumbelliform with most flowers in the distal portion or spaced ca. 0.5 mm apart, unbranched or furcate, with 5–8 flowers, densely and finely glandular-pubescent like the stems and leaves; peduncle 1.8–3 cm long; pedicels 0.7–0.8 cm long at anthesis, ca. 0.5 mm in diameter at the base, ca. 0.7 mm in diameter at the apex, slender and tapering, densely glandular-pubescent with short uniseriate trichomes and glandular papillae, spreading at anthesis, articulated at the base but the articulation point somewhat swollen and a minute stump that is darker in colour left on the rhachis, this especially visible in fruiting material; pedicels scars closely packed in the distal part of the inflorescence to 0.5 mm apart, with the lowermost ca. 1 mm distant from the rest. Buds globose to broadly ellipsoid, the corolla strongly exserted from the calyx tube before anthesis. Flowers 5-merous, all perfect. Calyx tube 1–1.5 mm long, conical to broadly conical, the lobes 1–1.5 mm long, ca. 1 mm wide, deltate and spathulate, densely glandular-pubescent like the pedicels with uniseriate trichomes and papillae, the tips rounded. Corolla 0.6–0.9 cm in diameter, white with a darker (green?) central star, stellate, lobed 2/3–3/4 of the way to the base, the lobes 2.5–3.5 mm long, 1.5–3 mm wide, triangular, reflexed to spreading at anthesis, the abaxial surfaces glabrous to sparsely papillate with a few glandular trichomes ca. 0.2 mm long. Stamens equal; filament tube minute; free portion of the filaments 0.5–1 mm long, glabrous or sparsely pubescent with a few weak tangled simple uniseriate trichomes adaxially at the very base; anthers 1.8–2.2 mm long, 0.7–1 mm wide, ellipsoid, bright yellow, smooth, poricidal at the tips, the pores elongating to slits with age. Ovary conical, glabrous; style 3.5–4 mm long, sparsely glandular pubescent with weak tangled trichomes and papillae in the basal half where included in the anther cone; stigma minutely capitate, densely papillate, not markedly different from the style. Fruit a globose berry, 0.7–1 cm in diameter, green when young, maturing shiny black; the pericarp thin but not translucent when dry (drying black); fruiting pedicels 0.9–1.2 mm long, tapering from a base ca. 1 mm in diameter to an apex 1–1.2 mm in diameter, not distinctly woody, spreading and becoming deflexed at fruit maturity, remaining on inflorescence; fruiting calyx not accrescent, the tube 1–1.5 mm long, the lobes 2–2.5 mm long, spreading and later reflexed, covering the lower ca. 1/4 of the berry, the abaxial surfaces not densely papillate (different to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> where the surfaces are densely papillate). Seeds (30)50–80 per berry, 1–1.5 mm long, 1–1.2 mm wide, tear-drop shaped with a subapical hilum, reddish-gold, the surfaces minutely pitted, the testal cells pentagonal. Stone cells absent. Chromosome number: Not known.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="distribution" id="SECID0E2NAC">
+          <title>Distribution</title>
+          <p>(Figure <xref ref-type="fig" rid="F2">2</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> is endemic to Brazil; widely scattered collections are known from the states of Bahia, Ceará, Paraiba and Goiás.</p>
+          <fig id="F2" position="float" orientation="portrait">
+            <label>Figure 2.</label>
+            <caption>
+              <p>Distribution of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic>. Hatched area indicates the Caatinga Biogeographic Domain (sensu <xref ref-type="bibr" rid="B18">IBGE 2004</xref>).</p>
+            </caption>
+            <graphic xlink:href="phytokeys-108-001-g002.jpg" position="float" orientation="portrait" xlink:type="simple" id="oo_223018.jpg"/>
+          </fig>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="ecology" id="SECID0EMPAC">
+          <title>Ecology and habitat.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> grows in dry formations known as “caatinga” or “savana estépica” (<xref ref-type="bibr" rid="B15">Eiten 1983</xref>; <xref ref-type="bibr" rid="B30">Prado 2003</xref>), between 300 and 400 m elevation. The caatinga (from the Tupi language words “caa” forest and “tinga” white) formation is a xerophytic thorn scrub/forest with marked differences in rainfall between wet and dry seasons. The biome occurs within the Caatinga Biogeographic Domain (<xref ref-type="bibr" rid="B18">IBGE 2004</xref>) in <!--PageBreak-->north-eastern Brazil. The Caatinga Domain is a complex mosaic of many biomes, ranging from the thorn forests of the caatinga proper (see <xref ref-type="bibr" rid="B2">Andrade-Lima 1981</xref>) to gallery forest, to humid forests on higher elevations (“brejos de altitude”) and cerrado savannas (<xref ref-type="bibr" rid="B2">Andrade-Lima 1981</xref>; <xref ref-type="bibr" rid="B27">Lleras 1997</xref>). Like many other morelloid species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> apparently grows in somewhat disturbed and moist areas within the broader more xerophytic habitat and details of its ecological preferences will remain somewhat unclear until more field observations and collections can be made. All specimens seen were in both flower and fruit, so it is likely to flower and fruit all year round or at least when water is available.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="etymology" id="SECID0EDBAE">
+          <title>Etymology.</title>
+          <p>The species epithet is a genitive noun and comes from the caatinga vegetation formation (e.g. <xref ref-type="bibr" rid="B29">Olson et al. 2000</xref>; <xref ref-type="bibr" rid="B18">IBGE 2004</xref>) from where most of the collections of this species are known.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="Preliminary conservation status" id="SECID0ERBAE">
+          <title>Preliminary conservation status</title>
+          <p>(<xref ref-type="bibr" rid="B19">IUCN 2017</xref>). <abbrev xlink:title="Data Deficient" id="ABBRID0E2BAE">DD</abbrev> (Data Deficient; <abbrev xlink:title="Extent of Occurrence" id="ABBRID0E6BAE">EOO</abbrev>=55,971 km<sup>2</sup> [LC]; <abbrev xlink:title="Area of Occupancy" id="ABBRID0EFCAE">AOO</abbrev>=16 km<sup>2</sup> [EN]). The paucity of collections of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> means we cannot assign a preliminary conservation status with any certainty. The widely scattered nature of collections, coupled with the extreme threats to caatinga vegetation, mean that the species is possibly of conservation concern, despite its relatively large <abbrev xlink:title="Extent of Occurrence" id="ABBRID0EWCAE">EOO</abbrev>. More collections may be hiding in the many sheets of the widespread and common <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> held in Brazilian herbaria and we hope that the description of this taxon will stimulate its future discovery both in the field and in herbaria.</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="discussion" id="SECID0EFDAE">
+          <title>Discussion.</title>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> is morphologically most similar to the widespread circumtropical weed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic>. It differs from it most strikingly in its spread<!--PageBreak-->ing glandular pubescence of translucent trichomes (versus appressed eglandular pubescence of white trichomes) and longer anthers (ca. 2 mm long versus ca. 1.5 mm long). Several other glandular pubescent species of herbaceous solanums occur in the dry forests of South America, but these are mostly from the Chaco biome and do not overlap in distribution with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> (see <xref ref-type="bibr" rid="B36">Särkinen and Knapp 2016</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> can, however, be distinguished from these species (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="michaelis">michaelis</tp:taxon-name-part></tp:taxon-name></italic> Särkinen &amp; S.Knapp, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nitidibaccatum">nitidibaccatum</tp:taxon-name-part></tp:taxon-name></italic> Bitter, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="physalifolium">physalifolium</tp:taxon-name-part></tp:taxon-name></italic> Rusby, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sarrachoides">sarrachoides</tp:taxon-name-part></tp:taxon-name></italic> Sendtn., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="tweedianum">tweedianum</tp:taxon-name-part></tp:taxon-name></italic> Hook. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="woodii">woodii</tp:taxon-name-part></tp:taxon-name></italic> Särkinen &amp; S.Knapp) by its calyx that is not accrescent in fruit with the lobes spreading or slightly reflexed and its shiny black berries with no stone cells. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="arenicola">arenicola</tp:taxon-name-part></tp:taxon-name></italic> Särkinen &amp; P.Gonzáles is another glandular pubescent species with which <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> could potentially be confused, but that taxon is Amazonian and occurs along rivers in the tropical rainforest; it has not yet been recorded for Brazil, but we expect it to occur in the western part of the country along the border with Bolivia and Peru. Morphologically, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="arenicola">arenicola</tp:taxon-name-part></tp:taxon-name></italic> differs from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> in its larger flowers (8–12 mm in diameter versus 6–9 mm in diameter in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic>), longer anthers (3–4 x 0.8–0.9 mm versus 1.8–2.2 x 0.7–1 mm), smaller berry (3.5–7 mm versus 7–10 mm in diameter) and presence of stone cells in the berries.</p>
+          <p>Several species of European and African polyploid morelloids (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="nigrum">nigrum</tp:taxon-name-part></tp:taxon-name></italic> L., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="retroflexum">retroflexum</tp:taxon-name-part></tp:taxon-name></italic> Dunal, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="villosum">villosum</tp:taxon-name-part></tp:taxon-name></italic> Mill.) are polymorphic for presence or absence of glandular trichomes and their occurrence does not correlate with relationships based on phenetic studies with molecular markers (<xref ref-type="bibr" rid="B28">Manoko 2007</xref>; see <xref ref-type="bibr" rid="B37">Särkinen et al. 2018</xref> for a discussion). In the Americas, however, glandular pubescence is correlated with other characters such as anther length and stone cell presence or absence, suggesting it can be of taxonomic significance.</p>
+          <p>The type collection <italic>(Harley et al. 19125</italic>) comes from near the edge of the Caatinga Biogeographic Domain as defined by the Instituto Brasileiro de Geografia e Estatística (<xref ref-type="bibr" rid="B18">IBGE 2004</xref>) in a highly heterogeneous mosaic of caatinga and cerrado around a seasonal lake (Lagoa Itaparica) with stands of carnaúba palm (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Copernicia">Copernicia</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="prunifera">prunifera</tp:taxon-name-part></tp:taxon-name></italic> [Mill.] H.Moore, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Arecaceae</tp:taxon-name-part></tp:taxon-name>). The plant itself was found near abandoned houses in a weedy area with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Waltheria">Waltheria</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="rotundifolia">rotundifolia</tp:taxon-name-part></tp:taxon-name></italic> Schrank (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Malvaceae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sida">Sida</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="spinosa">spinosa</tp:taxon-name-part></tp:taxon-name></italic> L. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Malvaceae</tp:taxon-name-part></tp:taxon-name>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calotropis">Calotropis</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="procera">procera</tp:taxon-name-part></tp:taxon-name></italic> (Aiton) W.T.Aiton (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name>) (R. Harley, in litt., 31 May 2018, extract from field diary dated 26 Feb 1977), suggesting that, like many other morelloid species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> grows in disturbed sites with at least some moisture, perhaps accounting for its sparse distribution across its range. A duplicate of Harley’s collection was not found in the herbarium at Kew. The specimen collected by Johann Pohl at “Rio Maranhao” was collected between 1817 and 1821 and is from a small tributary of the Rio Tocantins slightly to the north of the Distrito Federal. This is at the very southern edge of the Caatinga Domain and is one of the priority areas for both conservation and study (<xref ref-type="bibr" rid="B42">Tabarelli and Cardoso da Silva 2003</xref>).</p>
+        </tp:treatment-sec>
+        <tp:treatment-sec sec-type="material" id="SECID0EYMAE">
+          <title>Specimens examined</title>
+          <p><bold>(paratypes)</bold>. <bold>BRAZIL</bold>. Ceará: Mun. Lavras de Mangabeira, area a ca. 12 km a N do Distrito de Felixardo, 299 m, 24 Jul 2014, <italic>A. Costa-Lima et al. 1406</italic> (HUEFS, RB). Goiás: Rio Maranhão, sin.dat., <italic>J.B.E. Pohl 2393</italic> (W). Paraiba: Mun. Carrapateira, Sitio Volta, nos arredores do Açude Volta, 404 m, 24 Sep 2014, <italic>A. Costa-Lima et al. 1862</italic> (HUEFS, RB).</p>
+        </tp:treatment-sec>
+      </tp:taxon-treatment>
+      <sec sec-type="Key to the Brazilian species of black nightshades (Morelloid clade)" id="SECID0EINAE">
+        <title>Key to the Brazilian species of black nightshades (Morelloid clade)</title>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="arenicola">arenicola</tp:taxon-name-part></tp:taxon-name></italic> is included here although it has not yet been recorded for Brazil; the species is known from adjacent Peru and Bolivia in lowland Amazonian rainforest.</p>
+        <table-wrap content-type="key" position="anchor" orientation="portrait">
+          <table id="TID0ECKAC" rules="all">
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">1</td>
+                <td rowspan="1" colspan="1">Plants with simple glandular pubescence on stems and leaves</td>
+                <td rowspan="1" colspan="1">
+                  <bold>2</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Plants with simple eglandular trichomes (without glandular tips) on stems and leaves</td>
+                <td rowspan="1" colspan="1">
+                  <bold>4</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">2</td>
+                <td rowspan="1" colspan="1">Calyx markedly accrescent in fruit, covering more than half of the berry; flower buds completely enclosed within the calyx lobes; rare annuals of coastal habitats in southern Brazil (mostly known from Argentina)</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="sarrachoides">sarrachoides</tp:taxon-name-part></tp:taxon-name></italic> Sendtn.</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Calyx not markedly accrescent in fruit, the lobes spreading and only covering ca. 1/4 of the berry; flower buds strongly exerted from the calyx lobes; perennials (annuals?) of dry areas within the Caatinga Domain in north-eastern Brazil or in moist Amazonian lowland rain forest in western Brazil</td>
+                <td rowspan="1" colspan="1">3</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">3</td>
+                <td rowspan="1" colspan="1">Anthers 1.8–2.2 mm long; calyx lobes deltate-rounded with rounded apices; mature berry shiny black or purplish-black, without stone cells; in dry areas within the Caatinga Domain in north-eastern Brazil</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> S.Knapp &amp; Särkinen</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Anthers 3–4 mm long; calyx lobes long-triangular with acuminate apices; mature berry matte purple-black, with stone cells; in moist Amazonian lowland rain forest probably in western Brazil (not yet recorded)</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="arenicola">arenicola</tp:taxon-name-part></tp:taxon-name></italic> Särkinen &amp; P.Gonzáles</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">4</td>
+                <td rowspan="1" colspan="1">Anthers 0.8–2.5 mm long</td>
+                <td rowspan="1" colspan="1">
+                  <bold>5</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Anthers (2.5-) 3.5–5.5 mm long</td>
+                <td rowspan="1" colspan="1">
+                  <bold>6</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">5</td>
+                <td rowspan="1" colspan="1">Anthers 0.8–1.5 mm long; fruiting pedicels spreading, not recurved or reflexed; calyx lobes in fruit ca. 1 mm long, strongly reflexed; fruits drop off without pedicels and calyx, leaving behind peduncles with pedicels and calyces still attached; berries shiny black, with 0–4 stone cells; widespread weed</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> Mill.</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Anthers 1.5–2.5 mm long; fruiting pedicels recurved; calyx lobes in fruit 1.5–3.0 mm long, appressed to the berry, not reflexed; pedicels drop off with fruit, leaving peduncles behind; berries matte black, with no stone cells; in littoral from Santa Catarina to Ceará, less commonly inland</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="chenopodioides">chenopodioides</tp:taxon-name-part></tp:taxon-name></italic> Lam.</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">6</td>
+                <td rowspan="1" colspan="1">Leaf bases truncate; leaves broadly delate to ovate; inflorescence unbranched (rarely furcate); calyx lobes in fruit ca. 1 mm long; lowlands in southern Brazil, from inland or along Amazonian rivers</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="pilcomayense">pilcomayense</tp:taxon-name-part></tp:taxon-name></italic> Morong</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Leaf bases attenuate, often decurrent on the petiole; leaves lanceolate, elliptic or more rarely ovate; inflorescence branched or less commonly unbranched; calyx lobes in fruit &gt;1 mm long; Amazonian or southern Brazil</td>
+                <td rowspan="1" colspan="1">
+                  <bold>7</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">7</td>
+                <td rowspan="1" colspan="1">Calyx lobes long triangular with acuminate apices; corolla lobes long and narrow; buds more than 2 times longer than wide, narrowly ellipsoid; plants of lowland Amazonia probably occurring in western Brazil (not yet recorded)</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="arenicola">arenicola</tp:taxon-name-part></tp:taxon-name></italic> Särkinen &amp; P.Gonzáles</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Calyx lobes deltate or triangular with acute apices; corolla lobes deltate; buds ca. 2 times longer than wide, ellipsoid; plants of south-eastern Brazil</td>
+                <td rowspan="1" colspan="1">
+                  <bold>8</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">8</td>
+                <td rowspan="1" colspan="1">Anthers (2.5-) 3.5–4.5 mm long; pedicels tightly to loosely spaced, recurving/reflexed in most specimens and fruiting inflorescences appearing secund; calyx lobes in fruit 1.5–2 mm long, appressed to the berry; corolla with a dark purple eye, lobed nearly to the base, the lobes strongly reflexed at anthesis; berries with 2 small stone cells; 0–1,700 (-2,300) m elevation in southern Brazil</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="paucidens">paucidens</tp:taxon-name-part></tp:taxon-name></italic> Bitter</bold>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">–</td>
+                <td rowspan="1" colspan="1">Anthers 4.4–5.5 mm long; pedicels arising closely together yet regularly spaced 1 mm apart, spreading in fruit; calyx lobes in fruit 1.5–2.5 mm long, slightly spreading; corolla with a yellow eye, lobed to 1/2–2/3 to the base, the lobes spreading at anthesis; berries without stone cells; above 2,000 m elevation in coastal mountains of Minas Gerais, Rio de Janeiro and São Paulo</td>
+                <td rowspan="1" colspan="1">
+                  <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="enantiophyllanthum">enantiophyllanthum</tp:taxon-name-part></tp:taxon-name></italic> Bitter</bold>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank the curators of the herbaria cited in the text and in the Supplementary Material file for permission to use specimens in their care, especially Luciano Queiroz for finding duplicates of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">S.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species" reg="caatingae">caatingae</tp:taxon-name-part></tp:taxon-name></italic> at HUEFS; funding for SK’s work in the herbarium in Vienna (W) where this species was first seen was provided by the SYNTHESYS Project <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.synthesys.info/">http://www.synthesys.info/</ext-link> financed by European Community Research Infrastructure Actions under the FP6 and FP7 “Structuring the European Research Area” Programme, her visit to Brazil in 2018 was funded by the Rutherford Fund (Department of Business, Energy and Industrial Strategy (BEIS), UK Government).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Agra</surname><given-names>M</given-names></name></person-group> (<year>2008</year>) <article-title>Four new species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Erythrotrichum</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) from Brazil and Peru, and a key to the species of the section.</article-title><source>Systematic Botany</source><volume>33</volume>(<issue>3</issue>): <fpage>556</fpage>–<lpage>565</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1600/036364408785679897">https://doi.org/10.1600/036364408785679897</ext-link></mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Andrade-Lima</surname><given-names>D</given-names></name></person-group> (<year>1981</year>) <article-title>The caatingas dominium. Revista Brasileira de Botanica.</article-title><source>Brazilian Journal of Botany</source><volume>4</volume>: <fpage>149</fpage>–<lpage>163</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bachman</surname><given-names>S</given-names></name><name name-style="western"><surname>Moat</surname><given-names>J</given-names></name><name name-style="western"><surname>Hill</surname><given-names>A</given-names></name><name name-style="western"><surname>de la Torre</surname><given-names>J</given-names></name><name name-style="western"><surname>Scott</surname><given-names>B</given-names></name></person-group> (<year>2011</year>) <article-title>Supporting Red List threat assessments with GeoCAT: Geospatial conservation assessment tool.</article-title><source>ZooKeys</source><volume>150</volume>: <fpage>117</fpage>–<lpage>126</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/zookeys.150.2109">https://doi.org/10.3897/zookeys.150.2109</ext-link></mixed-citation>
+      </ref>
+      <!--PageBreak-->
+      <ref id="B4">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Barboza</surname><given-names>GE</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name><name name-style="western"><surname>Särkinen</surname><given-names>T</given-names></name></person-group> (<year>2013</year>) <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> Grupo VII. Moreloide.</article-title> In: <person-group><name name-style="western"><surname>Barboza</surname><given-names>GE</given-names></name></person-group> (<role>Ed.</role>) <issue-title>Flora Argentina: Flora Vascular de la República Argentina, Dicotyledoneae, Solanaceae Vol.</issue-title><source>13. Instituto de Botanica Darwinion, San Isidro, Argentina</source>, <fpage>231</fpage>–<lpage>264</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bennett</surname><given-names>JR</given-names></name></person-group> (<year>2008</year>) <article-title>Revision of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Regmandra</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Edinburgh Journal of Botany</source><volume>65</volume>(<issue>01</issue>): <fpage>69</fpage>–<lpage>112</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1017/S0960428608004903">https://doi.org/10.1017/S0960428608004903</ext-link></mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bitter</surname><given-names>G</given-names></name></person-group> (<year>1911</year>) <article-title>Steinzellkonkretionen im Fruchtfleisch beerentragender Solanaceen und deren systematische Bedeutung.</article-title><source>Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie</source><volume>45</volume>: <fpage>483</fpage>–<lpage>507</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bitter</surname><given-names>G</given-names></name></person-group> (<year>1914</year>) <article-title>Weitere Untersuchungen über das Vorkommen von Steinzellkonkretionen in Fruchtfleisch beerentragender Solanaceen.</article-title><source>Abhandlungen Naturwissenschaften Vereine Bremen</source><volume>23</volume>: <fpage>114</fpage>–<lpage>163</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bohs</surname><given-names>L</given-names></name></person-group> (<year>2001</year>) <article-title>Revision of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Cyphomandropsis</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Systematic Botany Monographs</source><volume>61</volume>: <fpage>1</fpage>–<lpage>85</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.2307/25027891">https://doi.org/10.2307/25027891</ext-link></mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bohs</surname><given-names>L</given-names></name></person-group> (<year>2005</year>) <article-title>Major clades in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> based on <italic>ndhF</italic> sequence data.</article-title> In: <person-group><name name-style="western"><surname>Keating</surname><given-names>R</given-names></name><name name-style="western"><surname>Hollowell</surname><given-names>VC</given-names></name><name name-style="western"><surname>Croat</surname><given-names>TB</given-names></name></person-group> (<role>Eds</role>) <issue-title>A festschrift for William G.</issue-title><source>D’Arcy – The legacy of a taxonomist. Missouri Botanical Garden Press, St. Louis</source>, <fpage>27</fpage>–<lpage>49</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Danert</surname><given-names>S</given-names></name></person-group> (<year>1969</year>) <article-title>Über die Entwicklung der Steinzellkonkretionen in der Gattung <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic>.</article-title><source>Die Kulturpflanze</source><volume>17</volume>(<issue>1</issue>): <fpage>299</fpage>–<lpage>311</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1007/BF02097952">https://doi.org/10.1007/BF02097952</ext-link></mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>D’Arcy</surname><given-names>WG</given-names></name></person-group> (<year>1972</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name> studies II: Typification of subdivisions of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic>.</article-title><source>Annals of the Missouri Botanical Garden</source><volume>59</volume>(<issue>2</issue>): <fpage>262</fpage>–<lpage>278</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.2307/2394758">https://doi.org/10.2307/2394758</ext-link></mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Edmonds</surname><given-names>JM</given-names></name></person-group> (<year>1972</year>) <article-title>A synopsis of the taxonomy of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">sect.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Solanum</tp:taxon-name-part></tp:taxon-name> (Maurella) in South America.</article-title><source>Kew Bulletin</source><volume>27</volume>(<issue>1</issue>): <fpage>95</fpage>–<lpage>114</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.2307/4117874">https://doi.org/10.2307/4117874</ext-link></mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Edmonds</surname><given-names>JM</given-names></name></person-group> (<year>1977</year>) <article-title>Taxonomic studies on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Solanum</tp:taxon-name-part></tp:taxon-name> (Maurella).</article-title><source>Botanical Journal of the Linnean Society</source><volume>75</volume>(<issue>2</issue>): <fpage>141</fpage>–<lpage>178</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/j.1095-8339.1977.tb01482.x">https://doi.org/10.1111/j.1095-8339.1977.tb01482.x</ext-link></mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Edmonds</surname><given-names>JM</given-names></name></person-group> (<year>1978</year>) <article-title>Numerical taxonomic studies on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="authority">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Solanum</tp:taxon-name-part></tp:taxon-name> (Maurella).</article-title><source>Botanical Journal of the Linnean Society</source><volume>76</volume>(<issue>1</issue>): <fpage>27</fpage>–<lpage>51</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/j.1095-8339.1978.tb01497.x">https://doi.org/10.1111/j.1095-8339.1978.tb01497.x</ext-link></mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Eiten</surname><given-names>G</given-names></name></person-group> (<year>1983</year>) Classificação da vegetação do Brasil. Editorial CNPq, Brasilia.</mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Giacomin</surname><given-names>LL</given-names></name><name name-style="western"><surname>Stehmann</surname><given-names>JR</given-names></name></person-group> (<year>2014</year>) <article-title>Three new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> (Brevantherum clade) endemic to the Brazilian Atlantic forest.</article-title><source>PhytoKeys</source><volume>38</volume>: <fpage>69</fpage>–<lpage>87</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.38.7055">https://doi.org/10.3897/phytokeys.38.7055</ext-link></mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Gouvêa</surname><given-names>YF</given-names></name><name name-style="western"><surname>Stehmann</surname><given-names>JR</given-names></name></person-group> (<year>2016</year>) <article-title>Two new species of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">asterophorum</tp:taxon-name-part></tp:taxon-name></italic> species group (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subg.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="subgenus">Leptostemonum</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) from the Brazilian Atlantic Forest.</article-title><source>Phytotaxa</source><volume>288</volume>(<issue>2</issue>): <fpage>120</fpage>–<lpage>130</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.11646/phytotaxa.288.2.2">https://doi.org/10.11646/phytotaxa.288.2.2</ext-link></mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation xlink:type="simple"><institution xlink:type="simple">IBGE</institution> (<year>2004</year>) Mapa de Biomas do Brasil. Instituto Brasileiro de Geografia e Estatística, Rio de Janeiro. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.terrabrasilis.org.br/ecotecadigital/images/Mapa%20de%20Biomas%20do%20Brasil%202%20-%20IBGE.pdf">http://www.terrabrasilis.org.br/ecotecadigital/images/Mapa%20de%20Biomas%20do%20Brasil%202%20-%20IBGE.pdf</ext-link></mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation xlink:type="simple"><institution xlink:type="simple">IUCN</institution> (<year>2017</year>) Guidelines for using the IUCN Red List Categories and Criteria. Version 13. Prepared by the Standards and Petitions Subcommittee. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://www.iucnredlist.org/documents/RedListGuidelines.pdf">http://www.iucnredlist.org/documents/RedListGuidelines.pdf</ext-link> [accessed: 1 May 2018]</mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Jørgensen</surname><given-names>PM</given-names></name><name name-style="western"><surname>Ulloa</surname><given-names>Ulloa C</given-names></name><name name-style="western"><surname>León</surname><given-names>B</given-names></name><name name-style="western"><surname>León-Yánez</surname><given-names>S</given-names></name><name name-style="western"><surname>Beck</surname><given-names>SG</given-names></name><name name-style="western"><surname>Nee</surname><given-names>M</given-names></name><name name-style="western"><surname>Zarucchi</surname><given-names>JL</given-names></name><name name-style="western"><surname>Celis</surname><given-names>M</given-names></name><name name-style="western"><surname>Bernal</surname><given-names>R</given-names></name><name name-style="western"><surname>Gradstein</surname><given-names>R</given-names></name></person-group> (<year>2011</year>) <article-title>Regional patterns of vascular plant diversity and endemism.</article-title> In: <person-group><name name-style="western"><surname>Herzog</surname><given-names>SK</given-names></name><name name-style="western"><surname>Martínez</surname><given-names>R</given-names></name><name name-style="western"><surname>Jørgensen</surname><given-names>PM</given-names></name><name name-style="western"><surname>Tiessen</surname><given-names>H</given-names></name></person-group> (<role>Eds</role>) <issue-title>Climate Change and Biodiversity in the Tropical Andes.</issue-title><source>Inter-American Institute for Global Change Research (IAI) and Scientific Committee on Problems of the Environment (SCOPE)</source>, <fpage>192</fpage>–<lpage>203</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2002a</year>) <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Geminata</tp:taxon-name-part></tp:taxon-name> (G. Don) Walpers (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Flora Neotropica</source><volume>84</volume>: <fpage>1</fpage>–<lpage>405</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2002b</year>) Assessing patterns of plant endemism in Neotropical uplands. Botanical Review 68(1): 22–37. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1663/0006-8101(2002)068[0022:APOPEI]2.0.CO;2">https://doi.org/10.1663/0006-8101(2002)068[0022:APOPEI]2.0.CO;2</ext-link></mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2008</year>) <article-title>A revision of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">havanense</tp:taxon-name-part></tp:taxon-name></italic> species group (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Geminata</tp:taxon-name-part></tp:taxon-name> (G. Don) Walp. pro parte) and new taxonomic additions to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Geminata</tp:taxon-name-part></tp:taxon-name> clade (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Annals of the Missouri Botanical Garden</source><volume>95</volume>: <fpage>405</fpage>–<lpage>458</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3417/2006159">https://doi.org/10.3417/2006159</ext-link></mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2013</year>) <article-title>A revision of the Dulcamaroid Clade of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> L. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>PhytoKeys</source><volume>22</volume>(<issue>0</issue>): <fpage>1</fpage>–<lpage>432</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.22.4041">https://doi.org/10.3897/phytokeys.22.4041</ext-link></mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name><name name-style="western"><surname>Giacomin</surname><given-names>LL</given-names></name><name name-style="western"><surname>Stehmann</surname><given-names>JR</given-names></name></person-group> (<year>2015</year>) <article-title>New species, additions and a key to the Brazilian species of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Geminata</tp:taxon-name-part></tp:taxon-name> clade of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> L. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) in Brazil.</article-title><source>PhytoKeys</source><volume>47</volume>: <fpage>1</fpage>–<lpage>48</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.47.9076">https://doi.org/10.3897/phytokeys.47.9076</ext-link></mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name><name name-style="western"><surname>Sagona</surname><given-names>E</given-names></name><name name-style="western"><surname>Carbonell</surname><given-names>AKZ</given-names></name><name name-style="western"><surname>Chiarini</surname><given-names>F</given-names></name></person-group> (<year>2017</year>) <article-title>A revision of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="species">elaeagnifolium</tp:taxon-name-part></tp:taxon-name></italic> clade (Elaeagnifolium clade; subgenus <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus"/><tp:taxon-name-part taxon-name-part-type="subgenus">Leptostemonum</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>PhytoKeys</source><volume>84</volume>: <fpage>1</fpage>–<lpage>104</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.84.12695">https://doi.org/10.3897/phytokeys.84.12695</ext-link></mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lleras</surname><given-names>E</given-names></name></person-group> (<year>1997</year>) <article-title>Interior dry and mesic forest: CPD site SA19. Caatinga of north-eastern Brazil.</article-title> In: <person-group><name name-style="western"><surname>Davis</surname><given-names>SD</given-names></name><name name-style="western"><surname>Heywood</surname><given-names>VH</given-names></name><name name-style="western"><surname>Herrera-MacBryde</surname><given-names>O</given-names></name><name name-style="western"><surname>Villa-Lobos</surname><given-names>J</given-names></name><name name-style="western"><surname>Hamilton</surname><given-names>AC</given-names></name></person-group> (<role>Eds</role>) <issue-title>Centres of plant diversity.</issue-title><source>Volume 3: The Americas. WWF and IUCN, Gland</source>, <fpage>393</fpage>–<lpage>396</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Manoko</surname><given-names>MLK</given-names></name></person-group> (<year>2007</year>) A systematic study of African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="authority">L.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">section</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Solanum</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>). PhD Thesis, Radboud University, Nijmegen, The Netherlands. <ext-link xlink:type="simple" ext-link-type="uri" xlink:href="http://dare.ubn.kun.nl/bitstream/2066/30032/1/30032.pdf">http://dare.ubn.kun.nl/bitstream/2066/30032/1/30032.pdf</ext-link></mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Olson</surname><given-names>D</given-names></name><name name-style="western"><surname>Dinerstein</surname><given-names>E</given-names></name><name name-style="western"><surname>Hedao</surname><given-names>P</given-names></name><name name-style="western"><surname>Walters</surname><given-names>S</given-names></name><name name-style="western"><surname>Allnutt</surname><given-names>T</given-names></name><name name-style="western"><surname>Loucks</surname><given-names>C</given-names></name><name name-style="western"><surname>Kura</surname><given-names>Y</given-names></name><name name-style="western"><surname>Kassem</surname><given-names>K</given-names></name><name name-style="western"><surname>Webster</surname><given-names>A</given-names></name><name name-style="western"><surname>Bookbinder</surname><given-names>M</given-names></name></person-group> (<year>2000</year>) Terrestrial Ecoregions of the Neotropical Realm (map). Conservation Science Program, WWF-US, Washington DC.</mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Prado</surname><given-names>DE</given-names></name></person-group> (<year>2003</year>) <article-title>As caatingas da América do Sul.</article-title> In: <person-group><name name-style="western"><surname>Leal</surname><given-names>IR</given-names></name><name name-style="western"><surname>Tabarelli</surname><given-names>M</given-names></name><name name-style="western"><surname>Cardoso da Silva</surname><given-names>JM</given-names></name></person-group> (<role>Eds</role>) <issue-title>Ecologia e conservação da caatinga.</issue-title><source>Universidade Federal de Pernambuco, Recife</source>, <fpage>3</fpage>–<lpage>74</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>TS</given-names></name><name name-style="western"><surname>Gonzáles</surname><given-names>P</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2013a</year>) <article-title>Distribution models and species discovery: The story of a new <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> species from the Peruvian Andes.</article-title><source>PhytoKeys</source><volume>16</volume>: <fpage>1</fpage>–<lpage>20</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.31.6312">https://doi.org/10.3897/phytokeys.31.6312</ext-link></mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>TS</given-names></name><name name-style="western"><surname>Bohs</surname><given-names>L</given-names></name><name name-style="western"><surname>Olmstead</surname><given-names>RG</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2013b</year>) A phylogenetic framework for evolutionary study of the nightshades (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>): A dated 1000-tip tree. BMC Evolutionary Biology 13(1): 214. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1186/1471-2148-13-214">https://doi.org/10.1186/1471-2148-13-214</ext-link></mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>T</given-names></name><name name-style="western"><surname>Gonzáles</surname><given-names>P</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2015a</year>) <article-title>Four new non-spiny <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) species from South America.</article-title><source>PhytoKeys</source><volume>44</volume>: <fpage>39</fpage>–<lpage>64</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.44.8693">https://doi.org/10.3897/phytokeys.44.8693</ext-link></mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>T</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name><name name-style="western"><surname>Nee</surname><given-names>M</given-names></name></person-group> (<year>2015b</year>) <article-title>Two new non-spiny <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> species from the Bolivian Andes (Morelloid Clade).</article-title><source>PhytoKeys</source><volume>47</volume>: <fpage>97</fpage>–<lpage>109</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.47.4423">https://doi.org/10.3897/phytokeys.47.4423</ext-link></mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>TS</given-names></name><name name-style="western"><surname>Barboza</surname><given-names>GE</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2015c</year>) <article-title>True Black nightshades: Phylogeny and delimitation of the Morelloid clade of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic>.</article-title><source>Taxon</source><volume>64</volume>(<issue>5</issue>): <fpage>945</fpage>–<lpage>958</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.12705/645.5">https://doi.org/10.12705/645.5</ext-link></mixed-citation>
+      </ref>
+      <!--PageBreak-->
+      <ref id="B36">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>T</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2016</year>) <article-title>Two new non-spiny <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) from the Gran Chao Americano and a key for the herbaceous glandular-pubescent solanums from the region.</article-title><source>PhytoKeys</source><volume>74</volume>: <fpage>19</fpage>–<lpage>33</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.3897/phytokeys.74.10159">https://doi.org/10.3897/phytokeys.74.10159</ext-link></mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Särkinen</surname><given-names>T</given-names></name><name name-style="western"><surname>Poczai</surname><given-names>P</given-names></name><name name-style="western"><surname>Barboza</surname><given-names>GE</given-names></name><name name-style="western"><surname>van der Weerden</surname><given-names>GM</given-names></name><name name-style="western"><surname>Baden</surname><given-names>M</given-names></name><name name-style="western"><surname>Knapp</surname><given-names>S</given-names></name></person-group> (<year>2018</year>) A revision of the Old World Black Nightshades (Morelloid clade of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> L., <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>). PhytoKeys.</mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schilling</surname><given-names>EE</given-names></name></person-group> (<year>1981</year>) <article-title>Systematics of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="infraspecific-rank">sect.</tp:taxon-name-part><tp:taxon-name-part taxon-name-part-type="section">Solanum</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) in North America.</article-title><source>Systematic Botany</source><volume>6</volume>(<issue>2</issue>): <fpage>172</fpage>–<lpage>185</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.2307/2418547">https://doi.org/10.2307/2418547</ext-link></mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Sobral</surname><given-names>M</given-names></name><name name-style="western"><surname>Stehmann</surname><given-names>JR</given-names></name></person-group> (<year>2009</year>) <article-title>An analysis of new angiosperm species discoveries in Brazil (1990–2006).</article-title><source>Taxon</source><volume>58</volume>: <fpage>227</fpage>–<lpage>232</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Sousa-Baena</surname><given-names>MS</given-names></name><name name-style="western"><surname>Garcia</surname><given-names>LC</given-names></name><name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name></person-group> (<year>2014</year>) <article-title>Completeness of digital accessible knowledge of the plants of Brazil and priorities for survey and inventory.</article-title><source>Diversity &amp; Distributions</source><volume>20</volume>(<issue>4</issue>): <fpage>369</fpage>–<lpage>381</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1111/ddi.12136">https://doi.org/10.1111/ddi.12136</ext-link></mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Stern</surname><given-names>S</given-names></name><name name-style="western"><surname>Agra</surname><given-names>F</given-names></name><name name-style="western"><surname>Bohs</surname><given-names>L</given-names></name></person-group> (<year>2011</year>) <article-title>Molecular delimitation of clades within New World species of the “spiny solanums” (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> sugb. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Leptostemonum</tp:taxon-name-part></tp:taxon-name></italic>).</article-title><source>Taxon</source><volume>60</volume>: <fpage>1429</fpage>–<lpage>1441</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Tabarelli</surname><given-names>M</given-names></name><name name-style="western"><surname>Cardoso da Silva</surname><given-names>JM</given-names></name></person-group> (<year>2003</year>) <article-title>Áreas e ações prioritárias par a conservação da biodiversidade da caatinga.</article-title> In: <person-group><name name-style="western"><surname>Leal</surname><given-names>IR</given-names></name><name name-style="western"><surname>Tabarelli</surname><given-names>M</given-names></name><name name-style="western"><surname>Cardoso da Silva</surname><given-names>JM</given-names></name></person-group> (<role>Eds</role>) <issue-title>Ecologia e conservação da caatinga.</issue-title><source>Universidade Federal de Pernambuco, Recife</source>, <fpage>777</fpage>–<lpage>196</lpage>.</mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Ulloa Ulloa</surname><given-names>C</given-names></name><name name-style="western"><surname>Acevedo-Rodriguez</surname><given-names>P</given-names></name><name name-style="western"><surname>Beck</surname><given-names>S</given-names></name><name name-style="western"><surname>Belgrano</surname><given-names>MJ</given-names></name><name name-style="western"><surname>Bernal</surname><given-names>R</given-names></name><name name-style="western"><surname>Berry</surname><given-names>PE</given-names></name><name name-style="western"><surname>Brako</surname><given-names>L</given-names></name><name name-style="western"><surname>Celis</surname><given-names>M</given-names></name><name name-style="western"><surname>Davidse</surname><given-names>G</given-names></name><name name-style="western"><surname>Forzza</surname><given-names>RC</given-names></name><name name-style="western"><surname>Gradstein</surname><given-names>SR</given-names></name><name name-style="western"><surname>Hokche</surname><given-names>O</given-names></name><name name-style="western"><surname>León</surname><given-names>B</given-names></name><name name-style="western"><surname>León-Yanez</surname><given-names>S</given-names></name><name name-style="western"><surname>Magill</surname><given-names>RE</given-names></name><name name-style="western"><surname>Neill</surname><given-names>DA</given-names></name><name name-style="western"><surname>Nee</surname><given-names>M</given-names></name><name name-style="western"><surname>Raven</surname><given-names>PH</given-names></name><name name-style="western"><surname>Stimmel</surname><given-names>H</given-names></name><name name-style="western"><surname>Strong</surname><given-names>MT</given-names></name><name name-style="western"><surname>Villaseñor</surname><given-names>JL</given-names></name><name name-style="western"><surname>Zarucchi</surname><given-names>JL</given-names></name><name name-style="western"><surname>Zuloaga</surname><given-names>FO</given-names></name><name name-style="western"><surname>Jørgensen</surname><given-names>PM</given-names></name></person-group> (<year>2017</year>) <article-title>An integrated assessment of the vascular plant species of the Americas.</article-title><source>Science</source><volume>358</volume>: <fpage>1614</fpage>–<lpage>1617</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1126/science.aao0398">https://doi.org/10.1126/science.aao0398</ext-link></mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Weese</surname><given-names>TL</given-names></name><name name-style="western"><surname>Bohs</surname><given-names>L</given-names></name></person-group> (<year>2007</year>) <article-title>A three-gene phylogeny of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Solanum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>).</article-title><source>Systematic Botany</source><volume>32</volume>(<issue>2</issue>): <fpage>445</fpage>–<lpage>463</lpage>. <ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.1600/036364407781179671">https://doi.org/10.1600/036364407781179671</ext-link></mixed-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary materials</title>
+      <supplementary-material id="S1" position="float" orientation="portrait" xlink:type="simple">
+        <label>Supplementary material 1</label>
+        <caption>
+          <p>Specimen data for species of the Morelloid Clade occurring in Brazil</p>
+        </caption>
+        <p>Data type: occurrence</p>
+        <p>Explanation note: CSV file of specimen and locality data for morelloid species (black nightshades) occurring in Brazil. These data are also deposited as a dataset on the Natural History Museum Data Portal (<ext-link xlink:type="simple" ext-link-type="doi" xlink:href="10.5519/0034287">https://doi.org/10.5519/0034287)</ext-link>.</p>
+        <media xlink:href="phytokeys-108-001-s001.csv" mimetype="text" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple" id="oo_223019.CSV"/>
+        <permissions>
+          <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+            <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+          </license>
+        </permissions>
+        <attrib specific-use="authors">Sandra Knapp, Tiina Särkinen</attrib>
+      </supplementary-material>
+    </sec>
+  </back>
+</article>
