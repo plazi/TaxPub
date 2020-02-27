@@ -11,5 +11,4 @@ Usage:
 
 Download release, point instance to file tax-treatment-NS0-v1.dtd using Formal Public Identifier:
 
-"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v0.5 20110606//EN"
-
+`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20180101//EN` 
