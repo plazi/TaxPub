@@ -9,7 +9,7 @@ See [the wiki](https://github.com/plazi/TaxPub/wiki) at this repository for more
 
 Usage:
 
-Download release, point instance to file tax-treatment-NS0.dtd using Formal Public Identifier:
+Download release, point instance to file tax-treatment-NS0-v1.dtd using Formal Public Identifier:
 
 "-//TaxPub//DTD Taxonomic Treatment Publishing DTD v0.5 20110606//EN"
 
