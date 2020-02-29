@@ -44,10 +44,11 @@
           </tp:material-citation></p>
 ```
 
-* instructions on how to use DTD
-* Link to samples
-* Status and roadmap
-  * levels 1,2,3
-  * update to JATS 1.2/esp semantic elements
-  * vocabulary of treatment-sec types
-  * examples of usage
+* DTD Documentation
+  * tp:taxon-treatment http://taxpub.catapanoth.com/v1-pre/documentation/#p=elem-tp-taxon-treatment
+  ```
+    ( tp:treatment-meta?, tp:nomenclature, ( tp:treatment-sec | tp:taxon-treatment )*, ref-list? )
+  ```
+* Status
+  * Version 1.0 Release Candidate 2
+  * Based on JATS Publishing v1.1
