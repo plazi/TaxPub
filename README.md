@@ -1,8 +1,8 @@
 
-TaxPub Extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.1 (Z39.96-2015)
+TaxPub Extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.2 (ANSI/NISO Z39.96-2019)
 =======
 
-TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.1 for encoding of articles containing taxonomic treatments.
+TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.2 for encoding of articles containing taxonomic treatments.
 
 See [the wiki](https://github.com/plazi/TaxPub/wiki) at this repository for more information
 
