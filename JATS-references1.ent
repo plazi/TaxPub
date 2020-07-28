@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Bibliographic Reference (Citation) Class Elements -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
  
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.2 20190208//EN"
 Delivered as file "JATS-references1.ent"                           -->
 <!-- ============================================================= -->
 
@@ -98,6 +98,121 @@ Delivered as file "JATS-references1.ent"                           -->
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 30. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 29. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 28. PUB-ID-TYPE - @pub-id-type changed back to a fixed list from 
+     CDATA, reversing the decision of Version 1.2d1. Although 
+     the value list is unchanged, best practice will be documented
+     as using @pub-id-type for type and @assigning-authority
+     for the responsible agency.
+         - <pub-id>
+
+ 27. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 26. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 25. INLINE-GRAPHIC and PRIVATE-CHAR - both <inline-graphic> and
+     <private-char> added to elements allowed in:
+      - <data-title>
+      - <std>
+ 
+ 24. PUB-ID-TYPE - @pub-id-type changed from a fixed list to
+     CDATA for all usages of the attribute.
+
+ 23. SOURCE/CHAPTER TITLE/PART TITLE - Added the following elements
+     to <source>, <chapter-title>, and <part-title> to more
+     closely mirror the model of <article-title>:
+        - abbrev class
+             abbrev
+        - inline-display class
+             alternatives | inline-graphic | private-char
+        - inline-math class 
+             chem-struct | inline-formula
+        - math class
+             tex-math | mml:math
+        - simple link class
+             fn | target | xref 
+     
+ 22. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -148,7 +263,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      and as a link.
    - Added new attribute @assigning-authority to <pub-id>, to
      carry new values such as "CrossRef" and to take some of the
-     semantic burden off the @pub-id-type attribute, when
+     semantic burden off the '@pub-id-type' attribute, when
      values are organizations such as "Genbank" or "PDB".
  
  18. VERSION FOR DATASETS - Added new element <version>
@@ -321,7 +436,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -339,8 +454,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         data characters inside the content model of
                         a <source> or <trans-source>.              -->
 <!ENTITY % source-elements
-                        "| %address-link.class; |%emphasis.class; |
-                         %phrase-content.class; | %subsup.class;"    >
+                        "| %abbrev.class; |
+                         %address-link.class; |%emphasis.class; |
+                         %inline-display.class; |
+                         %inline-math.class; | %math.class; |
+                         %phrase-content.class; | 
+                         %simple-link.class; | %subsup.class;"       >
 
 
 <!-- ============================================================= -->
@@ -643,9 +762,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         distinction is made between lists of cited
                         references and lists of suggested references.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=ref-list
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=ref-list
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=ref-list
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=ref-list
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=ref-list
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=ref-list
                                                                    -->
 <!ELEMENT  ref-list     %ref-list-model;                             >
 <!ATTLIST  ref-list
@@ -664,9 +783,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         some journals may place notes in this list as
                         well as citations.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=ref
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=ref
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=ref
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=ref
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=ref
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=ref
                                                                    -->
 <!ELEMENT  ref          %ref-model;                                  >
 <!ATTLIST  ref
@@ -693,8 +812,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         such a note is placed within a reference
                         list.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=note
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=note
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=note
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=note
                                                                    -->
 <!ELEMENT  note         %note-model;                                 >
 <!ATTLIST  note
@@ -723,9 +842,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         since a day before or a day later the
                         relevant material might be different.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=access-date
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=access-date
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=access-date
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=access-date
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=access-date
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=access-date
                                                                    -->
 <!ELEMENT  access-date  (#PCDATA %access-date-elements;)*            >
 <!ATTLIST  access-date
@@ -746,9 +865,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         quality of the reference or summarize its
                         findings.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=annotation
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=annotation
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=annotation
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=annotation
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=annotation
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=annotation
                                                                    -->
 <!ELEMENT  annotation   %annotation-model;                           >
 <!ATTLIST  annotation
@@ -770,9 +889,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         title of a chapter within that book is tagged
                         as <chapter-title>.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=chapter-title
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=chapter-title
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=chapter-title
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=chapter-title
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=chapter-title
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=chapter-title
                                                                    -->
 <!ELEMENT  chapter-title
                         (#PCDATA %chapter-title-elements;)*          >
@@ -800,9 +919,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                           <comment>[Abstract]</comment>
                           <comment> translated from Russian</comment>
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=comment
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=comment
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=comment
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=comment
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=comment
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=comment
                                                                    -->
 <!ELEMENT  comment      (#PCDATA %comment-elements;)*                >
 <!ATTLIST  comment
@@ -814,8 +933,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         data characters inside the content model of
                         a <data-title>.                            -->
 <!ENTITY % data-title-elements
-                        "| %address-link.class; |%emphasis.class; |
-                         %phrase-content.class; | %subsup.class;"    >
+                        "| %address-link.class; |      
+                           %inline-display-noalt.class; | 
+                           %emphasis.class; | 
+                           %phrase-content.class; | %subsup.class;"  >
 
 
 <!--                    DATA TITLE IN A CITATION                   -->
@@ -829,9 +950,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         the place of both <article-title> and <source>
                         when citing data.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=data-title
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=data-title
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=data-title
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=data-title
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=data-title
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=data-title
                                                                    -->
 <!ELEMENT  data-title
                         (#PCDATA %data-title-elements;)*             >
@@ -858,9 +979,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         cited work, the attribute might be
                         "access-date".
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=date-in-citation
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=date-in-citation
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=date-in-citation
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=date-in-citation
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=date-in-citation
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=date-in-citation
                                                                    -->
 <!ELEMENT  date-in-citation
                         (#PCDATA %date-in-citation-elements;)*       >
@@ -890,9 +1011,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         to record the alphabetic or numerical 
                         edition number.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=edition
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=edition
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=edition
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=edition
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=edition
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=edition
                                                                    -->
 <!ELEMENT  edition      (#PCDATA %edition-elements;)*                >
 <!ATTLIST  edition
@@ -915,9 +1036,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         a cited governmental report or other
                         government publication
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=gov
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=gov
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=gov
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=gov
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=gov
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=gov
                                                                    -->
 <!ELEMENT  gov          (#PCDATA %gov-elements;)*                    >
 <!ATTLIST  gov
@@ -941,9 +1062,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         record the title of the cited Part.
                         The book is tagged as <source>.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=part-title
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=part-title
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=part-title
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=part-title
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=part-title
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=part-title
                                                                    -->
 <!ELEMENT  part-title   (#PCDATA %part-title-elements;)*             >
 <!ATTLIST  part-title
@@ -966,9 +1087,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         patent number or number and name) for a
                         cited patent
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=patent
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=patent
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=patent
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=patent
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=patent
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=patent
                                                                    -->
 <!ELEMENT  patent       (#PCDATA %patent-elements;)*                 >
 <!ATTLIST  patent
@@ -995,9 +1116,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         editors, translators, etc. named in a cited
                         reference.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=person-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=person-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=person-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=person-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=person-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=person-group
                                                                    -->
 <!ELEMENT  person-group %person-group-model;                         >
 <!ATTLIST  person-group
@@ -1013,9 +1134,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         bibliographic reference list <ref-list> of
                         an article.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=pub-id
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=pub-id
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=pub-id
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=pub-id
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=pub-id
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=pub-id
                                                                    -->
 <!ELEMENT  pub-id       (#PCDATA)                                    >
 <!ATTLIST  pub-id
@@ -1041,9 +1162,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         spans multiple volumes, this element could
                         contain the unique title of the entire series:
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=series
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=series
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=series
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=series
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=series
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=series
                                                                    -->
 <!ELEMENT  series       (#PCDATA %series-elements;)*                 >
 <!ATTLIST  series
@@ -1057,8 +1178,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Design Note: -%rendition-plus; begins with
                         an OR bar, so this inline mix begins with
                         an OR bar.                                 -->
-<!ENTITY % std-elements "| %emphasis.class; | %phrase-content.class; |
-                         %std.class; | %subsup.class;"               >
+<!ENTITY % std-elements "| %emphasis.class; | 
+                           %inline-display-noalt.class; |
+                           %phrase-content.class; | %std.class; | 
+                           %subsup.class;"                           >
 
 
 <!--                    STANDARD, CITED                            -->
@@ -1077,9 +1200,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                           <named-content> takes anything else a 
                             publisher/archive needs.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=std
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=std
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=std
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=std
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=std
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=std
                                                                    -->
 <!ELEMENT  std          (#PCDATA %std-elements;)*                    >
 <!ATTLIST  std
@@ -1101,9 +1224,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         NISO, ISO, ANSI, or industry standards
                         organizations.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=std-organization
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=std-organization
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=std-organization
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=std-organization
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=std-organization
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=std-organization
                                                                    -->
 <!ELEMENT  std-organization
                         (#PCDATA %std-organization-elements;)*       >
@@ -1116,9 +1239,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         journal, book, conference proceedings, etc.
                         that is the source of the cited material.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=source
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=source
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=source
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=source
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=source
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=source
                                                                    -->
 <!ELEMENT  source       (#PCDATA %source-elements;)*                 >
 <!ATTLIST  source
@@ -1140,9 +1263,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         that may use a time signature to identify
                         different versions.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=time-stamp
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=time-stamp
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=time-stamp
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=time-stamp
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=time-stamp
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=time-stamp
                                                                    -->
 <!ELEMENT  time-stamp   (#PCDATA %time-stamp-elements;)*             >
 <!ATTLIST  time-stamp
@@ -1160,9 +1283,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         would be the French name and the
                         <trans-source> might be in English.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=trans-source
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=trans-source
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=trans-source
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=trans-source
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=trans-source
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=trans-source
                                                                    -->
 <!ELEMENT  trans-source (#PCDATA %source-elements;)*                 >
 <!ATTLIST  trans-source
@@ -1193,9 +1316,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         more than just a number, so the numeric version
                         can be preserved for search and comparison.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=version
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=version
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=version
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=version
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=version
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=version
                                                                    -->
 <!ELEMENT  version      (#PCDATA %version-elements;)*                >
 <!ATTLIST  version

@@ -2,7 +2,7 @@
 <!-- IEEE NISO JATS MODS                    Name Collisions 03/02/2012
 
 The following changes have been made (with the permission of the
-W3C MathML Committee, to this DTD):
+W3C MathML Committee), to this DTD:
 
 1) %product.class; is defined below and also defined in 
 JATS-default-classes.ent. Renamed class in the MathML DTD
@@ -299,7 +299,7 @@ errors in the Mulberry Tag LIbrary software.
 
 <!ENTITY % CommonAtt "
 %MATHML.NamespaceDecl.attrib;
-   %XLINK.prefix;:href   CDATA #IMPLIED	
+  %XLINK.prefix;:href   CDATA #IMPLIED	
   %XLINK.prefix;:type   CDATA #IMPLIED
   xml:lang   CDATA #IMPLIED
   xml:space   (default|preserve) #IMPLIED

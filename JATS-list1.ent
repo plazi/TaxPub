@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    List Element Classes                              -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.2 20190208//EN"
      Delivered as file "JATS-list1.ent"                            -->
 <!-- ============================================================= -->
 
@@ -101,6 +101,105 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 19. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 18. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 17. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 16. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+   
+ 15. TERM ATTRIBUTES - Added to <term> the following attributes:
+     - @term-type
+     - @term-status
+     - the four vocabulary attributes described below
+   
+ 14. VOCABULARY/TAXONOMY ATTRIBUTES - Added 4 new attributes for
+     naming (and possibly linking to) a general or controlled
+     taxonomy, vocabulary, index, database or other source of
+     terms: @vocab, @vocab-identifier, @vocab-term, and
+     @vocab-term-identifier
+      - All 4 added to <term>, to name a vocabulary 
+        as the source of the term being identified
+ 
+ 13. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -242,7 +341,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -318,6 +417,15 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!ENTITY % term-atts
             "%jats-common-atts;                                       
              rid        IDREFS                            #IMPLIED
+             term-status
+                        CDATA                             #IMPLIED
+             term-type  CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
@@ -343,9 +451,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    DEFINITION LIST                            -->
 <!--                    Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=def-list
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=def-list
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=def-list
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=def-list
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=def-list
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=def-list
                                                                    -->
 <!ELEMENT  def-list     %def-list-model;                             >
 <!ATTLIST  def-list
@@ -378,9 +486,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Title over the first (term) column of a
                         two-part list
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=term-head
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=term-head
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=term-head
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=term-head
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=term-head
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=term-head
                                                                    -->
 <!ELEMENT  term-head    (#PCDATA %term-head-elements;)*              >
 <!ATTLIST  term-head
@@ -391,9 +499,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Title over the second (definition) column
                         of a two-part list
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=def-head
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=def-head
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=def-head
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=def-head
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=def-head
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=def-head
                                                                    -->
 <!ELEMENT  def-head     (#PCDATA %def-head-elements;)*               >
 <!ATTLIST  def-head
@@ -411,9 +519,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         definition or two-part list
                         of a two-part list
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=def-item
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=def-item
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=def-item
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=def-item
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=def-item
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=def-item
                                                                    -->
 <!ELEMENT  def-item     %def-item-model;                             >
 <!ATTLIST  def-item
@@ -442,9 +550,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         list and is the subject of the definition or
                         description.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=term
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=term
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=term
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=term
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=term
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=term
                                                                    -->
 <!ELEMENT  term         (#PCDATA %term-elements;)*                   >
 <!ATTLIST  term
@@ -463,9 +571,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    LIST                                       -->
 <!--                    Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=list
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=list
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=list
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=list
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=list
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=list
                                                                    -->
 <!ELEMENT  list         %list-model;                                 >
 <!ATTLIST  list
@@ -482,9 +590,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    LIST ITEM                                  -->
 <!--                    One item in a list
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=list-item
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=list-item
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=list-item
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=list-item
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=list-item
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=list-item
                                                                    -->
 <!ELEMENT  list-item    %list-item-model;                            >
 <!ATTLIST  list-item

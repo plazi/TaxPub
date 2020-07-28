@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Back Matter Elements                              -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.2 20190208//EN"
      Delivered as file "JATS-backmatter1.ent"                      -->
 <!-- ============================================================= -->
 
@@ -100,6 +100,92 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 16. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 15. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 14. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 13. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 12. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -224,7 +310,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -233,7 +319,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
            http://jats.nlm.nih.gov/1.1/                            -->
 
 <!-- ============================================================= -->
-<!--                    BACKMATTER ELEMENTS                        -->
+<!--                    BACK MATTER ELEMENTS                       -->
 <!-- ============================================================= -->
 
 
@@ -313,9 +399,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    A container element to hold one or more
                         Appendices.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=app-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=app-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=app-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=app-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=app-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=app-group
                                                                    -->
 <!ELEMENT  app-group    %app-group-model;                            >
 <!ATTLIST  app-group
@@ -329,9 +415,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    APPENDIX                                   -->
 <!--                    Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=app
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=app
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=app
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=app
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=app
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=app
                                                                    -->
 <!ELEMENT  app          %app-model;                                  >
 <!ATTLIST  app
@@ -356,9 +442,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         end of structural units.  This element is a
                         wrapper tag for such groups of footnotes.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fn-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fn-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=fn-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fn-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fn-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=fn-group
                                                                    -->
 <!ELEMENT  fn-group     %fn-group-model;                             >
 <!ATTLIST  fn-group
@@ -381,9 +467,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Glossary or list of definitions.  Typically
                         the content will be one or more <def-list>s.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=glossary
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=glossary
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=glossary
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=glossary
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=glossary
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=glossary
                                                                    -->
 <!ELEMENT  glossary     %glossary-model;                             >
 <!ATTLIST  glossary

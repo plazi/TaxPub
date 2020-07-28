@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Funding Elements                                  -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.2 20190208//EN"
      Delivered as file "JATS-funding1.ent"                         -->
 <!-- ============================================================= -->
 
@@ -88,6 +88,125 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 21. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 20. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 19. NON-MONETARY SUPPORT - Previous support descriptions in JATS
+     used the <funding-group> element, which could only be used to
+     describe monetary support for the research described in the
+     article.
+       Added new element <contributed-resource-group> to hold 
+     descriptions of non-monetary support (such as data, facilities, 
+     or any in-kind support) for the research described in the
+     article.
+     
+     This changed the JATS models in several ways:
+      - Inside <article-meta>, added a new element <support-group>
+        to hold both <funding-group> and <contributed-resource-group>.
+        For backwards compatibility, <support-group> is a 
+        peer to <funding-group> inside <article-meta>, and (as the 
+        path going forward) <support-group> also contains 
+        <funding-group> as a child.
+      - New elements inside <contributed-resource-group> (as its 
+        children or descendants) include:
+          - support-description
+          - resource-group
+          - resource-name
+          - resource-wrap
+          - resource-id
+      - Inside <award-group>, added a new element <support-source>
+        to describe the source of a non-monetary award. The
+        element <support-source> is as an alternative to 
+        <funding-source> (which describes the source of a monetary
+        award).  
+         
+ 18. AWARD ID ATTRIBUTES - Made the award-id attributes match 
+     Green and BITS, adding @award-type and the might link
+     attributes.
+ 
+ 17. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 16. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 15. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -239,7 +358,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -270,6 +389,21 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!ENTITY % award-id-atts
             "%jats-common-atts;                                       
              rid        IDREFS                            #IMPLIED
+             award-type
+                        CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED
+             %might-link-atts;"                                      >
+
+
+<!--                    CONTRIBUTED RESOURCE GROUP ATTRIBUTES      -->
+<!--                    Attributes for the 
+                        <contributed-resource-group> element       -->
+<!ENTITY % contributed-resource-group-atts
+            "%jats-common-atts;
+             resource-type
+                        CDATA                             #IMPLIED                                       
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
@@ -340,6 +474,87 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
              xml:lang   NMTOKEN                           #IMPLIED"  >
 
 
+<!--                    RESOURCE GROUP ATTRIBUTES                  -->
+<!--                    Attributes for the <resource-group>
+                        element                                    -->
+<!ENTITY % resource-group-atts
+            "%jats-common-atts;                                       
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+
+<!--                    RESOURCE WRAPPER ATTRIBUTES                -->
+<!--                    Attributes for the <institution-wrap>
+                        element                                    -->
+<!ENTITY % resource-wrap-atts
+            "%jats-common-atts;"                                     >                                        
+
+
+<!--                    RESOURCE IDENTIFIER ATTRIBUTES             -->
+<!--                    Attribute list for <resource-id>           -->
+<!ENTITY % resource-id-atts
+            "%jats-common-atts;                                        
+             resource-id-type
+                        CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             content-type
+                        CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    RESOURCE NAME ATTRIBUTES                   -->
+<!--                    Attribute list for <resource-name>         -->
+<!ENTITY % resource-name-atts
+            "%jats-common-atts;
+             content-type
+                        CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED
+             %might-link-atts;"                                      >
+
+
+<!--                    SUPPORT DESCRIPTION ATTRIBUTES             -->
+<!--                    Attributes for the <support-description>
+                        element                                    -->
+<!ENTITY % support-description-atts
+            "%jats-common-atts;                                       
+             rid        IDREFS                            #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    SUPPORT GROUP ATTRIBUTES                   -->
+<!--                    Attributes for the <support-group>
+                        element                                    -->
+<!ENTITY % support-group-atts
+            "%jats-common-atts;                                       
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    SUPPORT SOURCE ATTRIBUTES                  -->
+<!--                    Attributes for the <support-source> element-->
+<!ENTITY % support-source-atts
+            "%jats-common-atts;                                       
+             rid        IDREFS                            #IMPLIED
+             support-type
+                        CDATA                             #IMPLIED
+             country    CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED
+             %might-link-atts;"                                      >
+
+
 <!-- ============================================================= -->
 <!--                    FUNDING ELEMENTS                           -->
 <!-- ============================================================= -->
@@ -362,9 +577,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         funding was used or who paid the open access
                         charges.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=funding-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=funding-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=funding-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=funding-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=funding-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=funding-group
                                                                    -->
 <!ELEMENT  funding-group
                         %funding-group-model;                        >
@@ -373,7 +588,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 
 <!--                    FUNDING STATEMENT ELEMENTS                 -->
-<!--                    Model for the <funding-statement> element  -->
+<!--                    Elements that may be mixed with text inside  
+                        the <funding-statement> element            -->
 <!ENTITY % funding-statement-elements
                         "| %address-link.class; | %emphasis.class; |
                          %phrase-content.class; |
@@ -389,9 +605,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         mention (and therefore repeat) the funding
                         source, PI, or other funding information.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=funding-statement
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=funding-statement
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=funding-statement
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=funding-statement
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=funding-statement
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=funding-statement
                                                                    -->
 <!ELEMENT  funding-statement
                         (#PCDATA %funding-statement-elements;)*      >
@@ -412,13 +628,185 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         of charging was used or who paid the open
                         access charges for a journal article.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=open-access
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=open-access
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=open-access
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=open-access
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=open-access
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=open-access
                                                                    -->
 <!ELEMENT  open-access  %open-access-model;                          >
 <!ATTLIST  open-access
              %open-access-atts;                                      >
+
+
+<!-- ============================================================= -->
+<!--                    NON-MONETARY SUPPORT ELEMENTS              -->
+<!-- ============================================================= -->
+
+
+<!--                    SUPPORT GROUP MODEL                        -->
+<!--                    Model for the <support-group> element      -->
+<!ENTITY % support-group-model
+                        "(funding-group*, 
+                          contributed-resource-group*)"              >
+
+
+<!--                    SUPPORT GROUP                              -->
+<!--                    Container element for information concerning
+                        both funding and non-monetary support for the 
+                        research reported in the work (typically an 
+                        article). This includes both monetary awards,
+                        grants,investigators, etc. but also facilities
+                        computer resources, data acquisition or 
+                        donation, and other non-monetary support 
+                        (including in-kind support).
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=support-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=support-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=support-group
+                                                                   -->
+<!ELEMENT  support-group
+                        %support-group-model;                        >
+<!ATTLIST  support-group
+             %support-group-atts;                                    >
+
+
+<!--                    CONTRIBUTED RESOURCE GROUP MODEL           -->
+<!--                    Model for the <contributed-resource-group> 
+                        element                                    -->
+<!ENTITY % contributed-resource-group-model
+                        "(award-group*, support-description*, 
+                          resource-group*)"                          >
+
+
+<!--                    CONTRIBUTED RESOURCE GROUP                 -->
+<!--                    Container element for information concerning
+                        non-financial support for the research 
+                        reported in the work (typically an article). 
+                        This may include awards and investigators, 
+                        but also facilities, computer resources, data 
+                        acquisition or donation, and other 
+                        non-monetary support (including in-kind 
+                        support).
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=contributed-resource-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=contributed-resource-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=contributed-resource-group
+                                                                   -->
+<!ELEMENT  contributed-resource-group
+                        %contributed-resource-group-model;           >
+<!ATTLIST  contributed-resource-group
+             %contributed-resource-group-atts;                       >
+
+
+<!--                    SUPPORT DESCRIPTION ELEMENTS               -->
+<!--                    Model for the <support-description> element-->
+<!ENTITY % support-description-model
+                        "(p+)"                                       >
+
+
+<!--                    SUPPORT DESCRIPTION                        -->
+<!--                    A displayable prose statement that describes
+                        the non-financial support given for the 
+                        research on which a work was based. 
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=support-description
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=support-description
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=support-description
+                                                                   -->
+<!ELEMENT  support-description
+                        (%support-description-model;)                >
+<!ATTLIST  support-description
+             %support-description-atts;                              >
+
+
+<!--                    RESOURCE GROUP MODEL                       -->
+<!--                    Model for the <resource-group> element     -->
+<!ENTITY % resource-group-model
+                        "((resource-name | resource-wrap)+)"         >
+
+
+<!--                    RESOURCE GROUP                             -->
+<!--                    Container element to hold the descriptions of
+                        specific resources supplied in the 
+                        non-financial support of the work described 
+                        in this article.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=resource-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=resource-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=resource-group
+                                                                   -->
+<!ELEMENT  resource-group
+                        %resource-group-model;                       >
+<!ATTLIST  resource-group
+             %resource-group-atts;                                   >
+
+
+<!--                    RESOURCE WRAP MODEL                        -->
+<!--                    Model for the <resource-wrap> element      -->
+<!ENTITY % resource-wrap-model
+                        "(resource-name, resource-id*)"              >
+
+
+<!--                    RESOURCE WRAP                              -->
+<!--                    A wrapper element to hold together the name 
+                        of an resource (<resource-name>) and one or 
+                        more external identifiers for that resource 
+                        (<resource-id>, for example a Research 
+                        Resource Identifier).
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=resource-wrap
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=resource-wrap
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=resource-wrap
+                                                                   -->
+<!ELEMENT  resource-wrap
+                        %resource-wrap-model;                        >
+<!ATTLIST  resource-wrap
+             %resource-wrap-atts;                                    >
+
+
+<!--                    RESOURCE NAME MODEL                        -->
+<!--                    Elements that may be mixed with text inside  
+                        the <resource-name> element                -->
+<!ENTITY % resource-name-elements
+                        " | %face-markup.class; | %subsup.class;"    >
+
+
+<!--                    RESOURCE NAME                              -->
+<!--                    A displayable name of or description for a 
+                        specific resource provided in support of the 
+                        work described in this article.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=resource-name
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=resource-name
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=resource-name
+                                                                   -->
+<!ELEMENT  resource-name
+                        (#PCDATA %resource-name-elements;)*          >
+<!ATTLIST  resource-name
+             %resource-name-atts;                                    >
+
+
+<!--                    RESOURCE IDENTIFIER MODEL                  -->
+<!--                    Elements that may be mixed with text inside  
+                        the <resource-id> element                  -->
+<!ENTITY % resource-id-elements
+                        ""                                           >
+
+
+<!--                    RESOURCE IDENTIFIER                        -->
+<!--                    An external, ideally machine-readable, 
+                        identifier such as a Research Resource 
+                        Identifier, for a specific resource provided
+                        in support of the work described in this 
+                        article.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=resource-id
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=resource-id
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=resource-id
+                                                                   -->
+<!ELEMENT  resource-id
+                        (#PCDATA %resource-id-elements;)*            >
+<!ATTLIST  resource-id
+             %resource-id-atts;                                      >
 
 
 <!-- ============================================================= -->
@@ -429,7 +817,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    AWARD GROUP MODEL                          -->
 <!--                    Model for the <award-group> element        -->
 <!ENTITY % award-group-model
-                        "(funding-source*, award-id*,
+                        "((funding-source* | support-source*), 
+                          award-id*,
                           principal-award-recipient*,
                           principal-investigator*)"                  >
 
@@ -441,9 +830,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         may be more than source of funding, a grant
                         or contract number, PI, etc.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=award-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=award-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=award-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=award-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=award-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=award-group
                                                                    -->
 <!ELEMENT  award-group  %award-group-model;                          >
 <!ATTLIST  award-group
@@ -451,7 +840,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 
 <!--                    FUNDING SOURCE ELEMENTS                    -->
-<!--                    Model for the <funding-source> element     -->
+<!--                    Elements that may be mixed with text inside  
+                        the <funding-source> element               -->
 <!ENTITY % funding-source-elements
                         "%simple-text; | %institution-wrap.class;"   >
 
@@ -465,9 +855,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         sponsoring the research for a journal
                         article
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=funding-source
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=funding-source
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=funding-source
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=funding-source
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=funding-source
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=funding-source
                                                                    -->
 <!ELEMENT  funding-source
                         (#PCDATA %funding-source-elements;)*         >
@@ -476,7 +866,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 
 <!--                    AWARD IDENTIFIER ELEMENTS                  -->
-<!--                    Model for the <award-id> element           -->
+<!--                    Elements that may be mixed with text inside  
+                        the <award-id> element                     -->
 <!ENTITY % award-id-elements
                         "%simple-text;"                              >
 
@@ -488,9 +879,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         [Note, this is a real-world identifier not
                         an XML ID.]
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=award-id
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=award-id
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=award-id
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=award-id
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=award-id
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=award-id
                                                                    -->
 <!ELEMENT  award-id     (#PCDATA %award-id-elements;)*               >
 <!ATTLIST  award-id
@@ -498,8 +889,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 
 <!--                    PRINCIPAL AWARD RECIPIENT ELEMENTS         -->
-<!--                    Model for the <principal-award-recipient>
-                        element                                    -->
+<!--                    Elements that may be mixed with text inside  
+                        the <principal-award-recipient> element    -->
 <!ENTITY % principal-award-recipient-elements
                         " | %contrib-id.class; | 
                          %recipient-name.class;"                     >
@@ -510,9 +901,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         award was given, for example the principal
                         grant holder
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=principal-award-recipient
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=principal-award-recipient
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=principal-award-recipient
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=principal-award-recipient
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=principal-award-recipient
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=principal-award-recipient
                                                                    -->
 <!ELEMENT  principal-award-recipient
                         (#PCDATA
@@ -522,8 +913,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 
 <!--                    PRINCIPAL INVESTIGATOR ELEMENTS            -->
-<!--                    Model for the <principal-investigator>
-                        element                                    -->
+<!--                    Elements that may be mixed with text inside  
+                        the <principal-investigator> element       -->
 <!ENTITY % principal-investigator-elements
                         " | %contrib-id.class; | 
                          %investigator-name.class;"                  >
@@ -533,9 +924,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Individual responsible for the intellectual
                         content of the work reported in the article.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=principal-investigator
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=principal-investigator
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=principal-investigator
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=principal-investigator
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=principal-investigator
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=principal-investigator
                                                                    -->
 <!ELEMENT  principal-investigator
                         (#PCDATA
@@ -543,5 +934,30 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!ATTLIST  principal-investigator
              %principal-investigator-atts;                           >
 
+
+
+<!--                    SUPPORT SOURCE ELEMENTS                    -->
+<!--                    Elements that may be mixed with text inside  
+                        the  <support-source> element              -->
+<!ENTITY % support-source-elements
+                        "%simple-text; | %institution-wrap.class;"   >
+
+
+<!--                    SUPPORT SOURCE                             -->
+<!--                    Agency or organization (such as a foundation,
+                        corporation, or an educational institution)
+                        that provided non-monetary support (such as
+                        facilities or data) in support of the
+                        research on which a work was based.
+                        article
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=support-source
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=support-source
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=support-source
+                                                                   -->
+<!ELEMENT  support-source
+                        (#PCDATA %support-source-elements;)*         >
+<!ATTLIST  support-source
+             %support-source-atts;                                   >
 
 <!-- ================== End Funding Module ======================= -->

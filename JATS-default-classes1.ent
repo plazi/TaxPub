@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Default Element Classes Module                    -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.2 20190208//EN"
 Delivered as file "JATS-default-classes1.ent"                      -->
 <!-- ============================================================= -->
 
@@ -110,6 +110,108 @@ Delivered as file "JATS-default-classes1.ent"                      -->
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 24. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 23. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 38. INLINE-INDEX - Added the elements <index-term> and
+     <index-term-range-end> to phrase class to add the ability
+     to tag inline (embedded) index terms.
+
+ 38. INLINE-MEDIA - <inline-media> added to all the classes that 
+     contained <inline-graphic>
+
+ 37. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 36. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 35. NEW CLASS FOR TITLES/SOURCES - Made the element <abbrev>
+     into its own class, so it can be added to title elements 
+     without adding milestones.
+
+ 34. INSIDE A TABLE: Added <disp-formula> as a sibling to
+     <graphic>, <list>, etc. as the content of a <table-wrap>
+     that does not contain a <table>. Added <disp-formula> to 
+     simple-intable-display.class.
+
+ 33. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -322,7 +424,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
        -  a name and a sort version of the name that transliterates
           the diacritics (such as cedillas and umlauts) to the same
           character with no diacritic.
-     a. This structure was added to %name.class;
+     a. This structure was added to name.class PE
      b. This structure was added to %investigator-name.class;
      c. This structure was added to %recipient-name.class;
      d. This structure was added to %references.class;
@@ -343,7 +445,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -541,6 +643,22 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!-- ============================================================= -->
 
 
+<!--                    ARTICLE IDENTIFIER CLASS ELEMENTS          -->
+<!--                    Collected article identifiers for use in
+                        various models.                            -->
+<!ENTITY % article-identifier.class
+                        "article-id | issn | issn-l | isbn"          >
+
+
+<!--                    ARTICLE VERSION CLASS ELEMENTS             -->
+<!--                    Making sure that wherever <article-version>
+                        is allowed, <article-version-alternatives>
+                        is also allowed.                           -->
+<!ENTITY % article-version.class
+                        "article-version |
+                         article-version-alternatives"               > 
+
+
 <!--                    ABSTRACT CLASS ELEMENTS                    -->
 <!--                    Potential element components of an address;
                         not a proper class                         -->
@@ -580,6 +698,11 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Components of date-style elements          -->
 <!ENTITY % date-parts.class
                         "day | era | month | season | year"          >
+
+
+<!--                    EVENT CLASS ELEMENTS                       -->
+<!--                    Dates and other matters of history         -->
+<!ENTITY % event.class  "event"                                      >
 
 
 <!--                    INSTITUTION CLASS ELEMENTS                 -->
@@ -636,6 +759,20 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         a nested keyword structure.                -->
 <!ENTITY % nested-kwd.class    
                         "kwd | compound-kwd"                         >
+
+
+<!--                    PUBLICATION DATE CLASS ELEMENTS            -->
+<!--                    New element <pub-date-not-available> added to
+                        <book-meta> as an alternative to <pub-date>. 
+                        The meaning is that a publication date was 
+                        (for whatever reason) not available. Presence 
+                        of the element says nothing about
+                        publication status. The element
+                        <pub-date-not-available> was NOT added to 
+                        this class, since the new element may
+                        occur only once.                           -->
+<!ENTITY % pub-date.class
+                        "pub-date"                                   >
 
 
 <!--                    TITLE CLASS                                -->
@@ -798,11 +935,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         display inline with the text               -->
 <!ENTITY % inline-display.class
                         "alternatives | inline-graphic |
+                         inline-media | 
                          private-char"                               >
 
 
 <!ENTITY % inline-display-noalt.class
-                        "inline-graphic | private-char"              >
+                        "inline-graphic | 
+                         inline-media | private-char"                >
 
 
 <!--                    MOST BASIC DISPLAY ELEMENTS                -->
@@ -838,6 +977,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         arrays.                                    -->
 <!ENTITY % simple-intable-display.class
                         "alternatives | chem-struct-wrap | code |
+                         disp-formula | 
                          graphic | media | preformat"                >
 
 
@@ -857,9 +997,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                                                                    -->
 <!ENTITY % alternatives-display.class
                         "array | chem-struct | code | graphic |
-                         inline-graphic |
+                         inline-graphic | inline-media | 
                          inline-supplementary-material |
-                         media | preformat |private-char |
+                         media | preformat | private-char |
                          supplementary-material | table |
                          textual-form"                               >
 
@@ -1106,6 +1246,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!-- ============================================================= -->
 
 
+<!--                    ABBREVIATION CLASS ELEMENTS                -->
+<!--                    The element <abbrev>, so it can be added
+                        to title elements without adding milestones.
+                                                                   -->
+<!ENTITY % abbrev.class "abbrev"                                     >
+
+
 <!--                    FUNDING CLASS ELEMENTS                     -->
 <!--                    Small inline elements, that surround a word
                         or phrase in the text to identify pieces of
@@ -1127,7 +1274,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         or phrase in the text because the subject
                         (content) should be identified as something
                         special or different                       -->
-<!ENTITY % phrase.class "abbrev | milestone-end | milestone-start |
+<!ENTITY % phrase.class "abbrev | 
+                         index-term | index-term-range-end |
+                         milestone-end | milestone-start |
                          named-content | styled-content"             >
 
 

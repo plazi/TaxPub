@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    JATS MathML 3.0 Modules                           -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.2 20190208//EN"
      Delivered as file "JATS-mathml3-modules1.ent"                 -->
 <!-- ============================================================= -->
 
@@ -17,7 +17,7 @@
 <!-- SYSTEM:     JATS DTD Suite                                    -->
 <!--                                                               -->
 <!-- PURPOSE:    To name any modules needed for MathML 3.0 (since  -->
-<!--             NISO JATS V1.0 was MathMl 2.0, and the two are    -->
+<!--             NISO JATS V1.0 was MathML 2.0, and the two are    -->
 <!--             not backwards compatible.                         -->
 <!--                                                               -->
 <!-- CONTAINS:   Modules declarations for MathML 3.0               -->
@@ -90,7 +90,93 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
-     =============================================================
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+  9. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+  8. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+  7. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+  6. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+    
+  5. JATS became version "1.2d1" and "v1.2d1 20170631" 
+ 
+    =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
      JATS is a continuing maintenance NISO Standard, which
@@ -139,7 +225,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
    
      ANSI/NISO Z39.96-2012 (Version 1.0) 
 
-     Details concerning ANSI/NISO Z39.96-20125 concerning 
+     Details concerning ANSI/NISO Z39.96-2012 concerning 
      ANSI/NISO Z39.96-2012 JATS-based DTDs, XSDs, 
      RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.0/
@@ -156,7 +242,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
            http://jats.nlm.nih.gov/1.1/                            -->
 
 <!-- ============================================================= -->
-<!--                     MATHML 3.0 MODULES (Invoked for V1d1)     -->
+<!--                     MATHML 3.0 MODULES                        -->
 <!-- ============================================================= -->
 
 

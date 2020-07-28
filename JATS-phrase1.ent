@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Subject Phrase Class Elements                     -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.2 20190208//EN"
      Delivered as file "JATS-phrase1.ent"                          -->
 <!-- ============================================================= -->
 
@@ -108,6 +108,104 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 20. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 19. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+     
+ 18. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 17. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+   
+ 16. STYLED CONTENT - Added new @style-detail attribute to
+     <styled-content>, to account for dots, sesamis, and
+     other non-western emphasis.
+   
+ 15. VOCABULARY/TAXONOMY ATTRIBUTES - Added 4 new attributes for
+     naming (and possibly linking to) a general or controlled
+     taxonomy, vocabulary, index, database or other source of
+     terms: @vocab, @vocab-identifier, @vocab-term, and
+     @vocab-term-identifier
+      - All 4 added to <named-content>, to name a vocabulary 
+        as the source of the content being identified
+ 
+ 14. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -247,7 +345,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -309,6 +407,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
              alt        CDATA                             #IMPLIED
              content-type
                         CDATA                             #REQUIRED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED
@@ -321,7 +425,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts; 
              toggle     (yes | no)                        #IMPLIED
              style      CDATA                             #IMPLIED
-             style-type
+             style-type CDATA                             #IMPLIED
+             style-detail
                         CDATA                             #IMPLIED
              alt        CDATA                             #IMPLIED
              specific-use
@@ -343,9 +448,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    ABBREVIATION OR ACRONYM                    -->
 <!--                    Used to identify an abbreviation or acronym
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=abbrev
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=abbrev
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=abbrev
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=abbrev
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=abbrev
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=abbrev
                                                                    -->
 <!ELEMENT  abbrev       (#PCDATA %abbrev-elements;)*                 >
 <!ATTLIST  abbrev
@@ -381,8 +486,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         component will be marked with a
                         <milestone-end> element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=milestone-start
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=milestone-start
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=milestone-start
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=milestone-start
                                                                    -->
 <!ELEMENT  milestone-start
                         %milestone-start-model;                      >
@@ -407,8 +512,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         component was marked with a <milestone-start>
                         element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=milestone-end
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=milestone-end
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=milestone-end
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=milestone-end
                                                                    -->
 <!ELEMENT  milestone-end
                         %milestone-end-model;                        >
@@ -447,9 +552,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         gene or the phrase identifies an organism
                         genus/species.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=named-content
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=named-content
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=named-content
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=named-content
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=named-content
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=named-content
                                                                    -->
 <!ELEMENT  named-content
                         (#PCDATA %named-content-elements;)*          >
@@ -489,9 +594,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         semantic reason behind the typographic
                         distinction is not clear.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=styled-content
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=styled-content
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=styled-content
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=styled-content
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=styled-content
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=styled-content
                                                                    -->
 <!ELEMENT  styled-content
                         (#PCDATA %styled-content-elements;)*         >

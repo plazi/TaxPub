@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Journal Article Metadata Elements                 -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.2 20190208//EN"
      Delivered as file "JATS-articlemeta1.ent"                     -->
 <!-- ============================================================= -->
 
@@ -99,6 +99,178 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 45. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 44. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 43. PUB-ID-TYPE - @pub-id-type changed back to a fixed list from 
+     CDATA, reversing the decision of Version 1.2d1. Although 
+     the value list is unchanged, best practice will be documented
+     as using @pub-id-type for type and @assigning-authority
+     for the responsible agency.
+       - for <article-id>
+
+ 42. ASSIGNING AUTHORITY - Added @assigning-authority to the
+     following elements, so that the type-of-identifier and
+     the party-responsible-for-identifier could both be
+     recorded. Previously, these values were both assigned to
+     the attribute @pub-id-type.
+         - <article-id>
+
+ 41. NON-MONETARY SUPPORT - Inside <article-meta> added new
+     <support-group> to hold both funding and
+     non-monetary support descriptions. <support-group> is 
+     both a peer to <funding-group> (backward compatibility)
+     and contains <funding-group>.
+ 
+ 40. PUBLICATION DATE-NOT-AVAILABLE - Inside <article-meta>, 
+     <front-stub>, <event>, and <event-desc>
+     added new element <pub-date-not-available>, as an 
+     alternative to <pub-date>. The meaning is that a 
+     publication date was (for whatever reason) not available. 
+     Presence of the element says nothing about publication 
+     status.
+   
+ 39. VOCABULARY/TAXONOMY ATTRIBUTES - Added 2 new attributes for
+     naming (and possibly linking to) general or controlled
+     taxonomy, vocabulary, index, database or other source of
+     terms (@vocab, and @vocab-identifier) to these
+     elements (which could already take the attributes
+     @vocab-term and @vocab-term-identifier):
+        - <kwd>
+        - <compound-kwd>
+        - <nested-kwd>
+        - <subject>
+        - <compound-subject>
+
+ 38. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 37. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 36. EVENTS - 
+      - Added <event>, which will reside only inside
+        <pub-history>. 
+      - Added <pub-history> to hold <event>s. Unlike in BITS, 
+        <pub-history> will contain ONLY <event>s.
+      - Took <event> attributes from BITS. 
+      - Added <article-version> to model of <event>.
+  
+ 35. PUB-ID-TYPE - @pub-id-type changed from a fixed list to
+     CDATA for all usages of the attribute.
+
+ 34. ARTICLE META MODEL
+     - NO DATE - <pub-date> (optional repeatable) is now
+       followed by the optional new element 
+       <pub-date-not-available>. 
+
+     - ARTICLE VERSION - Added new element <article-version>
+       inside <article-meta> to hold one version number for  
+       the article. <article-version> element may repeat inside
+       new element <article-version-alternatives> to hold 
+       version numbers for this article from different systems.
+ 
+     - PUBLICATION HISTORY - Added new element based on BITS,
+       <pub-history>, to hold <event>s as <history> holds
+       <date>s. New internal elements: <event>, <event-desc>
+   
+ 33. VOCABULARY/TAXONOMY ATTRIBUTES - Added 4 new attributes for
+     naming (and possibly linking to) a general or controlled
+     taxonomy, vocabulary, index, database or other source of
+     terms: @vocab, @vocab-identifier, @vocab-term, and
+     @vocab-term-identifier
+
+      - Attributes @vocab and @vocab-identifier were 
+        added to the elements:
+        - <kwd-group>
+        - <subj-group>
+        - <unstructured-kwd-group>
+
+      - Attributes @vocab-term and @vocab-term-identifier were
+        added to the elements:
+        - <kwd>
+        - <compound-kwd>
+        - <nested-kwd>
+        - <subject>
+        - <compound-subject>
+ 
+ 32. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -142,13 +314,16 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Committee.
  
  29. <VOLUME> INSIDE <ARTICLE-META>
+
    - Allowed <volume> to repeat inside <article-meta>, the types to 
      be distinguished using @content-type
+
    - Added new optional element <volume-issue-group> inside 
      <article-meta) following all volume and issue elements
      to hold volume-issue pairs (or n-tuples) when a second
      and subsequent <volume> has its own related issue
      information.
+
    - Made <issue> repeatable, for those who choose not to use
      the new wrapper element.
    
@@ -253,8 +428,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
    
  18. NESTED KEYWORDS - Added new keyword type element for nested
      keywords (<nested-kwd>), to hold hierarchical keywords such
-     as taxonomic structures. New PEs %nested-kwd-model; and
-     %nested-kwd-atts;
+     as taxonomic structures. New PEs %nested-kwd-model  and
+     %nested-kwd-atts 
    
  17. MODULE MOVEMENT (from increased reference content)
 
@@ -398,7 +573,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -446,6 +621,37 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;"                                     >
 
 
+<!--                    ARTICLE VERSION ATTRIBUTES                 -->
+<!--                    Attributes for the <article-version> 
+                        element                                    -->
+<!ENTITY % article-version-atts
+            "%jats-common-atts;                                       
+             article-version-type
+                        CDATA                             #IMPLIED
+             designator CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
+             iso-8601-date
+                        CDATA                             #IMPLIED
+             content-type
+                        CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             %might-link-atts;"                                      >
+
+
+<!--                    ARTICLE VERSION ALTERNATIVE ATTRIBUTES     -->
+<!--                    Attributes for the 
+                        <article-version-alternatives> element     -->
+<!ENTITY % article-version-alternatives-atts
+            "%jats-common-atts;"                                     >
+
+
+
 <!--                    AUTHOR COMMENT ATTRIBUTES                  -->
 <!--                    Attributes for the <author-comment> element-->
 <!ENTITY % author-comment-atts
@@ -472,6 +678,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;                                       
              pub-id-type
                         (%pub-id-types;)                  #IMPLIED
+             assigning-authority                
+                        CDATA                             #IMPLIED
              specific-use
                         CDATA                             #IMPLIED"  >
 
@@ -481,6 +689,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                                                                    -->
 <!ENTITY % compound-kwd-atts
             "%jats-common-atts;                                       
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              content-type
                         CDATA                             #IMPLIED"  >
 
@@ -499,6 +713,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                                                                    -->
 <!ENTITY % compound-subject-atts
             "%jats-common-atts;                                       
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              content-type
                         CDATA                             #IMPLIED"  >
 
@@ -582,11 +802,39 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;"                                     >
 
 
+<!--                    DATE NOT AVAILABLE ATTRIBUTES              -->
+<!--                    Attributes for the <pub-date-not-available> 
+                        element                                    -->
+<!ENTITY % pub-date-not-available-atts
+            "%jats-common-atts;                                       
+             specific-use
+                        CDATA                             #IMPLIED"  >
+
+
 <!--                    EQUATION COUNT ATTRIBUTES                  -->
 <!--                    Attributes for the <equation-count> element-->
 <!ENTITY % equation-count-atts
             "%jats-common-atts;                                       
-             count      NMTOKEN                           #REQUIRED" >
+             count      NMTOKEN                          #REQUIRED"  >
+
+<!--                    PUBLICATION EVENT ATTRIBUTES               -->
+<!--                    Attributes for the <event> element         -->
+<!ENTITY % event-atts
+           "%jats-common-atts;
+             event-type CDATA                             #IMPLIED
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    EVENT DESCRIPTION ATTRIBUTES               -->
+<!--                    Attributes used with the <event-desc>
+                        element.                                   -->
+<!ENTITY % event-desc-atts
+           "%jats-common-atts;
+             specific-use
+                        CDATA                             #IMPLIED
+             xml:lang   NMTOKEN                           #IMPLIED"  >
 
 
 <!--                    FIGURE COUNT ATTRIBUTES                    -->
@@ -605,7 +853,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    KEYWORD ATTRIBUTES                         -->
 <!--                    Attributes for the <kwd> element           -->
 <!ENTITY % kwd-atts
-            "%jats-common-atts;                                       
+            "%jats-common-atts;
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              content-type
                         CDATA                             #IMPLIED"  >
 
@@ -616,6 +870,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;                                       
              kwd-group-type
                         CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
@@ -625,7 +882,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Attributes for the <nested-kwd> element    -->
 <!ENTITY % nested-kwd-atts
             "%jats-common-atts;                                       
-            content-type
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
+             content-type
                        CDATA                             #IMPLIED"  >
 
 
@@ -660,6 +923,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         CDATA                             #IMPLIED
              calendar   CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
+
+
+<!--                    PUBLICATION HISTORY ATTRIBUTES             -->
+<!--                    Attributes for the <pub-history> element   -->
+<!ENTITY % pub-history-atts
+           "%jats-common-atts;"                                      >
 
 
 <!--                    REFERENCE (CITATION) COUNT ATTRIBUTES      -->
@@ -720,15 +989,23 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;                                       
              subj-group-type
                         CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
-
 
 <!--                    SUBJECT ATTRIBUTES                         -->
 <!--                    Attributes for the <subject> element       -->
 <!ENTITY % subject-atts
             "%jats-common-atts;                                       
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED
+             vocab-term CDATA                             #IMPLIED
+             vocab-term-identifier
+                        CDATA                             #IMPLIED
              content-type
                         CDATA                             #IMPLIED"  >
 
@@ -775,6 +1052,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
             "%jats-common-atts;                                       
              kwd-group-type
                         CDATA                             #IMPLIED
+             vocab      CDATA                             #IMPLIED
+             vocab-identifier
+                        CDATA                             #IMPLIED 
              specific-use
                         CDATA                             #IMPLIED
              xml:lang   NMTOKEN                           #IMPLIED"  >
@@ -797,11 +1077,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         element, which names the journal article
                         metadata                                   -->
 <!ENTITY % article-meta-model
-                       "(article-id*, article-categories?,
-                         title-group?,
+                       "(article-id*, (%article-version.class;)?, 
+                         article-categories?, title-group?,
                          (%contrib-group.class; |
                           %aff-alternatives.class;)*,
-                         author-notes?, pub-date*,
+                         author-notes?,  ( (%pub-date.class;)* | 
+                          pub-date-not-available?), 
                          volume*, volume-id*, volume-series?,
                          issue*, issue-id*, issue-title*,
                          issue-sponsor*, issue-part?, 
@@ -811,11 +1092,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                             elocation-id )?,
                          (%address-link.class; | product |
                           supplementary-material)*,
-                         history?, permissions?, self-uri*,
-                         (%related-article.class;)*, 
+                         history?, pub-history?, permissions?, 
+                         self-uri*, (%related-article.class;)*, 
                          (%abstract.class;)*,
-                         trans-abstract*, (%kwd-group.class;)*,
-                         funding-group*, conference*, counts?, 
+                         trans-abstract*, (%kwd-group.class;)*, 
+                         funding-group*, support-group*,   
+                         conference*, counts?, 
                          custom-meta-group?)"                        >
 
 
@@ -858,9 +1140,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         example, bibliographic information such as
                         the title, author, and copyright year.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=article-meta
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=article-meta
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=article-meta
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=article-meta
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=article-meta
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=article-meta
                                                                    -->
 <!ELEMENT  article-meta %article-meta-model;                         >
 <!ATTLIST  article-meta
@@ -879,12 +1161,55 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         identifiers may come from a publisher, a
                         jobber, from PubMed Central, etc.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=article-id
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=article-id
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=article-id
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=article-id
                                                                    -->
 <!ELEMENT  article-id   (#PCDATA)                                    >
 <!ATTLIST  article-id
              %article-id-atts;                                       >
+
+
+<!--                    ARTICLE VERSION                            -->
+<!--                    Optional element, used to hold one of the
+                        "version" identifiers (such as version type, 
+                        version status, version statement, or version
+                        number) that have been assigned to the 
+                        current article. 
+                        Remarks: A typical version identifier might 
+                        use terminology from the NISO Journal Article 
+                        Versions Recommendations (such as "preprint"
+                        or "copy-of-record", but it might also be a
+                        publishers internal versioning number such as
+                        "0.9".
+                           The element is allowed to repeat inside a
+                        <article-version-alternatives> element to hold
+                         version numbers from more than one versioning
+                         system. A given article should only be a
+                         single version in any given system.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=article-version
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=article-version
+                                                                   -->
+<!ELEMENT  article-version
+                        (#PCDATA)                                    >
+<!ATTLIST  article-version
+             %article-version-atts;                                  >
+
+
+<!--                    ARTICLE VERSION ALTERNATIVES               -->
+<!--                    Container element to hold multiple
+                        <article-version> elements, when the version
+                        number/identifier for more than one system
+                        needs to be recorded. A given article should
+                        only be a single version in any given system.
+                        Details at:              
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=article-version-alternatives
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=article-version-alternatives 
+                                                                   -->
+<!ELEMENT  article-version-alternatives
+                        (article-version+)                           >
+<!ATTLIST  article-version-alternatives
+             %article-version-alternatives-atts;                     >
 
 
 <!-- ============================================================= -->
@@ -903,8 +1228,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Container for elements that may be used to
                         group articles into related clusters
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=article-categories
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=article-categories
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=article-categories
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=article-categories
                                                                    -->
 <!ELEMENT  article-categories
                         %article-categories-model;                   >
@@ -934,8 +1259,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         "Physical Sciences", "Biological Sciences",
                         or "Social Sciences".
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=subj-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=subj-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=subj-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=subj-group
                                                                    -->
 <!ELEMENT  subj-group   %subj-group-model;                           >
 <!ATTLIST  subj-group
@@ -959,8 +1284,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         groups of articles in a printed or online
                         generated Table of Contents.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=subject
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=subject
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=subject
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=subject
                                                                    -->
 <!ELEMENT  subject      (#PCDATA %subject-elements;)*                >
 <!ATTLIST  subject
@@ -992,8 +1317,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         <compound-subject-part>s inside a
                         <compound-subject>.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=compound-subject
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=compound-subject
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=compound-subject
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=compound-subject
                                                                    -->
 <!ELEMENT  compound-subject
                         %compound-subject-model;                     >
@@ -1022,8 +1347,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         indicate the type of part ("text", "code",
                         "sponsor", etc.).
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=compound-subject-part
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=compound-subject-part
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=compound-subject-part
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=compound-subject-part
                                                                    -->
 <!ELEMENT  compound-subject-part
                         (#PCDATA %compound-subject-part-elements;)*  >
@@ -1068,8 +1393,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         meaning) or the title of a  series of
                         articles internal to one issue of a journal
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=series-title
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=series-title
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=series-title
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=series-title
                                                                    -->
 <!ELEMENT  series-title (#PCDATA %series-title-elements;)*           >
 <!ATTLIST  series-title
@@ -1088,8 +1413,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Textual description of the series of articles
                         that are named in a <series-title> element
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=series-text
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=series-text
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=series-text
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=series-text
                                                                    -->
 <!ELEMENT  series-text  (#PCDATA %series-text-elements;)*            >
 <!ATTLIST  series-text
@@ -1117,8 +1442,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         References to these footnotes are made
                         using the <xref> element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=author-notes
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=author-notes
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=author-notes
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=author-notes
                                                                    -->
 <!ELEMENT  author-notes %author-notes-model;                         >
 <!ATTLIST  author-notes
@@ -1150,38 +1475,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         component, web site, etc.) that is being
                         reviewed.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=product
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=product
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=product
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=product
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=product
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=product
                                                                    -->
 <!ELEMENT  product      (#PCDATA %product-elements;)*                >
 <!ATTLIST  product
              %product-atts;                                          >
-
-
-<!-- ============================================================= -->
-<!--                    PUBLICATION HISTORY ELEMENTS               -->
-<!-- ============================================================= -->
-
-
-<!--                    HISTORY MODEL                              -->
-<!--                    The content model for the <history> element
-                                                                   -->
-<!ENTITY % history-model
-                        "(%date.class;)+"                            >
-
-
-<!--                    HISTORY:  DOCUMENT HISTORY                 -->
-<!--                    Used as a container for dates related to the
-                        processing history of the document, such as
-                        received date and accepted date.
-                        Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=history
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=history
-                                                                   -->
-<!ELEMENT  history      %history-model;                              >
-<!ATTLIST  history
-             %history-atts;                                          >
 
 
 <!-- ============================================================= -->
@@ -1210,9 +1510,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                            version of this article is available
                            online</self-uri>
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=self-uri
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=self-uri
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=self-uri
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=self-uri
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=self-uri
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=self-uri
                                                                    -->
 <!ELEMENT  self-uri     (#PCDATA %self-uri-elements;)*               >
 <!ATTLIST  self-uri
@@ -1234,9 +1534,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    A short summation of the content of an
                         article.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=abstract
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=abstract
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=abstract
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=abstract
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=abstract
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=abstract
                                                                    -->
 <!ELEMENT  abstract     %abstract-model;                             >
 <!ATTLIST  abstract
@@ -1254,8 +1554,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    An abstract that has been translated into
                         another language
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=trans-abstract
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=trans-abstract
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=trans-abstract
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=trans-abstract
                                                                    -->
 <!ELEMENT  trans-abstract
                         %trans-abstract-model;                       >
@@ -1278,9 +1578,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Container element for one set of keywords
                         <kwd>s used to describe a document.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=kwd-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=kwd-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=kwd-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=kwd-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=kwd-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=kwd-group
                                                                    -->
 <!ELEMENT  kwd-group    %kwd-group-model;                            >
 <!ATTLIST  kwd-group
@@ -1308,9 +1608,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         and can be used for identification and
                         indexing purposes.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=kwd
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=kwd
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=kwd
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=kwd
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=kwd
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=kwd
                                                                    -->
 <!ELEMENT  kwd          (#PCDATA %kwd-elements;)*                    >
 <!ATTLIST  kwd
@@ -1337,9 +1637,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         This element was created to handle these
                         special cases.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=compound-kwd
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=compound-kwd
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=compound-kwd
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=compound-kwd
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=compound-kwd
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=compound-kwd
                                                                    -->
 <!ELEMENT  compound-kwd %compound-kwd-model;                         >
 <!ATTLIST  compound-kwd
@@ -1361,9 +1661,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         component of a complex keyword, for example
                         one for the code and one for the term.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=compound-kwd-part
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=compound-kwd-part
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=compound-kwd-part
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=compound-kwd-part
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=compound-kwd-part
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=compound-kwd-part
                                                                    -->
 <!ELEMENT  compound-kwd-part
                         (#PCDATA %compound-kwd-part-elements;)*      >
@@ -1400,7 +1700,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         separate <kwd>s but instead are all run
                         together in one long text field.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=unstructured-kwd-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=unstructured-kwd-group
                                                                    -->
 <!ELEMENT  unstructured-kwd-group
                         (#PCDATA %unstructured-kwd-group-elements;)* >
@@ -1430,12 +1730,35 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         contributor, to whom information requests
                         should be addressed.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=corresp
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=corresp
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=corresp
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=corresp
                                                                    -->
 <!ELEMENT  corresp      (#PCDATA %corresp-elements;)*                >
 <!ATTLIST  corresp
              %corresp-atts;                                          >
+
+
+<!--                    PUBLICATION DATE NOT AVAILABLE MODEL       -->
+<!--                    The content model for the EMPTY element 
+                        <pub-date-not-available>.                  -->
+<!ENTITY % pub-date-not-available-model
+                        "EMPTY"                                      >
+
+
+<!--                    DATE NOT AVAILABLE FLAG                    -->
+<!--                    EMPTY element used as a flag to signal that
+                        the publication date (<pub-date>) is not
+                        available. This flag does not mean, necessarily,
+                        that the article is unpublished, just that no
+                        <pub-date> is available.
+                        Details at:                   
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=pub-date-not-available
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=pub-date-not-available
+                                                                   -->
+<!ELEMENT  pub-date-not-available
+                        %pub-date-not-available-model;               >
+<!ATTLIST  pub-date-not-available
+             %pub-date-not-available-atts;                           >
 
 
 <!--                    PUBLICATION DATE MODEL                     -->
@@ -1449,8 +1772,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Date of publication or release of the
                         material in one particular format.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=pub-date
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=pub-date
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=pub-date
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=pub-date
                                                                    -->
 <!ELEMENT  pub-date     %pub-date-model;                             >
 <!ATTLIST  pub-date
@@ -1475,9 +1798,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Design Note: Conference elements were largely
                         based on Cross-Ref.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=conference
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=conference
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=conference
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=conference
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=conference
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=conference
                                                                    -->
 <!ELEMENT  conference   %conference-model;                           >
 <!ATTLIST  conference
@@ -1508,9 +1831,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         "SIGGRAPH" for "Special Interest Group on
                         Computer Graphics".
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=conf-acronym
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=conf-acronym
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=conf-acronym
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=conf-acronym
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=conf-acronym
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=conf-acronym
                                                                    -->
 <!ELEMENT  conf-acronym (#PCDATA %conf-acronym-elements;)*           >
 <!ATTLIST  conf-acronym
@@ -1531,9 +1854,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    CONFERENCE NUMBER                          -->
 <!--                    The sequential number of the conference.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=conf-num
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=conf-num
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=conf-num
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=conf-num
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=conf-num
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=conf-num
                                                                    -->
 <!ELEMENT  conf-num     (#PCDATA %conf-num-elements;)*               >
 <!ATTLIST  conf-num
@@ -1559,9 +1882,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         such as "Database Integration" or "Topic
                         Map Subject Access".
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=conf-theme
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=conf-theme
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=conf-theme
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=conf-theme
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=conf-theme
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=conf-theme
                                                                    -->
 <!ELEMENT  conf-theme   (#PCDATA %conf-theme-elements;)*             >
 <!ATTLIST  conf-theme
@@ -1581,7 +1904,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    STRING CONFERENCE NAME                     -->
 <!--                    Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=string-conf
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=string-conf
                                                                    -->
 <!ELEMENT  string-conf  (#PCDATA %string-conf-elements;)*            >
 <!ATTLIST  string-conf
@@ -1605,8 +1928,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         "counts how many of something appear in the
                         article
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=counts
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=counts
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=counts
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=counts
                                                                    -->
 <!ELEMENT  counts       %counts-model;                               >
 <!ATTLIST  counts
@@ -1630,8 +1953,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         backwards compatibility, and may still be
                         used.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=count
                                                                    -->
 <!ELEMENT  count        EMPTY                                        >
 <!ATTLIST  count
@@ -1645,8 +1968,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         distinction is made between numbered and
                         unnumbered equations, both are counted.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=equation-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=equation-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=equation-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=equation-count
                                                                    -->
 <!ELEMENT  equation-count
                         EMPTY                                        >
@@ -1659,8 +1982,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         article. Loose <graphic>s that appear
                         outside figures are not counted.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fig-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fig-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fig-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fig-count
                                                                    -->
 <!ELEMENT  fig-count    EMPTY                                        >
 <!ATTLIST  fig-count
@@ -1672,8 +1995,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         elements that appear in the article. Arrays
                         are not counted as tables.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=table-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=table-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=table-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=table-count
                                                                    -->
 <!ELEMENT  table-count  EMPTY                                        >
 <!ATTLIST  table-count
@@ -1687,8 +2010,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         bibliographic reference list <ref-list>
                         in the article
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=ref-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=ref-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=ref-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=ref-count
                                                                    -->
 <!ELEMENT  ref-count    EMPTY                                        >
 <!ATTLIST  ref-count
@@ -1700,9 +2023,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         each page or partial page as one. Electronic
                         articles do not have page counts.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=page-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=page-count
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=page-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=page-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=page-count
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=page-count
                                                                    -->
 <!ELEMENT  page-count   EMPTY                                        >
 <!ATTLIST  page-count
@@ -1715,8 +2038,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         article (not including the words in the
                         metadata or header information)
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=word-count
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=word-count
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=word-count
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=word-count
                                                                    -->
 <!ELEMENT  word-count   EMPTY                                        >
 <!ATTLIST  word-count
@@ -1739,9 +2062,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Wrapper element to hold the various article
                         titles.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=title-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=title-group
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=title-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=title-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=title-group
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=title-group
                                                                    -->
 <!ELEMENT  title-group  %title-group-model;                          >
 <!ATTLIST  title-group
@@ -1767,9 +2090,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    ARTICLE SUBTITLE                           -->
 <!--                    Secondary title of a journal article
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=subtitle
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=subtitle
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=subtitle
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=subtitle
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=subtitle
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=subtitle
                                                                    -->
 <!ELEMENT  subtitle     (#PCDATA %subtitle-elements;)*               >
 <!ATTLIST  subtitle
@@ -1784,12 +2107,17 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Contents, an ASCII title, a right-running-
                         head title, etc.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=alt-title
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=alt-title
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=alt-title
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=alt-title
                                                                    -->
 <!ELEMENT  alt-title    (#PCDATA %alt-title-elements;)*              >
 <!ATTLIST  alt-title
              %alt-title-atts;                                        >
+
+
+<!-- ============================================================= -->
+<!--                    AUTHOR COMMENTS                            -->
+<!-- ============================================================= -->
 
 
 <!--                    AUTHOR COMMENT MODEL                       -->
@@ -1804,14 +2132,120 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         with a contributor such as an author or
                         editor
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=author-comment
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=author-comment
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=author-comment
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=author-comment
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=author-comment
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=author-comment
                                                                    -->
 <!ELEMENT  author-comment
                         %author-comment-model;                       >
 <!ATTLIST  author-comment
              %author-comment-atts;                                   >
+
+
+<!-- ============================================================= -->
+<!--                    PUBLICATION HISTORY DATE ELEMENTS          -->
+<!-- ============================================================= -->
+
+
+<!--                    HISTORY MODEL                              -->
+<!--                    The content model for the <history> element
+                                                                   -->
+<!ENTITY % history-model
+                        "(%date.class;)+"                            >
+
+
+<!--                    HISTORY:  DOCUMENT HISTORY                 -->
+<!--                    Used as a container for dates related to the
+                        processing history of the document, such as
+                        received date and accepted date.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=history
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=history
+                                                                   -->
+<!ELEMENT  history      %history-model;                              >
+<!ATTLIST  history
+             %history-atts;                                          >
+
+
+<!-- ============================================================= -->
+<!--                    PUBLICATION HISTORY EVENT ELEMENTS         -->
+<!--                    More than a date (from BITS)               -->
+<!-- ============================================================= -->
+
+
+<!--                    EVENT DESCRIPTION ELEMENTS                 -->
+<!--                    Elements that may be used, along with data
+                        characters inside the content model of the
+                        <event-desc> element.                      -->
+<!ENTITY % event-desc-elements
+                        "| %address-link.class; |
+                         %article-identifier.class; |
+                         %article-version.class; |  
+                         %date.class; | %pub-date.class; |
+                         pub-date-not-available"                     >
+
+
+<!--                    EVENT DESCRIPTION                          -->
+<!--                    This is a description of an event in the
+                        publishing history of a book, for example,
+                        reprinting or publication of the revised online
+                        edition. This text field may be as
+                        simple a few words or as complex as a
+                        narrative with embedded markup.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=event-desc
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=event-desc
+                                                                    -->
+<!ELEMENT  event-desc   (#PCDATA %event-desc-elements;)*             >
+<!ATTLIST  event-desc
+             %event-desc-atts;                                       >
+
+
+<!--                    EVENT MODEL                                -->
+<!--                    The content model for the <event> element. -->
+<!ENTITY % event-model  "(event-desc?, article-id*, 
+                          (%article-version.class;)?,
+                          ( (%pub-date.class;)* | 
+                             pub-date-not-available?),
+                          (%date.class;)*,
+                          issn*, issn-l?, isbn*, permissions?,
+                          notes*, self-uri*)"                        >
+
+
+<!--                    EVENT IN PUBLISHING HISTORY                -->
+<!--                    This is a description of an event in the
+                        publishing history of a book, for example,
+                        reprinting or publication of the revised online
+                        edition. This text field may be as
+                        simple a few words or as complex as a
+                        narrative with embedded markup.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=event
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=event
+                                                                   -->
+<!ELEMENT  event        %event-model;                                >
+<!ATTLIST  event
+             %event-atts;                                            >
+
+
+<!--                    PUBLICATION HISTORY MODEL                  -->
+<!--                    The content model for the <pub-history>
+                        element.                                   -->
+<!ENTITY % pub-history-model
+                        "((%event.class;)+ )"                        >
+
+
+<!--                    PUBLICATION HISTORY                        -->
+<!--                    Used as a container for events related to the
+                        processing history of the document, such as
+                        online publication date or reprint date.
+                        Details at:
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=pub-history 
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=pub-history 
+                                                                   -->
+<!ELEMENT  pub-history  %pub-history-model;                          >
+<!ATTLIST  pub-history
+             %pub-history-atts;                                      >
 
 
 <!-- ================== End Article Metadata Elements  =========== -->

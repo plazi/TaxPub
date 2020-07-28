@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Display Class Elements                            -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.2 20190208//EN"
      Delivered as file "JATS-display1.ent"                         -->
 <!-- ============================================================= -->
 
@@ -99,7 +99,106 @@
 <!--                    DTD VERSION/CHANGE HISTORY                 -->
 <!-- ============================================================= -->
 <!--
-Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd) 
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 24. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 23. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+     =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 22. INLINE-MEDIA - Added new element <inline-media>, which is to
+     <media> as <inline-graphic> is to <graphic>. The content
+     model is the same as <inline-supplementary-material>, in
+     other words there should be content, this is not typically 
+     an empty element. The attributes are the same as <media>,
+     except without @position and @orientation.
+
+ 21. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 20. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+     
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 19. INLINE GRAPHIC and PRIVATE-CHAR - Both <inline-graphic> and
+     <private-char> added to elements allowed in <code>.
+ 
+ 18. INLINE GRAPHIC - Changed from small-access.class to
+     access.class to add <long-desc>
+ 
+ 17. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -274,7 +373,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -430,6 +529,27 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    MEDIA ATTRIBUTES                           -->
 <!--                    Attributes for the <media> element         -->
+<!ENTITY % inline-media-atts
+            "%jats-common-atts;                                       
+              content-type
+                         CDATA                            #IMPLIED
+              mimetype   CDATA                            #IMPLIED
+              mime-subtype
+                         CDATA                            #IMPLIED
+              vocab      CDATA                            #IMPLIED
+              vocab-identifier
+                         CDATA                            #IMPLIED
+              vocab-term CDATA                            #IMPLIED
+              vocab-term-identifier
+                         CDATA                            #IMPLIED
+              specific-use
+                         CDATA                            #IMPLIED
+              xml:lang   NMTOKEN                          #IMPLIED
+              %link-atts;"                                           >
+
+
+<!--                    MEDIA ATTRIBUTES                           -->
+<!--                    Attributes for the <media> element         -->
 <!ENTITY % media-atts
             "%jats-common-atts;                                       
               %display-atts;
@@ -501,7 +621,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
               %other-table-wrap-atts;"                               >
 
 
-<!--                    TABLE WRAP FOOR ATTRIBUTES                 -->
+<!--                    TABLE WRAP FOOT ATTRIBUTES                 -->
 <!--                    Attributes for the <table-wrap-foot> element
                                                                    -->
 <!ENTITY % table-wrap-foot-atts
@@ -549,8 +669,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         arrays with labels and captions are table
                         wrappers.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=array
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=array
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=array
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=array
                                                                    -->
 <!ELEMENT  array        %array-model;                                >
 <!ATTLIST  array
@@ -578,9 +698,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         sidebar, marginalia, text insert, caution or
                         note box, etc.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=boxed-text
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=boxed-text
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=boxed-text
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=boxed-text
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=boxed-text
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=boxed-text
                                                                    -->
 <!ELEMENT  boxed-text   %boxed-text-model;                           >
 <!ATTLIST  boxed-text
@@ -608,9 +728,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         etc. that is set apart within the text.
                         These may be numbered.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=chem-struct-wrap
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=chem-struct-wrap
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=chem-struct-wrap
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=chem-struct-wrap
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=chem-struct-wrap
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=chem-struct-wrap
                                                                    -->
 <!ELEMENT  chem-struct-wrap
                         %chem-struct-wrap-model;                     >
@@ -644,9 +764,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    A chemical expression, reaction, equation,
                         etc. that is set apart within the text.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=chem-struct
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=chem-struct
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=chem-struct
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=chem-struct
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=chem-struct
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=chem-struct
                                                                    -->
 <!ELEMENT  chem-struct  %chem-struct-model;                          >
 <!ATTLIST  chem-struct
@@ -672,8 +792,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Used for a group of figures that must be
                         displayed together
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fig-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fig-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fig-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fig-group
                                                                    -->
 <!ELEMENT  fig-group    %fig-group-model;                            >
 <!ATTLIST  fig-group
@@ -687,9 +807,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         "Figure 3.".The content of a Figure need not
                         be graphical in nature,.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fig
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fig
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=fig
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fig
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fig
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=fig
                                                                    -->
 <!ELEMENT  fig          %fig-model;                                  >
 <!ATTLIST  fig
@@ -715,9 +835,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         some source document captions, the first
                         sentence is set off from the rest as a title.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=caption
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=caption
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=caption
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=caption
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=caption
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=caption
                                                                    -->
 <!ELEMENT  caption      %caption-model;                              >
 <!ATTLIST  caption
@@ -752,13 +872,39 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         attribute points to the file containing
                         the object.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=graphic
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=graphic
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=graphic
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=graphic
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=graphic
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=graphic
                                                                    -->
 <!ELEMENT  graphic      %graphic-model;                              >
 <!ATTLIST  graphic
              %graphic-atts;                                          >
+
+
+<!--                    INLINE MEDIA MODEL                         -->
+<!--                    Content model for the <inline-media> element
+                                                                   -->
+<!ENTITY % inline-media-elements  
+                        "| %access.class; | %address-link.class; |
+                         %emphasis.class; |
+                         %phrase-content.class; | %subsup.class;"    >
+
+
+<!--                    INLINE MEDIA OBJECT                        -->
+<!--                    An external file that holds a media object
+                        to be used inline, such as a pronunciation
+                        file. "content" of the <media> element is not 
+                        the object, but merely information about the
+                        object or the word to be linked. The "href" 
+                        attribute points to the file containing the 
+                        object.
+                        Details at:                      http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=inline-media
+                      http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=inline-media
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=inline-media
+                                                                   -->
+<!ELEMENT  inline-media (#PCDATA %inline-media-elements;)*           >
+<!ATTLIST  inline-media
+             %inline-media-atts;                                     >
 
 
 <!--                    MEDIA MODEL                                -->
@@ -778,9 +924,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         object. The "href" attribute points to the
                         file containing the object.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=media
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=media
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=media
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=media
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=media
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=media
                                                                    -->
 <!ELEMENT  media        %media-model;                                >
 <!ATTLIST  media
@@ -796,7 +942,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Content model for the <inline-graphic>
                         element                                    -->
 <!ENTITY % inline-graphic-model
-                        "((%small-access.class;)?)"                  >
+                        "((%access.class;)*)"                        >
 
 
 <!--                    INLINE GRAPHIC                             -->
@@ -804,9 +950,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         picture symbol that is displayed or set
                         in the same line as the text.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=inline-graphic
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=inline-graphic
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=inline-graphic
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=inline-graphic
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=inline-graphic
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=inline-graphic
                                                                    -->
 <!ELEMENT  inline-graphic
                         %inline-graphic-model;                       >
@@ -842,9 +988,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         tabs, line feeds, and spaces, should be
                         preserved.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=preformat
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=preformat
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=preformat
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=preformat
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=preformat
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=preformat
                                                                    -->
 <!ELEMENT  preformat    %preformat-model;                            >
 <!ATTLIST  preformat
@@ -856,9 +1002,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         characters, inside the content model for the
                         <code> element                             -->
 <!ENTITY % code-elements
-                        "| %address-link.class; | 
-                         %emphasis.class; | %phrase.class; | 
-                         %simple-link.class; | %subsup.class;"      >
+                        "| %address-link.class; |  %emphasis.class; | 
+                         %inline-display-noalt.class; | 
+                         %phrase.class; |  %simple-link.class; |
+                         %subsup.class;"                             >
 
 
 <!--                    CODE TEXT                                  -->
@@ -869,9 +1016,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         or without emphasis, or it may be an external
                         link to a binary executable file.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=code
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=code
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=code
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=code
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=code
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=code
                                                                    -->
 <!ELEMENT  code         (#PCDATA %code-elements;)*                   >
 <!ATTLIST  code
@@ -896,9 +1043,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         for example, an audio clip, movie, database,
                         spreadsheet, applet, or other external file.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=supplementary-material
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=supplementary-material
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=supplementary-material
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=supplementary-material
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=supplementary-material
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=supplementary-material
                                                                    -->
 <!ELEMENT  supplementary-material
                         %supplementary-material-model;               >
@@ -925,8 +1072,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Used as a wrapper tag to contain a group of
                         tables that must be displayed together
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=table-wrap-group
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=table-wrap-group
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=table-wrap-group
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=table-wrap-group
                                                                    -->
 <!ELEMENT  table-wrap-group
                         %table-wrap-group-model;                     >
@@ -961,9 +1108,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Full Length Article table body <tblbody>
                         model, et al.)
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=table-wrap
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=table-wrap
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=table-wrap
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=table-wrap
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=table-wrap
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=table-wrap
                                                                    -->
 <!ELEMENT  table-wrap   %table-wrap-model;                           >
 <!ATTLIST  table-wrap
@@ -987,9 +1134,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Table Foot <tfoot>, which contains rows
                         and columns like the rest of the table.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=table-wrap-foot
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=table-wrap-foot
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=table-wrap-foot
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=table-wrap-foot
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=table-wrap-foot
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=table-wrap-foot
                                                                    -->
 <!ELEMENT  table-wrap-foot
                         %table-wrap-foot-model;                      >

@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    JATS DTD Suite Module of Modules                  -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.2 20190208//EN"
      Delivered as file "JATS-modules1.ent"                         -->
 <!-- ============================================================= -->
 
@@ -116,6 +116,95 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 14. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 13. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 12. INLINE EMBEDDED INDEX - Added definition of BITS module that
+     defines inline (embedded) index terms.
+ 
+ 11. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 10. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+    
+  9. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -222,7 +311,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -242,7 +331,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Archiving and Interchange DTD.             -->
 <!ENTITY % default-classes.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.2 20190208//EN"
 "JATS-default-classes1.ent"                                          >
 
 
@@ -253,7 +342,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Interchange DTD.                           -->
 <!ENTITY % default-mixes.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Default Element Mixes Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) Default Element Mixes Module v1.2 20190208//EN"
 "JATS-default-mixes1.ent"                                            >
 
 
@@ -265,7 +354,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    COMMON ATTRIBUTES SHARED BY ALL ELEMENTS   -->
 <!ENTITY % JATS-common-atts.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common Attributes (for all elements) v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common Attributes (for all elements) v1.2 20190208//EN"
 "JATS-common-atts1.ent"                                              >
 
 
@@ -277,7 +366,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    COMMON (SHARED) ELEMENT DECLARATIONS       -->
 <!ENTITY % common.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common (Shared) Elements Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common (Shared) Elements Module v1.2 20190208//EN"
 "JATS-common1.ent"                                                   >
 
 
@@ -289,21 +378,21 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    ARTICLE METADATA ELEMENTS                  -->
 <!ENTITY % articlemeta.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.2 20190208//EN"
 "JATS-articlemeta1.ent"                                              >
 
 
 <!--                    BACK MATTER ELEMENTS                       -->
 <!ENTITY % backmatter.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.2 20190208//EN"
 "JATS-backmatter1.ent"                                               >
 
 
 <!--                    DISPLAY (GRAPHICAL) ELEMENTS INVOCATION    -->
 <!ENTITY % display.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.2 20190208//EN"
 "JATS-display1.ent"                                                  >
 
 
@@ -313,7 +402,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         Break Class, and the Emphasis Class        -->
 <!ENTITY % format.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.2 20190208//EN"
 "JATS-format1.ent"                                                   >
 
 
@@ -324,51 +413,51 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         and the <principal-investigator>           -->
 <!ENTITY % funding.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.2 20190208//EN"
 "JATS-funding1.ent"                                                  >
 
 
 <!--                    JOURNAL METADATA ELEMENTS                  -->
 <!ENTITY % journalmeta.ent PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Metadata Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Metadata Elements v1.2 20190208//EN"
 "JATS-journalmeta1.ent"                                              >
 
 
 <!--                    LINK ELEMENTS                              -->
 <!ENTITY % link.ent  PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.2 20190208//EN"
 "JATS-link1.ent"                                                     >
 
 
 <!--                    LIST ELEMENTS                              -->
 <!ENTITY % list.ent  PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.2 20190208//EN"
 "JATS-list1.ent"                                                          >
 
 
 <!--                    MATH ELEMENTS                              -->
 <!ENTITY % math.ent  PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Math Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Math Class Elements v1.2 20190208//EN"
 "JATS-math1.ent"                                                     >
 
 
 <!--                    PARAGRAPH-LEVEL ELEMENTS                   -->
 <!ENTITY % para.ent  PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Paragraph-Like Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Paragraph-Like Elements v1.2 20190208//EN"
 "JATS-para1.ent"                                                          >
 
 
 <!--                    PHRASE-LEVEL CONTENT ELEMENTS              -->
 <!ENTITY % phrase.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.2 20190208//EN"
 "JATS-phrase1.ent"                                                   >
 
 
 <!--                    BIBLIOGRAPHY REFERENCES (CITATION) ELEMENTS-->
 <!ENTITY % references.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.2 20190208//EN"
 "JATS-references1.ent"                                               >
 
 
@@ -378,14 +467,14 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         related book or a dataset.                 -->
 <!ENTITY % related-object.ent
                        PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Related Object Element v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Related Object Element v1.2 20190208//EN"
 "JATS-related-object1.ent"                                           >
 
 
 <!--                    SECTION ELEMENTS                           -->
 <!ENTITY % section.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Section Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Section Class Elements v1.2 20190208//EN"
 "JATS-section1.ent"                                                  >
 
 
@@ -402,7 +491,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         will be invoked in the DTD module          -->
 <!ENTITY % XHTMLtablesetup.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite XHTML Table Setup Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite XHTML Table Setup Module v1.2 20190208//EN"
 "JATS-XHTMLtablesetup1.ent"                                          >
 
 
@@ -438,7 +527,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         This module is invoked by each DTD.        -->
 <!ENTITY % JATS-ali-namespace.ent
                         PUBLIC
-"-//NLM//DTD JATS ALI Namespace Module v1.1 20151215//EN"
+"-//NLM//DTD JATS ALI Namespace Module v1.2 20190208//EN"
 "JATS-ali-namespace1.ent"                                            >
 
 
@@ -454,14 +543,14 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         will be invoked in the DTD module          -->
 <!ENTITY % oasis-tablesetup.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) Namespaced OASIS XML Table Setup Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) Namespaced OASIS XML Table Setup Module v1.2 20190208//EN"
 "JATS-oasis-tablesetup1.ent"                                         >
 
 
 <!--                    OASIS XML TABLE MODEL                      -->
 <!--                    The OASIS (CALS) Table Exchange table model
                         This module is invoked in
-                        %OASIStablesetup3.ent;                     -->
+                        %JATS-oasis-tablesetup1.ent;               -->
 <!ENTITY % oasis-exchange.ent
                         PUBLIC
 "-//OASIS//DTD XML Exchange Table Model 19990315//EN"
@@ -478,7 +567,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         entities used in this DTD                  -->
 <!ENTITY % xmlspecchars.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite XML Special Characters Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite XML Special Characters Module v1.2 20190208//EN"
 "JATS-xmlspecchars1.ent"                                             >
 
 
@@ -486,7 +575,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Declares any custom special character
                         entities created for this Suite            -->
 <!ENTITY % chars.ent PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Custom Special Characters Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Custom Special Characters Module v1.2 20190208//EN"
 "JATS-chars1.ent"                                                    >
 
 
@@ -502,7 +591,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         elements in the tag set.                   -->
 <!ENTITY % mathmlsetup.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML Setup Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML Setup Module v1.2 20190208//EN"
 "JATS-mathmlsetup1.ent"                                              >
 
 
@@ -511,7 +600,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         elements in the tag set.                   -->
 <!ENTITY % mathml3-mathmlsetup.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML 3.0 Setup Module v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML 3.0 Setup Module v1.2 20190208//EN"
 "JATS-mathml3-mathmlsetup1.ent"                                      >
 
 
@@ -559,9 +648,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         their own module for easy expansion or
                         replacement.                               -->
 <!ENTITY % notat.ent PUBLIC
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Notation Declarations v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Notation Declarations v1.2 20190208//EN"
 "JATS-notat1.ent"                                                    >
-
 
 <!-- ============================================================= -->
 <!--                     NLM CITATION (DEPRECATED ELEMENT) MODULE  -->
@@ -577,8 +665,32 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         is expected to be generated.               -->
 <!ENTITY % nlmcitation.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) NLM Citation v1.2 20190208//EN"
 "JATS-nlmcitation1.ent"                                              >
 
+<!-- ============================================================= -->
+<!--                     MODULES TO ADD BITS INLINE INDEX ELEMENTS -->
+<!-- ============================================================= -->
+
+
+<!--                    BITS EMBEDDED INDEX ELEMENTS MODULE        -->
+<!--                    Element declarations the index elements
+                        which are embedded in the document
+                        narrative.                                 -->
+<!ENTITY % index-term.ent
+                        PUBLIC
+"-//NLM//DTD BITS Embedded Index Element Module v2.1 20180401//EN"
+"BITS-embedded-index2.ent"                                           >
+
+
+<!-- ============================================================= -->
+<!--                     NAMESPACE FOR W3C XSI PREFIX FOR DTDS
+                         THAT DO NOT USE MATHML                    -->
+<!-- ============================================================= -->
+
+<!ENTITY % JATS-xsi-schema-namespace.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite XSI Namespace Setup Module v1.2 20190208//EN"
+"JATS-xsi-schema-namespace1.ent"                                     >
 
 <!-- =================== End Journal Article Module of Modules === -->

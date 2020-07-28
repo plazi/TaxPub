@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Link Element Classes                              -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -10,7 +10,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.1 20151215//EN"
+"-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.2 20190208//EN"
      Delivered as file "JATS-link1.ent"                            -->
 <!-- ============================================================= -->
 
@@ -103,6 +103,98 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd) 
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 17. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 16. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+
+ 15. XREF - Changed @ref-type from CDATA back to a fixed 
+     value list, reversing what was done in version 1.2d1.
+     Added new values "award" and "bio".
+
+ 14. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 13. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+     
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 12. XREF - Changed @ref-type from a fixed value list to CDATA
+ 
+ 11. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
       =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -205,7 +297,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      and the filename as delivered to include "JATS" and the
      new version number "0".
 
-  2. ACCESSIBILITY - Added @alt to <xref> thru %xref-atts;
+  2. ACCESSIBILITY - Added @alt to <xref> through %xref-atts;
 
      =============================================================
      Version 3.0                       (DAL/BTU) v3.0 (2007-10-31)
@@ -220,7 +312,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -235,12 +327,15 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    DEFAULT TYPE OF CROSS(X)-REFERENCE         -->
 <!--                    Used to say to what the reference is pointing.
-                        Values are, for example: Affiliation "aff",
-                        or Figure "fig".                           -->
-<!ENTITY % ref-types    "aff | app | author-notes | bibr |
-                         boxed-text | chem | collab | contrib | 
-                         corresp | disp-formula | fig | fn | kwd | 
-                         list | plate | scheme | sec | statement |
+                        May be used for type-specific processing or
+                        validation. Values are, for example:
+                        Affiliation "aff" and Figure "fig", and
+                        Bibliographic ref (to a citation.          -->
+<!ENTITY % ref-types    "aff | app | author-notes | award | 
+                         bibr | bio | boxed-text | 
+                         chem | collab | contrib | corresp |
+                         disp-formula | fig | fn | kwd | list |
+                         plate | scheme | sec | statement |
                          supplementary-material |
                          table | table-fn |
                          other"                                      >
@@ -318,9 +413,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         body of the text, but in addition to or a
                         commentary on the body.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fn
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fn
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=fn
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fn
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fn
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=fn
                                                                    -->
 <!ELEMENT  fn           %fn-model;                                   >
 <!ATTLIST  fn
@@ -344,9 +439,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         location (anchor) to which a cross reference
                         can point
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=target
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=target
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=target
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=target
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=target
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=target
                                                                    -->
 <!ELEMENT  target       (#PCDATA %target-elements;)*                 >
 <!ATTLIST  target
@@ -370,13 +465,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         (if present) will be displayed as the link.
                         This element may be used to point to any
                         element that takes an "id" attribute.
-                        The "ref-type" attribute may be used to name
+                        The @ref-type attribute may be used to name
                         the element or type of object to which the
                         <xref> is pointing.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=xref
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=xref
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=xref
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=xref
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=xref
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=xref
                                                                    -->
 <!ELEMENT  xref         (#PCDATA %xref-elements;)*                   >
 <!ATTLIST  xref
@@ -402,9 +497,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         provides supplementary information for
                         the document, for example, an audio clip
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=inline-supplementary-material
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=inline-supplementary-material
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=inline-supplementary-material
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=inline-supplementary-material
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=inline-supplementary-material
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=inline-supplementary-material
                                                                    -->
 <!ELEMENT  inline-supplementary-material
                         (#PCDATA

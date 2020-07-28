@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--  MODULE:    Formatting Element Classes                        -->
-<!--  VERSION:   ANSI/NISO JATS Version 1.1 (Z39.96-2015)          -->
-<!--  DATE:      December 2015                                     -->
+<!--  VERSION:   ANSI/NISO JATS Version 1.2 (Z39.96-2019)          -->
+<!--  DATE:      February 2019                                     -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -9,7 +9,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
- "-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.1 20151215//EN"
+ "-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.2 20190208//EN"
   Delivered as file "JATS-format1.ent"                             -->
 <!-- ============================================================= -->
 
@@ -99,6 +99,92 @@
 <!-- ============================================================= -->
 <!--
 Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
+    ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2019)
+                                   (DAL/BTU) v1.2     (2019-02-08)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI vote on Feb 08, 2019, so it supersedes all Committee 
+     Drafts as well as the draft version JATS 1.2 2018 (the version
+     submitted for vote), becoming NISO JATS v1.2 20190208 
+     (ANSI/NISO Z39.96-2019).
+  
+ 19. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+     "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
+     
+   ==============================================================
+     JATS Version 1.2 (ANSI/NISO Z39.96-2018)
+     and BITS 2.1 (v2.0 20180401)
+                                   (DAL/BTU) v1.2     (2018-11-30)
+    
+     NISO JATS is a continuing maintenance NISO Standard, which 
+     requires voting by the both the NISO and ANSI membership 
+     to be changed. This version of the NISO JATS was approved 
+     by ANSI and NISO vote, so it supersedes all Committee Drafts
+     and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
+  
+ 18. BITS "2.1" and "v2.0 20180401" remains unchanged.
+     JATS "1.2d2" and "v1.2d2 20180401" became
+     JATS "1.2" and "v1.2 20181130" 
+
+    =============================================================
+     BITS Version 2.1                (DAL/BTU) v2.1    (2018-04-01)
+     JATS Version 1.2d2              (DAL/BTU) v1.2d2  (2018-04-01)
+
+     JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+     BITS is under continuous maintenance, and is modified at the
+     discretion of the working group.
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 17. BITS "2.0" and "v2.0 20151225" became
+     BITS "2.1" and "v2.1 20180401". 
+   
+     JATS "1.2d1" and "v1.2d1 20171231" became
+     JATS "1.2d2" and "v1.2d2 20180401". 
+
+     No module names were changed.
+ 
+    =============================================================
+     JATS Version 1.2d1 (ANSI/NISO Z39.96-2015)
+                                   (DAL/BTU) v1.2d1  (2017-12-31)
+ 
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+  
+ 16. JATS "1.2d1" and "v1.2d1 20170631" became
+     JATS "1.2d1" and "v1.2d1 20171231". 
+     
+    =============================================================
+     JATS Version 1.2d1              (DAL/BTU) v1.2d1  (2017-06-31)
+
+     NISO JATS is a continuing maintenance NISO Standard, which
+     requires voting by the ANSI and NISO memberships to be changed. 
+      
+     This draft DTD represents an interim version of the
+     non-normative JATS DTD Suite, as an indication to JATS users
+     the decisions that have been made by the JATS Standing
+     Committee. This draft has not yet been given public review 
+     or voting. The formal public identifiers were changed in the 
+     modules and the catalogs.
+ 
+ 15. JATS became version "1.2d1" and "v1.2d1 20170631" 
+
      =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -237,7 +323,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
        - sup             sup-atts
        - overline        overline-atts
        - overline-start  overline-start-atts
-       - overline-end    overline-start-atts
+       - overline-end    overline-end-atts
        - underline       underline-atts
        - underline-start underline-start-atts
        - underline-end   underline-end-atts
@@ -266,7 +352,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details on version 3.0 are available at
            http://dtd.nlm.nih.gov/3.0.
 
-  1. Updated public identifier to "v3.0 20080202//EN"              -->
+  1. Updated public identifier to "v3.0 20071031//EN"              -->
 
 <!-- ============================================================= -->
 <!-- Details concerning 
@@ -485,9 +571,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Defined to allow the user to specify an
                         explicit (non machine-generated) rule.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=hr
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=hr
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=hr
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=hr
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=hr
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=hr
                                                                    -->
 <!ELEMENT  hr           EMPTY                                        >
 <!ATTLIST  hr 
@@ -503,9 +589,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Defined to allow the user to specify an
                         explicit (non machine-generated) line break.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=break
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=break
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=break
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=break
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=break
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=break
                                                                    -->
 <!ELEMENT  break        EMPTY                                        >
 <!ATTLIST  break
@@ -521,24 +607,24 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Used to mark text that should appear in bold
                         face type for print or display
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=bold
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=bold
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=bold
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=bold
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=bold
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=bold
                                                                    -->
 <!ELEMENT  bold         (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  bold
              %bold-atts;                                             >
 
 
-<!--                    FIXED CASE                 -->
+<!--                    FIXED CASE                                 -->
 <!--                    Used to mark text in which the case of the 
                         content should not be changed, even if the 
                         content around it is styled to all
                         upper case or all lower. For example "PhD".
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=fixed-case
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=fixed-case
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=fixed-case
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=fixed-case
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=fixed-case
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=fixed-case
                                                                    -->
 <!ELEMENT  fixed-case   (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  fixed-case
@@ -549,9 +635,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 <!--                    Used to mark text that should appear in
                         italic type on output.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=italic
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=italic
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=italic
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=italic
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=italic
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=italic
                                                                    -->
 <!ELEMENT  italic       (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  italic
@@ -565,9 +651,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         computer code examples, man-machine
                         dialogues, etc.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=monospace
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=monospace
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=monospace
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=monospace
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=monospace
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=monospace
                                                                    -->
 <!ELEMENT  monospace    (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  monospace
@@ -579,9 +665,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         roman script no matter what style the
                         surrounding text takes on.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=roman
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=roman
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=roman
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=roman
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=roman
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=roman
                                                                    -->
 <!ELEMENT  roman        (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  roman
@@ -594,8 +680,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         special sans-serif font, typically used in
                         math or chemistry
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=sans-serif
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=sans-serif
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=sans-serif
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=sans-serif
                                                                    -->
 <!ELEMENT  sans-serif   (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  sans-serif
@@ -607,9 +693,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         font which creates smaller capital letters
                         on output.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=sc
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=sc
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=sc
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=sc
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=sc
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=sc
                                                                    -->
 <!ELEMENT  sc           (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  sc
@@ -624,9 +710,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         a specific publisher tag set and should not
                         grow beyond what they need.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=overline
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=overline
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=overline
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=overline
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=overline
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=overline
                                                                    -->
 <!ELEMENT  overline     (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  overline
@@ -638,9 +724,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         a line through it so as to appear "struck out"
                         on display or print
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=strike
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=strike
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=strike
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=strike
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=strike
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=strike
                                                                    -->
 <!ELEMENT  strike       (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  strike
@@ -652,9 +738,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         than the baseline and slightly smaller,
                         to act as an inferior or subscript
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=sub
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=sub
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=sub
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=sub
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=sub
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=sub
                                                                    -->
 <!ELEMENT  sub          (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  sub
@@ -666,9 +752,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         than the baseline and slightly smaller,
                         to act as a superior or superscript
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=sup
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=sup
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=sup
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=sup
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=sup
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=sup
                                                                    -->
 <!ELEMENT  sup          (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  sup
@@ -680,9 +766,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         horizontal line below each character in
                         display or print.
                         Details at:
-                         http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=underline
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=underline
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=underline
+                         http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=underline
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=underline
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=underline
                                                                    -->
 <!ELEMENT  underline    (#PCDATA %emphasized-text;)*                 >
 <!ATTLIST  underline
@@ -705,7 +791,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         end of ornament will be marked by an
                         Overline End element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=overline-start
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=overline-start
                                                                    -->
 <!ELEMENT  overline-start
                         EMPTY                                        >
@@ -718,7 +804,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         start of ornament will be marked by an
                         Overline Start element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=overline-end
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=overline-end
                                                                    -->
 <!ELEMENT  overline-end EMPTY                                        >
 <!ATTLIST  overline-end
@@ -730,7 +816,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         the end of ornament will be marked by an
                         Underline End element
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=underline-start
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=underline-start
                                                                    -->
 <!ELEMENT  underline-start
                         EMPTY                                        >
@@ -743,7 +829,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         start of ornament will be marked by an
                         Underline Start element.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=underline-end
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=underline-end
                                                                    -->
 <!ELEMENT  underline-end
                         EMPTY                                        >
@@ -780,9 +866,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         after the characters they modify, or to the
                         right of vertically set text.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=ruby
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=ruby
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=ruby
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=ruby
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=ruby
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=ruby
                                                                    -->
 <!ELEMENT  ruby         %ruby-model;                                 >
 <!ATTLIST  ruby
@@ -801,9 +887,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         narrative text to which a Ruby textual 
                         annotation <rt> should be applied.
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=rb
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=rb
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=rb
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=rb
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=rb
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=rb
                                                                    -->
 <!ELEMENT  rb           (#PCDATA %rb-elements;)*                     >
 <!ATTLIST  rb
@@ -824,9 +910,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         the Ruby Base text <rb>.
                         Details at:
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=rt
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=rt
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=rt
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=rt
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=rt
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=rt
                                                                    -->
 <!ELEMENT  rt           (#PCDATA %rt-elements;)*                     >
 <!ATTLIST  rt
@@ -846,9 +932,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                           <rp> (</rp><rt>annotation</rt><rp>) </rp>
                           </ruby>
                         Details at:
-                        http://jats.nlm.nih.gov/archiving/tag-library/1.1/index.html?elem=rp
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=rp
-                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.1/index.html?elem=rp
+                        http://jats.nlm.nih.gov/archiving/tag-library/1.2d2/index.html?elem=rp
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.2d2/index.html?elem=rp
+                        http://jats.nlm.nih.gov/articleauthoring/tag-library/1.2d2/index.html?elem=rp
                                                                    -->
 <!ELEMENT  rp           (#PCDATA)                                    >
 <!ATTLIST  rp
