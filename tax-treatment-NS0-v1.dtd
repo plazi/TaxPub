@@ -1,11 +1,11 @@
 <!-- ============================================================= -->
 <!-- ============================================================= 
 This DTD is a modification of the orignal TaxPub DTD extension to the 
-NLM Journal Publishing DTD version 3.0 created in September 2008.
+JATS Journal Publishing DTD version 1.1.
 
-This is version 1.0-alpha and should be considered a pre-release version. 
+This is TaxPub version 1.1.1 and should be considered a pre-release version. 
 
-This version was created on December 22, 2017. 
+This version was created on April 25, 2022. 
 
 Donat Agosti, Terry Catapano, Lyubomir Penev, Bob Morris, Scott Federhen,
 Laura Kelly, Jeff Beck.
@@ -16,7 +16,7 @@ Laura Kelly, Jeff Beck.
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20180101//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.1 20220425//EN"
      Delivered as file "tax-treatment.dtd"                     -->
 <!-- ============================================================= -->
 
@@ -39,7 +39,7 @@ Laura Kelly, Jeff Beck.
 
 <!ENTITY % taxpubcustom-modules.ent 
                         PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20180101//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.1 20220425//EN"
 "taxpubcustom-modules-NS0-v1.ent"                                      >
 %taxpubcustom-modules.ent;
 

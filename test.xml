@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tp:taxon-treatment SYSTEM "file:/C:/Users/Terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<tp:taxon-treatment>
+    <tp:treatment-meta></tp:treatment-meta>
+    <tp:nomenclature>
+        sss
+        <tp:taxon-name>Test</tp:taxon-name>
+        and a bunch of other crap.
+    </tp:nomenclature>
+    <tp:treatment-sec></tp:treatment-sec>
+</tp:taxon-treatment>

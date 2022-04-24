@@ -2,13 +2,13 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20180101//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.1 20220425//EN"
 Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!-- =============================================================  -->
 
 
-<!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, tp:nomenclature , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
-<!ATTLIST 	tp:taxon-treatment
+<!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, (tp:nomenclature | tp:element-nomenclature ), (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
+<!ATTLIST    tp:taxon-treatment
 					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
 					%taxpub-namespace-att; >
@@ -22,8 +22,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!ELEMENT	tp:treatment-meta      %sec-meta-model;	>
-<!ATTLIST 	tp:treatment-meta
+<!ELEMENT	tp:treatment-meta      (%sec-meta-model;)	>
+<!ATTLIST    tp:treatment-meta
 					%jats-common-atts; >
 <!--
 ~tp:treatment-meta~
@@ -33,8 +33,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!ELEMENT	tp:nomenclature  			%nomenclature-model;	>
-<!ATTLIST 	tp:nomenclature
+<!ELEMENT	tp:element-nomenclature  			%nomenclature-model;	>
+<!ATTLIST    tp:element-nomenclature
 					%jats-common-atts; >
 <!--
 ~tp:nomenclature~
@@ -47,14 +47,15 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!--
-<!ELEMENT	tp:mixed-nomenclature  	    %mixed-nomenclature-model;	>
--->
+
+<!ELEMENT	tp:nomenclature  	    (%mixed-nomenclature-model;)	>
+<!ATTLIST    tp:nomenclature
+					%jats-common-atts; >
 
 
-<!ELEMENT	tp:treatment-sec        %taxon-sec-model;	>
+
+<!ELEMENT   tp:treatment-sec        %taxon-sec-model;	>
 <!ATTLIST   tp:treatment-sec
-					%jats-common-atts;
 					%sec-atts; >
 <!--
 ~tp:treatment-sec~
@@ -120,7 +121,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:nomenclature-citation-list			(#PCDATA | tp:taxon-name | tp:nomenclature-citation)* >
-<!ATTLIST 	tp:nomenclature-citation-list
+<!ATTLIST    tp:nomenclature-citation-list
 					%jats-common-atts;
 					content-type		CDATA		#IMPLIED >
 <!--
@@ -132,7 +133,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT	tp:nomenclature-citation	(#PCDATA | tp:taxon-name | tp:taxon-authority | tp:type-genus | tp:type-species | mixed-citation | xref |  tp:material-citation | tp:taxon-status | comment )* >
-<!ATTLIST 	tp:nomenclature-citation
+<!ATTLIST    tp:nomenclature-citation
 					%jats-common-atts;
 					content-type		CDATA		#IMPLIED >
 <!--
@@ -145,7 +146,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->						
 
 <!ELEMENT	tp:type-genus				(tp:taxon-name, tp:material-location?) >
-<!ATTLIST 	tp:type-genus
+<!ATTLIST    tp:type-genus
 					%jats-common-atts;     >
 <!--
 ~tp:type-genus~
@@ -157,7 +158,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:type-species			(tp:taxon-name, tp:material-location?) >
-<!ATTLIST 	tp:type-genus
+<!ATTLIST    tp:type-species
 					%jats-common-atts;     >
 <!--
 ~tp:type-species~
@@ -202,7 +203,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 
 <!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
-<!ATTLIST 	tp:taxon-name
+<!ATTLIST    tp:taxon-name
 					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
                     rank 		    CDATA			#IMPLIED
@@ -241,7 +242,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 ~~
 
 -->
-<!ELEMENT 	tp:descriptive-statement-part 	(#PCDATA | object-id)* >
+<!ELEMENT    tp:descriptive-statement-part 	(#PCDATA | object-id)* >
 <!ATTLIST	tp:descriptive-statement-part
 					%jats-common-atts;
 					%might-link-atts;      >
@@ -254,7 +255,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->																						
 <!ELEMENT	tp:material-citation		(#PCDATA | named-content | tp:collecting-event  | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref)*>
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	tp:material-citation
 					%jats-common-atts;
 					%might-link-atts;      >
 <!--
@@ -267,7 +268,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:material-location                (#PCDATA | object-id)* >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	 tp:material-location
 					%jats-common-atts;     >
 <!--
 ~tp:material-location~
@@ -278,7 +279,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:collecting-event		(#PCDATA | tp:collecting-location | date | tp:taxon-name | object-id | named-content)* >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	 tp:collecting-event
 					%jats-common-atts;     >
 <!--
 ~tp:collecting-event~
@@ -292,7 +293,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:collecting-location		(object-id*, tp:location*, comment? ) >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	tp:collecting-location
 					%jats-common-atts;     >
 <!--
 ~tp:collecting-location~
@@ -302,7 +303,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:location	(#PCDATA %country-elements;)*  >
-<!ATTLIST       tp:location                         
+<!ATTLIST     tp:location                         
                                         %jats-common-atts;
                                         location-type             CDATA              #IMPLIED >
 <!--

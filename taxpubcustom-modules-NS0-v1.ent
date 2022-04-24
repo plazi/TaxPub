@@ -2,7 +2,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20180101//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.1 20220425//EN"
 Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
 <!-- ============================================================= -->
 
@@ -14,7 +14,7 @@ Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
 <!--                    DTD-SPECIFIC ELEMENTS MODULE   -->
 <!ENTITY % taxpubcustom-elements.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20180101//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.1 20220425//EN"
 "taxpubcustom-elements-NS0-v1.ent"                                      >
 
 
@@ -49,7 +49,7 @@ Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
                         Journal Archiving and Interchange DTD.     -->
 <!ENTITY % taxpubcustom-models.ent 
                         PUBLIC  
-"-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v1.0 20180101//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v1.1 20220425//EN"
 "taxpubcustom-models-NS0-v1.ent"                                       >
 
 
