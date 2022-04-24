@@ -661,15 +661,15 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
                           		(%sec-back-matter-mix;)* )"                >
 -->
 
-<!--                    CONTENT MODEL FOR MIXED-NOMENCLATURE SEC      -->
-
-<!ENTITY % mixed-nomenclature-model     "sec-meta?, label?, tp:taxon-name, (#PCDATA | (tp:taxon-authority? | tp:taxon-status? | xref | tp:nomenclature-citation-list* | 
-                                                    (tp:type-genus | tp:type-species)? | tp:taxon-type-location? | x))*" >
-
-
 <!--                    CONTENT MODEL FOR NOMENCLATURE SEC      -->
-<!ENTITY % nomenclature-model           "(sec-meta?, label?, tp:taxon-name, tp:taxon-authority?, tp:taxon-status?, tp:taxon-identifier*, xref* , tp:nomenclature-citation-list*,
-                                                        (tp:type-genus | tp:type-species)?, tp:taxon-type-location?)" >
+
+<!ENTITY % mixed-nomenclature-model     "sec-meta?, label?, tp:taxon-name, #PCDATA | tp:taxon-authority? | tp:taxon-status? | xref* | tp:nomenclature-citation-list* | 
+                                                    tp:type-genus? | tp:type-species? | tp:taxon-type-location? | x*" >
+
+
+<!--                    CONTENT MODEL FOR ELEMENT-NOMENCLATURE SEC      -->
+<!ENTITY % nomenclature-model           "sec-meta?, label?, tp:taxon-name, tp:taxon-authority?, tp:taxon-status?, tp:taxon-identifier*, xref* , tp:nomenclature-citation-list*,
+                                                        (tp:type-genus | tp:type-species)?, tp:taxon-type-location?" >
 
 
 <!--                    OBJECT IDENTIFIER ATTRIBUTES               -->

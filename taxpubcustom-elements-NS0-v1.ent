@@ -36,6 +36,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!ELEMENT	tp:element-nomenclature  			%nomenclature-model;	>
 <!ATTLIST    tp:element-nomenclature
 					%jats-common-atts; >
+					
 <!--
 ~tp:nomenclature~
 ~note: The heading of a taxonomic treatment, containing the scientific name of the taxon
