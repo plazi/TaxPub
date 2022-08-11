@@ -5,7 +5,7 @@ TaxPub Extension of the Journal Publishing Tag Set NISO JATS Version 1.1 (ANSI/N
 TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.1 for encoding of articles containing taxonomic treatments.
 
 
-Documentation available at https://taxpub.catapanoth.com/v1-pre/documentation/#p=elem-tp-taxon-treatment
+Tag Library available at https://taxpub.catapanoth.com/v1-pre/documentation/#p=elem-tp-taxon-treatment
 
 
 
