@@ -9,7 +9,7 @@ Tag Library available at https://taxpub.catapanoth.com/v1-pre/documentation/#p=e
 
 
 
-See [the wiki](https://terms.tdwg.org/wiki/Class:TaxPub) at this repository for more information
+See the wikis [Class:TaxPub](https://terms.tdwg.org/wiki/Class:TaxPub) or [TaxPub](http://terms.tdwg.org/wiki/TaxPub) at this repository for more information
 
 
 Usage:
