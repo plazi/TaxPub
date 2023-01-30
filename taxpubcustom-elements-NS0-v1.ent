@@ -38,7 +38,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 					%jats-common-atts; >
 <!--
 ~tp:nomenclature~
-~note: The heading of a taxonomic treatment, containing the scientific name of the taxon
+~note: The heading of a taxonomic treatment, with element only content containing the scientific name of the taxon
             described by the treatment, and possibly the authority for the taxon, citations to
             previous descriptions, designations of type-genus, and type-species, and other
             information. ~
@@ -47,8 +47,19 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 
-<!--
+
 <!ELEMENT	tp:mixed-nomenclature  	    %mixed-nomenclature-model;	>
+<!ATTLIST 	tp:nomenclature
+					%jats-common-atts; >
+<!--
+~tp:mixed-nomenclature~
+~note: The heading of a taxonomic treatment, with possibly mixed content containing text the scientific name of the taxon
+            described by the treatment, and possibly the authority for the taxon, citations to
+            previous descriptions, designations of type-genus, and type-species, and other
+            information.  ~
+~~
+~~
+
 -->
 
 

@@ -663,7 +663,7 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
 
 <!--                    CONTENT MODEL FOR MIXED-NOMENCLATURE SEC      -->
 <!--
-<!ENTITY % mixed-nomenclature-model     "(sec-meta?, label?, tp:taxon-name, (tp:taxon-authority? | tp:taxon-status? | xref | tp:nomenclature-citation-list* | 
+<!ENTITY % mixed-nomenclature-model     "(sec-meta?, label?, tp:taxon-name | tp:taxon-authority? | tp:taxon-status? | xref | tp:nomenclature-citation-list* | 
                                                     (tp:type-genus | tp:type-species)? | tp:taxon-type-location? | x)*)" >
 -->				
 <!--                    CONTENT MODEL FOR NOMENCLATURE SEC      -->
