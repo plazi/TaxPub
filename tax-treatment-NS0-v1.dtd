@@ -3,12 +3,12 @@
 This DTD is a modification of the orignal TaxPub DTD extension to the 
 NLM Journal Publishing DTD version 3.0 created in September 2008.
 
-This is version 1.0-alpha and should be considered a pre-release version. 
+This is version 1.0. 
 
-This version was created on December 22, 2017. 
+This version was created on February 2, 2023. 
 
-Donat Agosti, Terry Catapano, Lyubomir Penev, Bob Morris, Scott Federhen,
-Laura Kelly, Jeff Beck.
+Terry Catapano with the assitance of Jeff Beck, Donat Agosti, Lyubomir Penev, Bob 
+Morris, Scott Federhen, Laura Kelly.
 
 -->
 
@@ -16,7 +16,7 @@ Laura Kelly, Jeff Beck.
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20180101//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230102//EN"
      Delivered as file "tax-treatment.dtd"                     -->
 <!-- ============================================================= -->
 
