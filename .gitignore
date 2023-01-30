@@ -1,2 +1,6 @@
+# oXygen project files
 *.xpr
+
+# emacs backup files
 *~
+

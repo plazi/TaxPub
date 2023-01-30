@@ -47,10 +47,12 @@
 ```
 
 ## DTD Documentation
-  * tp:taxon-treatment http://taxpub.catapanoth.com/v1-pre/documentation/#p=elem-tp-taxon-treatment
+  * tp:taxon-treatment 
+http://taxpub.catapanoth.com/v1-beta-1/documentation/#p=elem-tp-taxon-treatment
   ```
-    ( tp:treatment-meta?, tp:nomenclature, ( tp:treatment-sec | tp:taxon-treatment )*, ref-list? )
+    ( tp:treatment-meta?, (tp:nomenclature | tp:mixed-nomenclature), ( 
+tp:treatment-sec | tp:taxon-treatment )*, ref-list? )
   ```
 ## Status
-  * Version 1.0 Release Candidate 2
+  * Version 1.0-beta.1 Release Candidate 4
   * Based on JATS Publishing v1.1
