@@ -7,7 +7,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!-- =============================================================  -->
 
 
-<!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, tp:nomenclature , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
+<!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, (tp:nomenclature | tp:mixed-nomenclature) , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
 <!ATTLIST 	tp:taxon-treatment
 					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
@@ -48,8 +48,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 
-<!ELEMENT	tp:mixed-nomenclature  	    %mixed-nomenclature-model;	>
-<!ATTLIST 	tp:nomenclature
+<!ELEMENT	tp:mixed-nomenclature  	%mixed-nomenclature-model;  	>
+<!ATTLIST 	tp:mixed-nomenclature
 					%jats-common-atts; >
 <!--
 ~tp:mixed-nomenclature~
