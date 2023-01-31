@@ -20,7 +20,7 @@ Download release, point instance to file tax-treatment-NS0-v1.dtd using Formal P
 `-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230202//EN` 
 
 
-## Publications
+## Publications About TaxPub
 
 * Catapano T. 2010. TaxPub: _An Extension of the NLM/NCBI Journal Publishing DTD for Taxonomic Descriptions._ Journal Article Tag Suite Conference (JATS-Con) Proceedings 2010 [Internet]. Bethesda (MD): National Center for Biotechnology Information (US); 2010. Available from: [http://www​.ncbi.nlm.nih​.gov/books/NBK47081/](http://www.ncbi.nlm.nih.gov/books/NBK47081/)
 
