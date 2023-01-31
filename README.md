@@ -8,9 +8,9 @@ TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.3 fo
 
 ## Tag Libraries
 
-[TaxPub V1.0 Tag Library](https://taxpub.catapanoth.com/v1-0/taglibrary/#p=elem-tp-taxon-treatment) for the models of TaxPub elements and attributes
+[TaxPub V1.0 Tag Library](https://taxpub.catapanoth.com/v1-0/taglibrary/#p=elem-tp-taxon-treatment): includes models for TaxPub elements and attributes as well as those from JATS 1.3 Publishing
 
-The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm.nih.gov/publishing/tag-library/1.3/)
+The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm.nih.gov/publishing/tag-library/1.3/): Provides extensive documentation including definitions and models for the "generic" elements and attributes in the JATS 1.3 Publishing tag setn which TaxPub extends. 
 
 
 ## Usage
