@@ -10,8 +10,8 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!ELEMENT	tp:taxon-treatment 		(tp:treatment-meta?, (tp:nomenclature | tp:mixed-nomenclature) , (tp:treatment-sec | tp:taxon-treatment)*, ref-list?  ) >
 <!ATTLIST 	tp:taxon-treatment
 					%jats-common-atts;
-					auth-code		CDATA			#IMPLIED 
-					%taxpub-namespace-att; >
+					%taxpub-namespace-att; 
+					auth-code		CDATA			#IMPLIED >
 <!--
 ~tp:taxon-treatment~
 ~note: A publication or or section of a publication documenting the features or distribution
@@ -23,7 +23,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:treatment-meta      %sec-meta-model;	>
-<!ATTLIST 	tp:treatment-meta
+<!ATTLIST    tp:treatment-meta
 					%jats-common-atts; >
 <!--
 ~tp:treatment-meta~
@@ -264,7 +264,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->																						
 <!ELEMENT	tp:material-citation		(#PCDATA | named-content | tp:collecting-event  | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref)*>
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	tp:material-citation
 					%jats-common-atts;
 					%might-link-atts;      >
 <!--

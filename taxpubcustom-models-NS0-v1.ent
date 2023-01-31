@@ -35,8 +35,7 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
                         Design Note: All inline mixes begin with an
                         OR bar.                                    -->
 <!ENTITY % citation-elements
-                        "%citation-additions.class; |
-                         %emphasis.class; | %inline-display.class; |
+                        "%emphasis.class; | %inline-display.class; |
                          %inline-math.class; | %label.class; |
                          %phrase.class; | %references.class; |
                          %subsup.class;"                             >
@@ -679,7 +678,7 @@ Delivered as file "taxpubcustom-models-NS0-v1.ent"                       -->
              content-type
                         CDATA                              #IMPLIED 
 								
-				%might-link-atts; "												>
+			%might-link-atts; "												>
 
 																											
 <!-- TAXPUB NAMESPACE DECLARATION      -->

@@ -29,11 +29,19 @@ Morris, Scott Federhen, Laura Kelly.
 
 <!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
 <!--                    Names all DTD-specific external modules    -->
+<!-- 
 <!ENTITY % journalpubcustom-modules.ent
                         PUBLIC
 "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD-Specific Modules v1.3 20210610//EN"
 "JATS-journalpubcustom-modules1-3.ent"                             >
 %journalpubcustom-modules.ent;
+-->
+
+<!ENTITY % taxpubcustom-modules.ent 
+                        PUBLIC  
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230202//EN"
+"taxpubcustom-modules-NS0-v1.ent"                                      >
+%taxpubcustom-modules.ent;
 
 
 <!--                    MODULE TO NAME THE MATHML 3.0 MODULES      -->
@@ -107,7 +115,8 @@ Morris, Scott Federhen, Laura Kelly.
                         class definitions for the Journal Publishing
                         DTD that will over-ride classes in the Suite.
                         (Defined in %journalpubcustom-modules.ent;)-->
-%journalpubcustom-classes.ent;
+<!--   %journalpubcustom-classes.ent; -->
+%taxpubcustom-classes.ent; 
 
 
 <!--                    DEFAULT ELEMENT CLASSES MODULE             -->
@@ -121,7 +130,8 @@ Morris, Scott Federhen, Laura Kelly.
                         class definitions that will be used to
                         over-ride some element mixes in this DTD.
                         (Defined in %journalpubcustom-modules.ent;)-->
-%journalpubcustom-mixes.ent;
+<!-- %journalpubcustom-mixes.ent; -->
+%taxpubcustom-mixes.ent;
 
 
 <!--                    DEFAULT MIX CUSTOMIZATIONS MODULE          -->
@@ -137,7 +147,8 @@ Morris, Scott Federhen, Laura Kelly.
                         lists to be used in content models, and
                         attribute values. These are DTD-specific.
                         (Defined in %journalpubcustom-modules.ent;)-->
-%journalpubcustom-models.ent;
+<!-- %journalpubcustom-models.ent; -->
+%taxpubcustom-models.ent;
 
 
 
@@ -158,6 +169,9 @@ Morris, Scott Federhen, Laura Kelly.
 <!-- ============================================================= -->
 <!--                    JOURNAL ARTICLE CLASS ELEMENTS (alpha)     -->
 <!-- ============================================================= -->
+
+<!--                    TAXONOMIC TREATMENT ELEMENTS                  -->
+%taxpubcustom-elements.ent;
 
 
 <!--                    ARTICLE METADATA ELEMENTS                  -->

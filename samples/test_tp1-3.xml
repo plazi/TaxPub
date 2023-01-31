@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1.dtd">
 <tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
-    <tp:mixed-nomenclature><tp:taxon-name>Aus bus</tp:taxon-name></tp:mixed-nomenclature>
-    <tp:treatment-sec>
-        <p><tp:material-citation><named-content content-type="specimenID" ></named-content></tp:material-citation></p>
-    </tp:treatment-sec>
+    <tp:mixed-nomenclature><tp:taxon-name></tp:taxon-name></tp:mixed-nomenclature>
 </tp:taxon-treatment>
