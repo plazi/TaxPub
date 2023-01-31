@@ -324,9 +324,11 @@ Morris, Scott Federhen, Laura Kelly.
              %XLINK.xmlns.attrib;
              %MATHML.xmlns.attrib;
              %ali.xmlns.attrib;
-             %Schema.xmlns.attrib;  
+             %Schema.xmlns.attrib;
+             %taxpub-namespace-att;
              %Schema.prefix;:noNamespaceSchemaLocation   
-                        CDATA          #IMPLIED"                     >
+                        CDATA          #IMPLIED"                     
+                                           >
 
 
 <!--                    BACK ATTRIBUTES                            -->

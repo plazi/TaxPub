@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tp:taxon-treatment SYSTEM "file:/Users/terry/Github/TaxPub/tax-treatment-NS0-v1.dtd">
+<!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1.dtd">
 <tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
     <tp:treatment-meta>
         <mixed-citation publication-type="taxon-treatment">
