@@ -29,19 +29,11 @@ Morris, Scott Federhen, Laura Kelly.
 
 <!--                    MODULE TO NAME DTD-SPECIFIC MODULES        -->
 <!--                    Names all DTD-specific external modules    -->
-<!--
 <!ENTITY % journalpubcustom-modules.ent
                         PUBLIC
 "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD-Specific Modules v1.3 20210610//EN"
-"JATS-journalpubcustom-modules1-3.ent"                                 >
+"JATS-journalpubcustom-modules1-3.ent"                             >
 %journalpubcustom-modules.ent;
--->
-
-<!ENTITY % taxpubcustom-modules.ent 
-                        PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230202//EN"
-"taxpubcustom-modules-NS0-v1.ent"                                      >
-%taxpubcustom-modules.ent;
 
 
 <!--                    MODULE TO NAME THE MATHML 3.0 MODULES      -->
@@ -49,7 +41,7 @@ Morris, Scott Federhen, Laura Kelly.
 <!ENTITY % mathml3-modules.ent
                         PUBLIC
 "-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.3 20210610//EN"
-"JATS-mathml3-modules1-3.ent"                                          >
+"JATS-mathml3-modules1-3.ent"                                      >
 %mathml3-modules.ent;
 
 
@@ -73,7 +65,7 @@ Morris, Scott Federhen, Laura Kelly.
                         entity.                                    -->
 <!ENTITY % modules.ent  PUBLIC
 "-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.3 20210610//EN"
-"JATS-modules1-3.ent"                                                  >
+"JATS-modules1-3.ent"                                              >
 %modules.ent;
 
 <!-- ============================================================= -->
@@ -115,8 +107,7 @@ Morris, Scott Federhen, Laura Kelly.
                         class definitions for the Journal Publishing
                         DTD that will over-ride classes in the Suite.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!-- %journalpubcustom-classes.ent; -->
-%taxpubcustom-classes.ent; 
+%journalpubcustom-classes.ent;
 
 
 <!--                    DEFAULT ELEMENT CLASSES MODULE             -->
@@ -130,8 +121,7 @@ Morris, Scott Federhen, Laura Kelly.
                         class definitions that will be used to
                         over-ride some element mixes in this DTD.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!-- %journalpubcustom-mixes.ent; -->
-%taxpubcustom-mixes.ent;
+%journalpubcustom-mixes.ent;
 
 
 <!--                    DEFAULT MIX CUSTOMIZATIONS MODULE          -->
@@ -147,8 +137,7 @@ Morris, Scott Federhen, Laura Kelly.
                         lists to be used in content models, and
                         attribute values. These are DTD-specific.
                         (Defined in %journalpubcustom-modules.ent;)-->
-<!--  %journalpubcustom-models.ent; -->
-%taxpubcustom-models.ent;
+%journalpubcustom-models.ent;
 
 
 
@@ -170,8 +159,6 @@ Morris, Scott Federhen, Laura Kelly.
 <!--                    JOURNAL ARTICLE CLASS ELEMENTS (alpha)     -->
 <!-- ============================================================= -->
 
-<!--                    TAXONOMIC TREATMENT ELEMENTS                  -->
-%taxpubcustom-elements.ent;
 
 <!--                    ARTICLE METADATA ELEMENTS                  -->
 %articlemeta.ent;
@@ -245,6 +232,25 @@ Morris, Scott Federhen, Laura Kelly.
 <!-- ============================================================= -->
 
 
+<!--                    BITS EMBEDDED INDEX ELEMENTS MODULE        -->
+<!--                    Element declarations the index elements
+                        which are embedded in the article 
+                        narrative.                                 -->
+%index-term.ent;
+
+
+<!--                    BITS QUESTION AND ANSWER MODULE            -->
+<!--                    Element declarations for BITS questions
+                        and answers (not complete tests, but used
+                        to put build quizzes and tests.            -->
+%question-answer.ent;
+
+
+<!-- ============================================================= -->
+<!--                    THE REST OF THE EXTERNAL MODULES INVOKED   -->
+<!-- ============================================================= -->
+
+
 <!--                    MATHML SETUP MODULE                        -->
 <!--                    Invoke the MathML modules                  -->
 %mathml3-mathmlsetup.ent;
@@ -281,14 +287,13 @@ Morris, Scott Federhen, Laura Kelly.
 
 <!--                    DTD VERSION                                -->
 <!--                    What version of this DTD was used to make
-                        the document instance under consideration.
-                        Note that this is a fixed value that should
-                        change every time the DTD changes versions or
-                        revisions.                                 -->
+                        the document instance under consideration. -->
 <!ENTITY % dtd-version
             "dtd-version
-                        CDATA                        #FIXED '1.1'"   >
-
+                        (3.0 | 0.4 | 1.0 | 1.1d1 | 1.1d2 | 1.1d3 | 
+                         1.1 | 1.2d1 | 1.2d2 | 1.2 | 1.3d1 | 1.3d2 |
+                         1.3)
+                                                          #IMPLIED"  >
 
 
 <!--                    ARTICLE ATTRIBUTES                         -->
@@ -298,15 +303,16 @@ Morris, Scott Federhen, Laura Kelly.
             "%jats-common-atts;                                       
              article-type
                         CDATA                             #IMPLIED
-             %dtd-version;
              specific-use
                         CDATA                             #IMPLIED
+             %dtd-version;
              xml:lang   NMTOKEN                           'en'
              %XLINK.xmlns.attrib;
              %MATHML.xmlns.attrib;
              %ali.xmlns.attrib;
-             %Schema.xmlns.attrib;                                  
-             %taxpub-namespace-att;" >
+             %Schema.xmlns.attrib;  
+             %Schema.prefix;:noNamespaceSchemaLocation   
+                        CDATA          #IMPLIED"                     >
 
 
 <!--                    BACK ATTRIBUTES                            -->
@@ -368,8 +374,8 @@ Morris, Scott Federhen, Laura Kelly.
                         is contained in side a journal article.
                                                                    -->
 <!ENTITY % article-short-model
-                        "((front | front-stub), body?, back?,
-                          floats-group?)"                            >
+                        "(processing-meta?, (front | front-stub),
+                          body?, back?, floats-group?)"              >
 
 
 <!--                    ARTICLE MODEL WITH SUB-ARTICLE OR RESPONSE -->
@@ -379,14 +385,15 @@ Morris, Scott Federhen, Laura Kelly.
                         contains neither.
                                                                    -->
 <!ENTITY % article-full-model
-                        "(front, body?, back?, floats-group?,
-                         (sub-article* | response*) )"               >
+                        "(processing-meta?, front, 
+                          body?, back?, floats-group?,
+                          (sub-article* | response*) )"              >
 
 
 <!--                    ARTICLE                                    -->
 <!--                    The complete content of a journal article.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=article
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=article
                                                                    -->
 <!ELEMENT  article      %article-full-model;                         >
 <!ATTLIST  article
@@ -411,7 +418,7 @@ Morris, Scott Federhen, Laura Kelly.
                         appears and the name and author(s) of the
                         article.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=front
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=front
                                                                    -->
 <!ELEMENT  front        %front-model;                                >
 <!ATTLIST  front
@@ -434,7 +441,7 @@ Morris, Scott Federhen, Laura Kelly.
 <!--                    The main textual portion of the article that
                         conveys the content.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=body
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=body
                                                                    -->
 <!ELEMENT  body         %body-model;                                 >
 <!ATTLIST  body
@@ -459,7 +466,7 @@ Morris, Scott Federhen, Laura Kelly.
                         journal article, for example appendices and
                         acknowledgments.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=back
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=back
                                                                    -->
 <!ELEMENT  back         %back-model;                                 >
 <!ATTLIST  back
@@ -475,17 +482,16 @@ Morris, Scott Federhen, Laura Kelly.
 <!--                    Content model for the <sub-article> element
                                                                    -->
 <!ENTITY % sub-article-model
-                        "((front | front-stub), body?, back?,
-                          floats-group?,
+                        "(processing-meta?, (front | front-stub), 
+                          body?, back?, floats-group?,
                           (sub-article* | response*) )"              >
-
 
 <!--                    SUB-ARTICLE                                -->
 <!--                    An article that is completely contained
                         inside another article. Both the article and
                         the sub-article have their own metadata.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=sub-article
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=sub-article
                                                                    -->
 <!ELEMENT  sub-article  %sub-article-model;                          >
 <!ATTLIST  sub-article
@@ -497,13 +503,16 @@ Morris, Scott Federhen, Laura Kelly.
                         a reduced metadata set for use in
                         sub-articles and responses                 -->
 <!ENTITY % front-stub-model
-                       "(article-id*, article-categories?,
+                       "(article-id*, (%article-version.class;)?,  
+                         article-categories?,
                          title-group?,
                          ( %contrib-group.class; |
                            %aff-alternatives.class;)*,
-                         author-notes?, pub-date*,
+                         author-notes?, ( (%pub-date.class;)* | 
+                           pub-date-not-available?), 
                          volume*, volume-id*, volume-series?,
-                         issue*, issue-id*, issue-title*,
+                         issue*, issue-id*, 
+                         issue-title*, issue-title-group*,
                          issue-sponsor*, issue-part?, 
                          volume-issue-group*, isbn*,
                          supplement?,
@@ -511,11 +520,12 @@ Morris, Scott Federhen, Laura Kelly.
                             elocation-id)?,
                          ( %address-link.class; | product |
                            supplementary-material)*, 
-                         history?, permissions?, self-uri*, 
-                         (%related-article.class;)*, 
+                         history?, pub-history?, permissions?, 
+                         self-uri*, (%related-article.class;)*, 
                          (%abstract.class;)*, trans-abstract*, 
                          (%kwd-group.class;)*,
-                         funding-group*, conference*, counts?,
+                         funding-group*, support-group*,  
+                         conference*, counts?,
                          custom-meta-group?)"                        >
 
 
@@ -525,7 +535,7 @@ Morris, Scott Federhen, Laura Kelly.
                         inherit metadata not defined in the stub
                         from the enclosing article
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=front-stub
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=front-stub
                                                                    -->
 <!ELEMENT  front-stub   %front-stub-model;                           >
 <!ATTLIST  front-stub 
@@ -544,7 +554,7 @@ Morris, Scott Federhen, Laura Kelly.
                         as the original article, and thus attached
                         at the end of the article proper.
                         Details at:
-                        http://jats.nlm.nih.gov/publishing/tag-library/1.1/index.html?elem=response
+                        http://jats.nlm.nih.gov/publishing/tag-library/1.3/index.html?elem=response
                                                                    -->
 <!ELEMENT  response     %article-short-model;                        >
 <!ATTLIST  response
