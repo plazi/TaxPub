@@ -1,0 +1,614 @@
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: Executing: xmllint  --noout --catalogs --xinclude --postvalid /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:treatment-sec: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %sec-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:            ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED              
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute base of element tp:treatment-sec: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %sec-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:            ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:lang   NMTOKEN                            #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:type-genus: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %jats-common-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                    ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: error
+Description:  validity warning : Attribute base of element tp:type-genus: already defined
+Start location: 172:0
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					%jats-common-atts;     >
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					                       ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %jats-common-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                    ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute base of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: xmlns:xlink CDATA                            #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute xlink of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:type  (simple)                         #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute type of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:href  CDATA                            #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute href of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:role  CDATA                            #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute role of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:title CDATA                            #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute title of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:show  (embed | new | none | other | replace)
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute show of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %might-link-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                   ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xlink:actuate
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: error
+Description:  validity warning : Attribute actuate of element tp:descriptive-statement: already defined
+Start location: 270:0
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					%might-link-atts;      >
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					                       ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %jats-common-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                    ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: error
+Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
+Start location: 282:0
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					%jats-common-atts;     >
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					                       ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %jats-common-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                    ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: error
+Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
+Start location: 293:0
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					%jats-common-atts;     >
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					                       ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:  %jats-common-atts; 
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:                    ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              xml:base   CDATA                             #IMPLIED
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description:              ^
+
+System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: error
+Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
+Start location: 307:0
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					%jats-common-atts;     >
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: 					                       ^
+
+System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
+Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
+Engine name: LIBXML
+Severity: info
+Description: Process LIBXML exit code = 0
+
