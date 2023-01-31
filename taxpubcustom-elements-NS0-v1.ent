@@ -155,7 +155,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->						
 
 <!ELEMENT	tp:type-genus				(tp:taxon-name, tp:material-location?) >
-<!ATTLIST 	tp:type-genus
+<!ATTLIST    tp:type-genus
 					%jats-common-atts;     >
 <!--
 ~tp:type-genus~
@@ -167,7 +167,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:type-species			(tp:taxon-name, tp:material-location?) >
-<!ATTLIST 	tp:type-genus
+<!ATTLIST    tp:type-species
 					%jats-common-atts;     >
 <!--
 ~tp:type-species~
@@ -212,7 +212,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 
 <!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
-<!ATTLIST 	tp:taxon-name
+<!ATTLIST    tp:taxon-name
 					%jats-common-atts;
 					auth-code		CDATA			#IMPLIED 
                     rank 		    CDATA			#IMPLIED
@@ -242,7 +242,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 <!ELEMENT	tp:descriptive-statement	(#PCDATA | tp:descriptive-statement-part | object-id)* >
 <!ATTLIST	tp:descriptive-statement
-					%jats-common-atts;
+				    %jats-common-atts;
 					%might-link-atts;      >
 <!--
 ~tp:descriptive-statement~
@@ -251,7 +251,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 ~~
 
 -->
-<!ELEMENT 	tp:descriptive-statement-part 	(#PCDATA | object-id)* >
+<!ELEMENT    tp:descriptive-statement-part 	(#PCDATA | object-id)* >
 <!ATTLIST	tp:descriptive-statement-part
 					%jats-common-atts;
 					%might-link-atts;      >
@@ -277,7 +277,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:material-location                (#PCDATA | object-id)* >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	 tp:mayterial-location
 					%jats-common-atts;     >
 <!--
 ~tp:material-location~
@@ -288,7 +288,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:collecting-event		(#PCDATA | tp:collecting-location | date | tp:taxon-name | object-id | named-content)* >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	 tp:collecting-event
 					%jats-common-atts;     >
 <!--
 ~tp:collecting-event~
@@ -302,7 +302,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 -->
 
 <!ELEMENT	tp:collecting-location		(object-id*, tp:location*, comment? ) >
-<!ATTLIST	tp:descriptive-statement
+<!ATTLIST	tp:collecting-location
 					%jats-common-atts;     >
 <!--
 ~tp:collecting-location~
@@ -312,7 +312,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 -->
 <!ELEMENT 	tp:location	(#PCDATA %country-elements;)*  >
-<!ATTLIST       tp:location                         
+<!ATTLIST     tp:location                         
                                         %jats-common-atts;
                                         location-type             CDATA              #IMPLIED >
 <!--
