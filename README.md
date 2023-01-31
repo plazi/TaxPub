@@ -1,21 +1,22 @@
 
-TaxPub Extension of the Journal Publishing Tag Set NISO JATS Version 1.1 (ANSI/NISO Z39.96-2015)
+TaxPub Extension of the Journal Publishing Tag Set
+NISO JATS Version 1.3 (ANSI/NISO Z39.96-2021) 
 =======
 
-TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.1 for encoding of articles containing taxonomic treatments.
+TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.3 for encoding of articles containing taxonomic treatments or other taxonomy specific features (e.g., taxonomic names, material citations, etc...)
 
 
-[Tag Library](https://taxpub.catapanoth.com/v1-beta-1/documentation/#p=elem-tp-taxon-treatment)
+## Tag Libraries
+
+[TaxPub V1.0 Tag Library](https://taxpub.catapanoth.com/v1-0/taglibrary/#p=elem-tp-taxon-treatment): includes models for TaxPub elements and attributes as well as those from JATS 1.3 Publishing
+
+The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm.nih.gov/publishing/tag-library/1.3/): Provides extensive documentation including definitions and models for the "generic" elements and attributes in the JATS 1.3 Publishing tag setn which TaxPub extends. 
 
 
-
-See the wikis [Class:TaxPub](https://terms.tdwg.org/wiki/Class:TaxPub) or [TaxPub](http://terms.tdwg.org/wiki/TaxPub) at this repository for more information
-
-
-Usage:
+## Usage
 
 Download release, point instance to file tax-treatment-NS0-v1.dtd using Formal Public Identifier:
 
-`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20180101//EN` 
+`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230202//EN` 
 
 
