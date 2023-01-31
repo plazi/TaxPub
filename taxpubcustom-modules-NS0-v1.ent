@@ -62,8 +62,8 @@ Delivered as file "taxpubcustom-modules-NS0-v1.ent"                       -->
                         is expected to be generated.               -->
 <!ENTITY % nlmcitation.ent
                         PUBLIC
-"-//NLM//DTD JATS (Z39.96) NLM Citation v1.1 20151215//EN"
-"JATS-nlmcitation1.ent"                                              >
+"-//NLM//DTD JATS (Z39.96) NLM Citation v1.3 20210610//EN"
+"JATS-nlmcitation1-3.ent"                                              >
 
 
 <!-- =================== End Publishing DTD Module of Modules ==== -->
