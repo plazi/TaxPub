@@ -16,15 +16,19 @@
       <li><a href="#p=attr-xml-lang">@xml:lang</a></li>
       <li><a href="#p=attr-xmlns-xlink">@xmlns:xlink</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( funding-source*, award-id*, principal-award-recipient*, principal-investigator* )</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( ( funding-source* | support-source* ), award-id*, award-name?, award-desc?, principal-award-recipient*, principal-investigator* )</pre><p>May Contain:</p>
    <ul class="children">
+      <li><a href="#p=elem-award-desc">&lt;award-desc&gt;</a></li>
       <li><a href="#p=elem-award-id">&lt;award-id&gt;</a></li>
+      <li><a href="#p=elem-award-name">&lt;award-name&gt;</a></li>
       <li><a href="#p=elem-funding-source">&lt;funding-source&gt;</a></li>
       <li><a href="#p=elem-principal-award-recipient">&lt;principal-award-recipient&gt;</a></li>
       <li><a href="#p=elem-principal-investigator">&lt;principal-investigator&gt;</a></li>
+      <li><a href="#p=elem-support-source">&lt;support-source&gt;</a></li>
    </ul>
    <h2>May be contained in:</h2>
    <ul class="parents">
+      <li><a href="#p=elem-contributed-resource-group">&lt;contributed-resource-group&gt;</a></li>
       <li><a href="#p=elem-funding-group">&lt;funding-group&gt;</a></li>
    </ul>
 </div>

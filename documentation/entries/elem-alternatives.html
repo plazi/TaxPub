@@ -5,16 +5,18 @@
       <li><a href="#p=attr-id">@id</a></li>
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( array | chem-struct | code | graphic | inline-graphic | inline-supplementary-material | media | preformat | private-char | supplementary-material | table | textual-form | tex-math | mml:math )+</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( ( object-id )*, ( array | chem-struct | code | graphic | inline-graphic | inline-media | inline-supplementary-material | media | preformat | private-char | supplementary-material | table | textual-form | tex-math | mml:math )+ )</pre><p>May Contain:</p>
    <ul class="children">
       <li><a href="#p=elem-array">&lt;array&gt;</a></li>
       <li><a href="#p=elem-chem-struct">&lt;chem-struct&gt;</a></li>
       <li><a href="#p=elem-code">&lt;code&gt;</a></li>
       <li><a href="#p=elem-graphic">&lt;graphic&gt;</a></li>
       <li><a href="#p=elem-inline-graphic">&lt;inline-graphic&gt;</a></li>
+      <li><a href="#p=elem-inline-media">&lt;inline-media&gt;</a></li>
       <li><a href="#p=elem-inline-supplementary-material">&lt;inline-supplementary-material&gt;</a></li>
       <li><a href="#p=elem-media">&lt;media&gt;</a></li>
       <li><a href="#p=elem-mml-math">&lt;mml:math&gt;</a></li>
+      <li><a href="#p=elem-object-id">&lt;object-id&gt;</a></li>
       <li><a href="#p=elem-preformat">&lt;preformat&gt;</a></li>
       <li><a href="#p=elem-private-char">&lt;private-char&gt;</a></li>
       <li><a href="#p=elem-supplementary-material">&lt;supplementary-material&gt;</a></li>
@@ -26,6 +28,7 @@
    <ul class="parents">
       <li><a href="#p=elem-addr-line">&lt;addr-line&gt;</a></li>
       <li><a href="#p=elem-alt-title">&lt;alt-title&gt;</a></li>
+      <li><a href="#p=elem-answer">&lt;answer&gt;</a></li>
       <li><a href="#p=elem-app">&lt;app&gt;</a></li>
       <li><a href="#p=elem-app-group">&lt;app-group&gt;</a></li>
       <li><a href="#p=elem-array">&lt;array&gt;</a></li>
@@ -36,6 +39,7 @@
       <li><a href="#p=elem-body">&lt;body&gt;</a></li>
       <li><a href="#p=elem-bold">&lt;bold&gt;</a></li>
       <li><a href="#p=elem-boxed-text">&lt;boxed-text&gt;</a></li>
+      <li><a href="#p=elem-chapter-title">&lt;chapter-title&gt;</a></li>
       <li><a href="#p=elem-chem-struct">&lt;chem-struct&gt;</a></li>
       <li><a href="#p=elem-chem-struct-wrap">&lt;chem-struct-wrap&gt;</a></li>
       <li><a href="#p=elem-collab">&lt;collab&gt;</a></li>
@@ -47,6 +51,7 @@
       <li><a href="#p=elem-disp-formula">&lt;disp-formula&gt;</a></li>
       <li><a href="#p=elem-disp-quote">&lt;disp-quote&gt;</a></li>
       <li><a href="#p=elem-element-citation">&lt;element-citation&gt;</a></li>
+      <li><a href="#p=elem-explanation">&lt;explanation&gt;</a></li>
       <li><a href="#p=elem-fig">&lt;fig&gt;</a></li>
       <li><a href="#p=elem-fig-group">&lt;fig-group&gt;</a></li>
       <li><a href="#p=elem-fixed-case">&lt;fixed-case&gt;</a></li>
@@ -62,15 +67,22 @@
       <li><a href="#p=elem-monospace">&lt;monospace&gt;</a></li>
       <li><a href="#p=elem-named-content">&lt;named-content&gt;</a></li>
       <li><a href="#p=elem-notes">&lt;notes&gt;</a></li>
+      <li><a href="#p=elem-option">&lt;option&gt;</a></li>
       <li><a href="#p=elem-overline">&lt;overline&gt;</a></li>
       <li><a href="#p=elem-p">&lt;p&gt;</a></li>
+      <li><a href="#p=elem-part-title">&lt;part-title&gt;</a></li>
       <li><a href="#p=elem-product">&lt;product&gt;</a></li>
+      <li><a href="#p=elem-question">&lt;question&gt;</a></li>
+      <li><a href="#p=elem-question-preamble">&lt;question-preamble&gt;</a></li>
       <li><a href="#p=elem-ref-list">&lt;ref-list&gt;</a></li>
       <li><a href="#p=elem-roman">&lt;roman&gt;</a></li>
       <li><a href="#p=elem-sans-serif">&lt;sans-serif&gt;</a></li>
       <li><a href="#p=elem-sc">&lt;sc&gt;</a></li>
       <li><a href="#p=elem-sec">&lt;sec&gt;</a></li>
+      <li><a href="#p=elem-see">&lt;see&gt;</a></li>
+      <li><a href="#p=elem-see-also">&lt;see-also&gt;</a></li>
       <li><a href="#p=elem-sig-block">&lt;sig-block&gt;</a></li>
+      <li><a href="#p=elem-source">&lt;source&gt;</a></li>
       <li><a href="#p=elem-strike">&lt;strike&gt;</a></li>
       <li><a href="#p=elem-string-conf">&lt;string-conf&gt;</a></li>
       <li><a href="#p=elem-styled-content">&lt;styled-content&gt;</a></li>
@@ -80,6 +92,7 @@
       <li><a href="#p=elem-sup">&lt;sup&gt;</a></li>
       <li><a href="#p=elem-supplement">&lt;supplement&gt;</a></li>
       <li><a href="#p=elem-supplementary-material">&lt;supplementary-material&gt;</a></li>
+      <li><a href="#p=elem-support-source">&lt;support-source&gt;</a></li>
       <li><a href="#p=elem-table-wrap">&lt;table-wrap&gt;</a></li>
       <li><a href="#p=elem-td">&lt;td&gt;</a></li>
       <li><a href="#p=elem-term">&lt;term&gt;</a></li>
@@ -87,6 +100,7 @@
       <li><a href="#p=elem-th">&lt;th&gt;</a></li>
       <li><a href="#p=elem-title">&lt;title&gt;</a></li>
       <li><a href="#p=elem-tp-treatment-sec">&lt;tp:treatment-sec&gt;</a></li>
+      <li><a href="#p=elem-trans-source">&lt;trans-source&gt;</a></li>
       <li><a href="#p=elem-trans-subtitle">&lt;trans-subtitle&gt;</a></li>
       <li><a href="#p=elem-trans-title">&lt;trans-title&gt;</a></li>
       <li><a href="#p=elem-underline">&lt;underline&gt;</a></li>

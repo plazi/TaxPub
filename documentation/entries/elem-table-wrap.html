@@ -10,7 +10,7 @@
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
       <li><a href="#p=attr-xml-lang">@xml:lang</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( ( object-id )*, label?, ( caption )?, ( abstract )*, ( kwd-group )*, ( alt-text | long-desc | email | ext-link | uri )*, ( disp-quote | speech | statement | verse-group | def-list | list | alternatives | chem-struct-wrap | code | graphic | media | preformat | table )*, ( table-wrap-foot | attrib | permissions )* )</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( ( object-id )*, ( label )*, ( caption )*, ( abstract )*, ( kwd-group )*, ( subj-group )*, ( alt-text | long-desc | email | ext-link | uri )*, ( disp-quote | speech | statement | verse-group | def-list | list | alternatives | chem-struct-wrap | code | disp-formula | graphic | media | preformat | table | xref )*, ( table-wrap-foot | attrib | permissions )* )</pre><p>May Contain:</p>
    <ul class="children">
       <li><a href="#p=elem-abstract">&lt;abstract&gt;</a></li>
       <li><a href="#p=elem-alt-text">&lt;alt-text&gt;</a></li>
@@ -20,6 +20,7 @@
       <li><a href="#p=elem-chem-struct-wrap">&lt;chem-struct-wrap&gt;</a></li>
       <li><a href="#p=elem-code">&lt;code&gt;</a></li>
       <li><a href="#p=elem-def-list">&lt;def-list&gt;</a></li>
+      <li><a href="#p=elem-disp-formula">&lt;disp-formula&gt;</a></li>
       <li><a href="#p=elem-disp-quote">&lt;disp-quote&gt;</a></li>
       <li><a href="#p=elem-email">&lt;email&gt;</a></li>
       <li><a href="#p=elem-ext-link">&lt;ext-link&gt;</a></li>
@@ -34,26 +35,34 @@
       <li><a href="#p=elem-preformat">&lt;preformat&gt;</a></li>
       <li><a href="#p=elem-speech">&lt;speech&gt;</a></li>
       <li><a href="#p=elem-statement">&lt;statement&gt;</a></li>
+      <li><a href="#p=elem-subj-group">&lt;subj-group&gt;</a></li>
       <li><a href="#p=elem-table">&lt;table&gt;</a></li>
       <li><a href="#p=elem-table-wrap-foot">&lt;table-wrap-foot&gt;</a></li>
       <li><a href="#p=elem-uri">&lt;uri&gt;</a></li>
       <li><a href="#p=elem-verse-group">&lt;verse-group&gt;</a></li>
+      <li><a href="#p=elem-xref">&lt;xref&gt;</a></li>
    </ul>
    <h2>May be contained in:</h2>
    <ul class="parents">
+      <li><a href="#p=elem-answer">&lt;answer&gt;</a></li>
       <li><a href="#p=elem-app">&lt;app&gt;</a></li>
       <li><a href="#p=elem-app-group">&lt;app-group&gt;</a></li>
       <li><a href="#p=elem-bio">&lt;bio&gt;</a></li>
+      <li><a href="#p=elem-block-alternatives">&lt;block-alternatives&gt;</a></li>
       <li><a href="#p=elem-body">&lt;body&gt;</a></li>
       <li><a href="#p=elem-boxed-text">&lt;boxed-text&gt;</a></li>
       <li><a href="#p=elem-disp-quote">&lt;disp-quote&gt;</a></li>
+      <li><a href="#p=elem-explanation">&lt;explanation&gt;</a></li>
       <li><a href="#p=elem-fig">&lt;fig&gt;</a></li>
       <li><a href="#p=elem-floats-group">&lt;floats-group&gt;</a></li>
       <li><a href="#p=elem-glossary">&lt;glossary&gt;</a></li>
       <li><a href="#p=elem-license-p">&lt;license-p&gt;</a></li>
       <li><a href="#p=elem-named-content">&lt;named-content&gt;</a></li>
       <li><a href="#p=elem-notes">&lt;notes&gt;</a></li>
+      <li><a href="#p=elem-option">&lt;option&gt;</a></li>
       <li><a href="#p=elem-p">&lt;p&gt;</a></li>
+      <li><a href="#p=elem-question">&lt;question&gt;</a></li>
+      <li><a href="#p=elem-question-preamble">&lt;question-preamble&gt;</a></li>
       <li><a href="#p=elem-ref-list">&lt;ref-list&gt;</a></li>
       <li><a href="#p=elem-sec">&lt;sec&gt;</a></li>
       <li><a href="#p=elem-styled-content">&lt;styled-content&gt;</a></li>

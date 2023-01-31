@@ -1,5 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1.dtd">
+<!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1_flat.dtd">
 <tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
-    <tp:mixed-nomenclature><tp:taxon-name></tp:taxon-name></tp:mixed-nomenclature>
+    <tp:treatment-meta>
+        <contrib-group>
+            <contrib>
+                <contrib-id></contrib-id>
+                <anonymous/>
+                <degrees></degrees>
+                <address>
+                    <addr-line></addr-line>
+                </address>
+            </contrib>
+            <address>
+                <addr-line></addr-line>
+            </address>
+        </contrib-group>
+        <kwd-group>
+            <label></label>
+            <title></title>
+            <kwd></kwd>
+        </kwd-group>
+        <permissions>
+            <copyright-statement></copyright-statement>
+            <copyright-year></copyright-year>
+            <copyright-holder></copyright-holder>
+            <ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/>
+        </permissions>
+        <mixed-citation></mixed-citation>
+    </tp:treatment-meta>
+    <tp:nomenclature>
+        <sec-meta>
+            <contrib-group>
+                <contrib>
+                    <contrib-id></contrib-id>
+                    <anonymous/>
+                    <degrees></degrees>
+                    <address>
+                        <addr-line></addr-line>
+                    </address>
+                </contrib>
+                <address>
+                    <addr-line></addr-line>
+                </address>
+            </contrib-group>
+            <kwd-group>
+                <label></label>
+                <title></title>
+                <kwd></kwd>
+            </kwd-group>
+            <permissions>
+                <copyright-statement></copyright-statement>
+                <copyright-year></copyright-year>
+                <copyright-holder></copyright-holder>
+                <ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/>
+            </permissions>
+            <mixed-citation></mixed-citation>
+        </sec-meta>
+        <label></label>
+        <tp:taxon-name></tp:taxon-name>
+        <x xml:space="preserve"></x>
+        <tp:taxon-authority></tp:taxon-authority>
+        <x xml:space="preserve"></x>
+        <tp:taxon-status></tp:taxon-status>
+        <x xml:space="preserve"></x>
+        <tp:taxon-identifier></tp:taxon-identifier>
+        <xref></xref>
+        <x xml:space="preserve"></x>
+        <tp:nomenclature-citation-list></tp:nomenclature-citation-list>
+        <x xml:space="preserve"></x>
+        <tp:type-genus>
+            <tp:taxon-name></tp:taxon-name>
+            <tp:material-location></tp:material-location>
+        </tp:type-genus>
+        <x xml:space="preserve"></x>
+        <tp:taxon-type-location></tp:taxon-type-location>
+        <x xml:space="preserve"></x>
+    </tp:nomenclature>
+    <tp:treatment-sec>
+        <sec-meta>
+            <contrib-group>
+                <contrib>
+                    <contrib-id></contrib-id>
+                    <anonymous/>
+                    <degrees></degrees>
+                    <address>
+                        <addr-line></addr-line>
+                    </address>
+                </contrib>
+                <address>
+                    <addr-line></addr-line>
+                </address>
+            </contrib-group>
+            <kwd-group>
+                <label></label>
+                <title></title>
+                <kwd></kwd>
+            </kwd-group>
+            <permissions>
+                <copyright-statement></copyright-statement>
+                <copyright-year></copyright-year>
+                <copyright-holder></copyright-holder>
+                <ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/>
+            </permissions>
+            <mixed-citation></mixed-citation>
+        </sec-meta>
+        <label></label>
+        <title></title>
+        <address>
+            <addr-line></addr-line>
+        </address>
+        <tp:nomenclature-citation-list></tp:nomenclature-citation-list>
+        <fn-group>
+            <label></label>
+            <title></title>
+            <fn>
+                <label></label>
+                <p></p>
+            </fn>
+        </fn-group>
+    </tp:treatment-sec>
+    <ref-list>
+        <object-id></object-id>
+        <label></label>
+        <title></title>
+        <address>
+            <addr-line></addr-line>
+        </address>
+        <ref>
+            <label></label>
+            <citation-alternatives>
+                <object-id></object-id>
+                <element-citation>
+                    <bold></bold>
+                </element-citation>
+            </citation-alternatives>
+        </ref>
+    </ref-list>
 </tp:taxon-treatment>
