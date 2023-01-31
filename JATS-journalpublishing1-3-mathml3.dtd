@@ -9,8 +9,8 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN"
-     Delivered as file "JATS-journalpublishing1-3.dtd"
+"-//NLM//DTD JATS (Z39.96) Journal Publishing DTD with MathML3 v1.3 20210610//EN"
+     Delivered as file "JATS-journalpublishing1-3-mathml3.dtd"
      Available at: 
      http://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd
                                                                    -->
@@ -118,10 +118,11 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      The file names and formal public identifiers have been 
      changed in the modules and the catalogs.
 
- 43. JATS 'v1.3d2 20201130' becomes 'v1.3 20210610' 
+ 44. JATS 'v1.3d2 20201130' becomes 'v1.3 20210610' 
      (final ANSI vote date)
      'ANSI/NISO Z39.96-2019' becomes 'ANSI/NISO Z39.96-2021'
-   ==============================================================
+
+  ==============================================================
      JATS Version 1.3d2 (ANSI/NISO Z39.96-2021)
                                    (DAL/BTU) v1.3d2 (2020-11-30)
     
@@ -137,10 +138,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      testing. The formal public identifiers have been changed 
      in the modules and the catalogs.
      
- 42. ISSUE TITLE GROUP - Added <issue-title-group> to 
+ 43. ISSUE TITLE GROUP - Added <issue-title-group> to 
      <front-stub> optional and repeatable
          
- 41. PROCESSING METADATA - A new container element was added as
+ 42. PROCESSING METADATA - A new container element was added as
      a child of <article>, <sub-article>, and <response> to 
      describe processing information to help determine the 
      exact tagset flavor used by this document instance. 
@@ -158,10 +159,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
        - @base-tagset   (Archiving | Publishing | Authoring)
        - @table-model	(XHTML |OASIS-CALS | both | none)
        - @mathml		(MathML 2.0 | MathML 3.0)
-       - @dtd-version was also revised to be an optional
-           value list (still on <article>)
+       - @dtd-version was also revised (see below)
 
- 40. DTD VERSION - The <article> attribute @dtd-version has been
+ 41. DTD VERSION - The <article> attribute @dtd-version has been
      a #FIXED attribute for all of JATS history. This is very
      convenient when creating documents, but problematic for
      archives who receive many versions over time. If a document
@@ -170,7 +170,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      attribute, but will be optional, with a list of values, and
      with no default.
 
- 39. JATS "v1.3d2 20201130" becomes 'v1.3 20210610' (second 
+ 40. JATS "v1.3d2 20201130" becomes 'v1.3 20210610' (second 
      committee draft following the final ANSI/NISO 1.2 vote)
 
    ==============================================================
@@ -187,11 +187,11 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Committee. This draft has not yet been given public review 
      or voting. The formal public identifiers were changed in the 
      modules and the catalogs.
-  
- 38. QUESTION AND ANSWER MODULES - Added call to BITS question
+   
+ 39. QUESTION AND ANSWER MODULES - Added call to BITS question
      and answer module names question-answer ent
-  
- 37. JATS "1.2" becomes "v1.3d1 20190831" (first committee
+ 
+ 38. JATS "1.2" becomes "v1.3d1 20190831" (first committee
      draft following the final ANSI/NISO vote) 
 
    ==============================================================
@@ -206,7 +206,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      submitted for vote), becoming NISO JATS v1.2 20190208 
      (ANSI/NISO Z39.96-2021).
   
- 36. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
+ 37. JATS "1.2" becomes "v1.2 20190208" (final ANSI vote date)
      "ANSI/NISO Z39.96-2015" becomes "ANSI/NISO Z39.96-2019"
      
    ==============================================================
@@ -220,9 +220,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      by ANSI and NISO vote, so it supersedes all Committee Drafts
      and becoming NISO JATS 1.2 (ANSI/NISO Z39.96-2018).
  
- 35. @dtd-version becomes "1.2" from "1.2d2"
+ 36. @dtd-version becomes "1.2" from "1.2d2"
   
- 34. 
+ 35. 
      JATS "1.2d2" and "v1.2d2 20180401" became
      JATS "1.2" and "v1.2 20181130" 
 
@@ -242,26 +242,25 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      or voting. The formal public identifiers were changed in the 
      modules and the catalogs.
 
- 33. NON-MONETARY SUPPORT - Inside <front-stub-mod> added new
+ 34. NON-MONETARY SUPPORT - Inside <front-stub-mod> added new
      <support-group> to hold both funding and
      non-monetary support descriptions. <support-group> is 
      both a peer to <funding-group> (backward compatibility)
      and contains <funding-group>.
-
- 32. DATE-NOT-AVAILABLE - Inside <article-meta> and <front-stub>,
+ 
+ 33. DATE-NOT-AVAILABLE - Inside <article-meta> and <front-stub>,
      a new element <pub-date-not-available> was added as an
      alternatives to <pub-date>. The meaning is that a 
      publication date was (for whatever reason) not available. 
      Presence of the element says nothing about publication 
      status.
- 
- 31. INLINE (EMBEDDED) INDEX TERMS  - Added invocation to BITS 
-     inline (embedded) index term model. Terms in the narrative
-     text used to generate one or more indexes.
- 
- 30. @dtd-version becomes "1.2d2" from "1.2d1"
+  
+ 32. INLINE INDEX TERMS  - Added invocation to BITS inline
+     (embedded) index term model
 
- 29. BITS "2.0" and "v2.0 20151225" remain unchanged
+ 31. @dtd-version becomes "1.2d2" from "1.2d1"
+
+ 30. BITS "2.0" and "v2.0 20151225" remain unchanged
       
    
      JATS "1.2d1" and "v1.2d1 20171231" became
@@ -283,7 +282,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      or voting. The formal public identifiers were changed in the 
      modules and the catalogs.
   
- 28. JATS "1.2d1" and "v1.2d1 20170631" became
+ 29. JATS "1.2d1" and "v1.2d1 20170631" became
      JATS "1.2d1" and "v1.2d1 20171231". 
 
     =============================================================
@@ -299,13 +298,13 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      or voting. The formal public identifiers were changed in the 
      modules and the catalogs.
 
- 27. xsi:noNamespaceSchemaLocation added to attribute list of
+ 28. xsi:noNamespaceSchemaLocation added to attribute list of
      <article>. Most modern processors do not need this, but
      a user with an older processor requested it, so the JATS
      Standing Committee acquiesced. This pseudo-attribute
      cannot be used with a DOCTYPE declaration.
 
- 26. FRONT STUB MODEL
+ 27. FRONT STUB MODEL
      - ARTICLE VERSION - Added new element <article-version>
        inside <front-stub> to hold one version number for the 
        article. <article-version> element may repeat inside
@@ -315,14 +314,14 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      - NO DATE - <pub-date> (optional repeatable) is now
        followed by the optional new element 
        <pub-date-not-available>. 
- 
+  
      - PUB-HISTORY - <pub-history> (optional) added to hold
        <event>s.
- 
- 25. @dtd-version becomes "1.2d1" from 1.1
- 
- 24. JATS became version "1.2d1" and "v1.2d1 20170631" 
 
+ 26. @dtd-version becomes "1.2d1" from 1.1
+ 
+ 25. JATS became version "1.2d1" and "v1.2d1 20170631" 
+ 
     =============================================================
      JATS Version 1.1                (DAL/BTU) v1.1  (2015-12-15)
 
@@ -332,7 +331,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      identifiers were changed in the modules and the catalogs.
      No model or attribute changes were made at this time. 
  
- 23. JATS became version "1.1" and "v1.1 20151215"
+ 24. JATS became version "1.1" and "v1.1 20151215"
      BITS remained version "2.0" but becomes "v2.0 20151225"
 
      =============================================================
@@ -351,10 +350,10 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
- 22. ALI - Added ALI namespace for NISO Access and Indicator 
+ 23. ALI - Added ALI namespace for NISO Access and Indicator 
      license reference and free to read elements.
 
- 21. JATS became version "1.1d3" and "v1.1d3 20150301"
+ 22. JATS became version "1.1d3" and "v1.1d3 20150301"
 
      =============================================================
      JATS Version 1.1d2              (DAL/BTU) v1.1d2 (2014-09-30)
@@ -369,7 +368,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      the decisions that have been made by the JATS Standing
      Committee.
 
- 20. <VOLUME> INSIDE <ARTICLE-META> and <FRONT-STUB>
+ 21. <VOLUME> INSIDE <ARTICLE-META> and <FRONT-STUB>
    - Allowed <volume> to repeat inside <article-meta>, the types to 
      be distinguished using @content-type
    - Added new optional element <volume-issue-group> inside 
@@ -380,7 +379,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
    - Made <issue> repeatable, for those who choose not to use
      the new wrapper element.
 
- 19. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
+ 20. JATS became version "1.1d2" and "v1.1d2 20140930//EN"
    
      =============================================================
      NISO JATS Version 1.1d1           (DAL/BTU) v1.1 (2013-11-15)
@@ -393,6 +392,12 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
      XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.3d2/
+   
+ 19. MATHML 3.0 - Created a new version of the Publishing DTD to
+     take MathML 3.0 instead of MathML 2.0.
+     Nothing else changed from regular Publishing DTD.
+     Call to MathML setup module changed and added call to the
+     specific MathML 3.0 modules.
    
  18. DTD Version - Updated the DTD-version attribute to "1.1d1" and 
      the formal public identifier to the date: "v1.1d1 20130915//EN".
@@ -414,6 +419,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
       - back
       - front
       - front-stub
+      - sub-article
                           
  15. ABSTRACTS AND KEYWORDS
        Changed "abstract*" to "(%abstract.class;)*"
@@ -430,7 +436,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
      Details concerning ANSI/NISO Z39.96-2012 JATS-based DTDs,  
      XSDs, RNGs and supporting documentation are available at
            http://jats.nlm.nih.gov/1.3d2/
-   
+
  11. RELATED OBJECT - Added <related-object> everywhere
      <related-article> was used, including inside 
      <front-stub> using front-stub-model.
@@ -571,6 +577,15 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 %journalpubcustom-modules.ent;
 
 
+<!--                    MODULE TO NAME THE MATHML 3.0 MODULES      -->
+<!--                    Names all DTD-specific external modules    -->
+<!ENTITY % mathml3-modules.ent
+                        PUBLIC
+"-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.3 20210610//EN"
+"JATS-mathml3-modules1-3.ent"                                      >
+%mathml3-modules.ent;
+
+
 <!--                    MODULE TO NAME THE MODULES                 -->
 <!--                    Declares all the external modules that are
                         part of the modular Journal Archiving and
@@ -584,9 +599,9 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         it uses by referencing the external
                         Parameter Entities defined in the Module of
                         Modules. To include a set of elements (such
-                        as all the lists or the MathML elements) this
+                        as all the lists or the table elements) this
                         module defines the external Parameter Entity
-                        for the module(s) that contains the MathML
+                        for the module(s) that contains the table
                         declarations and the DTD references that
                         entity.                                    -->
 <!ENTITY % modules.ent  PUBLIC
@@ -664,6 +679,8 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                         attribute values. These are DTD-specific.
                         (Defined in %journalpubcustom-modules.ent;)-->
 %journalpubcustom-models.ent;
+
+
 
 <!-- ============================================================= -->
 <!--                    COMMON (SHARED) ELEMENTS MODULE INVOKED    -->
@@ -777,7 +794,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
 
 <!--                    MATHML SETUP MODULE                        -->
 <!--                    Invoke the MathML modules                  -->
-%mathmlsetup.ent;
+%mathml3-mathmlsetup.ent;
 
 
 
@@ -834,7 +851,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
              %XLINK.xmlns.attrib;
              %MATHML.xmlns.attrib;
              %ali.xmlns.attrib;
-             %Schema.xmlns.attrib; 
+             %Schema.xmlns.attrib;  
              %Schema.prefix;:noNamespaceSchemaLocation   
                         CDATA          #IMPLIED"                     >
 
@@ -1010,7 +1027,6 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                           body?, back?, floats-group?,
                           (sub-article* | response*) )"              >
 
-
 <!--                    SUB-ARTICLE                                -->
 <!--                    An article that is completely contained
                         inside another article. Both the article and
@@ -1037,7 +1053,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                            pub-date-not-available?), 
                          volume*, volume-id*, volume-series?,
                          issue*, issue-id*, 
-                         issue-title*, issue-title-group*, 
+                         issue-title*, issue-title-group*,
                          issue-sponsor*, issue-part?, 
                          volume-issue-group*, isbn*,
                          supplement?,
@@ -1049,7 +1065,7 @@ Version  Reason/Occasion                   (who) vx.x (yyyy-mm-dd)
                          self-uri*, (%related-article.class;)*, 
                          (%abstract.class;)*, trans-abstract*, 
                          (%kwd-group.class;)*,
-                         funding-group*, support-group*, 
+                         funding-group*, support-group*,  
                          conference*, counts?,
                          custom-meta-group?)"                        >
 
