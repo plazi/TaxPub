@@ -1,5 +1,6 @@
 
-TaxPub Extension of the Journal Publishing Tag Set NISO JATS Version 1.3 (ANSI/NISO Z39.96-2021) 
+TaxPub Extension of the Journal Publishing Tag Set
+NISO JATS Version 1.3 (ANSI/NISO Z39.96-2021) 
 =======
 
 TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.3 for encoding of articles containing taxonomic treatments or other taxonomy specific features (e.g., taxonomic names, material citations, etc...)
