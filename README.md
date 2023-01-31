@@ -6,7 +6,7 @@ NISO JATS Version 1.3 (ANSI/NISO Z39.96-2021)
 TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.3 for encoding of articles containing taxonomic treatments or other taxonomy specific features (e.g., taxonomic names, material citations, etc...)
 
 
-[Tag Library](https://taxpub.catapanoth.com/v1-beta-1/documentation/#p=elem-tp-taxon-treatment)
+[Tag Library](https://taxpub.catapanoth.com/v1-0/taglibrary/#p=elem-tp-taxon-treatment)
 
 
 
