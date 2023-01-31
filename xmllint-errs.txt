@@ -1,614 +1,283 @@
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: Executing: xmllint  --noout --catalogs --xinclude --postvalid /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:treatment-sec: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %sec-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:            ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED              
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute base of element tp:treatment-sec: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %sec-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:            ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:lang   NMTOKEN                            #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:type-genus: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %jats-common-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                    ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: error
-Description:  validity warning : Attribute base of element tp:type-genus: already defined
-Start location: 172:0
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					%jats-common-atts;     >
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					                       ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %jats-common-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                    ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute base of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: xmlns:xlink CDATA                            #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute xlink of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:type  (simple)                         #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute type of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:href  CDATA                            #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute href of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:role  CDATA                            #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute role of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:title CDATA                            #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute title of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:show  (embed | new | none | other | replace)
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute show of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %might-link-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                   ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xlink:actuate
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: error
-Description:  validity warning : Attribute actuate of element tp:descriptive-statement: already defined
-Start location: 270:0
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					%might-link-atts;      >
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					                       ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %jats-common-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                    ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: error
-Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
-Start location: 282:0
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					%jats-common-atts;     >
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					                       ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %jats-common-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                    ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: error
-Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
-Start location: 293:0
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					%jats-common-atts;     >
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					                       ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: validity warning : Attribute id of element tp:descriptive-statement: already defined
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:  %jats-common-atts; 
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:                    ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              xml:base   CDATA                             #IMPLIED
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description:              ^
-
-System ID: /Users/thc4/Github/TaxPub/taxpubcustom-elements-NS0-v1.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: error
-Description:  validity warning : Attribute base of element tp:descriptive-statement: already defined
-Start location: 307:0
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					%jats-common-atts;     >
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: 					                       ^
-
-System ID: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: LIBXML
-Severity: info
-Description: Process LIBXML exit code = 0
-
+Loaded URL="samples/test_tp1-3.xml" ID="(null)"
+Loaded URL="tax-treatment-NS0-v1.dtd" ID="(null)"
+Loaded URL="taxpubcustom-modules-NS0-v1.ent" ID="//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230202//EN"
+Loaded URL="JATS-mathml3-modules1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.3 20210610//EN"
+Loaded URL="JATS-modules1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.3 20210610//EN"
+Loaded URL="JATS-ali-namespace1-3.ent" ID="-//NLM//DTD JATS ALI Namespace Module v1.3 20210610//EN"
+Loaded URL="JATS-common-atts1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common Attributes (for all elements) v1.3 20210610//EN"
+Loaded URL="taxpubcustom-classes-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Customize Classes Module v1.0 20230202//EN"
+Loaded URL="JATS-default-classes1-3.ent" ID="-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-mixes-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Mixes Module v1.0 20230202//EN"
+Loaded URL="JATS-default-mixes1-3.ent" ID="-//NLM//DTD JATS (Z39.96) Default Element Mixes Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-models-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v1.0 20230202//EN"
+Loaded URL="JATS-common1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common (Shared) Elements Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-elements-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20230202//EN"
+validity warning : Attribute id of element tp:type-genus: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:171: validity warning : Attribute base of element tp:type-genus: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+validity warning : Attribute base of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+xmlns:xlink CDATA                            #IMPLIED
+^
+validity warning : Attribute xlink of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:type  (simple)                         #IMPLIED
+             ^
+validity warning : Attribute type of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:href  CDATA                            #IMPLIED
+             ^
+validity warning : Attribute href of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:role  CDATA                            #IMPLIED
+             ^
+validity warning : Attribute role of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:title CDATA                            #IMPLIED
+             ^
+validity warning : Attribute title of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:show  (embed | new | none | other | replace)
+             ^
+validity warning : Attribute show of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:actuate
+             ^
+taxpubcustom-elements-NS0-v1.ent:269: validity warning : Attribute actuate of element tp:descriptive-statement: already defined
+					%might-link-atts;      >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:281: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:292: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:306: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+Loaded URL="JATS-articlemeta1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.3 20210610//EN"
+Loaded URL="JATS-backmatter1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.3 20210610//EN"
+Loaded URL="JATS-display1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-format1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.3 20210610//EN"
+Loaded URL="JATS-funding1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.3 20210610//EN"
+Loaded URL="JATS-journalmeta1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Metadata Elements v1.3 20210610//EN"
+Loaded URL="JATS-link1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-list1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-math1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Math Class Elements v1.3 20210610//EN"
+tax-treatment-NS0-v1.dtd:216: warning: failed to load external entity "JATS-nlmcitation1.ent"
+%nlmcitation.ent;
+                 ^
+Entity: line 1: 
+ %nlmcitation.ent; 
+                  ^
+Loaded URL="JATS-para1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Paragraph-Like Elements v1.3 20210610//EN"
+Loaded URL="JATS-phrase1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-references1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-related-object1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Related Object Element v1.3 20210610//EN"
+Loaded URL="JATS-section1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Section Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-mathml3-mathmlsetup1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML 3.0 Setup Module v1.3 20210610//EN"
+Loaded URL="mathml/mmlextra.ent" ID="-//W3C//ENTITIES Extra for MathML 3.0//EN"
+Loaded URL="mathml/mmlalias.ent" ID="-//W3C//ENTITIES Aliases for MathML 3.0//EN"
+Loaded URL="mathml3.dtd" ID="-//W3C//DTD MathML 3.0//EN"
+Loaded URL="mathml3-qname1.mod" ID="-//W3C//ENTITIES MathML 3.0 Qualified Names 1.0//EN"
+Loaded URL="JATS-XHTMLtablesetup1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite XHTML Table Setup Module v1.3 20210610//EN"
+Loaded URL="xhtml-inlstyle-1.mod" ID="-//W3C//ENTITIES XHTML Inline Style 1.0//EN"
+Loaded URL="xhtml-table-1.mod" ID="-//W3C//ELEMENTS XHTML Tables 1.0//EN"
+Loaded URL="JATS-xmlspecchars1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite XML Special Characters Module v1.3 20210610//EN"
+Loaded URL="iso8879/isolat1.ent" ID="-//W3C//ENTITIES Added Latin 1 for MathML 2.0//EN"
+Loaded URL="iso8879/isolat2.ent" ID="-//W3C//ENTITIES Added Latin 2 for MathML 2.0//EN"
+Loaded URL="iso8879/isobox.ent" ID="-//W3C//ENTITIES Box and Line Drawing for MathML 2.0//EN"
+Loaded URL="iso8879/isodia.ent" ID="-//W3C//ENTITIES Diacritical Marks for MathML 2.0//EN"
+Loaded URL="iso8879/isonum.ent" ID="-//W3C//ENTITIES Numeric and Special Graphic for MathML 2.0//EN"
+Loaded URL="iso8879/isopub.ent" ID="-//W3C//ENTITIES Publishing for MathML 2.0//EN"
+Loaded URL="iso8879/isocyr1.ent" ID="-//W3C//ENTITIES Russian Cyrillic for MathML 2.0//EN"
+Loaded URL="iso8879/isocyr2.ent" ID="-//W3C//ENTITIES Non-Russian Cyrillic for MathML 2.0//EN"
+Loaded URL="xmlchars/isogrk1.ent" ID="-//W3C//ENTITIES Greek Letters//EN"
+Loaded URL="xmlchars/isogrk2.ent" ID="-//W3C//ENTITIES Monotoniko Greek//EN"
+Loaded URL="xmlchars/isogrk4.ent" ID="-//W3C//ENTITIES Alternative Greek Symbols//EN"
+Loaded URL="iso9573-13/isotech.ent" ID="-//W3C//ENTITIES General Technical for MathML 2.0//EN"
+Loaded URL="iso9573-13/isogrk3.ent" ID="-//W3C//ENTITIES Greek Symbols for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsa.ent" ID="-//W3C//ENTITIES Added Math Symbols: Arrow Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsb.ent" ID="-//W3C//ENTITIES Added Math Symbols: Binary Operators for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsc.ent" ID="-//W3C//ENTITIES Added Math Symbols: Delimiters for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsn.ent" ID="-//W3C//ENTITIES Added Math Symbols: Negated Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamso.ent" ID="-//W3C//ENTITIES Added Math Symbols: Ordinary for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsr.ent" ID="-//W3C//ENTITIES Added Math Symbols: Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomscr.ent" ID="-//W3C//ENTITIES Math Alphabets: Script for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomfrk.ent" ID="-//W3C//ENTITIES Math Alphabets: Fraktur for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomopf.ent" ID="-//W3C//ENTITIES Math Alphabets: Open Face for MathML 2.0//EN"
+Loaded URL="JATS-chars1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Custom Special Characters Module v1.3 20210610//EN"
+Loaded URL="JATS-notat1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Notation Declarations v1.3 20210610//EN"
+Loaded URL="tax-treatment-NS0-v1.dtd" ID="(null)"
+Loaded URL="taxpubcustom-modules-NS0-v1.ent" ID="//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230202//EN"
+Loaded URL="JATS-mathml3-modules1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS MathML 3.0 Modules v1.3 20210610//EN"
+Loaded URL="JATS-modules1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Module of Modules v1.3 20210610//EN"
+Loaded URL="JATS-ali-namespace1-3.ent" ID="-//NLM//DTD JATS ALI Namespace Module v1.3 20210610//EN"
+Loaded URL="JATS-common-atts1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common Attributes (for all elements) v1.3 20210610//EN"
+Loaded URL="taxpubcustom-classes-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Customize Classes Module v1.0 20230202//EN"
+Loaded URL="JATS-default-classes1-3.ent" ID="-//NLM//DTD JATS (Z39.96) Default Element Classes Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-mixes-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Mixes Module v1.0 20230202//EN"
+Loaded URL="JATS-default-mixes1-3.ent" ID="-//NLM//DTD JATS (Z39.96) Default Element Mixes Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-models-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Content and Attributes Module v1.0 20230202//EN"
+Loaded URL="JATS-common1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Common (Shared) Elements Module v1.3 20210610//EN"
+Loaded URL="taxpubcustom-elements-NS0-v1.ent" ID="-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20230202//EN"
+validity warning : Attribute id of element tp:type-genus: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:171: validity warning : Attribute base of element tp:type-genus: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+validity warning : Attribute base of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+xmlns:xlink CDATA                            #IMPLIED
+^
+validity warning : Attribute xlink of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:type  (simple)                         #IMPLIED
+             ^
+validity warning : Attribute type of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:href  CDATA                            #IMPLIED
+             ^
+validity warning : Attribute href of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:role  CDATA                            #IMPLIED
+             ^
+validity warning : Attribute role of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:title CDATA                            #IMPLIED
+             ^
+validity warning : Attribute title of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:show  (embed | new | none | other | replace)
+             ^
+validity warning : Attribute show of element tp:descriptive-statement: already defined
+ %might-link-atts; 
+                  ^
+             xlink:actuate
+             ^
+taxpubcustom-elements-NS0-v1.ent:269: validity warning : Attribute actuate of element tp:descriptive-statement: already defined
+					%might-link-atts;      >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:281: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:292: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+validity warning : Attribute id of element tp:descriptive-statement: already defined
+ %jats-common-atts; 
+                   ^
+             xml:base   CDATA                             #IMPLIED
+             ^
+taxpubcustom-elements-NS0-v1.ent:306: validity warning : Attribute base of element tp:descriptive-statement: already defined
+					%jats-common-atts;     >
+					                       ^
+Loaded URL="JATS-articlemeta1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Article Metadata Elements v1.3 20210610//EN"
+Loaded URL="JATS-backmatter1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Back Matter Elements v1.3 20210610//EN"
+Loaded URL="JATS-display1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Display Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-format1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Formatting Element Classes v1.3 20210610//EN"
+Loaded URL="JATS-funding1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Funding Elements v1.3 20210610//EN"
+Loaded URL="JATS-journalmeta1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Journal Metadata Elements v1.3 20210610//EN"
+Loaded URL="JATS-link1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Link Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-list1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite List Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-math1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Math Class Elements v1.3 20210610//EN"
+tax-treatment-NS0-v1.dtd:216: warning: failed to load external entity "JATS-nlmcitation1.ent"
+%nlmcitation.ent;
+                 ^
+Entity: line 1: 
+ %nlmcitation.ent; 
+                  ^
+Loaded URL="JATS-para1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Paragraph-Like Elements v1.3 20210610//EN"
+Loaded URL="JATS-phrase1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Subject Phrase Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-references1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Bibliographic Reference (Citation) Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-related-object1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Related Object Element v1.3 20210610//EN"
+Loaded URL="JATS-section1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Section Class Elements v1.3 20210610//EN"
+Loaded URL="JATS-mathml3-mathmlsetup1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite MathML 3.0 Setup Module v1.3 20210610//EN"
+Loaded URL="mathml/mmlextra.ent" ID="-//W3C//ENTITIES Extra for MathML 3.0//EN"
+Loaded URL="mathml/mmlalias.ent" ID="-//W3C//ENTITIES Aliases for MathML 3.0//EN"
+Loaded URL="mathml3.dtd" ID="-//W3C//DTD MathML 3.0//EN"
+Loaded URL="mathml3-qname1.mod" ID="-//W3C//ENTITIES MathML 3.0 Qualified Names 1.0//EN"
+Loaded URL="JATS-XHTMLtablesetup1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite XHTML Table Setup Module v1.3 20210610//EN"
+Loaded URL="xhtml-inlstyle-1.mod" ID="-//W3C//ENTITIES XHTML Inline Style 1.0//EN"
+Loaded URL="xhtml-table-1.mod" ID="-//W3C//ELEMENTS XHTML Tables 1.0//EN"
+Loaded URL="JATS-xmlspecchars1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite XML Special Characters Module v1.3 20210610//EN"
+Loaded URL="iso8879/isolat1.ent" ID="-//W3C//ENTITIES Added Latin 1 for MathML 2.0//EN"
+Loaded URL="iso8879/isolat2.ent" ID="-//W3C//ENTITIES Added Latin 2 for MathML 2.0//EN"
+Loaded URL="iso8879/isobox.ent" ID="-//W3C//ENTITIES Box and Line Drawing for MathML 2.0//EN"
+Loaded URL="iso8879/isodia.ent" ID="-//W3C//ENTITIES Diacritical Marks for MathML 2.0//EN"
+Loaded URL="iso8879/isonum.ent" ID="-//W3C//ENTITIES Numeric and Special Graphic for MathML 2.0//EN"
+Loaded URL="iso8879/isopub.ent" ID="-//W3C//ENTITIES Publishing for MathML 2.0//EN"
+Loaded URL="iso8879/isocyr1.ent" ID="-//W3C//ENTITIES Russian Cyrillic for MathML 2.0//EN"
+Loaded URL="iso8879/isocyr2.ent" ID="-//W3C//ENTITIES Non-Russian Cyrillic for MathML 2.0//EN"
+Loaded URL="xmlchars/isogrk1.ent" ID="-//W3C//ENTITIES Greek Letters//EN"
+Loaded URL="xmlchars/isogrk2.ent" ID="-//W3C//ENTITIES Monotoniko Greek//EN"
+Loaded URL="xmlchars/isogrk4.ent" ID="-//W3C//ENTITIES Alternative Greek Symbols//EN"
+Loaded URL="iso9573-13/isotech.ent" ID="-//W3C//ENTITIES General Technical for MathML 2.0//EN"
+Loaded URL="iso9573-13/isogrk3.ent" ID="-//W3C//ENTITIES Greek Symbols for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsa.ent" ID="-//W3C//ENTITIES Added Math Symbols: Arrow Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsb.ent" ID="-//W3C//ENTITIES Added Math Symbols: Binary Operators for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsc.ent" ID="-//W3C//ENTITIES Added Math Symbols: Delimiters for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsn.ent" ID="-//W3C//ENTITIES Added Math Symbols: Negated Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamso.ent" ID="-//W3C//ENTITIES Added Math Symbols: Ordinary for MathML 2.0//EN"
+Loaded URL="iso9573-13/isoamsr.ent" ID="-//W3C//ENTITIES Added Math Symbols: Relations for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomscr.ent" ID="-//W3C//ENTITIES Math Alphabets: Script for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomfrk.ent" ID="-//W3C//ENTITIES Math Alphabets: Fraktur for MathML 2.0//EN"
+Loaded URL="iso9573-13/isomopf.ent" ID="-//W3C//ENTITIES Math Alphabets: Open Face for MathML 2.0//EN"
+Loaded URL="JATS-chars1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Custom Special Characters Module v1.3 20210610//EN"
+Loaded URL="JATS-notat1-3.ent" ID="-//NLM//DTD JATS (Z39.96) JATS DTD Suite Notation Declarations v1.3 20210610//EN"
