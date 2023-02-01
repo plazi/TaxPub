@@ -10,14 +10,17 @@ TaxPub is an extension of the JATS Publishing DTD, ANSI/NISO JATS Version 1.3 fo
 
 [TaxPub V1.0 Tag Library](https://taxpub.catapanoth.com/v1-0/taglibrary/#p=elem-tp-taxon-treatment): includes models for TaxPub elements and attributes as well as those from JATS 1.3 Publishing
 
-The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm.nih.gov/publishing/tag-library/1.3/): Provides extensive documentation including definitions and models for the "generic" elements and attributes in the JATS 1.3 Publishing tag setn which TaxPub extends. 
+The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm.nih.gov/publishing/tag-library/1.3/): Provides extensive documentation including definitions and models for the "generic" elements and attributes in the JATS 1.3 Publishing tag set which TaxPub extends. 
 
 
 ## Usage
 
-Download release, point instance to file tax-treatment-NS0-v1.dtd using Formal Public Identifier:
+* Download release, point instance to file `tax-treatment-NS0-v1.dtd` using Formal Public Identifier:
 
-`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230202//EN` 
+`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230202//EN`
+
+* A single file "flattened" version of the TaxPub V1.0 DTD, `tax-treatment_NS0_v1_flat.dtd`, derived using the [DTDAnalyzer](https://dtd.nlm.nih.gov/ncbi/dtdanalyzer/) program `dtdflatten`, may also be used.
+
 
 
 ## Publications About TaxPub
