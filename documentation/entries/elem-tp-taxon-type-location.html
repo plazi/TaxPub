@@ -1,11 +1,25 @@
 <div xmlns:pmc="http://www.ncbi.nlm.nih.gov/pmc/ns" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="entry-wrapper">
    <h1>&lt;tp:taxon-type-location&gt;</h1>
+   <div class="notes">
+      <p>The institution where a type specimen is housed. ~</p>
+      
+   </div>
    <h2>Attributes</h2>
    <ul class="attributes">
       <li><a href="#p=attr-id">@id</a></li>
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | object-id )*</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | object-id )*</pre><div class="model">
+      <p>From a nomenclatorial point of view the name of depositary
+         institution of the holotype has to be explicitely mentioned in a
+         treatment of a new species level taxon in order to create an available
+         name. Acronoyms of the institutions can be used. The location of the
+         institution has to be provided. Institutions can be private collections
+         to public natural history museums. ~ ~~
+      </p>
+      
+   </div>
+   <p>May Contain:</p>
    <ul class="children">
       <li>PCDATA</li>
       <li><a href="#p=elem-object-id">&lt;object-id&gt;</a></li>

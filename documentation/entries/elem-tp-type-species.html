@@ -1,11 +1,26 @@
 <div xmlns:pmc="http://www.ncbi.nlm.nih.gov/pmc/ns" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="entry-wrapper">
    <h1>&lt;tp:type-species&gt;</h1>
+   <div class="notes">
+      <p>The specimen upon which the species or infraspecific level taxon is
+         based and which is explicitly designated as the holotype. ~
+      </p>
+      
+   </div>
    <h2>Attributes</h2>
    <ul class="attributes">
       <li><a href="#p=attr-id">@id</a></li>
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( tp:taxon-name, tp:material-location? )</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( tp:taxon-name, tp:material-location? )</pre><div class="model">
+      <p>The status is defined by the code, of which the designation as
+         holotype is requested to create an available name , lectotype the
+         selection of a type from a series of syntypes and neotype the
+         designation of a new type. These designations are ruled by the Code (see
+         ICZN ). The designation of paratypes, androtypes is arbitrary. ~ ~~
+      </p>
+      
+   </div>
+   <p>May Contain:</p>
    <ul class="children">
       <li><a href="#p=elem-tp-material-location">&lt;tp:material-location&gt;</a></li>
       <li><a href="#p=elem-tp-taxon-name">&lt;tp:taxon-name&gt;</a></li>

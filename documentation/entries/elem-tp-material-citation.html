@@ -1,5 +1,11 @@
 <div xmlns:pmc="http://www.ncbi.nlm.nih.gov/pmc/ns" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="entry-wrapper">
    <h1>&lt;tp:material-citation&gt;</h1>
+   <div class="notes">
+      <p>A reference to biological material (e.g., a specimen, an observation)
+         including those used as the basis of a taxonomic description. ~
+      </p>
+      
+   </div>
    <h2>Attributes</h2>
    <ul class="attributes">
       <li><a href="#p=attr-id">@id</a></li>
@@ -12,7 +18,13 @@
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
       <li><a href="#p=attr-xmlns-xlink">@xmlns:xlink</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | named-content | tp:collecting-event | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref )*</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | named-content | tp:collecting-event | object-id | tp:type-status | tp:material-location | tp:taxon-name | xref )*</pre><div class="model">
+      <p>These can be very cursory to very detailed (“Costa Rica” to all the
+         details recorded during the collection). ~ ~~
+      </p>
+      
+   </div>
+   <p>May Contain:</p>
    <ul class="children">
       <li>PCDATA</li>
       <li><a href="#p=elem-named-content">&lt;named-content&gt;</a></li>

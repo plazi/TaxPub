@@ -1,12 +1,25 @@
 <div xmlns:pmc="http://www.ncbi.nlm.nih.gov/pmc/ns" xmlns:xs="http://www.w3.org/2001/XMLSchema" id="entry-wrapper">
    <h1>&lt;tp:taxon-authority-part&gt;</h1>
+   <div class="notes">
+      <p>An element that is linked to the name in the original treatment of a
+         taxon as designated by the authors of the respective original
+         publication. ~
+      </p>
+      
+   </div>
    <h2>Attributes</h2>
    <ul class="attributes">
       <li><a href="#p=attr-id">@id</a></li>
       <li><a href="#p=attr-tp-taxon-authority-part-type">@tp:taxon-authority-part-type</a></li>
       <li><a href="#p=attr-xml-base">@xml:base</a></li>
    </ul>
-   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | object-id | tp:taxon-authority-part )*</pre><p>May Contain:</p>
+   <h2>Content Model</h2><pre class="contentdesc">( #PCDATA | object-id | tp:taxon-authority-part )*</pre><div class="model">
+      <p>This is a single element in of the taxon-authority element. er.g. a
+         single author (Linnaeus), the year of publication (1758) &gt;~ ~~
+      </p>
+      
+   </div>
+   <p>May Contain:</p>
    <ul class="children">
       <li>PCDATA</li>
       <li><a href="#p=elem-object-id">&lt;object-id&gt;</a></li>
