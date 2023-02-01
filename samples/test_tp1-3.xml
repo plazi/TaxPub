@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1_flat.dtd">
+<!DOCTYPE tp:taxon-treatment SYSTEM "http://taxpub.org/v1-0/schema/tax-treatment-NS0-v1_flat.dtd">
 <tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
     <tp:treatment-meta>
         <contrib-group>
