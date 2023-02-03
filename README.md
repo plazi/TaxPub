@@ -17,7 +17,7 @@ The [Journal Publishing Tag Library for NISO JATS Version 1.3 ](https://jats.nlm
 
 * Download release, point instance to file `tax-treatment-NS0-v1.dtd` using Formal Public Identifier:
 
-`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230202//EN`
+`-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230203//EN`
 
 * A single file "flattened" version of the TaxPub V1.0 DTD, `tax-treatment_NS0_v1_flat.dtd`, derived using the [DTDAnalyzer](https://dtd.nlm.nih.gov/ncbi/dtdanalyzer/) program `dtdflatten`, may also be used.
 

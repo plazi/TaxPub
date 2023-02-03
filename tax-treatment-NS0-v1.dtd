@@ -5,7 +5,7 @@ NLM Journal Publishing DTD version 3.0 created in September 2008.
 
 This is version 1.0. 
 
-This version was created on February 2, 2023. 
+This version was released on February 3, 2023. 
 
 Terry Catapano with the assitance of Jeff Beck, Donat Agosti, Lyubomir Penev, Bob 
 Morris, Scott Federhen, Laura Kelly.
@@ -16,7 +16,7 @@ Morris, Scott Federhen, Laura Kelly.
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230102//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing DTD v1.0 20230203//EN"
      Delivered as file "tax-treatment.dtd"                     -->
 <!-- ============================================================= -->
 
@@ -39,7 +39,7 @@ Morris, Scott Federhen, Laura Kelly.
 
 <!ENTITY % taxpubcustom-modules.ent 
                         PUBLIC  
-"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230202//EN"
+"//TaxPub//DTD Taxonomic Treatment DTD-Specific Modules v1.0 20230203//EN"
 "taxpubcustom-modules-NS0-v1.ent"                                      >
 %taxpubcustom-modules.ent;
 

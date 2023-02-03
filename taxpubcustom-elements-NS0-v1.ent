@@ -2,7 +2,7 @@
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                        TYPICAL INVOCATION                     -->
 <!--
-"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20230202//EN"
+"-//TaxPub//DTD Taxonomic Treatment Publishing Elements v1.0 20230203//EN"
 Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!-- =============================================================  -->
 
@@ -13,7 +13,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 					%taxpub-namespace-att; 
 					auth-code		CDATA			#IMPLIED >
 <!--~~ <tp:taxon-treatment>
-note: A publication or or section of a publication documenting the features or distribution
+ A publication or or section of a publication documenting the features or distribution
             of a related group of organisms (called a "taxon", plural "taxa") in ways adhering to
             highly formalized conventions. ~
 ~~
@@ -25,7 +25,7 @@ note: A publication or or section of a publication documenting the features or d
 <!ATTLIST    tp:treatment-meta
 					%jats-common-atts; >
 <!--~~ <tp:treatment-meta>
-note: Bibliographic metadata describing at taxonomic treatment ~
+ Bibliographic metadata describing at taxonomic treatment ~
 ~~
 ~~
 
@@ -35,7 +35,7 @@ note: Bibliographic metadata describing at taxonomic treatment ~
 <!ATTLIST 	tp:nomenclature
 					%jats-common-atts; >
 <!--~~ <tp:nomenclature>
-note: The heading of a taxonomic treatment, with element only content containing the scientific name of the taxon
+ The heading of a taxonomic treatment, with element only content containing the scientific name of the taxon
             described by the treatment, and possibly the authority for the taxon, citations to
             previous descriptions, designations of type-genus, and type-species, and other
             information. ~
@@ -49,7 +49,7 @@ note: The heading of a taxonomic treatment, with element only content containing
 <!ATTLIST 	tp:mixed-nomenclature
 					%jats-common-atts; >
 <!--~~ <tp:mixed-nomenclature>
-note: The heading of a taxonomic treatment, with possibly mixed content containing text the scientific name of the taxon
+ The heading of a taxonomic treatment, with possibly mixed content containing text the scientific name of the taxon
             described by the treatment, and possibly the authority for the taxon, citations to
             previous descriptions, designations of type-genus, and type-species, and other
             information.  ~
@@ -62,8 +62,7 @@ note: The heading of a taxonomic treatment, with possibly mixed content containi
 <!ELEMENT	tp:treatment-sec        %taxon-sec-model;	>
 <!ATTLIST   tp:treatment-sec
 					%sec-atts; >
-<!--~~ <tp:treatment-sec>
-note: A section of a taxonomic treatment. For example, diagnosis, materials examined,
+<!--~~ <tp:treatment-sec A section of a taxonomic treatment. For example, diagnosis, materials examined,
             etymology, etc,,, ~
 ~~
 ~~
@@ -75,7 +74,7 @@ note: A section of a taxonomic treatment. For example, diagnosis, materials exam
 					%jats-common-atts;
 					role			CDATA		#IMPLIED>
 <!--~~ <tp:taxon-authority>
-note: Elements that are linked to the name in the original treatment of a taxon as
+ Elements that are linked to the name in the original treatment of a taxon as
             designated by the authors of the respective original publication. ~
 ~
 ~~ model This can be anything from a single author to a whole string including author,
@@ -89,7 +88,7 @@ note: Elements that are linked to the name in the original treatment of a taxon 
 					%jats-common-atts;
 					tp:taxon-authority-part-type			CDATA		#IMPLIED>
 <!--~~ <tp:taxon-authority-part>
-note: An element that is linked to the name in the original treatment of a taxon as
+ An element that is linked to the name in the original treatment of a taxon as
             designated by the authors of the respective original publication. ~
 ~~ model This is a single element in of the taxon-authority element. er.g. a single author
             (Linnaeus), the year of publication (1758) >~
@@ -102,7 +101,7 @@ note: An element that is linked to the name in the original treatment of a taxon
 				%jats-common-atts;
 				%might-link-atts;		>
 <!--~~ <tp:taxon-status>
-note: The nomenclatorial status of a particular taxon. ~
+ The nomenclatorial status of a particular taxon. ~
 ~~ model This can designate an act that happened in an earlier, but cited citation, or
             that happens within this treatment. Eg syn. vs. syn. nov.: The former refers to a
             synonymy made, the latter to a synonym being proposed in the actual treatment. ~
@@ -115,7 +114,7 @@ note: The nomenclatorial status of a particular taxon. ~
 				%jats-common-atts;
 				%might-link-atts;		>
 <!--~~ <tp:taxon-identifier>
-note: A standard identifier associated with a particular taxon. ~
+ A standard identifier associated with a particular taxon. ~
 ~~ model The taxon-identifier could be a LSID or other GUID ~
 ~~
 
@@ -126,7 +125,7 @@ note: A standard identifier associated with a particular taxon. ~
 					%jats-common-atts;
 					content-type		CDATA		#IMPLIED >
 <!--~~ <tp:nomenclature-citation-list>
-note: A section in a treatment that includes the citation of one or several previous
+ A section in a treatment that includes the citation of one or several previous
             treatments of the taxon. ~
 ~~
 ~~
@@ -137,7 +136,7 @@ note: A section in a treatment that includes the citation of one or several prev
 					%jats-common-atts;
 					content-type		CDATA		#IMPLIED >
 <!--~~ <tp:nomenclature-citation>
-note: The citation of a nomenclatorial act or other citation of the taxon in the published
+ The citation of a nomenclatorial act or other citation of the taxon in the published
             record. ~
 ~~
 ~~
@@ -148,7 +147,7 @@ note: The citation of a nomenclatorial act or other citation of the taxon in the
 <!ATTLIST    tp:type-genus
 					%jats-common-atts;     >
 <!--~~ <tp:type-genus>
-note: The species selected as the reference species at the moment of the description of a
+ The species selected as the reference species at the moment of the description of a
             new genus level taxon. ~
 ~~
 ~~
@@ -159,7 +158,7 @@ note: The species selected as the reference species at the moment of the descrip
 <!ATTLIST    tp:type-species
 					%jats-common-atts;     >
 <!--~~ <tp:type-species>
-note: The specimen upon which the species or infraspecific level taxon is based and which is
+ The specimen upon which the species or infraspecific level taxon is based and which is
             explicitly designated as the holotype. ~
 ~~ model The status is defined by the code, of which the designation as holotype is
             requested to create an available name , lectotype the selection of a type from a series
@@ -184,7 +183,7 @@ note: The specimen upon which the species or infraspecific level taxon is based 
 <!ATTLIST	tp:taxon-type-location
 						%jats-common-atts;        >
 <!--~~ <tp:taxon-type-location>
-note: The institution where a type specimen is housed. ~
+ The institution where a type specimen is housed. ~
 ~~ model From a nomenclatorial point of view the name of depositary institution of the
             holotype has to be explicitely mentioned in a treatment of a new species level taxon in
             order to create an available name. Acronoyms of the institutions can be used. The
@@ -204,7 +203,7 @@ note: The institution where a type specimen is housed. ~
                     rank 		    CDATA			#IMPLIED
                     reg             CDATA           #IMPLIED >
  <!--~~ <tp:taxon-name>
-note: The name of a taxon. ~
+ The name of a taxon. ~
 ~~ model Generally this is a scientific name following the convention of the Codes ruling
             nomenclature (eg International Code for Zoological Nomenclature (ICZN ), but if can also
             be a vernacular name as used in field guides. ~
@@ -219,7 +218,7 @@ note: The name of a taxon. ~
 				taxon-name-part-type		CDATA		#REQUIRED 
                 reg                         CDATA       #IMPLIED >
 <!--~~ <tp:taxon-name-part>
-note: A component of taxonomic name. For example, specific epithet, genus name, etc... ~
+ A component of taxonomic name. For example, specific epithet, genus name, etc... ~
 ~~
 ~~
 
@@ -229,7 +228,7 @@ note: A component of taxonomic name. For example, specific epithet, genus name, 
 				    %jats-common-atts;
 					%might-link-atts;      >
 <!--~~ <tp:descriptive-statement>
-note: The description of a morphological trait.~
+ The description of a morphological trait.~
 ~~
 ~~
 
@@ -239,7 +238,7 @@ note: The description of a morphological trait.~
 					%jats-common-atts;
 					%might-link-atts;      >
 <!--~~ <tp:descriptive-statement-part>
-note: An individual component of a description of a morphological trait. ~
+ An individual component of a description of a morphological trait. ~
 ~~ model This can be the character (e.g. head) or the character state (round, ovoid,
             red,..) ~
 ~~
@@ -250,7 +249,7 @@ note: An individual component of a description of a morphological trait. ~
 					%jats-common-atts;
 					%might-link-atts;      >
 <!--~~ <tp:material-citation>
-note: A reference to biological material (e.g., a specimen, an observation) including those
+ A reference to biological material (e.g., a specimen, an observation) including those
             used as the basis of a taxonomic description. ~
 ~~ model These can be very cursory to very detailed ("Costa Rica" to all the details
             recorded during the collection). ~
@@ -261,7 +260,7 @@ note: A reference to biological material (e.g., a specimen, an observation) incl
 <!ATTLIST	 tp:mayterial-location
 					%jats-common-atts;     >
 <!--~~ <tp:material-location>
-note: The physical location of the material referenced in the material citation. ~
+ The physical location of the material referenced in the material citation. ~
 ~~ model The material-location can be a collection given by its acronym (e.g. AMNH for
             American Museum of Natural History, New York) ~
 ~~
@@ -271,7 +270,7 @@ note: The physical location of the material referenced in the material citation.
 <!ATTLIST	 tp:collecting-event
 					%jats-common-atts;     >
 <!--~~ <tp:collecting-event>
-note: The specific spatio-temporal event during which observations have been made or
+ The specific spatio-temporal event during which observations have been made or
             specimens have been collected. ~
 ~~ model This can refer to a specific collection or many collections made. For example, if
             a Malaise trap is set and collected thousands of species, then the collecting-event
@@ -284,7 +283,7 @@ note: The specific spatio-temporal event during which observations have been mad
 <!ATTLIST	tp:collecting-location
 					%jats-common-atts;     >
 <!--~~ <tp:collecting-location>
-note: The specific location or circumscription of the location of a collecting event. ~
+ The specific location or circumscription of the location of a collecting event. ~
 ~~
 ~~
 
@@ -294,7 +293,8 @@ note: The specific location or circumscription of the location of a collecting e
                                         %jats-common-atts;
                                         location-type             CDATA              #IMPLIED >
 <!--~~ <tp:location>
-note: A named spatial area. ~
+ A named spatial area.
+ 
 ~~
 ~~
 

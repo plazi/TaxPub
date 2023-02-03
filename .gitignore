@@ -4,3 +4,10 @@
 # emacs backup files
 *~
 
+# Mac DS_Store files
+.DS_Store
+**/.DS_Store
+
+# error files
+*-errs.txt
+**/*-errs.txt

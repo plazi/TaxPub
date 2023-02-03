@@ -11,17 +11,17 @@
 ## Sample article
 
 * Marin I. 2020. Thoridae (Crustacea: Decapoda) can penetrate the Abyss: a new species of Lebbeus from the Sea of Okhotsk, representing the deepest record of the family. European Journal of Taxonomy 604: 1–35. https://doi.org/10.5852/ejt.2020.604
-  * HTML: http://plazi.catapanoth.com/ejt_samples/ejt-604_marin_xml_id_tp.html
-  * XML: http://plazi.catapanoth.com/ejt_samples/ejt-604_marin_xml_id_tp.xml
+  * HTML: http://taxpub.org/samples/ejt/ejt-604_marin_xml_id_tp.html
+  * XML: http://taxpub.org/samples/ejt/ejt-604_marin_xml_id_tp.xml
 
 * sample encoding of treatment:
 
 ```
 <tp:taxon-treatment>
-      <tp:nomenclature>
+      <tp:mixed-nomenclature>
         <tp:taxon-name>Lebbeus sokhobio sp. nov.<object-id/></tp:taxon-name>
-        <xref rid="fig-">Figs 1–6</xref>
-      </tp:nomenclature>
+        <xref rid="fig-1">Figs 1–6</xref>
+      </tp:mixed-nomenclature>
       <tp:treatment-sec sec-type="reference_group">
         <tp:nomenclature-citation-list>
           <tp:nomenclature-citation><tp:taxon-name>Lebbeus</tp:taxon-name> sp. – <xref>Marin 2018:
@@ -47,12 +47,11 @@
 ```
 
 ## DTD Documentation
-  * tp:taxon-treatment 
-http://taxpub.catapanoth.com/v1-beta-1/documentation/#p=elem-tp-taxon-treatment
+  * tp:taxon-treatment: 
+http://taxpub.org/v1-0/taglibrary/#p=elem-tp-taxon-treatment
   ```
-    ( tp:treatment-meta?, (tp:nomenclature | tp:mixed-nomenclature), ( 
-tp:treatment-sec | tp:taxon-treatment )*, ref-list? )
+    ( tp:treatment-meta?, ( tp:nomenclature | tp:mixed-nomenclature ), ( tp:treatment-sec | tp:taxon-treatment )*, ref-list? )
   ```
 ## Status
-  * Version 1.0-beta.1 Release Candidate 4
-  * Based on JATS Publishing v1.1
+  * Version 1.0
+  * Based on JATS Publishing v1.3

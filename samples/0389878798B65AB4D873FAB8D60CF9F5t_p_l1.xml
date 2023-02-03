@@ -1,0 +1,31 @@
+<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
+    <tp:treatment-meta>
+        <kwd-group>
+            <kwd content-type="nominate-taxon">
+                <tp:taxon-name> Hipposideros fuliginosus (Temminck, 1853) </tp:taxon-name>
+            </kwd>
+        </kwd-group>
+        <mixed-citation>
+            <named-content content-type="treatment-title">Hipposideros fuliginosus</named-content>
+            <uri content-type="zenodo-doi">https://doi.org/10.5852/ejt.2017.382</uri>
+            <uri content-type="treatment-bank-uri"
+                >http://treatment.plazi.org/id/0389878798B65AB4D873FAB8D60CF9F5</uri>
+            <article-title>The bats of the Congo and of Rwanda and Burundi revisited (Mammalia:
+                Chiroptera)</article-title>
+            <pub-id pub-id-type="doi">https://doi.org/10.5852/ejt.2017.382</pub-id>
+            <issn>2118-9773</issn>
+            <source>European Journal of Taxonomy</source>
+        </mixed-citation>
+    </tp:treatment-meta>
+    <tp:mixed-nomenclature>
+        <tp:taxon-name> Hipposideros fuliginosus (Temminck, 1853) </tp:taxon-name>
+    </tp:mixed-nomenclature>
+    <tp:treatment-sec sec-type="materials_examined">
+        <p> DEMOCRATIC REPUBLIC OF THE CONGO : 3 ♂♂ [3 SS], Epulu , 2 May 1951 , 3 May 1951 , leg.
+            A. Schwartz and R.N. Porter ( KU : 151336 to 151338); 1 ♂ [SA], Equateur (former)
+            Province , prior to 7 Oct. 1996 , leg. unknown collector ( SMF : 84411); 2 ♂♂ [1 SK, 1
+            SN], Irumu , 40 mi [= 64 km ] SW [= Ituri Forest ] , unknown date, leg. Howard de Walden
+            ( BMNH : 1930.11.11.143, 1930.11.11.144); 1 ♂ [SS], Yalosemba , 26 Jun. 1979 , leg. Lynn
+            W. Robbins ( USNM : 537713). </p>
+    </tp:treatment-sec>
+</tp:taxon-treatment>
