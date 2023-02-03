@@ -1,9 +1,0 @@
-System ID: /Users/thc4/Github/TaxPub/JATS-common1-3.ent
-Main validation file: /Users/thc4/Github/TaxPub/samples/test_tp1-3.xml
-Schema: /Users/thc4/Github/TaxPub/tax-treatment-NS0-v1.dtd
-Engine name: Xerces
-Severity: error
-Problem ID: DuplicateTypeInMixedContent
-Description: The element type "string-date" was already specified in the content model of the element decl "mixed-citation".
-Start location: 3381:55
-
