@@ -1,4 +1,7 @@
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7585661.svg)](https://doi.org/10.5281/zenodo.7585661)
+
 TaxPub Extension of the Journal Publishing Tag Set
 NISO JATS Version 1.3 (ANSI/NISO Z39.96-2021) 
 =======
