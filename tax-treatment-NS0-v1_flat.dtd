@@ -4738,6 +4738,9 @@
 
 
 <!ELEMENT tp:material-location (#PCDATA|object-id)* >
+<!ATTLIST tp:material-location
+		id		ID		#IMPLIED
+		xml:base		CDATA		#IMPLIED >
 
 
 <!ELEMENT mml:mtext (#PCDATA|mml:mglyph|mml:malignmark)* >

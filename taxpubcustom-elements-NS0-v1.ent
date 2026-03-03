@@ -257,7 +257,7 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 
 ~~-->
 <!ELEMENT 	tp:material-location                (#PCDATA | object-id)* >
-<!ATTLIST	 tp:mayterial-location
+<!ATTLIST	 tp:material-location
 					%jats-common-atts;     >
 <!--~~ <tp:material-location>
  The physical location of the material referenced in the material citation. ~
