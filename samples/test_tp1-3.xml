@@ -58,23 +58,16 @@
         </sec-meta>
         <label></label>
         <tp:taxon-name></tp:taxon-name>
-        <x xml:space="preserve"></x>
         <tp:taxon-authority></tp:taxon-authority>
-        <x xml:space="preserve"></x>
         <tp:taxon-status></tp:taxon-status>
-        <x xml:space="preserve"></x>
         <tp:taxon-identifier></tp:taxon-identifier>
         <xref></xref>
-        <x xml:space="preserve"></x>
         <tp:nomenclature-citation-list></tp:nomenclature-citation-list>
-        <x xml:space="preserve"></x>
         <tp:type-genus>
             <tp:taxon-name></tp:taxon-name>
             <tp:material-location></tp:material-location>
         </tp:type-genus>
-        <x xml:space="preserve"></x>
         <tp:taxon-type-location></tp:taxon-type-location>
-        <x xml:space="preserve"></x>
     </tp:nomenclature>
     <tp:treatment-sec>
         <sec-meta>
