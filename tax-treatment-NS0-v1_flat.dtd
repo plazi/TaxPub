@@ -786,11 +786,15 @@
 
 <!ELEMENT tp:taxon-name (#PCDATA|tp:taxon-name-part|object-id)* >
 <!ATTLIST tp:taxon-name
-		rank		CDATA		#IMPLIED
-		reg		CDATA		#IMPLIED
-		auth-code		CDATA		#IMPLIED
-		id		ID		#IMPLIED
-		xml:base		CDATA		#IMPLIED >
+		rank					CDATA		#IMPLIED
+		reg						CDATA		#IMPLIED
+		auth-code				CDATA		#IMPLIED
+		vocab					CDATA		#IMPLIED
+		vocab-identifier		CDATA		#IMPLIED
+		vocab-term				CDATA		#IMPLIED
+		vocab-term-identifier	CDATA		#IMPLIED
+		id						ID			#IMPLIED
+		xml:base				CDATA		#IMPLIED >
 
 
 <!ELEMENT gov (#PCDATA|bold|fixed-case|italic|monospace|overline|roman|sans-serif|sc|strike|underline|ruby|sub|sup|named-content|styled-content|tp:taxon-name|tp:descriptive-statement|tp:material-citation)* >

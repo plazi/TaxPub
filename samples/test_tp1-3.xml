@@ -57,7 +57,12 @@
             <mixed-citation></mixed-citation>
         </sec-meta>
         <label></label>
-        <tp:taxon-name></tp:taxon-name>
+        <tp:taxon-name
+            rank="species"
+            vocab="Catalogue of Life"
+            vocab-identifier="https://www.catalogueoflife.org"
+            vocab-term="Formica rufa"
+            vocab-term-identifier="https://www.catalogueoflife.org/data/taxon/6MB3T">Formica rufa</tp:taxon-name>
         <tp:taxon-authority></tp:taxon-authority>
         <tp:taxon-status></tp:taxon-status>
         <tp:taxon-identifier></tp:taxon-identifier>

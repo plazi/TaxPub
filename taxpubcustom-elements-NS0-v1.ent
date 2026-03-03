@@ -199,14 +199,26 @@ Delivered as file "taxpubcustom-elements-NS0-v1.ent"                       -->
 <!ELEMENT	tp:taxon-name				(#PCDATA | tp:taxon-name-part | object-id)* >
 <!ATTLIST    tp:taxon-name
 					%jats-common-atts;
-					auth-code		CDATA			#IMPLIED 
-                    rank 		    CDATA			#IMPLIED
-                    reg             CDATA           #IMPLIED >
+					auth-code				CDATA			#IMPLIED
+                    rank 		    		CDATA			#IMPLIED
+                    reg             		CDATA           #IMPLIED
+                    vocab					CDATA			#IMPLIED
+                    vocab-identifier		CDATA			#IMPLIED
+                    vocab-term				CDATA			#IMPLIED
+                    vocab-term-identifier	CDATA			#IMPLIED >
  <!--~~ <tp:taxon-name>
  The name of a taxon. ~
 ~~ model Generally this is a scientific name following the convention of the Codes ruling
             nomenclature (eg International Code for Zoological Nomenclature (ICZN ), but if can also
             be a vernacular name as used in field guides. ~
+~~ attrs vocab: The name of the vocabulary, controlled list, or database that defines or
+            maintains this taxon name (e.g., "ITIS", "Catalogue of Life").
+         vocab-identifier: A URI or other identifier for the vocabulary named in @vocab
+            (e.g., "https://www.itis.gov").
+         vocab-term: The term as it appears in the named vocabulary, if different from the
+            element content.
+         vocab-term-identifier: A URI or other identifier for the specific term within the
+            vocabulary (e.g., an LSID, ITIS TSN, or Catalogue of Life ID). ~
 ~~
 
 ~~-->                                                      
