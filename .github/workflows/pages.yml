@@ -1,0 +1,53 @@
+# Publish the TaxPub schema, tag library, and samples to GitHub Pages,
+# keeping the URL layout used by taxpub.org (DOCTYPE system IDs and PURLs):
+#   /v1-0/schema/      DTD modules, flattened DTD, catalogs, entity sets
+#   /v1-0/taglibrary/  tag library (documentation/)
+#   /samples/          sample instances
+name: Publish site
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          set -euo pipefail
+          out=_site
+          schema=$out/v1-0/schema
+          mkdir -p "$schema" "$out/v1-0/taglibrary" "$out/samples"
+
+          cp *.dtd *.ent *.mod catalog-*.xml "$schema"/
+          cp -R iso8879 iso9573-13 mathml xmlchars "$schema"/
+          cp -R documentation/. "$out/v1-0/taglibrary"/
+          cp -R samples/. "$out/samples"/
+          cp site/index.html "$out"/
+          touch "$out/.nojekyll"
+          find "$out" -name .DS_Store -delete
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
