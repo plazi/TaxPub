@@ -1,34 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1.dtd">
-<!-- Treatment metadata linking a treatment to its parent article in
-     several locations, using a single mixed-citation (tp:treatment-meta
-     allows only one).
-       object-id : identifiers of the treatment itself
-       pub-id    : DOI of the parent article
-       uri       : locations of the parent article (TreatmentBank,
-                   Zenodo/BLR, BiodiversityPMC), typed with @content-type
-     @specific-use="isPartOf" (DataCite relation type) states that the
-     treatment is part of the article at each parent-article link.
-     Data from TreatmentBank (treatment FC3D2479FFE5FF94F6D3FF4FFA3AFD07). -->
+<!-- Taxonomic treatment generated from Zenodo record 10.5281/zenodo.7119827
+     (https://zenodo.org/records/7119827), matching the granularity of its metadata.
+       creators                -> treatment-meta/contrib-group
+       keywords                -> kwd-group[@kwd-group-type='zenodo-keywords']
+       custom dwc:kingdom, dwc:phylum, dwc:order
+                               -> kwd-group[@vocab='dwc']
+       custom openbiodiv:TaxonomicConceptLabel
+                               -> kwd-group[@vocab='openbiodiv']
+       custom dwc:family, dwc:taxonRank, dwc:scientificNameAuthorship
+                               -> tp:nomenclature
+       license                 -> permissions/license
+       title, doi, conceptdoi, alternate_identifiers, journal,
+       publication_date        -> treatment-meta/mixed-citation
+       related_identifiers isPartOf / isSourceOf
+                               -> mixed-citation/pub-id and uri, with
+                                  @specific-use = Zenodo relation and
+                                  @content-type = Zenodo resource_type
+       description             -> tp:treatment-sec[@sec-type='key']
+       related_identifiers cites (figures)
+                               -> ref-list
+     Not carried over (platform metadata): communities, files, stats,
+     created/modified, version relations; notes (restates the citation).
+     The one link not in the Zenodo record is the article-level
+     BiodiversityPMC URL from TreatmentBank (uri[@content-type='biodiversitypmc']). -->
 <tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
     <tp:treatment-meta>
+        <contrib-group>
+            <contrib contrib-type="author"><name><surname>Polhemus</surname><given-names>Dan A.</given-names></name></contrib>
+        </contrib-group>
+        <kwd-group kwd-group-type="zenodo-keywords">
+            <kwd>Biodiversity</kwd>
+            <kwd>Taxonomy</kwd>
+            <kwd>Animalia</kwd>
+            <kwd>Arthropoda</kwd>
+            <kwd>Insecta</kwd>
+            <kwd>Hemiptera</kwd>
+            <kwd>Hydrometridae</kwd>
+        </kwd-group>
+        <kwd-group kwd-group-type="higher-classification" vocab="dwc" vocab-identifier="http://rs.tdwg.org/dwc/terms/">
+            <kwd content-type="dwc:kingdom" vocab-term="kingdom" vocab-term-identifier="http://rs.tdwg.org/dwc/terms/kingdom">Animalia</kwd>
+            <kwd content-type="dwc:phylum" vocab-term="phylum" vocab-term-identifier="http://rs.tdwg.org/dwc/terms/phylum">Arthropoda</kwd>
+            <kwd content-type="dwc:order" vocab-term="order" vocab-term-identifier="http://rs.tdwg.org/dwc/terms/order">Hemiptera</kwd>
+        </kwd-group>
+        <kwd-group kwd-group-type="taxonomic-concept-label" vocab="openbiodiv">
+            <kwd content-type="openbiodiv:TaxonomicConceptLabel">Hydrometridae Polhemus, 2022 sec. Polhemus, 2022</kwd>
+        </kwd-group>
+        <permissions>
+            <license license-type="cc-zero"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</ali:license_ref></license>
+        </permissions>
         <mixed-citation publication-type="taxon-treatment">
-            <object-id object-id-type="plazi-treatment-id">FC3D2479FFE5FF94F6D3FF4FFA3AFD07</object-id>
-            <object-id object-id-type="zenodo-treatment-doi">10.5281/zenodo.7119827</object-id>
-            <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
-            (<year>2022</year>)
-            <article-title>Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</article-title>.
-            <source>Zootaxa</source> <volume>5190</volume>(<issue>1</issue>): <fpage>71</fpage>.
+            <object-id object-id-type="plazi-treatment">http://treatment.plazi.org/id/FC3D2479FFE5FF94F6D3FF4FFA3AFD07</object-id>
+            <object-id object-id-type="doi">10.5281/zenodo.7119827</object-id>
+            <object-id object-id-type="concept-doi">10.5281/zenodo.7119826</object-id>
+            <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>,
+            <year iso-8601-date="2022-09-27">2022</year>.
+            <part-title>Hydrometridae Polhemus 2022</part-title>.
+            Published as part of <article-title>Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</article-title>,
+            pp. 69-98 in <source>Zootaxa</source> <volume>5190</volume> (<issue>1</issue>),
+            on page <fpage>71</fpage>.
             <pub-id pub-id-type="doi" specific-use="isPartOf">10.11646/zootaxa.5190.1.3</pub-id>
-            <uri content-type="plazi-article" specific-use="isPartOf">http://publication.plazi.org/id/00045C01FFE7FF96F644FF90FFA6FFD3</uri>
-            <uri content-type="zenodo-record" specific-use="isPartOf">https://zenodo.org/records/7119849</uri>
-            <uri content-type="biodiversitypmc" specific-use="isPartOf">https://biodiversitypmc.sibils.org/api/v5.0.5.8/fetch?col=pmc&amp;ids=10.11646/zootaxa.5190.1.3</uri>
+            <uri specific-use="isPartOf" content-type="publication-article">http://zenodo.org/record/7119849</uri>
+            <uri specific-use="isPartOf" content-type="publication-article">http://publication.plazi.org/id/00045C01FFE7FF96F644FF90FFA6FFD3</uri>
+            <uri specific-use="isSourceOf">https://biodiversitypmc.sibils.org/collections/plazi/FC3D2479FFE5FF94F6D3FF4FFA3AFD07</uri>
+            <uri specific-use="isSourceOf">https://www.gbif.org/species/201137032</uri>
+            <uri specific-use="isSourceOf">https://www.checklistbank.org/dataset/153854/taxon/FC3D2479FFE5FF94F6D3FF4FFA3AFD07.taxon</uri>
+            <uri specific-use="isPartOf" content-type="publication-article">http://zoobank.org/4BF654E3-ABE8-47A8-920A-B32B17568A19</uri>
+            <uri specific-use="isPartOf" content-type="biodiversitypmc">https://biodiversitypmc.sibils.org/api/v5.0.5.8/fetch?col=pmc&amp;ids=10.11646/zootaxa.5190.1.3</uri>
         </mixed-citation>
     </tp:treatment-meta>
     <tp:nomenclature>
-        <tp:taxon-name>
-            <tp:taxon-name-part taxon-name-part-type="family">Hydrometridae</tp:taxon-name-part>
-        </tp:taxon-name>
-        <tp:taxon-authority>Polhemus 2022</tp:taxon-authority>
+        <tp:taxon-name rank="family"><tp:taxon-name-part taxon-name-part-type="family">Hydrometridae</tp:taxon-name-part></tp:taxon-name>
+        <tp:taxon-authority>Polhemus</tp:taxon-authority>
     </tp:nomenclature>
+    <tp:treatment-sec sec-type="key">
+        <title>Key to the genera of Hydrometridae occurring in French Polynesia</title>
+        <p>1. Head extremely elongate, length subequal to that of thorax and abdomen combined (Figs. 30–32); Marquesas Islands (Ua Huka).............................................................................. <italic>Dolichocephalometra</italic></p>
+        <p>- Head not as elongate as above, length two-thirds or less the length of the thorax and abdomen combined (Figs. 1, 2, 10, 11, 12, 37)................................................................................................. 2</p>
+        <p>2. Legs bearing numerous long, erect setae, the lengths of these setae exceeding the widths of the segments on which they occur (Figs. 35, 36); head relatively short, less than half the length of the thorax and abdomen combined (Fig. 37); Marquesas Islands (Hiva Oa).................................................................................. <italic>Chaetometra</italic></p>
+        <p>- Legs lacking numerous long, erect setae, although such setae may be present on the body (<italic>Prohydrometra englundi</italic> <bold>n. sp.</bold>); length of head over half the length of the thorax and abdomen combined (Fig. 1); Society or Marquesas Islands .......... 3</p>
+        <p>3. Antennomere III very long, over 5 times the length of antennomere II (Fig. 11); fore-to-middle coxal spacing distinctly less than middle-to-hind coxal spacing, ratio 1.00/1.45 (Fig. 9); male abdominal sternum VII modified, bearing paired processes or patches of bristle-like setae (Figs. 19–24); Society Islands (Moorea, Raiatea, Tahiti)............... <italic>Prohydrometra</italic> <bold>n. gen.</bold></p>
+        <p>- Antennomere III much shorter than above, slightly over 3 times as long as antennomere II (Fig. 1); fore-to-middle versus middle-to-hind coxal spacing subequal, ratio 1.00/1.20 (Fig. 3); male abdominal sternum VII unmodified, lacking paired processes or patches of bristle-like setae (Fig. 4); Marquesas Islands (Hiva Oa).................. <italic>Marquesametra</italic> <bold>n. gen.</bold></p>
+    </tp:treatment-sec>
+    <ref-list>
+        <title>Cited figures</title>
+        <ref id="zenodo.7119853">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURE 1. Marquesametra hivaoa n in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119853</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119855">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 2–4. Marquesametra hivaoa n in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119855</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119865">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 9, 10. Prohydrometra gagnei, morphological details. 9. Male ventral left thorax, showing coxal spacing. 10 in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119865</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119867">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURE 11. Prohydrometra johnpolhemi n in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119867</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119871">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 12–15. Prohydrometra englundi n in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119871</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119877">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 19–24. Prohydrometra n. gen. species, male ventral terminal abdomen. 19. P in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119877</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119885">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 30–32 in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119885</pub-id>
+            </element-citation>
+        </ref>
+        <ref id="zenodo.7119891">
+            <element-citation publication-type="figure">
+                <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+                <year iso-8601-date="2022-09-27">2022</year>
+                <part-title>FIGURES 35–37 in Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</part-title>
+                <pub-id pub-id-type="doi">10.5281/zenodo.7119891</pub-id>
+            </element-citation>
+        </ref>
+    </ref-list>
 </tp:taxon-treatment>
