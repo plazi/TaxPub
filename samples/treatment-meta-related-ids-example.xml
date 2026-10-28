@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tp:taxon-treatment SYSTEM "../tax-treatment-NS0-v1.dtd">
+<!-- Treatment metadata linking a treatment to its parent article in
+     several locations, using a single mixed-citation (tp:treatment-meta
+     allows only one).
+       object-id : identifiers of the treatment itself
+       pub-id    : DOI of the parent article
+       uri       : locations of the parent article (TreatmentBank,
+                   Zenodo/BLR, BiodiversityPMC), typed with @content-type
+     Data from TreatmentBank (treatment FC3D2479FFE5FF94F6D3FF4FFA3AFD07). -->
+<tp:taxon-treatment xmlns:tp="http://www.plazi.org/taxpub">
+    <tp:treatment-meta>
+        <mixed-citation publication-type="taxon-treatment">
+            <object-id object-id-type="plazi-treatment-id">FC3D2479FFE5FF94F6D3FF4FFA3AFD07</object-id>
+            <object-id object-id-type="zenodo-treatment-doi">10.5281/zenodo.7119827</object-id>
+            <person-group person-group-type="author"><string-name><surname>Polhemus</surname>, <given-names>Dan A.</given-names></string-name></person-group>
+            (<year>2022</year>)
+            <article-title>Two new genera and six new species of Terrestrial Hydrometridae (Hemiptera: Heteroptera) from French Polynesia</article-title>.
+            <source>Zootaxa</source> <volume>5190</volume>(<issue>1</issue>): <fpage>71</fpage>.
+            <pub-id pub-id-type="doi">10.11646/zootaxa.5190.1.3</pub-id>
+            <uri content-type="plazi-article">http://publication.plazi.org/id/00045C01FFE7FF96F644FF90FFA6FFD3</uri>
+            <uri content-type="zenodo-record">https://zenodo.org/records/7119849</uri>
+            <uri content-type="biodiversitypmc">https://biodiversitypmc.sibils.org/api/v5.0.5.8/fetch?col=pmc&amp;ids=10.11646/zootaxa.5190.1.3</uri>
+        </mixed-citation>
+    </tp:treatment-meta>
+    <tp:nomenclature>
+        <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Hydrometridae</tp:taxon-name-part>
+        </tp:taxon-name>
+        <tp:taxon-authority>Polhemus 2022</tp:taxon-authority>
+    </tp:nomenclature>
+</tp:taxon-treatment>
